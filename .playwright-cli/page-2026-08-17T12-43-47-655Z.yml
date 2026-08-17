@@ -1,0 +1,1699 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e3]:
+    - link "Skip to main content":
+      - /url: "#main"
+    - link "Skip to article":
+      - /url: "#article"
+    - banner [ref=f1e6]:
+      - generic [ref=f1e7]: Brought to you by:Southern University of Science and Technology
+      - generic [ref=f1e10]:
+        - link "ScienceDirect home page" [ref=f1e11] [cursor=pointer]:
+          - /url: /
+          - img "Elsevier logo" [ref=f1e12]
+        - generic [ref=f1e21]:
+          - navigation "links" [ref=f1e22]:
+            - list [ref=f1e23]:
+              - listitem [ref=f1e24]:
+                - link "Journals & Books" [ref=f1e25] [cursor=pointer]:
+                  - /url: /browse/journals-and-books
+          - navigation "utilities" [ref=f1e27]:
+            - list [ref=f1e28]:
+              - listitem [ref=f1e29]:
+                - button "Help" [ref=f1e33] [cursor=pointer]
+              - listitem [ref=f1e37]:
+                - button "Search" [ref=f1e39] [cursor=pointer]
+        - link "My account" [ref=f1e44] [cursor=pointer]:
+          - /url: /user/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS0956053X18305816&from=globalheader
+        - button "Southern University of Science and Technology Institutional Access" [ref=f1e51] [cursor=pointer]:
+          - generic [ref=f1e54]: Southern University of Science and Technology
+    - main [ref=f1e56]:
+      - generic [ref=f1e57]:
+        - generic [ref=f1e59]:
+          - link "Homepage for Waste Management" [ref=f1e61] [cursor=pointer]:
+            - /url: /journal/waste-management/vol/80/suppl/C
+            - img "Waste Management" [ref=f1e64]
+          - generic [ref=f1e65]:
+            - generic [ref=f1e66]:
+              - heading [level=2] [ref=f1e68]:
+                - link "Waste Management" [ref=f1e69] [cursor=pointer]:
+                  - /url: /journal/waste-management
+              - generic [ref=f1e71]:
+                - generic [ref=f1e72]:
+                  - generic [ref=f1e73]: "Date:"
+                  - text: October 2018
+                - generic [ref=f1e74]:
+                  - generic [ref=f1e75]:
+                    - generic [ref=f1e76]: "Pages:"
+                    - text: 406-413
+                  - generic [ref=f1e77]:
+                    - generic [ref=f1e78]: "Volume:"
+                    - link "Volume 80" [ref=f1e79] [cursor=pointer]:
+                      - /url: /journal/waste-management/vol/80/suppl/C
+            - generic [ref=f1e82]:
+              - heading "Published by" [level=3] [ref=f1e83]
+              - link [ref=f1e85] [cursor=pointer]:
+                - /url: /journal/waste-management
+                - img "Elsevier" [ref=f1e88]
+        - generic [ref=f1e90]:
+          - generic [ref=f1e91]:
+            - generic [ref=f1e92]:
+              - generic [ref=f1e93]:
+                - generic [ref=f1e94]: Research article
+                - generic [ref=f1e95]: Full text access
+              - link [ref=f1e97] [cursor=pointer]:
+                - /url: https://s100.copyright.com/AppDispatchServlet?publisherName=ELS&contentID=S0956053X18305816&orderBeanReset=true
+                - generic [ref=f1e98]:
+                  - text: Get rights and content
+                  - img "Opens in new window" [ref=f1e99]
+            - 'heading "Review Anaerobic degradation of bioplastics: A review" [level=1] [ref=f1e101]':
+              - generic [ref=f1e102]: Review
+              - text: "Anaerobic degradation of bioplastics: A review"
+            - generic [ref=f1e103]:
+              - generic [ref=f1e105]:
+                - button "Veronika BátoriCorrespondence author iconAuthor email or social media contact details icon" [ref=f1e106] [cursor=pointer]:
+                  - generic [ref=f1e108]:
+                    - generic [ref=f1e109]: Veronika Bátori
+                    - img "Correspondence author icon" [ref=f1e110]
+                    - img "Author email or social media contact details icon" [ref=f1e112]
+                - text: ","
+                - link "Dan Åkesson" [ref=f1e114] [cursor=pointer]:
+                  - /url: /author/24824105400/dan-akesson
+                - text: ","
+                - link "Akram Zamani" [ref=f1e118] [cursor=pointer]:
+                  - /url: /author/23391451300/akram-zamani
+                - text: ","
+                - link "Mohammad J. Taherzadeh" [ref=f1e122] [cursor=pointer]:
+                  - /url: /author/6701407496/mohammad-j-taherzadeh
+                - text: ","
+                - button "Ilona Sárvári Horváth" [ref=f1e126] [cursor=pointer]
+              - button "Show more" [ref=f1e130] [cursor=pointer]
+          - generic [ref=f1e136]:
+            - link "View PDF. Opens in a new window." [ref=f1e137] [cursor=pointer]:
+              - /url: /science/article/pii/S0956053X18305816/pdfft?md5=4ecb4276309112bfd091b6cc33607bdc&pid=1-s2.0-S0956053X18305816-main.pdf
+              - generic [ref=f1e145]:
+                - text: View
+                - strong [ref=f1e146]: PDF
+            - button "Download full issue" [ref=f1e147] [cursor=pointer]
+            - button "Cite" [ref=f1e154] [cursor=pointer]
+            - button "Add to Mendeley" [ref=f1e158] [cursor=pointer]
+            - button "Share" [ref=f1e164] [cursor=pointer]
+            - link [ref=f1e171] [cursor=pointer]:
+              - /url: https://doi.org/10.1016/j.wasman.2018.09.040
+              - generic [ref=f1e172]:
+                - text: 10.1016/j.wasman.2018.09.040
+                - img "Opens in new window" [ref=f1e173]
+        - navigation "In-page navigation" [ref=f1e175]:
+          - list [ref=f1e176]:
+            - listitem [ref=f1e177]:
+              - link "Article" [ref=f1e178] [cursor=pointer]:
+                - /url: "#article"
+        - navigation "Table of contents" [ref=f1e180]:
+          - generic [ref=f1e181]:
+            - generic [ref=f1e182]:
+              - heading "Outline" [level=2] [ref=f1e183]
+              - generic [ref=f1e184]:
+                - list [ref=f1e185]:
+                  - listitem [ref=f1e186]:
+                    - link "Highlights" [ref=f1e187] [cursor=pointer]:
+                      - /url: "#ab005"
+                  - listitem [ref=f1e189]:
+                    - link "Abstract" [ref=f1e190] [cursor=pointer]:
+                      - /url: "#ab010"
+                  - listitem [ref=f1e192]:
+                    - link "Keywords" [ref=f1e193] [cursor=pointer]:
+                      - /url: "#kg005"
+                  - listitem [ref=f1e195]:
+                    - link "1. Introduction" [ref=f1e196] [cursor=pointer]:
+                      - /url: "#s0005"
+                  - listitem [ref=f1e199]:
+                    - link "2. What are bioplastics?" [ref=f1e200] [cursor=pointer]:
+                      - /url: "#s0010"
+                  - listitem [ref=f1e203]:
+                    - link "3. Degradation of bioplastics" [ref=f1e204] [cursor=pointer]:
+                      - /url: "#s0015"
+                  - listitem [ref=f1e207]:
+                    - link "4. Biodegradation of bioplastics under anaerobic conditions" [ref=f1e208] [cursor=pointer]:
+                      - /url: "#s0030"
+                  - listitem [ref=f1e211]:
+                    - 'link "5. Anaerobic digestion of bioplastics in biogas plants: challenges, standards, and suggestions" [ref=f1e212] [cursor=pointer]':
+                      - /url: "#s0070"
+                  - listitem [ref=f1e215]:
+                    - link "6. Conclusions" [ref=f1e216] [cursor=pointer]:
+                      - /url: "#s0075"
+                  - listitem [ref=f1e219]:
+                    - link "Acknowledgements:" [ref=f1e220] [cursor=pointer]:
+                      - /url: "#ak005"
+                  - listitem [ref=f1e222]:
+                    - link "References" [ref=f1e223] [cursor=pointer]:
+                      - /url: "#bi005"
+                - button "Show full outline" [ref=f1e225] [cursor=pointer]
+            - generic [ref=f1e229]:
+              - heading "Figures (2)" [level=2] [ref=f1e230]
+              - list [ref=f1e231]:
+                - listitem [ref=f1e232]:
+                  - link [ref=f1e233] [cursor=pointer]:
+                    - /url: "#f0005"
+                    - 'img "Fig. 1. Bioplastics: biodegradable and bio-based plastics." [ref=f1e234]'
+                - listitem [ref=f1e235]:
+                  - link [ref=f1e236] [cursor=pointer]:
+                    - /url: "#f0010"
+                    - 'img "Fig. 2. Biodegradation of biopolymers: aerobic vs anaerobic degradation. Dark green symbols represent the microorganisms involved in the processes. (For interpretation of the references to colour in this figu..." [ref=f1e237]'
+            - generic [ref=f1e238]:
+              - heading "Tables (1)" [level=2] [ref=f1e239]
+              - list [ref=f1e241]:
+                - listitem [ref=f1e242]:
+                  - link "Table 1. Biodegradation rate of different sizes of PLA films (Yagi et al., 2012)." [ref=f1e243] [cursor=pointer]:
+                    - /url: "#t0005"
+        - generic [ref=f1e248]:
+          - generic [ref=f1e249]:
+            - generic [ref=f1e250]:
+              - heading "Highlights" [level=2] [ref=f1e251]
+              - list [ref=f1e254]:
+                - listitem [ref=f1e255]:
+                  - generic [ref=f1e256]: •
+                  - generic [ref=f1e257]: Plastic bags used for collecting of OFMSW can cause contamination in biogas plants.
+                - listitem [ref=f1e259]:
+                  - generic [ref=f1e260]: •
+                  - generic [ref=f1e261]: Bioplastic bags can be potential substitutes for today’s collecting bags of OFMSW.
+                - listitem [ref=f1e263]:
+                  - generic [ref=f1e264]: •
+                  - generic [ref=f1e265]: Chemical composition of bioplastics and type of microorganism affect biodegradation.
+                - listitem [ref=f1e267]:
+                  - generic [ref=f1e268]: •
+                  - generic [ref=f1e269]: Standardization of collecting bags is needed to meet conditions of biogas plants.
+            - generic [ref=f1e271]:
+              - heading "Abstract" [level=2] [ref=f1e272]
+              - generic [ref=f1e273]: Anaerobic digestion (AD) of the organic fraction of municipal solid waste (OFMSW), leading to renewable energy production in the form of methane, is a preferable method for dealing with the increasing amount of waste. Food waste is separated at the source in many countries for anaerobic digestion. However, the presence of plastic bags is a major challenge for such processes. This study investigated the anaerobic degradability of different bioplastics, aiming at potential use as collecting bags for the OFMSW. The chemical composition of the bioplastics and the microbial community structure in the AD process affected the biodegradation of the bioplastics. Some biopolymers can be degraded at hydraulic retention times usually applied at the biogas plants, such as poly(hydroxyalkanoate)s, starch, cellulose and pectin, so no possible contamination would occur. In the future, updated standardization of collecting bags for the OFMSW will be required to meet the requirements of effective operation of a biogas plant.
+          - generic [ref=f1e277]:
+            - heading "Keywords" [level=2] [ref=f1e278]
+            - generic [ref=f1e279]: Anaerobic digestion
+            - text: ;
+            - generic [ref=f1e280]: Biodegradation
+            - text: ;
+            - generic [ref=f1e281]: Bioplastics
+            - text: ;
+            - generic [ref=f1e282]: Food waste
+            - text: ;
+            - generic [ref=f1e283]: Methane
+            - text: ;
+            - generic [ref=f1e284]: Plastic bags
+          - list [ref=f1e285]:
+            - listitem [ref=f1e286]:
+              - link "Previous article in this issue" [ref=f1e287] [cursor=pointer]:
+                - /url: /science/article/pii/S0956053X18305646
+            - listitem [ref=f1e292]:
+              - link "Next article in this issue" [ref=f1e293] [cursor=pointer]:
+                - /url: /science/article/pii/S0956053X18305506
+          - generic [ref=f1e298]:
+            - generic [ref=f1e299]:
+              - generic [ref=f1e300]:
+                - heading "1. Introduction" [level=2] [ref=f1e301]
+                - generic [ref=f1e302]:
+                  - text: Anaerobic digestion is a method for the treatment of the organic fraction of municipal solid waste (OFMSW) supported by legislation and principally used worldwide for its ability to produce renewable energy in the form of methane. Moreover, the nutrient-rich digestate residue can be utilized as a bio-fertilizer (
+                  - link "Albanna, 2013" [ref=f1e303] [cursor=pointer]:
+                    - /url: "#b0015"
+                  - text: ). However, plastic bags, such as those used for OFMSW collection, are not separated properly and are a serious challenge for digesters, even in regions where advanced waste management technologies are used.
+                - generic [ref=f1e305]:
+                  - text: The OFMSW is mostly composed of food waste, accounting for up to approximately 45% of municipal solid waste (MSW) in Europe (
+                  - link "Cerda et al., 2018" [ref=f1e306] [cursor=pointer]:
+                    - /url: "#b0050"
+                  - text: ) and 46% globally (
+                  - link "Hoornweg and Bhada-Tata, 2012" [ref=f1e308] [cursor=pointer]:
+                    - /url: "#b0085"
+                  - text: ). Because of its high moisture content (approximately 80% or some reports as high as 85–90% (
+                  - link "Albanna, 2013" [ref=f1e310] [cursor=pointer]:
+                    - /url: "#b0015"
+                  - text: )) and organic matter content, the OFMSW is commonly treated via composting or anaerobic digestion in many countries, such as Sweden, Germany, and the Netherlands. While composting produces good quality soil fertilizer and heat that are difficult to collect (
+                  - link "Smith et al., 2017" [ref=f1e312] [cursor=pointer]:
+                    - /url: "#b0255"
+                  - text: ), anaerobic digestion results in the production of biogas containing mostly methane and carbon dioxide that is easy to collect and use for renewable energy production. Therefore, from an energy perspective, anaerobic digestion is a preferable method for treating the OFMSW. If the OFMSW is separated with source sorted collection, a practice already applied in several countries, such as the Nordic countries, Germany and Austria, it is then usually collected in plastic or paper bags. However, the use of plastic bags can lead to plastic contamination in the biogas plants. A pretreatment method that is often applied in Sweden is pressing the OFMSW together with the collection bags through a star press, by which an easily degradable fraction, called a slurry, is formed, which is sent to the anaerobic digestion plant. The remaining part that does not go through the press is called “reject” and contains, among other components, most of the plastics, but it also contains a large amount of remaining organic matter that otherwise could be utilized for the production of methane. An alternative collection method for the OFMSW, which is applied in certain regions of Sweden, is the use of paper bags. However, some problems still can occur because paper bags can easily be damaged, and acidic leakage that causes corrosion problems in the collection trucks is common. Hence, biodegradable carrier bags, namely, bioplastic bags, could solve the problems mentioned above.
+                - generic [ref=f1e314]:
+                  - text: The use of bioplastics has been increasing worldwide for numerous applications, but since various bioplastics are relatively new products on the market, the disposal of bioplastics has been intensively investigated for the most appropriate implementation in existing disposal systems. Studies have thoroughly evaluated the different end-of-life options (
+                  - link "Endres and Siebert-Raths, 2011" [ref=f1e315] [cursor=pointer]:
+                    - /url: "#b0065"
+                  - text: ) and the biodegradation and composting processes (
+                  - link "Ahmed et al., 2018" [ref=f1e317] [cursor=pointer]:
+                    - /url: "#b0010"
+                  - text: ","
+                  - link "Kale et al., 2007" [ref=f1e319] [cursor=pointer]:
+                    - /url: "#b0110"
+                  - text: ","
+                  - link "Shah et al., 2008" [ref=f1e321] [cursor=pointer]:
+                    - /url: "#b0220"
+                  - text: ","
+                  - link "Song et al., 2009" [ref=f1e323] [cursor=pointer]:
+                    - /url: "#b0260"
+                  - text: ) for bioplastics. A recent review (
+                  - link "Ahmed et al., 2018" [ref=f1e325] [cursor=pointer]:
+                    - /url: "#b0010"
+                  - text: ) also highlighted the microbial strains involved in the degradation processes and the application of certain types of non-biodegradable and biodegradable polymers. However, to the best of our knowledge, there is a lack of comprehensive reviews on the anaerobic digestion of bioplastics. Therefore, this review focuses on the degradation of bioplastics in anaerobic conditions while also considering the requirements for smooth operation at biogas plants.
+              - generic [ref=f1e327]:
+                - heading "2. What are bioplastics?" [level=2] [ref=f1e328]
+                - generic [ref=f1e329]:
+                  - generic [ref=f1e330]:
+                    - text: Within the term bioplastics, we distinguish (a) bio-based and (b) biodegradable plastics, but a bioplastic can also fulfil both of these criteria. Bio-based plastics are typically made from renewable sources by the action of living organisms. They can be polysaccharides (e.g., starches, such as thermoplastic starch (TPS); cellulose, such as regenerated cellulose; pectin, and chitin), proteins (e.g., wheat gluten, wool, silk, casein and gelatine), lipids (e.g., animal fats, plant oils), or products of microorganisms (e.g., poly(hydroxyalkanoate)s (PHAs) such as poly(hydroxybutyrate) (PHB)). Furthermore, bio-based plastics can also be chemically synthesized from bio-derived products (e.g., poly(lactic acid) (PLA), poly(butylene succinate) (PBS), and poly(trimethylene terephthalate) (PTT)) (
+                    - link "IfBB, 2017" [ref=f1e331] [cursor=pointer]:
+                      - /url: "#b0090"
+                    - text: ","
+                    - link "Song et al., 2009" [ref=f1e333] [cursor=pointer]:
+                      - /url: "#b0260"
+                    - text: ). Moreover, there is another fraction of plastics that is bio-based but not biodegradable that is called “drop-ins” (e.g., bio-PET, bio-PE, bio-PP) with identical features as their petrochemical ancestors. Moreover, biodegradable plastics, with a certain degree of biodegradability, can also be synthesized from petrochemical origins, such as poly(glycolic acid) (PGA), poly(caprolactone) (PCL), poly(butylene succinate-
+                    - emphasis [ref=f1e335]: co
+                    - text: "-terephthalate) (PBST), poly(butylene adipate-"
+                    - emphasis [ref=f1e336]: co
+                    - text: "-terephthalate) (PBAT) and poly(vinyl alcohol) (PVA). Some of these biodegradable bioplastics are already on the market and produced by different companies under different trade names. One example for PBAT is Ecoflex®, Wango, Ecoworld™, etc. The classification of different bioplastics is illustrated in"
+                    - link "Fig. 1" [ref=f1e337] [cursor=pointer]:
+                      - /url: "#f0005"
+                    - text: .
+                  - figure [ref=f1e339]:
+                    - list [ref=f1e341]:
+                      - listitem [ref=f1e342]:
+                        - 'link "Download: Download high-res image (328KB)" [ref=f1e343] [cursor=pointer]':
+                          - /url: https://ars.els-cdn.com/content/image/1-s2.0-S0956053X18305816-gr1_lrg.jpg
+                      - listitem [ref=f1e346]:
+                        - 'link "Download: Download full-size image" [ref=f1e347] [cursor=pointer]':
+                          - /url: https://ars.els-cdn.com/content/image/1-s2.0-S0956053X18305816-gr1.jpg
+                    - paragraph [ref=f1e352]: "Fig. 1. Bioplastics: biodegradable and bio-based plastics."
+              - generic [ref=f1e353]:
+                - heading "3. Degradation of bioplastics" [level=2] [ref=f1e354]
+                - generic [ref=f1e355]:
+                  - heading "3.1. Biodegradable plastics" [level=3] [ref=f1e356]
+                  - generic [ref=f1e357]:
+                    - text: Different polymer degradation pathways, such as photodegradation, thermo-oxidative degradation and biodegradation, are well discussed in the literature (
+                    - link "Amass et al., 1998" [ref=f1e358] [cursor=pointer]:
+                      - /url: "#b0020"
+                    - text: ","
+                    - link "Hawkins, 1984" [ref=f1e360] [cursor=pointer]:
+                      - /url: "#b0080"
+                    - text: ","
+                    - link "Shah et al., 2008" [ref=f1e362] [cursor=pointer]:
+                      - /url: "#b0220"
+                    - text: ). During biodegradation, the organic substances are broken down by means of microorganisms. Several biodegradability tests exist. The so called “screening tests” are performed in enzymatic or aquatic conditions, and the latter can be anaerobic or aerobic. The “real-life tests” distinguish composting, soil burial and field testing (
+                    - link "Itävaara and Vikman, 1996" [ref=f1e364] [cursor=pointer]:
+                      - /url: "#b0105"
+                    - text: ","
+                    - link "Lucas et al., 2008" [ref=f1e366] [cursor=pointer]:
+                      - /url: "#b0140"
+                    - text: ). However, in many cases, the biodegradability of a bioplastic is highly dependent on the properties of the plastic (
+                    - link "Tokiwa et al., 2009" [ref=f1e368] [cursor=pointer]:
+                      - /url: "#b0295"
+                    - text: ) because both the chemical and physical properties of plastics affect biodegradation. These properties are the surface characteristics (hydrophobic or hydrophilic, surface area), the first-order structures (molecular weight, molecular weight distribution, chemical structure) and the higher order structures (crystallinity, crystal structure, modulus of elasticity, glass transition temperature, melting temperature) of polymers. (
+                    - link "Tokiwa et al., 2009" [ref=f1e370] [cursor=pointer]:
+                      - /url: "#b0295"
+                    - text: ).
+                  - generic [ref=f1e372]:
+                    - generic [ref=f1e373]:
+                      - text: Biopolymers are long-chain molecules, and in order to mineralize the biopolymers (converting organic matter to minerals or plant available compounds), an important, often abiotic chain scission has to occur prior to biodegradation (
+                      - link "Fig. 2" [ref=f1e374] [cursor=pointer]:
+                        - /url: "#f0010"
+                      - text: ). During that process, the long polymeric chains are broken down due to the effects of temperature, water and sunlight (i.e., photodegradation) to shorter oligomers, dimers or monomers. These shorter units are small enough to pass through the cell walls of microorganisms and be used as substrates for their biochemical processes and thus can be degraded (
+                      - link "Shah et al., 2008" [ref=f1e376] [cursor=pointer]:
+                        - /url: "#b0220"
+                      - text: ) by microbial enzymes (
+                      - link "Fig. 2" [ref=f1e378] [cursor=pointer]:
+                        - /url: "#f0010"
+                      - text: "). Two main types of enzymes are involved in microbial depolymerization processes: extracellular and intracellular depolymerases ("
+                      - link "Shah et al., 2008" [ref=f1e380] [cursor=pointer]:
+                        - /url: "#b0220"
+                      - text: ). As the term suggests, extracellular enzymes act outside the cells in order to break the longer units down into shorter molecules, preparing them for further degradation by intracellular enzymes. As biodegradation can occur in two ways, aerobically and anaerobically, it offers two types of biological waste treatment. While the aerobic degradation of biopolymers has been studied in detail with extended reviews written (
+                      - link "Briassoulis et al., 2010" [ref=f1e382] [cursor=pointer]:
+                        - /url: "#b0035"
+                      - text: ","
+                      - link "Calmon-Decriaud et al., 1998" [ref=f1e384] [cursor=pointer]:
+                        - /url: "#b0045"
+                      - text: ","
+                      - link "Grima et al., 2000" [ref=f1e386] [cursor=pointer]:
+                        - /url: "#b0070"
+                      - text: ","
+                      - link "Kale et al., 2007" [ref=f1e388] [cursor=pointer]:
+                        - /url: "#b0110"
+                      - text: ","
+                      - link "Meeks et al., 2015" [ref=f1e390] [cursor=pointer]:
+                        - /url: "#b0160"
+                      - text: ), the research on anaerobic degradation of biopolymers is still in its infancy. This review, therefore, aims to survey the anaerobic digestion of bioplastics. According to the ISO 17088:2012 standards, a plastic can be considered biodegradable if a significant change in the chemical structure, i.e., degradation, occurs in the exposed material resulting in carbon dioxide, water, inorganic compounds, and biomass (new microbial cell constituents) but no visible or toxic residues (
+                      - link "Standardization, 2012" [ref=f1e392] [cursor=pointer]:
+                        - /url: "#b0270"
+                      - text: ) under composting conditions. The CEN standard, EN 13432:2000 (
+                      - link "Standardization, 2000" [ref=f1e394] [cursor=pointer]:
+                        - /url: "#b0265"
+                      - text: ), for biodegradable polymeric materials also requires that a substance is 90% converted to carbon dioxide within six months as a condition for composting in the presence of oxygen. For anaerobic degradation, it specifies a minimum of 50% conversion of the substance to biogas based on the theoretical value in a maximum of two months’ time (
+                      - link "Standardization, 2000" [ref=f1e396] [cursor=pointer]:
+                        - /url: "#b0265"
+                      - text: ).
+                    - figure [ref=f1e398]:
+                      - list [ref=f1e400]:
+                        - listitem [ref=f1e401]:
+                          - 'link "Download: Download high-res image (307KB)" [ref=f1e402] [cursor=pointer]':
+                            - /url: https://ars.els-cdn.com/content/image/1-s2.0-S0956053X18305816-gr2_lrg.jpg
+                        - listitem [ref=f1e405]:
+                          - 'link "Download: Download full-size image" [ref=f1e406] [cursor=pointer]':
+                            - /url: https://ars.els-cdn.com/content/image/1-s2.0-S0956053X18305816-gr2.jpg
+                      - paragraph [ref=f1e411]: "Fig. 2. Biodegradation of biopolymers: aerobic vs anaerobic degradation. Dark green symbols represent the microorganisms involved in the processes. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)"
+                - generic [ref=f1e412]:
+                  - heading "3.2. Aerobic and anaerobic degradation" [level=3] [ref=f1e413]
+                  - generic [ref=f1e414]:
+                    - text: Aerobic biodegradation usually means composting within industrial composting conditions. In a high-oxygen environment (not less than 6%) (
+                    - link "Kale et al., 2007" [ref=f1e415] [cursor=pointer]:
+                      - /url: "#b0110"
+                    - text: ), microorganisms utilize the polymer as a carbon and energy source and produce carbon dioxide and water as the main degradation by-products in addition to the remaining part, which is called compost (Eq.
+                    - link "(1)" [ref=f1e417] [cursor=pointer]:
+                      - /url: "#e0005"
+                    - text: ). Industrially composting is performed in a warm (approximately 60–70 °C) and moist (approximately 60%) environment under controlled conditions (∼ pH 8.5) (
+                    - link "Mohee et al., 2008" [ref=f1e419] [cursor=pointer]:
+                      - /url: "#b0165"
+                    - text: "):"
+                    - generic [ref=f1e422]:
+                      - generic [ref=f1e423]: (1)
+                      - generic [ref=f1e424]:
+                        - text: Organic matter + S + O
+                        - subscript [ref=f1e425]: "2"
+                        - text: → CO
+                        - subscript [ref=f1e426]: "2"
+                        - text: + H
+                        - subscript [ref=f1e427]: "2"
+                        - text: O + NO
+                        - subscript [ref=f1e428]: "2"
+                        - text: + SO
+                        - subscript [ref=f1e429]: "2"
+                        - text: + Heat + Compost
+                  - generic [ref=f1e430]:
+                    - text: Anaerobic biodegradation usually means anaerobic digestion in oxygen-free conditions in mesophilic (37 °C) or thermophilic (55 °C) biogas plants. In the absence of oxygen, the organic matter is converted to methane gas, carbon dioxide, water, hydrogen sulphide, ammonia and hydrogen, which results in a sequence of metabolic interactions by different groups of microorganisms (
+                    - link "Mohee et al., 2008" [ref=f1e431] [cursor=pointer]:
+                      - /url: "#b0165"
+                    - text: ). The remaining part is called the digestate residue (Eq.
+                    - link "(2)" [ref=f1e433] [cursor=pointer]:
+                      - /url: "#e0010"
+                    - text: "):"
+                    - generic [ref=f1e436]:
+                      - generic [ref=f1e437]: (2)
+                      - generic [ref=f1e438]:
+                        - text: Organic matter + H
+                        - subscript [ref=f1e439]: "2"
+                        - text: O + Nutrients → Digestate residue + CO
+                        - subscript [ref=f1e440]: "2"
+                        - text: + CH
+                        - subscript [ref=f1e441]: "4"
+                        - text: + NH
+                        - subscript [ref=f1e442]: "3"
+                        - text: + H
+                        - subscript [ref=f1e443]: "2"
+                        - text: S + Less heat
+                  - generic [ref=f1e444]:
+                    - text: The energy stored in organic matter is released in the form of heat during aerobic degradation, and it requires continuous turning of the biomass to release some of this heat for a healthy microbial community. This heat is lost and cannot be captured. On the contrary, in anaerobic degradation, the energy stored in organic matter is mainly released as methane, and due to the lack of oxygen in the process, less heat and less microbial biomass are produced (
+                    - link "Fig. 2" [ref=f1e445] [cursor=pointer]:
+                      - /url: "#f0010"
+                    - text: ).
+              - generic [ref=f1e447]:
+                - heading "4. Biodegradation of bioplastics under anaerobic conditions" [level=2] [ref=f1e448]
+                - generic [ref=f1e449]:
+                  - text: Extensive reviews of the various microbial communities are mostly focused on aerobic degradation of plastics and are available in the literature (
+                  - link "Shah et al., 2008" [ref=f1e450] [cursor=pointer]:
+                    - /url: "#b0220"
+                  - text: ","
+                  - link "Shimao, 2001" [ref=f1e452] [cursor=pointer]:
+                    - /url: "#b0225"
+                  - text: ). In addition to the nature of the polymeric substance, the biological degradation of polymers is usually influenced by the kind of microorganism involved in the biodegradation process. If the biodegradation process aims to produce methane gas, a mixture of cultures obtained from active biogas plants are used for the degradation tests. A summary of anaerobic degradation of various bioplastics is presented here.
+                - generic [ref=f1e454]:
+                  - heading "4.1. Poly(hydroxyalkanoate)s" [level=3] [ref=f1e455]
+                  - generic [ref=f1e456]:
+                    - text: Poly(hydroxyalkanoate)s (PHAs) are a class of polyesters that accumulate in bacterial and archaeal (
+                    - link "Koller et al., 2017" [ref=f1e457] [cursor=pointer]:
+                      - /url: "#b0115"
+                    - text: ","
+                    - link "Kourmentza et al., 2017" [ref=f1e459] [cursor=pointer]:
+                      - /url: "#b0125"
+                    - text: ) cells through fermentation of sugars and lipids as energy and carbon storage compounds (
+                    - link "Lu et al., 2009" [ref=f1e461] [cursor=pointer]:
+                      - /url: "#b0135"
+                    - text: ). Poly(3-hydroxybutyrate) (P3HB) or commonly known as poly(hydroxybutyrate) (PHB) belongs to the PHA class. Other polymers that belong to the PHA class, e.g., poly(4-hydroxybutyrate) (P4HB), poly(3-hydroxyvalerate) (PHV), poly(3-hydroxyhexanoate) (PHH), poly(3-hydroxyoctanoate) (PHO) and their co-polymers, are produced by several types of microorganisms. PHAs that accumulate intracellularly can be degraded by intracellular depolymerase enzymes (
+                    - link "Lee and Choi, 1999" [ref=f1e463] [cursor=pointer]:
+                      - /url: "#b0130"
+                    - text: ). However, in environmental conditions, extracellular enzymes are involved in the degradation process which can be produced and excreted by various microorganisms, such as the soil bacteria
+                    - emphasis [ref=f1e465]: Pseudomonas stutzeri
+                    - text: (
+                    - link "Shimao, 2001" [ref=f1e466] [cursor=pointer]:
+                      - /url: "#b0225"
+                    - text: ) and
+                    - emphasis [ref=f1e468]: Alcaligenes faecalis
+                    - text: (
+                    - link "Reddy et al., 2003" [ref=f1e469] [cursor=pointer]:
+                      - /url: "#b0200"
+                    - text: ","
+                    - link "Shimao, 2001" [ref=f1e471] [cursor=pointer]:
+                      - /url: "#b0225"
+                    - text: ), a bacterium that also requires oxygen.
+                    - emphasis [ref=f1e473]: Rhodospirillum rubrum, Bacillus megaterium, Acinetobacter beijerinckii,
+                    - text: and
+                    - emphasis [ref=f1e474]: Pseudomonas lemoignei
+                    - text: are other organisms in which PHB depolymerases have been identified (
+                    - link "Reddy et al., 2003" [ref=f1e475] [cursor=pointer]:
+                      - /url: "#b0200"
+                    - text: ). The primary enzyme for the degradation of PHB and its oligomers is PHB depolymerase, an extracellular endo-type hydrolase of
+                    - emphasis [ref=f1e477]: A. faecalis
+                    - text: (
+                    - link "Reddy et al., 2003" [ref=f1e478] [cursor=pointer]:
+                      - /url: "#b0200"
+                    - text: ). While studying the anaerobic degradation of natural and synthetic polyesters,
+                    - link "Abou-Zeid et al. (2001)" [ref=f1e480] [cursor=pointer]:
+                      - /url: "#b0005"
+                    - text: identified two poly(3-hydroxybutyrate-
+                    - emphasis [ref=f1e482]: co
+                    - text: "-3-hydroxyvalerate) (PHBV)-degrading strains that showed strain resemblance to"
+                    - emphasis [ref=f1e483]: Clostridium botulinum
+                    - text: (with approximately 95% 16s rRNA sequence homology).
+                  - generic [ref=f1e484]:
+                    - text: According to
+                    - link "Siracusa et al. (2008)" [ref=f1e485] [cursor=pointer]:
+                      - /url: "#b0250"
+                    - text: ", PHAs are able to degrade to carbon dioxide and water in 5–6 weeks in aerobic conditions, but in anaerobic environments, the degradation is faster, and methane production is advantageous ("
+                    - link "Siracusa et al., 2008" [ref=f1e487] [cursor=pointer]:
+                      - /url: "#b0250"
+                    - text: ). In a study performed by
+                    - link "Shin et al. (1997)" [ref=f1e489] [cursor=pointer]:
+                      - /url: "#b0245"
+                    - text: ", PHBV (8% 3HV) reached approximately 85% degradation within 20 days in anaerobic sludge. In another study ("
+                    - link "Noda et al., 2009" [ref=f1e491] [cursor=pointer]:
+                      - /url: "#b0180"
+                    - text: ), degradation tests performed aerobically and anaerobically showed rapid biodegradation of
+                    - superscript [ref=f1e493]: "14"
+                    - text: C labelled poly(3-hydroxybutyrate-
+                    - emphasis [ref=f1e494]: co
+                    - text: "-3-hydroxyoctanate) (PHBO) under both conditions, up to approximately 80% after 25 days under anaerobic conditions. A 16-day fermentation of PHB and PHBV (13 and 20% 3HV) was performed for methane and carbon dioxide formation using anaerobic sewage sludge by"
+                    - link "Budwill et al. (1992)" [ref=f1e495] [cursor=pointer]:
+                      - /url: "#b0040"
+                    - text: . The results showed that between 83 and 96% of the substrate carbon was transformed to methane and carbon dioxide (
+                    - link "Budwill et al., 1992" [ref=f1e497] [cursor=pointer]:
+                      - /url: "#b0040"
+                    - text: ). According to
+                    - link "Verlinden et al. (2007)" [ref=f1e499] [cursor=pointer]:
+                      - /url: "#b0310"
+                    - text: a PHB sample can require a few months to degrade in anaerobic sewage and can require years in seawater. UV light, however, can accelerate the degradation (
+                    - link "Verlinden et al., 2007" [ref=f1e501] [cursor=pointer]:
+                      - /url: "#b0310"
+                    - text: ). Nodax™, a Procter & Gamble product that is used for manufacturing biodegradable agricultural films, can be degraded anaerobically, and consequently, it can be used as urea fertilizer (
+                    - link "Philip et al., 2007" [ref=f1e503] [cursor=pointer]:
+                      - /url: "#b0185"
+                    - text: ). Nodax™ class PHA co-polymers are a family of promising PHA polyesters consisting of (R)-3-hydroxyalkanoate co-monomer units with medium-chain-length side groups (mcl-3HA) and (R)-3-hydroxybutyrate (3HB) (
+                    - link "Noda et al., 2009" [ref=f1e505] [cursor=pointer]:
+                      - /url: "#b0180"
+                    - text: ). PHA co-polymers comprising mcl-3HA have lower crystallinity than PHB homopolymers of PHBV co-polymer, and thus, faster degradation can occur.
+                - generic [ref=f1e507]:
+                  - heading "4.2. Starch blends" [level=3] [ref=f1e508]
+                  - generic [ref=f1e509]:
+                    - text: Starch is rarely used on its own for bioplastics production due to its hydrophilic nature and its poor mechanical properties. It is often modified chemically, physically or mechanically and/or blended with other polymeric compounds or plasticizers (
+                    - link "Davis and Song, 2006" [ref=f1e510] [cursor=pointer]:
+                      - /url: "#b0060"
+                    - text: ). The starch content of a typical starch blend can vary from 5 to 90 wt% (
+                    - link "Davis and Song, 2006" [ref=f1e512] [cursor=pointer]:
+                      - /url: "#b0060"
+                    - text: ). A Novamont product, Mater-Bi™ (MB), composed of a minimum of 60% starch and starch derivatives and of approximately 40% synthetic resin that is hydrophilic and biodegradable, was examined for anaerobic degradation in a study by
+                    - link "Mohee et al. (2008)" [ref=f1e514] [cursor=pointer]:
+                      - /url: "#b0165"
+                    - text: . The authors measured the cumulative methane production over 32 days of batch digestion assays and compared it to that of the reference cellulose material. The results showed methane productions of 245 mL and 246.8 mL for MB and cellulose, respectively. In another study (
+                    - link "Bastioli, 1998" [ref=f1e516] [cursor=pointer]:
+                      - /url: "#b0025"
+                    - text: ), a Y class (injection moulded rigid items made of thermoplastic starch and cellulose derivatives) MB product showed approximately 90% anaerobic degradability within 30 days.
+                    - link "Russo et al. (2009)" [ref=f1e518] [cursor=pointer]:
+                      - /url: "#b0210"
+                    - text: reported anaerobic degradation of thermoplastic starch (TPS) - PVA blended films in mesophilic conditions. The blends of TPS:PVA were varied at 90:10, 75:25, 50:50, and 0:100 (w/w%). The authors concluded that a higher quantity of starch in the blend resulted in increased biogas production, and starch degraded faster than PVA. They also noted that PVA affected the rate of starch degradation to a lesser extent.
+                - generic [ref=f1e520]:
+                  - heading "4.3. Pectin-cellulose biofilms" [level=3] [ref=f1e521]
+                  - generic [ref=f1e522]:
+                    - text: Pectin-cellulose biofilms were produced from orange waste via a solution casting method, and the anaerobic degradation of biofilms was studied in thermophilic conditions (
+                    - link "Bátori et al., 2017" [ref=f1e523] [cursor=pointer]:
+                      - /url: "#b0030"
+                    - text: ). Because orange waste consists of pectin (30%) and cellulose and hemicelluloses (approximately 40%), microcrystalline cellulose (Avicel®), was used as the reference for the degradation test. The study showed that 90% of the orange waste films were degraded in approximately 15 days, with an average corresponding methane production of over 300 NmL/g COD (there COD stands for chemical oxygen demand).
+                - generic [ref=f1e525]:
+                  - heading "4.4. Poly(lactic acid)" [level=3] [ref=f1e526]
+                  - generic [ref=f1e527]:
+                    - generic [ref=f1e528]:
+                      - text: Poly(lactic acid) (PLA) is a bio-based and biodegradable thermoplastic polyester, and the monomer, lactic acid, used in the polymerization processes, is commonly produced by fermentation. Despite its biocompatible nature, the degradation of PLA in the environment is not easy because, under ambient conditions, PLA in soil or in sewage was found to be resistant to microbial attacks (
+                      - link "Hamad et al., 2015" [ref=f1e529] [cursor=pointer]:
+                        - /url: "#b0075"
+                      - text: ). As
+                      - link "Hamad et al. (2015)" [ref=f1e531] [cursor=pointer]:
+                        - /url: "#b0075"
+                      - text: explains, PLA must be hydrolysed first at elevated temperature (approximately 58 °C) to reduce molecular weight before biodegradation can start. The
+                      - emphasis [ref=f1e533]: Amycolatopsis
+                      - text: sp. strain (
+                      - link "Pranamuda et al., 1997" [ref=f1e534] [cursor=pointer]:
+                        - /url: "#b0190"
+                      - text: ) and the thermophilic bacterium
+                      - emphasis [ref=f1e536]: Bacillus brevis
+                      - text: (
+                      - link "Tomita et al., 1999" [ref=f1e537] [cursor=pointer]:
+                        - /url: "#b0300"
+                      - text: ) were isolated from soil samples, but clear-zone methods have reported that PLA-degrading strains are seldom present in soil (
+                      - link "Pranamuda et al., 1997" [ref=f1e539] [cursor=pointer]:
+                        - /url: "#b0190"
+                      - text: ). According to
+                      - link "Shin et al. (1997)" [ref=f1e541] [cursor=pointer]:
+                        - /url: "#b0245"
+                      - text: ", PLA did not degrade under anaerobic conditions at all during the 100-day-long investigation."
+                      - link "Massardier-Nageotte et al. (2006)" [ref=f1e543] [cursor=pointer]:
+                        - /url: "#b0145"
+                      - text: examined PLA degradation according to ISO 14853, and the authors concluded that the microorganisms could not consume the polymer after 28 days of digestion. A commercially available PLA product, Ingeo™ from Nature Works, was studied for anaerobic degradation via two different test methods (
+                      - link "Kolstad et al., 2012" [ref=f1e545] [cursor=pointer]:
+                        - /url: "#b0120"
+                      - text: ). The first test was performed under accelerated landfill conditions (ALC), in which three different humidity levels were monitored under ambient conditions for 390 days. Then, a high-solids anaerobic digestion (HSAD) test followed, which was performed for 170 days at 35 °C. No statistically significant biogas production was reported from the tested samples during ALC. Furthermore, no significant methane production was found in the HSAD tests. The authors concluded, therefore, that under anaerobic conditions, no population of organisms was found to be available for the degradation of high molecular weight PLA.
+                      - link "Kale et al. (2007)" [ref=f1e547] [cursor=pointer]:
+                        - /url: "#b0110"
+                      - text: reported that PLA degraded, but only at a minor level (>10%), under anaerobic conditions when using ASTM
+                      - link [ref=f1e549] [cursor=pointer]:
+                        - /url: http://www.astm.org/Standards/D5511
+                        - generic [ref=f1e550]:
+                          - text: D5511
+                          - img "Opens in new window" [ref=f1e551]
+                      - text: and ISO 14,853 test methods. However, PLA was degraded using dry digestion with high solids content under thermophilic conditions up to a level of 60% over 40 days (
+                      - link "Itävaara et al., 2002" [ref=f1e553] [cursor=pointer]:
+                        - /url: "#b0100"
+                      - text: ). Contrarily,
+                      - link "Yagi et al. (2009a)" [ref=f1e555] [cursor=pointer]:
+                        - /url: "#b0320"
+                      - text: developed a new evaluation system using the MODA-B apparatus for testing PLA degradation under anaerobic aquatic conditions. The system allows collecting biogas in a gas sampling bag at atmospheric pressure. In their study, PLA showed 91% biodegradability in undiluted (gas production started within approximately 10 days and finished after approximately 75 days) sludge and approximately 80% biodegradability in diluted (gas production started within approximately 14 days and finished after approximately 90 days) sludge in aquatic conditions at a thermophilic temperature. The sludge they used in the study was, however, obtained from a biogas plant operating at mesophilic temperatures and then adapted to 55 °C. In another study, using this adapted sludge,
+                      - link "Yagi et al. (2009b)" [ref=f1e557] [cursor=pointer]:
+                        - /url: "#b0325"
+                      - text: measured approximately 60% biodegradability of PLA powder in 30 days, approximately 80% in 40 days and approximately 90% in 60 days under thermophilic conditions. The degradation in mesophilic conditions, however, started only after 55 days. It was, however, unclear whether the sludge adapted to 55 °C included certain strains responsible for PLA degradation under thermophilic conditions. In their next study (
+                      - link "Yagi et al., 2010" [ref=f1e559] [cursor=pointer]:
+                        - /url: "#b0330"
+                      - text: ), the authors therefore analysed the bacterial population involved in the degradation processes. Based on biogas evaluation and the methane ratio, the authors expected newly grown eubacteria between days 7 and 18 in the tests. However, the result showed minor growth of microorganisms in the biomass. In their next study,
+                      - link "Yagi et al. (2012)" [ref=f1e561] [cursor=pointer]:
+                        - /url: "#b0335"
+                      - text: tested the degradation of four different sizes of PLA films (
+                      - link "Table 1" [ref=f1e563] [cursor=pointer]:
+                        - /url: "#t0005"
+                      - text: ) under thermophilic conditions. It was concluded that the smaller pieces of PLA had a lower degradation rate compared to the larger pieces. Although the smaller pieces were expected to degrade faster, it turned out that the small pieces stuck together at the start of the experiment due to static electricity. Thus, the total surface area in contact with the sludge was less than with larger pieces. The authors concluded that PLA, and perhaps other types of bioplastic films, does not need to be cut into smaller pieces (
+                      - link "Yagi et al., 2012" [ref=f1e565] [cursor=pointer]:
+                        - /url: "#b0335"
+                      - text: ).
+                    - generic [ref=f1e567]:
+                      - paragraph [ref=f1e570]:
+                        - text: Table 1. Biodegradation rate of different sizes of PLA films (
+                        - link "Yagi et al., 2012" [ref=f1e571] [cursor=pointer]:
+                          - /url: "#b0335"
+                        - text: ).
+                      - table [ref=f1e574]:
+                        - rowgroup [ref=f1e575]:
+                          - row [ref=f1e576]:
+                            - cell "Empty Cell" [ref=f1e577]
+                            - columnheader "20 days" [ref=f1e579]
+                            - columnheader "30 days" [ref=f1e580]
+                            - columnheader "40 days" [ref=f1e581]
+                        - rowgroup [ref=f1e582]:
+                          - row [ref=f1e583]:
+                            - rowheader ">500 µm PLA film" [ref=f1e584]
+                            - cell "17%" [ref=f1e585]
+                            - cell "50%" [ref=f1e586]
+                            - cell "75%" [ref=f1e587]
+                          - row [ref=f1e588]:
+                            - rowheader "1 × 1 cm PLA film" [ref=f1e589]
+                            - cell "25%" [ref=f1e590]
+                            - cell "59%" [ref=f1e591]
+                            - cell "80–83%" [ref=f1e592]
+                          - row [ref=f1e593]:
+                            - rowheader "15 × 34 cm and 39 × 82 cm PLA film" [ref=f1e594]
+                            - cell "35–40%" [ref=f1e595]
+                            - cell "70–75%" [ref=f1e596]
+                            - cell "84%" [ref=f1e597]
+                - generic [ref=f1e598]:
+                  - heading "4.5. Poly(caprolactone)" [level=3] [ref=f1e599]
+                  - generic [ref=f1e600]:
+                    - text: Poly(caprolactone) (PCL) is a synthetic fossil-based polyester that can smoothly be degraded by microorganisms. Just as PHA and PHB-degrading bacteria, PCL-degrading bacteria can be found in nature. However, while PHAs are degraded by depolymerases, PCL is degraded by lipases and esterases (
+                    - link "Ruiz and Flotats, 2014" [ref=f1e601] [cursor=pointer]:
+                      - /url: "#b0205"
+                    - text: ).
+                    - link "Murphy et al. (1996)" [ref=f1e603] [cursor=pointer]:
+                      - /url: "#b0175"
+                    - text: found that the PCL depolymerase is in fact a cutinase produced by the fungal pathogen
+                    - emphasis [ref=f1e605]: Fusarium solani
+                    - text: . Cutinase degrades cutin, the waxy polymer that is known as the structural polymer of the plant cuticle. However, PCL degradation is controversial, as some authors did not find anaerobic biodegradability of the material (
+                    - link "Abou-Zeid et al., 2001" [ref=f1e606] [cursor=pointer]:
+                      - /url: "#b0005"
+                    - text: ).
+                    - link "Kale et al. (2007)" [ref=f1e608] [cursor=pointer]:
+                      - /url: "#b0110"
+                    - text: reported that PCL did not biodegrade under anaerobic conditions when using ASTM
+                    - link [ref=f1e610] [cursor=pointer]:
+                      - /url: http://www.astm.org/Standards/D5511
+                      - generic [ref=f1e611]:
+                        - text: D5511
+                        - img "Opens in new window" [ref=f1e612]
+                    - text: and ISO 14,853 tests. Contrarily,
+                    - link "Abou-Zeid et al. (2001)" [ref=f1e614] [cursor=pointer]:
+                      - /url: "#b0005"
+                    - text: made an interesting comparison between PHB, PHBV, and PCL degradation. The authors found that PCL was more resistant to an anaerobic attack than the natural polymers, but the anaerobic degradability of PCL in mesophilic conditions was clearly shown with two different types of anaerobic sludge. In their study, they also isolated four PHB- and PCL-degrading strains belonging to the genus
+                    - emphasis [ref=f1e616]: Clostridium
+                    - text: . The two PCL-degrading strains showed almost 92% strain resemblance with
+                    - emphasis [ref=f1e617]: Clostridium acetobutylicum
+                    - text: (16s rRNA sequence homology).
+                    - link "Cho et al. (2011)" [ref=f1e618] [cursor=pointer]:
+                      - /url: "#b0055"
+                    - text: studied the anaerobic degradation of PCL-starch blends according to ISO 14,853 and determined a biodegradability of 83% within 139 days. In comparison, as mentioned above, 92% degradation of PCL powder was achieved by
+                    - link "Yagi et al. (2009a)" [ref=f1e620] [cursor=pointer]:
+                      - /url: "#b0320"
+                    - text: at thermophilic temperatures in 47 days using the adapted sludge from a mesophilic biogas plant.
+                - generic [ref=f1e622]:
+                  - heading "4.6. Poly(butylene succinate)" [level=3] [ref=f1e623]
+                  - generic [ref=f1e624]:
+                    - text: Poly(butylene succinate) (PBS) is a synthetically produced thermoplastic and biodegradable aliphatic polyester. It is claimed to be biodegradable in certain environments, such as sea, river, soil, activated sludge and compost (
+                    - link "Xu and Guo, 2010" [ref=f1e625] [cursor=pointer]:
+                      - /url: "#b0315"
+                    - text: ), but PBS does not seem to be biodegradable under anaerobic conditions. In a study,
+                    - link "Cho et al. (2011)" [ref=f1e627] [cursor=pointer]:
+                      - /url: "#b0055"
+                    - text: showed only 2% biodegradability of PBS under anaerobic conditions in 100 days according to the ISO 14,853 test method. In another study, PBS did not biodegrade at all using the same conditions (i.e., at thermophilic conditions using a sludge adapted from 37 °C), where PHB showed 90% biodegradability in 14 days, and PCL and PLA showed 80% and 75% biodegradability in 50 and 75 days, respectively (
+                    - link "Yagi et al., 2013" [ref=f1e629] [cursor=pointer]:
+                      - /url: "#b0340"
+                    - text: ).
+                - generic [ref=f1e631]:
+                  - heading "4.7. Poly(vinyl alcohol)" [level=3] [ref=f1e632]
+                  - generic [ref=f1e633]:
+                    - text: Poly(vinyl alcohol) (PVA) is a synthetic vinyl polymer that is water soluble and biodegradable. It is the only polymer with a carbon – carbon backbone that can be degraded biologically under both aerobic (
+                    - link "Mori et al., 1996" [ref=f1e634] [cursor=pointer]:
+                      - /url: "#b0170"
+                    - text: ","
+                    - link "Sakazawa et al., 1981" [ref=f1e636] [cursor=pointer]:
+                      - /url: "#b0215"
+                    - text: ","
+                    - link "Shimao et al., 1986" [ref=f1e638] [cursor=pointer]:
+                      - /url: "#b0230"
+                    - text: ","
+                    - link "Shimao et al., 1983" [ref=f1e640] [cursor=pointer]:
+                      - /url: "#b0235"
+                    - text: ","
+                    - link "Shimao et al., 1984" [ref=f1e642] [cursor=pointer]:
+                      - /url: "#b0240"
+                    - text: ","
+                    - link "Suzuki et al., 1973" [ref=f1e644] [cursor=pointer]:
+                      - /url: "#b0285"
+                    - text: ","
+                    - link "Watanabe et al., 1975" [ref=f1e646] [cursor=pointer]:
+                      - /url: "#b0305"
+                    - text: ) and anaerobic (
+                    - link "Matsumura et al., 1993" [ref=f1e648] [cursor=pointer]:
+                      - /url: "#b0150"
+                    - text: ) conditions (
+                    - link "Matsumura et al., 1999" [ref=f1e650] [cursor=pointer]:
+                      - /url: "#b0155"
+                    - text: ). However, its degradation rate, particularly the anaerobic degradation of PVA, is low (
+                    - link "Pšeja et al., 2006" [ref=f1e652] [cursor=pointer]:
+                      - /url: "#b0195"
+                    - text: ). PVA-degrading microorganisms are not omnipresent in nature (
+                    - link "Shimao, 2001" [ref=f1e654] [cursor=pointer]:
+                      - /url: "#b0225"
+                    - text: ). Aerobic degradation of PVA has been performed using mostly
+                    - emphasis [ref=f1e656]: Pseudomonas
+                    - text: strains (
+                    - link "Sakazawa et al., 1981" [ref=f1e657] [cursor=pointer]:
+                      - /url: "#b0215"
+                    - text: ","
+                    - link "Shimao et al., 1986" [ref=f1e659] [cursor=pointer]:
+                      - /url: "#b0230"
+                    - text: ","
+                    - link "Shimao et al., 1983" [ref=f1e661] [cursor=pointer]:
+                      - /url: "#b0235"
+                    - text: ","
+                    - link "Shimao et al., 1984" [ref=f1e663] [cursor=pointer]:
+                      - /url: "#b0240"
+                    - text: ","
+                    - link "Suzuki et al., 1973" [ref=f1e665] [cursor=pointer]:
+                      - /url: "#b0285"
+                    - text: ) and
+                    - emphasis [ref=f1e667]: Alcaligenes faecalis KK314
+                    - text: (
+                    - link "Matsumura et al., 1999" [ref=f1e668] [cursor=pointer]:
+                      - /url: "#b0155"
+                    - text: ). Anaerobic degradation (
+                    - link "Matsumura et al., 1993" [ref=f1e670] [cursor=pointer]:
+                      - /url: "#b0150"
+                    - text: ) of PVA was confirmed for the first time by comparing PVA-2000 (number is average molecular weight of 2200) with PVA-14000 (number is average molecular weight of 14000) using inoculation cultures as black river sediments or activated sewage sludge. In general, both PVA samples degraded at a higher degradation rate when the activated sludge was used as the inoculum. As expected, PVA-2000 showed the highest degradation rate of approximately 75% after 125 days of incubation and reached 50% degradation after approximately 25 days.
+              - generic [ref=f1e672]:
+                - 'heading "5. Anaerobic digestion of bioplastics in biogas plants: challenges, standards, and suggestions" [level=2] [ref=f1e673]'
+                - generic [ref=f1e674]:
+                  - text: As shown in previous sections, different microorganisms degrade different biopolymers (
+                  - link "Shah et al., 2008" [ref=f1e675] [cursor=pointer]:
+                    - /url: "#b0220"
+                  - text: ","
+                  - link "Yagi et al., 2013" [ref=f1e677] [cursor=pointer]:
+                    - /url: "#b0340"
+                  - text: ). Thus, not all types of bioplastics are suitable for anaerobic digestion (
+                  - link "Endres and Siebert-Raths, 2011" [ref=f1e679] [cursor=pointer]:
+                    - /url: "#b0065"
+                  - text: ","
+                  - link "Kale et al., 2007" [ref=f1e681] [cursor=pointer]:
+                    - /url: "#b0110"
+                  - text: "). To determine which kinds of bioplastics are suitable for OFMSW collection, we need to keep in mind that the anaerobic digestion process goes through four typical degradation steps (i.e., hydrolysis, acidogenesis, acetogenesis and methanogenesis). These stages have been thoroughly discussed in the literature and are not the main focus of this review. This study focused on conditions needed for effective anaerobic degradation of bioplastics, such as degradation time, temperature, and microbial strains involved in the process. In other words, this study is meant to answer the question of whether a bioplastic bag is suitable for collecting the OFMSW with the aim of reducing the contamination caused by conventional plastic bags in biogas processes. A typical biogas plant treating the OFMSW operates with a hydraulic retention time (HRT) of 15–30 days under thermophilic or mesophilic conditions. Therefore, a bioplastic bag suitable for collecting food waste should be able to degrade within these conditions. Some of the biopolymers discussed above degrade within the HRT applied for a biogas plant, such as PHB, starch, cellulose, and pectin. A general order of increasing biodegradation rate of bioplastics is as follows: PHB > PCL > PLA > PVA. However, PCL, PLA and PVA take longer than the usual HRTs used in biogas plants treating OFMSW. We can also conclude that PBS is not suitable for collection bags because it is does not degrade under the conditions used at biogas plants."
+                - generic [ref=f1e683]: Standards for bioplastic bags suitable for the collection of the OFMSW have not yet been established thoroughly due to the novelty of the process. First, standardization for biodegradable bags suitable for OFMSW collection should include some mechanical requirements. Tensile strength and water resistance are important aspects because a material that is too strong could be misused for other purposes, and a bag should withstand moisture until it reaches the fermenters but should undergo biodegradation at elevated temperatures. These two qualities are important in all plastics, if not the most important ones. Most conventional, petroleum-based plastics, such as low-density poly(ethylene) (LDPE) and high-density poly(ethylene) (HDPE) are water-resistant and have enough appropriate mechanical properties to be used as plastic bags. Bioplastics, on the other hand, are more likely to be less water resistant because of the hydrophilic nature of the biopolymers used for their fabrication. Some bioplastics, such as PHA, PLA and PCL, are water resistant and can be used as coatings for other bioplastics, such as those made from starch or agar. Bioplastics are not yet versatile, and further research is needed for the functionalized production of bioplastics. Since the bioplastics industry is in its beginning phase, it is difficult to define how strong and how water-resistant a bioplastic bag has to be in order to be suitable as a food waste collection bag.
+                - generic [ref=f1e684]:
+                  - text: In regard to the biogas plants, according to the best of our knowledge, there are few published data available on bioplastic conversion or optimum treatment conditions for the AD process. Nevertheless, there are methods for determining the anaerobic biodegradation of plastic materials, such as ISO 14853:2016 (
+                  - link "Standardization, 2016" [ref=f1e685] [cursor=pointer]:
+                    - /url: "#b0280"
+                  - text: ), ISO 15985:2014 (
+                  - link "Standardization, 2014" [ref=f1e687] [cursor=pointer]:
+                    - /url: "#b0275"
+                  - text: ) and ASTM
+                  - link [ref=f1e689] [cursor=pointer]:
+                    - /url: http://www.astm.org/Standards/D5511
+                    - generic [ref=f1e690]:
+                      - text: D5511
+                      - img "Opens in new window" [ref=f1e691]
+                  - text: (
+                  - link "International, 2018" [ref=f1e693] [cursor=pointer]:
+                    - /url: "#b0095"
+                  - text: ).
+                - generic [ref=f1e695]:
+                  - text: In the Swedish OFMSW treatment plants, the bags suitable for collection must comply with standards for biodegradation according to SS EN 13,432 (Packaging - Requirements for packaging recoverable through composting and biodegradation) (
+                  - link "Standardization, 2000" [ref=f1e696] [cursor=pointer]:
+                    - /url: "#b0265"
+                  - text: ) if the bags are not sorted out in a pretreatment plant prior to the anaerobic digestion process. The standard specifies the criteria for the anaerobic biodegradation of plastics as a minimum of 50% degradation within a maximum of 2 months. However, plastic contamination can still exist in biogas plants since the HRT (i.e., the average period of time a given quantity of substance stays in the digester) is usually less than 2 months. Accordingly, to avoid contamination, a plastic bag ought to be degraded during the HRT used. Therefore, one suggestion is that the standard requirements for the bioplastics bags used for collection should be revised. The requirement should rather specify a maximum of 1-month degradation time for the collection bags. The % degradation of the bags could also be revised to be in accordance with the CEN specifications for biodegradation or at least increased from the actual 50%. If the bags are sorted out first in a pretreatment plant, the requirement for visible contamination in biogas plants in Sweden meets the SPCR 120 regulation (
+                  - link "Sverige, 2018" [ref=f1e698] [cursor=pointer]:
+                    - /url: "#b0290"
+                  - text: ) as an average of 20 cm
+                  - superscript [ref=f1e700]: "2"
+                  - text: plastics/kg digestate residue in a sample taken once a month under a period of 12 months.
+                - generic [ref=f1e701]: Consequently, there is a need to gain more knowledge about the nature and growth features of microbial strains capable of biopolymer degradation in order to achieve an efficient anaerobic biodegradation process and to understand the mechanisms involved. The microbial strains that are currently isolated or yet to be isolated can then be used as bioactive agents in the anaerobic degradation process. With these suggestions, hopefully, bioplastic bags used for OFMSW collection would avoid plastic contamination and loss of valuable organic matter and improve performance and biological processes.
+              - generic [ref=f1e702]:
+                - heading "6. Conclusions" [level=2] [ref=f1e703]
+                - generic [ref=f1e704]: Biodegradation of bioplastics is dependent on the physical and chemical properties of the polymers. Different biopolymers are degraded by different microorganisms, and different microbial communities are available in the same digester depending on the composition of the waste available. The complexity of the biodegradation processes for biopolymers in a digester, challenges regulations. However, standards for the biodegradability of bioplastics exist, although standardization of collecting bags for the OFMSW needs more research to meet the conditions of an active biogas plant and improve the biological processes in the digester, such as the hydraulic retention time and the average composition of the waste.
+            - generic [ref=f1e705]:
+              - heading "Acknowledgements:" [level=2] [ref=f1e706]
+              - generic [ref=f1e707]: This study was funded by University of Borås and Åforsk foundation (project ID 14-474). The authors are grateful to Anders Hedenstedt (RISE, Lund, Sweden) for personal conversation conducted about standards applied and requirements fulfilled at the local biogas plant and to Ramkumar B. Nair for his contribution to microbial concerns.
+          - generic [ref=f1e709]:
+            - heading "References" [level=2] [ref=f1e710]
+            - list [ref=f1e712]:
+              - listitem [ref=f1e713]:
+                - link "Abou-Zeid et al., 2001" [ref=f1e715] [cursor=pointer]:
+                  - /url: "#bb0005"
+                - generic [ref=f1e717]:
+                  - generic [ref=f1e718]:
+                    - generic [ref=f1e719]: D.-M. Abou-Zeid, R.-J. Müller, W.-D. Deckwer
+                    - generic [ref=f1e720]: Degradation of natural and synthetic polyesters under anaerobic conditions
+                  - generic [ref=f1e721]: J. Biotechnol., 86 (2001), pp. 113-126
+                  - link [ref=f1e723] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Degradation%20of%20natural%20and%20synthetic%20polyesters%20under%20anaerobic%20conditions&publication_year=2001&author=D.-M.%20Abou-Zeid&author=R.-J.%20M%C3%BCller&author=W.-D.%20Deckwer
+                    - generic [ref=f1e724]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e725]
+              - listitem [ref=f1e727]:
+                - link "Ahmed et al., 2018" [ref=f1e729] [cursor=pointer]:
+                  - /url: "#bb0010"
+                - generic [ref=f1e731]:
+                  - generic [ref=f1e732]:
+                    - generic [ref=f1e733]: T. Ahmed, M. Shahid, F. Azeem, I. Rasul, A.A. Shah, M. Noman, A. Hameed, N. Manzoor, I. Manzoor, S. Muhammad
+                    - generic [ref=f1e734]: "Biodegradation of plastics: current scenario and future prospects for environmental safety"
+                  - generic [ref=f1e735]: Environ. Sci. Pollut. Res. (2018)
+                  - link [ref=f1e737] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Biodegradation%20of%20plastics%3A%20current%20scenario%20and%20future%20prospects%20for%20environmental%20safety&publication_year=2018&author=T.%20Ahmed&author=M.%20Shahid&author=F.%20Azeem&author=I.%20Rasul&author=A.A.%20Shah&author=M.%20Noman&author=A.%20Hameed&author=N.%20Manzoor&author=I.%20Manzoor&author=S.%20Muhammad
+                    - generic [ref=f1e738]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e739]
+              - listitem [ref=f1e741]:
+                - link "Albanna, 2013" [ref=f1e743] [cursor=pointer]:
+                  - /url: "#bb0015"
+                - generic [ref=f1e745]:
+                  - generic [ref=f1e746]:
+                    - generic [ref=f1e747]: M. Albanna
+                    - generic [ref=f1e748]: Anaerobic digestion of the organic fraction of municipal solid waste
+                  - generic [ref=f1e749]: A. Malik, E. Grohmann, M. Alves (Eds.), Management of Microbial Resources in the Environment, Springer, Dordrecht (2013), pp. 313-340
+                  - link [ref=f1e751] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Anaerobic%20digestion%20of%20the%20organic%20fraction%20of%20municipal%20solid%20waste&publication_year=2013&author=M.%20Albanna
+                    - generic [ref=f1e752]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e753]
+              - listitem [ref=f1e755]:
+                - link "Amass et al., 1998" [ref=f1e757] [cursor=pointer]:
+                  - /url: "#bb0020"
+                - generic [ref=f1e759]:
+                  - generic [ref=f1e760]:
+                    - generic [ref=f1e761]: W. Amass, A. Amass, B. Tighe
+                    - generic [ref=f1e762]: "A review of biodegradable polymers: Uses, current developments in the synthesis and characterization of biodegradable polyesters, blends of biodegradable polymers and recent advances in biodegradation studies"
+                  - generic [ref=f1e763]: Polym. Int., 47 (1998), pp. 89-144
+                  - link [ref=f1e765] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=A%20review%20of%20biodegradable%20polymers%3A%20Uses%2C%20current%20developments%20in%20the%20synthesis%20and%20characterization%20of%20biodegradable%20polyesters%2C%20blends%20of%20biodegradable%20polymers%20and%20recent%20advances%20in%20biodegradation%20studies&publication_year=1998&author=W.%20Amass&author=A.%20Amass&author=B.%20Tighe
+                    - generic [ref=f1e766]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e767]
+              - listitem [ref=f1e769]:
+                - link "Bastioli, 1998" [ref=f1e771] [cursor=pointer]:
+                  - /url: "#bb0025"
+                - generic [ref=f1e773]:
+                  - generic [ref=f1e774]:
+                    - generic [ref=f1e775]: C. Bastioli
+                    - generic [ref=f1e776]: Properties and applications of Mater-Bi starch-based materials
+                  - generic [ref=f1e777]: Polym. Degrad. Stab., 59 (1998), pp. 263-272
+                  - link [ref=f1e779] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Properties%20and%20applications%20of%20Mater-Bi%20starch-based%20materials&publication_year=1998&author=C.%20Bastioli
+                    - generic [ref=f1e780]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e781]
+              - listitem [ref=f1e783]:
+                - link "Bátori et al., 2017" [ref=f1e785] [cursor=pointer]:
+                  - /url: "#bb0030"
+                - generic [ref=f1e787]:
+                  - generic [ref=f1e788]:
+                    - generic [ref=f1e789]: V. Bátori, M. Jabbari, D. Åkesson, P.R. Lennartsson, M.J. Taherzadeh, A. Zamani
+                    - generic [ref=f1e790]: "Production of pectin-cellulose biofilms: a new approach for citrus waste recycling"
+                  - generic [ref=f1e791]: Int. J. Polym. Sci., 2017 (2017), p. 9
+                  - link [ref=f1e793] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Production%20of%20pectin-cellulose%20biofilms%3A%20a%20new%20approach%20for%20citrus%20waste%20recycling&publication_year=2017&author=V.%20B%C3%A1tori&author=M.%20Jabbari&author=D.%20%C3%85kesson&author=P.R.%20Lennartsson&author=M.J.%20Taherzadeh&author=A.%20Zamani
+                    - generic [ref=f1e794]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e795]
+              - listitem [ref=f1e797]:
+                - link "Briassoulis et al., 2010" [ref=f1e799] [cursor=pointer]:
+                  - /url: "#bb0035"
+                - generic [ref=f1e801]:
+                  - generic [ref=f1e802]:
+                    - generic [ref=f1e803]: D. Briassoulis, C. Dejean, P. Picuno
+                    - generic [ref=f1e804]: "Critical review of norms and standards for biodegradable agricultural plastics part II: composting"
+                  - generic [ref=f1e805]: J. Polym. Environ., 18 (2010), pp. 364-383
+                  - link [ref=f1e807] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Critical%20review%20of%20norms%20and%20standards%20for%20biodegradable%20agricultural%20plastics%20part%20II%3A%20composting&publication_year=2010&author=D.%20Briassoulis&author=C.%20Dejean&author=P.%20Picuno
+                    - generic [ref=f1e808]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e809]
+              - listitem [ref=f1e811]:
+                - link "Budwill et al., 1992" [ref=f1e813] [cursor=pointer]:
+                  - /url: "#bb0040"
+                - generic [ref=f1e815]:
+                  - generic [ref=f1e816]:
+                    - generic [ref=f1e817]: K. Budwill, P.M. Fedorak, W.J. Page
+                    - generic [ref=f1e818]: Methanogenic degradation of poly(3-hydroxyalkanoates)
+                  - generic [ref=f1e819]: Appl. Environ. Microbiol., 58 (1992), pp. 1398-1401
+                  - link [ref=f1e821] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Methanogenic%20degradation%20of%20poly&publication_year=1992&author=K.%20Budwill&author=P.M.%20Fedorak&author=W.J.%20Page
+                    - generic [ref=f1e822]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e823]
+              - listitem [ref=f1e825]:
+                - link "Calmon-Decriaud et al., 1998" [ref=f1e827] [cursor=pointer]:
+                  - /url: "#bb0045"
+                - generic [ref=f1e829]:
+                  - generic [ref=f1e830]:
+                    - generic [ref=f1e831]: A. Calmon-Decriaud, V. Bellon-Maurel, F. Silvestre
+                    - generic [ref=f1e832]: Standard methods for testing the aerobic biodegradation of polymeric materials. Review and perspectives
+                  - generic [ref=f1e833]: V. Bellon-Maurel, A. Calmon-Decriaud, V. Chandrasekhar, N. Hadjichristidis, J.W. Mays, S. Pispas, M. Pitsikalis, F. Silvestre (Eds.), Blockcopolymers - Polyelectrolytes - Biodegradation, Springer Berlin Heidelberg, Berlin, Heidelberg (1998), pp. 207-226
+                  - link [ref=f1e835] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Standard%20methods%20for%20testing%20the%20aerobic%20biodegradation%20of%20polymeric%20materials.%20Review%20and%20perspectives&publication_year=1998&author=A.%20Calmon-Decriaud&author=V.%20Bellon-Maurel&author=F.%20Silvestre
+                    - generic [ref=f1e836]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e837]
+              - listitem [ref=f1e839]:
+                - link "Cerda et al., 2018" [ref=f1e841] [cursor=pointer]:
+                  - /url: "#bb0050"
+                - generic [ref=f1e843]:
+                  - generic [ref=f1e844]:
+                    - generic [ref=f1e845]: A. Cerda, A. Artola, X. Font, R. Barrena, T. Gea, A. Sánchez
+                    - generic [ref=f1e846]: "Composting of food wastes: status and challenges"
+                  - generic [ref=f1e847]: Bioresour. Technol., 248 (2018), pp. 57-67
+                  - link [ref=f1e849] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Composting%20of%20food%20wastes%3A%20status%20and%20challenges&publication_year=2018&author=A.%20Cerda&author=A.%20Artola&author=X.%20Font&author=R.%20Barrena&author=T.%20Gea&author=A.%20S%C3%A1nchez
+                    - generic [ref=f1e850]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e851]
+              - listitem [ref=f1e853]:
+                - link "Cho et al., 2011" [ref=f1e855] [cursor=pointer]:
+                  - /url: "#bb0055"
+                - generic [ref=f1e857]:
+                  - generic [ref=f1e858]:
+                    - generic [ref=f1e859]: H.S. Cho, H.S. Moon, M. Kim, K. Nam, J.Y. Kim
+                    - generic [ref=f1e860]: Biodegradability and biodegradation rate of poly(caprolactone)-starch blend and poly(butylene succinate) biodegradable polymer under aerobic and anaerobic environment
+                  - generic [ref=f1e861]: Waste Manage. (Oxford), 31 (2011), pp. 475-480
+                  - link [ref=f1e863] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Biodegradability%20and%20biodegradation%20rate%20of%20poly-starch%20blend%20and%20poly%20biodegradable%20polymer%20under%20aerobic%20and%20anaerobic%20environment&publication_year=2011&author=H.S.%20Cho&author=H.S.%20Moon&author=M.%20Kim&author=K.%20Nam&author=J.Y.%20Kim
+                    - generic [ref=f1e864]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e865]
+              - listitem [ref=f1e867]:
+                - link "Davis and Song, 2006" [ref=f1e869] [cursor=pointer]:
+                  - /url: "#bb0060"
+                - generic [ref=f1e871]:
+                  - generic [ref=f1e872]:
+                    - generic [ref=f1e873]: G. Davis, J.H. Song
+                    - generic [ref=f1e874]: Biodegradable packaging based on raw materials from crops and their impact on waste management
+                  - generic [ref=f1e875]: Ind. Crop. Prod., 23 (2006), pp. 147-161
+                  - link [ref=f1e877] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Biodegradable%20packaging%20based%20on%20raw%20materials%20from%20crops%20and%20their%20impact%20on%20waste%20management&publication_year=2006&author=G.%20Davis&author=J.H.%20Song
+                    - generic [ref=f1e878]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e879]
+              - listitem [ref=f1e881]:
+                - link "Endres and Siebert-Raths, 2011" [ref=f1e883] [cursor=pointer]:
+                  - /url: "#bb0065"
+                - generic [ref=f1e885]:
+                  - generic [ref=f1e886]:
+                    - generic [ref=f1e887]: H.-J. Endres, A. Siebert-Raths
+                    - generic [ref=f1e888]: End-of-life options for biopolymers
+                  - generic [ref=f1e889]: H.-.J. Endres, A. Siebert-Raths (Eds.), Engineering Biopolymers - Markets, Manufacturing, Properties and Applications, Hanser Publishers, Munich (2011)
+                  - link [ref=f1e891] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=End-of-life%20options%20for%20biopolymers&publication_year=2011&author=H.-J.%20Endres&author=A.%20Siebert-Raths
+                    - generic [ref=f1e892]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e893]
+              - listitem [ref=f1e895]:
+                - link "Grima et al., 2000" [ref=f1e897] [cursor=pointer]:
+                  - /url: "#bb0070"
+                - generic [ref=f1e899]:
+                  - generic [ref=f1e900]:
+                    - generic [ref=f1e901]: S. Grima, V. Bellon-Maurel, P. Feuilloley, F. Silvestre
+                    - generic [ref=f1e902]: "Aerobic biodegradation of polymers in solid-state conditions: a review of environmental and physicochemical parameter settings in laboratory simulations"
+                  - generic [ref=f1e903]: J. Polym. Environ., 8 (2000), pp. 183-195
+                  - link [ref=f1e905] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Aerobic%20biodegradation%20of%20polymers%20in%20solid-state%20conditions%3A%20a%20review%20of%20environmental%20and%20physicochemical%20parameter%20settings%20in%20laboratory%20simulations&publication_year=2000&author=S.%20Grima&author=V.%20Bellon-Maurel&author=P.%20Feuilloley&author=F.%20Silvestre
+                    - generic [ref=f1e906]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e907]
+              - listitem [ref=f1e909]:
+                - link "Hamad et al., 2015" [ref=f1e911] [cursor=pointer]:
+                  - /url: "#bb0075"
+                - generic [ref=f1e913]:
+                  - generic [ref=f1e914]:
+                    - generic [ref=f1e915]: K. Hamad, M. Kaseem, H.W. Yang, F. Deri, Y.G. Ko
+                    - generic [ref=f1e916]: "Properties and medical applications of polylactic acid: a review"
+                  - generic [ref=f1e917]: eXPRESS Polym. Lett., 9 (2015), pp. 435-455
+                  - link [ref=f1e919] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Properties%20and%20medical%20applications%20of%20polylactic%20acid%3A%20a%20review&publication_year=2015&author=K.%20Hamad&author=M.%20Kaseem&author=H.W.%20Yang&author=F.%20Deri&author=Y.G.%20Ko
+                    - generic [ref=f1e920]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e921]
+              - listitem [ref=f1e923]:
+                - link "Hawkins, 1984" [ref=f1e925] [cursor=pointer]:
+                  - /url: "#bb0080"
+                - generic [ref=f1e927]:
+                  - generic [ref=f1e928]:
+                    - generic [ref=f1e929]: W.L. Hawkins
+                    - generic [ref=f1e930]: Polymer Degradation, Polymer Degradation and Stabilization
+                  - generic [ref=f1e931]: Springer, Berlin Heidelberg, Berlin, Heidelberg (1984), pp. 3-34
+                  - link [ref=f1e933] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Polymer%20Degradation%2C%20Polymer%20Degradation%20and%20Stabilization&publication_year=1984&author=W.L.%20Hawkins
+                    - generic [ref=f1e934]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e935]
+              - listitem [ref=f1e937]:
+                - link "Hoornweg and Bhada-Tata, 2012" [ref=f1e939] [cursor=pointer]:
+                  - /url: "#bb0085"
+                - generic [ref=f1e941]:
+                  - generic [ref=f1e942]:
+                    - generic [ref=f1e943]: D. Hoornweg, P. Bhada-Tata
+                    - generic [ref=f1e944]: What a waste - A Global Review of Solid Waste Management
+                  - generic [ref=f1e945]: World Bank, Washington DC, USA (2012), p. 17
+                  - link [ref=f1e947] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=What%20a%20waste%20-%20A%20Global%20Review%20of%20Solid%20Waste%20Management&publication_year=2012&author=D.%20Hoornweg&author=P.%20Bhada-Tata
+                    - generic [ref=f1e948]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e949]
+              - listitem [ref=f1e951]:
+                - link "IfBB, 2017" [ref=f1e953] [cursor=pointer]:
+                  - /url: "#bb0090"
+                - generic [ref=f1e955]:
+                  - generic [ref=f1e956]:
+                    - generic [ref=f1e957]: IfBB
+                    - generic [ref=f1e958]: Biopolymers – Facts and statistics 2017
+                  - generic [ref=f1e959]: IfBB - Institute for Bioplastics and Biocomposites, Hannover (2017)
+                  - link [ref=f1e961] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Biopolymers%20%20Facts%20and%20statistics%202017&publication_year=2017&author=IfBB
+                    - generic [ref=f1e962]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e963]
+              - listitem [ref=f1e965]:
+                - link "International, 2018" [ref=f1e967] [cursor=pointer]:
+                  - /url: "#bb0095"
+                - generic [ref=f1e969]:
+                  - generic [ref=f1e970]: International, A., 2018. Standard Test Method for Determining Anaerobic Biodegradation of Plastic Materials Under High-Solids Anaerobic-Digestion Conditions.
+                  - link [ref=f1e972] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar?q=International%2C%20A.%2C%202018.%20Standard%20Test%20Method%20for%20Determining%20Anaerobic%20Biodegradation%20of%20Plastic%20Materials%20Under%20High-Solids%20Anaerobic-Digestion%20Conditions.
+                    - generic [ref=f1e973]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e974]
+              - listitem [ref=f1e976]:
+                - link "Itävaara et al., 2002" [ref=f1e978] [cursor=pointer]:
+                  - /url: "#bb0100"
+                - generic [ref=f1e980]:
+                  - generic [ref=f1e981]:
+                    - generic [ref=f1e982]: M. Itävaara, S. Karjomaa, J.-F. Selin
+                    - generic [ref=f1e983]: Biodegradation of polylactide in aerobic and anaerobic thermophilic conditions
+                  - generic [ref=f1e984]: Chemosphere, 46 (2002), pp. 879-885
+                  - link [ref=f1e986] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Biodegradation%20of%20polylactide%20in%20aerobic%20and%20anaerobic%20thermophilic%20conditions&publication_year=2002&author=M.%20It%C3%A4vaara&author=S.%20Karjomaa&author=J.-F.%20Selin
+                    - generic [ref=f1e987]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e988]
+              - listitem [ref=f1e990]:
+                - link "Itävaara and Vikman, 1996" [ref=f1e992] [cursor=pointer]:
+                  - /url: "#bb0105"
+                - generic [ref=f1e994]:
+                  - generic [ref=f1e995]:
+                    - generic [ref=f1e996]: M. Itävaara, M. Vikman
+                    - generic [ref=f1e997]: An overview of methods for biodegradability testing of biopolymers and packaging materials
+                  - generic [ref=f1e998]: J. Environ. Polym. Degrad., 4 (1996), pp. 29-36
+                  - link [ref=f1e1000] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=An%20overview%20of%20methods%20for%20biodegradability%20testing%20of%20biopolymers%20and%20packaging%20materials&publication_year=1996&author=M.%20It%C3%A4vaara&author=M.%20Vikman
+                    - generic [ref=f1e1001]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1002]
+              - listitem [ref=f1e1004]:
+                - link "Kale et al., 2007" [ref=f1e1006] [cursor=pointer]:
+                  - /url: "#bb0110"
+                - generic [ref=f1e1008]:
+                  - generic [ref=f1e1009]:
+                    - generic [ref=f1e1010]: G. Kale, T. Kijchavengkul, R. Auras, M. Rubino, S.E. Selke, S.P. Singh
+                    - generic [ref=f1e1011]: "Compostability of bioplastic packaging materials: an overview"
+                  - generic [ref=f1e1012]: Macromol. Biosci., 7 (2007), pp. 255-277
+                  - link [ref=f1e1014] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Compostability%20of%20bioplastic%20packaging%20materials%3A%20an%20overview&publication_year=2007&author=G.%20Kale&author=T.%20Kijchavengkul&author=R.%20Auras&author=M.%20Rubino&author=S.E.%20Selke&author=S.P.%20Singh
+                    - generic [ref=f1e1015]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1016]
+              - listitem [ref=f1e1018]:
+                - link "Koller et al., 2017" [ref=f1e1020] [cursor=pointer]:
+                  - /url: "#bb0115"
+                - generic [ref=f1e1022]:
+                  - generic [ref=f1e1023]:
+                    - generic [ref=f1e1024]: M. Koller, L. Maršálek, M.M. de Sousa Dias, G. Braunegg
+                    - generic [ref=f1e1025]: Producing microbial polyhydroxyalkanoate (PHA) biopolyesters in a sustainable manner
+                  - generic [ref=f1e1026]: New Biotechnol., 37 (2017), pp. 24-38
+                  - link [ref=f1e1028] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Producing%20microbial%20polyhydroxyalkanoate%20%20biopolyesters%20in%20a%20sustainable%20manner&publication_year=2017&author=M.%20Koller&author=L.%20Mar%C5%A1%C3%A1lek&author=M.M.%20de%20Sousa%20Dias&author=G.%20Braunegg
+                    - generic [ref=f1e1029]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1030]
+              - listitem [ref=f1e1032]:
+                - link "Kolstad et al., 2012" [ref=f1e1034] [cursor=pointer]:
+                  - /url: "#bb0120"
+                - generic [ref=f1e1036]:
+                  - generic [ref=f1e1037]:
+                    - generic [ref=f1e1038]: J.J. Kolstad, E.T.H. Vink, B. De Wilde, L. Debeer
+                    - generic [ref=f1e1039]: Assessment of anaerobic degradation of Ingeo™ polylactides under accelerated landfill conditions
+                  - generic [ref=f1e1040]: Polym. Degrad. Stab., 97 (2012), pp. 1131-1141
+                  - link [ref=f1e1042] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Assessment%20of%20anaerobic%20degradation%20of%20Ingeo%20polylactides%20under%20accelerated%20landfill%20conditions&publication_year=2012&author=J.J.%20Kolstad&author=E.T.H.%20Vink&author=B.%20De%20Wilde&author=L.%20Debeer
+                    - generic [ref=f1e1043]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1044]
+              - listitem [ref=f1e1046]:
+                - link "Kourmentza et al., 2017" [ref=f1e1048] [cursor=pointer]:
+                  - /url: "#bb0125"
+                - generic [ref=f1e1050]:
+                  - generic [ref=f1e1051]:
+                    - generic [ref=f1e1052]: C. Kourmentza, J. Plácido, N. Venetsaneas, A. Burniol-Figols, C. Varrone, H.N. Gavala, M.A.M. Reis
+                    - generic [ref=f1e1053]: Recent advances and challenges towards sustainable polyhydroxyalkanoate (PHA) production
+                  - generic [ref=f1e1054]: Bioengineering, 4 (2017), p. 55
+                  - link [ref=f1e1056] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Recent%20advances%20and%20challenges%20towards%20sustainable%20polyhydroxyalkanoate%20%20production&publication_year=2017&author=C.%20Kourmentza&author=J.%20Pl%C3%A1cido&author=N.%20Venetsaneas&author=A.%20Burniol-Figols&author=C.%20Varrone&author=H.N.%20Gavala&author=M.A.M.%20Reis
+                    - generic [ref=f1e1057]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1058]
+              - listitem [ref=f1e1060]:
+                - link "Lee and Choi, 1999" [ref=f1e1062] [cursor=pointer]:
+                  - /url: "#bb0130"
+                - generic [ref=f1e1064]:
+                  - generic [ref=f1e1065]:
+                    - generic [ref=f1e1066]: S.Y. Lee, J. Choi
+                    - generic [ref=f1e1067]: Production and degradation of polyhydroxyalkanoates in waste environment
+                  - generic [ref=f1e1068]: Waste Manage. (Oxford), 19 (1999), pp. 133-139
+                  - link [ref=f1e1070] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Production%20and%20degradation%20of%20polyhydroxyalkanoates%20in%20waste%20environment&publication_year=1999&author=S.Y.%20Lee&author=J.%20Choi
+                    - generic [ref=f1e1071]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1072]
+              - listitem [ref=f1e1074]:
+                - link "Lu et al., 2009" [ref=f1e1076] [cursor=pointer]:
+                  - /url: "#bb0135"
+                - generic [ref=f1e1078]:
+                  - generic [ref=f1e1079]:
+                    - generic [ref=f1e1080]: J. Lu, R.C. Tappel, C.T. Nomura
+                    - generic [ref=f1e1081]: "Mini-Review: Biosynthesis of Poly(hydroxyalkanoates)"
+                  - generic [ref=f1e1082]: Polym. Rev., 49 (2009), pp. 226-248
+                  - link [ref=f1e1084] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Mini-Review%3A%20Biosynthesis%20of%20Poly&publication_year=2009&author=J.%20Lu&author=R.C.%20Tappel&author=C.T.%20Nomura
+                    - generic [ref=f1e1085]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1086]
+              - listitem [ref=f1e1088]:
+                - link "Lucas et al., 2008" [ref=f1e1090] [cursor=pointer]:
+                  - /url: "#bb0140"
+                - generic [ref=f1e1092]:
+                  - generic [ref=f1e1093]:
+                    - generic [ref=f1e1094]: N. Lucas, C. Bienaime, C. Belloy, M. Queneudec, F. Silvestre, J.-E. Nava-Saucedo
+                    - generic [ref=f1e1095]: "Polymer biodegradation: Mechanisms and estimation techniques – A review"
+                  - generic [ref=f1e1096]: Chemosphere, 73 (2008), pp. 429-442
+                  - link [ref=f1e1098] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Polymer%20biodegradation%3A%20Mechanisms%20and%20estimation%20techniques%20%20A%20review&publication_year=2008&author=N.%20Lucas&author=C.%20Bienaime&author=C.%20Belloy&author=M.%20Queneudec&author=F.%20Silvestre&author=J.-E.%20Nava-Saucedo
+                    - generic [ref=f1e1099]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1100]
+              - listitem [ref=f1e1102]:
+                - link "Massardier-Nageotte et al., 2006" [ref=f1e1104] [cursor=pointer]:
+                  - /url: "#bb0145"
+                - generic [ref=f1e1106]:
+                  - generic [ref=f1e1107]:
+                    - generic [ref=f1e1108]: V. Massardier-Nageotte, C. Pestre, T. Cruard-Pradet, R. Bayard
+                    - generic [ref=f1e1109]: Aerobic and anaerobic biodegradability of polymer films and physico-chemical characterization
+                  - generic [ref=f1e1110]: Polym. Degrad. Stab., 91 (2006), pp. 620-627
+                  - link [ref=f1e1112] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Aerobic%20and%20anaerobic%20biodegradability%20of%20polymer%20films%20and%20physico-chemical%20characterization&publication_year=2006&author=V.%20Massardier-Nageotte&author=C.%20Pestre&author=T.%20Cruard-Pradet&author=R.%20Bayard
+                    - generic [ref=f1e1113]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1114]
+              - listitem [ref=f1e1116]:
+                - link "Matsumura et al., 1993" [ref=f1e1118] [cursor=pointer]:
+                  - /url: "#bb0150"
+                - generic [ref=f1e1120]:
+                  - generic [ref=f1e1121]:
+                    - generic [ref=f1e1122]: S. Matsumura, H. Kurita, H. Shimokobe
+                    - generic [ref=f1e1123]: Anaerobic biodegradability of polyvinyl alcohol
+                  - generic [ref=f1e1124]: Biotechnol. Lett., 15 (1993), pp. 749-754
+                  - link [ref=f1e1126] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Anaerobic%20biodegradability%20of%20polyvinyl%20alcohol&publication_year=1993&author=S.%20Matsumura&author=H.%20Kurita&author=H.%20Shimokobe
+                    - generic [ref=f1e1127]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1128]
+              - listitem [ref=f1e1130]:
+                - link "Matsumura et al., 1999" [ref=f1e1132] [cursor=pointer]:
+                  - /url: "#bb0155"
+                - generic [ref=f1e1134]:
+                  - generic [ref=f1e1135]:
+                    - generic [ref=f1e1136]: S. Matsumura, N. Tomizawa, A. Toki, K. Nishikawa, K. Toshima
+                    - generic [ref=f1e1137]: Novel poly(vinyl alcohol)-degrading enzyme and the degradation mechanism
+                  - generic [ref=f1e1138]: Macromolecules, 32 (1999), pp. 7753-7761
+                  - link [ref=f1e1140] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Novel%20poly-degrading%20enzyme%20and%20the%20degradation%20mechanism&publication_year=1999&author=S.%20Matsumura&author=N.%20Tomizawa&author=A.%20Toki&author=K.%20Nishikawa&author=K.%20Toshima
+                    - generic [ref=f1e1141]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1142]
+              - listitem [ref=f1e1144]:
+                - link "Meeks et al., 2015" [ref=f1e1146] [cursor=pointer]:
+                  - /url: "#bb0160"
+                - generic [ref=f1e1148]:
+                  - generic [ref=f1e1149]:
+                    - generic [ref=f1e1150]: D. Meeks, T. Hottle, M.M. Bilec, A.E. Landis
+                    - generic [ref=f1e1151]: "Compostable biopolymer use in the real world: Stakeholder interviews to better understand the motivations and realities of use and disposal in the US"
+                  - generic [ref=f1e1152]: Resour. Conserv. Recycl., 105 (2015), pp. 134-142
+                  - link [ref=f1e1154] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Compostable%20biopolymer%20use%20in%20the%20real%20world%3A%20Stakeholder%20interviews%20to%20better%20understand%20the%20motivations%20and%20realities%20of%20use%20and%20disposal%20in%20the%20US&publication_year=2015&author=D.%20Meeks&author=T.%20Hottle&author=M.M.%20Bilec&author=A.E.%20Landis
+                    - generic [ref=f1e1155]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1156]
+              - listitem [ref=f1e1158]:
+                - link "Mohee et al., 2008" [ref=f1e1160] [cursor=pointer]:
+                  - /url: "#bb0165"
+                - generic [ref=f1e1162]:
+                  - generic [ref=f1e1163]:
+                    - generic [ref=f1e1164]: R. Mohee, G.D. Unmar, A. Mudhoo, P. Khadoo
+                    - generic [ref=f1e1165]: Biodegradability of biodegradable/degradable plastic materials under aerobic and anaerobic conditions
+                  - generic [ref=f1e1166]: Waste Manage. (Oxford), 28 (2008), pp. 1624-1629
+                  - link [ref=f1e1168] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Biodegradability%20of%20biodegradabledegradable%20plastic%20materials%20under%20aerobic%20and%20anaerobic%20conditions&publication_year=2008&author=R.%20Mohee&author=G.D.%20Unmar&author=A.%20Mudhoo&author=P.%20Khadoo
+                    - generic [ref=f1e1169]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1170]
+              - listitem [ref=f1e1172]:
+                - link "Mori et al., 1996" [ref=f1e1174] [cursor=pointer]:
+                  - /url: "#bb0170"
+                - generic [ref=f1e1176]:
+                  - generic [ref=f1e1177]:
+                    - generic [ref=f1e1178]: T. Mori, M. Sakimoto, T. Kagi, T. Sakai
+                    - generic [ref=f1e1179]: Isolation and characterization of a strain of bacillus megaterium that degrades poly(vinyl alcohol)
+                  - generic [ref=f1e1180]: Biosci. Biotechnol Biochem., 60 (1996), pp. 330-332
+                  - link [ref=f1e1182] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Isolation%20and%20characterization%20of%20a%20strain%20of%20bacillus%20megaterium%20that%20degrades%20poly&publication_year=1996&author=T.%20Mori&author=M.%20Sakimoto&author=T.%20Kagi&author=T.%20Sakai
+                    - generic [ref=f1e1183]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1184]
+              - listitem [ref=f1e1186]:
+                - link "Murphy et al., 1996" [ref=f1e1188] [cursor=pointer]:
+                  - /url: "#bb0175"
+                - generic [ref=f1e1190]:
+                  - generic [ref=f1e1191]:
+                    - generic [ref=f1e1192]: R.J. Murphy, J.A. Cameron, S.J. Huang, R.T. Vinopal
+                    - generic [ref=f1e1193]: Fusarium polycaprolactone depolymerase is cutinase
+                  - generic [ref=f1e1194]: Appl. Environ. Microbiol., 62 (1996), pp. 456-460
+                  - link [ref=f1e1196] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Fusarium%20polycaprolactone%20depolymerase%20is%20cutinase&publication_year=1996&author=R.J.%20Murphy&author=J.A.%20Cameron&author=S.J.%20Huang&author=R.T.%20Vinopal
+                    - generic [ref=f1e1197]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1198]
+              - listitem [ref=f1e1200]:
+                - link "Noda et al., 2009" [ref=f1e1202] [cursor=pointer]:
+                  - /url: "#bb0180"
+                - generic [ref=f1e1204]:
+                  - generic [ref=f1e1205]: "Noda, I., Blake Lindsey, S., Caraway, D., 2009. Nodax™ Class PHA Copolymers: Their Properties and Applications."
+                  - link [ref=f1e1207] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar?q=Noda%2C%20I.%2C%20Blake%20Lindsey%2C%20S.%2C%20Caraway%2C%20D.%2C%202009.%20Nodax%E2%84%A2%20Class%20PHA%20Copolymers%3A%20Their%20Properties%20and%20Applications.
+                    - generic [ref=f1e1208]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1209]
+              - listitem [ref=f1e1211]:
+                - link "Philip et al., 2007" [ref=f1e1213] [cursor=pointer]:
+                  - /url: "#bb0185"
+                - generic [ref=f1e1215]:
+                  - generic [ref=f1e1216]:
+                    - generic [ref=f1e1217]: S. Philip, T. Keshavarz, I. Roy
+                    - generic [ref=f1e1218]: "Polyhydroxyalkanoates: biodegradable polymers with a range of applications"
+                  - generic [ref=f1e1219]: J. Chem. Technol. Biotechnol., 82 (2007), pp. 233-247
+                  - link [ref=f1e1221] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Polyhydroxyalkanoates%3A%20biodegradable%20polymers%20with%20a%20range%20of%20applications&publication_year=2007&author=S.%20Philip&author=T.%20Keshavarz&author=I.%20Roy
+                    - generic [ref=f1e1222]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1223]
+              - listitem [ref=f1e1225]:
+                - link "Pranamuda et al., 1997" [ref=f1e1227] [cursor=pointer]:
+                  - /url: "#bb0190"
+                - generic [ref=f1e1229]:
+                  - generic [ref=f1e1230]:
+                    - generic [ref=f1e1231]: H. Pranamuda, Y. Tokiwa, H. Tanaka
+                    - generic [ref=f1e1232]:
+                      - text: Polylactide degradation by an
+                      - emphasis [ref=f1e1233]: Amycolatopsis sp
+                  - generic [ref=f1e1234]: Appl. Environ. Microbiol., 63 (1997), pp. 1637-1640
+                  - link [ref=f1e1236] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Polylactide%20degradation%20by%20an%20Amycolatopsis%20sp&publication_year=1997&author=H.%20Pranamuda&author=Y.%20Tokiwa&author=H.%20Tanaka
+                    - generic [ref=f1e1237]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1238]
+              - listitem [ref=f1e1240]:
+                - link "Pšeja et al., 2006" [ref=f1e1242] [cursor=pointer]:
+                  - /url: "#bb0195"
+                - generic [ref=f1e1244]:
+                  - generic [ref=f1e1245]:
+                    - generic [ref=f1e1246]: J. Pšeja, H. Charvátová, P. Hruzík, J. Hrnčiřík, J. Kupec
+                    - generic [ref=f1e1247]: Anaerobic biodegradation of blends based on polyvinyl alcohol
+                  - generic [ref=f1e1248]: J. Polym. Environ., 14 (2006), pp. 185-190
+                  - link [ref=f1e1250] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Anaerobic%20biodegradation%20of%20blends%20based%20on%20polyvinyl%20alcohol&publication_year=2006&author=J.%20P%C5%A1eja&author=H.%20Charv%C3%A1tov%C3%A1&author=P.%20Hruz%C3%ADk&author=J.%20Hrn%C4%8Di%C5%99%C3%ADk&author=J.%20Kupec
+                    - generic [ref=f1e1251]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1252]
+              - listitem [ref=f1e1254]:
+                - link "Reddy et al., 2003" [ref=f1e1256] [cursor=pointer]:
+                  - /url: "#bb0200"
+                - generic [ref=f1e1258]:
+                  - generic [ref=f1e1259]:
+                    - generic [ref=f1e1260]: C.S.K. Reddy, R. Ghai, Rashmi, V.C. Kalia
+                    - generic [ref=f1e1261]: "Polyhydroxyalkanoates: an overview"
+                  - generic [ref=f1e1262]: Bioresour. Technol., 87 (2003), pp. 137-146
+                  - link [ref=f1e1264] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Polyhydroxyalkanoates%3A%20an%20overview&publication_year=2003&author=C.S.K.%20Reddy&author=R.%20Ghai&author=Rashmi&author=V.C.%20Kalia
+                    - generic [ref=f1e1265]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1266]
+              - listitem [ref=f1e1268]:
+                - link "Ruiz and Flotats, 2014" [ref=f1e1270] [cursor=pointer]:
+                  - /url: "#bb0205"
+                - generic [ref=f1e1272]:
+                  - generic [ref=f1e1273]:
+                    - generic [ref=f1e1274]: B. Ruiz, X. Flotats
+                    - generic [ref=f1e1275]: "Citrus essential oils and their influence on the anaerobic digestion process: An overview"
+                  - generic [ref=f1e1276]: Waste Manage. (Oxford), 34 (2014), pp. 2063-2079
+                  - link [ref=f1e1278] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Citrus%20essential%20oils%20and%20their%20influence%20on%20the%20anaerobic%20digestion%20process%3A%20An%20overview&publication_year=2014&author=B.%20Ruiz&author=X.%20Flotats
+                    - generic [ref=f1e1279]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1280]
+              - listitem [ref=f1e1282]:
+                - link "Russo et al., 2009" [ref=f1e1284] [cursor=pointer]:
+                  - /url: "#bb0210"
+                - generic [ref=f1e1286]:
+                  - generic [ref=f1e1287]:
+                    - generic [ref=f1e1288]: M.A.L. Russo, C. O’Sullivan, B. Rounsefell, P.J. Halley, R. Truss, W.P. Clarke
+                    - generic [ref=f1e1289]: "The anaerobic degradability of thermoplastic starch: Polyvinyl alcohol blends: Potential biodegradable food packaging materials"
+                  - generic [ref=f1e1290]: Bioresour. Technol., 100 (2009), pp. 1705-1710
+                  - link [ref=f1e1292] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=The%20anaerobic%20degradability%20of%20thermoplastic%20starch%3A%20Polyvinyl%20alcohol%20blends%3A%20Potential%20biodegradable%20food%20packaging%20materials&publication_year=2009&author=M.A.L.%20Russo&author=C.%20O%E2%80%99Sullivan&author=B.%20Rounsefell&author=P.J.%20Halley&author=R.%20Truss&author=W.P.%20Clarke
+                    - generic [ref=f1e1293]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1294]
+              - listitem [ref=f1e1296]:
+                - link "Sakazawa et al., 1981" [ref=f1e1298] [cursor=pointer]:
+                  - /url: "#bb0215"
+                - generic [ref=f1e1300]:
+                  - generic [ref=f1e1301]:
+                    - generic [ref=f1e1302]: C. Sakazawa, M. Shimao, Y. Taniguchi, N. Kato
+                    - generic [ref=f1e1303]: Symbiotic utilization of polyvinyl alcohol by mixed cultures
+                  - generic [ref=f1e1304]: Appl. Environ. Microbiol., 41 (1981), pp. 261-267
+                  - link [ref=f1e1306] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Symbiotic%20utilization%20of%20polyvinyl%20alcohol%20by%20mixed%20cultures&publication_year=1981&author=C.%20Sakazawa&author=M.%20Shimao&author=Y.%20Taniguchi&author=N.%20Kato
+                    - generic [ref=f1e1307]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1308]
+              - listitem [ref=f1e1310]:
+                - link "Shah et al., 2008" [ref=f1e1312] [cursor=pointer]:
+                  - /url: "#bb0220"
+                - generic [ref=f1e1314]:
+                  - generic [ref=f1e1315]:
+                    - generic [ref=f1e1316]: A.A. Shah, F. Hasan, A. Hameed, S. Ahmed
+                    - generic [ref=f1e1317]: "Biological degradation of plastics: A comprehensive review"
+                  - generic [ref=f1e1318]: Biotechnol. Adv., 26 (2008), pp. 246-265
+                  - link [ref=f1e1320] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Biological%20degradation%20of%20plastics%3A%20A%20comprehensive%20review&publication_year=2008&author=A.A.%20Shah&author=F.%20Hasan&author=A.%20Hameed&author=S.%20Ahmed
+                    - generic [ref=f1e1321]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1322]
+              - listitem [ref=f1e1324]:
+                - link "Shimao, 2001" [ref=f1e1326] [cursor=pointer]:
+                  - /url: "#bb0225"
+                - generic [ref=f1e1328]:
+                  - generic [ref=f1e1329]:
+                    - generic [ref=f1e1330]: M. Shimao
+                    - generic [ref=f1e1331]: Biodegradation of plastics
+                  - generic [ref=f1e1332]: Curr. Opin. Biotechnol., 12 (2001), pp. 242-247
+                  - link [ref=f1e1334] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Biodegradation%20of%20plastics&publication_year=2001&author=M.%20Shimao
+                    - generic [ref=f1e1335]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1336]
+              - listitem [ref=f1e1338]:
+                - link "Shimao et al., 1986" [ref=f1e1340] [cursor=pointer]:
+                  - /url: "#bb0230"
+                - generic [ref=f1e1342]:
+                  - generic [ref=f1e1343]:
+                    - generic [ref=f1e1344]: M. Shimao, K. Ninomiya, O. Kuno, N. Kato, C. Sakazawa
+                    - generic [ref=f1e1345]: Existence of a novel enzyme, pyrroloquinoline quinone-dependent polyvinyl alcohol dehydrogenase, in a bacterial symbiont, Pseudomonas sp. strain VM15C
+                  - generic [ref=f1e1346]: Appl. Environ. Microbiol., 51 (1986), pp. 268-275
+                  - link [ref=f1e1348] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Existence%20of%20a%20novel%20enzyme%2C%20pyrroloquinoline%20quinone-dependent%20polyvinyl%20alcohol%20dehydrogenase%2C%20in%20a%20bacterial%20symbiont%2C%20Pseudomonas%20sp.%20strain%20VM15C&publication_year=1986&author=M.%20Shimao&author=K.%20Ninomiya&author=O.%20Kuno&author=N.%20Kato&author=C.%20Sakazawa
+                    - generic [ref=f1e1349]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1350]
+              - listitem [ref=f1e1352]:
+                - link "Shimao et al., 1983" [ref=f1e1354] [cursor=pointer]:
+                  - /url: "#bb0235"
+                - generic [ref=f1e1356]:
+                  - generic [ref=f1e1357]:
+                    - generic [ref=f1e1358]: M. Shimao, H. Saimoto, N. Kato, C. Sakazawa
+                    - generic [ref=f1e1359]: Properties and roles of bacterial symbionts of polyvinyl alcohol-utilizing mixed cultures
+                  - generic [ref=f1e1360]: Appl. Environ. Microbiol., 46 (1983), pp. 605-610
+                  - link [ref=f1e1362] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Properties%20and%20roles%20of%20bacterial%20symbionts%20of%20polyvinyl%20alcohol-utilizing%20mixed%20cultures&publication_year=1983&author=M.%20Shimao&author=H.%20Saimoto&author=N.%20Kato&author=C.%20Sakazawa
+                    - generic [ref=f1e1363]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1364]
+              - listitem [ref=f1e1366]:
+                - link "Shimao et al., 1984" [ref=f1e1368] [cursor=pointer]:
+                  - /url: "#bb0240"
+                - generic [ref=f1e1370]:
+                  - generic [ref=f1e1371]:
+                    - generic [ref=f1e1372]: M. Shimao, H. Yamamoto, K. Ninomiya, N. Kato, O. Adachi, M. Ameyama, C. Sakazawa
+                    - generic [ref=f1e1373]: Pyrroloquinoline quinone as an essential growth factor for a polyvinyl alcohol)-degrading symbiont, pseudomonas sp. VM15C
+                  - generic [ref=f1e1374]: Agric. Biol. Chem., 48 (1984), pp. 2873-2876
+                  - link [ref=f1e1376] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Pyrroloquinoline%20quinone%20as%20an%20essential%20growth%20factor%20for%20a%20polyvinyl%20alcohol-degrading%20symbiont%2C%20pseudomonas%20sp.%20VM15C&publication_year=1984&author=M.%20Shimao&author=H.%20Yamamoto&author=K.%20Ninomiya&author=N.%20Kato&author=O.%20Adachi&author=M.%20Ameyama&author=C.%20Sakazawa
+                    - generic [ref=f1e1377]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1378]
+              - listitem [ref=f1e1380]:
+                - link "Shin et al., 1997" [ref=f1e1382] [cursor=pointer]:
+                  - /url: "#bb0245"
+                - generic [ref=f1e1384]:
+                  - generic [ref=f1e1385]:
+                    - generic [ref=f1e1386]: P.K. Shin, M.H. Kim, J.M. Kim
+                    - generic [ref=f1e1387]: Biodegradability of degradable plastics exposed to anaerobic digested sludge and simulated landfill conditions
+                  - generic [ref=f1e1388]: J. Environ. Polym. Degrad., 5 (1997), pp. 33-39
+                  - link [ref=f1e1390] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Biodegradability%20of%20degradable%20plastics%20exposed%20to%20anaerobic%20digested%20sludge%20and%20simulated%20landfill%20conditions&publication_year=1997&author=P.K.%20Shin&author=M.H.%20Kim&author=J.M.%20Kim
+                    - generic [ref=f1e1391]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1392]
+              - listitem [ref=f1e1394]:
+                - link "Siracusa et al., 2008" [ref=f1e1396] [cursor=pointer]:
+                  - /url: "#bb0250"
+                - generic [ref=f1e1398]:
+                  - generic [ref=f1e1399]:
+                    - generic [ref=f1e1400]: V. Siracusa, P. Rocculi, S. Romani, M.D. Rosa
+                    - generic [ref=f1e1401]: "Biodegradable polymers for food packaging: a review"
+                  - generic [ref=f1e1402]: Trends Food Sci. Tech., 19 (2008), pp. 634-643
+                  - link [ref=f1e1404] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Biodegradable%20polymers%20for%20food%20packaging%3A%20a%20review&publication_year=2008&author=V.%20Siracusa&author=P.%20Rocculi&author=S.%20Romani&author=M.D.%20Rosa
+                    - generic [ref=f1e1405]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1406]
+              - listitem [ref=f1e1408]:
+                - link "Smith et al., 2017" [ref=f1e1410] [cursor=pointer]:
+                  - /url: "#bb0255"
+                - generic [ref=f1e1412]:
+                  - generic [ref=f1e1413]:
+                    - generic [ref=f1e1414]: M.M. Smith, J.D. Aber, R. Rynk
+                    - generic [ref=f1e1415]: "Heat recovery from composting: a comprehensive review of system design, recovery rate, and utilization"
+                  - generic [ref=f1e1416]: Compost Sci. Utiliz., 25 (2017), pp. S11-S22
+                  - link [ref=f1e1418] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Heat%20recovery%20from%20composting%3A%20a%20comprehensive%20review%20of%20system%20design%2C%20recovery%20rate%2C%20and%20utilization&publication_year=2017&author=M.M.%20Smith&author=J.D.%20Aber&author=R.%20Rynk
+                    - generic [ref=f1e1419]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1420]
+              - listitem [ref=f1e1422]:
+                - link "Song et al., 2009" [ref=f1e1424] [cursor=pointer]:
+                  - /url: "#bb0260"
+                - generic [ref=f1e1426]:
+                  - generic [ref=f1e1427]:
+                    - generic [ref=f1e1428]: J.H. Song, R.J. Murphy, R. Narayan, G.B.H. Davies
+                    - generic [ref=f1e1429]: Biodegradable and compostable alternatives to conventional plastics
+                  - generic [ref=f1e1430]: Phil. Trans. R. Soc. B, 364 (2009), pp. 2127-2139
+                  - link [ref=f1e1432] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Biodegradable%20and%20compostable%20alternatives%20to%20conventional%20plastics&publication_year=2009&author=J.H.%20Song&author=R.J.%20Murphy&author=R.%20Narayan&author=G.B.H.%20Davies
+                    - generic [ref=f1e1433]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1434]
+              - listitem [ref=f1e1436]:
+                - link "Standardization, 2000" [ref=f1e1438] [cursor=pointer]:
+                  - /url: "#bb0265"
+                - generic [ref=f1e1440]:
+                  - generic [ref=f1e1441]: Standardization, E.C.f., 2000. Packaging - Requirements for packaging recoverable through composting and biodegradation - Test scheme and evaluation criteria for the final acceptance of packaging, Brussels.
+                  - link [ref=f1e1443] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar?q=Standardization%2C%20E.C.f.%2C%202000.%20Packaging%20-%20Requirements%20for%20packaging%20recoverable%20through%20composting%20and%20biodegradation%20-%20Test%20scheme%20and%20evaluation%20criteria%20for%20the%20final%20acceptance%20of%20packaging%2C%20Brussels.
+                    - generic [ref=f1e1444]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1445]
+              - listitem [ref=f1e1447]:
+                - link "Standardization, 2012" [ref=f1e1449] [cursor=pointer]:
+                  - /url: "#bb0270"
+                - generic [ref=f1e1451]:
+                  - generic [ref=f1e1452]: Standardization, I.O.f., 2012. Specifications for compostable plastics.
+                  - link [ref=f1e1454] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar?q=Standardization%2C%20I.O.f.%2C%202012.%20Specifications%20for%20compostable%20plastics.
+                    - generic [ref=f1e1455]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1456]
+              - listitem [ref=f1e1458]:
+                - link "Standardization, 2014" [ref=f1e1460] [cursor=pointer]:
+                  - /url: "#bb0275"
+                - generic [ref=f1e1462]:
+                  - generic [ref=f1e1463]: Standardization, I.O.f., 2014. Plastics — Determination of the ultimate anaerobic biodegradation under high-solids anaerobic-digestion conditions — Method by analysis of released biogas.
+                  - link [ref=f1e1465] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar?q=Standardization%2C%20I.O.f.%2C%202014.%20Plastics%20%E2%80%94%20Determination%20of%20the%20ultimate%20anaerobic%20biodegradation%20under%20high-solids%20anaerobic-digestion%20conditions%20%E2%80%94%20Method%20by%20analysis%20of%20released%20biogas.
+                    - generic [ref=f1e1466]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1467]
+              - listitem [ref=f1e1469]:
+                - link "Standardization, 2016" [ref=f1e1471] [cursor=pointer]:
+                  - /url: "#bb0280"
+                - generic [ref=f1e1473]:
+                  - generic [ref=f1e1474]: Standardization, I.O.f., 2016. Plastics — Determination of the ultimate anaerobic biodegradation of plastic materials in an aqueous system — Method by measurement of biogas production.
+                  - link [ref=f1e1476] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar?q=Standardization%2C%20I.O.f.%2C%202016.%20Plastics%20%E2%80%94%20Determination%20of%20the%20ultimate%20anaerobic%20biodegradation%20of%20plastic%20materials%20in%20an%20aqueous%20system%20%E2%80%94%20Method%20by%20measurement%20of%20biogas%20production.
+                    - generic [ref=f1e1477]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1478]
+              - listitem [ref=f1e1480]:
+                - link "Suzuki et al., 1973" [ref=f1e1482] [cursor=pointer]:
+                  - /url: "#bb0285"
+                - generic [ref=f1e1484]:
+                  - generic [ref=f1e1485]:
+                    - generic [ref=f1e1486]: T. Suzuki, Y. Ichihara, M. Yamada, K. Tonomura
+                    - generic [ref=f1e1487]: Some characteristics of pseudomonas 0–3 which utilizes polyvinyl alcohol
+                  - generic [ref=f1e1488]: Agric. Biol. Chem., 37 (1973), pp. 747-756
+                  - link [ref=f1e1490] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Some%20characteristics%20of%20pseudomonas%2003%20which%20utilizes%20polyvinyl%20alcohol&publication_year=1973&author=T.%20Suzuki&author=Y.%20Ichihara&author=M.%20Yamada&author=K.%20Tonomura
+                    - generic [ref=f1e1491]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1492]
+              - listitem [ref=f1e1494]:
+                - link "Sverige, 2018" [ref=f1e1496] [cursor=pointer]:
+                  - /url: "#bb0290"
+                - generic [ref=f1e1498]:
+                  - generic [ref=f1e1499]:
+                    - generic [ref=f1e1500]: A. Sverige
+                    - generic [ref=f1e1501]: Certifieringsregler för Biogödsel SPCR 120
+                  - generic [ref=f1e1502]: Malmö, Sweden (2018)
+                  - link [ref=f1e1504] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Certifieringsregler%20f%C3%B6r%20Biog%C3%B6dsel%20SPCR%20120&publication_year=2018&author=A.%20Sverige
+                    - generic [ref=f1e1505]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1506]
+              - listitem [ref=f1e1508]:
+                - link "Tokiwa et al., 2009" [ref=f1e1510] [cursor=pointer]:
+                  - /url: "#bb0295"
+                - generic [ref=f1e1512]:
+                  - generic [ref=f1e1513]:
+                    - generic [ref=f1e1514]: Y. Tokiwa, B.P. Calabia, C.U. Ugwu, S. Aiba
+                    - generic [ref=f1e1515]: Biodegradability of plastics
+                  - generic [ref=f1e1516]: Int. J. Mol. Sci., 10 (2009), p. 3722
+                  - link [ref=f1e1518] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Biodegradability%20of%20plastics&publication_year=2009&author=Y.%20Tokiwa&author=B.P.%20Calabia&author=C.U.%20Ugwu&author=S.%20Aiba
+                    - generic [ref=f1e1519]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1520]
+              - listitem [ref=f1e1522]:
+                - link "Tomita et al., 1999" [ref=f1e1524] [cursor=pointer]:
+                  - /url: "#bb0300"
+                - generic [ref=f1e1526]:
+                  - generic [ref=f1e1527]:
+                    - generic [ref=f1e1528]: K. Tomita, Y. Kuroki, K. Nagai
+                    - generic [ref=f1e1529]: Isolation of thermophiles degrading poly(l-lactic acid)
+                  - generic [ref=f1e1530]: J. Biosci. Bioeng., 87 (1999), pp. 752-755
+                  - link [ref=f1e1532] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Isolation%20of%20thermophiles%20degrading%20poly&publication_year=1999&author=K.%20Tomita&author=Y.%20Kuroki&author=K.%20Nagai
+                    - generic [ref=f1e1533]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1534]
+              - listitem [ref=f1e1536]:
+                - link "Watanabe et al., 1975" [ref=f1e1538] [cursor=pointer]:
+                  - /url: "#bb0305"
+                - generic [ref=f1e1540]:
+                  - generic [ref=f1e1541]:
+                    - generic [ref=f1e1542]: Y. Watanabe, M. Morita, N. Hamada, Y. Tsujisaka
+                    - generic [ref=f1e1543]: Formation of hydrogen peroxide by a polyvinyl alcohol degrading enzyme
+                  - generic [ref=f1e1544]: Agric. Biol. Chem., 39 (1975), pp. 2447-2448
+                  - link [ref=f1e1546] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Formation%20of%20hydrogen%20peroxide%20by%20a%20polyvinyl%20alcohol%20degrading%20enzyme&publication_year=1975&author=Y.%20Watanabe&author=M.%20Morita&author=N.%20Hamada&author=Y.%20Tsujisaka
+                    - generic [ref=f1e1547]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1548]
+              - listitem [ref=f1e1550]:
+                - link "Verlinden et al., 2007" [ref=f1e1552] [cursor=pointer]:
+                  - /url: "#bb0310"
+                - generic [ref=f1e1554]:
+                  - generic [ref=f1e1555]:
+                    - generic [ref=f1e1556]: R.A.J. Verlinden, D.J. Hill, M.A. Kenward, C.D. Williams, I. Radecka
+                    - generic [ref=f1e1557]: Bacterial synthesis of biodegradable polyhydroxyalkanoates
+                  - generic [ref=f1e1558]: Eur. J. Appl. Microbiol., 102 (2007), pp. 1437-1449
+                  - link [ref=f1e1560] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Bacterial%20synthesis%20of%20biodegradable%20polyhydroxyalkanoates&publication_year=2007&author=R.A.J.%20Verlinden&author=D.J.%20Hill&author=M.A.%20Kenward&author=C.D.%20Williams&author=I.%20Radecka
+                    - generic [ref=f1e1561]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1562]
+              - listitem [ref=f1e1564]:
+                - link "Xu and Guo, 2010" [ref=f1e1566] [cursor=pointer]:
+                  - /url: "#bb0315"
+                - generic [ref=f1e1568]:
+                  - generic [ref=f1e1569]:
+                    - generic [ref=f1e1570]: J. Xu, B.-H. Guo
+                    - generic [ref=f1e1571]: Microbial succinic acid, its polymer poly(butylene succinate), and applications
+                  - generic [ref=f1e1572]: "G.-Q. Chen (Ed.), Plastics from Bacteria: Natural Functions and Applications, Springer Verlag, Berlin (2010), pp. 341-433"
+                  - link [ref=f1e1574] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Microbial%20succinic%20acid%2C%20its%20polymer%20poly%2C%20and%20applications&publication_year=2010&author=J.%20Xu&author=B.-H.%20Guo
+                    - generic [ref=f1e1575]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1576]
+              - listitem [ref=f1e1578]:
+                - link "Yagi et al., 2009a" [ref=f1e1580] [cursor=pointer]:
+                  - /url: "#bb0320"
+                - generic [ref=f1e1582]:
+                  - generic [ref=f1e1583]:
+                    - generic [ref=f1e1584]: H. Yagi, F. Ninomiya, M. Funabashi, M. Kunioka
+                    - generic [ref=f1e1585]: Anaerobic biodegradation tests of poly(lactic acid) and polycaprolactone using new evaluation system for methane fermentation in anaerobic sludge
+                  - generic [ref=f1e1586]: Polym. Degrad. Stab., 94 (2009), pp. 1397-1404
+                  - link [ref=f1e1588] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Anaerobic%20biodegradation%20tests%20of%20poly%20and%20polycaprolactone%20using%20new%20evaluation%20system%20for%20methane%20fermentation%20in%20anaerobic%20sludge&publication_year=2009&author=H.%20Yagi&author=F.%20Ninomiya&author=M.%20Funabashi&author=M.%20Kunioka
+                    - generic [ref=f1e1589]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1590]
+              - listitem [ref=f1e1592]:
+                - link "Yagi et al., 2009b" [ref=f1e1594] [cursor=pointer]:
+                  - /url: "#bb0325"
+                - generic [ref=f1e1596]:
+                  - generic [ref=f1e1597]:
+                    - generic [ref=f1e1598]: H. Yagi, F. Ninomiya, M. Funabashi, M. Kunioka
+                    - generic [ref=f1e1599]: Anaerobic biodegradation tests of poly(lactic acid) under mesophilic and thermophilic conditions using a new evaluation system for methane fermentation in anaerobic sludge
+                  - generic [ref=f1e1600]: Int. J. Mol. Sci., 10 (2009), p. 3824
+                  - link [ref=f1e1602] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Anaerobic%20biodegradation%20tests%20of%20poly%20under%20mesophilic%20and%20thermophilic%20conditions%20using%20a%20new%20evaluation%20system%20for%20methane%20fermentation%20in%20anaerobic%20sludge&publication_year=2009&author=H.%20Yagi&author=F.%20Ninomiya&author=M.%20Funabashi&author=M.%20Kunioka
+                    - generic [ref=f1e1603]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1604]
+              - listitem [ref=f1e1606]:
+                - link "Yagi et al., 2010" [ref=f1e1608] [cursor=pointer]:
+                  - /url: "#bb0330"
+                - generic [ref=f1e1610]:
+                  - generic [ref=f1e1611]:
+                    - generic [ref=f1e1612]: H. Yagi, F. Ninomiya, M. Funabashi, M. Kunioka
+                    - generic [ref=f1e1613]: Bioplastic biodegradation activity of anaerobic sludge prepared by preincubation at 55 °C for new anaerobic biodegradation test
+                  - generic [ref=f1e1614]: Polym. Degrad. Stab., 95 (2010), pp. 1349-1355
+                  - link [ref=f1e1616] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Bioplastic%20biodegradation%20activity%20of%20anaerobic%20sludge%20prepared%20by%20preincubation%20at%2055%20C%20for%20new%20anaerobic%20biodegradation%20test&publication_year=2010&author=H.%20Yagi&author=F.%20Ninomiya&author=M.%20Funabashi&author=M.%20Kunioka
+                    - generic [ref=f1e1617]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1618]
+              - listitem [ref=f1e1620]:
+                - link "Yagi et al., 2012" [ref=f1e1622] [cursor=pointer]:
+                  - /url: "#bb0335"
+                - generic [ref=f1e1624]:
+                  - generic [ref=f1e1625]:
+                    - generic [ref=f1e1626]: H. Yagi, F. Ninomiya, M. Funabashi, M. Kunioka
+                    - generic [ref=f1e1627]: Anaerobic biodegradation of poly (lactic acid) film in anaerobic sludge
+                  - generic [ref=f1e1628]: J. Polym. Environ., 20 (2012), pp. 673-680
+                  - link [ref=f1e1630] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Anaerobic%20biodegradation%20of%20poly%20%20film%20in%20anaerobic%20sludge&publication_year=2012&author=H.%20Yagi&author=F.%20Ninomiya&author=M.%20Funabashi&author=M.%20Kunioka
+                    - generic [ref=f1e1631]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1632]
+              - listitem [ref=f1e1634]:
+                - link "Yagi et al., 2013" [ref=f1e1636] [cursor=pointer]:
+                  - /url: "#bb0340"
+                - generic [ref=f1e1638]:
+                  - generic [ref=f1e1639]:
+                    - generic [ref=f1e1640]: H. Yagi, F. Ninomiya, M. Funabashi, M. Kunioka
+                    - generic [ref=f1e1641]: Thermophilic anaerobic biodegradation test and analysis of eubacteria involved in anaerobic biodegradation of four specified biodegradable polyesters
+                  - generic [ref=f1e1642]: Polym. Degrad. Stab., 98 (2013), pp. 1182-1187
+                  - link [ref=f1e1644] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar_lookup?title=Thermophilic%20anaerobic%20biodegradation%20test%20and%20analysis%20of%20eubacteria%20involved%20in%20anaerobic%20biodegradation%20of%20four%20specified%20biodegradable%20polyesters&publication_year=2013&author=H.%20Yagi&author=F.%20Ninomiya&author=M.%20Funabashi&author=M.%20Kunioka
+                    - generic [ref=f1e1645]:
+                      - text: Google Scholar
+                      - img "Opens in new window" [ref=f1e1646]
+          - link "View Abstract" [ref=f1e1648] [cursor=pointer]:
+            - /url: /science/article/abs/pii/S0956053X18305816
+        - generic [ref=f1e1650]:
+          - generic [ref=f1e1651]:
+            - heading "Recommended articles" [level=2] [ref=f1e1652]
+            - text: Loading...
+          - generic [ref=f1e1653]: © 2018 Elsevier Ltd. All rights reserved.
+    - contentinfo [ref=f1e1654]:
+      - link "Elsevier home page (opens in a new tab)" [ref=f1e1656] [cursor=pointer]:
+        - /url: https://www.elsevier.com/
+        - img "Elsevier logo with wordmark" [ref=f1e1657]
+      - generic [ref=f1e1658]:
+        - list [ref=f1e1660]:
+          - listitem [ref=f1e1661]:
+            - link [ref=f1e1662] [cursor=pointer]:
+              - /url: https://www.elsevier.com/solutions/sciencedirect
+              - generic [ref=f1e1663]:
+                - text: About ScienceDirect
+                - img "Opens in new window" [ref=f1e1664]
+          - listitem [ref=f1e1666]:
+            - link "Remote access" [ref=f1e1667] [cursor=pointer]:
+              - /url: /user/institution/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS0956053X18305816
+          - listitem [ref=f1e1669]:
+            - link [ref=f1e1670] [cursor=pointer]:
+              - /url: https://service.elsevier.com/app/contact/supporthub/sciencedirect/
+              - generic [ref=f1e1671]:
+                - text: Contact and support
+                - img "Opens in new window" [ref=f1e1672]
+          - listitem [ref=f1e1674]:
+            - link [ref=f1e1675] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/elsevier-website-terms-and-conditions
+              - generic [ref=f1e1676]:
+                - text: Terms and conditions
+                - img "Opens in new window" [ref=f1e1677]
+          - listitem [ref=f1e1679]:
+            - link [ref=f1e1680] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/privacy-policy
+              - generic [ref=f1e1681]:
+                - text: Privacy policy
+                - img "Opens in new window" [ref=f1e1682]
+          - listitem [ref=f1e1684]:
+            - button "Cookie settings" [ref=f1e1685] [cursor=pointer]
+        - paragraph [ref=f1e1686]: "All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply."
+      - link "RELX home page (opens in a new tab)" [ref=f1e1688] [cursor=pointer]:
+        - /url: https://www.relx.com/
+        - img "RELX group home page" [ref=f1e1689]
+  - generic:
+    - tooltip

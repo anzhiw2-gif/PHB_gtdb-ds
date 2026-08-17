@@ -1,0 +1,1736 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e3]:
+    - link "Skip to main content":
+      - /url: "#main"
+    - link "Skip to article":
+      - /url: "#article"
+    - banner [ref=f1e6]:
+      - generic [ref=f1e7]: Brought to you by:Southern University of Science and Technology
+      - generic [ref=f1e10]:
+        - link "ScienceDirect home page" [ref=f1e11] [cursor=pointer]:
+          - /url: /
+          - img "Elsevier logo" [ref=f1e12]
+        - generic [ref=f1e21]:
+          - navigation "links" [ref=f1e22]:
+            - list [ref=f1e23]:
+              - listitem [ref=f1e24]:
+                - link "Journals & Books" [ref=f1e25] [cursor=pointer]:
+                  - /url: /browse/journals-and-books
+          - navigation "utilities" [ref=f1e27]:
+            - list [ref=f1e28]:
+              - listitem [ref=f1e29]:
+                - button "Help" [ref=f1e33] [cursor=pointer]
+              - listitem [ref=f1e37]:
+                - button "Search" [ref=f1e39] [cursor=pointer]
+        - link "My account" [ref=f1e44] [cursor=pointer]:
+          - /url: /user/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS0734975024000144&from=globalheader
+        - button "Southern University of Science and Technology Institutional Access" [ref=f1e51] [cursor=pointer]:
+          - generic [ref=f1e54]: Southern University of Science and Technology
+    - main [ref=f1e56]:
+      - generic [ref=f1e57]:
+        - generic [ref=f1e59]:
+          - link "Homepage for Biotechnology Advances" [ref=f1e61] [cursor=pointer]:
+            - /url: /journal/biotechnology-advances/vol/71/suppl/C
+            - img "Biotechnology Advances" [ref=f1e64]
+          - generic [ref=f1e65]:
+            - generic [ref=f1e66]:
+              - heading [level=2] [ref=f1e68]:
+                - link "Biotechnology Advances" [ref=f1e69] [cursor=pointer]:
+                  - /url: /journal/biotechnology-advances
+              - generic [ref=f1e71]:
+                - generic [ref=f1e72]:
+                  - generic [ref=f1e73]: "Date:"
+                  - text: March–April 2024
+                - generic [ref=f1e74]:
+                  - generic [ref=f1e75]:
+                    - generic [ref=f1e76]: "Article:"
+                    - text: "108320"
+                  - generic [ref=f1e77]:
+                    - generic [ref=f1e78]: "Volume:"
+                    - link "Volume 71" [ref=f1e79] [cursor=pointer]:
+                      - /url: /journal/biotechnology-advances/vol/71/suppl/C
+            - generic [ref=f1e82]:
+              - heading "Published by" [level=3] [ref=f1e83]
+              - link [ref=f1e85] [cursor=pointer]:
+                - /url: /journal/biotechnology-advances
+                - img "Elsevier" [ref=f1e88]
+        - generic [ref=f1e90]:
+          - generic [ref=f1e91]:
+            - generic [ref=f1e92]:
+              - generic [ref=f1e93]:
+                - generic [ref=f1e94]: Review article
+                - generic [ref=f1e95]: Full text access
+              - link [ref=f1e97] [cursor=pointer]:
+                - /url: https://s100.copyright.com/AppDispatchServlet?publisherName=ELS&contentID=S0734975024000144&orderBeanReset=true
+                - generic [ref=f1e98]:
+                  - text: Get rights and content
+                  - img "Opens in new window" [ref=f1e99]
+            - heading "Research review paper PHA is not just a bioplastic!" [level=1] [ref=f1e101]:
+              - generic [ref=f1e102]: Research review paper
+              - text: PHA is not just a bioplastic!
+            - generic [ref=f1e103]:
+              - generic [ref=f1e105]:
+                - button "Helen Park a b" [ref=f1e106] [cursor=pointer]:
+                  - generic [ref=f1e108]:
+                    - generic [ref=f1e109]: Helen Park
+                    - superscript [ref=f1e111]: a
+                    - superscript [ref=f1e113]: b
+                - text: ","
+                - button "Hongtao He a" [ref=f1e114] [cursor=pointer]:
+                  - generic [ref=f1e116]:
+                    - generic [ref=f1e117]: Hongtao He
+                    - superscript [ref=f1e119]: a
+                - text: ","
+                - button "Xu Yan a" [ref=f1e120] [cursor=pointer]:
+                  - generic [ref=f1e122]:
+                    - generic [ref=f1e123]: Xu Yan
+                    - superscript [ref=f1e125]: a
+                - text: ","
+                - button "Xu Liu d" [ref=f1e126] [cursor=pointer]:
+                  - generic [ref=f1e128]:
+                    - generic [ref=f1e129]: Xu Liu
+                    - superscript [ref=f1e131]: d
+                - text: ","
+                - link "Nigel S. Scrutton b" [ref=f1e132] [cursor=pointer]:
+                  - /url: /author/7006621392/nigel-s-scrutton
+                  - generic [ref=f1e134]:
+                    - generic [ref=f1e135]: Nigel S. Scrutton
+                    - superscript [ref=f1e137]: b
+                - text: ","
+                - link "Guo-Qiang Chen a c e f" [ref=f1e138] [cursor=pointer]:
+                  - /url: /author/7406536843/guoqiang-chen
+                  - generic [ref=f1e140]:
+                    - generic [ref=f1e141]: Guo-Qiang Chen
+                    - superscript [ref=f1e143]: a
+                    - superscript [ref=f1e145]: c
+                    - superscript [ref=f1e147]: e
+                    - superscript [ref=f1e149]: f
+                - button [ref=f1e150] [cursor=pointer]:
+                  - generic [ref=f1e152]:
+                    - img "Correspondence author icon" [ref=f1e153]
+                    - img "Author email or social media contact details icon" [ref=f1e155]
+              - button "Show more" [ref=f1e157] [cursor=pointer]
+          - generic [ref=f1e163]:
+            - link "View PDF. Opens in a new window." [ref=f1e164] [cursor=pointer]:
+              - /url: /science/article/pii/S0734975024000144/pdfft?md5=74846f8dc4c2b34188874318816ba600&pid=1-s2.0-S0734975024000144-main.pdf
+              - generic [ref=f1e172]:
+                - text: View
+                - strong [ref=f1e173]: PDF
+            - button "Download full issue" [ref=f1e174] [cursor=pointer]
+            - button "Cite" [ref=f1e181] [cursor=pointer]
+            - button "Add to Mendeley" [ref=f1e185] [cursor=pointer]
+            - button "Share" [ref=f1e191] [cursor=pointer]
+            - link [ref=f1e198] [cursor=pointer]:
+              - /url: https://doi.org/10.1016/j.biotechadv.2024.108320
+              - generic [ref=f1e199]:
+                - text: 10.1016/j.biotechadv.2024.108320
+                - img "Opens in new window" [ref=f1e200]
+        - navigation "In-page navigation" [ref=f1e202]:
+          - list [ref=f1e203]:
+            - listitem [ref=f1e204]:
+              - link "Article" [ref=f1e205] [cursor=pointer]:
+                - /url: "#article"
+            - listitem [ref=f1e206]:
+              - link "Metrics" [ref=f1e207] [cursor=pointer]:
+                - /url: "#metrics"
+        - navigation "Table of contents" [ref=f1e209]:
+          - generic [ref=f1e210]:
+            - generic [ref=f1e211]:
+              - heading "Outline" [level=2] [ref=f1e212]
+              - generic [ref=f1e213]:
+                - list [ref=f1e214]:
+                  - listitem [ref=f1e215]:
+                    - link "Abstract" [ref=f1e216] [cursor=pointer]:
+                      - /url: "#ab0005"
+                  - listitem [ref=f1e218]:
+                    - link "Keywords" [ref=f1e219] [cursor=pointer]:
+                      - /url: "#ks0005"
+                  - listitem [ref=f1e221]:
+                    - link "1. Introduction" [ref=f1e222] [cursor=pointer]:
+                      - /url: "#s0005"
+                  - listitem [ref=f1e225]:
+                    - link "2. Diverse applications of PHA" [ref=f1e226] [cursor=pointer]:
+                      - /url: "#s0035"
+                  - listitem [ref=f1e229]:
+                    - link "3. Future prospects" [ref=f1e230] [cursor=pointer]:
+                      - /url: "#s0105"
+                  - listitem [ref=f1e233]:
+                    - link "Declaration of competing interest" [ref=f1e234] [cursor=pointer]:
+                      - /url: "#coi0005"
+                  - listitem [ref=f1e236]:
+                    - link "Acknowledgements" [ref=f1e237] [cursor=pointer]:
+                      - /url: "#ac0005"
+                  - listitem [ref=f1e239]:
+                    - link "References" [ref=f1e240] [cursor=pointer]:
+                      - /url: "#bi0005"
+                - button "Show full outline" [ref=f1e242] [cursor=pointer]
+            - generic [ref=f1e246]:
+              - heading "Figures (4)" [level=2] [ref=f1e247]
+              - list [ref=f1e248]:
+                - listitem [ref=f1e249]:
+                  - link [ref=f1e250] [cursor=pointer]:
+                    - /url: "#f0005"
+                    - 'img "Fig. 1. PHA Production and few material forms. Shown in figure: a. PHA granules in Halomonas bluephagenesis (taken by author); b. PHA films (CJ Biomaterials, https://cjbiomaterials.com/); c. PHBV/PLA yarn (PH..." [ref=f1e251]'
+                - listitem [ref=f1e252]:
+                  - link [ref=f1e253] [cursor=pointer]:
+                    - /url: "#f0010"
+                    - img "Fig. 2. PHA Consumer Product a. PHB straws made by blow molding and b. PHB cosmetic containers made by compression molding (PHABuilder; https://eng.phabuilder.com/) c. PHA yarn (CJ Biomaterials https://cjbiom..." [ref=f1e254]
+                - listitem [ref=f1e255]:
+                  - link [ref=f1e256] [cursor=pointer]:
+                    - /url: "#f0015"
+                    - img "Fig. 3. Medical and cosmetic PHA applications. a. Biodegradable PLLA/P4HB stents in unexpanded and expanded form (Pulingam et al., 2022); b. Drug delivery PHB capsules (https://phbcapsules.com/); c. Ca-P/PHBV..." [ref=f1e257]
+                - listitem [ref=f1e258]:
+                  - link [ref=f1e259] [cursor=pointer]:
+                    - /url: "#f0020"
+                    - img "Fig. 4. Agricultural application of PHA a. fertilizer coating (Paques Biomaterials, https://www.caleyda.nl/); b. slow-release fertilizer with PHB coating (Kontárová et al., 2022); c. Self-regulating PHA denit..." [ref=f1e260]
+            - generic [ref=f1e261]:
+              - heading "Tables (1)" [level=2] [ref=f1e262]
+              - list [ref=f1e264]:
+                - listitem [ref=f1e265]:
+                  - link "Table 1. PHA applications in various fields." [ref=f1e266] [cursor=pointer]:
+                    - /url: "#t0005"
+        - generic [ref=f1e271]:
+          - generic [ref=f1e273]:
+            - heading "Abstract" [level=2] [ref=f1e274]
+            - generic [ref=f1e275]: Polyhydroxyalkanoates (PHA) have evolved into versatile biopolymers, transcending their origins as mere bioplastics. This extensive review delves into the multifaceted landscape of PHA applications, shedding light on the diverse industries that have harnessed their potential. PHA has proven to be an invaluable eco-conscious option for packaging materials, finding use in films foams, paper coatings and even straws. In the textile industry, PHA offers a sustainable alternative, while its application as a carbon source for denitrification in wastewater treatment showcases its versatility in environmental remediation. In addition, PHA has made notable contributions to the medical and consumer sectors, with various roles ranging from 3D printing, tissue engineering implants, and cell growth matrices to drug delivery carriers, and cosmetic products. Through metabolic engineering efforts, PHA can be fine-tuned to align with the specific requirements of each industry, enabling the customization of material properties such as ductility, elasticity, thermal conductivity, and transparency. To unleash PHA's full potential, bridging the gap between research and commercial viability is paramount. Successful PHA production scale-up hinges on establishing direct supply chains to specific application domains, including packaging, food and beverage materials, medical devices, and agriculture. This review underscores that PHA's future rests on ongoing exploration across these industries and more, paving the way for PHA to supplant conventional plastics and foster a circular economy.
+          - generic [ref=f1e279]:
+            - heading "Keywords" [level=2] [ref=f1e280]
+            - generic [ref=f1e281]: Polyhydroxyalkanoate
+            - text: ;
+            - generic [ref=f1e282]: Bioplastic
+            - text: ;
+            - generic [ref=f1e283]: Green material
+            - text: ;
+            - generic [ref=f1e284]: Biotechnology
+            - text: ;
+            - generic [ref=f1e285]: Packaging
+            - text: ;
+            - generic [ref=f1e286]: Medical devices
+            - text: ;
+            - generic [ref=f1e287]: Agriculture
+            - text: ;
+            - generic [ref=f1e288]: 3D printing
+            - text: ;
+            - generic [ref=f1e289]: Environmentally friendly
+            - text: ;
+            - generic [ref=f1e290]: Drug delivery
+          - list [ref=f1e291]:
+            - listitem [ref=f1e292]:
+              - link "Previous article in this issue" [ref=f1e293] [cursor=pointer]:
+                - /url: /science/article/pii/S0734975024000119
+            - listitem [ref=f1e298]:
+              - link "Next article in this issue" [ref=f1e299] [cursor=pointer]:
+                - /url: /science/article/pii/S0734975024000120
+          - generic [ref=f1e304]:
+            - generic [ref=f1e305]:
+              - generic [ref=f1e306]:
+                - heading "1. Introduction" [level=2] [ref=f1e307]
+                - generic [ref=f1e308]: Amid growing environmental concerns, the exploration of applications for bioplastics as alternatives to fossil fuel-derived counterparts becomes crucial, motivated by the need to mitigate challenges associated with resource depletion, pollution, and climate change.
+                - generic [ref=f1e309]:
+                  - text: Bioplastics include plastics originating from plant-based materials, agricultural byproducts, and other renewable biomass sources as well as those capable of natural degradation over time through microorganism activity (
+                  - link "Bhagwat et al., 2020" [ref=f1e310] [cursor=pointer]:
+                    - /url: "#bb0055"
+                  - text: ). Unlike traditional plastics derived from fossil fuels like petroleum, bioplastics are deemed environmentally friendly as they are sourced from renewable resources. Biodegradable bioplastics address issues related to plastic pollution thereby decreasing environmental impact (
+                  - link "Ross et al., 2017" [ref=f1e312] [cursor=pointer]:
+                    - /url: "#bb0595"
+                  - text: ). As of 2022, the annual worldwide production of bio-based plastics reached approximately 2 million tonnes, with fully biodegradable plastics constituting the majority (
+                  - link "Rosenboom et al., 2022" [ref=f1e314] [cursor=pointer]:
+                    - /url: "#bb0590"
+                  - text: ). Polyhydroxyalkanoates (PHAs) stand at the forefront of sustainable bioplastics, derived from microbial synthesis and exhibiting versatility in application areas. With a diverse array of molecular structures, PHAs promise eco-friendly solutions across industries, ranging from packaging to medicine, marking a pivotal stride toward a more sustainable and adaptable future (
+                  - link "Raza et al., 2018" [ref=f1e316] [cursor=pointer]:
+                    - /url: "#bb0565"
+                  - text: ).
+                - generic [ref=f1e318]:
+                  - heading "1.1. Polyhydroxyalkanoates (PHA) benefits and limitations as a biopolymer" [level=3] [ref=f1e319]
+                  - generic [ref=f1e320]:
+                    - generic [ref=f1e321]:
+                      - text: Within the context of bioplastics, PHA have gained renown for their use as biodegradable, biocompostable plastics, on a trajectory to replace petrochemical-based plastics alongside the well-known polylactic acid (PLA) (
+                      - link "Sabapathy et al., 2020" [ref=f1e322] [cursor=pointer]:
+                        - /url: "#bb0600"
+                      - text: ). PHA are polyesters naturally produced and stored as granules in many Gram-positive and Gram-negative bacteria (shown in
+                      - link "Fig. 1" [ref=f1e324] [cursor=pointer]:
+                        - /url: "#f0005"
+                      - text: a) (
+                      - link "Meng et al., 2014" [ref=f1e326] [cursor=pointer]:
+                        - /url: "#bb0440"
+                      - text: ). In addition to their biodegradability in various environments, PHA can be considered a plastic created from renewable ingredients, because they can be synthesized through the fermentation of renewable feedstocks like sugars or plant oils (
+                      - link "Raza et al., 2018" [ref=f1e328] [cursor=pointer]:
+                        - /url: "#bb0565"
+                      - text: ). Different PHA polymers and copolymers can emulate the functionality of petroleum-derived plastics, presenting a biodegradable, non-toxic, and eco-friendly alternative. There are now a diversity of PHA monomers able to replace some fossil-fuel derived plastics from consumer goods to packaging (
+                      - link "Chen and Hajnal, 2015" [ref=f1e330] [cursor=pointer]:
+                        - /url: "#bb0100"
+                      - text: ). They can be engineered to have different levels of flexibility, strength, and transparency, making them versatile for use in various industries, including packaging, agriculture, and medicine (
+                      - link "Sabapathy et al., 2020" [ref=f1e332] [cursor=pointer]:
+                        - /url: "#bb0600"
+                      - text: ). PHA's biocompatibility, non-toxicity, and antibacterial properties expands its application areas to the medical field (
+                      - link "Pandey et al., 2022" [ref=f1e334] [cursor=pointer]:
+                        - /url: "#bb0505"
+                      - text: ;
+                      - link "Wang et al., 2005" [ref=f1e336] [cursor=pointer]:
+                        - /url: "#bb0730"
+                      - text: ). Due to its ability to break down harmlessly in the body, PHA has been exploited in medical applications including drug delivery systems and tissue engineering (
+                      - link "Zhang et al., 2018" [ref=f1e338] [cursor=pointer]:
+                        - /url: "#bb0805"
+                      - text: ). PHA also naturally sequesters nitrogen, has been shown to be beneficial to plant growth and be a healthy substitute in animal feed, lending it to many applications in the agricultural industry (
+                      - link "Asiri and Chu, 2022" [ref=f1e340] [cursor=pointer]:
+                        - /url: "#bb0045"
+                      - text: ;
+                      - link "Khurram, 2015" [ref=f1e342] [cursor=pointer]:
+                        - /url: "#bb0270"
+                      - text: ;
+                      - link "Venkata Mohan et al., 2010" [ref=f1e344] [cursor=pointer]:
+                        - /url: "#bb0705"
+                      - text: ). (See
+                      - link "Table 1" [ref=f1e346] [cursor=pointer]:
+                        - /url: "#t0005"
+                      - text: .)
+                    - figure [ref=f1e348]:
+                      - generic [ref=f1e349]:
+                        - img "Fig. 1"
+                        - list [ref=f1e350]:
+                          - listitem [ref=f1e351]:
+                            - 'link "Download: Download high-res image (311KB)" [ref=f1e352] [cursor=pointer]':
+                              - /url: https://ars.els-cdn.com/content/image/1-s2.0-S0734975024000144-gr1_lrg.jpg
+                          - listitem [ref=f1e355]:
+                            - 'link "Download: Download full-size image" [ref=f1e356] [cursor=pointer]':
+                              - /url: https://ars.els-cdn.com/content/image/1-s2.0-S0734975024000144-gr1.jpg
+                      - paragraph [ref=f1e361]:
+                        - text: Fig. 1.
+                        - strong [ref=f1e362]:
+                          - emphasis [ref=f1e363]: PHA Production and few material forms.
+                        - text: "Shown in figure: a. PHA granules in"
+                        - emphasis [ref=f1e364]: Halomonas bluephagenesis
+                        - text: (taken by author); b. PHA films (CJ Biomaterials,
+                        - link [ref=f1e365] [cursor=pointer]:
+                          - /url: https://cjbiomaterials.com/
+                          - generic [ref=f1e366]:
+                            - text: https://cjbiomaterials.com/
+                            - img "Opens in new window" [ref=f1e367]
+                        - text: ); c. PHBV/PLA yarn (PHABuilder,
+                        - link [ref=f1e369] [cursor=pointer]:
+                          - /url: https://eng.phabuilder.com/
+                          - generic [ref=f1e370]:
+                            - text: https://eng.phabuilder.com/
+                            - img "Opens in new window" [ref=f1e371]
+                        - text: ); d. fermentation for PHA production from glucose (taken by author); e. PHB powder for microsphere application (PHABuilder;
+                        - link [ref=f1e373] [cursor=pointer]:
+                          - /url: https://eng.phabuilder.com/
+                          - generic [ref=f1e374]:
+                            - text: https://eng.phabuilder.com/
+                            - img "Opens in new window" [ref=f1e375]
+                        - text: ); f.-g. PHBV adhesives (Paques Biomaterials,
+                        - link [ref=f1e377] [cursor=pointer]:
+                          - /url: https://www.caleyda.nl/;
+                          - generic [ref=f1e378]:
+                            - text: https://www.caleyda.nl/;
+                            - img "Opens in new window" [ref=f1e379]
+                        - text: brand name VERSAMER,
+                        - link [ref=f1e381] [cursor=pointer]:
+                          - /url: https://terraverdae.com/pha/
+                          - generic [ref=f1e382]:
+                            - text: https://terraverdae.com/pha/
+                            - img "Opens in new window" [ref=f1e383]
+                        - text: ); i. PHA paper coating (CJ Biomaterials,
+                        - link [ref=f1e385] [cursor=pointer]:
+                          - /url: https://cjbiomaterials.com/
+                          - generic [ref=f1e386]:
+                            - text: https://cjbiomaterials.com/
+                            - img "Opens in new window" [ref=f1e387]
+                        - text: ).
+                    - generic [ref=f1e389]:
+                      - paragraph [ref=f1e392]: Table 1. PHA applications in various fields.
+                      - table [ref=f1e394]:
+                        - rowgroup [ref=f1e395]:
+                          - row [ref=f1e396]:
+                            - columnheader "Areas" [ref=f1e397]
+                            - columnheader "Application" [ref=f1e398]
+                            - columnheader [ref=f1e399]:
+                              - text: Key Properties
+                              - link "⁎" [ref=f1e400] [cursor=pointer]:
+                                - /url: "#tf0005"
+                            - columnheader "PHA" [ref=f1e402]
+                            - columnheader "References" [ref=f1e403]
+                        - rowgroup [ref=f1e404]:
+                          - row [ref=f1e405]:
+                            - rowheader "Packaging" [ref=f1e406]
+                            - cell "Shampoo bottles, razors, soap containers, disposable beauty products, Shopping bags, lids, tubs, lining for paper cups, coffee capsules, tea bags, and other dry food containers, diapers, feminine hygiene products, and cosmetic containers, thermoforming and injection molding applications, paper coating, straws, mulching films" [ref=f1e407]
+                            - cell "Flexibility, impact resistance, barrier properties (H2O, O2), thermal stability, customizable degredation rate" [ref=f1e408]
+                            - 'cell "Main: PHB, PHBV. Also reported: PHBHHx" [ref=f1e409]'
+                            - cell [ref=f1e410]:
+                              - link "Weiner, 1997" [ref=f1e411] [cursor=pointer]:
+                                - /url: "#bb0755"
+                              - text: ;
+                              - link "Loh et al., 2009" [ref=f1e413] [cursor=pointer]:
+                                - /url: "#bb0370"
+                              - text: ;
+                              - link "Smith, 2005" [ref=f1e415] [cursor=pointer]:
+                                - /url: "#bb0640"
+                              - text: ;MirelTM 3000
+                          - row [ref=f1e417]:
+                            - rowheader "Single-use goods" [ref=f1e418]
+                            - cell "Food utensils, films, electronic appliances" [ref=f1e419]
+                            - cell "Mechanical strength, stiffness, flexibility, cost" [ref=f1e420]
+                            - cell "PHB, PHBV" [ref=f1e421]
+                            - cell [ref=f1e422]:
+                              - link "Chen, 2009" [ref=f1e423] [cursor=pointer]:
+                                - /url: "#bb0095"
+                          - row [ref=f1e425]:
+                            - rowheader "Food containers" [ref=f1e426]
+                            - cell "Coatings for food industry, films in dairy products" [ref=f1e427]
+                            - cell "Barrier properties, transparency, food-grade safety" [ref=f1e428]
+                            - 'cell "Main: PHB, PHBV, Also reported: P3HP" [ref=f1e429]'
+                            - cell [ref=f1e430]:
+                              - link "Philip et al., 2007" [ref=f1e431] [cursor=pointer]:
+                                - /url: "#bb0525"
+                          - row [ref=f1e433]:
+                            - rowheader "Cosmetics" [ref=f1e434]
+                            - cell "Heat sensitive adhesives, smart gels, surfactant for beauty" [ref=f1e435]
+                            - cell "Biocompatibility, thermal stability, adhesive properties" [ref=f1e436]
+                            - 'cell "Main: PHB, PHBV, Also reported: PHA blends with hydroxy-acid (AHA), chitosan, ionic nanoparticles" [ref=f1e437]'
+                            - cell [ref=f1e438]:
+                              - link "Weiner, 1997" [ref=f1e439] [cursor=pointer]:
+                                - /url: "#bb0755"
+                          - row [ref=f1e441]:
+                            - rowheader "Clothing and textiles" [ref=f1e442]
+                            - cell "Eyewear, leather-like cases, smartphone covers, Knitted jersey, textile applications, surgical garments, upholstery, carpets" [ref=f1e443]
+                            - cell "Flexibility, durability, breathability, dyeability, softness" [ref=f1e444]
+                            - cell "PHBV, PLA/PHBV and PLA/PHB blends" [ref=f1e445]
+                            - cell [ref=f1e446]:
+                              - link "Koller and Mukherjee, 2022" [ref=f1e447] [cursor=pointer]:
+                                - /url: "#bb0290"
+                              - text: ;
+                              - link "Huang et al., 2017" [ref=f1e449] [cursor=pointer]:
+                                - /url: "#bb0240"
+                              - text: ;
+                              - link "Tanaka et al., 2007" [ref=f1e451] [cursor=pointer]:
+                                - /url: "#bb0680"
+                              - text: ;
+                              - link "Smith, 2005" [ref=f1e453] [cursor=pointer]:
+                                - /url: "#bb0640"
+                          - row [ref=f1e455]:
+                            - rowheader "Aquaculture" [ref=f1e456]
+                            - cell "Solid substrate biofilm carriers for nitrogen removal" [ref=f1e457]
+                            - cell "Biocompatibility, durability, water resistance" [ref=f1e458]
+                            - cell "PHB" [ref=f1e459]
+                            - cell [ref=f1e460]:
+                              - link "Poirier, 2002" [ref=f1e461] [cursor=pointer]:
+                                - /url: "#bb0530"
+                          - row [ref=f1e463]:
+                            - rowheader "Wastewater treatment" [ref=f1e464]
+                            - cell "Nitrogen and organic waste removal" [ref=f1e465]
+                            - cell "Chemical resistance, durability, waste uptake rate" [ref=f1e466]
+                            - cell "PHB" [ref=f1e467]
+                            - cell [ref=f1e468]:
+                              - link "Venkata Mohan et al., 2010" [ref=f1e469] [cursor=pointer]:
+                                - /url: "#bb0705"
+                          - row [ref=f1e471]:
+                            - rowheader "3D printing" [ref=f1e472]
+                            - cell "Jewelry, household appliances, aerospace and automotive plastic pieces, tissue engineering and scaffolds for regenerative medicine" [ref=f1e473]
+                            - cell "Printability, mechanical strength, customizable degradation rate, precision" [ref=f1e474]
+                            - cell "PHBV, P(3HB-co-3HHx), and P(3HB-co-4HB)" [ref=f1e475]
+                            - cell [ref=f1e476]:
+                              - link "Kovalcik, 2021" [ref=f1e477] [cursor=pointer]:
+                                - /url: "#bb0320"
+                              - text: ; Yang et al. 2018
+                          - row [ref=f1e479]:
+                            - rowheader "Animal feeds" [ref=f1e480]
+                            - cell "Single-cell protein bound PHB recovery from waste streams, direct supplement for fingerlings and piglets" [ref=f1e481]
+                            - cell "Nutritional content, digestibility, non-toxicity" [ref=f1e482]
+                            - cell "PHB, PHB-SCPS (single-cell proteins)" [ref=f1e483]
+                            - cell [ref=f1e484]:
+                              - link "Asiri and Chu, 2022" [ref=f1e485] [cursor=pointer]:
+                                - /url: "#bb0045"
+                              - text: ;
+                              - link "Wang et al., 2019" [ref=f1e487] [cursor=pointer]:
+                                - /url: "#bb0750"
+                          - row [ref=f1e489]:
+                            - rowheader "Tissue engineering" [ref=f1e490]
+                            - cell "Porous nanocomposites for bone replacements, screws, staples, and surgical mesh to bone plates, nerve guides, skin substitutes, and adhesion barriers, 3D organ printing, bone-tissue engineering, scaffold engineering, cardiovascular tissue engineering such as aorta regrowth" [ref=f1e491]
+                            - cell "Mechanical strength, porosity, degradation rate, tissue integration and biocompatibility" [ref=f1e492]
+                            - cell "P4HB, PHBV, PHB-co-4 HV, P4HB, P3HO (poly-R-3-hydroxyoctanoate), PHA blends with reinforcing ions or PLA" [ref=f1e493]
+                            - cell [ref=f1e494]:
+                              - link "Wang et al., 2005" [ref=f1e495] [cursor=pointer]:
+                                - /url: "#bb0730"
+                              - text: ;
+                              - link "Pandey et al., 2022" [ref=f1e497] [cursor=pointer]:
+                                - /url: "#bb0505"
+                              - text: ;
+                              - link "Opitz et al., 2004" [ref=f1e499] [cursor=pointer]:
+                                - /url: "#bb0495"
+                          - row [ref=f1e501]:
+                            - rowheader "Cell regeneration" [ref=f1e502]
+                            - cell "Sciatic nerve conduit for implantation into resected sciatic nerves" [ref=f1e503]
+                            - cell "Biocompatibility, flexibility, strength, nerve cell support" [ref=f1e504]
+                            - cell "PHBV, PHB/PHBV, PHBV/collagen blends, PHBHHx" [ref=f1e505]
+                            - cell [ref=f1e506]:
+                              - link "Biazar and Heidari Keshel, 2013" [ref=f1e507] [cursor=pointer]:
+                                - /url: "#bb0070"
+                          - row [ref=f1e509]:
+                            - rowheader "Medical implants" [ref=f1e510]
+                            - cell "Tablets, artery augments, cardiological stents, vascular grafts, and heart valves" [ref=f1e511]
+                            - cell "Mechanical strength, durability, corrosion resistance, biocompatibility" [ref=f1e512]
+                            - cell "PHBV, P4HB, PHB-co-4 HV, P(3HHx-co-3HO), PHBHHx" [ref=f1e513]
+                            - cell [ref=f1e514]:
+                              - link "Martin and Williams, 2003" [ref=f1e515] [cursor=pointer]:
+                                - /url: "#bb0415"
+                          - row [ref=f1e517]:
+                            - rowheader "Cell growth supporting matrix" [ref=f1e518]
+                            - cell "Long-gap nerve injury restoration implants, repair damaged nerves, scaffolds and foams used for tissue repair of bone marrow stromal cells, bone regrowth and wound healing applications" [ref=f1e519]
+                            - cell "Porosity, cell adhesion properties, biocompatibility, degradation rate, tissue-specific support" [ref=f1e520]
+                            - cell "PHBV, PHBV blends with organic compounds" [ref=f1e521]
+                            - cell [ref=f1e522]:
+                              - link "Bian et al., 2009" [ref=f1e523] [cursor=pointer]:
+                                - /url: "#bb0065"
+                              - text: ;
+                              - link "Köse et al., 2003" [ref=f1e525] [cursor=pointer]:
+                                - /url: "#bb0305"
+                              - text: ;
+                              - link "Kundrat et al., 2019" [ref=f1e527] [cursor=pointer]:
+                                - /url: "#bb0340"
+                          - row [ref=f1e529]:
+                            - rowheader "Drug delivery" [ref=f1e530]
+                            - cell "Drug delivery for controlled release, microcapsules, films, nanoparticles, microspheres of porous matrices" [ref=f1e531]
+                            - cell "Controlled release properties, biocompatibility" [ref=f1e532]
+                            - cell "PHBV, P4HV, PHBV/PEG blends" [ref=f1e533]
+                            - cell [ref=f1e534]:
+                              - link "Pouton and Akhtar, 1996" [ref=f1e535] [cursor=pointer]:
+                                - /url: "#bb0540"
+                              - text: ;
+                              - link "Wu et al., 2009" [ref=f1e537] [cursor=pointer]:
+                                - /url: "#bb0780"
+                          - row [ref=f1e539]:
+                            - rowheader "Biofuels" [ref=f1e540]
+                            - cell "Biofuels produced from wastewater and/or activated sludge, PHB methyl ester (HBME) and hydroxyalkanoate methyl ester (HAME)" [ref=f1e541]
+                            - cell "Carbon footprint, Production efficiency and yield" [ref=f1e542]
+                            - cell "PHB, PHB methyl ester (HBME)" [ref=f1e543]
+                            - cell [ref=f1e544]:
+                              - link "Kourmentza et al., 2017" [ref=f1e545] [cursor=pointer]:
+                                - /url: "#bb0315"
+                              - text: ;
+                              - link "Kinyanjui Muiruri et al., 2023" [ref=f1e547] [cursor=pointer]:
+                                - /url: "#bb0275"
+                          - row [ref=f1e549]:
+                            - rowheader "Agriculture" [ref=f1e550]
+                            - cell "Mulching film and plant growth stimulation, fertilizer encapsulant for sustainable plant growth" [ref=f1e551]
+                            - cell "Barrier properties, nutrient release control" [ref=f1e552]
+                            - cell [ref=f1e553]:
+                              - text: PHB, PHB/poly(ε-caprolactone), P(3HB-
+                              - emphasis [ref=f1e554]: co
+                              - text: "-3HHx)"
+                            - cell [ref=f1e555]:
+                              - link "Niaounakis, 2014" [ref=f1e556] [cursor=pointer]:
+                                - /url: "#bb0485"
+                      - generic [ref=f1e558]:
+                        - term [ref=f1e559]: ⁎
+                        - definition [ref=f1e560]:
+                          - generic [ref=f1e561]: Note biodegradability is included in all key properties, and efforts should be taken to ensure regardless of material processing or post-production additives, that biodegradability of material is maintained.
+                  - generic [ref=f1e562]:
+                    - text: Different PHA exhibit a vast range of properties that can be tailored to specific applications, a versatility that lends advantages over bio-based materials derived from cellulose or starch (
+                    - link "Kumari et al., 2022" [ref=f1e563] [cursor=pointer]:
+                      - /url: "#bb0335"
+                    - text: ). While bio-based materials are abundant and cost-effective feedstocks, their properties differ significantly from PHAs. For example, cellulose-based materials offer specific advantages in applications like paper and textiles, but do not offer the same range of properties as PHA. In addition, bio-based plastics derived from corn or plant matter are limited to the properties inherent in the chosen feedstock. In contrast, PHAs can be produced from a variety of renewable feedstocks, allowing for more flexibility in sourcing. Indeed, PHA blends with other biodegradable fillers are innovative solutions that can improve the properties of both materials. For example, nanofillers like cellulose nanocrystrals can be dispersed into PHA matrix, shown to enhance material properties in applications in the food industry (
+                    - link "Bhardwaj et al., 2014" [ref=f1e565] [cursor=pointer]:
+                      - /url: "#bb0060"
+                    - text: ). Similarly, electrospun poly(3-hydroxybutyrate)-bacterial cellulose nanowhiskers (PHB-BCNW) showed improved barrier properties for packaging applications (
+                    - link "Fabra et al., 2016" [ref=f1e567] [cursor=pointer]:
+                      - /url: "#bb0165"
+                    - text: ).
+                  - generic [ref=f1e569]:
+                    - text: Historically, the production of PHAs has faced challenges in terms of economic viability. When assessing the environmental sustainability of different bioplastics it is essential to consider the entire life cycle, including production, use, and end-of-life disposal (
+                    - link "Kumar et al., 2020" [ref=f1e570] [cursor=pointer]:
+                      - /url: "#bb0330"
+                    - text: ). While many bio-based plastics are generally biodegradable, PHAs' ability to biodegrade in both aerobic and anaerobic conditions makes them suitable for a wider range of environments. The microbial fermentation process involved in PHA production can be more costly than traditional petrochemical processes for synthetic plastics (
+                    - link "Chen et al., 2020" [ref=f1e572] [cursor=pointer]:
+                      - /url: "#bb0110"
+                    - text: ). PHAs can also be more expensive to produce than bio-based materials such as those derived from cellulose or starch (
+                    - link "Kumar et al., 2020" [ref=f1e574] [cursor=pointer]:
+                      - /url: "#bb0330"
+                    - text: ). This has created challenges for widespread adoption.
+                  - generic [ref=f1e576]:
+                    - text: Research and development efforts are paramount to improve the commercial viability of PHAs as a sustainable alternative to conventional plastics. Indeed, research efforts have extended the utility of PHA polymers to a growing array of commercial products and are no longer confined to the realm of bioplastics (
+                    - link "Raza et al., 2018" [ref=f1e577] [cursor=pointer]:
+                      - /url: "#bb0565"
+                    - text: ). PHAs manifest unique qualities, applications, and features, positioning them as an elevated class of biomaterials in comparison to the broader bioplastics category (
+                    - link "Rosenboom et al., 2022" [ref=f1e579] [cursor=pointer]:
+                      - /url: "#bb0590"
+                    - text: ). This distinctiveness encompasses their versatility, diverse range of molecular structures, and the capability to find applications across a spectrum of industries extending beyond the traditional scope of bioplastics (
+                    - link "Chen and Hajnal, 2015" [ref=f1e581] [cursor=pointer]:
+                      - /url: "#bb0100"
+                    - text: ).
+                - generic [ref=f1e583]:
+                  - heading "1.2. Diverse PHA structures and properties" [level=3] [ref=f1e584]
+                  - generic [ref=f1e585]:
+                    - text: Different microorganisms produce PHA with a variety of molecular structures, monomer ratios, and molecular weights. Poly-3-hydroxybutyrate (PHB) stands out as perhaps the most abundant and extensively studied PHA, synthesized by many bacteria including Gram negative
+                    - emphasis [ref=f1e586]: Cupriavidus necator, Ralstonia eutropha, Halomonas bluephagesesis
+                    - text: ", and certain Gram positive"
+                    - emphasis [ref=f1e587]: Bacillus
+                    - text: and
+                    - emphasis [ref=f1e588]: Streptomyces spp.
+                    - text: (
+                    - link "Vicente et al., 2023" [ref=f1e589] [cursor=pointer]:
+                      - /url: "#bb0715"
+                    - text: ;
+                    - link "Valappil et al., 2007" [ref=f1e591] [cursor=pointer]:
+                      - /url: "#bb0700"
+                    - text: ;
+                    - link "Fernandez-Bunster and Pavez, 2022" [ref=f1e593] [cursor=pointer]:
+                      - /url: "#bb0175"
+                    - text: ) . To date, approximately 92 bacterial genera have demonstrated the capability to produce PHA under both anaerobic and aerobic conditions, with knowledge of >160 PHA monomers (
+                    - link "Vicente et al., 2023" [ref=f1e595] [cursor=pointer]:
+                      - /url: "#bb0715"
+                    - text: ), and new synthetic monomers are being added each year (
+                    - link "Chen and Hajnal, 2015" [ref=f1e597] [cursor=pointer]:
+                      - /url: "#bb0100"
+                    - text: ). Depending on the number of carbon atoms, PHA can be categorized into short-chain length PHA (scl PHA) and medium-chain length PHA (mcl PHA). Scl PHA typically consists of monomers with 3–5 carbon atoms, while mcl PHA comprises hydroxyalkanoate monomers with carbon chain lengths ranging from six to fourteen carbon atoms.
+                  - generic [ref=f1e599]:
+                    - text: Bacteria are known to synthesize different PHA depending on their metabolism and PHA polymerase (PhaC). For example,
+                    - emphasis [ref=f1e600]: Ralstonia eutropha
+                    - text: can synthesize poly(3-hydroxybutyrate-
+                    - emphasis [ref=f1e601]: co
+                    - text: "-3-hydroxyvalerate) (PHBV) and"
+                    - emphasis [ref=f1e602]: Aeromonas spp.
+                    - text: can synthesize poly(3-hydroxybutyrate-
+                    - emphasis [ref=f1e603]: co
+                    - text: "-3-hydroxyhexanoate PHA (PHBHHx) when fed substrate with precursor materials ("
+                    - link "Kaniuk and Stachewicz, 2021" [ref=f1e604] [cursor=pointer]:
+                      - /url: "#bb0265"
+                    - text: ). The feed composition can significantly influence final PHA composition. Feeding of short-chain fatty acids (5‑carbon valerate, 6‑carbon hexanoic acid) or gamma-butyrolactone introduces longer chain monomers (3-hydroxyvalerate, 3-hydroxyhexanoate, and 4-hydroxybutyrate, respectively) into PHA (
+                    - link "Al Battashi et al., 2021" [ref=f1e606] [cursor=pointer]:
+                      - /url: "#bb0015"
+                    - text: ;
+                    - link "Chen and Hajnal, 2015" [ref=f1e608] [cursor=pointer]:
+                      - /url: "#bb0100"
+                    - text: ). Metabolic engineering has enabled cells to produce PHA with improved material properties, encompassing a range of ductility, elasticity, thermal conductivity, and transparency. Metabolic engineering is used to both increase PHA percentage in the cell mass, direct the PHA to have a particular monomer composition, or introduce monomers into PHA that are non-native to the host. For example,
+                    - emphasis [ref=f1e610]: Escherichia coli
+                    - text: was engineered to produce poly(3-hydroxypropionate) (poly(3HP)) from glycerol substrate replacing the carcinogenic substrate β-propiolactone (
+                    - link "Aduhene et al., 2021" [ref=f1e611] [cursor=pointer]:
+                      - /url: "#bb0010"
+                    - text: ).
+                  - generic [ref=f1e613]:
+                    - text: The physicochemical and thermal properties of PHA as a bioplastic depend on various factors, including the producer organisms, cultivation conditions, carbon source, and engineering efforts to redirect metabolism (
+                    - link "Anjum et al., 2016" [ref=f1e614] [cursor=pointer]:
+                      - /url: "#bb0030"
+                    - text: ;
+                    - link "Możejko-Ciesielska and Kiewisz, 2016" [ref=f1e616] [cursor=pointer]:
+                      - /url: "#bb0455"
+                    - text: ). Features of PHA can vary from brittle thermoplastics to rubbery elastomers (
+                    - link "Luis et al., 2016" [ref=f1e618] [cursor=pointer]:
+                      - /url: "#bb0390"
+                    - text: ). Poly-3-hydroxybutyrate (PHB) holds significant potential for a variety of applications, spanning from photographic materials to textiles, medical implants, and nutritional supplements (
+                    - link "Chen, 2009" [ref=f1e620] [cursor=pointer]:
+                      - /url: "#bb0095"
+                    - text: ). Scl-PHA exhibit properties nearly equivalent to those of polypropylene (PP) and polyethylene terephthalate PET, proving advantageous in specific applications (
+                    - link "Kinyanjui Muiruri et al., 2023" [ref=f1e622] [cursor=pointer]:
+                      - /url: "#bb0275"
+                    - text: ). However, scl-PHAs tend to break easily due to their crystalline structure, which means considerable effort has been made to integrate other monomers or blends with the scl-PHA to enhance its physical properties (
+                    - link "Wang et al., 2016" [ref=f1e624] [cursor=pointer]:
+                      - /url: "#bb0740"
+                    - text: ). PHB copolymers, characterized by the repetition of 3-hydroxybutyrate (3HB) and other non-3HB monomers, greatly expand the physical and mechanical property range of these polymers, rendering them suitable for a wide spectrum of applications. For instance, PHBV has greater flexibility, strength, and lessened crystallization than pure PHB polymer and is now also produced at large volumes in industry (
+                    - link "Rivera-Briso and Serrano-Aroca, 2018" [ref=f1e626] [cursor=pointer]:
+                      - /url: "#bb0585"
+                    - text: ). For example, incorporation of 43% 3 HV monomers into PHA improved elongation at break from 3 to 6% (pure PHA) to 58%, an over ten-times increase (
+                    - link "Arcos-Hernández et al., 2013" [ref=f1e628] [cursor=pointer]:
+                      - /url: "#bb0035"
+                    - text: ).
+                  - generic [ref=f1e630]:
+                    - text: Medium chain length PHA (mcl-PHA) are rubbery and elastic materials and are useful in multiple applications (
+                    - link "Madison and Huisman, 1999" [ref=f1e631] [cursor=pointer]:
+                      - /url: "#bb0400"
+                    - text: ). Meanwhile, terpolymers have two or more secondary monomers in addition to PHB, and include P(3HB-
+                    - emphasis [ref=f1e633]: co
+                    - text: "-3 HV-"
+                    - emphasis [ref=f1e634]: co
+                    - text: "-3HHx) and P(3HB-"
+                    - emphasis [ref=f1e635]: co
+                    - text: "-3 HV-"
+                    - emphasis [ref=f1e636]: co
+                    - text: "-4HB) ("
+                    - link "Vicente et al., 2023" [ref=f1e637] [cursor=pointer]:
+                      - /url: "#bb0715"
+                    - text: ). Ultra-high molecular weight PHA, with molecular weights measuring several millions, has proven valuable in applications requiring high-strength fibers, such as fishing nets, string, and more (
+                    - link "Zheng et al., 2006" [ref=f1e639] [cursor=pointer]:
+                      - /url: "#bb0815"
+                    - text: ;
+                    - link "Kusaka et al., 1998" [ref=f1e641] [cursor=pointer]:
+                      - /url: "#bb0350"
+                    - text: ). Furthermore, PHA diols have been employed in the creation of PHA block copolymers, known for their temperature sensitivity and non-toxic, biocompatible nature. PHA-block copolymers find use in tissue engineering implants and as matrices for drug delivery (
+                    - link "Guillaume, 2017" [ref=f1e643] [cursor=pointer]:
+                      - /url: "#bb0215"
+                    - text: ; L.
+                    - link "Wu et al., 2008" [ref=f1e645] [cursor=pointer]:
+                      - /url: "#bb0775"
+                    - text: ).
+                  - generic [ref=f1e647]:
+                    - text: Post-production processing is equally important from a material properties standpoint, and various PHA materials with unique properties have been developed. Plasticizers were shown to improve mechanical properties, decrease melting temperature, and increase water vapor and oxygen permeability in PHBV, with plasticizers triethyl citrate and polyethylene glycol showing most promise (
+                    - link "Jost and Langowski, 2015" [ref=f1e648] [cursor=pointer]:
+                      - /url: "#bb0255"
+                    - text: ). Copolymerization of PHA monomers with existing polymer materials opens avenues for novel materials and an expanded range of physical properties (
+                    - link "Taguchi et al., 2008" [ref=f1e650] [cursor=pointer]:
+                      - /url: "#bb0670"
+                    - text: ). For example, PLA/PHBV blends increased ductility and gas barrier properties by 26 and 70% (
+                    - link "Boufarguine et al., 2013" [ref=f1e652] [cursor=pointer]:
+                      - /url: "#bb0080"
+                    - text: ). Innovative grafting technologies have introduced functional side chains to PHA molecules, enabling chemical modifications that expand their applications. These diverse properties enable PHA to serve as materials with superior oxygen, water, and grease/odor barriers compared to some conventional plastics like PP (
+                    - link "Tsang et al., 2019" [ref=f1e654] [cursor=pointer]:
+                      - /url: "#bb0690"
+                    - text: ). It is crucial to recognize that the composition and structure of these biopolymers influence their degradation in the environment (
+                    - link "Emadian et al., 2017" [ref=f1e656] [cursor=pointer]:
+                      - /url: "#bb0160"
+                    - text: ). Therefore, concerted efforts are essential to ensure that newly synthesized PHA copolymers or esters remain biodegradable.
+                - generic [ref=f1e658]:
+                  - heading "1.3. Microbial production of PHA" [level=3] [ref=f1e659]
+                  - generic [ref=f1e660]:
+                    - text: The production of PHAs involves a multi-step process that leverages the metabolic capabilities of certain bacteria. PHA is synthesized naturally in a variety of organisms including
+                    - emphasis [ref=f1e661]: Cupriavidus, Ralstonia, Pseudomonas,
+                    - text: and
+                    - emphasis [ref=f1e662]: Halomonas
+                    - text: (
+                    - link "Obruča et al., 2022" [ref=f1e663] [cursor=pointer]:
+                      - /url: "#bb0490"
+                    - text: ). Genetic engineering is often employed to enhance the PHA-production capability in natural producers or in heterologous bacteria such as
+                    - emphasis [ref=f1e665]: Escherichia coli
+                    - text: (
+                    - link "Sohn et al., 2020" [ref=f1e666] [cursor=pointer]:
+                      - /url: "#bb0645"
+                    - text: ). During the fermentation process, the microorganisms metabolize culture feed, utilizing carbon and nitrogen sources in order to simultaneously increase cell mass and accumulate PHAs as intracellular granules (
+                    - link "Saravanan et al., 2022" [ref=f1e668] [cursor=pointer]:
+                      - /url: "#bb0610"
+                    - text: ). A 7 L fermentation pilot production of PHB using
+                    - emphasis [ref=f1e670]: Halomonas bluephagenesis
+                    - text: is shown in
+                    - link "Fig. 1" [ref=f1e671] [cursor=pointer]:
+                      - /url: "#f0005"
+                    - text: d. The fermentation conditions, including temperature, pH, and aeration, are carefully controlled to optimize PHA production. The culture medium carbon and nutrient sources can play an important role in both the final yield and structure of the PHA polymer (
+                    - link "Saravanan et al., 2022" [ref=f1e673] [cursor=pointer]:
+                      - /url: "#bb0610"
+                    - text: ). The carbon source selected is often derived from renewable resources like sugars, plant oils, and industrial byproducts.
+                  - generic [ref=f1e675]:
+                    - text: Fermentations can be run under continuous conditions which offers certain cost benefits in production, though batch or fed-batch fermentation schemes are more common (
+                    - link "Koller and Braunegg, 2015" [ref=f1e676] [cursor=pointer]:
+                      - /url: "#bb0280"
+                    - text: ). At the end of the fermentation, PHA accumulation and cell-density reach a maximum and the culture is harvested. During harvesting, the bacterial biomass and PHA granules are separated from the culture medium (
+                    - link "Kosseva and Rusbandi, 2018" [ref=f1e678] [cursor=pointer]:
+                      - /url: "#bb0310"
+                    - text: ). In order to release the PHA granules, bacterial cells are disrupted, a process that can involve mechanical methods, solvents, or chemicals. Disrupted cell mass is then extracted to separate the PHA from cellular proteins, lipids, and nucleic acids. The extraction and purification process can use a variety of solvents and steps depending on intended final application, which can impact final cost, purity, and yield (
+                    - link "Kurian and Das, 2021" [ref=f1e680] [cursor=pointer]:
+                      - /url: "#bb0345"
+                    - text: ). Finally, purified PHA is processed into pellets, sheets, films, or threads depending on final application (
+                    - link "Kosseva and Rusbandi, 2018" [ref=f1e682] [cursor=pointer]:
+                      - /url: "#bb0310"
+                    - text: ). PHA processed into pellets and powder forms is shown in
+                    - link "Fig. 1" [ref=f1e684] [cursor=pointer]:
+                      - /url: "#f0005"
+                    - text: f and e, respectively.
+                - generic [ref=f1e686]:
+                  - heading "1.4. Efficiency and environmental impact of PHA production" [level=3] [ref=f1e687]
+                  - generic [ref=f1e688]:
+                    - text: The efficiency of the PHA production depends on all the steps previously stated, including the choice of bacterial strain, carbon source, fermentation conditions, and downstream processing (
+                    - link "Kurian and Das, 2021" [ref=f1e689] [cursor=pointer]:
+                      - /url: "#bb0345"
+                    - text: ). Conditions important for high efficiency include choice of chassis able to reach high cell density with high percent PHA on a cell mass basis, and using methods in downstream processing that extract PHA while maintaining final product quality (
+                    - link "Ren et al., 2018" [ref=f1e691] [cursor=pointer]:
+                      - /url: "#bb0580"
+                    - text: ).
+                  - generic [ref=f1e693]:
+                    - text: Ensuring that PHA type is consistent is an important consideration to ensure product quality. Several strategies can be implemented to maintain batch-to-batch quality, including use of robust strains with constrained PHA pathways that may be endogenous or engineered to avoid changes in PHA structure (
+                    - link "Chen et al., 2020" [ref=f1e694] [cursor=pointer]:
+                      - /url: "#bb0110"
+                    - text: ). Standardization of fermentation conditions, use of well-defined carbon source like glucose, and continuous monitoring during microbial cultivation is also crucial to ensure quality control (
+                    - link "Koller and Braunegg, 2018" [ref=f1e696] [cursor=pointer]:
+                      - /url: "#bb0285"
+                    - text: ). Constraints on cell metabolism are important so that feedstocks that are lower-cost and more environmentally sustainable can be used. For example, use of non-standarized raw materials such as food waste hydrolysates was achieved through genetic linkage of PHA-pathway enzymes to stable genetic elements like essential genes, as demonstrated in recent research (
+                    - link "Ji et al., 2023" [ref=f1e698] [cursor=pointer]:
+                      - /url: "#bb0250"
+                    - text: ). Metabolic engineering to delete genetic pathways that might change PHA monomer composition, and mutation of PHA synthase (PhaC) enzyme to be specific for particular monomers should also be considered as strategies to maintain quality.
+                  - generic [ref=f1e700]:
+                    - text: Several factors contribute to the environmental impact of PHA and other biomaterials. As previously mentioned, PHA has benefits in terms of environmental impact due to its biodegradability, and renewable sourcing using green feedstocks (
+                    - link "Kumar et al., 2020" [ref=f1e701] [cursor=pointer]:
+                      - /url: "#bb0330"
+                    - text: ). The energy consumption during the production of PHAs, a fermentation process, is considered less energy-intensive than traditional plastic production which involves the extraction and refining of fossil fuels (
+                    - link "Raza et al., 2018" [ref=f1e703] [cursor=pointer]:
+                      - /url: "#bb0565"
+                    - text: ). Petrochemical processes emit significant greenhouse gases and consume substantial amounts of energy. Minimizing the energy expenditure and harsh chemical use during the downstream processing of PHA production is important to lower the environmental impact of this biomaterial, and more research is required to lower costs of downstream processing in PHA production.
+                  - generic [ref=f1e705]:
+                    - text: Cost of production has remained a challenge, and PHA remains more expensive than petroleum-based polymers. The demand for PHA in different industries and especially in high-end applications can play a strategic role in lowering production cost (
+                    - link "Goswami et al., 2021" [ref=f1e706] [cursor=pointer]:
+                      - /url: "#bb0200"
+                    - text: ). As the demand for sustainable and biodegradable alternatives increases, economies of scale and technological advancements may contribute to making PHAs more cost-competitive with traditional plastics in the future.
+                - generic [ref=f1e708]:
+                  - heading "1.5. Current commercialization" [level=3] [ref=f1e709]
+                  - generic [ref=f1e710]:
+                    - text: At present, >25 companies (
+                    - link [ref=f1e711] [cursor=pointer]:
+                      - /url: http://gopha.com
+                      - generic [ref=f1e712]:
+                        - text: gopha.com
+                        - img "Opens in new window" [ref=f1e713]
+                    - text: ), producing 30 different brands, have integrated PHA into either their production processes or final products (
+                    - link "Koller and Mukherjee, 2022" [ref=f1e715] [cursor=pointer]:
+                      - /url: "#bb0290"
+                    - text: "). As a comprehensive class of polymers, PHA offer nearly limitless possibilities for generating copolymers and blends capable of replacing various types of petroleum-based plastics. Nevertheless, despite extensive research efforts, only a limited selection of PHAs have achieved successful large-scale production and are commercially available as biodegradable materials. Currently, only five types of PHAs are reported to be commercialized globally by companies: PHB, PHBV, PHBHHx (3HB and 3-hydroxyhexanoate (3HHx), poly(4-hydroxybutyrate) (P4HB), and poly(3-hydroxybutyrate-"
+                    - emphasis [ref=f1e717]: co
+                    - text: "-4-hydroxybutyrate) or P34HB ("
+                    - link "Chen and Hajnal, 2015" [ref=f1e718] [cursor=pointer]:
+                      - /url: "#bb0100"
+                    - text: ). The list remains short due to a research focus still largely concentrated on PHA discovery in academic laboratories rather than downstream applications (
+                    - link "Chen and Hajnal, 2015" [ref=f1e720] [cursor=pointer]:
+                      - /url: "#bb0100"
+                    - text: ).
+                  - generic [ref=f1e722]: The scaling of bioplastic PHA for different technologies requires investment and therefore remains a high-risk business. For example, in 2010 the companies Metabolic and ADM launched a plant for PHA production in the USA, but due to forecast sales misprediction, costs remained higher than profits, leading to both companies abandoning the project technology. However, commercial production of PHA has since then been revived in companies Danimer Scientific (USA), RWDC Industries (USA and Singapore), Yield10 Biosciences (previously Metabolix) and PhaBuilder (China). Meanwhile Tepha (USA) production is focused on medical uses of PHA in order to improve profit margins.
+                  - generic [ref=f1e723]:
+                    - generic [ref=f1e724]:
+                      - text: We propose the exploration of synergies between the invention of novel PHA and the development of final material technologies for PHA to achieve its full sustainable impact as an environmentally friendly material. The potential applications of PHA span a broad spectrum of industries, with a particular emphasis on the medical sector, where the economic practicality may drive widespread adoption due to the overall cost of finished goods. This manuscript provides a comprehensive overview of the industries and products that can be created using PHA-based materials, encompassing everything from medical (
+                      - link "Fig. 3" [ref=f1e725] [cursor=pointer]:
+                        - /url: "#f0015"
+                      - text: ) to agricultural (
+                      - link "Fig. 4" [ref=f1e727] [cursor=pointer]:
+                        - /url: "#f0020"
+                      - text: ), textiles, and household goods (
+                      - link "Fig. 2" [ref=f1e729] [cursor=pointer]:
+                        - /url: "#f0010"
+                      - text: ).
+                    - figure [ref=f1e731]:
+                      - generic [ref=f1e732]:
+                        - img "Fig. 2"
+                        - list [ref=f1e733]:
+                          - listitem [ref=f1e734]:
+                            - 'link "Download: Download high-res image (285KB)" [ref=f1e735] [cursor=pointer]':
+                              - /url: https://ars.els-cdn.com/content/image/1-s2.0-S0734975024000144-gr2_lrg.jpg
+                          - listitem [ref=f1e738]:
+                            - 'link "Download: Download full-size image" [ref=f1e739] [cursor=pointer]':
+                              - /url: https://ars.els-cdn.com/content/image/1-s2.0-S0734975024000144-gr2.jpg
+                      - paragraph [ref=f1e744]:
+                        - text: Fig. 2.
+                        - strong [ref=f1e745]:
+                          - emphasis [ref=f1e746]: PHA Consumer Product
+                        - text: a. PHB straws made by blow molding and b. PHB cosmetic containers made by compression molding (PHABuilder;
+                        - link [ref=f1e747] [cursor=pointer]:
+                          - /url: https://eng.phabuilder.com/
+                          - generic [ref=f1e748]:
+                            - text: https://eng.phabuilder.com/
+                            - img "Opens in new window" [ref=f1e749]
+                        - text: ) c. PHA yarn (CJ Biomaterials
+                        - link [ref=f1e751] [cursor=pointer]:
+                          - /url: https://cjbiomaterials.com/
+                          - generic [ref=f1e752]:
+                            - text: https://cjbiomaterials.com/
+                            - img "Opens in new window" [ref=f1e753]
+                        - text: ); d. PHB cups; e. PHB utensils; f. PHBV/PLA textiles; g. PHA artwork by compression molding; h. credit card by compression molding; i. Commercialized PHBV toy by 3D printing.
+                        - link "Fig. 2" [ref=f1e755] [cursor=pointer]:
+                          - /url: "#f0010"
+                        - text: d-i are all commercialized products from PHABuilder.
+              - generic [ref=f1e757]:
+                - heading "2. Diverse applications of PHA" [level=2] [ref=f1e758]
+                - generic [ref=f1e759]:
+                  - heading "2.1. PHA as environmentally friendly packaging materials" [level=3] [ref=f1e760]
+                  - generic [ref=f1e761]:
+                    - heading "2.1.1. Films, foams, paper coating, straws" [level=4] [ref=f1e762]
+                    - generic [ref=f1e763]:
+                      - text: PHA is a proven replacement for conventional plastics, especially in packaging (
+                      - link "Vicente et al., 2023" [ref=f1e764] [cursor=pointer]:
+                        - /url: "#bb0715"
+                      - text: ). In 2020, 40% of the 1.6 million tonnes bioplastic market was in packaging products (
+                      - link "Sehgal and Gupta, 2020" [ref=f1e766] [cursor=pointer]:
+                        - /url: "#bb0615"
+                      - text: ). As early as the 1980s, companies like Chemie Linz AG began production of PHB. Wella AG in Germany introduced one of the earliest commercialized PHA products in the 1990s, including everyday items like shampoo bottles and packaging materials (
+                      - link "Weiner, 1997" [ref=f1e768] [cursor=pointer]:
+                        - /url: "#bb0755"
+                      - text: ;
+                      - link "Chen, 2009" [ref=f1e770] [cursor=pointer]:
+                        - /url: "#bb0095"
+                      - text: ). The supplying company, Imperial Chemical Industry Biological (ICI) in London UK, also initiated P(3HB-
+                      - emphasis [ref=f1e772]: co
+                      - text: "-3 HV) razors and other basic goods production in the 1990s. Indeed, PHA is most appropriate for short-term applications and items that will encounter a compost-like setting, such as food utensils ("
+                      - link "Fig. 2" [ref=f1e773] [cursor=pointer]:
+                        - /url: "#f0010"
+                      - text: e), films (
+                      - link "Fig. 1" [ref=f1e775] [cursor=pointer]:
+                        - /url: "#f0005"
+                      - text: b) and electronic devices (
+                      - link "Weiner, 1997" [ref=f1e777] [cursor=pointer]:
+                        - /url: "#bb0755"
+                      - text: ;
+                      - link "Chen, 2009" [ref=f1e779] [cursor=pointer]:
+                        - /url: "#bb0095"
+                      - text: ).
+                    - generic [ref=f1e781]:
+                      - text: Since the 1990s, PHA applications in the packaging industry has widened to include packaging films, containers such as shopping bags, lids and tubs (
+                      - link "Fig. 1" [ref=f1e782] [cursor=pointer]:
+                        - /url: "#f0005"
+                      - text: b,
+                      - link "2" [ref=f1e784] [cursor=pointer]:
+                        - /url: "#f0010"
+                      - text: b). PHA can also be utilized to line paper cups, thereby rendering currently PE-lined cups to be recyclable (
+                      - link "Fig. 1" [ref=f1e786] [cursor=pointer]:
+                        - /url: "#f0005"
+                      - text: i) (
+                      - link "Rosenboom et al., 2022" [ref=f1e788] [cursor=pointer]:
+                        - /url: "#bb0590"
+                      - text: ). Certain PHA polymer materials have excelled gas barrier capabilities which make them suitable for food or beverage packaging, such as utensils and cups (
+                      - link "Fig. 2" [ref=f1e790] [cursor=pointer]:
+                        - /url: "#f0010"
+                      - text: d, e). PHA has been found to have several applications in the food industry, including coatings and for films in dairy products (
+                      - link "Philip et al., 2007" [ref=f1e792] [cursor=pointer]:
+                        - /url: "#bb0525"
+                      - text: ;
+                      - link "Smith, 2005" [ref=f1e794] [cursor=pointer]:
+                        - /url: "#bb0640"
+                      - text: ). Additionally, short-chain-PHA in food service is also commercialized for coffee and tea packaging and other dry food packaging (
+                      - link "Loh et al., 2009" [ref=f1e796] [cursor=pointer]:
+                        - /url: "#bb0370"
+                      - text: ","
+                      - link "Loh et al., 2010" [ref=f1e798] [cursor=pointer]:
+                        - /url: "#bb0375"
+                      - text: ","
+                      - link "Loh et al., 2011" [ref=f1e800] [cursor=pointer]:
+                        - /url: "#bb0380"
+                      - text: ;
+                      - link "Loh et al., 2012" [ref=f1e802] [cursor=pointer]:
+                        - /url: "#bb0385"
+                      - text: ). The reported antibacterial properties of the polymers have led to growing interest in their use for sanitary products, including diapers, feminine hygiene products, and cosmetic containers (
+                      - link "Fig. 2" [ref=f1e804] [cursor=pointer]:
+                        - /url: "#f0010"
+                      - text: b) (
+                      - link "Philip et al., 2007" [ref=f1e806] [cursor=pointer]:
+                        - /url: "#bb0525"
+                      - text: ;
+                      - link "Smith, 2005" [ref=f1e808] [cursor=pointer]:
+                        - /url: "#bb0640"
+                      - text: ). Furthermore, PHA is also suitable for latex-like applications, heat-sensitive adhesives, and smart gels such as in the beauty industry (
+                      - link "Fig. 1" [ref=f1e810] [cursor=pointer]:
+                        - /url: "#f0005"
+                      - text: f, g). For example, nonwoven PHA matrices can be used to remove facial oils (
+                      - link "Weiner, 1997" [ref=f1e812] [cursor=pointer]:
+                        - /url: "#bb0755"
+                      - text: ;
+                      - link "Chen, 2009" [ref=f1e814] [cursor=pointer]:
+                        - /url: "#bb0095"
+                      - text: ). Importantly, these materials must be tested to maintain their biodegradable properties after testing. To this end, Dagnon et al. used compression molding to create kraft paper coated with PHA, and found the paper was degraded in soil-burial testing (
+                      - link "Dagnon et al., 2010" [ref=f1e816] [cursor=pointer]:
+                        - /url: "#bb0125"
+                      - text: ).
+                    - generic [ref=f1e818]:
+                      - text: The introduction of other monomers into the PHB molecular chain can greatly improve its physical properties, for example introduction of 3 HV units forms the copolymer PHBV. Compared to PHB, PHBV has lower crystallinity, and lower melting and glass transition temperatures, allowing it to be used for films in food packaging and other applications (
+                      - link "Sudesh et al., 2000" [ref=f1e819] [cursor=pointer]:
+                        - /url: "#bb0650"
+                      - text: ). PHBV also has an oxygen and water vapor barrier suitable for food packaging, increasing the food shelf-life of consumable products (
+                      - link "Cunha et al., 2016" [ref=f1e821] [cursor=pointer]:
+                        - /url: "#bb0120"
+                      - text: ;
+                      - link "Boufarguine et al., 2013" [ref=f1e823] [cursor=pointer]:
+                        - /url: "#bb0080"
+                      - text: ). The oxygen barrier of PHBV has been measured to be 0.217 cm
+                      - superscript [ref=f1e825]: "3"
+                      - text: ", suitable for food packaging ("
+                      - link "Dasan et al., 2017" [ref=f1e826] [cursor=pointer]:
+                        - /url: "#bb0130"
+                      - text: ). PHBV films have been shown to be stable even in contact with liquid food stimulants such as water and oil. Moreover, the material properties (tensile strength, Young's modulus, and the elongation at break) of the films were shown suitable even after extended use (
+                      - link "Chea et al., 2016" [ref=f1e828] [cursor=pointer]:
+                        - /url: "#bb0090"
+                      - text: ). PHBV can also be combined with new functional additives to enhance its properties, for example Ferri et al. reported recently an innovative blend of PHBV and tannins that not only matched but improved the shelf-life stability of food products (
+                      - link "Ferri et al., 2023" [ref=f1e830] [cursor=pointer]:
+                        - /url: "#bb0180"
+                      - text: ). PHB straws made using blow molding are shown in
+                      - link "Fig. 2" [ref=f1e832] [cursor=pointer]:
+                        - /url: "#f0010"
+                      - text: a, while a credit card made using compression molding is shown in
+                      - link "Fig. 2" [ref=f1e834] [cursor=pointer]:
+                        - /url: "#f0010"
+                      - text: h.
+                    - generic [ref=f1e836]:
+                      - text: Among the early companies producing PHA packaging materials are P&G, Biomers, and Metabolix (
+                      - link "Philip et al., 2007" [ref=f1e837] [cursor=pointer]:
+                        - /url: "#bb0525"
+                      - text: ;
+                      - link "Smith, 2005" [ref=f1e839] [cursor=pointer]:
+                        - /url: "#bb0640"
+                      - text: ). In 2006, Metabolix and Archer Daniels Midland (ADM) formed a joint venture (Telles) to produce P34HB products for thermoforming and injection molding (MirelTM 3000 series) and for paper coating (MirelTM 4000 series) (
+                      - link "Koller and Mukherjee, 2022" [ref=f1e841] [cursor=pointer]:
+                        - /url: "#bb0290"
+                      - text: ). The company also reported commercialization of compostable shopping bags, rigid food containers, drinking straws, coffee capsules, mulching films, and paper coatings. The Food and Drug Administration (FDA) has approved certain copolymers of PHA for packaging materials and food additives (
+                      - link "Muneer et al., 2020" [ref=f1e843] [cursor=pointer]:
+                        - /url: "#bb0470"
+                      - text: ). For example, PHBV and poly((
+                      - emphasis [ref=f1e845]: R
+                      - text: )-3-hydroxybutyrate-
+                      - emphasis [ref=f1e846]: co
+                      - text: "-("
+                      - emphasis [ref=f1e847]: R
+                      - text: )-3-hydroxyhexanoate) (PHBHHx) are approved for food applications.
+                    - generic [ref=f1e848]:
+                      - text: Since these early pioneers, many new startup-ventures as well as developed companies have entered the PHA market, either to produce and sell PHA material or sell products as a finished product (
+                      - link "Koller and Mukherjee, 2022" [ref=f1e849] [cursor=pointer]:
+                        - /url: "#bb0290"
+                      - text: ;
+                      - link "Pellicer et al., 2017" [ref=f1e851] [cursor=pointer]:
+                        - /url: "#bb0510"
+                      - text: ). Some are listed here but comprehensive reviews are also readily available. Danimer Scientific (USA) has partnered with the beverage company Bacardi© to replace its poly(ethylene terephthalate) (PET) bottles with poly(3-hydroxypropionate) (P3HP), which would eliminate 80 million PET bottles per year (
+                      - link "Koller and Mukherjee, 2022" [ref=f1e853] [cursor=pointer]:
+                        - /url: "#bb0290"
+                      - text: ). Danimer Scientific also has publicly announced the production of PHA-based straws in the venture Wincup©. The company PhaBuilder (China) produces PHB, P34HB and several other PHA copolymers that are readily degraded in both seawater and soil within 3–6 months. The final product is currently sold as pellets, with suitable applications in injection molding, water restoration (aquaculture), textiles, and polymer films. In 2019, the company Kaneka (Japan) launched PHBH™ drinking straws in many stores in Japan for iced beverages. Kaneka has also partnered with the consumer company Shiseido Co. Ltd. for the production of PHBH™ straws, bags, utensils, cosmetic and packaging materials. Finally the company Newlight Technologies LLC (USA) currently sells utensils, straws and cutlery, claiming its products are durable and dishwasher safe. Newlight has branded clothing items, including its ‘Covalent’ brand using PHB for eyewear, leather-like cases and smartphone covers (
+                      - link "Koller and Mukherjee, 2022" [ref=f1e855] [cursor=pointer]:
+                        - /url: "#bb0290"
+                      - text: ).
+                - generic [ref=f1e857]:
+                  - heading "2.2. PHA as textiles" [level=3] [ref=f1e858]
+                  - generic [ref=f1e859]:
+                    - text: PHA can be spun into fibers just like nylon (
+                    - link "Fig. 1" [ref=f1e860] [cursor=pointer]:
+                      - /url: "#f0005"
+                    - text: c). Currently, blending PHA with other molecules such as PLA is necessary to realise the full potential of the material in the textile industry, both in terms of reducing cost and improving physical properties (
+                    - link "Weiner, 1997" [ref=f1e862] [cursor=pointer]:
+                      - /url: "#bb0755"
+                    - text: ;
+                    - link "Chen, 2009" [ref=f1e864] [cursor=pointer]:
+                      - /url: "#bb0095"
+                    - text: ). Indeed, PLA alone is not suitable for many textile applications because it is brittle and slow to crystallize and benefits from blending with PHA before processing (
+                    - link "Rosenboom et al., 2022" [ref=f1e866] [cursor=pointer]:
+                      - /url: "#bb0590"
+                    - text: ). A PLA/PHA blend can reduce the aging and secondary crystallization of both polymers. For example, yarns composed of PLA/PHBV were used to make knitted jerseys, and researchers found that the fiber product had thermomechanical properties suitable for dying, softness, durability, crease resistance, and other processing steps required by the apparel industry (
+                    - link "Huang et al., 2017" [ref=f1e868] [cursor=pointer]:
+                      - /url: "#bb0240"
+                    - text: ). An image of PHA yarn is shown in
+                    - link "Fig. 2" [ref=f1e870] [cursor=pointer]:
+                      - /url: "#f0010"
+                    - text: c., and PHBV/PLA textile is shown in
+                    - link "Fig. 2" [ref=f1e872] [cursor=pointer]:
+                      - /url: "#f0010"
+                    - text: f.
+                  - generic [ref=f1e874]:
+                    - text: PHBV/PLA fibers produced by a melt spinning and hot drawing process were also reported to be ideal textiles in terms of strength, heat resistance and softness (
+                    - link "Li et al., 2015" [ref=f1e875] [cursor=pointer]:
+                      - /url: "#bb0360"
+                    - text: ). In another work, melt spinning and drawing of PHBV in a controlled strict orientation was able to achieve high strength (>1 GPa) (
+                    - link "Tanaka et al., 2006" [ref=f1e877] [cursor=pointer]:
+                      - /url: "#bb0675"
+                    - text: ). The same group found that the tensile strength was increased for low molecular weight drawn fibers at long isothermal crystallization times, although the maximum draw ratio must also be considered (
+                    - link "Tanaka et al., 2007" [ref=f1e879] [cursor=pointer]:
+                      - /url: "#bb0680"
+                    - text: ). Meanwhile, dual core spinning processing is also possible for PHBV/PLA for a durable final fiber (
+                    - link "Hufenus et al., 2015" [ref=f1e881] [cursor=pointer]:
+                      - /url: "#bb0245"
+                    - text: ). Finally, in an attempt to improve the crystallization of PHB in melt-spinning processes, reactive extrusion with peroxide was successfully used to inhibit secondary fiber crystallization, overcoming the natural brittleness of PHA and producing very strong fibers (
+                    - link "Vogel et al., 2007" [ref=f1e883] [cursor=pointer]:
+                      - /url: "#bb0720"
+                    - text: ).
+                  - generic [ref=f1e885]:
+                    - text: Pioneering companies such as P&G, Biomers and Metabolix have fabricated medical surgical garments, upholstery, and carpets (
+                    - link "Philip et al., 2007" [ref=f1e886] [cursor=pointer]:
+                      - /url: "#bb0525"
+                    - text: ;
+                    - link "Smith, 2005" [ref=f1e888] [cursor=pointer]:
+                      - /url: "#bb0640"
+                    - text: ). Since then, PHA has been studied in past years as a melt-spun, gel-spun, or electrospun short-chain fiber to improve the sustainability of the clothing industry (
+                    - link "Loh et al., 2008" [ref=f1e890] [cursor=pointer]:
+                      - /url: "#bb0365"
+                    - text: ). The company China Oil & Foodstuffs Corporation Ltd. (COFCO) (Beijing) produces PLA polymers (PLAneoTM technology) blended with PHA supplied by the start-up company PhaBuilder and Medpha in China for uses in textiles production, among other applications (
+                    - link "Koller and Mukherjee, 2022" [ref=f1e892] [cursor=pointer]:
+                      - /url: "#bb0290"
+                    - text: ).
+                - generic [ref=f1e894]:
+                  - heading "2.3. PHA used in 3D printed materials" [level=3] [ref=f1e895]
+                  - generic [ref=f1e896]:
+                    - text: 3D printing creates three-dimensional physical objects that match pre-designed models, often using virtual models with computer-aided design (CAD) software (
+                    - link "Fig. 2" [ref=f1e897] [cursor=pointer]:
+                      - /url: "#f0010"
+                    - text: i). Typically, an object is built in layers of either liquid, molten powder, or molten filament until a final structure is created. 3D models are useful for many industries, including education, jewellry and in household goods, in aerospace and automotive parts, and in dental and pharmaceutical applications (
+                    - link "Kovalcik, 2021" [ref=f1e899] [cursor=pointer]:
+                      - /url: "#bb0320"
+                    - text: ). Although useful in all of these industries, perhaps the most interesting is in tissue engineering and regenerative medicine, due to the biodegradation of PHA and its compatibility with human tissue (
+                    - link "Yang et al., 2018a" [ref=f1e901] [cursor=pointer]:
+                      - /url: "#bb0790"
+                    - text: ","
+                    - link "Yang et al., 2018b" [ref=f1e903] [cursor=pointer]:
+                      - /url: "#bb0795"
+                    - text: ).
+                  - generic [ref=f1e905]:
+                    - generic [ref=f1e906]:
+                      - text: Simple PHB can be a rigid and inflexibile material, with a melting temperature between 170 and 180 °C. PHB is brittle and can crystallize, which is not always ideal for 3D printing applications. Copolymers of PHBV, P(3HB-
+                      - emphasis [ref=f1e907]: co
+                      - text: "-3HHx), and P(3HB-"
+                      - emphasis [ref=f1e908]: co
+                      - text: "-4HB) ("
+                      - link "Kovalcik, 2021" [ref=f1e909] [cursor=pointer]:
+                        - /url: "#bb0320"
+                      - text: ) reduce brittleness and increase flexibility, allowing more applications for 3D printing. The most widely tested 3D printing techniques using PHA are selective laser sintering (SLS) and fused deposition modeling (FDM), and PHA has also been piloted using the stereolithography photochemical process (
+                      - link "Mehrpouya et al., 2021" [ref=f1e911] [cursor=pointer]:
+                        - /url: "#bb0425"
+                      - text: ). For example, an SLS process was used with Ca-P/PHBV for medical applications (
+                      - link "Fig. 3" [ref=f1e913] [cursor=pointer]:
+                        - /url: "#f0015"
+                      - text: c).
+                    - figure [ref=f1e915]:
+                      - generic [ref=f1e916]:
+                        - img "Fig. 3"
+                        - list [ref=f1e917]:
+                          - listitem [ref=f1e918]:
+                            - 'link "Download: Download high-res image (263KB)" [ref=f1e919] [cursor=pointer]':
+                              - /url: https://ars.els-cdn.com/content/image/1-s2.0-S0734975024000144-gr3_lrg.jpg
+                          - listitem [ref=f1e922]:
+                            - 'link "Download: Download full-size image" [ref=f1e923] [cursor=pointer]':
+                              - /url: https://ars.els-cdn.com/content/image/1-s2.0-S0734975024000144-gr3.jpg
+                      - paragraph [ref=f1e928]:
+                        - text: Fig. 3.
+                        - strong [ref=f1e929]:
+                          - emphasis [ref=f1e930]: Medical and cosmetic PHA applications.
+                        - text: a. Biodegradable PLLA/P4HB stents in unexpanded and expanded form (
+                        - link "Pulingam et al., 2022" [ref=f1e931] [cursor=pointer]:
+                          - /url: "#bb0550"
+                        - text: ); b. Drug delivery PHB capsules (
+                        - link [ref=f1e933] [cursor=pointer]:
+                          - /url: https://phbcapsules.com/
+                          - generic [ref=f1e934]:
+                            - text: https://phbcapsules.com/
+                            - img "Opens in new window" [ref=f1e935]
+                        - text: ); c. Ca-P/PHBV printed using 3D printer
+                        - emphasis [ref=f1e937]: via
+                        - text: SLS (
+                        - link "Giubilini et al., 2021" [ref=f1e938] [cursor=pointer]:
+                          - /url: "#bb0195"
+                        - text: ); d. Cosmetic toner brand name
+                        - emphasis [ref=f1e940]: Some by Mi
+                        - text: (
+                        - link [ref=f1e941] [cursor=pointer]:
+                          - /url: https://sokoglam.com/collections/some-by-mi
+                          - generic [ref=f1e942]:
+                            - text: https://sokoglam.com/collections/some-by-mi
+                            - img "Opens in new window" [ref=f1e943]
+                        - text: ); e. heart valve scaffold using P4HB polymer (
+                        - link "Chen and Wu, 2005" [ref=f1e945] [cursor=pointer]:
+                          - /url: "#bb0105"
+                        - text: ); f. Facial pads brand name BESOMA
+                        - link [ref=f1e947] [cursor=pointer]:
+                          - /url: https://www.somabeauty.co/product-page/pha-gentle-pads
+                          - generic [ref=f1e948]:
+                            - text: https://www.somabeauty.co/product-page/pha-gentle-pads
+                            - img "Opens in new window" [ref=f1e949]
+                        - text: .
+                  - generic [ref=f1e951]:
+                    - text: SLS uses powder bed fusion sintering layers with a CO
+                    - subscript [ref=f1e952]: "2"
+                    - text: laser in order to create the final 3D structure (
+                    - link "Deckard, 1989" [ref=f1e953] [cursor=pointer]:
+                      - /url: "#bb0140"
+                    - text: ). SLS has been used in applications such as tissue engineering, where scaffold is fabricated from inorganic materials such as PHA and porosity is pre-designed to match tissue specification (
+                    - link "Leong et al., 2003" [ref=f1e955] [cursor=pointer]:
+                      - /url: "#bb0355"
+                    - text: ). Previously, PHBV and calcium phosphate (Ca
+                    - img "single bond" [ref=f1e957]
+                    - text: P) microspheres have been used for the SLS technique, successfully producing 3D scaffolds with a porous structure that is appropriate for the human body and was also controllable (
+                    - link "Duan et al., 2011" [ref=f1e958] [cursor=pointer]:
+                      - /url: "#bb0150"
+                    - text: ). The same research group also used SLS layered Ca-P/P3HBV scaffolds to create protective carriers for biomolecules and drugs for slow-release delivery systems (
+                    - link "Duan and Wang, 2010" [ref=f1e960] [cursor=pointer]:
+                      - /url: "#bb0145"
+                    - text: ). Despite its relatively low thermal stability in a 3D melt phase, PHA is stable during the SLS process (
+                    - link "Kovalcik, 2021" [ref=f1e962] [cursor=pointer]:
+                      - /url: "#bb0320"
+                    - text: ). In addition, it has been reported that the thermal properties and chemical composition of PHA do not change during SLS, leaving a better final product and the possibility for reuse of the starting material (
+                    - link "Pereira et al., 2012" [ref=f1e964] [cursor=pointer]:
+                      - /url: "#bb0515"
+                    - text: ).
+                  - generic [ref=f1e966]:
+                    - text: FDM uses melt extrusion in a layerwise fashion of thermoplastic filament materials in order to create the final 3D structure (
+                    - link "Mwema and Akinlabi, 2020" [ref=f1e967] [cursor=pointer]:
+                      - /url: "#bb0475"
+                    - text: ). FDM is a 3D printing technique in which raw polymers are processed from digitized models. The polymer is heated above its glass transition temperature and passed as a raw polymeric filament through a nozzle, forming a 3D object of layers. In FDM, PHB can be degraded significantly, which will decrease its molecular weight and increase brittleness (
+                    - link "Carrasco et al., 2006" [ref=f1e969] [cursor=pointer]:
+                      - /url: "#bb0085"
+                    - text: ). In order to use FDM successfully, additional copolymerizations are required such as 3 HV (PHBV), which forms a more thermally stable polymer (
+                    - link "Kovalcik et al., 2020" [ref=f1e971] [cursor=pointer]:
+                      - /url: "#bb0325"
+                    - text: ).
+                    - link "Fig. 2" [ref=f1e973] [cursor=pointer]:
+                      - /url: "#f0010"
+                    - text: i. shows an example of a commercialized PHBV toy made using FDM techniques. In previous work, FDM has been successful with esterified PHBV filaments when mixed with a filler substrate such as carbon nanotubes, palm fiber, and silicone sponge (
+                    - link "Wu and Liao, 2017" [ref=f1e975] [cursor=pointer]:
+                      - /url: "#bb0770"
+                    - text: ;
+                    - link "Wu, 2018" [ref=f1e977] [cursor=pointer]:
+                      - /url: "#bb0765"
+                    - text: ). Meanwhile, a wood-based filament made of PLA/PHA matrix reinforced by wood particles was found to be printable in a wide range of temperatures up to 250 °C (
+                    - link "Guessasma et al., 2019" [ref=f1e979] [cursor=pointer]:
+                      - /url: "#bb0210"
+                    - text: ). Blending of PLA with up to 20% PHA also has been shown to greatly improve the final ductility of the PLA filament, as the PHA is uniformly distributed in the PLA matrix (
+                    - link "Menčík et al., 2018" [ref=f1e981] [cursor=pointer]:
+                      - /url: "#bb0435"
+                    - text: ;
+                    - link "Kontárová et al., 2020" [ref=f1e983] [cursor=pointer]:
+                      - /url: "#bb0295"
+                    - text: ).
+                  - generic [ref=f1e985]:
+                    - text: A final technique that can be considered for 3D modeling with PHA is stereolithography, provided that the molecular weight and functional end groups of the PHA are adjusted properly tuned for photopolymerization (
+                    - link "Kovalcik, 2021" [ref=f1e986] [cursor=pointer]:
+                      - /url: "#bb0320"
+                    - text: ). In stereolithography, a liquid polymer is cured using photopolymerization, for example using UV radiation. Since PHA do not naturally contain functional groups facilitating the curing reaction, PHA-oligomers with UV curable end groups are required for successful stereolithography applications. For example, PHA-curable resins have recently been prepared in a two-step solvent-free process. First, PHA is transesterified with 1,4-butanediol, then the PHB-diol reacts with 2-isocyanatoethyl methacrylate to produce PHB oligomers with methacrylate functionality (
+                    - link "Foli et al., 2020" [ref=f1e988] [cursor=pointer]:
+                      - /url: "#bb0185"
+                    - text: ). The resulting PHB oligomers were soluble at 90 °C and photopolymerizable under UV light within 10 min (
+                    - link "Foli et al., 2020" [ref=f1e990] [cursor=pointer]:
+                      - /url: "#bb0185"
+                    - text: ). Importantly, the biodegradability for these UV-curable molecules and other new oligomers need to be verified.
+                - generic [ref=f1e992]:
+                  - heading "2.4. PHA as a cosmetic product and antibacterial material" [level=3] [ref=f1e993]
+                  - generic [ref=f1e994]:
+                    - text: Good biocompatibility and biodegradable plastic-like properties make PHA useful in cosmetics and skin care industries, and PHA has been developed by several ventures for use in cosmetics. In the cosmetic field, PHA has been developed in various products, including beauty masks and sanitary pads as well as cast films (
+                    - link "Coltelli et al., 2020" [ref=f1e995] [cursor=pointer]:
+                      - /url: "#bib816"
+                    - text: ). Sudesh et al. reported that PHA can function well as an oil-blotting film, due to its ability to rapidly absorb and retain oil, and its porous and smooth surface (
+                    - link "Sudesh et al., 2007" [ref=f1e997] [cursor=pointer]:
+                      - /url: "#bb0655"
+                    - text: ). PHA and PHA blends with other bio-based materials have been used in cosmetic products, for example in the EU launched polybioskin product (
+                    - link "Coltelli et al., 2020" [ref=f1e999] [cursor=pointer]:
+                      - /url: "#bib816"
+                    - text: ). PHA materials containing alpha-hydroxy-acid (AHA) are able to bind large amounts of water and act as potent antioxidants through matrix metalloproteinase inhibition and strong chelating properties. These excellent antioxidant and moisturising properties are beneficial for both dermatological and cosmetic purposes (
+                    - link "Algiert-Zielińska et al., 2019" [ref=f1e1001] [cursor=pointer]:
+                      - /url: "#bb0020"
+                    - text: ). The commercialized products for a cosmetic toner and facial pads, both using PHA in their formulation, are shown in
+                    - link "Fig. 3" [ref=f1e1003] [cursor=pointer]:
+                      - /url: "#f0015"
+                    - text: d and f, respectively.
+                  - generic [ref=f1e1005]:
+                    - text: The use of PHA in cosmetics has the advantage of being biodegradable, thereby preventing the leakage of microplastics into the environment. Microplastics utilized in cosmetics, toothpastes and facial cleansers enter rivers and the ocean, and research has shown that they can enter the human body through the consumption of seafood (
+                    - link "Coltelli et al., 2020" [ref=f1e1006] [cursor=pointer]:
+                      - /url: "#bib816"
+                    - text: ). Multiple PHA microplastic-free technologies are under development or already commercialized (
+                    - link "Mukherjee and Koller, 2023" [ref=f1e1008] [cursor=pointer]:
+                      - /url: "#bb0465"
+                    - text: "). For example, the global company Unilever has developed sunscreen products containing PHA micropowder (brand name: MyKAI). These ingredients are reportedly derived from renewable biomass and are fully biogradable and are one of the first examples of PHA use in cosmetics."
+                  - generic [ref=f1e1010]:
+                    - text: Materials produced from PHAs exhibit antibacterial effects, the extent of which will vary depending on the final material composition, structure, and surface properties. Incorporation of bioactive compounds such as essential oils or antimicrobial agents into PHA matrices leads to antibacterial effects. For example, a PHA-chitosan matrix that encapsulated MoS
+                    - subscript [ref=f1e1011]: "2"
+                    - text: nanoparticles was constructed that showed antibacterial activity against multi-drug-resistant
+                    - emphasis [ref=f1e1012]: Escherichia coli
+                    - text: K1 (
+                    - link "Mukheem et al., 2020" [ref=f1e1013] [cursor=pointer]:
+                      - /url: "#bb0460"
+                    - text: ). Indeed, the nanoarchitecture of PHA can be manufactured during material processing to contain small concentrations of ZnO and Ag, and the final materials exhibited excellent antibacterial and material properties against
+                    - emphasis [ref=f1e1015]: Escherichia coli
+                    - text: and food pathogen
+                    - emphasis [ref=f1e1016]: Salmonella
+                    - text: ", respectively ("
+                    - link "Tarrahi et al., 2020" [ref=f1e1017] [cursor=pointer]:
+                      - /url: "#bb0685"
+                    - text: ).
+                  - generic [ref=f1e1019]:
+                    - text: PHA-based materials can be designed to have surfaces that inhibit bacterial growth through the prevention of bacterial attachment and biofilm formation.
+                    - emphasis [ref=f1e1020]: In vitro
+                    - text: testing of a PHA-hydroxyapatite composite containing selenium and strontium showed bacterial cells cultured on the material surface was greatly reduced (
+                    - link "Marcello et al., 2021" [ref=f1e1021] [cursor=pointer]:
+                      - /url: "#bb0405"
+                    - text: ). The PHA films released ions showing antimicrobial activity against
+                    - emphasis [ref=f1e1023]: Staphylococcus
+                    - text: and
+                    - emphasis [ref=f1e1024]: Escherichia coli
+                    - text: ", and were demonstrated effective for bone healing applications. Similarly, PHBV inset with graphene oxide/MXene nanosheets created material with superior hydrophilicity, improving antibacterial activity along with platelet adsorption, blood coagulation, and tensile strength of the material ("
+                    - link "Wu et al., 2021" [ref=f1e1025] [cursor=pointer]:
+                      - /url: "#bb0785"
+                    - text: ). These materials demonstrate application for wound healing. This research demonstrated PHA nanocomposites are effective carriers for antibacterial materials in both cosmetic and drug development. Notably, the antibacterial properties of PHA due to surface design are not universal and vary depending on the material processing of the raw materials. Therefore, research is required in the material processing stage to enhance the antibacterial mechanisms associated with PHA-based materials.
+                - generic [ref=f1e1027]:
+                  - heading "2.5. PHA uses in medical applications" [level=3] [ref=f1e1028]
+                  - generic [ref=f1e1029]:
+                    - heading "2.5.1. PHA as tissue engineering implant materials" [level=4] [ref=f1e1030]
+                    - generic [ref=f1e1031]:
+                      - text: Due to their biodegradability and biocompatibility, PHA have gained prominence in medical implant materials (
+                      - link "Wang et al., 2005" [ref=f1e1032] [cursor=pointer]:
+                        - /url: "#bb0730"
+                      - text: ). PHA including PHB, PHBV, P3HB4HB, P4HB, P3HO (poly-R-3-hydroxyoctanoate) and PHBHHx-based nanocomposites have been explored in tissue engineering, including in the creation of porous nanocomposites that can replace bones. PHA has already been used in a wide range of medical implants from screws, staples, and surgical mesh to bone plates, nerve guides, skin substitutes, and adhesion barriers (
+                      - link "Sehgal and Gupta, 2020" [ref=f1e1034] [cursor=pointer]:
+                        - /url: "#bb0615"
+                      - text: ). PHA can also be used in wound dressings, slings, bone graft substitutes, and ocular cell implants (
+                      - link "Pandey et al., 2022" [ref=f1e1036] [cursor=pointer]:
+                        - /url: "#bb0505"
+                      - text: ).
+                    - generic [ref=f1e1038]:
+                      - text: Decreasing platelet adhesion for materials in contact with blood is a desirable feature of PHB and PHBV films, as they have suitable hemolysis reactivity (
+                      - link "Kaniuk and Stachewicz, 2021" [ref=f1e1039] [cursor=pointer]:
+                        - /url: "#bb0265"
+                      - text: ). In recent work, a PHB organically modified montmorillonite (OMMT) nano-clay nanocomposite outperformed PHB in terms of thermal stability and porosity. The final material can be used for 3D organ printing and bone tissue engineering, as well as for scaffold engineering (lab-on-a-chip) (
+                      - link "Mohan et al., 2021" [ref=f1e1041] [cursor=pointer]:
+                        - /url: "#bb0445"
+                      - text: ). A 3D printed prototype for use in medical applications is shown in
+                      - link "Fig. 3" [ref=f1e1043] [cursor=pointer]:
+                        - /url: "#f0015"
+                      - text: c. PHB/ZrO2/Herafill® (30%) composite implants were created in a work to test bone-interface adhesion performance. The composites were found to have not significant
+                      - emphasis [ref=f1e1045]: in vivo
+                      - text: degradation after nine months and maintained high osseointegration values (
+                      - link "Meischel et al., 2016" [ref=f1e1046] [cursor=pointer]:
+                        - /url: "#bb0430"
+                      - text: ). P(3HHx-
+                      - emphasis [ref=f1e1048]: co
+                      - text: "-3HO) (PHHxHO) is a promising candidate for tissue engineering ("
+                      - link "Marois et al., 1999" [ref=f1e1049] [cursor=pointer]:
+                        - /url: "#bb0410"
+                      - text: ). PHHxHO was found to be a successful vascular graft in a lamb model as early as 1999, and the mechanical properties mimicked naturally built vessels (
+                      - link "Shum-Tim et al., 1999" [ref=f1e1051] [cursor=pointer]:
+                        - /url: "#bb0635"
+                      - text: ).
+                    - generic [ref=f1e1053]:
+                      - text: 3D PHBV tubes were created by rolling and heat sealing an electrospun fiber mat to mimic a sciatic nerve conduit (
+                      - link "Biazar and Heidari Keshel, 2013" [ref=f1e1054] [cursor=pointer]:
+                        - /url: "#bb0070"
+                      - text: ). The synthetic nerve was infused with Schwann cells then implanted into a resected sciatic nerve (
+                      - link "Biazar and Heidari Keshel, 2013" [ref=f1e1056] [cursor=pointer]:
+                        - /url: "#bb0070"
+                      - text: ). It was found that the conduit supported the regeneration of the resected sciatic nerve cells and maintained its mechanical properties after four months. Indeed, regeneration of the nerve trunk cells was observed as myelin sheath after binding to the 3D PHBV scaffold (
+                      - link "Biazar and Heidari Keshel, 2013" [ref=f1e1058] [cursor=pointer]:
+                        - /url: "#bb0070"
+                      - text: ). In another work, electrospun PHB/PHBV scaffolds were also found to support myelin sheath regeneration. The aligned PHB/PHBV/collagen fibers aligned properly facilitating the growth of Schwann cells. Notably, nerve growth factor (NGF) secretion and glia derived neurotrophic factor (GDNF) gene expression were seen after one week (
+                      - link "Masaeli et al., 2013" [ref=f1e1060] [cursor=pointer]:
+                        - /url: "#bb0420"
+                      - text: ). Similarly, aligned PHBV/collagen nanofibers were shown to be promising and suggested to be useful for therapeutic neural tissue engineering (
+                      - link "Prabhakaran et al., 2013" [ref=f1e1062] [cursor=pointer]:
+                        - /url: "#bb0545"
+                      - text: ). PLLA/P4HB stents showed decreased stenosis compared to stainless steel stents under the same conditions (
+                      - link "Fig. 3" [ref=f1e1064] [cursor=pointer]:
+                        - /url: "#f0015"
+                      - text: a).
+                    - generic [ref=f1e1066]:
+                      - text: In order to reach FDA approval, a medical implant must be below 20 US Pharmacopeia endotoxin units (EU) (
+                      - link "Martin and Williams, 2003" [ref=f1e1067] [cursor=pointer]:
+                        - /url: "#bb0415"
+                      - text: ;
+                      - link "Williams et al., 1999" [ref=f1e1069] [cursor=pointer]:
+                        - /url: "#bb0760"
+                      - text: ). Shishatskaya et al. found that PHB/PHBV sutures did not induce an acute vascular reaction at the site of implantation
+                      - emphasis [ref=f1e1071]: in vivo
+                      - text: (
+                      - link "Shishatskaya et al., 2006" [ref=f1e1072] [cursor=pointer]:
+                        - /url: "#bb0630"
+                      - text: ). Similar phenomena have been observed with PHBHHx, where there were no adverse events for more than one year (
+                      - link "Qu et al., 2006" [ref=f1e1074] [cursor=pointer]:
+                        - /url: "#bb0555"
+                      - text: ). P4HB has been approved by the FDA for suture application with a trade name TephaFLEX marketed by Tepha Inc., of Cambridge, Mass., USA (
+                      - link "Pandey et al., 2022" [ref=f1e1076] [cursor=pointer]:
+                        - /url: "#bb0505"
+                      - text: ). The company Tepha (USA) manufactures P4HB for many medical applications including implants and tablets, artery augments, cardiological stents, vascular grafts, and heart valves (
+                      - link "Martin and Williams, 2003" [ref=f1e1078] [cursor=pointer]:
+                        - /url: "#bb0415"
+                      - text: ;
+                      - link "Philip et al., 2007" [ref=f1e1080] [cursor=pointer]:
+                        - /url: "#bb0525"
+                      - text: ).
+                  - generic [ref=f1e1082]:
+                    - heading "2.5.2. PHA as cell growth supporting matrix" [level=4] [ref=f1e1083]
+                    - generic [ref=f1e1084]:
+                      - text: PHB as an implant biomaterial is characterized by its non-toxicity, and degraded PHB monomers do not stimulate the immune system (
+                      - link "Cheng et al., 2005" [ref=f1e1085] [cursor=pointer]:
+                        - /url: "#bb0115"
+                      - text: ;
+                      - link "Sun et al., 2007" [ref=f1e1087] [cursor=pointer]:
+                        - /url: "#bb0660"
+                      - text: ). PHB conduits are a strong candidate for long-gap nerve injury restoration (
+                      - link "Marois et al., 1999" [ref=f1e1089] [cursor=pointer]:
+                        - /url: "#bb0410"
+                      - text: ). Indeed, PHB monomers have been shown to stimulate the Ca
+                      - superscript [ref=f1e1091]: 2+
+                      - text: channel activation and promote regeneration of damaged tissue. As early as 1997, researchers found that new bone was formed around PHBV/HA implants in a rabbit model and that osteocyte cells were found to cover the interface area between the implant and bone (
+                      - link "Luklinska and Bonfield, 1997" [ref=f1e1092] [cursor=pointer]:
+                        - /url: "#bb0395"
+                      - text: ).
+                      - emphasis [ref=f1e1094]: In vitro
+                      - text: ", a PHBV scaffold and foam were used to repair tissue of bone marrow stromal cells ("
+                      - link "Köse et al., 2003" [ref=f1e1095] [cursor=pointer]:
+                        - /url: "#bb0305"
+                      - text: ).
+                    - generic [ref=f1e1097]:
+                      - text: PHBHHx has been shown to stimulate bone growth (
+                      - link "Wang et al., 2008" [ref=f1e1098] [cursor=pointer]:
+                        - /url: "#bb0735"
+                      - text: ) and effectively repair damaged nerves (
+                      - link "Bian et al., 2009" [ref=f1e1100] [cursor=pointer]:
+                        - /url: "#bb0065"
+                      - text: ) lending it to be a successful osteosynthetic material. Meanwhile, porous wet-spun fibers with optimal specific surface area, porosity, and diameter for wound healing applications have been created after mixing the fibers with antibacterial plant extracts (
+                      - link "Kundrat et al., 2019" [ref=f1e1102] [cursor=pointer]:
+                        - /url: "#bb0340"
+                      - text: ). Meanwhile, PHBV electrospun fibers coated with olive leaf extract were developed for wound care (
+                      - link "De la Ossa et al., 2022" [ref=f1e1104] [cursor=pointer]:
+                        - /url: "#bb0135"
+                      - text: ). The OLE phenols in the PHBV/OLE electrospun fibers were released after one week and showed cytocompatibility toward HFFF2 fibroblasts and HaCaT keratinocytes
+                      - emphasis [ref=f1e1106]: in vivo
+                      - text: ", indicating ulcers and wound care are possible using PHBV fibers ("
+                      - link "De la Ossa et al., 2022" [ref=f1e1107] [cursor=pointer]:
+                        - /url: "#bb0135"
+                      - text: ).
+                    - generic [ref=f1e1109]:
+                      - text: PHA has some success in cardiovascular tissue engineering (
+                      - link "Chen and Wu, 2005" [ref=f1e1110] [cursor=pointer]:
+                        - /url: "#bb0105"
+                      - text: ). Researchers observed the formation of layered tissue similar to aorta in mechanical properties using P(3HHx-
+                      - emphasis [ref=f1e1112]: co
+                      - text: "-3HO) implants ("
+                      - link "Opitz et al., 2004" [ref=f1e1113] [cursor=pointer]:
+                        - /url: "#bb0495"
+                      - text: ). In nerve injury restoration, autologous nerve grafts are usually used. PHB conduits implanted in a rat sciatic nerve showed excellent regeneration capacity and biocompatibility (
+                      - link "Hazari et al., 1999" [ref=f1e1115] [cursor=pointer]:
+                        - /url: "#bb0230"
+                      - text: ). PHB conduits together with nerve growth factors and Schwann cells form a supportive extracellular matrix for grafts (
+                      - link "Namgung, 2014" [ref=f1e1117] [cursor=pointer]:
+                        - /url: "#bb0480"
+                      - text: ;
+                      - link "Armstrong et al., 2007" [ref=f1e1119] [cursor=pointer]:
+                        - /url: "#bb0040"
+                      - text: ). Schwann cells were found to promote nerve regeneration even within PHB conduits (
+                      - link "Namgung, 2014" [ref=f1e1121] [cursor=pointer]:
+                        - /url: "#bb0480"
+                      - text: ;
+                      - link "Armstrong et al., 2007" [ref=f1e1123] [cursor=pointer]:
+                        - /url: "#bb0040"
+                      - text: ). PHBHHx has also been established as a biocompatible material for nerve cell restoration (Yang et al., 2018). A prototype for a heart valve scaffold is shown in
+                      - link "Fig. 3" [ref=f1e1125] [cursor=pointer]:
+                        - /url: "#f0015"
+                      - text: e.
+                  - generic [ref=f1e1127]:
+                    - heading "2.5.3. PHA drug delivery carriers" [level=4] [ref=f1e1128]
+                    - generic [ref=f1e1129]:
+                      - text: It is possible to use PHA as a matrix for the controlled release of drugs (
+                      - link "Weiner, 1997" [ref=f1e1130] [cursor=pointer]:
+                        - /url: "#bb0755"
+                      - text: ;
+                      - link "Chen, 2009" [ref=f1e1132] [cursor=pointer]:
+                        - /url: "#bb0095"
+                      - text: ), which is quite advantageous due to its chemical composition and steady degradation (
+                      - link "Pouton and Akhtar, 1996" [ref=f1e1134] [cursor=pointer]:
+                        - /url: "#bb0540"
+                      - text: ). PHA can be produced to form microcapsules, films, nanoparticles, and microspheres as porous matrices (
+                      - link "Wu et al., 2009" [ref=f1e1136] [cursor=pointer]:
+                        - /url: "#bb0780"
+                      - text: ). PHA homopolymers and PHA copolymers can be used to microencapsulate medicines. In the early 1990s, PHA was first considered as a drug carrier due to its steady degradation by surface erosion and ease of manufacture compared to alternative slow-release products (
+                      - link "Gould et al., 1987" [ref=f1e1138] [cursor=pointer]:
+                        - /url: "#bb0205"
+                      - text: ). PHB outperformed PLA microspheres as a drug carrier for the anticancer drug lomustine in terms of release rate
+                      - emphasis [ref=f1e1140]: in vitro
+                      - text: and
+                      - emphasis [ref=f1e1141]: in vivo
+                      - text: (
+                      - link "Volova, 2004" [ref=f1e1142] [cursor=pointer]:
+                        - /url: "#bb0725"
+                      - text: ). In the microcapsule structures, multiple layers of PHA can be made with magnetic substance added (
+                      - link "Sehgal and Gupta, 2020" [ref=f1e1144] [cursor=pointer]:
+                        - /url: "#bb0615"
+                      - text: ). A commercialized PHA application for drug delivery is shown in
+                      - link "Fig. 3" [ref=f1e1146] [cursor=pointer]:
+                        - /url: "#f0015"
+                      - text: b.
+                    - generic [ref=f1e1148]:
+                      - text: Mcl-PHA copolymers are considered promising candidates for drug delivery due to their low melting points and reduced crystallinity (
+                      - link "Pouton, 2001" [ref=f1e1149] [cursor=pointer]:
+                        - /url: "#bb0535"
+                      - text: ). PHA/PEG polymeric nanospheres were created to accelerate blood circulation phases in their study (
+                      - link "Ueda and Tabata, 2003" [ref=f1e1151] [cursor=pointer]:
+                        - /url: "#bb0695"
+                      - text: ). PHB/chitosan (CTS) microspheres for drug release were produced in another study using single and dual emulsion methods (
+                      - link "Shih et al., 2007" [ref=f1e1153] [cursor=pointer]:
+                        - /url: "#bb0625"
+                      - text: ). PHB composites have also been explored in other drug delivery and surgical applications (
+                      - link "Raza et al., 2023" [ref=f1e1155] [cursor=pointer]:
+                        - /url: "#bb0570"
+                      - text: ;
+                      - link "Fedorov et al., 2008" [ref=f1e1157] [cursor=pointer]:
+                        - /url: "#bb0170"
+                      - text: ;
+                      - link "Salahuddin et al., 2022" [ref=f1e1159] [cursor=pointer]:
+                        - /url: "#bb0605"
+                      - text: ;
+                      - link "Kang and Yun, 2022" [ref=f1e1161] [cursor=pointer]:
+                        - /url: "#bb0260"
+                      - text: ).
+                - generic [ref=f1e1163]:
+                  - heading "2.6. PHA as a carbon source for denitrification in wastewater treatment" [level=3] [ref=f1e1164]
+                  - generic [ref=f1e1165]:
+                    - generic [ref=f1e1166]:
+                      - text: PHA and PHA producers naturally act to remove nitrogen from the earth's ecosystem and can act as a barrier to nitrogen leaving agricultural fields through rivers and streams (
+                      - link "Acharjee et al., 2022" [ref=f1e1167] [cursor=pointer]:
+                        - /url: "#bb0005"
+                      - text: ;
+                      - link "Hawkins et al., 2021" [ref=f1e1169] [cursor=pointer]:
+                        - /url: "#bb0225"
+                      - text: ). The denitrification process converts nitrate to nitrogen gas, while filters remove suspended solids (
+                      - link "Amelia et al., 2019" [ref=f1e1171] [cursor=pointer]:
+                        - /url: "#bb0025"
+                      - text: ;
+                      - link "Wang et al., 2018" [ref=f1e1173] [cursor=pointer]:
+                        - /url: "#bb0745"
+                      - text: ). PHA polymer granules act as a solid substrate and biofilm carrier, either within or separate from the microbes, eliminating the need for costly and toxic organic substrates (
+                      - link "Poirier, 2002" [ref=f1e1175] [cursor=pointer]:
+                        - /url: "#bb0530"
+                      - text: ). In aquaculture, PHA can act as both solid substrate and a biofilm carrier that can remove the nitrogen from water. The use of PHA in an aquaculture system is ideal because clean water, wastewater production, and energy are reduced, creating a more efficient recirculating aquaculture system (
+                      - link "Gutierrez-Wing et al., 2014" [ref=f1e1177] [cursor=pointer]:
+                        - /url: "#bb0220"
+                      - text: ;
+                      - link "Hawkins et al., 2021" [ref=f1e1179] [cursor=pointer]:
+                        - /url: "#bb0225"
+                      - text: ;
+                      - link "Pesante et al., 2022" [ref=f1e1181] [cursor=pointer]:
+                        - /url: "#bb0520"
+                      - text: ). A self-regulating PHA denitrification system for a marine aquaculture environment is shown in
+                      - link "Fig. 4" [ref=f1e1183] [cursor=pointer]:
+                        - /url: "#f0020"
+                      - text: c.
+                    - figure [ref=f1e1185]:
+                      - generic [ref=f1e1186]:
+                        - img "Fig. 4"
+                        - list [ref=f1e1187]:
+                          - listitem [ref=f1e1188]:
+                            - 'link "Download: Download high-res image (247KB)" [ref=f1e1189] [cursor=pointer]':
+                              - /url: https://ars.els-cdn.com/content/image/1-s2.0-S0734975024000144-gr4_lrg.jpg
+                          - listitem [ref=f1e1192]:
+                            - 'link "Download: Download full-size image" [ref=f1e1193] [cursor=pointer]':
+                              - /url: https://ars.els-cdn.com/content/image/1-s2.0-S0734975024000144-gr4.jpg
+                      - paragraph [ref=f1e1198]:
+                        - text: Fig. 4.
+                        - strong [ref=f1e1199]:
+                          - emphasis [ref=f1e1200]: Agricultural application of PHA
+                        - text: a. fertilizer coating (Paques Biomaterials,
+                        - link [ref=f1e1201] [cursor=pointer]:
+                          - /url: https://www.caleyda.nl/
+                          - generic [ref=f1e1202]:
+                            - text: https://www.caleyda.nl/
+                            - img "Opens in new window" [ref=f1e1203]
+                        - text: ); b. slow-release fertilizer with PHB coating (
+                        - link "Kontárová et al., 2022" [ref=f1e1205] [cursor=pointer]:
+                          - /url: "#bb0300"
+                        - text: ); c. Self-regulating PHA denitrification system for marine aquaculture system (
+                        - link "Ebeling and Drennan, 2007" [ref=f1e1207] [cursor=pointer]:
+                          - /url: "#bb0620"
+                        - text: ); d. PHA biodegradable mulch film (TBV 100 series,
+                        - link [ref=f1e1209] [cursor=pointer]:
+                          - /url: https://terraverdae.com
+                          - generic [ref=f1e1210]:
+                            - text: https://terraverdae.com
+                            - img "Opens in new window" [ref=f1e1211]
+                        - text: ).
+                  - generic [ref=f1e1213]:
+                    - text: In sewage treatment systems, the carbon source properties of PHA allow it to act as an adsorbent for nitrogen and organic wastes (
+                    - link "Venkata Mohan et al., 2010" [ref=f1e1214] [cursor=pointer]:
+                      - /url: "#bb0705"
+                    - text: ). Early research in biopolymer denitrification found that PHB and poly(ε-caprolactone) (PCL) had lower surface-bound denitrification rates compared to methanol and ethanol carbon carrier methods (
+                    - link "Poirier, 2002" [ref=f1e1216] [cursor=pointer]:
+                      - /url: "#bb0530"
+                    - text: ). However, further research has shown that PHA can more specifically target nitrogen removal from water, reducing the generation of organic carbon sources and improving final wastewater quality (
+                    - link "Khurram, 2015" [ref=f1e1218] [cursor=pointer]:
+                      - /url: "#bb0270"
+                    - text: ).
+                  - generic [ref=f1e1220]:
+                    - text: In general, β-proteobacteria are the main microbial species used for PHA-degrading denitrifying bacteria. Since PHA acts as a carbon storage material for microbes, this naturally gives the molecule ability to function metabolically as a denitrifying substance for microbial digestion (
+                    - link "Amelia et al., 2019" [ref=f1e1221] [cursor=pointer]:
+                      - /url: "#bb0025"
+                    - text: ;
+                    - link "Hiraishi and Khan, 2003" [ref=f1e1223] [cursor=pointer]:
+                      - /url: "#bb0235"
+                    - text: ). To this end, PHA in the form of solid substrate is preferred. Another well-known denitrifier is
+                    - emphasis [ref=f1e1225]: Paracoccus denitrificans
+                    - text: ", which uses PHA depolymerase during denitrification. In one study, PHB and PHBV were found to degrade rapidly, while other polymers such as PLA and PCL had reduced degradation and denitrification potential ("
+                    - link "El-Sayed et al., 2009" [ref=f1e1226] [cursor=pointer]:
+                      - /url: "#bb0155"
+                    - text: ). Cells bound to PHA granules outperformed suspended cells in this research in terms of denitrification rate (
+                    - link "El-Sayed et al., 2009" [ref=f1e1228] [cursor=pointer]:
+                      - /url: "#bb0155"
+                    - text: ).
+                - generic [ref=f1e1230]:
+                  - heading "2.7. PHA as animal feeds (replacing antibiotics)" [level=3] [ref=f1e1231]
+                  - generic [ref=f1e1232]:
+                    - text: Waste streams can be used to recover nutrients and create healthy single-cell proteins (SCPs). A recent strategy using PHA has been explored to both reduce waste management costs and increase the quality and quantity of animal feed. In a recent paper, PHB bound to SCPs was used as a healthy aquaculture feed to replace conventional antibiotics-supplemented feeds (
+                    - link "Asiri and Chu, 2022" [ref=f1e1233] [cursor=pointer]:
+                      - /url: "#bb0045"
+                    - text: ). The work tested PHA-SCPs from various renewable wastes, including agro-industrial and wastewater sources, for the proper growth and infection resistance of the aquaculture animal model brine shrimp
+                    - emphasis [ref=f1e1235]: Artemia
+                    - text: . Two microorganisms,
+                    - emphasis [ref=f1e1236]: Zobellella denitrificans
+                    - text: ZD1 and
+                    - emphasis [ref=f1e1237]: Pseudomonas oleovorans
+                    - text: ", were grown on the agro-industrial wastes and produced PHA-SCPs of different lengths and molecular weights. It was found that middle-chain-length PHA was most effective as a biocontrol agent, and low doses were sufficient to suppress the growth of pathogens in the aquaculture environment. In fact, mcl-PHA-SCPs were also shown to act as a food and energy source for the brine shrimp ("
+                    - link "Asiri and Chu, 2022" [ref=f1e1238] [cursor=pointer]:
+                      - /url: "#bb0045"
+                    - text: ).
+                  - generic [ref=f1e1240]:
+                    - text: Scl PHA that has been pretreated has been used as an animal feed supplement for fingerlings and piglets, showing an improved digestibility index for these animals (
+                    - link "Wang et al., 2019" [ref=f1e1241] [cursor=pointer]:
+                      - /url: "#bb0750"
+                    - text: ).
+                - generic [ref=f1e1243]:
+                  - heading "2.8. PHA as biofuels (after methyl esterification)" [level=3] [ref=f1e1244]
+                  - generic [ref=f1e1245]:
+                    - text: Recently, the use of PHA for biofuels has been explored using its synthetic pathway in bacteria (
+                    - link "Muneer et al., 2020" [ref=f1e1246] [cursor=pointer]:
+                      - /url: "#bb0470"
+                    - text: ). If waste-sources could be used to grow bacteria producing PHA, PHA could become a sustainable source for biofuel production. PHA-based biofuel produced from wastewater or activated sludge has been proposed as a technique to simultaneously generate energy and treat waste (
+                    - link "Kourmentza et al., 2017" [ref=f1e1248] [cursor=pointer]:
+                      - /url: "#bb0315"
+                    - text: ).
+                  - generic [ref=f1e1250]:
+                    - text: Specifically, PHB methyl ester (HBME) and hydroxyalkanoate methyl ester (HAME) were tested using the acid-catalyzed hydrolytic esterification of PHB (
+                    - link "Kinyanjui Muiruri et al., 2023" [ref=f1e1251] [cursor=pointer]:
+                      - /url: "#bb0275"
+                    - text: ). In the acid-catalyzed hydrolysis process, PHB and mcl-PHA are converted to (
+                    - emphasis [ref=f1e1253]: R
+                    - text: )-3-hydroxybutyrate methyl ester (3HBME) and middle chain length hydroxyalkanoate methyl ester (3HAME). 10% of both products can be used to enhance ethanol combustion (
+                    - link "Zhang et al., 2009" [ref=f1e1254] [cursor=pointer]:
+                      - /url: "#bb0800"
+                    - text: ).
+                - generic [ref=f1e1256]:
+                  - heading "2.9. PHA as mulching film" [level=3] [ref=f1e1257]
+                  - generic [ref=f1e1258]:
+                    - text: Mulching is essential to maintain soil structure. Mulching also prevents soil pollution, retains water for better plant growth, and limits weed growth (
+                    - link "Bandopadhyay et al., 2018" [ref=f1e1259] [cursor=pointer]:
+                      - /url: "#bb0050"
+                    - text: ;
+                    - link "Venkateswar Reddy and Venkata Mohan, 2012" [ref=f1e1261] [cursor=pointer]:
+                      - /url: "#bb0710"
+                    - text: ). Typically, mulch is made of polyethylene (low and high-density) which is not biodegradable (
+                    - link "Suyama et al., 1998" [ref=f1e1263] [cursor=pointer]:
+                      - /url: "#bb0665"
+                    - text: ). Some estimate that 40% of single-use plastics were used in agricultural mulch and applications (year 2012) (
+                    - link "Bandopadhyay et al., 2018" [ref=f1e1265] [cursor=pointer]:
+                      - /url: "#bb0050"
+                    - text: ; Reddy and Mohan, 2012). PHA, along with PLA and other biodegradable polymers are therefore attractive alternative replacements that can also elevate soil health (
+                    - link "Niaounakis, 2014" [ref=f1e1267] [cursor=pointer]:
+                      - /url: "#bb0485"
+                    - text: ).
+                  - generic [ref=f1e1269]:
+                    - text: Recently, PHA films have been used as a mulch to facilitate water-efficient agricultural practices. PHA films can be degraded rapidly over time depending on climate and crop conditions (
+                    - link "Mosnáčková et al., 2019" [ref=f1e1270] [cursor=pointer]:
+                      - /url: "#bb0450"
+                    - text: ;
+                    - link "França et al., 2021" [ref=f1e1272] [cursor=pointer]:
+                      - /url: "#bb0190"
+                    - text: ). Scl-PHA can also be used as a fertilizer encapsulant, in order to boost food production while also supporting carbon neutral agriculture practices (
+                    - link "Kontárová et al., 2022" [ref=f1e1274] [cursor=pointer]:
+                      - /url: "#bb0300"
+                    - text: ;
+                    - link "França et al., 2021" [ref=f1e1276] [cursor=pointer]:
+                      - /url: "#bb0190"
+                    - text: ). Outside of mulch material, microbial species that produce PHA are also of interest for promoting plant growth (
+                    - link "Rehm and Steinbüchel, 1999" [ref=f1e1278] [cursor=pointer]:
+                      - /url: "#bb0575"
+                    - text: ). As PHA acts as a carbon source for certain bacteria, it can also reduce bacterial stress in the soil caused by carbon limitation or temperature and salt variation (
+                    - link "Sehgal and Gupta, 2020" [ref=f1e1280] [cursor=pointer]:
+                      - /url: "#bb0615"
+                    - text: ).
+                    - link "Fig. 4" [ref=f1e1282] [cursor=pointer]:
+                      - /url: "#f0020"
+                    - text: a and b show fertilizers coated with PHA that are designed for slow release.
+                  - generic [ref=f1e1284]:
+                    - text: In terms of companies, Danimer Scientific produces biodegradable PHA copolymer P(3HB-
+                    - emphasis [ref=f1e1285]: co
+                    - text: "-3HHx) ("
+                    - link [ref=f1e1286] [cursor=pointer]:
+                      - /url: "#bb0075"
+                      - generic [ref=f1e1288]:
+                        - text: Biopol–mers - PVA Hydrogels Anionic Polymerisation Nanocomposites
+                        - emphasis [ref=f1e1289]: ","
+                        - text: "2003"
+                    - text: ) that forms a custom agricultural mulch. Metabolix has also manufactured a mulch product that claims to use natural carbohydrates as a carbon source for its microorganisms (
+                    - link "Randon and Attard, 2007" [ref=f1e1290] [cursor=pointer]:
+                      - /url: "#bb0560"
+                    - text: ). A commercialized PHA biodegradable mulch film is shown in
+                    - link "Fig. 4" [ref=f1e1292] [cursor=pointer]:
+                      - /url: "#f0020"
+                    - text: d.
+              - generic [ref=f1e1294]:
+                - heading "3. Future prospects" [level=2] [ref=f1e1295]
+                - generic [ref=f1e1296]: Achieving cost competitiveness with traditional plastics is a multifaceted challenge, and several battles remain before PHA and similar biomaterials can replace petroleum-derived plastics. Factors such as feedstock costs, process optimization, and advancements in fermentation technologies are important to bring down the cost of PHA production. However, an often overlooked area of research that is nevertheless paramount to achieving PHA transition is the development of clear commercial applications for PHA raw materials. As demonstrated in the studies mentioned throughout this article, targeted research is required during material processing of PHA to ensure appropriate product-market fit and in turn accelerate production efforts and investment.
+                - generic [ref=f1e1297]: Development of high-end applications for unique PHA applications can command premium prices in the market, which in turn can support economic feasibility of PHA production. High-end applications for PHA include products in the cosmetic and medical fields, and in certain 3D printed materials. High-end applications typically require specific and tailored properties, which can be achieved by versatile PHAs but only after targeted research effort. Meanwhile, applications for PHA in industries with ever-stricter environmental regulations such as biofuels and mulching films, or with stronger consumer emphasis, such as in textile manufacturing and certain consumer products, create demand for adoption of biodegradable materials. This can lead to incentive structures in the market that will foster a more favorable environment for future investment and development. In addition, a diverse range of applications can mitigate risks associated with relying on a single market sector, and create a more stable market for PHA producers.
+                - generic [ref=f1e1298]:
+                  - text: We foresee many potential future application areas for PHA in current new industries. For example, recent research in nanocomposites for PHA might make it be a good replacement for plastic in microchips, breaking into the electronics industry. PHA's inherently safe biocompatibility lends it naturally to be used for applications on the human body, such as new hydrogels and microspheres for cosmetics, PHA contact lenses, and PHA plastic surgery. Higher-end applications of PHA in clothing and wearable accessories include PHA wigs and PHA leathers. Meanwhile, higher price applications in the consumer sector include legos, dollhouses, and board games. PHA has been shown to function excellently in 3D printing, which can allow artist personalization and higher priced items. Finally, the PHA monomer 3-hydroxybutyrate (3HB) itself has applications in medicine, functioning as a ketone body that can ameliorate insulin resistance (
+                  - link "Zhang et al., 2023" [ref=f1e1299] [cursor=pointer]:
+                    - /url: "#bb0810"
+                  - text: ).
+                - generic [ref=f1e1301]:
+                  - text: No matter the company, key to scale up success for PHA production is a direct supply chain to the application space, be it in packaging, food and beverage materials, medical devices or in agriculture (
+                  - link "Rosenboom et al., 2022" [ref=f1e1302] [cursor=pointer]:
+                    - /url: "#bb0590"
+                  - text: ). A heavy focus in the coming research should be for PHA applications in the industries mentioned here and more in order for PHA to replace bulk plastic uses and achieve a circular economy, together with high value implant application in medical fields.
+            - generic [ref=f1e1304]:
+              - heading "Declaration of competing interest" [level=2] [ref=f1e1305]
+              - generic [ref=f1e1306]: The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+            - generic [ref=f1e1307]:
+              - heading "Acknowledgements" [level=2] [ref=f1e1308]
+              - generic [ref=f1e1309]:
+                - text: This work was supported by grants from the Ministry of Science and Technology of China (Grant No.
+                - link "2018YFA0900200" [ref=f1e1310] [cursor=pointer]:
+                  - /url: "#gts0005"
+                - text: ); National Natural Science Foundation of China (Grant No.
+                - link "21761132013" [ref=f1e1312] [cursor=pointer]:
+                  - /url: "#gts0010"
+                - text: ; No.
+                - link "31870859" [ref=f1e1314] [cursor=pointer]:
+                  - /url: "#gts0010"
+                - text: ); and PhaBuilder Biotech Co. Ltd.. This project was also funded by the National Natural Science Foundation of China [Grant numbers
+                - link "31961133017" [ref=f1e1316] [cursor=pointer]:
+                  - /url: "#gts0010"
+                - text: ","
+                - link "31961133018" [ref=f1e1318] [cursor=pointer]:
+                  - /url: "#gts0010"
+                - text: "]. These grants are part of MIX-UP, a joint NSFC and EU H2020 collaboration. In Europe, MIX-UP has received funding from the European Union's Horizon 2020 research and innovation program [grant agreement Number"
+                - link "870294" [ref=f1e1320] [cursor=pointer]:
+                  - /url: "#gts0025"
+                - text: "]. Helen Park Qitiao Hu was supported by a dual PhD project between Tsinghua University and The University of Manchester and was funded by China Scholarship Council."
+          - link "View Abstract" [ref=f1e1322] [cursor=pointer]:
+            - /url: /science/article/abs/pii/S0734975024000144
+        - generic [ref=f1e1324]:
+          - generic [ref=f1e1325]:
+            - heading "Recommended articles" [level=2] [ref=f1e1326]
+            - text: Loading...
+          - generic [ref=f1e1327]:
+            - heading "Metrics" [level=2] [ref=f1e1328]
+            - generic [ref=f1e1329]:
+              - heading "Citations" [level=3] [ref=f1e1330]
+              - list [ref=f1e1331]:
+                - listitem [ref=f1e1332]:
+                  - generic [ref=f1e1333]: Citation Indexes
+                  - generic [ref=f1e1334]: "141"
+              - heading "Captures" [level=3] [ref=f1e1335]
+              - list [ref=f1e1336]:
+                - listitem [ref=f1e1337]:
+                  - generic [ref=f1e1338]: Mendeley Readers
+                  - generic [ref=f1e1339]: "321"
+              - generic [ref=f1e1340]:
+                - img "PlumX Metrics Logo" [ref=f1e1341]
+                - link [ref=f1e1342] [cursor=pointer]:
+                  - /url: https://plu.mx/plum/a/?doi=10.1016%2Fj.biotechadv.2024.108320&theme=plum-sciencedirect-theme&hideUsage=true
+                  - generic [ref=f1e1343]:
+                    - text: View details
+                    - img "Opens in new window" [ref=f1e1344]
+          - generic [ref=f1e1346]: © 2024 Elsevier Inc. All rights reserved.
+    - contentinfo [ref=f1e1347]:
+      - link "Elsevier home page (opens in a new tab)" [ref=f1e1349] [cursor=pointer]:
+        - /url: https://www.elsevier.com/
+        - img "Elsevier logo with wordmark" [ref=f1e1350]
+      - generic [ref=f1e1351]:
+        - list [ref=f1e1353]:
+          - listitem [ref=f1e1354]:
+            - link [ref=f1e1355] [cursor=pointer]:
+              - /url: https://www.elsevier.com/solutions/sciencedirect
+              - generic [ref=f1e1356]:
+                - text: About ScienceDirect
+                - img "Opens in new window" [ref=f1e1357]
+          - listitem [ref=f1e1359]:
+            - link "Remote access" [ref=f1e1360] [cursor=pointer]:
+              - /url: /user/institution/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS0734975024000144
+          - listitem [ref=f1e1362]:
+            - link [ref=f1e1363] [cursor=pointer]:
+              - /url: https://service.elsevier.com/app/contact/supporthub/sciencedirect/
+              - generic [ref=f1e1364]:
+                - text: Contact and support
+                - img "Opens in new window" [ref=f1e1365]
+          - listitem [ref=f1e1367]:
+            - link [ref=f1e1368] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/elsevier-website-terms-and-conditions
+              - generic [ref=f1e1369]:
+                - text: Terms and conditions
+                - img "Opens in new window" [ref=f1e1370]
+          - listitem [ref=f1e1372]:
+            - link [ref=f1e1373] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/privacy-policy
+              - generic [ref=f1e1374]:
+                - text: Privacy policy
+                - img "Opens in new window" [ref=f1e1375]
+          - listitem [ref=f1e1377]:
+            - button "Cookie settings" [ref=f1e1378] [cursor=pointer]
+        - paragraph [ref=f1e1379]: "All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply."
+      - link "RELX home page (opens in a new tab)" [ref=f1e1381] [cursor=pointer]:
+        - /url: https://www.relx.com/
+        - img "RELX group home page" [ref=f1e1382]
+  - generic:
+    - tooltip

@@ -1,0 +1,1729 @@
+- generic [active] [ref=e1]:
+  - navigation:
+    - list:
+      - listitem:
+        - button "Skip to Article Content" [ref=e2]
+      - listitem:
+        - button "Skip to Article Information" [ref=e3]
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - banner [ref=e7]:
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - generic:
+              - link:
+                - /url: /
+            - link "Southern University of Science and Technology" [ref=e17] [cursor=pointer]:
+              - /url: http://lib.sustc.edu.cn/
+          - generic [ref=e19]:
+            - generic [ref=e20]:
+              - generic:
+                - text: 
+                - generic [ref=e23]:
+                  - searchbox "Search" [ref=e24]
+                  - generic [ref=e25]: Search within
+                  - combobox "Search within" [ref=e26]:
+                    - option "This Journal" [selected]
+                    - option "SfAM Journals"
+                    - option "Wiley Online Library"
+                  - list [ref=e27]:
+                    - listitem [ref=e28]:
+                      - search "Quick Search" [ref=e29]:
+                        - generic [ref=e30]:
+                          - generic [ref=e31]: Search term
+                          - combobox "search text" [ref=e32]
+                          - status [ref=e33]
+                        - button "Submit Search" [ref=e34]: 
+                    - text:  
+            - generic [ref=e37]:
+              - button "Log in or Register" [ref=e39]:
+                - text: 
+                - generic [ref=e40]: Login / Register
+              - text:  
+            - text: 
+      - button "open ai companion modal" [ref=e41] [cursor=pointer]: open AI companion
+    - main [ref=e43]:
+      - generic [ref=e45]:
+        - navigation [ref=e48]:
+          - menubar [ref=e49]:
+            - listitem "Journals" [ref=e50]:
+              - menuitem "Journals" [ref=e51] [cursor=pointer]:
+                - text: Journals
+                - generic [ref=e52]: 
+        - complementary [ref=e56]:
+          - generic [ref=e57]: Advertisement
+        - generic [ref=e62]:
+          - article [ref=e63]:
+            - generic [ref=e64]:
+              - generic [ref=e65]:
+                - generic [ref=e67]:
+                  - generic [ref=e68]:
+                    - generic:
+                      - link "Environmental Microbiology":
+                        - /url: /journal/14622920
+                    - link [ref=e69] [cursor=pointer]:
+                      - /url: /journal/14622920
+                      - img "Environmental Microbiology" [ref=e70]
+                  - generic [ref=e73]:
+                    - generic [ref=e74]: 
+                    - generic [ref=e75]: Full Access
+                  - heading "The turnover of medium-chain-length polyhydroxyalkanoates in Pseudomonas putida KT2442 and the fundamental role of PhaZ depolymerase for the metabolic balance" [level=1] [ref=e76]
+                  - text:        
+                  - generic [ref=e80]:
+                    - generic [ref=e81]:
+                      - button "Laura Isabel De Eugenio" [ref=e82] [cursor=pointer]: Laura Isabel De Eugenio 
+                      - generic [ref=e83]: ","
+                    - generic [ref=e84]:
+                      - button "Isabel F. Escapa" [ref=e85] [cursor=pointer]: Isabel F. Escapa 
+                      - generic [ref=e86]: ","
+                    - generic [ref=e87]:
+                      - button "Valle Morales" [ref=e88] [cursor=pointer]: Valle Morales 
+                      - generic [ref=e89]: ","
+                    - generic [ref=e90]:
+                      - button "Nina Dinjaski" [ref=e91] [cursor=pointer]: Nina Dinjaski 
+                      - generic [ref=e92]: ","
+                    - generic [ref=e93]:
+                      - button "Beatriz Galán" [ref=e94] [cursor=pointer]: Beatriz Galán 
+                      - generic [ref=e95]: ","
+                    - generic [ref=e96]:
+                      - button "José Luis García" [ref=e97] [cursor=pointer]: José Luis García 
+                      - generic [ref=e98]: ","
+                    - button [ref=e100] [cursor=pointer]:
+                      - generic [ref=e101]:
+                        - text: María A. Prieto
+                        - generic [ref=e102]: 
+                      - text: 
+                  - generic [ref=e103]:
+                    - generic [ref=e104]: "First published: 29 December 2009 |"
+                    - generic [ref=e105]:
+                      - link "https://doi.org/10.1111/j.1462-2920.2009.02061.x Digital Object Identifier (DOI)" [ref=e106] [cursor=pointer]:
+                        - /url: https://doi.org/10.1111/j.1462-2920.2009.02061.x
+                        - text: https://doi.org/10.1111/j.1462-2920.2009.02061.x
+                        - generic [ref=e107]: Digital Object Identifier (DOI)
+                      - text: "|"
+                    - button "view metrics" [ref=e109]:
+                      - generic [ref=e110]: 
+                      - text: view metrics
+                - navigation "Article navigation and tools" [ref=e112]:
+                  - generic [ref=e113]:
+                    - generic [ref=e114]:
+                      - generic:     
+                      - button " Sections" [ref=e116] [cursor=pointer]:
+                        - generic [ref=e117]: 
+                        - text: Sections
+                    - generic [ref=e118]:
+                      - link "PDF" [ref=e121] [cursor=pointer]:
+                        - /url: /doi/epdf/10.1111/j.1462-2920.2009.02061.x
+                      - button "CITE" [ref=e123] [cursor=pointer]:
+                        - generic [ref=e124]: 
+                      - generic [ref=e126]:
+                        - button "Tools" [ref=e127] [cursor=pointer]:
+                          - generic [ref=e128]: 
+                          - text: Tools
+                        - text:   
+                      - generic [ref=e129]:
+                        - button "Share" [ref=e130] [cursor=pointer]:
+                          - generic [ref=e131]: 
+                          - text: Share
+                        - text:       
+                - article [ref=e133]:
+                  - generic [ref=e135]:
+                    - heading "Summary" [level=2] [ref=e136]
+                    - paragraph [ref=e138]: Polyhydroxyalkanoates (PHAs) are biodegradable polymers produced by a wide range of bacteria, including Pseudomonads. These polymers are accumulated in the cytoplasm as carbon and energy storage materials when culture conditions are unbalanced and hence, they have been classically considered to act as sinks for carbon and reducing equivalents when nutrients are limited. Bacteria facing carbon excess and nutrient limitation store the extra carbon as PHAs through the PHA polymerase (PhaC). Thereafter, under starvation conditions, PHA depolymerase (PhaZ) degrades PHA and releases R-hydroxyalkanoic acids, which can be used as carbon and energy sources. To study the influence of a deficient PHA metabolism in the growth of Pseudomonas putida KT2442 we have constructed two mutant strains defective in PHA polymerase (phaC1)- and PHA depolymerase (phaZ)-coding genes respectively. By using these mutants we have demonstrated that PHAs play a fundamental role in balancing the stored carbon/biomass/number of cells as function of carbon availability, suggesting that PHA metabolism allows P. putida to adapt the carbon flux of hydroxyacyl-CoAs to cellular demand. Furthermore, we have established that the coordination of PHA synthesis and mobilization pathways configures a functional PHA turnover cycle in P. putida KT2442. Finally, a new strain able to secrete enantiomerically pure R-hydroxyalkanoic acids to the culture medium during cell growth has been engineering by redirecting the PHA cycle to biopolymer hydrolysis.
+                  - generic [ref=e139]:
+                    - generic [ref=e140]:
+                      - heading "Introduction" [level=2] [ref=e141]
+                      - paragraph [ref=e142]:
+                        - text: Polyhydroxyalkanoates (PHAs) are bacterial polyesters accumulated in the cytoplasm as reserve storage granules, which are generally believed to play a role as sinks for carbon and reducing equivalents when other nutrients are limited (
+                        - link "Madison and Huisman, 1999" [ref=e143] [cursor=pointer]:
+                          - /url: "#b1"
+                        - text: ;
+                        - link "O'Leary et al., 2005" [ref=e144] [cursor=pointer]:
+                          - /url: "#b2"
+                        - text: ;
+                        - link "Prieto et al., 2007" [ref=e145] [cursor=pointer]:
+                          - /url: "#b3"
+                        - text: ). The most common PHA is the poly(3-hydroxybutyrate) (PHB), considered as the prototype of the short-chain-length PHAs (scl-PHAs) (
+                        - link "Madison and Huisman, 1999" [ref=e146] [cursor=pointer]:
+                          - /url: "#b1"
+                        - text: ), whereas medium-chain-length PHA (mcl-PHA), containing monomers from 6 to 14 carbon atoms, is less abundant and often produced by Pseudomonas species (
+                        - link "Timm and Steinbüchel, 1990" [ref=e147] [cursor=pointer]:
+                          - /url: "#b4"
+                        - text: ;
+                        - link "Luengo et al., 2003" [ref=e148] [cursor=pointer]:
+                          - /url: "#b5"
+                        - text: ;
+                        - link "Prieto et al., 2007" [ref=e149] [cursor=pointer]:
+                          - /url: "#b3"
+                        - text: ). The pha gene cluster responsible for PHA metabolism is well conserved among the mcl-PHA Pseudomonads producer strains (
+                        - link "Huisman et al., 1991" [ref=e150] [cursor=pointer]:
+                          - /url: "#b6"
+                        - text: ;
+                        - link "de Eugenio et al., 2007" [ref=e151] [cursor=pointer]:
+                          - /url: "#b7"
+                        - text: ;
+                        - link "Prieto et al., 2007" [ref=e152] [cursor=pointer]:
+                          - /url: "#b3"
+                        - text: ) (
+                        - link "Fig. 1" [ref=e153] [cursor=pointer]:
+                          - /url: "#f1"
+                        - text: ). It is composed of (i) two synthase (or polymerase)-coding genes (phaC1 and phaC2) involved in PHA synthesis; and (ii) a depolymerase coding-gene (phaZ) responsible for PHA mobilization (
+                        - link "de Eugenio et al., 2007" [ref=e154] [cursor=pointer]:
+                          - /url: "#b7"
+                        - text: ) and the phaD gene encoding a putative transcriptional regulator (
+                        - link "Klinke et al., 2000" [ref=e155] [cursor=pointer]:
+                          - /url: "#b8"
+                        - text: ). The phaF and phaI genes are transcribed divergently to the other pha genes, and encode the phasins playing regulatory and functional roles (
+                        - link "Prieto et al., 1999a" [ref=e156] [cursor=pointer]:
+                          - /url: "#b9"
+                        - text: ;
+                        - link "Moldes et al., 2004" [ref=e157] [cursor=pointer]:
+                          - /url: "#b10"
+                        - text: ). PhaC, PhaZ, PhaF and PhaI have been so far identified as granule-associated proteins, but very recently, a granule-associated acyl-CoA synthetase that activates the depolymerase products (3-hydroxyalkanoic acids) into the polymerase substrates (3-hydroxyacyl-CoAs thioesters) has been identified in Pseudomonas putida GPo1 (
+                        - link "Ruth et al., 2008" [ref=e158] [cursor=pointer]:
+                          - /url: "#b11"
+                        - text: ) (
+                        - link "Fig. 1" [ref=e159] [cursor=pointer]:
+                          - /url: "#f1"
+                        - text: ).
+                      - figure [ref=e161]:
+                        - link [ref=e162] [cursor=pointer]:
+                          - /url: /cms/asset/ff2ca5df-ff5e-4f9f-a734-e4e3e9afc75f/emi_2061_f1.gif
+                          - img "Details are in the caption following the image" [ref=e164]
+                        - generic [ref=e165]:
+                          - generic [ref=e166]:
+                            - strong [ref=e167]: Figure 1
+                            - generic [ref=e168]:
+                              - link "Open in figure viewer" [ref=e169] [cursor=pointer]:
+                                - /url: "#"
+                              - link "PowerPoint" [ref=e170] [cursor=pointer]:
+                                - /url: /action/downloadFigures?id=f1&partId=&doi=10.1111%2Fj.1462-2920.2009.02061.x
+                                - generic [ref=e171]: 
+                                - text: PowerPoint
+                          - paragraph [ref=e173]:
+                            - text: PHA granule schematic representation and pha gene cluster in Pseudomonads.A. Static model for PHA metabolism (adapted from
+                            - link "Ruth et al., 2008" [ref=e174] [cursor=pointer]:
+                              - /url: "#b11"
+                            - text: ). 3-Hydroxy fatty acids are released from PHA granule by PhaZ depolymerase and further activated to 3-hydroxyacyl-CoAs by ACS1 acyl synthetase. These activated monomers will be either metabolized via fatty acid degradation, or re-incorporated into PHA granule by PHA synthase (also named polymerase).B. PHA cluster in Pseudomonads. The phaC1 and phaC2 genes encode two synthases and are separated by the phaZ gene that encodes an intracellular depolymerase. phaD gene encodes a transcriptional regulator. phaF and phaI genes code for phasins. Disruptions in genes phaC1 and phaZ were represented as triangles. MiniTn5 transposon and pK18mobZ plasmid were inserted at base 5699630 and 5701846 of KT2442 genome respectively.
+                      - paragraph [ref=e175]:
+                        - text: The PhaZ from P. putida KT2442 (PhaZ
+                        - subscript [ref=e176]: KT
+                        - text: ), which has been purified and biochemically characterized as the prototype of intracellular mcl-PHA depolymerases (
+                        - link "de Eugenio et al., 2007" [ref=e177] [cursor=pointer]:
+                          - /url: "#b7"
+                        - text: ;
+                        - link "2008" [ref=e178] [cursor=pointer]:
+                          - /url: "#b12"
+                        - text: ), remains permanently associated to the PHA granules during PHA-accumulation and PHA-mobilization conditions (
+                        - link "de Eugenio et al., 2007" [ref=e179] [cursor=pointer]:
+                          - /url: "#b7"
+                        - text: ), but a coordinated function of PHA synthase, PHA depolymerase and acyl-CoA synthetase has not been demonstrated yet. Furthermore, the existence of PhaZ
+                        - subscript [ref=e180]: KT
+                        - text: paralogues encoded in the genome of this model strain and the detection of PhaZ
+                        - subscript [ref=e181]: KT
+                        - text: cross immunoreactive proteins have been also demonstrated (
+                        - link "de Eugenio et al., 2007" [ref=e182] [cursor=pointer]:
+                          - /url: "#b7"
+                        - text: ). Whether these parologous enzymes could be also involved in mcl-PHA hydrolysis, building up a more complex hydrolytic system similar to that of the model PHB producer strain Ralstonia eutropha H16 (
+                        - link "York et al., 2001" [ref=e183] [cursor=pointer]:
+                          - /url: "#b13"
+                        - text: ;
+                        - link "Uchino et al., 2007" [ref=e184] [cursor=pointer]:
+                          - /url: "#b14"
+                        - text: ), needs to be investigated.
+                      - paragraph [ref=e185]:
+                        - text: In this study, we have demonstrated that mcl-PHA synthesis and mobilization in P. putida KT2442 is a simultaneous cyclic process where the PhaZ
+                        - subscript [ref=e186]: KT
+                        - text: depolymerase plays a fundamental role. This knowledge allowed us to redirect the mcl-PHA metabolism to the production of PHA monomers.
+                    - generic [ref=e187]:
+                      - heading "Results" [level=2] [ref=e188]
+                      - generic [ref=e189]:
+                        - heading "Cell viability versus PHA accumulation" [level=3] [ref=e190]
+                        - paragraph [ref=e191]:
+                          - text: It is generally accepted that bacteria accumulate PHAs in response to inorganic nutrient unbalance when they are cultured in excess carbon sources, due to the increase in the synthase substrate availability (
+                          - link "Huisman et al., 1991" [ref=e192] [cursor=pointer]:
+                            - /url: "#b6"
+                          - text: ;
+                          - link "Madison and Huisman, 1999" [ref=e193] [cursor=pointer]:
+                            - /url: "#b1"
+                          - text: ;
+                          - link "Olivera et al., 2001" [ref=e194] [cursor=pointer]:
+                            - /url: "#b15"
+                          - text: ;
+                          - link "Prieto et al., 2007" [ref=e195] [cursor=pointer]:
+                            - /url: "#b3"
+                          - text: ). Depending on the metabolic state of the cell, the hydroxyacyl-CoAs (HA-CoAs) will be incorporated into nascent PHA polymer chains or oxidized through the β-oxidation pathway (
+                          - link "Fig. 1" [ref=e196] [cursor=pointer]:
+                            - /url: "#f1"
+                          - text: ). The PHA accumulation/mobilization ability of wild-type P. putida KT2442 has been compared with that of synthase (KT42C1) and depolymerase (KT42Z) mutants (
+                          - link "Table 1" [ref=e197] [cursor=pointer]:
+                            - /url: "#t1"
+                          - text: ). The KT42C1 strain is unable to polymerize HA-CoAs, but has an intact fatty acid metabolism. It was isolated by a new counter-selection method based on the toxicity of the fluorescent dye Nile Red (see Experimental procedures). The lack of phaC1 transcription in this strain has been demonstrated by RT-PCR (data not shown). To ensure that the observed effects in mutants were specifically caused by phaZ and phaC1 disruptions, complementation studies were carried out (see Fig. S1). The KT2442 wild type, KT42C1 and KT42Z strains were cultured in 0.1 N M63 medium supplemented with sodium octanoate as carbon and energy sources (PHA production growth conditions) and PHA content, biomass, OD
+                          - subscript [ref=e198]: "600"
+                          - text: and cell viability were monitored in both cultures during the first 24 h of growth (
+                          - link "Fig. 2" [ref=e199] [cursor=pointer]:
+                            - /url: "#f2"
+                          - text: ). Since PHA content disturbs cells turbidimetry, the optical density cannot be used to determine the number of viable cells. Interestingly, although the final PHA content in KT2442 and KT42Z strains were similar after 24 h of growth, the PHA accumulation of KT42Z was delayed during the exponential phase (
+                          - link "Fig. 2A and B" [ref=e200] [cursor=pointer]:
+                            - /url: "#f2"
+                          - text: ). In this sense, mutations in the phaC1-D region could reduce the transcription rate of the rest of the pha genes due to polar mutations. However, alternatives promoters at phaZ and phaC2 upstream regions ensure the transcription of the corresponding pha genes (L.I. de Eugenio, B. Galán, I.F. Escapa, B. Maestro, J. Sanz, J.L. García and M.A. Prieto in preparation) as demonstrated for other P. putida strains (
+                          - link "Sandoval et al., 2007" [ref=e201] [cursor=pointer]:
+                            - /url: "#b16"
+                          - text: ). Remarkably, the mutant KT42C1 cells were considerably smaller than that of the wild-type strain (
+                          - link "Fig. 2D" [ref=e202] [cursor=pointer]:
+                            - /url: "#f2"
+                          - text: ). Moreover, although during the first 8 h of culture, the number of KT42C1 mutant and wild-type viable cells were similar (1 × 10
+                          - superscript [ref=e203]: "8"
+                          - text: to 5 × 10
+                          - superscript [ref=e204]: "8"
+                          - text: cells ml
+                          - superscript [ref=e205]: −1
+                          - text: ), at the late exponential phase, the phaC1 mutant strain increased the number of viable cells, reaching a maximum of 1.9 × 10
+                          - superscript [ref=e206]: "9"
+                          - text: cells ml
+                          - superscript [ref=e207]: −1
+                          - text: ; this is more than 10-fold higher than that of wild-type and KT42Z strains (
+                          - link "Fig. 2C" [ref=e208] [cursor=pointer]:
+                            - /url: "#f2"
+                          - text: ).
+                          - link "Table 2" [ref=e209] [cursor=pointer]:
+                            - /url: "#t2"
+                          - text: reflects all the carbon source utilization data of relevant strains, regarding PHA content, biomass, residual carbon source and the presence of 3-hydroxyalkanoic acids (HAs) in the media supernatant after 24 h of growing. Absence (KT42Z) or low content of HAs (KT2442 and KT42C1) were detected. No octanoic acid was present when KT42C1 strain medium supernatant was analysed by gas chromatography-mass spectrometry (GC-MS) (
+                          - link "Table 2" [ref=e210] [cursor=pointer]:
+                            - /url: "#t2"
+                          - text: ). These results excluded the carbon waste when PHA metabolism is not active even in a medium with reduced nitrogen content. It is worth to mention that the residual PHA content of KT42C1 cells is due to the low activity of PhaC2 polymerase still present in this strain (
+                          - link "Fig. 1B" [ref=e211] [cursor=pointer]:
+                            - /url: "#f1"
+                          - text: ). In this sense, the presence of small PHA granules has been confirmed by electronic microscopy (
+                          - link "Fig. 2D" [ref=e212] [cursor=pointer]:
+                            - /url: "#f2"
+                          - text: ).
+                        - generic [ref=e213]:
+                          - generic [ref=e214]: Table 1. Strains and plasmids.
+                          - table [ref=e216]:
+                            - rowgroup [ref=e217]:
+                              - row [ref=e218]:
+                                - columnheader "Strains/plasmid" [ref=e219]
+                                - columnheader "Phenotype/relevant characteristics" [ref=e220]
+                                - columnheader "Reference" [ref=e221]
+                            - rowgroup [ref=e222]:
+                              - row [ref=e223]:
+                                - cell "P. putida" [ref=e224]
+                              - row [ref=e225]:
+                                - cell "KT2442" [ref=e226]
+                                - cell [ref=e227]:
+                                  - text: P. putida mt-2 without TOL plasmid, hsdR, Rf
+                                  - superscript [ref=e228]: r
+                                - cell [ref=e229]:
+                                  - link "Franklin et al. (1981" [ref=e230] [cursor=pointer]:
+                                    - /url: "#b48"
+                                  - text: )
+                              - row [ref=e231]:
+                                - cell "KT42C1" [ref=e232]
+                                - cell [ref=e233]:
+                                  - text: KT2442 derivative strain, phaC1 insertional mutant, Km
+                                  - superscript [ref=e234]: r
+                                - cell "This work" [ref=e235]
+                              - row [ref=e236]:
+                                - cell "KT42Z" [ref=e237]
+                                - cell [ref=e238]:
+                                  - text: KT2442 derivative strain, phaZ disruptional mutant, Km
+                                  - superscript [ref=e239]: r
+                                - cell "This work" [ref=e240]
+                              - row [ref=e241]:
+                                - cell [ref=e242]:
+                                  - text: KTLacI
+                                  - superscript [ref=e243]: q
+                                - cell [ref=e244]:
+                                  - text: KT2442 derivative strain, miniTn5 lacI
+                                  - superscript [ref=e245]: q
+                                  - text: ::Ptrc, Km
+                                  - superscript [ref=e246]: r
+                                - cell "This work" [ref=e247]
+                              - row [ref=e248]:
+                                - cell "KTXylS" [ref=e249]
+                                - cell [ref=e250]:
+                                  - text: KT2442 derivative strain, miniTn5 nahR4/P
+                                  - subscript [ref=e251]: sal
+                                  - text: →xylS2, Km
+                                  - superscript [ref=e252]: r
+                                - cell "This work" [ref=e253]
+                              - row [ref=e254]:
+                                - cell "KTZ1" [ref=e255]
+                                - cell [ref=e256]:
+                                  - text: KT2442 derivative strain, miniTn5 nahR4/P
+                                  - subscript [ref=e257]: sal
+                                  - text: →xylS2, P
+                                  - subscript [ref=e258]: m
+                                  - text: →phaZKT, Km
+                                  - superscript [ref=e259]: r
+                                  - text: ", Tc"
+                                  - superscript [ref=e260]: r
+                                - cell "This work" [ref=e261]
+                              - row [ref=e262]:
+                                - cell "E. coli" [ref=e263]
+                              - row [ref=e264]:
+                                - cell "DH10B" [ref=e265]
+                                - cell "F', mcrAΔ(mrr hsdRMS-mcrBC) φ80dlacΔM15 ΔlacX74 deoR recA1 araD139 Δ(ara-leu)7697 galU galKλrpsL endA1 nupG" [ref=e266]
+                                - cell "Invitrogen" [ref=e267]
+                              - row [ref=e268]:
+                                - cell "DH5α" [ref=e269]
+                                - cell [ref=e270]:
+                                  - text: (φ80lacZΔM15) endA1 recA1 hsdR17 (rK
+                                  - superscript [ref=e271]: "-"
+                                  - text: mK
+                                  - superscript [ref=e272]: "-"
+                                  - text: ) supE44 ΔlacU169
+                                - cell [ref=e273]:
+                                  - link "Sambrook and Russell (2001" [ref=e274] [cursor=pointer]:
+                                    - /url: "#b42"
+                                  - text: )
+                              - row [ref=e275]:
+                                - cell "CC118λpir" [ref=e276]
+                                - cell [ref=e277]:
+                                  - text: Δ(ara-leu) araD, ΔlacX74, galE, galK, phoA20, thi-1, rpsE, rpoB argE (Am), recA1 Rf
+                                  - superscript [ref=e278]: r
+                                  - text: ", Sp"
+                                  - superscript [ref=e279]: r
+                                  - text: ", contains λpir phage"
+                                - cell [ref=e280]:
+                                  - link "Herrero et al. (1990" [ref=e281] [cursor=pointer]:
+                                    - /url: "#b43"
+                                  - text: )
+                              - row [ref=e282]:
+                                - cell "MPO12" [ref=e283]
+                                - cell [ref=e284]:
+                                  - text: K12 derivative strain, Rf
+                                  - superscript [ref=e285]: r
+                                  - text: ", nahR::P"
+                                  - subscript [ref=e286]: sal
+                                  - text: ::xylS2
+                                - cell [ref=e287]:
+                                  - link "Royo et al. (2005" [ref=e288] [cursor=pointer]:
+                                    - /url: "#b23"
+                                  - text: )
+                              - row [ref=e289]:
+                                - cell "Plasmid" [ref=e290]
+                              - row [ref=e291]:
+                                - cell "pK18mob" [ref=e292]
+                                - cell [ref=e293]:
+                                  - text: oriColE1 Mob
+                                  - superscript [ref=e294]: +
+                                  - text: lacZα
+                                  - superscript [ref=e295]: +
+                                  - text: ", Km"
+                                  - superscript [ref=e296]: r
+                                  - text: used for directed insertional disruption
+                                - cell [ref=e297]:
+                                  - link "Schafer et al. (1994" [ref=e298] [cursor=pointer]:
+                                    - /url: "#b44"
+                                  - text: )
+                              - row [ref=e299]:
+                                - cell "pK18mob-mutZ" [ref=e300]
+                                - cell [ref=e301]:
+                                  - text: pK18mob derivative containing a fragment of phaZ gene, Km
+                                  - superscript [ref=e302]: r
+                                - cell "This work" [ref=e303]
+                              - row [ref=e304]:
+                                - cell "pBBR1-MCS5" [ref=e305]
+                                - cell [ref=e306]:
+                                  - text: oripBBR1 Mob
+                                  - superscript [ref=e307]: +
+                                  - text: lac promoter lacZα
+                                  - superscript [ref=e308]: +
+                                  - text: ", Gm"
+                                  - superscript [ref=e309]: r
+                                  - text: ", broad-host-range cloning and expression vector"
+                                - cell [ref=e310]:
+                                  - link "Kovach et al. (1995" [ref=e311] [cursor=pointer]:
+                                    - /url: "#b49"
+                                  - text: )
+                              - row [ref=e312]:
+                                - cell "pPAZ2" [ref=e313]
+                                - cell [ref=e314]:
+                                  - text: pBBR1MCS-5 derivative containing phaZ gene, Gm
+                                  - superscript [ref=e315]: r
+                                - cell "This work" [ref=e316]
+                              - row [ref=e317]:
+                                - cell "pCNB5" [ref=e318]
+                                - cell [ref=e319]:
+                                  - text: pUTminiTn5, lacI
+                                  - superscript [ref=e320]: q
+                                  - text: ::Ptrc, Km
+                                  - superscript [ref=e321]: r
+                                  - text: ", Ap"
+                                  - superscript [ref=e322]: r
+                                - cell [ref=e323]:
+                                  - link "de Lorenzo et al. (1993" [ref=e324] [cursor=pointer]:
+                                    - /url: "#b20"
+                                  - text: )
+                              - row [ref=e325]:
+                                - cell "pUTminiTn5Km1" [ref=e326]
+                                - cell [ref=e327]:
+                                  - text: oriR6K, oriTRP4, Km
+                                  - superscript [ref=e328]: r
+                                  - text: ", Ap"
+                                  - superscript [ref=e329]: r
+                                  - text: ", transposon delivery vector"
+                                - cell [ref=e330]:
+                                  - link "de Lorenzo et al. (1990" [ref=e331] [cursor=pointer]:
+                                    - /url: "#b50"
+                                  - text: )
+                              - row [ref=e332]:
+                                - cell "pALEX1b" [ref=e333]
+                                - cell [ref=e334]:
+                                  - text: Cloning vector for CASCADE
+                                  - superscript [ref=e335]: TM
+                                  - text: system (Biomedal), Pm, Ap
+                                  - superscript [ref=e336]: r
+                                - cell "Biomedal" [ref=e337]
+                              - row [ref=e338]:
+                                - cell "pPAZ6" [ref=e339]
+                                - cell "pALEX1b derivative harbouring phaZ gene" [ref=e340]
+                                - cell "This work" [ref=e341]
+                              - row [ref=e342]:
+                                - cell "pUTminiTn5Tc" [ref=e343]
+                                - cell [ref=e344]:
+                                  - text: oriR6K, oriTRP4, Tc
+                                  - superscript [ref=e345]: r
+                                  - text: ", Ap"
+                                  - superscript [ref=e346]: r
+                                  - text: ", transposon delivery plasmid"
+                                - cell [ref=e347]:
+                                  - link "Herrero et al. (1990" [ref=e348] [cursor=pointer]:
+                                    - /url: "#b43"
+                                  - text: )
+                              - row [ref=e349]:
+                                - cell "pUTTcZ" [ref=e350]
+                                - cell "pUTTc derivative containing Pm::phaZ construction" [ref=e351]
+                                - cell "This work" [ref=e352]
+                              - row [ref=e353]:
+                                - cell "pCNB44S2" [ref=e354]
+                                - cell [ref=e355]:
+                                  - text: pUTminiTn5, nahR4/Psal→xylS2, Ap
+                                  - superscript [ref=e356]: r
+                                  - text: ", Km"
+                                  - superscript [ref=e357]: r
+                                - cell [ref=e358]:
+                                  - link "Cebolla et al. (2001" [ref=e359] [cursor=pointer]:
+                                    - /url: "#b22"
+                                  - text: )
+                        - figure [ref=e361]:
+                          - link [ref=e362] [cursor=pointer]:
+                            - /url: /cms/asset/a3621e66-69a8-478f-a4b1-48308591edd5/emi_2061_f2.gif
+                            - img "Details are in the caption following the image" [ref=e364]
+                          - generic [ref=e365]:
+                            - generic [ref=e366]:
+                              - strong [ref=e367]: Figure 2
+                              - generic [ref=e368]:
+                                - link "Open in figure viewer" [ref=e369] [cursor=pointer]:
+                                  - /url: "#"
+                                - link "PowerPoint" [ref=e370] [cursor=pointer]:
+                                  - /url: /action/downloadFigures?id=f2&partId=&doi=10.1111%2Fj.1462-2920.2009.02061.x
+                                  - generic [ref=e371]: 
+                                  - text: PowerPoint
+                            - paragraph [ref=e373]:
+                              - text: Turbidimetry and PHA content versus number of viable cells in P. putida KT2442, KT42C1 and KT42Z cultures.A. OD
+                              - subscript [ref=e374]: "600"
+                              - text: of cultures growing in 200 ml of 0.1 N M63 plus 15 mM octanoate over time. Inocula of the strains were prepared in LB medium to ensure their most similar metabolic status. Cultures were inoculated at OD
+                              - subscript [ref=e375]: "600"
+                              - text: of 0.3.B. PHA content of cells growing in 0.1 N M63 plus 15 mM octanoate determined by GC.C. Number of viable cells under PHA production conditions.D. Electronic microscope images of KT2442 and KT42C1 strains after 24 h of growth in 0.1 N M63 plus 15 mM octanoate.Error bars represent standard deviation found in three different experiments.
+                        - generic [ref=e376]:
+                          - generic [ref=e377]: Table 2. HAs and PHA production, viability, residual octanoate and biomass concentrations.
+                          - table [ref=e379]:
+                            - rowgroup [ref=e380]:
+                              - row [ref=e381]:
+                                - columnheader "P. putida strains" [ref=e382]
+                                - columnheader "Intracellular PHA" [ref=e383]
+                                - columnheader [ref=e384]:
+                                  - text: Extracellular HAs (g l
+                                  - superscript [ref=e385]: −1
+                                  - text: )
+                                - columnheader [ref=e386]:
+                                  - text: Residual octanoate (g l
+                                  - superscript [ref=e387]: −1
+                                  - text: )
+                                - columnheader [ref=e388]:
+                                  - text: Biomass (g l
+                                  - superscript [ref=e389]: −1
+                                  - text: )
+                                - columnheader [ref=e390]:
+                                  - text: Viability (10
+                                  - superscript [ref=e391]: −6
+                                  - text: cells ml
+                                  - superscript [ref=e392]: −1
+                                  - text: )
+                              - row [ref=e393]:
+                                - columnheader "(% CDW)" [ref=e394]
+                                - columnheader [ref=e395]:
+                                  - text: (g l
+                                  - superscript [ref=e396]: −1
+                                  - text: )
+                            - rowgroup [ref=e397]:
+                              - row [ref=e398]:
+                                - cell "KT2442" [ref=e399]
+                                - cell "69.89 ± 2.56" [ref=e400]
+                                - cell "1.29 ± 0.05" [ref=e401]
+                                - cell "0.07 ± 0.01" [ref=e402]
+                                - cell "0.01 ± 0.004" [ref=e403]
+                                - cell "1.85 ± 0.35" [ref=e404]
+                                - cell "77 ± 35" [ref=e405]
+                              - row [ref=e406]:
+                                - cell "KT42Z" [ref=e407]
+                                - cell "72.33 ± 1.96" [ref=e408]
+                                - cell "0.83 ± 0.02" [ref=e409]
+                                - cell "nd" [ref=e410]
+                                - cell "0.09 ± 0.01" [ref=e411]
+                                - cell "1.14 ± 0.23" [ref=e412]
+                                - cell "260 ± 25" [ref=e413]
+                              - row [ref=e414]:
+                                - cell "KT42C1" [ref=e415]
+                                - cell "0.50 ± 0.14" [ref=e416]
+                                - cell "< 0.007" [ref=e417]
+                                - cell "0.07 ± 0.006" [ref=e418]
+                                - cell "nd" [ref=e419]
+                                - cell "0.55 ± 0.12" [ref=e420]
+                                - cell "1900 ± 430" [ref=e421]
+                              - row [ref=e422]:
+                                - cell "KT2442 (pPAZ2)" [ref=e423]
+                                - cell "19.08 ± 0.39" [ref=e424]
+                                - cell "0.14 ± 0.003" [ref=e425]
+                                - cell "0.39 ± 0.04" [ref=e426]
+                                - cell "1.30 ± 0.06" [ref=e427]
+                                - cell "0.76 ± 0.15" [ref=e428]
+                                - cell "6.3 ± 1.5" [ref=e429]
+                              - row [ref=e430]:
+                                - cell [ref=e431]:
+                                  - text: KTLacI
+                                  - superscript [ref=e432]: q
+                                  - text: (pPAZ2)
+                                - cell "46.20 ± 1.43" [ref=e433]
+                                - cell "0.62 ± 0.02" [ref=e434]
+                                - cell "nd" [ref=e435]
+                                - cell "1.67 ± 0.18" [ref=e436]
+                                - cell "1.38 ± 0.12" [ref=e437]
+                                - cell "4.0 ± 1.5" [ref=e438]
+                              - row [ref=e439]:
+                                - cell [ref=e440]:
+                                  - text: KTLacI
+                                  - superscript [ref=e441]: q
+                                  - text: (pPAZ2) (5 mM IPTG)
+                                - cell "24.69 ± 1.16" [ref=e442]
+                                - cell "0.067 ± 0.003" [ref=e443]
+                                - cell "0.24 ± 0.01" [ref=e444]
+                                - cell "1.56 ± 0.14" [ref=e445]
+                                - cell "0.27 ± 0.10" [ref=e446]
+                                - cell "11.0 ± 4.5" [ref=e447]
+                              - row [ref=e448]:
+                                - cell "KTZ1" [ref=e449]
+                                - cell "64.68 ± 3.82" [ref=e450]
+                                - cell "1.17 ± 0.07" [ref=e451]
+                                - cell "nd" [ref=e452]
+                                - cell "0.05 ± 0.004" [ref=e453]
+                                - cell "1.81 ± 0.50" [ref=e454]
+                                - cell "98 ± 29" [ref=e455]
+                              - row [ref=e456]:
+                                - cell "KTZ1 (5 mM benzoate)" [ref=e457]
+                                - cell "1.04 ± 0.01" [ref=e458]
+                                - cell "< 0.007" [ref=e459]
+                                - cell "0.73 ± 0.02" [ref=e460]
+                                - cell "0.12 ± 0.003" [ref=e461]
+                                - cell "0.60 ± 0.11" [ref=e462]
+                                - cell "1500 ± 120" [ref=e463]
+                          - list [ref=e465]:
+                            - listitem [ref=e466]: nd, not detected.
+                        - paragraph [ref=e467]: Taking into account all these results, we can assume that the observed differences in biomass among these strains might be a direct consequence of the PHA content versus carbon consumption by central metabolic pathways. The complete exhaustion of octanoic acid in the KT42C1 culture correlates with the increased number of viable cells in comparison with that of the wild-type and KT42Z strains.
+                        - paragraph [ref=e468]: The lack of PHA synthesis directed the cells metabolism to consume the carbon source for increasing cell number, even in the presence of a low concentration of nitrogen and thus, we can conclude that the bacterial community is strongly influenced by PHA metabolism.
+                      - generic [ref=e469]:
+                        - heading "Cell viability versus PHA mobilization under carbon starvation and nitrogen extra addition" [level=3] [ref=e470]
+                        - paragraph [ref=e471]:
+                          - text: The number of viable cells in cultures of KT42C1 and KT42Z mutants and wild-type strain was monitored over 16 days of incubation to determine their ability to mobilize the accumulated PHA under carbon starvation conditions, as well as the influence of PHA content in cell viability over the time.
+                          - link "Figure 3" [ref=e472] [cursor=pointer]:
+                            - /url: "#f3"
+                          - text: shows that cell viability was constant during the first week for all the strains, maintaining the difference of an order of magnitude between KT42C1 and the other strains. At day number 7, all cultures were split up and the influence of nitrogen supplementation in cell viability was tested during 9 days. Thus, the number of viable cells was determined in culture samples supplemented with ammonium sulfate and compared with that of culture samples without nitrogen (
+                          - link "Fig. 3" [ref=e473] [cursor=pointer]:
+                            - /url: "#f3"
+                          - text: ). At the eighth day, PHA granules completely disappeared in KT2442 nitrogen-supplemented cells as determined by phase-contrast microscopy (data not shown). Simultaneously, the number of KT2442 cells increased to the same level of the mutant KT42C1 while that of KT42Z and KT42C1 remained unchanged. The results demonstrated that P. putida KT2442 is able to mobilize the stored carbon in the presence of nitrogen even in the absence of external energy sources. The cell viability of KT42C1 cells slightly decreased after the first week of cultivation independently of the addition of extra nitrogen sources, but it kept in the same order of magnitude over 16 days of monitoring (
+                          - link "Fig. 3" [ref=e474] [cursor=pointer]:
+                            - /url: "#f3"
+                          - text: ). These experiments strongly suggest that the ability for PHA accumulation/mobilization in P. putida KT2442 makes this strain more robust to become adapted to unfavourable nutrient conditions. Moreover, the fact that addition of extra nitrogen source promotes PHA hydrolysis is in agreement with our previous finding, which demonstrated the induction of the depolymerase transcription in the presence of extra added nitrogen sources (
+                          - link "de Eugenio et al., 2007" [ref=e475] [cursor=pointer]:
+                            - /url: "#b7"
+                          - text: ;
+                          - link "2008" [ref=e476] [cursor=pointer]:
+                            - /url: "#b12"
+                          - text: ).
+                        - figure [ref=e478]:
+                          - link [ref=e479] [cursor=pointer]:
+                            - /url: /cms/asset/d92ec5a5-54bc-47d4-933e-d1017edcd358/emi_2061_f3.gif
+                            - img "Details are in the caption following the image" [ref=e481]
+                          - generic [ref=e482]:
+                            - generic [ref=e483]:
+                              - strong [ref=e484]: Figure 3
+                              - generic [ref=e485]:
+                                - link "Open in figure viewer" [ref=e486] [cursor=pointer]:
+                                  - /url: "#"
+                                - link "PowerPoint" [ref=e487] [cursor=pointer]:
+                                  - /url: /action/downloadFigures?id=f3&partId=&doi=10.1111%2Fj.1462-2920.2009.02061.x
+                                  - generic [ref=e488]: 
+                                  - text: PowerPoint
+                            - paragraph [ref=e490]:
+                              - text: Influence of nitrogen supplementation on number of viable cells in P. putida KT2442, KT42C1 and KT42Z cultures. Cells were grown under PHA production conditions and supplemented with 2 g l
+                              - superscript [ref=e491]: −1
+                              - text: ammonium sulfate after 1 week. Solid lines represent non-supplemented cultures. Dotted lines represent nitrogen supplemented cultures. (A) KT2442, (B) KT42C1 and (C) KT42Z cells. Error bars represent standard deviation found in three different experiments.
+                      - generic [ref=e492]:
+                        - heading [level=3] [ref=e493]:
+                          - text: PhaZ
+                          - subscript [ref=e494]: KT
+                          - text: depolymerase as unique functional PHA-mobilizing enzyme
+                        - paragraph [ref=e495]:
+                          - text: The role of a PhaZ
+                          - subscript [ref=e496]: KT
+                          - text: "-like enzyme in the mobilization of accumulated PHA has been documented previously in P. putida GPo1 when cells were incubated in alkaline conditions ("
+                          - link "Ren et al., 2005" [ref=e497] [cursor=pointer]:
+                            - /url: "#b17"
+                          - text: ;
+                          - link "Wang et al., 2007" [ref=e498] [cursor=pointer]:
+                            - /url: "#b18"
+                          - text: ). The experiments shown in
+                          - link "Fig. 3" [ref=e499] [cursor=pointer]:
+                            - /url: "#f3"
+                          - text: suggest that PhaZ
+                          - subscript [ref=e500]: KT
+                          - text: is the sole depolymerase of P. putida KT2442, because an external addition of ammonium sulfate did not increase the number of viable cells of KT42Z mutant. However, the existence of PhaZ
+                          - subscript [ref=e501]: KT
+                          - text: cross immunoreactive proteins induced at PHA mobilization conditions have been also demonstrated (
+                          - link "de Eugenio et al., 2007" [ref=e502] [cursor=pointer]:
+                            - /url: "#b7"
+                          - text: ). To exclude the implication of other hydrolases in the PHA mobilization triggered by pH conditions, we have compared in a resting cell system the PHA degradation in the wild-type strain versus the KT42Z mutant by using an extremely sensitive radioactive method previously established for the detection of PHA depolymerase activity (
+                          - link "Fig. 4" [ref=e503] [cursor=pointer]:
+                            - /url: "#f4"
+                          - text: ). This method is based on the use of
+                          - superscript [ref=e504]: "14"
+                          - text: C-labelled PHA as depolymerase substrate and the subsequent detection of the released radioactive soluble products (
+                          - link "de Eugenio et al., 2007" [ref=e505] [cursor=pointer]:
+                            - /url: "#b7"
+                          - text: ). To generate the labelled polyester, the wild-type strain and its KT42Z mutant were cultured for 24 h under PHA production conditions in the presence of
+                          - superscript [ref=e506]: "14"
+                          - text: C-octanoic acid as PHA precursor. After centrifugation, the cells were shifted to water (pH 5.5) and different buffered solutions at pH ranging from 4 to 10.6, incubated at 30°C, and the secretion of radioactive-labelled products was monitored over the time (
+                          - link "Fig. 4A" [ref=e507] [cursor=pointer]:
+                            - /url: "#f4"
+                          - text: ). The highest radioactivity value was observed at alkaline conditions (50 mM glycine-NaOH buffer pH 10.6) for the wild-type strain but none radioactive metabolites was detected in the supernatant of KT42Z mutant (
+                          - link "Fig. 4B" [ref=e508] [cursor=pointer]:
+                            - /url: "#f4"
+                          - text: ). The absence of HAs in the supernatant of KT42Z strain was confirmed by liquid chromatography-mass spectrometry (LC-MS) analyses. These results agree with the behaviour of P. putida GPo1 (
+                          - link "Ren et al., 2005" [ref=e509] [cursor=pointer]:
+                            - /url: "#b17"
+                          - text: ), and definitively demonstrate that no PHA mobilization can be achieved in KT42Z strain, suggesting that this function can be only ascribed to PhaZ
+                          - subscript [ref=e510]: KT
+                          - text: in P. putida KT2442. A film illustrating the mobilization of PHA triggered by alkaline conditions in P. putida KT2442 is provided as Movie S1 in Supplementary Material. About 70% of previously accumulated PHA in the wild-type strain was mobilized to the supernatant as HAs monomers and dimers. In cells containing 1.01 g l
+                          - superscript [ref=e511]: −1
+                          - text: PHA, the HA productivity reached a maximum of 0.72 g l
+                          - superscript [ref=e512]: −1
+                          - text: . When composition of released products was analysed by LC-MS, three major peaks could be distinguished (
+                          - link "Fig. 4C and D" [ref=e513] [cursor=pointer]:
+                            - /url: "#f4"
+                          - text: ). Peak 1 was identified as main single charged ion m/z 131, corresponding to the molecular mass of the deprotonated 3-hydroxyhexanoic acid, whereas peak 2 corresponded to 3-hydroxyoctanoic acid (m/z 159). The deprotonated 3-hydroxyoctanoic dimer and the dimer adduct of 3-hydroxyoctanoic diester were found in peak 3 (m/z 301 and m/z 603 respectively). The three major peaks identified in wild type were absent in KT42Z supernatant.
+                        - figure [ref=e515]:
+                          - link [ref=e516] [cursor=pointer]:
+                            - /url: /cms/asset/f0384925-6a07-4c65-88f1-90de34642aba/emi_2061_f4.gif
+                            - img "Details are in the caption following the image" [ref=e518]
+                          - generic [ref=e519]:
+                            - generic [ref=e520]:
+                              - strong [ref=e521]: Figure 4
+                              - generic [ref=e522]:
+                                - link "Open in figure viewer" [ref=e523] [cursor=pointer]:
+                                  - /url: "#"
+                                - link "PowerPoint" [ref=e524] [cursor=pointer]:
+                                  - /url: /action/downloadFigures?id=f4&partId=&doi=10.1111%2Fj.1462-2920.2009.02061.x
+                                  - generic [ref=e525]: 
+                                  - text: PowerPoint
+                            - paragraph [ref=e527]:
+                              - text: pH influence on PHA mobilization in P. putida KT2442 and KT42Z cultures.A and B.
+                              - superscript [ref=e528]: "14"
+                              - text: C-HAs release monitored by radioactivity counting from (A) KT2442 cells suspended in various pH buffers and solutions. PHA production conditions mean incubation in M63 0.1 N plus 15 mM sodium octanoate. (B) HAs release comparison between KT2442 and KT42Z strains incubated in a buffered solution at pH 10.6.C and D. LC-ESI-MS analysis of KT2442 (C) and KT42Z (D) supernatants incubated at Glycine-NaOH buffer 50 mM, pH 10.6.
+                      - generic [ref=e529]:
+                        - heading [level=3] [ref=e530]:
+                          - text: PHA turnover directed by a functional PhaZ
+                          - subscript [ref=e531]: KT
+                          - text: depolymerase
+                        - paragraph [ref=e532]:
+                          - text: The current model for the PHB metabolism proposes the existence of continuously active PHA machinery able to accumulate or to mobilize carbon as a response to nutrient requirements and reduction power (
+                          - link "Doi et al., 1990" [ref=e533] [cursor=pointer]:
+                            - /url: "#b19"
+                          - text: ;
+                          - link "Uchino et al., 2007" [ref=e534] [cursor=pointer]:
+                            - /url: "#b14"
+                          - text: ). The assumption of a similar model in P. putida KT2442 for PHA metabolism requires the coexistence of an active depolymerase enzyme during PHA accumulation. In fact, we have demonstrated the presence of PhaZ
+                          - subscript [ref=e535]: KT
+                          - text: in the PHA granules when cells are producing PHA (
+                          - link "de Eugenio et al., 2007" [ref=e536] [cursor=pointer]:
+                            - /url: "#b7"
+                          - text: ). To support this hypothesis, the PHA accumulation/mobilization ability was tested in KT2442 and KT42Z cells exposed to starvation and excess of carbon source (
+                          - link "Fig. 5" [ref=e537] [cursor=pointer]:
+                            - /url: "#f5"
+                          - text: ). When cells were grown for 24 h (
+                          - link "Fig. 5" [ref=e538] [cursor=pointer]:
+                            - /url: "#f5"
+                          - text: ", cultures 1 and 4) or 48 h ("
+                          - link "Fig. 5" [ref=e539] [cursor=pointer]:
+                            - /url: "#f5"
+                          - text: ", cultures 2 and 5), under PHA production conditions with octanoic acid, maximum PHA accumulation was found after 24 h of growth in both strains, with very low differences in PHA content. In agreement with the model, only 4% of HAs related to the cell dry weight (CDW) was detected in the KT2442 strain supernatant in PHA production medium ("
+                          - link "Table 2" [ref=e540] [cursor=pointer]:
+                            - /url: "#t2"
+                          - text: ), confirming that the metabolism is directed to PHA accumulation and not to PHA mobilization. The PHA content in KT42Z mutant increased 3.5% compared with that of wild type and HAs were not detected in the supernatant (
+                          - link "Table 2" [ref=e541] [cursor=pointer]:
+                            - /url: "#t2"
+                          - text: ). These results might suggest that, under these growth conditions, PhaZ
+                          - subscript [ref=e542]: KT
+                          - text: is inactive or very low active, and that no other depolymerase or hydrolase is able to degrade the polymer in the wild-type strain. Alternatively, it could be envisaged that PHA synthase is more active than the PHA depolymerase resulting in PHA accumulation. To discriminate between both possibilities, nonanoic acid (10 mM) was added to an existing 24 h octanoic culture [containing 60–70% poly(hydroxyoctanoate-cohydroxyhexanoate) (P(HO-co-HX))] and incubated during 24 additional hours. The results shown in
+                          - link "Fig. 5" [ref=e543] [cursor=pointer]:
+                            - /url: "#f5"
+                          - text: demonstrate not only that PhaZ
+                          - subscript [ref=e544]: KT
+                          - text: is active, but also that both PHA synthesis and hydrolysis are carried out simultaneously (
+                          - link "Fig. 5" [ref=e545] [cursor=pointer]:
+                            - /url: "#f5"
+                          - text: ", cultures 3 and 6). The pre-existing polymer could be distinguished from the PHA synthesized de novo by their monomer content/ratio, since the new one contains odd monomers like hydroxynonanoic and heptanonanoic acids ("
+                          - link "Fig. 5" [ref=e546] [cursor=pointer]:
+                            - /url: "#f5"
+                          - text: ). The PHA polymer content and monomer composition of KT42Z mutant (
+                          - link "Fig. 5" [ref=e547] [cursor=pointer]:
+                            - /url: "#f5"
+                          - text: ) confirmed that PhaZ
+                          - subscript [ref=e548]: KT
+                          - text: plays a crucial role in this process (
+                          - link "Fig. 5" [ref=e549] [cursor=pointer]:
+                            - /url: "#f5"
+                          - text: ", cultures 3 and 6). Thus, the lack of PHA depolymerase completely avoids the hydrolysis of PHA that increases from 72% of CDW at 24 h to 76% after the addition of the extra carbon source. Furthermore, the presence of odd monomers in the sediment is very low (1% of the total PHA content) indicating a reduced activity of the synthase. Biomass parameters do not change significantly after 24 h of growth, most probably due to the exhaustion of nitrogen or other inorganic nutrient in the media. Taken together, all these results definitively demonstrate the existence of PHA metabolic turnover in P. putida KT2442 and the crucial role played by PhaZ"
+                          - subscript [ref=e550]: KT
+                          - text: .
+                        - figure [ref=e552]:
+                          - link [ref=e553] [cursor=pointer]:
+                            - /url: /cms/asset/370b6980-3b9c-4016-bcf5-dfccf352f997/emi_2061_f5.gif
+                            - img "Details are in the caption following the image" [ref=e555]
+                          - generic [ref=e556]:
+                            - generic [ref=e557]:
+                              - strong [ref=e558]: Figure 5
+                              - generic [ref=e559]:
+                                - link "Open in figure viewer" [ref=e560] [cursor=pointer]:
+                                  - /url: "#"
+                                - link "PowerPoint" [ref=e561] [cursor=pointer]:
+                                  - /url: /action/downloadFigures?id=f5&partId=&doi=10.1111%2Fj.1462-2920.2009.02061.x
+                                  - generic [ref=e562]: 
+                                  - text: PowerPoint
+                            - paragraph [ref=e564]: Cyclic nature of PHA metabolism in P. putida KT2442. For PHA content and composition analysis KT2442 and KT42Z strains were cultured under different conditions for 24 or 48 h. Cultures 1 and 4 were grown in 0.1 N M63 plus 15 mM octanoate for 24 h; cultures 2 and 5 were grown in 0.1 N M63 plus 15 mM octanoate for 48 h; cultures 3 and 6 were grown in 0.1 N M63 15 mM octanoate for 24 h, supplemented with 10 mM nonanoic acid and further incubated for 24 additional hours. Numbers inside shadowed bars represent monomer ratio as percentage of CDW. Grey solid bars represent biomass concentration. Error bars represent standard deviation found in three different experiments.
+                      - generic [ref=e565]:
+                        - heading [level=3] [ref=e566]:
+                          - text: Redirecting the PHA metabolism to its hydrolysis in growing cells by increasing PhaZ
+                          - subscript [ref=e567]: KT
+                          - text: "dosage: multicopy versus monocopy expression systems"
+                        - paragraph [ref=e568]:
+                          - text: We have demonstrated above that the lack of PHA accumulation machinery in the KT42C1 mutant strain directed the cells to completely consume the carbon and energy sources of the culture medium in order to promote cell division even when a low nitrogen concentration was supplied to the growth medium. Although PHA synthesis and hydrolysis function simultaneously in the wild-type cells, when PHA must be accumulated the synthase and depolymerase levels are precisely balanced to direct the metabolism to polymer synthesis. Then, it could be hypothesized that an extra dosage of PHA depolymerase could break this balance and redirect their PHA metabolism to the hydrolysis counterpart, even when cells were cultured under PHA production conditions. To test this hypothesis we have used the plasmid pPAZ2, which overexpresses PhaZ
+                          - subscript [ref=e569]: KT
+                          - text: depolymerase. The functionality of the PhaZ
+                          - subscript [ref=e570]: KT
+                          - text: depolymerase cloned in this plasmid was demonstrated by showing that an increase in the copy number of phaZ
+                          - subscript [ref=e571]: KT
+                          - text: gene in a PhaZ mutant of the strain P. putida U resulted in a significant reduction of PHA accumulation (
+                          - link "de Eugenio et al., 2007" [ref=e572] [cursor=pointer]:
+                            - /url: "#b7"
+                          - text: ). These findings also suggested that PHA can be hydrolysed simultaneously to its synthesis during growth. In this case, we have constructed the P. putida KTLacI
+                          - superscript [ref=e573]: q
+                          - text: strain (
+                          - link "Table 1" [ref=e574] [cursor=pointer]:
+                            - /url: "#t1"
+                          - text: ) able to control the expression of the phaZ
+                          - subscript [ref=e575]: KT
+                          - text: gene cloned in pPAZ2 by a P
+                          - subscript [ref=e576]: lac
+                          - text: promoter and the inducer IPTG (isopropyl-beta-d-thiogalactopyranoside), since this strain carries a copy of the transcriptional repressor LacI
+                          - superscript [ref=e577]: q
+                          - text: of Escherichia coli in its genome (see Experimental procedures for the construction). Pseudomonas putida KT2442 (pPAZ2) and P. putida KTLacI
+                          - superscript [ref=e578]: q
+                          - text: (pPAZ2) were cultured under PHA production conditions and samples were collected after 24 h of growth. Cells of P. putida KTLacI
+                          - superscript [ref=e579]: q
+                          - text: (pPAZ2) were also cultured in the presence of 5 mM IPTG to induce the expression of the PhaZ
+                          - subscript [ref=e580]: KT
+                          - text: depolymerase. The PHA content and the composition of the culture medium of each strain were analysed (
+                          - link "Table 2" [ref=e581] [cursor=pointer]:
+                            - /url: "#t2"
+                          - text: ). As expected, the PHA content in the untransformed wild-type strain was 3.5-fold higher than in the recombinant P. putida KT2442 (pPAZ2) which constitutively overexpresses PhaZ
+                          - subscript [ref=e582]: KT
+                          - text: depolymerase. Even more, the high amount of HAs detected in the culture medium of the recombinant strain also suggests that it has increased its depolymerization capacity. This high PHA hydrolytic capacity was further confirmed when P. putida KTlacI
+                          - superscript [ref=e583]: q
+                          - text: (pPAZ2) was cultured in the presence or absence of IPTG (
+                          - link "Table 2" [ref=e584] [cursor=pointer]:
+                            - /url: "#t2"
+                          - text: ). In the absence of IPTG, i.e. when depolymerase extra expression is switched off, the PHA content was equally high in both P. putida KTLacI
+                          - superscript [ref=e585]: q
+                          - text: (pPAZ2) and in the wild-type strain (
+                          - link "Table 2" [ref=e586] [cursor=pointer]:
+                            - /url: "#t2"
+                          - text: ). Similar results were obtained in P. putida KT2442 carrying the control plasmid pBBR1MCS5 (data not shown). However, in the presence of IPTG, i.e. when depolymerase extra expression is switched on, the PHA content is reduced to approximately the half in P. putida KTLacI
+                          - superscript [ref=e587]: q
+                          - text: (pPAZ2) (
+                          - link "Table 2" [ref=e588] [cursor=pointer]:
+                            - /url: "#t2"
+                          - text: ). The amounts of HAs detected in the culture medium correlate with the PHA content, i.e. the HAs levels increases as far as the PHA content decreases when depolymerase is overexpressed. These results indicate that phaZ expression is perfectly controlled under P
+                          - subscript [ref=e589]: lac
+                          - text: promoter in the new recombinant strain and allowed us to demonstrate that PHA metabolic balance can be controlled and redirected to promote PHA hydrolysis and, consequently, to secrete HAs to the culture medium. Nevertheless, the growth of these recombinant strains was significantly affected by the presence of gentamicin in the growth media which causes a reduction of cell viability and biomass, and the detection of non-consumed carbon source in the culture media. To solve these problems, we studied the possibility of using a miniTn5 expression system to control the depolymerase dosage in the recombinant strains avoiding the use of antibiotic-containing media (
+                          - link "de Lorenzo et al., 1993" [ref=e590] [cursor=pointer]:
+                            - /url: "#b20"
+                          - text: ;
+                          - link "Panke et al., 1998" [ref=e591] [cursor=pointer]:
+                            - /url: "#b21"
+                          - text: ;
+                          - link "Prieto et al., 1999b" [ref=e592] [cursor=pointer]:
+                            - /url: "#b1001"
+                          - text: ). Therefore, we constructed a stable and regulated expression system for PhaZ
+                          - subscript [ref=e593]: KT
+                          - text: depolymerase by inserting both regulatory and expression systems into the bacterial genome using the minitransposons from Cascade
+                          - superscript [ref=e594]: TM
+                          - text: system (Fig. S2). In this case, the overexpression of the target gene is under the control of the benzoate-dependent mutant activator XylS2 and the P
+                          - subscript [ref=e595]: m
+                          - text: promoter from the well-characterized meta-cleavage catabolic operon of the TOL plasmid of P. putida. Furthermore, the cascade regulatory circuit implies the control of xylS2 expression through NahR4, the benzoate-sensitive mutant of the regulator NahR from the naphthalene degradation plasmid NAH7 (
+                          - link "Cebolla et al., 2001" [ref=e596] [cursor=pointer]:
+                            - /url: "#b22"
+                          - text: ). First, we constructed the plasmid pPAZ6, by cloning the phaZ
+                          - subscript [ref=e597]: KT
+                          - text: gene in the vector pALEX1b (
+                          - link "Table 1" [ref=e598] [cursor=pointer]:
+                            - /url: "#t1"
+                          - text: ", Fig. S2). For testing the overproduction of the depolymerase under the Cascade"
+                          - superscript [ref=e599]: TM
+                          - text: system, the plasmid was transferred to E. coli MPO12 (
+                          - link "Table 1" [ref=e600] [cursor=pointer]:
+                            - /url: "#t1"
+                          - text: ), which carries the nahR-P
+                          - subscript [ref=e601]: sal
+                          - text: "-XylS2 in its chromosome and activates P"
+                          - subscript [ref=e602]: m
+                          - text: promoter in the presence of salicylate (
+                          - link "Royo et al., 2005" [ref=e603] [cursor=pointer]:
+                            - /url: "#b23"
+                          - text: ) (
+                          - link "Fig. 6" [ref=e604] [cursor=pointer]:
+                            - /url: "#f6"
+                          - text: ). As expected, a protein band of around 32 kDa correlating with the depolymerase molecular mass was clearly detectable in these cells (
+                          - link "Fig. 6" [ref=e605] [cursor=pointer]:
+                            - /url: "#f6"
+                          - text: ", lane 4). The expression cassette P"
+                          - subscript [ref=e606]: m
+                          - text: ::phaZ
+                          - subscript [ref=e607]: KT
+                          - text: from plasmid pPAZ6 was excised and cloned into the pPUTTc resulting plasmid pUTTcZ (
+                          - link "Table 1" [ref=e608] [cursor=pointer]:
+                            - /url: "#t1"
+                          - text: ). Then, the plasmids pUTTcZ and pCNB44S2 were transferred by conjugation into P. putida KT2442 resulting the recombinant KTZ1 strain, which carries into its chromosome the expression system nahR4/P
+                          - subscript [ref=e609]: sal
+                          - text: ::xylS2/P
+                          - subscript [ref=e610]: m
+                          - text: ::phaZ
+                          - subscript [ref=e611]: KT
+                          - text: that can be induced by benzoate (
+                          - link "Table 1" [ref=e612] [cursor=pointer]:
+                            - /url: "#t1"
+                          - text: ). In the absence of benzoate, all parameters tested in P. putida KTZ1 cultures, i.e. PHA content, extracellular content of HAs, residual carbon source, biomass and viable cells, were very similar to those observed for the wild-type strain (
+                          - link "Table 2" [ref=e613] [cursor=pointer]:
+                            - /url: "#t2"
+                          - text: ). However, the addition of 5 mM benzoate leads to a drastic decrease in PHA content and an increase in HAs detected in the P. putida KTZ1 culture medium, 10-fold higher than in the wild-type strain (
+                          - link "Table 2" [ref=e614] [cursor=pointer]:
+                            - /url: "#t2"
+                          - text: ). The significant increase in the number of viable cells of P. putida KTZ1 cells with and without inducer can be explained by the ability of KT2442 and its derivative strains to mineralize benzoate (
+                          - link "Jiménez et al., 2002" [ref=e615] [cursor=pointer]:
+                            - /url: "#b24"
+                          - text: ). In this sense, the benzoate content in the supernatant of the medium of KTZ1 varies from 0.73 g l
+                          - superscript [ref=e616]: −1
+                          - text: at time zero to 0.09 g l
+                          - superscript [ref=e617]: −1
+                          - text: after 24 h of growing, indicating that the inducer is consumed as carbon and energy source.
+                        - figure [ref=e619]:
+                          - link [ref=e620] [cursor=pointer]:
+                            - /url: /cms/asset/953c6098-22a1-4d7d-bab9-4c28bda60c22/emi_2061_f6.gif
+                            - img "Details are in the caption following the image" [ref=e622]
+                          - generic [ref=e623]:
+                            - generic [ref=e624]:
+                              - strong [ref=e625]: Figure 6
+                              - generic [ref=e626]:
+                                - link "Open in figure viewer" [ref=e627] [cursor=pointer]:
+                                  - /url: "#"
+                                - link "PowerPoint" [ref=e628] [cursor=pointer]:
+                                  - /url: /action/downloadFigures?id=f6&partId=&doi=10.1111%2Fj.1462-2920.2009.02061.x
+                                  - generic [ref=e629]: 
+                                  - text: PowerPoint
+                            - paragraph [ref=e631]:
+                              - text: PhaZ production under Cascade
+                              - superscript [ref=e632]: TM
+                              - text: system. PhaZ expression in E. coli MPO12 (pPAZ6) strain. Twenty-five microlitres of each cell suspension at OD
+                              - subscript [ref=e633]: "600"
+                              - text: "3 was loaded. Lanes: 1, E. coli MPO12 before induction; 2, E. coli MPO12 (pPAZ6) before induction; 3, E. coli MPO12 after induction with 2 mM salicylate; 4, E. coli MPO12 (pPAZ6) after induction. Standard molecular weight markers, in kDa, are marked at the left."
+                      - generic [ref=e634]:
+                        - heading "Analysis of HAs released to the culture media" [level=3] [ref=e635]
+                        - paragraph [ref=e636]:
+                          - text: The chemical configuration of the HAs monomers released to the culture medium by P. putida KTZ1 was examined by chiral GC (
+                          - link "Fig. 7" [ref=e637] [cursor=pointer]:
+                            - /url: "#f7"
+                          - text: ). Whereas the racemic standard (R,S)-3-hydroxyoctanoate methyl ester showed two chromatographic peaks (with the retention times of 23.8 and 24.2) corresponding to the two enantiomers (
+                          - link "Fig. 7" [ref=e638] [cursor=pointer]:
+                            - /url: "#f7"
+                          - text: ), only one peak was detected for the samples of 3-hydroxyoctanoate methyl ester extracted from all culture media tested, indicating a high enantiomeric purity of these samples. In addition, by mixing the produced 3-hydroxyoctanoate methyl ester with the racemic standard, the area of the latter peak increased (data not shown), confirming the absolute (R)-configuration of all these samples. Therefore, the HAs produced in this work in a resting cell system or under PHA production conditions (
+                          - link "Table 2" [ref=e639] [cursor=pointer]:
+                            - /url: "#t2"
+                          - text: ) have the same configuration.
+                        - figure [ref=e641]:
+                          - link [ref=e642] [cursor=pointer]:
+                            - /url: /cms/asset/715cb0ae-1382-431a-9ff7-2dab6c505ccd/emi_2061_f7.gif
+                            - img "Details are in the caption following the image" [ref=e644]
+                          - generic [ref=e645]:
+                            - generic [ref=e646]:
+                              - strong [ref=e647]: Figure 7
+                              - generic [ref=e648]:
+                                - link "Open in figure viewer" [ref=e649] [cursor=pointer]:
+                                  - /url: "#"
+                                - link "PowerPoint" [ref=e650] [cursor=pointer]:
+                                  - /url: /action/downloadFigures?id=f7&partId=&doi=10.1111%2Fj.1462-2920.2009.02061.x
+                                  - generic [ref=e651]: 
+                                  - text: PowerPoint
+                            - paragraph [ref=e653]: Chirality of products released by PHA enzymatic hydrolysis. Chiral GC analysis of methyl esters of racemic mixtures of (A) (R,S)-3-OH octanoic acid and (B) (R)-3-OH octanoic acid identified in the P. putida KTZ1 supernatant after 24 h induction with benzoate 5 mM.
+                        - paragraph [ref=e654]: The chemical composition of the released products by P. putida KTZ1 cultured under PHA production conditions was also examined by LC-MS to determine the presence of dimers, trimers or higher polymers of HAs in the medium. The chromatograms revealed the presence of three major peaks (Fig. S3), where peak 1 (m/z 131) corresponded to the molecular mass of the deprotonated 3-hydroxyhexanoic acid and peak 2 (m/z 159) to 3-hydroxyoctanoic acid. Ions corresponding to m/z 301 and m/z 603 found in peak 3 highlighted the presence of the deprotonated 3-hydroxyoctanoic dimer and the dimer adduct of 3-hydroxyoctanoic diester respectively. Dimers containing 3-hydroxyhexanoic acid and polymers with higher molecular weight were not found.
+                    - generic [ref=e655]:
+                      - heading "Discussion" [level=2] [ref=e656]
+                      - paragraph [ref=e657]:
+                        - text: Polyhydroxyalkanoate acts as sinks for carbon and reducing equivalents when other nutrient supplies are limited (
+                        - link "Prieto et al., 2007" [ref=e658] [cursor=pointer]:
+                          - /url: "#b3"
+                        - text: ) and consequently, PHA degradation under stress conditions has been proposed as a mechanism that favours the establishment of PHA-producing bacteria in competitive environments, such as soil and rhizosphere (
+                        - link "Madison and Huisman, 1999" [ref=e659] [cursor=pointer]:
+                          - /url: "#b1"
+                        - text: ;
+                        - link "Ruiz et al., 2001" [ref=e660] [cursor=pointer]:
+                          - /url: "#b25"
+                        - text: ;
+                        - link "Kadouri et al., 2005" [ref=e661] [cursor=pointer]:
+                          - /url: "#b26"
+                        - text: ). Under certain circumstances, free-living bacterial cells with a higher content of PHA may survive longer than those with a lower PHA content, either because they are less susceptible to adverse factors, or because they can utilize this reserve material longer and more efficiently (
+                        - link "Dawes and Senior, 1973" [ref=e662] [cursor=pointer]:
+                          - /url: "#b27"
+                        - text: ;
+                        - link "Matin et al., 1979" [ref=e663] [cursor=pointer]:
+                          - /url: "#b28"
+                        - text: ). In this work, we have analysed the impact of PHA metabolism on cell viability under laboratory conditions in terms of carbon source utilization in the mcl-PHA model producer P. putida KT2442 strain. We have demonstrated that the ability of metabolizing PHA appears to endow the producing cells with increased endurance under carbon starvation conditions that results in an increased viable cells number. In addition, the fundamental and exclusive role of PhaZ depolymerase in PHA mobilization has been definitively demonstrated, since a mutant strain lacking the phaZ gene was not able to degrade the intracellular polymer.
+                      - paragraph [ref=e664]:
+                        - text: Increased survival and respiration under starvation conditions were previously detected in PHB producer strains such as Azospirillum brasilense (
+                        - link "Tal and Okon, 1985" [ref=e665] [cursor=pointer]:
+                          - /url: "#b29"
+                        - text: ). Furthermore, A. brasilense mutants defective in their capability to produce PHA (phaC
+                        - superscript [ref=e666]: "-"
+                        - text: mutant) (
+                        - link "Kadouri et al., 2002" [ref=e667] [cursor=pointer]:
+                          - /url: "#b30"
+                        - text: ) or to degrade PHA (phaZ
+                        - superscript [ref=e668]: "-"
+                        - text: mutant) (
+                        - link "Kadouri et al., 2003" [ref=e669] [cursor=pointer]:
+                          - /url: "#b31"
+                        - text: ) survived shorter than the wild-type strain. Pseudomonas putida GPo1 containing PHA survived starvation better than its cognate PHA depolymerase mutant when cells were incubated under starvation conditions in natural environments, or under conditions mimicking natural settings (
+                        - link "Ruiz et al., 2001" [ref=e670] [cursor=pointer]:
+                          - /url: "#b25"
+                        - text: ). Nevertheless, the mechanisms by which the PHA metabolism favours stress alleviation in P. putida GPo1 are not yet fully understood, but enhanced cross-tolerance to different stress agents during PHA depolymerization has also been correlated to an increase in the concentration of RpoS, suggesting a link between PHA depolymerization and the stress tolerance (
+                        - link "Ruiz et al., 2004" [ref=e671] [cursor=pointer]:
+                          - /url: "#b32"
+                        - text: ). Our results demonstrated that P. putida can support cell multiplication in the absence of an exogenous carbon source by mobilizing PHA, as previously demonstrated in the PHB producer R. eutropha H16 (
+                        - link "Handrick et al., 2000" [ref=e672] [cursor=pointer]:
+                          - /url: "#b33"
+                        - text: ), and that this ability is strictly dependent on the existence of an active PhaZ depolymerase. However, under laboratory conditions growing in defined media, we have not detected survival differences among the P. putida KT2442 wild-type strain and PHA-metabolic defective mutants. Generally speaking, it could be presumed that bacteria control the number of community members as function of carbon/inorganic nutrient ratio. Since the lack of a fully functional PHA metabolic system avoids the ability to adapt the number of viable cells to extra source of inorganic nutrients like nitrogen (
+                        - link "Fig. 3" [ref=e673] [cursor=pointer]:
+                          - /url: "#f3"
+                        - text: ), this work demonstrates that the presence of the PHA synthase/depolymerase system allows P. putida KT2442 to adapt the carbon flux of HAs to cellular demand. In this sense, the PHA-free biomasses of P. putida KT2442 and KT42C1 strains were similar [22.1% and 25.7% (g biomass per g octanoate) respectively], but the rate of conversion of octanoate to biomass differed considerably when PHA contents were considered [22.2% and 74.0% (g biomass per g octanoate), for P. putida KT42C1 and KT2442 strains respectively]. Consequently, the increased production of metabolic intermediates in the PhaC1 mutant strain needs further investigations.
+                      - paragraph [ref=e674]:
+                        - text: "A simple view of PHA metabolism has been frequently resumed: bacteria facing carbon excess and nutrient limitation store the extra carbon substrate as PHA via PHA polymerase (PhaC). Under carbon starvation conditions, PHA depolymerase (PhaZ) degrades PHA and releases 3-hydroxycarboxylic acid monomers, which after activation to HA-CoAs, can be oxidized by the β-oxidation pathway ("
+                        - link "Fig. 1" [ref=e675] [cursor=pointer]:
+                          - /url: "#f1"
+                        - text: ). However, a simultaneous cyclic mechanism for the biosynthesis and degradation of PHA in bacteria were early proposed in the PHB producers Azotobacter beijerinckii (
+                        - link "Senior and Dawes, 1973" [ref=e676] [cursor=pointer]:
+                          - /url: "#b34"
+                        - text: ) and R. eutropha (
+                        - link "Doi et al., 1990" [ref=e677] [cursor=pointer]:
+                          - /url: "#b19"
+                        - text: ;
+                        - link "Taidi et al., 1995" [ref=e678] [cursor=pointer]:
+                          - /url: "#b35"
+                        - text: ). In the latter strain 3-hydroxybutyryl-CoAs are released by PhaZa1 depolymerase (
+                        - link "Kobayashi and Saito, 2003" [ref=e679] [cursor=pointer]:
+                          - /url: "#b36"
+                        - text: ;
+                        - link "Uchino et al., 2007" [ref=e680] [cursor=pointer]:
+                          - /url: "#b14"
+                        - text: ) in contrast with the HAs released by PhaZ
+                        - subscript [ref=e681]: KT
+                        - text: enzyme (
+                        - link "de Eugenio et al., 2007" [ref=e682] [cursor=pointer]:
+                          - /url: "#b7"
+                        - text: ). In these strains, the turnover can be explained by considering the PHA metabolism as a buffer of carbon and reducing power.
+                      - paragraph [ref=e683]:
+                        - text: In this work we have finally demonstrated that PHA metabolism in P. putida KT2442 is an ongoing cycle where synthesis and degradation of the polyesters are simultaneously active to facilitate the turnover of the polymer, and the crucial role played by PhaZ
+                        - subscript [ref=e684]: KT
+                        - text: depolymerase (
+                        - link "Fig. 5" [ref=e685] [cursor=pointer]:
+                          - /url: "#f5"
+                        - text: ). Taking into account the recent finding of an acyl-CoA synthetase (ACS1) associated with the PHA granules (
+                        - link "Ruth et al., 2008" [ref=e686] [cursor=pointer]:
+                          - /url: "#b11"
+                        - text: ), the current model for the PHA metabolism in P. putida supports a coordinated activity of polymerase, depolymerase and acyl-CoA synthetase. Cells facing carbon excess and nutrient limitation directed the PHA metabolism to store the extra carbon in the form of insoluble polyesters by PHA synthase. Under carbon starvation, PHA metabolism is unbalanced to the hydrolysis pathway, and R-HAs monomers are excised from the polymer by the action of the PhaZ depolymerase. The released monomers are then activated to HA-CoAs by a granule associated acyl-CoA synthetase via an ATP-dependent reaction (
+                        - link "Ruth et al., 2008" [ref=e687] [cursor=pointer]:
+                          - /url: "#b11"
+                        - text: ). These metabolites are substrates for both PHA synthase and fatty acid β-oxidation cycle and thus, depending on the metabolic state of the cell, the HA-CoAs will be either incorporated into nascent PHA polymer chains by the PHA synthase, or oxidized by the β-oxidation pathway to generate energy (
+                        - link "Fig. 1" [ref=e688] [cursor=pointer]:
+                          - /url: "#f1"
+                        - text: ). These results were in agreement with our previous findings, which demonstrated that the PhaZ
+                        - subscript [ref=e689]: KT
+                        - text: depolymerase was produced under both PHA production and PHA mobilization growth conditions (
+                        - link "de Eugenio et al., 2007" [ref=e690] [cursor=pointer]:
+                          - /url: "#b7"
+                        - text: ).
+                      - paragraph [ref=e691]:
+                        - text: On the other hand, PHA has been proposed as potential source of R-HAs (
+                        - link "Ren et al., 2005" [ref=e692] [cursor=pointer]:
+                          - /url: "#b17"
+                        - text: ;
+                        - link "Ruth et al., 2007" [ref=e693] [cursor=pointer]:
+                          - /url: "#b37"
+                        - text: ). Actually, HA monomers as well as oligomers are important building blocks for biotechnological applications (
+                        - link "Ren et al., 2005" [ref=e694] [cursor=pointer]:
+                          - /url: "#b17"
+                        - text: ;
+                        - link "Sandoval et al., 2005" [ref=e695] [cursor=pointer]:
+                          - /url: "#b38"
+                        - text: ;
+                        - link "Schreck and Hillmyer, 2007" [ref=e696] [cursor=pointer]:
+                          - /url: "#b39"
+                        - text: ). The first enzymatic-based strategy developed for the production of R-HA monomers from mcl-PHA was described in P. putida GPo1 (
+                        - link "Ren et al., 2005" [ref=e697] [cursor=pointer]:
+                          - /url: "#b17"
+                        - text: ;
+                        - link "Ruth et al., 2007" [ref=e698] [cursor=pointer]:
+                          - /url: "#b37"
+                        - text: ;
+                        - link "Wang et al., 2007" [ref=e699] [cursor=pointer]:
+                          - /url: "#b18"
+                        - text: ). In this approach, cells were first grown under double (carbon and nitrogen) nutrient limitation conditions in order to induce a high PHA accumulation in a continuous culture and, afterwards, re-suspended in phosphate buffer adjusted to basic environments (pH 10) as a resting cells system. These authors obtained a release of 1.05 mg ml
+                        - superscript [ref=e700]: −1
+                        - text: of HAs, in agreement with the results obtained in this work (
+                        - link "Ruth et al., 2007" [ref=e701] [cursor=pointer]:
+                          - /url: "#b37"
+                        - text: ).
+                        - link "Figure 4" [ref=e702] [cursor=pointer]:
+                          - /url: "#f4"
+                        - text: shows that the unique enzyme responsible for the hydrolysis of the polymer in P. putida KT2442 under alkaline conditions is PhaZ
+                        - subscript [ref=e703]: KT
+                        - text: ", and demonstrated that, similarly to P. putida GPo1, it secretes HAs monomers to the medium as a consequence of a massive PHA hydrolysis. The yield in the resting cell-production systems will be always conditioned by the PHA accumulation ability of the target strain. However, growing cell strategies for the production of enantiomeric pure HAs imply a massive PHA mobilizing system that hydrolyses PHA simultaneously to its synthesis. In this sense, different growing cell strategies have been proposed in Pseudomonads for the production of HAs ("
+                        - link "Sandoval et al., 2005" [ref=e704] [cursor=pointer]:
+                          - /url: "#b38"
+                        - text: ;
+                        - link "Yuan et al., 2008" [ref=e705] [cursor=pointer]:
+                          - /url: "#b40"
+                        - text: ). It has been demonstrated that overexpression of the phaZ gene in a PHA overproducer mutant of P. putida U allowed the bioconversion of different n-phenylalkanoic acids into a racemic mixture of the corresponding 3-hydroxyderivatives that were secreted into the culture medium with a yield of 1.92 mg ml
+                        - superscript [ref=e706]: −1
+                        - text: of HAs (
+                        - link "Sandoval et al., 2005" [ref=e707] [cursor=pointer]:
+                          - /url: "#b38"
+                        - text: ). However, the released (R)-enantiomers were immediately epimerized to the (S)-isomers as a consequence of the genetic background of that strain, which is defective for the β-oxidation cycle (
+                        - link "Sandoval et al., 2005" [ref=e708] [cursor=pointer]:
+                          - /url: "#b38"
+                        - text: ). Recently, it has been published that the production of the PhaZ of Pseudomonas stutzeri in P. putida KT2442, together with a putative long-chain fatty acid transport protein of P. putida and an acyl-CoA synthetase of E. coli, improved the release of HAs to 2.32 mg ml
+                        - superscript [ref=e709]: −1
+                        - text: of HAs when the cells were cultured in shake flasks (
+                        - link "Yuan et al., 2008" [ref=e710] [cursor=pointer]:
+                          - /url: "#b40"
+                        - text: ). In this case, the chirality of the released HAs was also not determined. Therefore, our results constitute the first example of a biotechnology system able to produce pure R-mcl-HAs monomer by using growing cells. To direct the PHA balance to PHA hydrolysis, we have applied a tight inducible system cascade control circuit integrated into the chromosome which allows culturing the recombinant cells in the absence of antibiotics (
+                        - link "de Lorenzo et al., 1993" [ref=e711] [cursor=pointer]:
+                          - /url: "#b20"
+                        - text: ;
+                        - link "Cebolla et al., 2001" [ref=e712] [cursor=pointer]:
+                          - /url: "#b22"
+                        - text: ). Taking into account the great advantages of our novel in vivo strategy, we believe that it will pave the way for implementing a large-scale bioproduction of R-mcl-HAs monomers.
+                    - generic [ref=e713]:
+                      - heading "Experimental procedures" [level=2] [ref=e714]
+                      - generic [ref=e715]:
+                        - heading "Bacterial strains, media and growth conditions" [level=3] [ref=e716]
+                        - paragraph [ref=e717]:
+                          - text: Bacterial strains and plasmids used in this work are described in
+                          - link "Table 1" [ref=e718] [cursor=pointer]:
+                            - /url: "#t1"
+                          - text: . Pseudomonas putida KT2442 is a derivative strain of the parental strain KT2440 whose complete nucleotide sequence of the genome is accessible in the data bank (
+                          - link "Nelson et al., 2002" [ref=e719] [cursor=pointer]:
+                            - /url: "#b41"
+                          - text: ). Unless otherwise stated, E. coli and P. putida strains were grown in Luria–Bertani (LB) medium (
+                          - link "Sambrook and Russell, 2001" [ref=e720] [cursor=pointer]:
+                            - /url: "#b42"
+                          - text: ) at 37°C and 30°C with shaking respectively. The appropriate selection antibiotics, gentamicin (10 μg ml
+                          - superscript [ref=e721]: −1
+                          - text: ), chloramphenicol (34 μg ml
+                          - superscript [ref=e722]: −1
+                          - text: ), kanamycin (50 μg ml
+                          - superscript [ref=e723]: −1
+                          - text: ), or tetracycline (5 μg ml
+                          - superscript [ref=e724]: −1
+                          - text: ), were added when needed. For P(HO-co-HX) production, P. putida strains were grown in 0.1 N M63, which is a nitrogen-limited minimal medium [13.6 g of KH
+                          - subscript [ref=e725]: "2"
+                          - text: PO
+                          - subscript [ref=e726]: "4"
+                          - text: l
+                          - superscript [ref=e727]: −1
+                          - text: ", 0.2 g of (NH"
+                          - subscript [ref=e728]: "4"
+                          - text: )
+                          - subscript [ref=e729]: "2"
+                          - text: SO
+                          - subscript [ref=e730]: "4"
+                          - text: l
+                          - superscript [ref=e731]: −1
+                          - text: ", 0.5 mg of FeSO"
+                          - subscript [ref=e732]: "4"
+                          - text: ·7 H
+                          - subscript [ref=e733]: "2"
+                          - text: O l
+                          - superscript [ref=e734]: −1
+                          - text: ", adjusted to pH 7.0 with KOH], plus 2.5 g l"
+                          - superscript [ref=e735]: −1
+                          - text: sodium octanoate (15 mM), for 24 h at 30°C as previously described (
+                          - link "Moldes et al., 2004" [ref=e736] [cursor=pointer]:
+                            - /url: "#b10"
+                          - text: ). This medium was supplemented with MgSO
+                          - subscript [ref=e737]: "4"
+                          - text: "1 mM and a solution of trace elements (composition 1000×: 2.78 g of FeSO"
+                          - subscript [ref=e738]: "4"
+                          - text: ·7H
+                          - subscript [ref=e739]: "2"
+                          - text: O l
+                          - superscript [ref=e740]: −1
+                          - text: ", 1.98 g of MnCl"
+                          - subscript [ref=e741]: "2"
+                          - text: ·4H
+                          - subscript [ref=e742]: "2"
+                          - text: O l
+                          - superscript [ref=e743]: −1
+                          - text: ", 2.81 g of CoSO"
+                          - subscript [ref=e744]: "4"
+                          - text: ·7H
+                          - subscript [ref=e745]: "2"
+                          - text: O l
+                          - superscript [ref=e746]: −1
+                          - text: ", 1.47 g of CaCl"
+                          - subscript [ref=e747]: "2"
+                          - text: ·2H
+                          - subscript [ref=e748]: "2"
+                          - text: O l
+                          - superscript [ref=e749]: −1
+                          - text: ", 0.17 g of CuCl"
+                          - subscript [ref=e750]: "2"
+                          - text: ·2H
+                          - subscript [ref=e751]: "2"
+                          - text: O l
+                          - superscript [ref=e752]: −1
+                          - text: ", 0.29 g of ZnSO"
+                          - subscript [ref=e753]: "4"
+                          - text: ·7H
+                          - subscript [ref=e754]: "2"
+                          - text: O l
+                          - superscript [ref=e755]: −1
+                          - text: ). For PHA turnover analysis, 1.6 g l
+                          - superscript [ref=e756]: −1
+                          - text: nonanoic acid (10 mM) was added to a previously 24 h growing culture of KT2442 or KT42Z strains in 0.1 N M63 medium plus 15 mM sodium octanoate. For nitrogen supplementation, a final concentration of 2 g l
+                          - superscript [ref=e757]: −1
+                          - text: (NH
+                          - subscript [ref=e758]: "4"
+                          - text: )
+                          - subscript [ref=e759]: "2"
+                          - text: SO
+                          - subscript [ref=e760]: "4"
+                          - text: was added to a 7-day grown culture under PHA production conditions.
+                      - generic [ref=e761]:
+                        - heading "Biomass calculation" [level=3] [ref=e762]
+                        - paragraph [ref=e763]: Cell densities, expressed in grams of CDW per litre, were determined gravimetrically by using tared 50 ml Falcon tubes. Forty millilitres of culture medium were centrifuged for 45 min at 3800 g and 4°C. Cell pellets were freeze-dried for 24 h in a lyophilizer and weighed.
+                      - generic [ref=e764]:
+                        - heading "Cell viability calculation" [level=3] [ref=e765]
+                        - paragraph [ref=e766]:
+                          - text: To calculate cell viability, serial dilutions from 10
+                          - superscript [ref=e767]: −1
+                          - text: to 10
+                          - superscript [ref=e768]: −7
+                          - text: were made in salt solution (0.9% NaCl). Three different spots of each dilution from 10
+                          - superscript [ref=e769]: −2
+                          - text: to 10
+                          - superscript [ref=e770]: −7
+                          - text: were plated on LB solid medium and colony-forming units (cfu) were counted. For each strain, three different experiments were carried out.
+                      - generic [ref=e771]:
+                        - heading "DNA manipulation and plasmid construction" [level=3] [ref=e772]
+                        - paragraph [ref=e773]:
+                          - text: DNA manipulations and other Molecular Biology techniques were essentially performed as described previously (
+                          - link "Sambrook and Russell, 2001" [ref=e774] [cursor=pointer]:
+                            - /url: "#b42"
+                          - text: ). Plasmid transference to the target Pseudomonas strains was performed by the filter-mating technique (
+                          - link "Herrero et al., 1990" [ref=e775] [cursor=pointer]:
+                            - /url: "#b43"
+                          - text: ). DNA fragments were purified by standard procedures using Gene Clean (Bio 101, Vista, CA). Plasmid pPAZ2 was constructed as previously described (
+                          - link "de Eugenio et al., 2007" [ref=e776] [cursor=pointer]:
+                            - /url: "#b7"
+                          - text: ). For PCR amplification, we used 2 units of AmpliTaq DNA polymerase (Perkin Elmer Life Sciences), 1 μg of DNA template, 1 μg of each deoxynucleoside triphosphate, and 2.5 mM MgCl
+                          - subscript [ref=e777]: "2"
+                          - text: in the buffer recommended by the manufacturer. Conditions for amplification were chosen according to the G + C content of the corresponding oligonucleotides. Pseudomonas putida KT42Z strain was constructed by gene disruption of phaZ gene using plasmid pK18mob (
+                          - link "Schafer et al., 1994" [ref=e778] [cursor=pointer]:
+                            - /url: "#b44"
+                          - text: ). An internal fragment of 335 bp of the gene was cloned in the polylinker of pK18mob after PCR amplification with primers PhaZMUT5′ (CCAGGATCCTCACGATTACCCCGAGCG) and PhaZMUT3′ (CCGGAATTCCAGCCAGTACCAGGGTG). The resulting construction (pK18mob-Z) was introduced into P. putida KT2442 by triparental mating and conjugants were selected in M63 0.2% citrate plus kanamycin. Disruption of phaZ gene was confirmed by PCR and Western blot analysis as described (
+                          - link "de Eugenio et al., 2007" [ref=e779] [cursor=pointer]:
+                            - /url: "#b7"
+                          - text: ). Pseudomonas putida KT42C1 strain was constructed via disruption of phaC1 gene by insertion of a minitransposon containing kanamycin resistance gene (
+                          - link "Herrero et al., 1990" [ref=e780] [cursor=pointer]:
+                            - /url: "#b43"
+                          - text: ). PHA production-defective mutants were selected in plates of M63 0.1 N medium plus 2.5 g l
+                          - superscript [ref=e781]: −1
+                          - text: sodium octanoate and 0.25 mg ml
+                          - superscript [ref=e782]: −1
+                          - text: Nile Red with 100 cfu per plate. Due to the toxic effect exerted by the Nile Red, the only strains able to grow in this medium as isolated colonies were those whose PHA accumulation abilities had been impaired by disruption of genes involved in polymer metabolism. These clones were further isolated and selected by their lack of fluorescence under UV light (
+                          - link "Spiekermann et al., 1999" [ref=e783] [cursor=pointer]:
+                            - /url: "#b45"
+                          - text: ). Mutations were identified by arbitrary PCR according to the method described by
+                          - link "Espinosa-Urgel and colleagues (2000" [ref=e784] [cursor=pointer]:
+                            - /url: "#b46"
+                          - text: ), using TNSTOP (CATAAAGCTTGCTCAATCAATCACC), TNINT (GACCTGCAGGCATGCAAGCTTCGGC), ARB1 (GGCACGCGTCGACTAGTACNNNNNNNNNNGATAT) and ARB2 (GGCACGCGTCGACTAGTAC) primers. To construct P. putida KTZ1 strain an 873 bp fragment was PCR-amplified from P. putida KT2442 genome using oligonucleotides PHAZ2 (CAGATATCAAGCTTGGCCGCAGCTGTTTCA) and PHAZ5 (GATATCGCATGCCGCAACCCTATATTTTCAG). The PCR fragment was digested with HindIII and BbuI and cloned into pALEX1b vector (Biomedal S.L.), resulting in the plasmid pPAZ6 (see also Fig. S2). This was digested with NotI and AseI and the resulting 1.9 kb fragment was purified by GeneClean and subcloned into previously NotI cut pUTTc (
+                          - link "Herrero et al., 1990" [ref=e785] [cursor=pointer]:
+                            - /url: "#b43"
+                          - text: ), resulting in plasmid pUTTcZ, which was transferred via triparental mating to a KTXylS2 strain harbouring the regulatory module of plasmid pCNB44S2 (
+                          - link "Cebolla et al., 2001" [ref=e786] [cursor=pointer]:
+                            - /url: "#b22"
+                          - text: ). Pseudomonas putida KTLacI
+                          - superscript [ref=e787]: q
+                          - text: was constructed by transferring the plasmid pCNB5 harbouring the LacI
+                          - superscript [ref=e788]: q
+                          - text: repressor in a minitransposon containing kanamycin resistance gene (
+                          - link "de Lorenzo et al., 1993" [ref=e789] [cursor=pointer]:
+                            - /url: "#b20"
+                          - text: ).
+                      - generic [ref=e790]:
+                        - heading "Transmission electron microscopy" [level=3] [ref=e791]
+                        - paragraph [ref=e792]:
+                          - text: Pseudomonas putida KT2442 and P. putida KT42C1 cells previously grown under PHA production conditions for 24 h were harvested, washed twice in PBS and fixed in 5% (w/v) glutaraldehyde in the same solution. Afterwards, cells were included with 2.5% (w/v) OsO
+                          - subscript [ref=e793]: "4"
+                          - text: for 1 h, gradually dehydrated in ethanol [30%, 50%, 70%, 90% and 100% (v/v); 30 min each] and propylene oxide (1 h), and embedded in Epon 812 resin. Ultrathin sections (thickness of 70 nm) were cut with a microtome using a Diatome diamond knife. The sections were picked up with 400 mesh cupper grids coated with a layer of carbon. The sections were observed in a Jeol-1230 electron microscope (Jeol, Akishima, Japan).
+                      - generic [ref=e794]:
+                        - heading [level=3] [ref=e795]:
+                          - superscript [ref=e796]: "14"
+                          - text: C-labelled 3-hydroxyalkanoic mobilization in resting cells system
+                        - paragraph [ref=e797]:
+                          - text: Pseudomonas putida KT2442 or P. putida KT42Z cells were grown in
+                          - superscript [ref=e798]: "14"
+                          - text: C-labelled PHA production conditions as described (
+                          - link "de Eugenio et al., 2007" [ref=e799] [cursor=pointer]:
+                            - /url: "#b7"
+                          - text: ). After 24 h, cells were centrifuged, washed with 0.1 N M63 medium to avoid nitrogen-triggered PHA degradation, shifted to different conditions as distilled water pH 5.5, 50 mM acetate buffer pH 4 or 50 mM glycine-NaOH buffer pH 10.6 and incubated at 30°C and 250 r.p.m. Samples were taken each hour, centrifuged at 16 000 g for 25 min at 4°C and filtered through cellulose acetate disposable syringe filters (0.2 μ, Asahi Techno Glass). The radioactivity was determined in 100 μl aliquots of the supernatant in a scintillation counter (Beckman). PHA content was determined using GC-MS analysis as described elsewhere (
+                          - link "Lageveen et al., 1988" [ref=e800] [cursor=pointer]:
+                            - /url: "#b47"
+                          - text: ).
+                      - generic [ref=e801]:
+                        - heading "3-Hydroxyalkanoic acids mobilization under PHA production conditions" [level=3] [ref=e802]
+                        - paragraph [ref=e803]:
+                          - text: Pseudomonas putida cells were inoculated into 0.1 N M63 medium containing 15 mM sodium octanoate. After 24 h, 40 ml of samples were taken, centrifuged at 3800 g and 4°C for 45 min and freeze-dried. HA levels in filtered supernatants and PHA content were determined using GC-MS as previously described (
+                          - link "Lageveen et al., 1988" [ref=e804] [cursor=pointer]:
+                            - /url: "#b47"
+                          - text: ) (see below).
+                      - generic [ref=e805]:
+                        - heading "GC-MS analysis for PHA and HA content determinations" [level=3] [ref=e806]
+                        - paragraph [ref=e807]:
+                          - text: Polyhydroxyalkanoate monomer composition and cellular PHA content were determined by GC-MS of the methanolysed polyester. Methanolysis procedure was carried out by suspending 5–10 mg of lyophilized aliquots in 2 ml of chloroform and 2 ml of methanol containing 15% sulfuric acid and 0.5 mg ml
+                          - superscript [ref=e808]: −1
+                          - text: 3-methylbenzoic acid (internal standard) and then incubated at 100°C for 4 h. After cooling, 1 ml of demineralized water was added and the organic phase containing the resulting methyl esters of monomers was analysed by GC-MS (
+                          - link "Lageveen et al., 1988" [ref=e809] [cursor=pointer]:
+                            - /url: "#b47"
+                          - text: ).
+                        - paragraph [ref=e810]:
+                          - text: An Agilent (Waldbronn, Germany) series 7890A coupled with a 5975C MS detector (EI, 70 eV) and a split–splitless injector were used for analysis. An aliquot (1 μl) of organic phase was injected into the gas chromatograph at a split ratio of 1:50. Separation of compounds was achieved using an HP-5 MS capillary column (5% phenyl−95% methyl siloxane, 30 m × 0.25 mm i.d. × 0.25 mm film thickness). Helium was used as carrier gas at a flow rate of 0.9 ml min
+                          - superscript [ref=e811]: −1
+                          - text: ". The injector and transfer line temperature were set at 275°C and 300°C respectively. The oven temperature programme was: initial temperature 80°C for 2 min, then from 80°C up 150°C at a rate of 5°C min"
+                          - superscript [ref=e812]: −1
+                          - text: and finally up 200°C at a rate of 10°C min
+                          - superscript [ref=e813]: −1
+                          - text: . EI mass spectra were recorded in full scan mode (m/z 40–550).
+                        - paragraph [ref=e814]: The same sample preparation described above allowed the determination of benzoate content in samples since benzoic acid is susceptible to give rise its methyl ester form after methanolysis. Quantification of methyl-benzoate was carried out in the same chromatographic conditions as methyl esters of monomers obtained from PHA.
+                      - generic [ref=e815]:
+                        - heading "LC-MS analysis for identification of the products released" [level=3] [ref=e816]
+                        - paragraph [ref=e817]:
+                          - text: As preliminary step to chromatographic separation, samples were introduced to the ESI source in negative mode by direct infusion in order to optimize the MS conditions. Lyophilized aliquots (5–10 mg) were suspended in methanol and 5 μl were injected in the chromatographic system. Separation of the oligomers present in samples was carried out on a Finnigan Surveyor (Thermo Electron) pump coupled with a Finnigan LCQ Deca (Thermo Electron) ion trap mass spectrometer. The separation was performed at room temperature on a 100 × 2.1 mm (3 μm particle size) Hypersil HyPurity C18 column (Thermo Electron) at a flow rate of 100 μl min
+                          - superscript [ref=e818]: −1
+                          - text: ". The mobile phase was 0.1% ammonium hydroxide in water (A) and 0.1% ammonium hydroxide in methanol (B). The following elution programme was used: at the start 95% A and 5% B; after 3 min the percentage of B was linearly increased to 95% in 7 min, then kept constant for 20 min, ramped to the original composition in 1 min, and then equilibrated for 10 min. The detection was monitored by MS-ESI spectrometry in negative mode at the conditions of source voltage and capillary temperature that were optimized in the step of continuous infusion (3.5 kV and 200°C respectively). All spectra were recorded in full scan mode (m/z 50–1500)."
+                      - generic [ref=e819]:
+                        - heading "Gas chromatography analysis of chiral hydroxy fatty acids" [level=3] [ref=e820]
+                        - paragraph [ref=e821]:
+                          - text: Samples were methanolysed as described for PHA content analysis. Separation of compounds was carried out in a Beta Dex 120 column (30 m × 0.25 mm i.d. × 0.25 mm film thickness) (Supelco, USA). Injector and detector temperature were kept at 300°C. Oven temperature was initially set at 95°C, held isothermally for 10 min and then increased at a rate of 0.5°C min
+                          - superscript [ref=e822]: −1
+                          - text: up to 120°C.
+                    - generic [ref=e823]:
+                      - heading "Acknowledgements" [level=2] [ref=e824]
+                      - paragraph [ref=e825]:
+                        - text: We thank P. García and E. Díaz for critical reading of the manuscript and helpful discussions. We also thank M. Arévalo from Biomedal S.L. for providing Cascade
+                        - superscript [ref=e826]: TM
+                        - text: system (Biomedal S.L.). The technical work of A. Valencia is greatly appreciated. This work was supported by grants from the Comunidad Autónoma de Madrid (P-AMB-259-0505), the Comisión Interministerial de Ciencia y Tecnología (BIO2007-67304-C02, CSD2007-00005) and by European Union Grants (GEN 2006-27750-C5-3-E and NMP2-CT-2007-026515).
+                      - list
+                    - heading [level=2] [ref=e829]:
+                      - button "Supporting Information" [ref=e830] [cursor=pointer]:
+                        - generic [ref=e831]:
+                          - generic [ref=e832]: Supporting Information
+                          - generic [ref=e833]: 
+                    - generic [ref=e835]:
+                      - heading [level=2] [ref=e836]:
+                        - button "References" [ref=e837] [cursor=pointer]:
+                          - generic [ref=e839]: 
+                      - text:                                                                                                                                                                                                  
+                  - generic [ref=e840]:
+                    - list
+                  - heading [level=2] [ref=e844]:
+                    - button "Citing Literature" [ref=e845] [cursor=pointer]:
+                      - generic [ref=e847]: 
+              - generic [ref=e848]:
+                - generic [ref=e849]:
+                  - link "View Volume 12, Issue 1" [ref=e851] [cursor=pointer]:
+                    - /url: /toc/14622920/2010/12/1
+                  - generic [ref=e852]:
+                    - paragraph [ref=e853]:
+                      - link "Volume12, Issue1" [ref=e854] [cursor=pointer]:
+                        - /url: /toc/14622920/2010/12/1
+                    - paragraph [ref=e855]: January 2010
+                    - paragraph [ref=e856]: Pages 207-221
+                - generic [ref=e857]: Advertisement
+                - generic [ref=e860]:
+                  - tablist "Article Information" [ref=e861]:
+                    - tab [ref=e862] [cursor=pointer]:
+                      - generic [ref=e863]: 
+                      - heading "Figures" [level=2] [ref=e864]
+                    - tab [ref=e865] [cursor=pointer]:
+                      - generic [ref=e866]: 
+                      - heading "References" [level=2] [ref=e867]
+                    - tab [ref=e868] [cursor=pointer]:
+                      - generic [ref=e869]: 
+                      - heading "Related" [level=2] [ref=e870]
+                    - tab [ref=e871] [cursor=pointer]:
+                      - generic [ref=e872]: 
+                      - heading "Information" [level=2] [ref=e873]
+                  - tabpanel "Related" [ref=e874]:
+                    - generic [ref=e877]:
+                      - heading "Recommended" [level=3] [ref=e878]
+                      - list [ref=e880]:
+                        - listitem [ref=e881]:
+                          - generic [ref=e882]:
+                            - paragraph [ref=e883]:
+                              - link "The PhaD regulator controls the simultaneous expression of the pha genes involved in polyhydroxyalkanoate metabolism and turnover in Pseudomonas putida KT2442" [ref=e884] [cursor=pointer]:
+                                - /url: /doi/full/10.1111/j.1462-2920.2010.02199.x
+                            - generic [ref=e885]:
+                              - generic [ref=e887]:
+                                - link "Laura Isabel De Eugenio" [ref=e888] [cursor=pointer]:
+                                  - /url: /authored-by/De+Eugenio/Laura+Isabel
+                                - text: ","
+                              - generic [ref=e890]:
+                                - link "Beatriz Galán" [ref=e891] [cursor=pointer]:
+                                  - /url: /authored-by/Gal%C3%A1n/Beatriz
+                                - text: ","
+                              - generic [ref=e893]:
+                                - link "Isabel F. Escapa" [ref=e894] [cursor=pointer]:
+                                  - /url: /authored-by/Escapa/Isabel+F.
+                                - text: ","
+                              - generic [ref=e896]:
+                                - link "Beatriz Maestro" [ref=e897] [cursor=pointer]:
+                                  - /url: /authored-by/Maestro/Beatriz
+                                - text: ","
+                              - generic [ref=e899]:
+                                - link "Jesús M. Sanz" [ref=e900] [cursor=pointer]:
+                                  - /url: /authored-by/Sanz/Jes%C3%BAs+M.
+                                - text: ","
+                              - generic [ref=e902]:
+                                - link "José Luis García" [ref=e903] [cursor=pointer]:
+                                  - /url: /authored-by/Garc%C3%ADa/Jos%C3%A9+Luis
+                                - text: ","
+                              - link "María A. Prieto" [ref=e906] [cursor=pointer]:
+                                - /url: /authored-by/Prieto/Mar%C3%ADa+A.
+                            - link "Environmental Microbiology" [ref=e909] [cursor=pointer]:
+                              - /url: /journal/14622920
+                        - listitem [ref=e910]:
+                          - generic [ref=e911]:
+                            - paragraph [ref=e912]:
+                              - link "Molecular detection and diversity of medium‐chain‐length polyhydroxyalkanoates‐producing bacteria enriched from activated sludge" [ref=e913] [cursor=pointer]:
+                                - /url: /doi/full/10.1111/j.1365-2672.2006.02973.x
+                            - generic [ref=e914]:
+                              - generic [ref=e916]:
+                                - link "S. Ciesielski" [ref=e917] [cursor=pointer]:
+                                  - /url: /authored-by/Ciesielski/S.
+                                - text: ","
+                              - generic [ref=e919]:
+                                - link "A. Cydzik-Kwiatkowska" [ref=e920] [cursor=pointer]:
+                                  - /url: /authored-by/Cydzik%E2%80%90Kwiatkowska/A.
+                                - text: ","
+                              - generic [ref=e922]:
+                                - link "T. Pokoj" [ref=e923] [cursor=pointer]:
+                                  - /url: /authored-by/Pokoj/T.
+                                - text: ","
+                              - link "E. Klimiuk" [ref=e926] [cursor=pointer]:
+                                - /url: /authored-by/Klimiuk/E.
+                            - link "Journal of Applied Microbiology" [ref=e929] [cursor=pointer]:
+                              - /url: /journal/13652672
+                        - listitem [ref=e930]:
+                          - generic [ref=e931]:
+                            - paragraph [ref=e932]:
+                              - link "Tight coupling of polymerization and depolymerization of polyhydroxyalkanoates ensures efficient management of carbon resources in Pseudomonas putida" [ref=e933] [cursor=pointer]:
+                                - /url: /doi/full/10.1111/1751-7915.12040
+                            - generic [ref=e934]:
+                              - generic [ref=e936]:
+                                - link "Sagrario Arias" [ref=e937] [cursor=pointer]:
+                                  - /url: /authored-by/Arias/Sagrario
+                                - text: ","
+                              - generic [ref=e939]:
+                                - link "Monica Bassas-Galia" [ref=e940] [cursor=pointer]:
+                                  - /url: /authored-by/Bassas%E2%80%90Galia/Monica
+                                - text: ","
+                              - generic [ref=e942]:
+                                - link "Gabriella Molinari" [ref=e943] [cursor=pointer]:
+                                  - /url: /authored-by/Molinari/Gabriella
+                                - text: ","
+                              - link "Kenneth N. Timmis" [ref=e946] [cursor=pointer]:
+                                - /url: /authored-by/Timmis/Kenneth+N.
+                            - link "Microbial Biotechnology" [ref=e949] [cursor=pointer]:
+                              - /url: /journal/17517915
+                        - listitem [ref=e950]:
+                          - generic [ref=e951]:
+                            - paragraph [ref=e952]:
+                              - link "Metabolic engineering of Pseudomonas putida for increased polyhydroxyalkanoate production from lignin" [ref=e953] [cursor=pointer]:
+                                - /url: /doi/full/10.1111/1751-7915.13481
+                            - generic [ref=e954]:
+                              - generic [ref=e956]:
+                                - link "Davinia Salvachúa" [ref=e957] [cursor=pointer]:
+                                  - /url: /authored-by/Salvach%C3%BAa/Davinia
+                                - text: ","
+                              - generic [ref=e959]:
+                                - link "Thomas Rydzak" [ref=e960] [cursor=pointer]:
+                                  - /url: /authored-by/Rydzak/Thomas
+                                - text: ","
+                              - generic [ref=e962]:
+                                - link "Raquel Auwae" [ref=e963] [cursor=pointer]:
+                                  - /url: /authored-by/Auwae/Raquel
+                                - text: ","
+                              - generic [ref=e965]:
+                                - link "Annette De Capite" [ref=e966] [cursor=pointer]:
+                                  - /url: /authored-by/De+Capite/Annette
+                                - text: ","
+                              - generic [ref=e968]:
+                                - link "Brenna A. Black" [ref=e969] [cursor=pointer]:
+                                  - /url: /authored-by/Black/Brenna+A.
+                                - text: ","
+                              - generic [ref=e971]:
+                                - link "Jason T. Bouvier" [ref=e972] [cursor=pointer]:
+                                  - /url: /authored-by/Bouvier/Jason+T.
+                                - text: ","
+                              - generic [ref=e974]:
+                                - link "Nicholas S. Cleveland" [ref=e975] [cursor=pointer]:
+                                  - /url: /authored-by/Cleveland/Nicholas+S.
+                                - text: ","
+                              - generic [ref=e977]:
+                                - link "Joshua R. Elmore" [ref=e978] [cursor=pointer]:
+                                  - /url: /authored-by/Elmore/Joshua+R.
+                                - text: ","
+                              - generic [ref=e980]:
+                                - link "Anna Furches" [ref=e981] [cursor=pointer]:
+                                  - /url: /authored-by/Furches/Anna
+                                - text: ","
+                              - generic [ref=e983]:
+                                - link "Jay D. Huenemann" [ref=e984] [cursor=pointer]:
+                                  - /url: /authored-by/Huenemann/Jay+D.
+                                - text: ","
+                              - generic [ref=e986]:
+                                - link "Rui Katahira" [ref=e987] [cursor=pointer]:
+                                  - /url: /authored-by/Katahira/Rui
+                                - text: ","
+                              - generic [ref=e989]:
+                                - link "William E. Michener" [ref=e990] [cursor=pointer]:
+                                  - /url: /authored-by/Michener/William+E.
+                                - text: ","
+                              - generic [ref=e992]:
+                                - link "Darren J. Peterson" [ref=e993] [cursor=pointer]:
+                                  - /url: /authored-by/Peterson/Darren+J.
+                                - text: ","
+                              - generic [ref=e995]:
+                                - link "Holly Rohrer" [ref=e996] [cursor=pointer]:
+                                  - /url: /authored-by/Rohrer/Holly
+                                - text: ","
+                              - generic [ref=e998]:
+                                - link "Derek R. Vardon" [ref=e999] [cursor=pointer]:
+                                  - /url: /authored-by/Vardon/Derek+R.
+                                - text: ","
+                              - generic [ref=e1001]:
+                                - link "Gregg T. Beckham" [ref=e1002] [cursor=pointer]:
+                                  - /url: /authored-by/Beckham/Gregg+T.
+                                - text: ","
+                              - link "Adam M. Guss" [ref=e1005] [cursor=pointer]:
+                                - /url: /authored-by/Guss/Adam+M.
+                            - link "Microbial Biotechnology" [ref=e1008] [cursor=pointer]:
+                              - /url: /journal/17517915
+                        - listitem [ref=e1009]:
+                          - generic [ref=e1010]:
+                            - paragraph [ref=e1011]:
+                              - link "Engineering Native and Synthetic Pathways in Pseudomonas putida for the Production of Tailored Polyhydroxyalkanoates" [ref=e1012] [cursor=pointer]:
+                                - /url: /doi/full/10.1002/biot.202000165
+                            - generic [ref=e1013]:
+                              - generic [ref=e1015]:
+                                - link "Mariela P. Mezzina" [ref=e1016] [cursor=pointer]:
+                                  - /url: /authored-by/Mezzina/Mariela+P.
+                                - text: ","
+                              - generic [ref=e1018]:
+                                - link "María Tsampika Manoli" [ref=e1019] [cursor=pointer]:
+                                  - /url: /authored-by/Manoli/Mar%C3%ADa+Tsampika
+                                - text: ","
+                              - generic [ref=e1021]:
+                                - link "M. Auxiliadora Prieto" [ref=e1022] [cursor=pointer]:
+                                  - /url: /authored-by/Prieto/M.+Auxiliadora
+                                - text: ","
+                              - link "Pablo I. Nikel" [ref=e1025] [cursor=pointer]:
+                                - /url: /authored-by/Nikel/Pablo+I.
+                            - link "Biotechnology Journal" [ref=e1028] [cursor=pointer]:
+                              - /url: /journal/18607314
+                - generic [ref=e1030]:
+                  - generic [ref=e1033]:
+                    - generic [ref=e1034]: Related jobs
+                    - main [ref=e1036]:
+                      - generic [ref=e1037]:
+                        - link "The Linda and David Glickstein School Outreach Coordinator; Morris Arboretum & Gardens" [ref=e1039] [cursor=pointer]:
+                          - /url: https://careers.insidehighered.com/job/3541076/?utm_campaign=emi&utm_source=wileyonlinelibrary&utm_medium=jobs-widget
+                        - list [ref=e1040]:
+                          - listitem [ref=e1041]:
+                            - generic [ref=e1042]: Morris Arboretum
+                          - listitem [ref=e1043]:
+                            - generic [ref=e1044]: University of Pennsylvania
+                      - generic [ref=e1045]:
+                        - link "Post-Doc Research Associate" [ref=e1047] [cursor=pointer]:
+                          - /url: https://careers.insidehighered.com/job/3540981/?utm_campaign=emi&utm_source=wileyonlinelibrary&utm_medium=jobs-widget
+                        - list [ref=e1048]:
+                          - listitem [ref=e1049]:
+                            - generic [ref=e1050]: Chapel Hill, NC
+                          - listitem [ref=e1051]:
+                            - generic [ref=e1052]: University of North Carolina at Chapel Hill
+                      - generic [ref=e1053]:
+                        - link "Biology Lecturer 9M (Marion Campus)" [ref=e1055] [cursor=pointer]:
+                          - /url: https://careers.insidehighered.com/job/3540954/?utm_campaign=emi&utm_source=wileyonlinelibrary&utm_medium=jobs-widget
+                        - list [ref=e1056]:
+                          - listitem [ref=e1057]:
+                            - generic [ref=e1058]: Marion Campus
+                          - listitem [ref=e1059]:
+                            - generic [ref=e1060]: The Ohio State University
+                      - generic [ref=e1061]:
+                        - link "ASC Alumni Associate Professor or Professor of Social Stratification" [ref=e1063] [cursor=pointer]:
+                          - /url: https://careers.insidehighered.com/job/3540944/?utm_campaign=emi&utm_source=wileyonlinelibrary&utm_medium=jobs-widget
+                        - list [ref=e1064]:
+                          - listitem [ref=e1065]:
+                            - generic [ref=e1066]: Columbus Campus
+                          - listitem [ref=e1067]:
+                            - generic [ref=e1068]: The Ohio State University
+                      - generic [ref=e1069]:
+                        - link "Assistant Professor of Technology and Social Change" [ref=e1071] [cursor=pointer]:
+                          - /url: https://careers.insidehighered.com/job/3540943/?utm_campaign=emi&utm_source=wileyonlinelibrary&utm_medium=jobs-widget
+                        - list [ref=e1072]:
+                          - listitem [ref=e1073]:
+                            - generic [ref=e1074]: Columbus Campus
+                          - listitem [ref=e1075]:
+                            - generic [ref=e1076]: The Ohio State University
+                    - generic [ref=e1078]:
+                      - text: Jobs shared from the
+                      - strong [ref=e1079]: Wiley Career Network
+                  - complementary [ref=e1081]:
+                    - generic [ref=e1083]:
+                      - text: Advertisement
+                      - iframe [ref=e1085]:
+                        - generic [ref=f19e1]:
+                          - link [ref=f19e2] [cursor=pointer]:
+                            - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsvVG48kOmUK8ESuL64iZjcxYwC3HgvcEMonDbzKkHZXXyRDqQPC6qYXKd44pU3ja99ZSkQQhFOjlJreqMRnP9h62ckjEdJvdSfBRLF134DBQPWznhfb7EuDq1pIvPJsUn5w2muMZUBJpW3Jz7m0vUE0VIGQ41vxNZD3LWoK0BtYi9vNqPXZb4D9G8mXcJOK5etj3UgCfdVj7rTB1a_QiLBu3Vb3jumWm3HMI2z6FWtSFmgKMXN-yw3z0wPSAMnsjN52S_nnKIL_4J9i4WMp-C5XOWMEZAqGLqCDKCeDki-L3xinMOPTqRAQnqgDzpgqL3GnnvgKlz7pyP01pI-YKFs2w2k3hORWAISurNJHIDVB4uhtnOyNMq3wD826p8HXulsZhn_1aJPx7n4otiwvrFPl5QWOZZdf3UCXN9SfaQ27KH_1A01scfGM-OGh0l4EImcbBFVozPwAm_sNQoJB_Ivl3gmOFzc&sai=AMfl-YRoltbO7rSFl7SvIUdkYBGlqn7lhIR8k5iDKljnPTQGwPxOIvHf0aAQML44i_zT7pCnFd8o05j_6U2qRcZpNNe8-Z2UUxK3t2w53hoOTJ13i1zV3INRsuWDDLUPgcddorYKjvyLVmN2fYRWX9PiOoxlhsvgDWrJWV5Eblg2bFvkFR29M6WywSp9awKOPG2KsB0XBf9HSp7tE2MRa5l71CJ_ndszXzELOdomz_Gu1y4Mg47EWREsg_Zys0KlGFW0CjeUDb-_44_3HqyBle1NSZhRk01A2OaqEUI81a2psJpJqxFv_XiwWqr1cRCrq6ik6OaACuGWttgMFalvF8QlMqnXVLMcLqXN68xL11MFGKBmnB8OXM1zjyx8VQVwwPlxHzFbc_DHKvyDDU3Q5w&sig=Cg0ArKJSzJQPjdzgHyCD&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://www.wiley.com/en-fr/solutions-partnerships/corporates/corporate-solutions/contact/
+                            - img "An advertisement by Wiley suggests finding the right audiences for ads, with an “Explore our reach” option." [ref=f19e3]
+                          - generic [ref=f19e4] [cursor=pointer]
+                          - button [ref=f19e9] [cursor=pointer]
+          - generic: 
+          - generic:      
+          - generic:       
+          - text:       |
+          - link "Download PDF" [ref=e1088] [cursor=pointer]:
+            - /url: /doi/pdf/10.1111/j.1462-2920.2009.02061.x
+      - link "back" [ref=e1091] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic [ref=e1092]: 
+        - text: back
+    - contentinfo [ref=e1095]:
+      - generic [ref=e1096]:
+        - generic [ref=e1097]: © 2026 John Wiley & Sons Ltd
+        - generic [ref=e1108]:
+          - generic [ref=e1109]:
+            - heading "Additional links" [level=2] [ref=e1110]
+            - generic [ref=e1112]:
+              - generic [ref=e1114]:
+                - heading "About Wiley Online Library" [level=3] [ref=e1115]
+                - list [ref=e1116]:
+                  - listitem [ref=e1117]:
+                    - link "Privacy Policy" [ref=e1118] [cursor=pointer]:
+                      - /url: https://www.wiley.com/privacy
+                  - listitem [ref=e1119]:
+                    - link "Terms of Use" [ref=e1120] [cursor=pointer]:
+                      - /url: https://onlinelibrary.wiley.com/terms-and-conditions
+                  - listitem [ref=e1121]:
+                    - link "About Cookies" [ref=e1122] [cursor=pointer]:
+                      - /url: https://onlinelibrary.wiley.com/cookies
+                  - listitem [ref=e1123]:
+                    - button "Manage Cookies" [ref=e1124] [cursor=pointer]
+                  - listitem [ref=e1125]:
+                    - link "Accessibility" [ref=e1126] [cursor=pointer]:
+                      - /url: https://onlinelibrary.wiley.com/accessibility
+                  - listitem [ref=e1127]:
+                    - link "Wiley Research DE&I Statement and Publishing Policies" [ref=e1128] [cursor=pointer]:
+                      - /url: https://onlinelibrary.wiley.com/publishing-policies
+              - generic [ref=e1130]:
+                - heading "Help & Support" [level=3] [ref=e1131]
+                - list [ref=e1132]:
+                  - listitem [ref=e1133]:
+                    - link "Contact Us" [ref=e1134] [cursor=pointer]:
+                      - /url: https://hub.wiley.com/community/support/onlinelibrary
+                  - listitem [ref=e1135]:
+                    - link "Training and Support" [ref=e1136] [cursor=pointer]:
+                      - /url: https://www.wiley.com/customer-success/wiley-online-library-training-hub
+                  - listitem [ref=e1137]:
+                    - link "DMCA & Reporting Piracy" [ref=e1138] [cursor=pointer]:
+                      - /url: https://onlinelibrary.wiley.com/dmca-notification-policy
+                  - listitem [ref=e1139]:
+                    - link "Sitemap" [ref=e1140] [cursor=pointer]:
+                      - /url: https://onlinelibrary.wiley.com/sitemap
+              - generic [ref=e1142]:
+                - heading "Opportunities" [level=3] [ref=e1143]
+                - list [ref=e1144]:
+                  - listitem [ref=e1145]:
+                    - link "Subscription Agents" [ref=e1146] [cursor=pointer]:
+                      - /url: https://onlinelibrary.wiley.com/agents
+                  - listitem [ref=e1147]:
+                    - link "Advertisers & Corporate Partners" [ref=e1148] [cursor=pointer]:
+                      - /url: https://onlinelibrary.wiley.com/advertisers
+              - generic [ref=e1150]:
+                - heading "Connect with Wiley" [level=3] [ref=e1151]
+                - list [ref=e1152]:
+                  - listitem [ref=e1153]:
+                    - link "The Wiley Network" [ref=e1154] [cursor=pointer]:
+                      - /url: https://www.wiley.com/network
+                  - listitem [ref=e1155]:
+                    - link "Wiley Press Room" [ref=e1156] [cursor=pointer]:
+                      - /url: https://newsroom.wiley.com/
+          - generic [ref=e1160]:
+            - generic [ref=e1161]:
+              - paragraph [ref=e1162]:
+                - text: Copyright © 1999-2026
+                - link "John Wiley & Sons, Inc" [ref=e1163] [cursor=pointer]:
+                  - /url: https://www.wiley.com
+                - text: or related companies. All rights reserved, including rights for text and data mining and training of artificial intelligence technologies or similar technologies.
+              - paragraph
+            - link "Wiley" [ref=e1165] [cursor=pointer]:
+              - /url: https://www.wiley.com
+              - img "Wiley Home Page" [ref=e1166]
+    - text:      ▲   
+  - generic [ref=e1167]:
+    - generic [ref=e1168]:
+      - generic [ref=e1169]: Have questions about this content? Try AI Companion.
+      - button [ref=e1172]
+    - generic [ref=e1178] [cursor=pointer]: BETA

@@ -1,0 +1,1601 @@
+- generic [ref=f1e1]:
+  - text: ⚠
+  - generic [ref=f1e5]:
+    - generic [ref=f1e6]:
+      - link "Skip to main content":
+        - /url: "#screen-reader-main-content"
+      - link "Skip to article":
+        - /url: "#screen-reader-main-title"
+      - banner [ref=f1e9]:
+        - generic [ref=f1e10]: Brought to you by:Southern University of Science and Technology
+        - generic [ref=f1e13]:
+          - link "ScienceDirect home page" [ref=f1e14] [cursor=pointer]:
+            - /url: /
+            - img "Elsevier logo" [ref=f1e15]
+          - generic [ref=f1e24]:
+            - navigation "links" [ref=f1e25]:
+              - list [ref=f1e26]:
+                - listitem [ref=f1e27]:
+                  - link "Journals & Books" [ref=f1e28] [cursor=pointer]:
+                    - /url: /browse/journals-and-books
+            - navigation "utilities" [ref=f1e30]:
+              - list [ref=f1e31]:
+                - listitem [ref=f1e32]:
+                  - button "Help" [ref=f1e36] [cursor=pointer]
+                - listitem [ref=f1e40]:
+                  - button "Search" [ref=f1e42] [cursor=pointer]
+          - link "My account" [ref=f1e47] [cursor=pointer]:
+            - /url: /user/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS0167779915001584&from=globalheader
+          - button "Southern University of Science and Technology Institutional Access" [ref=f1e54] [cursor=pointer]:
+            - generic [ref=f1e57]: Southern University of Science and Technology
+      - main [ref=f1e58]:
+        - region "Download options and search" [ref=f1e60]:
+          - generic [ref=f1e61]:
+            - list "PDF Options" [ref=f1e62]:
+              - listitem [ref=f1e63]:
+                - link "View PDF. Opens in a new window." [ref=f1e64] [cursor=pointer]:
+                  - /url: /science/article/pii/S0167779915001584/pdfft?md5=56a9f221e39f7c9cab387ed8b28bf32b&pid=1-s2.0-S0167779915001584-main.pdf
+                  - generic [ref=f1e72]:
+                    - text: View
+                    - strong [ref=f1e73]: PDF
+              - listitem [ref=f1e74]:
+                - button "Download full issue" [ref=f1e75] [cursor=pointer]
+            - form "form" [ref=f1e78]:
+              - generic [ref=f1e80]:
+                - generic [ref=f1e81]: Search ScienceDirect
+                - searchbox "Search ScienceDirect" [ref=f1e82]
+              - button "Submit search" [ref=f1e83] [cursor=pointer]
+        - generic [ref=f1e86]:
+          - navigation "Table of contents" [ref=f1e87]
+          - article [ref=f1e88]:
+            - generic [ref=f1e89]:
+              - generic [ref=f1e90]:
+                - link [ref=f1e91] [cursor=pointer]:
+                  - /url: /journal/trends-in-biotechnology
+                  - img "Trends in Biotechnology" [ref=f1e94]
+                - generic [ref=f1e95]:
+                  - link "Volume 33, Issue 10" [ref=f1e96] [cursor=pointer]:
+                    - /url: /journal/trends-in-biotechnology/vol/33/issue/10
+                  - text: ", October 2015, Pages 559-564"
+              - link "Homepage for Trends in Biotechnology" [ref=f1e99] [cursor=pointer]:
+                - /url: /journal/trends-in-biotechnology/vol/33/issue/10
+                - img "Society Logo" [ref=f1e102]
+            - heading "Opinion Special Focus on Materials The ‘PHAome’" [level=1] [ref=f1e103]:
+              - generic [ref=f1e104]:
+                - text: Opinion
+                - generic [ref=f1e105]: Special Focus on Materials
+              - text: The ‘PHAome’
+            - generic [ref=f1e106]:
+              - generic [ref=f1e109]:
+                - generic [ref=f1e110]: Author links open overlay panel
+                - link "Guo-Qiang Chen 1 2 3 4" [ref=f1e111] [cursor=pointer]:
+                  - /url: /author/7406536843/guoqiang-chen
+                  - generic [ref=f1e113]:
+                    - generic [ref=f1e114]: Guo-Qiang Chen
+                    - superscript [ref=f1e116]: "1"
+                    - superscript [ref=f1e118]: "2"
+                    - superscript [ref=f1e120]: "3"
+                    - superscript [ref=f1e122]: "4"
+                - button [ref=f1e123] [cursor=pointer]:
+                  - generic [ref=f1e125]:
+                    - img "Correspondence author icon" [ref=f1e126]
+                    - img "Author email or social media contact details icon" [ref=f1e128]
+                - text: ","
+                - button "Ivan Hajnal 1" [ref=f1e130] [cursor=pointer]:
+                  - generic [ref=f1e132]:
+                    - generic [ref=f1e133]: Ivan Hajnal
+                    - superscript [ref=f1e135]: "1"
+              - button "Show more" [ref=f1e136] [cursor=pointer]
+              - generic [ref=f1e140]:
+                - button "Add to Mendeley" [ref=f1e141] [cursor=pointer]
+                - button "Share" [ref=f1e148] [cursor=pointer]
+                - button "Cite" [ref=f1e155] [cursor=pointer]
+            - generic [ref=f1e159]:
+              - link "Persistent link using digital object identifier" [ref=f1e160] [cursor=pointer]:
+                - /url: https://doi.org/10.1016/j.tibtech.2015.07.006
+                - generic [ref=f1e161]:
+                  - text: https://doi.org/10.1016/j.tibtech.2015.07.006
+                  - img "Opens in new window" [ref=f1e162]
+              - link [ref=f1e164] [cursor=pointer]:
+                - /url: https://s100.copyright.com/AppDispatchServlet?publisherName=ELS&contentID=S0167779915001584&orderBeanReset=true
+                - generic [ref=f1e165]:
+                  - text: Get rights and content
+                  - img "Opens in new window" [ref=f1e166]
+            - generic [ref=f1e168]: Full text access
+            - generic [ref=f1e172]:
+              - generic [ref=f1e173]:
+                - heading "Trends" [level=2] [ref=f1e174]
+                - generic [ref=f1e175]:
+                  - generic [ref=f1e176]:
+                    - text: PHA diversity (PHAome) has been rapidly increased due to the increasing diversities of monomers, homopolymers, random and block copolymers, functional and graft polymers, molecular weights, and combinations of the above. The successful manipulation of β-oxidation in
+                    - emphasis [ref=f1e177]: Pseudomonas
+                    - text: spp. allows all the above diversity be well controlled.
+                  - generic [ref=f1e178]: New PHAs are continuously produced by the biological communities. A MGI similar infrastructure created by PHA research communities should enable scientists and engineers to design new materials, and also help move the PHAome faster to the market place.
+                  - generic [ref=f1e179]:
+                    - text: It has become increasing possible to obtain PHA diversity in a single bacterial species, the ‘platform bacterium’, under various growth conditions. A
+                    - emphasis [ref=f1e180]: Halomonas
+                    - text: sp. able to grow under open and continuous culture to a high cell density containing high PHA content is an ideal platform bacterium.
+              - generic [ref=f1e181]: Polyhydroxyalkanoates (PHAs) are a family of polyesters synthesized by bacteria. Similarly to the genome, transcriptome, and proteome (the entire array of nucleic acids and proteins present in a cell or population of cells at a given time), the PHA spectrum exhibits diverse and dynamic modifications – the ‘PHAome’ – reflecting not only by the diversity of monomers, homopolymers, random and block copolymers, functional and graft polymers, molecular weights, and combinations of the above, but also the ranges of PHAs with various molecular weights and monomer ratios that are present at a particular timepoint in a bacterial cell. Echoing the Materials Genome Initiative (MGI) launched in 2011 to develop an infrastructure to accelerate advanced materials discovery and deployment, understanding the PHAome and ensuring an ample supply of PHAs based on it will promote the discovery of new properties and applications of this family of advanced materials.
+            - list [ref=f1e184]:
+              - listitem [ref=f1e185]:
+                - link "Previous article in issue" [ref=f1e186] [cursor=pointer]:
+                  - /url: /science/article/pii/S0167779915001559
+              - listitem [ref=f1e191]:
+                - link "Next article in issue" [ref=f1e192] [cursor=pointer]:
+                  - /url: /science/article/pii/S0167779915001596
+            - generic [ref=f1e198]:
+              - heading "Keywords" [level=2] [ref=f1e199]
+              - generic [ref=f1e200]: PHAome;
+              - generic [ref=f1e201]: PHAomics;
+              - generic [ref=f1e202]: PHB;
+              - generic [ref=f1e203]: PHA;
+              - generic [ref=f1e204]: homopolymer;
+              - generic [ref=f1e205]: block copolymer;
+              - generic [ref=f1e206]: random copolymer;
+              - generic [ref=f1e207]: functional polymer;
+              - generic [ref=f1e208]: Materials Genome Initiative
+            - generic [ref=f1e209]:
+              - generic [ref=f1e210]:
+                - generic [ref=f1e211]:
+                  - heading "PHA Diversity and the PHAome" [level=2] [ref=f1e212]
+                  - generic [ref=f1e213]:
+                    - text: Poly-
+                    - emphasis [ref=f1e214]: R
+                    - text: "-3-hydroxybutyrate (PHB) was the first PHA family member reported"
+                    - link "[1]" [ref=f1e215] [cursor=pointer]:
+                      - /url: "#bib0210"
+                    - text: . Thereafter, medium chain-length (mcl) PHA containing 3-hydroxyhexanoate (3HHx), 3-hydroxyoctanoate (3HO), 3-hydroxydecanoate (3HD), and 3-hydroxydodecanoate (3HDD) were found to be synthesized by
+                    - emphasis [ref=f1e217]: Pseudomonas oleovorans
+                    - link "[2]" [ref=f1e218] [cursor=pointer]:
+                      - /url: "#bib0400"
+                    - text: . In 1995, already 91 different hydroxyalkanoic acids had been reported as monomers of PHA
+                    - link "[3]" [ref=f1e220] [cursor=pointer]:
+                      - /url: "#bib0215"
+                    - text: . Graft polymers were also obtained, which make additional PHAs obtainable using combinatorial methods in practically endless variations
+                    - link "[4]" [ref=f1e222] [cursor=pointer]:
+                      - /url: "#bib0220"
+                    - text: .
+                  - generic [ref=f1e224]:
+                    - text: More than 30 years have elapsed since Witholt first discovered and described mcl PHA diversity
+                    - link "[5]" [ref=f1e225] [cursor=pointer]:
+                      - /url: "#bib0225"
+                    - text: . PHA diversity has been further expanded to include microstructures of the PHA polymer chains, such as homopolymers, random copolymers, block copolymers, block-random copolymers, functional polymers, graft polymers, thiopolyesters, rare PHAs, and diversified molecular weights including oligomers or ultrahigh molecular weight polymers and similar
+                    - link "[6]" [ref=f1e227] [cursor=pointer]:
+                      - /url: "#bib0230"
+                    - text: .
+                  - generic [ref=f1e229]:
+                    - generic [ref=f1e230]:
+                      - text: It has become possible to precisely design and obtain PHA homopolymers, random, and block PHA copolymers or functional and graft PHA polymers using β-oxidation-deleted strains of
+                      - emphasis [ref=f1e231]: Pseudomonas putida
+                      - text: or
+                      - emphasis [ref=f1e232]: P. entomophila
+                      - text: (
+                      - link "7" [ref=f1e233] [cursor=pointer]:
+                        - /url: "#bib0235"
+                      - text: ","
+                      - link "8" [ref=f1e235] [cursor=pointer]:
+                        - /url: "#bib0240"
+                      - text: ","
+                      - link "9" [ref=f1e237] [cursor=pointer]:
+                        - /url: "#bib0245"
+                      - text: ","
+                      - link "10" [ref=f1e239] [cursor=pointer]:
+                        - /url: "#bib0405"
+                      - text: ","
+                      - link "11" [ref=f1e241] [cursor=pointer]:
+                        - /url: "#bib0250"
+                      - text: ","
+                      - link "12" [ref=f1e243] [cursor=pointer]:
+                        - /url: "#bib0255"
+                      - text: and A.L. Chung, PhD Thesis, Tsinghua University, 2013). PHA research and development is thus entering an era of ‘designs based on demands’, especially block copolymerization, which provides another diverse platform for PHA structure–property modulation. Blocks can vary in block length, block order, and the number of different discreet block types. Furthermore, blocks may consist of homopolymers, random copolymers, and graft polymers (
+                      - link "Table 1" [ref=f1e245] [cursor=pointer]:
+                        - /url: "#tbl0005"
+                      - text: ), enabling a wide range of choices of materials for particular applications. Several concepts have been used to describe the diversity in biological systems, including genome, proteome, transcriptome, and metabolome, that describe all DNA genetic materials (or RNA in RNA viruses) of an organism, the entire set of proteins expressed by a genome, cell, tissue or organism at a given time, the set of all RNA molecules, including mRNA, rRNA, tRNA, and other non-coding RNAs transcribed in one cell or a population of cells, and the complete set of small-molecule chemicals found within a biological sample, respectively. The diversity of microbial PHAs can be similarly described as the microbial ‘PHAome’. Accordingly, the study of the entirety of diverse PHAs may be called ‘PHAomics’ (
+                      - link "Figure 1" [ref=f1e247] [cursor=pointer]:
+                        - /url: "#fig0005"
+                      - text: ).
+                    - generic [ref=f1e249]:
+                      - paragraph [ref=f1e252]:
+                        - text: Table 1. Typical PHA Block Copolymers Produced by Microorganisms
+                        - link [ref=f1e253] [cursor=pointer]:
+                          - /url: "#tblfn0005"
+                          - superscript [ref=f1e256]: a
+                      - table [ref=f1e258]:
+                        - rowgroup [ref=f1e259]:
+                          - row [ref=f1e260]:
+                            - columnheader "Block Copolymers" [ref=f1e261]
+                            - columnheader "Microorganisms" [ref=f1e262]
+                            - columnheader "Carbon Sources" [ref=f1e263]
+                            - columnheader "Refs" [ref=f1e264]
+                        - rowgroup [ref=f1e265]:
+                          - row [ref=f1e266]:
+                            - cell [ref=f1e267]:
+                              - text: P3HB-
+                              - emphasis [ref=f1e268]: b
+                              - text: "-P3HBV"
+                            - cell [ref=f1e269]:
+                              - emphasis [ref=f1e270]: C. necator
+                            - cell "Fructose and pentanoic acid" [ref=f1e271]
+                            - cell [ref=f1e272]:
+                              - link "[41]" [ref=f1e273] [cursor=pointer]:
+                                - /url: "#bib0395"
+                          - row [ref=f1e275]:
+                            - cell [ref=f1e276]:
+                              - text: P3HB-
+                              - emphasis [ref=f1e277]: b
+                              - text: "-4HB"
+                            - cell [ref=f1e278]:
+                              - emphasis [ref=f1e279]: P. putida
+                            - cell "Sodium butyrate and γ-butyrolactone" [ref=f1e280]
+                            - cell [ref=f1e281]:
+                              - link "[6]" [ref=f1e282] [cursor=pointer]:
+                                - /url: "#bib0230"
+                          - row [ref=f1e284]:
+                            - cell [ref=f1e285]:
+                              - text: P3HP-
+                              - emphasis [ref=f1e286]: b
+                              - text: "-4HB"
+                            - cell [ref=f1e287]:
+                              - emphasis [ref=f1e288]: E. coli
+                            - cell "PDO and BDO" [ref=f1e289]
+                            - cell [ref=f1e290]:
+                              - link "[17]" [ref=f1e291] [cursor=pointer]:
+                                - /url: "#bib0280"
+                          - row [ref=f1e293]:
+                            - cell [ref=f1e294]:
+                              - text: P3HB-
+                              - emphasis [ref=f1e295]: b
+                              - text: "-3HHx"
+                            - cell [ref=f1e296]:
+                              - emphasis [ref=f1e297]: P. putida
+                            - cell "Sodium butyrate and sodium hexanoate" [ref=f1e298]
+                            - cell [ref=f1e299]:
+                              - link "[25]" [ref=f1e300] [cursor=pointer]:
+                                - /url: "#bib0315"
+                          - row [ref=f1e302]:
+                            - cell [ref=f1e303]:
+                              - text: P3HB-
+                              - emphasis [ref=f1e304]: b
+                              - text: "-3HP"
+                            - cell [ref=f1e305]:
+                              - emphasis [ref=f1e306]: E. coli
+                            - cell "Fructose and glycerol" [ref=f1e307]
+                            - cell [ref=f1e308]:
+                              - link "[41]" [ref=f1e309] [cursor=pointer]:
+                                - /url: "#bib0395"
+                          - row [ref=f1e311]:
+                            - cell [ref=f1e312]:
+                              - text: P3HHx-
+                              - emphasis [ref=f1e313]: b
+                              - text: "-P(3HD3HDD)"
+                            - cell [ref=f1e314]:
+                              - emphasis [ref=f1e315]: P. putida
+                            - cell "Hexanoate and dodecanoic acid" [ref=f1e316]
+                            - cell [ref=f1e317]:
+                              - link "[17]" [ref=f1e318] [cursor=pointer]:
+                                - /url: "#bib0280"
+                          - row [ref=f1e320]:
+                            - cell "PHB-b-P(3HV3HHp)" [ref=f1e321]
+                            - cell [ref=f1e322]:
+                              - emphasis [ref=f1e323]: P. putida
+                            - cell "Sodium butyrate and sodium heptanoate" [ref=f1e324]
+                            - cell [ref=f1e325]:
+                              - link "[6]" [ref=f1e326] [cursor=pointer]:
+                                - /url: "#bib0230"
+                      - generic [ref=f1e328]:
+                        - term [ref=f1e329]: a
+                        - definition [ref=f1e330]:
+                          - generic [ref=f1e331]:
+                            - text: "Abbreviations: BDO, 1,4-butanediol; 3HB, 3-hydroxybutyrate; 4HB, 4-hydroxybutyrate; 3HBV, 3-hydroxybutyrate-"
+                            - emphasis [ref=f1e332]: co
+                            - text: "-3-hydroxyvalerate; 3HD, 3-hydroxydecanoate; 3HDD, 3-hydroxydodecanoate; HHp, 3-hydroxyheptanoate, 3HHx, 3-hydroxyhexanoate; 3HP, 3-hydroxypropionate; 3HV, 3-hydroxyvalerate; PDO, 1,3-propanediol; P, poly-."
+                    - figure [ref=f1e333]:
+                      - list [ref=f1e335]:
+                        - listitem [ref=f1e336]:
+                          - 'link "Download: Download high-res image (282KB)" [ref=f1e337] [cursor=pointer]':
+                            - /url: https://ars.els-cdn.com/content/image/1-s2.0-S0167779915001584-gr1_lrg.jpg
+                        - listitem [ref=f1e340]:
+                          - 'link "Download: Download full-size image" [ref=f1e341] [cursor=pointer]':
+                            - /url: https://ars.els-cdn.com/content/image/1-s2.0-S0167779915001584-gr1.jpg
+                      - paragraph [ref=f1e346]: Figure 1. The PHAome Can Have Different Levels of Diversity, Including Macro-Diversity and Micro-Diversity. Macro-diversity comprises various monomer arrangements such as homo-, random, block polymers, functional, and graft polymers, as well as their various combinations that are represented as average monomer ratios, as can be determined extracellularly using physical instruments. By contrast, micro-diversity reflects the intracellular diversity of PHAs in terms of polymer chain lengths and monomer ratios that dynamically change over microbial growth periods.
+                  - generic [ref=f1e347]: However, the applications of PHA are developing too slowly compared with the rapid development of PHA diversity.
+                - generic [ref=f1e348]:
+                  - heading "MGI and the PHAome" [level=2] [ref=f1e349]
+                  - generic [ref=f1e350]:
+                    - text: The MGI was launched in 2011. The MGI aims to establish an infrastructure to promote discovery and deployment of advanced materials in the USA
+                    - link "[13]" [ref=f1e351] [cursor=pointer]:
+                      - /url: "#bib0260"
+                    - text: ", it will better manage existing investments through the use of computational capabilities, data management, and an integrated approach to materials science and engineering. MGI provides a unique opportunity to discover, develop, manufacture, and deploy advanced materials at least twice as fast as is possible today with low cost"
+                    - link "[13]" [ref=f1e353] [cursor=pointer]:
+                      - /url: "#bib0260"
+                    - text: .
+                  - generic [ref=f1e355]:
+                    - text: The deployment of new classes of materials into applications takes a long time, ranging from 10 to 20 years from initial research to first use. The MGI will develop new integrated computational, experimental, and data informatics tools as an open platform to improve predictive capabilities and to follow newly created standards for quick integration of digital information across the materials innovation infrastructure. This will allow close integration of existing product–design frameworks, thus enabling rapid and holistic engineering design
+                    - link "[13]" [ref=f1e356] [cursor=pointer]:
+                      - /url: "#bib0260"
+                    - text: .
+                  - generic [ref=f1e358]:
+                    - text: The PHAome consists of a vast number of new materials that do not exist in nature
+                    - link "[6]" [ref=f1e359] [cursor=pointer]:
+                      - /url: "#bib0230"
+                    - text: . Very few PHAs have been so far been exploited as biodegradable and biocompatible thermoplastic materials for packaging or medical implant applications, and with limited success
+                    - link "[9]" [ref=f1e361] [cursor=pointer]:
+                      - /url: "#bib0245"
+                    - text: . The number of new PHAs in the PHAome will certainly keep increasing, but research into their applications is constrained by the limited materials available to the physical, chemical, and material communities.
+                  - generic [ref=f1e363]: The research approach proposed in the MGI can help to move the PHAome faster to the market place. For example, many new PHAs have been discovered by the microbiological communities without sufficient materials knowledge. An MGI-type infrastructure created by PHA research communities will enable scientists and engineers to design any number of new advanced materials, some of which may help in solving foundational science and engineering problems and address issues of pressing importance.
+                - generic [ref=f1e364]:
+                  - heading "The PHAome and Conventional PHA Diversity" [level=2] [ref=f1e365]
+                  - generic [ref=f1e366]: The genome, transcriptome, and proteome address the entire cellular DNA and its diverse genetic information, and the complete set of RNAs or proteins expressed at a given time in one cell or a population of cells. Similarly, the PHAome should be defined as investigations of PHAs that contain diverse arrangements of various monomers produced by ‘one’ bacterium. However, conventional PHA diversity, as reflected in monomers, homopolymers, random copolymers, block copolymers, functional polymers, graft polymers, as well as ranges of molecular weights and combinations of the above, is usually achieved by several different bacterial species having different PHA synthases, different substrate preferences, and possibly also different metabolic pathways.
+                  - generic [ref=f1e367]:
+                    - text: It has become increasing possible to obtain the conventional PHA diversity in a single bacterial species – the PHAome concept. For example,
+                    - emphasis [ref=f1e368]: Pseudomonas putida
+                    - text: can be engineered to produce PHA homopolymers of various kinds
+                    - link "8" [ref=f1e369] [cursor=pointer]:
+                      - /url: "#bib0240"
+                    - text: ","
+                    - link "14" [ref=f1e371] [cursor=pointer]:
+                      - /url: "#bib0265"
+                    - text: ","
+                    - link "15" [ref=f1e373] [cursor=pointer]:
+                      - /url: "#bib0270"
+                    - text: ", short chain-length (scl) and mcl PHA random copolymer of various types"
+                    - link "16" [ref=f1e375] [cursor=pointer]:
+                      - /url: "#bib0275"
+                    - text: ","
+                    - link "17" [ref=f1e377] [cursor=pointer]:
+                      - /url: "#bib0280"
+                    - text: ", mcl PHA random copolymers containing adjustable monomer ratios"
+                    - link "18" [ref=f1e379] [cursor=pointer]:
+                      - /url: "#bib0285"
+                    - text: ","
+                    - link "19" [ref=f1e381] [cursor=pointer]:
+                      - /url: "#bib0290"
+                    - text: ","
+                    - link "20" [ref=f1e383] [cursor=pointer]:
+                      - /url: "#bib0410"
+                    - text: ","
+                    - link "21" [ref=f1e385] [cursor=pointer]:
+                      - /url: "#bib0295"
+                    - text: ", PHA block copolymers"
+                    - link "17" [ref=f1e387] [cursor=pointer]:
+                      - /url: "#bib0280"
+                    - text: ","
+                    - link "22" [ref=f1e389] [cursor=pointer]:
+                      - /url: "#bib0300"
+                    - text: ","
+                    - link "23" [ref=f1e391] [cursor=pointer]:
+                      - /url: "#bib0305"
+                    - text: ","
+                    - link "24" [ref=f1e393] [cursor=pointer]:
+                      - /url: "#bib0310"
+                    - text: ","
+                    - link "25" [ref=f1e395] [cursor=pointer]:
+                      - /url: "#bib0315"
+                    - text: ", functional PHAs"
+                    - link "26" [ref=f1e397] [cursor=pointer]:
+                      - /url: "#bib0320"
+                    - text: ","
+                    - link "27" [ref=f1e399] [cursor=pointer]:
+                      - /url: "#bib0325"
+                    - text: ","
+                    - link "28" [ref=f1e401] [cursor=pointer]:
+                      - /url: "#bib0330"
+                    - text: ","
+                    - link "29" [ref=f1e403] [cursor=pointer]:
+                      - /url: "#bib0335"
+                    - text: ","
+                    - link "30" [ref=f1e405] [cursor=pointer]:
+                      - /url: "#bib0340"
+                    - text: ", and PHA monomers"
+                    - link "31" [ref=f1e407] [cursor=pointer]:
+                      - /url: "#bib0345"
+                    - text: ","
+                    - link "32" [ref=f1e409] [cursor=pointer]:
+                      - /url: "#bib0350"
+                    - text: ","
+                    - link "33" [ref=f1e411] [cursor=pointer]:
+                      - /url: "#bib0355"
+                    - text: ","
+                    - link "34" [ref=f1e413] [cursor=pointer]:
+                      - /url: "#bib0360"
+                    - text: . PHA accumulation levels can also be adjusted in
+                    - emphasis [ref=f1e415]: P. putida
+                    - link "[35]" [ref=f1e416] [cursor=pointer]:
+                      - /url: "#bib0365"
+                    - text: . Engineered
+                    - emphasis [ref=f1e418]: P. putida
+                    - text: is also capable of producing PHAs containing 5-hydroxyhexanoic acid, 4-hydroxyheptanoic acid, and 4-hydroxyoctanoic acid as PHA constituents
+                    - link "[36]" [ref=f1e419] [cursor=pointer]:
+                      - /url: "#bib0370"
+                    - text: . If PHA molecular weight diversity is needed, there are several ways to achieve this, including methanol-induced PHA chain termination
+                    - link "[37]" [ref=f1e421] [cursor=pointer]:
+                      - /url: "#bib0375"
+                    - text: ", mutations in the N-terminus of PHA synthase"
+                    - link "[38]" [ref=f1e423] [cursor=pointer]:
+                      - /url: "#bib0380"
+                    - text: ", or the addition of polyethylene glycol (PEG) to microbial cultures"
+                    - link "39" [ref=f1e425] [cursor=pointer]:
+                      - /url: "#bib0385"
+                    - text: ","
+                    - link "40" [ref=f1e427] [cursor=pointer]:
+                      - /url: "#bib0390"
+                    - text: ", among others."
+                  - generic [ref=f1e429]:
+                    - text: In addition, a single PHA-accumulating bacterial cell synthesizes PHAs with a large range of molecular weights at any given time, whereas standard methods only determine the average molecular weight
+                    - link "[38]" [ref=f1e430] [cursor=pointer]:
+                      - /url: "#bib0380"
+                    - text: . This diversity might also be called a molecular weight ‘-ome’. Furthermore, if the cell produces a random copolymer, such as PHBV consisting of 3-hydroxybutyrate (HB) or 3-hydroxyvalerate (HV), it is indeed a ‘PHBVome’ containing various ratios of HB/HV at a particular timepoint, which can also change dynamically during growth in the same way a cellular transcriptome can. These phenomena are thus indeed similar to the definitions of genome, transcriptome, or proteome.
+                  - generic [ref=f1e432]: With the above concept, we can further define PHAomics as the study of diverse PHAs in a single bacterium. The difference between the PHAome and the genome, transcriptome, or proteome is that PHAome is not produced by the single bacterium (cell) at one particular growth timepoint; instead, PHAomes containing diverse PHAs can be formed by the bacterium under diverse growth conditions, even though diverse PHA molecular weights or monomer ratios can be formed in a single bacterium (cell) at a defined timepoint under the same conditions.
+                - generic [ref=f1e433]:
+                  - heading "The PHAome and Its Possible Uses" [level=2] [ref=f1e434]
+                  - generic [ref=f1e435]: The concept of the PHAome considers PHAs as an important class of biopolymers, similar to DNA, RNA, and proteins, that consist of diverse monomers arranged in various combinations. As stated above and similar to other ‘-omes’, at a specific timepoint, PHAs are a mixture consisting of polymers with various molecular weights, various ratios of two or more monomers, and various block lengths if the PHAs are block copolymers. This helps to explain why there are always PHA property variations even if the two PHAs have the same monomer ratios, compositions, and molecular weights.
+                  - generic [ref=f1e436]:
+                    - text: PHAome can have different levels of diversity including macro-diversity and micro-diversity. Macro-diversity consists of various monomer arrangements such as homo-, random, block polymers, functional polymers, and graft polymers, as well as their various combinations that are represented as average monomer ratios, as can be determined extracellularly using physical instruments (
+                    - link "Figure 1" [ref=f1e437] [cursor=pointer]:
+                      - /url: "#fig0005"
+                    - text: ). On the other hand, micro-diversity reflects the intracellular diversity of PHAs in terms of polymer chain lengths and monomer ratios that dynamically change during different microbial growth periods (
+                    - link "Figure 1" [ref=f1e439] [cursor=pointer]:
+                      - /url: "#fig0005"
+                    - text: ). Understanding the PHAome could help in developing technology to obtain PHAs with more constant molecular structures and molecular weights, thus maintaining the consistency of the PHA properties. This is very important for industrial developments.
+                  - generic [ref=f1e441]:
+                    - text: It is desirable to develop a platform bacterium that is able to produce defined PHA structures and constant molecular weights from the PHAome. This can begin with a diverse substrate utilizer such as
+                    - emphasis [ref=f1e442]: Pseudomonas
+                    - text: spp.
+                    - link "[6]" [ref=f1e443] [cursor=pointer]:
+                      - /url: "#bib0230"
+                    - text: . The
+                    - emphasis [ref=f1e445]: Pseudomonas
+                    - text: strain can be engineered to synthesize scl and mcl PHA copolymers by replacing its native mcl PHA synthase with a low-specificity PHA synthase (such as PhaC
+                    - subscript [ref=f1e446]: "1317"
+                    - text: from
+                    - emphasis [ref=f1e447]: Pseudomonas stutzeri
+                    - text: 1317 reported previously)
+                    - link "15" [ref=f1e448] [cursor=pointer]:
+                      - /url: "#bib0270"
+                    - text: ","
+                    - link "38" [ref=f1e450] [cursor=pointer]:
+                      - /url: "#bib0380"
+                    - text: . The PHA synthase can be mutated at its N-terminus to synthesize polymers with more or less polydispersity
+                    - link "[38]" [ref=f1e452] [cursor=pointer]:
+                      - /url: "#bib0380"
+                    - text: . The weakening of β-oxidation in the strain allows precise control over PHA structure
+                    - link "[8]" [ref=f1e454] [cursor=pointer]:
+                      - /url: "#bib0240"
+                    - text: . Ultimately, an ideal PHA production strain should be able to produce all possible PHAs (the PHAome) that are less polydisperse and have constant molecular weights under conditions for the formation of the target PHAs
+                    - link "[6]" [ref=f1e456] [cursor=pointer]:
+                      - /url: "#bib0230"
+                    - text: .
+                  - generic [ref=f1e458]: The advantage of thinking of PHAs as a ‘PHAome’ is to better understand that PHAs are a mixture of various polymers, with diverse molecular weights and diverse monomer arrangements and ratios, while the current thinking of PHAs tends to ignore that a given PHA is a mixture (-ome). The PHAome concept will help to solve the bottleneck of property inconsistency through the various engineering approaches mentioned above.
+                - generic [ref=f1e459]:
+                  - heading "Concluding Remarks and Future Perspectives" [level=2] [ref=f1e460]
+                  - generic [ref=f1e461]:
+                    - text: Unlike DNA and RNA, that contain only four monomers, PHAs were already reported to have at least 90 different monomers more than 20 years ago
+                    - link "3" [ref=f1e462] [cursor=pointer]:
+                      - /url: "#bib0215"
+                    - text: ","
+                    - link "5" [ref=f1e464] [cursor=pointer]:
+                      - /url: "#bib0225"
+                    - text: . This is also a significantly greater number than for protein monomers that are generally the 20 amino acids. This indicates that the PHAome could have a wider monomer diversity than the genome, transcriptome, or proteome.
+                  - generic [ref=f1e466]: This vast diversity constituting the ‘PHAome’ is awaiting exploitation. Except for very few PHAs that are commercially available for application developments, such as PHB, PHBV, P3HB4HB, and PHBHHx, all other PHAs have been produced by individual laboratories across the world in very small amounts out of academic curiosity. Similar to the concerns voiced by the MGI, moving advanced materials such as PHAs from the laboratory to the marketplace to address crucial challenges in environment, energy, transportation, healthcare, and other areas of application takes far too long, and at too high a cost. How to accelerate the pace of discovery and deployment of advanced PHA materials has been a central question for all researchers and stakeholders in this field. All these depend on the availability of the diverse PHAs in sufficient quantities and with consistent properties for studying their thermal and mechanical properties as well as to develop their potential in other applications.
+                  - generic [ref=f1e467]: It should be a global effort to establish platforms to supply diverse PHAs based on PHAome information in sufficient quantities and property consistency for their exploitation in diverse applications. The PHAome concept should allow us to construct a suitable bacterial platform that is able to provide consistent PHA molecular structures with less molecular weight variability to ensure constant material properties. This is very important for commercial developments
+                  - generic [ref=f1e468]:
+                    - text: It is believed that, 5 or 10 years from now, more PHA materials based on designs will be available from the PHAome, and these materials will best be produced by a single bacterial platform such as engineered
+                    - emphasis [ref=f1e469]: Pseudomonas
+                    - text: or
+                    - emphasis [ref=f1e470]: Halomonas
+                    - text: that can utilize diverse substrates. The platform bacterium should be constructed for more uniform monomer ratios with less molecular weight polydispersity to simplify and make predictable the ‘PHAome’, similar to the efforts made to produce a minimal bacterial chassis genome, allowing applications to be developed based on consistent PHA properties (see Outstanding Questions).
+                    - region [ref=f1e472]:
+                      - text: Outstanding Questions
+                      - list [ref=f1e475]:
+                        - listitem [ref=f1e476]:
+                          - generic [ref=f1e477]: (i)
+                          - generic [ref=f1e478]:
+                            - generic [ref=f1e479]: How to construct a platform microorganism able to produce diverse PHAs, as described in PHAome, with desirable structures?
+                            - generic [ref=f1e480]: At present, PHA diversity is produced by various bacteria under diverse conditions including supplementation with structure-related precursors, metabolic engineering, synthetic pathways, and modified growth conditions. It is now time to select a platform microorganism capable of producing the diverse PHAs in the PHAome using a simple substrate such as glucose under similar and induced conditions. This is both an opportunity and a challenge.
+                            - generic [ref=f1e481]: The selection of a low-cost platform microorganism capable of producing the PHAome at low cost – is this possible?
+                        - listitem [ref=f1e482]:
+                          - generic [ref=f1e483]: (ii)
+                          - generic [ref=f1e485]:
+                            - text: PHAs with unnatural structures are usually produced in low yields and very low contents, predominantly in
+                            - emphasis [ref=f1e486]: Pseudomonas
+                            - text: spp. However,
+                            - emphasis [ref=f1e487]: Pseudomonas
+                            - text: spp. are difficult to grow to high cell density with high PHA content, leading to high cost of PHA. It is thus important to have a PHA production platform that is not only able to synthesize diverse PHA but can also grow to high cell density with high PHA content per cell dry weight. The ideal platform would be
+                            - emphasis [ref=f1e488]: Halomonas
+                            - text: spp. able to grow under open and continuous conditions to high cell density. This would significantly reduce the cost of PHA production. The major challenge for the
+                            - emphasis [ref=f1e489]: Halomonas
+                            - text: platform is the development of diverse and reliable molecular engineering tools for various engineering manipulations of the bacteria.
+                        - listitem [ref=f1e490]:
+                          - generic [ref=f1e491]: (iii)
+                          - generic [ref=f1e492]:
+                            - generic [ref=f1e493]: The supply of large amounts of low-cost PHAome materials for application development – an engineering challenge!
+                            - generic [ref=f1e494]: Upon obtaining a platform microorganism able to grow to high cell density with high PHA content per cell dry weight. It is time to scale up laboratory-scale processes to the semi-industrial level so that sufficient PHA materials will be available for application development. This will requires trial and errors experiments lasting months to years until a reproducible high cell density process is successfully developed for the production of PHAome materials.
+              - generic [ref=f1e495]:
+                - heading "Acknowledgments" [level=2] [ref=f1e496]
+                - generic [ref=f1e497]:
+                  - text: This paper is dedicated to Professor Bernard Witholt of the Eidgenössische Technische Hochschule (ETH), Switzerland, for his outstanding contributions to the field. This research was financially supported by 973 Basic Research Fund (grant 2012CB725201) and by the Natural Science Foundation of China (NSCF) (grant 31430003).
+                  - link "Figure 1" [ref=f1e498] [cursor=pointer]:
+                    - /url: "#fig0005"
+                  - text: was prepared by Mr Yiming Ma in this laboratory.
+            - generic [ref=f1e501]:
+              - heading "References" [level=2] [ref=f1e502]
+              - list [ref=f1e504]:
+                - listitem [ref=f1e505]:
+                  - link "1" [ref=f1e507] [cursor=pointer]:
+                    - /url: "#bbib0210"
+                  - generic [ref=f1e509]:
+                    - generic [ref=f1e510]:
+                      - generic [ref=f1e511]: M. Lemoigne
+                      - generic [ref=f1e512]: Produit de déshydratation et de polymérisation de l’acide β-oxybutyrique
+                    - generic [ref=f1e513]: Bull. Soc. Chim. Biol., 8 (1926), pp. 770-782
+                    - link [ref=f1e515] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Produit%20de%20d%C3%A9shydratation%20et%20de%20polym%C3%A9risation%20de%20lacide%20-oxybutyrique&publication_year=1926&author=M.%20Lemoigne
+                      - generic [ref=f1e516]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=f1e517]
+                - listitem [ref=f1e519]:
+                  - link "2" [ref=f1e521] [cursor=pointer]:
+                    - /url: "#bbib0400"
+                  - generic [ref=f1e523]:
+                    - generic [ref=f1e524]:
+                      - generic [ref=f1e525]:
+                        - text: R.G. Lageveen,
+                        - emphasis [ref=f1e526]: et al.
+                      - generic [ref=f1e527]:
+                        - text: Formation of polyesters by
+                        - emphasis [ref=f1e528]: Pseudomonas oleovorans
+                        - text: ": effect of substrates on formation and composition of poly-(R)-3-hydroxyalkanoates and poly-(R)-3-hydroxyalkenoates"
+                    - generic [ref=f1e529]: Appl. Environ. Microbiol., 54 (1988), pp. 2924-2932
+                    - generic [ref=f1e530]:
+                      - link [ref=f1e531] [cursor=pointer]:
+                        - /url: https://doi.org/10.1128/aem.54.12.2924-2932.1988
+                        - generic [ref=f1e532]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e533]
+                      - link [ref=f1e535] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Formation%20of%20polyesters%20by%20Pseudomonas%20oleovorans%3A%20effect%20of%20substrates%20on%20formation%20and%20composition%20of%20poly--3-hydroxyalkanoates%20and%20poly--3-hydroxyalkenoates&publication_year=1988&author=R.G.%20Lageveen
+                        - generic [ref=f1e536]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e537]
+                - listitem [ref=f1e539]:
+                  - link "3" [ref=f1e541] [cursor=pointer]:
+                    - /url: "#bbib0215"
+                  - generic [ref=f1e543]:
+                    - generic [ref=f1e544]:
+                      - generic [ref=f1e545]: A. Steinbüchel, H.E. Valentin
+                      - generic [ref=f1e546]: Diversity of bacterial polyhydroxyalkanoic acids
+                    - generic [ref=f1e547]: FEMS Microbiol. Lett., 128 (1995), pp. 219-228
+                    - generic [ref=f1e548]:
+                      - link [ref=f1e549] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016/0378-1097(95)00125-O
+                        - generic [ref=f1e550]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e551]
+                      - link [ref=f1e553] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-0029018968&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e554]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e555]
+                      - link [ref=f1e557] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Diversity%20of%20bacterial%20polyhydroxyalkanoic%20acids&publication_year=1995&author=A.%20Steinb%C3%BCchel&author=H.E.%20Valentin
+                        - generic [ref=f1e558]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e559]
+                - listitem [ref=f1e561]:
+                  - link "4" [ref=f1e563] [cursor=pointer]:
+                    - /url: "#bbib0220"
+                  - generic [ref=f1e565]:
+                    - generic [ref=f1e566]:
+                      - generic [ref=f1e567]:
+                        - text: B. Hazer,
+                        - emphasis [ref=f1e568]: et al.
+                      - generic [ref=f1e569]: Preparation of poly(ethylene glycol) grafted poly(3-hydroxyalkanoate) networks
+                    - generic [ref=f1e570]: Macromol. Chem. Phys., 200 (1999), pp. 1903-1907
+                    - generic [ref=f1e571]:
+                      - link [ref=f1e572] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-0001296594&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e573]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e574]
+                      - link [ref=f1e576] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Preparation%20of%20poly%20grafted%20poly%20networks&publication_year=1999&author=B.%20Hazer
+                        - generic [ref=f1e577]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e578]
+                - listitem [ref=f1e580]:
+                  - link "5" [ref=f1e582] [cursor=pointer]:
+                    - /url: "#bbib0225"
+                  - generic [ref=f1e584]:
+                    - generic [ref=f1e585]:
+                      - generic [ref=f1e586]:
+                        - text: M.J. Desmet,
+                        - emphasis [ref=f1e587]: et al.
+                      - generic [ref=f1e588]:
+                        - text: Characterization of intracellular inclusions formed by
+                        - emphasis [ref=f1e589]: Pseudomonas oleovorans
+                        - text: during growth on octane
+                    - generic [ref=f1e590]: J. Bacteriol., 154 (1983), pp. 870-878
+                    - generic [ref=f1e591]:
+                      - link [ref=f1e592] [cursor=pointer]:
+                        - /url: https://doi.org/10.1128/jb.154.2.870-878.1983
+                        - generic [ref=f1e593]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e594]
+                      - link [ref=f1e596] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-0020526779&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e597]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e598]
+                      - link [ref=f1e600] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Characterization%20of%20intracellular%20inclusions%20formed%20by%20Pseudomonas%20oleovorans%20during%20growth%20on%20octane&publication_year=1983&author=M.J.%20Desmet
+                        - generic [ref=f1e601]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e602]
+                - listitem [ref=f1e604]:
+                  - link "6" [ref=f1e606] [cursor=pointer]:
+                    - /url: "#bbib0230"
+                  - generic [ref=f1e608]:
+                    - generic [ref=f1e609]:
+                      - generic [ref=f1e610]:
+                        - text: D.C. Meng,
+                        - emphasis [ref=f1e611]: et al.
+                      - generic [ref=f1e612]: Engineering the diversity of polyesters
+                    - generic [ref=f1e613]: Curr. Opin. Biotechnol., 29 (2014), pp. 24-33
+                    - generic [ref=f1e614]:
+                      - link [ref=f1e615] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-84895945248&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e616]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e617]
+                      - link [ref=f1e619] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Engineering%20the%20diversity%20of%20polyesters&publication_year=2014&author=D.C.%20Meng
+                        - generic [ref=f1e620]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e621]
+                - listitem [ref=f1e623]:
+                  - link "7" [ref=f1e625] [cursor=pointer]:
+                    - /url: "#bbib0235"
+                  - generic [ref=f1e627]:
+                    - generic [ref=f1e628]:
+                      - generic [ref=f1e629]:
+                        - text: X.W. Shen,
+                        - emphasis [ref=f1e630]: et al.
+                      - generic [ref=f1e631]:
+                        - text: Production and characterization of homopolymer poly(3-hydroxyvalerate) (PHV) accumulated by wild type and recombinant
+                        - emphasis [ref=f1e632]: Aeromonas hydrophila strain
+                        - text: 4AK4
+                    - generic [ref=f1e633]: Bioresour. Technol., 100 (2009), pp. 4296-4299
+                    - generic [ref=f1e634]:
+                      - link [ref=f1e635] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-67349184823&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e636]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e637]
+                      - link [ref=f1e639] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Production%20and%20characterization%20of%20homopolymer%20poly%20%20accumulated%20by%20wild%20type%20and%20recombinant%20Aeromonas%20hydrophila%20strain%204AK4&publication_year=2009&author=X.W.%20Shen
+                        - generic [ref=f1e640]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e641]
+                - listitem [ref=f1e643]:
+                  - link "8" [ref=f1e645] [cursor=pointer]:
+                    - /url: "#bbib0240"
+                  - generic [ref=f1e647]:
+                    - generic [ref=f1e648]:
+                      - generic [ref=f1e649]:
+                        - text: H.H. Wang,
+                        - emphasis [ref=f1e650]: et al.
+                      - generic [ref=f1e651]:
+                        - text: Biosynthesis of polyhydroxyalkanoate homopolymers by
+                        - emphasis [ref=f1e652]: Pseudomonas putida
+                    - generic [ref=f1e653]: Appl. Microbiol. Biotechnol., 89 (2011), pp. 1497-1507
+                    - generic [ref=f1e654]:
+                      - link [ref=f1e655] [cursor=pointer]:
+                        - /url: https://doi.org/10.1007/s00253-010-2964-x
+                        - generic [ref=f1e656]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e657]
+                      - link [ref=f1e659] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-79952563351&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e660]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e661]
+                      - link [ref=f1e663] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Biosynthesis%20of%20polyhydroxyalkanoate%20homopolymers%20by%20Pseudomonas%20putida&publication_year=2011&author=H.H.%20Wang
+                        - generic [ref=f1e664]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e665]
+                - listitem [ref=f1e667]:
+                  - link "9" [ref=f1e669] [cursor=pointer]:
+                    - /url: "#bbib0245"
+                  - generic [ref=f1e671]:
+                    - generic [ref=f1e672]:
+                      - generic [ref=f1e673]:
+                        - text: H.H. Wang,
+                        - emphasis [ref=f1e674]: et al.
+                      - generic [ref=f1e675]:
+                        - text: Production and characterization of homopolymer polyhydroxyheptanoate (P3HHp) by a fadBA knockout mutant
+                        - emphasis [ref=f1e676]: Pseudomonas putida
+                        - text: KTOY06 derived from
+                        - emphasis [ref=f1e677]: P. putida
+                        - text: KT2442
+                    - generic [ref=f1e678]: Process Biochem., 44 (2009), pp. 106-111
+                    - generic [ref=f1e679]:
+                      - link [ref=f1e680] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-58049208259&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e681]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e682]
+                      - link [ref=f1e684] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Production%20and%20characterization%20of%20homopolymer%20polyhydroxyheptanoate%20%20by%20a%20fadBA%20knockout%20mutant%20Pseudomonas%20putida%20KTOY06%20derived%20from%20P.%20putida%20KT2442&publication_year=2009&author=H.H.%20Wang
+                        - generic [ref=f1e685]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e686]
+                - listitem [ref=f1e688]:
+                  - link "10" [ref=f1e690] [cursor=pointer]:
+                    - /url: "#bbib0405"
+                  - generic [ref=f1e692]:
+                    - generic [ref=f1e693]:
+                      - generic [ref=f1e694]:
+                        - text: A.L. Chung,
+                        - emphasis [ref=f1e695]: et al.
+                      - generic [ref=f1e696]:
+                        - text: Biosynthesis and characterization of poly(3-hydroxydodecanoate) by β-oxidation inhibited mutant of
+                        - emphasis [ref=f1e697]: Pseudomonas entomophila
+                        - text: L48
+                    - generic [ref=f1e698]: Biomacromolecules, 12 (2011), pp. 3559-3566
+                    - generic [ref=f1e699]:
+                      - link [ref=f1e700] [cursor=pointer]:
+                        - /url: https://doi.org/10.1021/bm200770m
+                        - generic [ref=f1e701]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e702]
+                      - link [ref=f1e704] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-80053938042&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e705]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e706]
+                      - link [ref=f1e708] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Biosynthesis%20and%20characterization%20of%20poly%20by%20-oxidation%20inhibited%20mutant%20of%20Pseudomonas%20entomophila%20L48&publication_year=2011&author=A.L.%20Chung
+                        - generic [ref=f1e709]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e710]
+                - listitem [ref=f1e712]:
+                  - link "11" [ref=f1e714] [cursor=pointer]:
+                    - /url: "#bbib0250"
+                  - generic [ref=f1e716]:
+                    - generic [ref=f1e717]:
+                      - generic [ref=f1e718]:
+                        - text: S.J. Li,
+                        - emphasis [ref=f1e719]: et al.
+                      - generic [ref=f1e720]:
+                        - text: Microbial synthesis of functional homo-, random and block polyhydroxyalkanoates by β-oxidation deleted
+                        - emphasis [ref=f1e721]: Pseudomonas entomophila
+                    - generic [ref=f1e722]: Biomacromolecules, 15 (2014), pp. 2310-2319
+                    - generic [ref=f1e723]:
+                      - link [ref=f1e724] [cursor=pointer]:
+                        - /url: https://doi.org/10.1021/bm500669s
+                        - generic [ref=f1e725]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e726]
+                      - link [ref=f1e728] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-84902216033&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e729]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e730]
+                      - link [ref=f1e732] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Microbial%20synthesis%20of%20functional%20homo-%2C%20random%20and%20block%20polyhydroxyalkanoates%20by%20-oxidation%20deleted%20Pseudomonas%20entomophila&publication_year=2014&author=S.J.%20Li
+                        - generic [ref=f1e733]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e734]
+                - listitem [ref=f1e736]:
+                  - link "12" [ref=f1e738] [cursor=pointer]:
+                    - /url: "#bbib0255"
+                  - generic [ref=f1e740]:
+                    - generic [ref=f1e741]:
+                      - generic [ref=f1e742]: J.P. Holdren
+                      - generic [ref=f1e743]: Materials Genome Onitiative for Global Competitiveness
+                    - generic [ref=f1e744]: National Science and Technology Council OSTP (2011)
+                    - link [ref=f1e746] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Materials%20Genome%20Onitiative%20for%20Global%20Competitiveness&publication_year=2011&author=J.P.%20Holdren
+                      - generic [ref=f1e747]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=f1e748]
+                - listitem [ref=f1e750]:
+                  - link "13" [ref=f1e752] [cursor=pointer]:
+                    - /url: "#bbib0260"
+                  - generic [ref=f1e754]:
+                    - generic [ref=f1e755]:
+                      - generic [ref=f1e756]: G.Q. Chen
+                      - generic [ref=f1e757]: A polyhydroxyalkanoates based bio- and materials industry
+                    - generic [ref=f1e758]: Chem. Soc. Rev., 38 (2009), pp. 2434-2446
+                    - generic [ref=f1e759]:
+                      - link [ref=f1e760] [cursor=pointer]:
+                        - /url: https://doi.org/10.1039/b812677c
+                        - generic [ref=f1e761]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e762]
+                      - link [ref=f1e764] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-69249092516&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e765]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e766]
+                      - link [ref=f1e768] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=A%20polyhydroxyalkanoates%20based%20bio-%20and%20materials%20industry&publication_year=2009&author=G.Q.%20Chen
+                        - generic [ref=f1e769]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e770]
+                - listitem [ref=f1e772]:
+                  - link "14" [ref=f1e774] [cursor=pointer]:
+                    - /url: "#bbib0265"
+                  - generic [ref=f1e776]:
+                    - generic [ref=f1e777]:
+                      - generic [ref=f1e778]:
+                        - text: Q. Liu,
+                        - emphasis [ref=f1e779]: et al.
+                      - generic [ref=f1e780]:
+                        - text: Biosynthesis of poly(3-hydroxydecanoate) and 3-hydroxydodecanoate dominating polyhydroxyalkanoates by β-oxidation pathway inhibited
+                        - emphasis [ref=f1e781]: Pseudomonas putida
+                    - generic [ref=f1e782]: Metab. Eng., 13 (2011), pp. 11-17
+                    - generic [ref=f1e783]:
+                      - link [ref=f1e784] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-78650544471&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e785]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e786]
+                      - link [ref=f1e788] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Biosynthesis%20of%20poly%20and%203-hydroxydodecanoate%20dominating%20polyhydroxyalkanoates%20by%20-oxidation%20pathway%20inhibited%20Pseudomonas%20putida&publication_year=2011&author=Q.%20Liu
+                        - generic [ref=f1e789]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e790]
+                - listitem [ref=f1e792]:
+                  - link "15" [ref=f1e794] [cursor=pointer]:
+                    - /url: "#bbib0270"
+                  - generic [ref=f1e796]:
+                    - generic [ref=f1e797]:
+                      - generic [ref=f1e798]:
+                        - text: Y.Z. Qiu,
+                        - emphasis [ref=f1e799]: et al.
+                      - generic [ref=f1e800]:
+                        - text: Production of poly (3-hydroxybutyrate-co-3-hydroxyhexanoate) from gluconate and glucose by recombinant
+                        - emphasis [ref=f1e801]: Aeromonas hydrophila
+                        - text: and
+                        - emphasis [ref=f1e802]: Pseudomonas putida
+                    - generic [ref=f1e803]: Biotechnol. Lett., 27 (2005), pp. 1381-1386
+                    - generic [ref=f1e804]:
+                      - link [ref=f1e805] [cursor=pointer]:
+                        - /url: https://doi.org/10.1007/s10529-005-3685-6
+                        - generic [ref=f1e806]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e807]
+                      - link [ref=f1e809] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-29144464738&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e810]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e811]
+                      - link [ref=f1e813] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Production%20of%20poly%20%20from%20gluconate%20and%20glucose%20by%20recombinant%20Aeromonas%20hydrophila%20and%20Pseudomonas%20putida&publication_year=2005&author=Y.Z.%20Qiu
+                        - generic [ref=f1e814]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e815]
+                - listitem [ref=f1e817]:
+                  - link "16" [ref=f1e819] [cursor=pointer]:
+                    - /url: "#bbib0275"
+                  - generic [ref=f1e821]:
+                    - generic [ref=f1e822]:
+                      - generic [ref=f1e823]:
+                        - text: L. Tripathi,
+                        - emphasis [ref=f1e824]: et al.
+                      - generic [ref=f1e825]:
+                        - emphasis [ref=f1e826]: Pseudomonas putida
+                        - text: KT2442 as a platform for the biosynthesis of polyhydroxyalkanoates with adjustable monomer contents and compositions
+                    - generic [ref=f1e827]: Bioresour. Technol., 142 (2013), pp. 225-231
+                    - generic [ref=f1e828]:
+                      - link [ref=f1e829] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-84878848014&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e830]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e831]
+                      - link [ref=f1e833] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Pseudomonas%20putida%20KT2442%20as%20a%20platform%20for%20the%20biosynthesis%20of%20polyhydroxyalkanoates%20with%20adjustable%20monomer%20contents%20and%20compositions&publication_year=2013&author=L.%20Tripathi
+                        - generic [ref=f1e834]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e835]
+                - listitem [ref=f1e837]:
+                  - link "17" [ref=f1e839] [cursor=pointer]:
+                    - /url: "#bbib0280"
+                  - generic [ref=f1e841]:
+                    - generic [ref=f1e842]:
+                      - generic [ref=f1e843]:
+                        - text: S.P. Ouyang,
+                        - emphasis [ref=f1e844]: et al.
+                      - generic [ref=f1e845]:
+                        - text: Construction of pha operon defined knockout mutants of
+                        - emphasis [ref=f1e846]: Pseudomonas putida
+                        - text: KT2442 and its applications in polyhydroxyalkanoates production
+                    - generic [ref=f1e847]: Macromol. Biosci., 7 (2007), pp. 227-233
+                    - generic [ref=f1e848]:
+                      - link [ref=f1e849] [cursor=pointer]:
+                        - /url: https://doi.org/10.1002/mabi.200600187
+                        - generic [ref=f1e850]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e851]
+                      - link [ref=f1e853] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-33947491586&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e854]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e855]
+                      - link [ref=f1e857] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Construction%20of%20pha%20operon%20defined%20knockout%20mutants%20of%20Pseudomonas%20putida%20KT2442%20and%20its%20applications%20in%20polyhydroxyalkanoates%20production&publication_year=2007&author=S.P.%20Ouyang
+                        - generic [ref=f1e858]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e859]
+                - listitem [ref=f1e861]:
+                  - link "18" [ref=f1e863] [cursor=pointer]:
+                    - /url: "#bbib0285"
+                  - generic [ref=f1e865]:
+                    - generic [ref=f1e866]:
+                      - generic [ref=f1e867]:
+                        - text: S.P. Ouyang,
+                        - emphasis [ref=f1e868]: et al.
+                      - generic [ref=f1e869]:
+                        - text: Production of polyhydroxyalkanoates containing high 3-hydroxydodecanoate monomer content by fadB and fadA knockout mutant of
+                        - emphasis [ref=f1e870]: Pseudomonas putida
+                        - text: KT2442
+                    - generic [ref=f1e871]: Biomacromolecules, 8 (2007), pp. 2504-2511
+                    - generic [ref=f1e872]:
+                      - link [ref=f1e873] [cursor=pointer]:
+                        - /url: https://doi.org/10.1021/bm0702307
+                        - generic [ref=f1e874]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e875]
+                      - link [ref=f1e877] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-34548254071&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e878]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e879]
+                      - link [ref=f1e881] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Production%20of%20polyhydroxyalkanoates%20containing%20high%203-hydroxydodecanoate%20monomer%20content%20by%20fadB%20and%20fadA%20knockout%20mutant%20of%20Pseudomonas%20putida%20KT2442&publication_year=2007&author=S.P.%20Ouyang
+                        - generic [ref=f1e882]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e883]
+                - listitem [ref=f1e885]:
+                  - link "19" [ref=f1e887] [cursor=pointer]:
+                    - /url: "#bbib0290"
+                  - generic [ref=f1e889]:
+                    - generic [ref=f1e890]:
+                      - generic [ref=f1e891]: W.K. Liu, G.Q. Chen
+                      - generic [ref=f1e892]:
+                        - text: Production and characterization of medium chain length polyhydroxyalkanoate containing high 3-hydroxytetradecanoate monomer content by fadB and fadA knockout mutant of
+                        - emphasis [ref=f1e893]: Pseudomonas putida
+                        - text: KT2442
+                    - generic [ref=f1e894]: Appl. Microbiol. Biotechnol., 76 (2007), pp. 1153-1159
+                    - generic [ref=f1e895]:
+                      - link [ref=f1e896] [cursor=pointer]:
+                        - /url: https://doi.org/10.1007/s00253-007-1092-8
+                        - generic [ref=f1e897]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e898]
+                      - link [ref=f1e900] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-34548692573&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e901]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e902]
+                      - link [ref=f1e904] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Production%20and%20characterization%20of%20medium%20chain%20length%20polyhydroxyalkanoate%20containing%20high%203-hydroxytetradecanoate%20monomer%20content%20by%20fadB%20and%20fadA%20knockout%20mutant%20of%20Pseudomonas%20putida%20KT2442&publication_year=2007&author=W.K.%20Liu&author=G.Q.%20Chen
+                        - generic [ref=f1e905]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e906]
+                - listitem [ref=f1e908]:
+                  - link "20" [ref=f1e910] [cursor=pointer]:
+                    - /url: "#bbib0410"
+                  - generic [ref=f1e912]:
+                    - generic [ref=f1e913]:
+                      - generic [ref=f1e914]:
+                        - text: M.W. Guzik,
+                        - emphasis [ref=f1e915]: et al.
+                      - generic [ref=f1e916]:
+                        - text: Identification and characterization of an acyl-CoA dehydrogenase from
+                        - emphasis [ref=f1e917]: Pseudomonas putida
+                        - text: KT2440 that shows preference towards medium to long chain length fatty acids
+                    - generic [ref=f1e918]: Soc. Gen. Microbiol., 160 (2014), pp. 1760-1771
+                    - generic [ref=f1e919]:
+                      - link [ref=f1e920] [cursor=pointer]:
+                        - /url: https://doi.org/10.1099/mic.0.078758-0
+                        - generic [ref=f1e921]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e922]
+                      - link [ref=f1e924] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-84905270409&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e925]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e926]
+                      - link [ref=f1e928] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Identification%20and%20characterization%20of%20an%20acyl-CoA%20dehydrogenase%20from%20Pseudomonas%20putida%20KT2440%20that%20shows%20preference%20towards%20medium%20to%20long%20chain%20length%20fatty%20acids&publication_year=2014&author=M.W.%20Guzik
+                        - generic [ref=f1e929]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e930]
+                - listitem [ref=f1e932]:
+                  - link "21" [ref=f1e934] [cursor=pointer]:
+                    - /url: "#bbib0295"
+                  - generic [ref=f1e936]:
+                    - generic [ref=f1e937]:
+                      - generic [ref=f1e938]:
+                        - text: S.Y. Li,
+                        - emphasis [ref=f1e939]: et al.
+                      - generic [ref=f1e940]:
+                        - text: Microbial production of polyhydroxyalkanoate block copolymer by recombinant
+                        - emphasis [ref=f1e941]: Pseudomonas putida
+                    - generic [ref=f1e942]: Appl. Microbiol. Biotechnol., 90 (2011), pp. 659-669
+                    - generic [ref=f1e943]:
+                      - link [ref=f1e944] [cursor=pointer]:
+                        - /url: https://doi.org/10.1007/s00253-010-3069-2
+                        - generic [ref=f1e945]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e946]
+                      - link [ref=f1e948] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-79954910858&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e949]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e950]
+                      - link [ref=f1e952] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Microbial%20production%20of%20polyhydroxyalkanoate%20block%20copolymer%20by%20recombinant%20Pseudomonas%20putida&publication_year=2011&author=S.Y.%20Li
+                        - generic [ref=f1e953]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e954]
+                - listitem [ref=f1e956]:
+                  - link "22" [ref=f1e958] [cursor=pointer]:
+                    - /url: "#bbib0300"
+                  - generic [ref=f1e960]:
+                    - generic [ref=f1e961]:
+                      - generic [ref=f1e962]:
+                        - text: D. Hu,
+                        - emphasis [ref=f1e963]: et al.
+                      - generic [ref=f1e964]:
+                        - text: Biosynthesis and characterization of polyhydroxyalkanoate block copolymer P3HB-
+                        - emphasis [ref=f1e965]: b
+                        - text: "-P4HB"
+                    - generic [ref=f1e966]: Biomacromolecules, 12 (2011), pp. 3166-3173
+                    - generic [ref=f1e967]:
+                      - link [ref=f1e968] [cursor=pointer]:
+                        - /url: https://doi.org/10.1021/bm200660k
+                        - generic [ref=f1e969]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e970]
+                      - link [ref=f1e972] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-80052753134&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e973]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e974]
+                      - link [ref=f1e976] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Biosynthesis%20and%20characterization%20of%20polyhydroxyalkanoate%20block%20copolymer%20P3HB-b-P4HB&publication_year=2011&author=D.%20Hu
+                        - generic [ref=f1e977]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e978]
+                - listitem [ref=f1e980]:
+                  - link "23" [ref=f1e982] [cursor=pointer]:
+                    - /url: "#bbib0305"
+                  - generic [ref=f1e984]:
+                    - generic [ref=f1e985]:
+                      - generic [ref=f1e986]:
+                        - text: R.C. Tappel,
+                        - emphasis [ref=f1e987]: et al.
+                      - generic [ref=f1e988]: Biosynthesis of poly[(R)-3-hydroxyalkanoate] copolymers with controlled repeating unit compositions and physical properties
+                    - generic [ref=f1e989]: Biomacromolecules, 13 (2012), pp. 2964-2972
+                    - generic [ref=f1e990]:
+                      - link [ref=f1e991] [cursor=pointer]:
+                        - /url: https://doi.org/10.1021/bm301043t
+                        - generic [ref=f1e992]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e993]
+                      - link [ref=f1e995] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-84866061935&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e996]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e997]
+                      - link [ref=f1e999] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Biosynthesis%20of%20poly-3-hydroxyalkanoate%20copolymers%20with%20controlled%20repeating%20unit%20compositions%20and%20physical%20properties&publication_year=2012&author=R.C.%20Tappel
+                        - generic [ref=f1e1000]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e1001]
+                - listitem [ref=f1e1003]:
+                  - link "24" [ref=f1e1005] [cursor=pointer]:
+                    - /url: "#bbib0310"
+                  - generic [ref=f1e1007]:
+                    - generic [ref=f1e1008]:
+                      - generic [ref=f1e1009]:
+                        - text: L. Tripathi,
+                        - emphasis [ref=f1e1010]: et al.
+                      - generic [ref=f1e1011]:
+                        - text: Synthesis of diblock copolymer poly-3-hydroxybutyrate-block-poly-3-hydroxyhexanoate [PHB-b-PHHx] by a beta-oxidation weakened
+                        - emphasis [ref=f1e1012]: Pseudomonas putida
+                        - text: KT2442
+                    - generic [ref=f1e1013]: Microb. Cell Fact., 11 (2012), p. 44
+                    - generic [ref=f1e1014]:
+                      - link [ref=f1e1015] [cursor=pointer]:
+                        - /url: https://doi.org/10.4103/0972-6748.110950
+                        - generic [ref=f1e1016]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e1017]
+                      - link [ref=f1e1019] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Synthesis%20of%20diblock%20copolymer%20poly-3-hydroxybutyrate-block-poly-3-hydroxyhexanoate%20PHB-b-PHHx%20by%20a%20beta-oxidation%20weakened%20Pseudomonas%20putida%20KT2442&publication_year=2012&author=L.%20Tripathi
+                        - generic [ref=f1e1020]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e1021]
+                - listitem [ref=f1e1023]:
+                  - link "25" [ref=f1e1025] [cursor=pointer]:
+                    - /url: "#bbib0315"
+                  - generic [ref=f1e1027]:
+                    - generic [ref=f1e1028]:
+                      - generic [ref=f1e1029]:
+                        - text: O. Kim,
+                        - emphasis [ref=f1e1030]: et al.
+                      - generic [ref=f1e1031]: Microbial synthesis of poly(beta-hydroxyalkanoates) containing fluorinated side-chain substituents
+                    - generic [ref=f1e1032]: Macromolecules, 29 (1996), pp. 4572-4581
+                    - generic [ref=f1e1033]:
+                      - link [ref=f1e1034] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-0030164677&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e1035]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e1036]
+                      - link [ref=f1e1038] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Microbial%20synthesis%20of%20poly%20containing%20fluorinated%20side-chain%20substituents&publication_year=1996&author=O.%20Kim
+                        - generic [ref=f1e1039]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e1040]
+                - listitem [ref=f1e1042]:
+                  - link "26" [ref=f1e1044] [cursor=pointer]:
+                    - /url: "#bbib0320"
+                  - generic [ref=f1e1046]:
+                    - generic [ref=f1e1047]:
+                      - generic [ref=f1e1048]:
+                        - text: Y.B. Kim,
+                        - emphasis [ref=f1e1049]: et al.
+                      - generic [ref=f1e1050]:
+                        - text: PHAs produced by
+                        - emphasis [ref=f1e1051]: Pseudomonas putida
+                        - text: and
+                        - emphasis [ref=f1e1052]: Pseudomonas oleovorans
+                        - text: grown with n-alkanoic acids containing aromatic groups
+                    - generic [ref=f1e1053]: Macromolecules, 32 (1999), pp. 6058-6064
+                    - link [ref=f1e1055] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=PHAs%20produced%20by%20Pseudomonas%20putida%20and%20Pseudomonas%20oleovorans%20grown%20with%20n-alkanoic%20acids%20containing%20aromatic%20groups&publication_year=1999&author=Y.B.%20Kim
+                      - generic [ref=f1e1056]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=f1e1057]
+                - listitem [ref=f1e1059]:
+                  - link "27" [ref=f1e1061] [cursor=pointer]:
+                    - /url: "#bbib0325"
+                  - generic [ref=f1e1063]:
+                    - generic [ref=f1e1064]:
+                      - generic [ref=f1e1065]:
+                        - text: D.Y. Kim,
+                        - emphasis [ref=f1e1066]: et al.
+                      - generic [ref=f1e1067]:
+                        - text: Evaluation of various carbon substrates for the biosynthesis of polyhydroxyalkanoates bearing functional groups by
+                        - emphasis [ref=f1e1068]: Pseudomonas putida
+                    - generic [ref=f1e1069]: Int. J. Biol. Macromol., 28 (2000), pp. 23-29
+                    - link [ref=f1e1071] [cursor=pointer]:
+                      - /url: https://scholar.google.com/scholar_lookup?title=Evaluation%20of%20various%20carbon%20substrates%20for%20the%20biosynthesis%20of%20polyhydroxyalkanoates%20bearing%20functional%20groups%20by%20Pseudomonas%20putida&publication_year=2000&author=D.Y.%20Kim
+                      - generic [ref=f1e1072]:
+                        - text: Google Scholar
+                        - img "Opens in new window" [ref=f1e1073]
+                - listitem [ref=f1e1075]:
+                  - link "28" [ref=f1e1077] [cursor=pointer]:
+                    - /url: "#bbib0330"
+                  - generic [ref=f1e1079]:
+                    - generic [ref=f1e1080]:
+                      - generic [ref=f1e1081]:
+                        - text: Y. Takagi,
+                        - emphasis [ref=f1e1082]: et al.
+                      - generic [ref=f1e1083]:
+                        - text: Microbial synthesis and characterization of polyhydroxyalkanoates with fluorinated phenoxy side groups from
+                        - emphasis [ref=f1e1084]: Pseudomonas putida
+                    - generic [ref=f1e1085]: Eur. Polym. J., 40 (2004), pp. 1551-1557
+                    - generic [ref=f1e1086]:
+                      - link [ref=f1e1087] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-2942648245&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e1088]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e1089]
+                      - link [ref=f1e1091] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Microbial%20synthesis%20and%20characterization%20of%20polyhydroxyalkanoates%20with%20fluorinated%20phenoxy%20side%20groups%20from%20Pseudomonas%20putida&publication_year=2004&author=Y.%20Takagi
+                        - generic [ref=f1e1092]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e1093]
+                - listitem [ref=f1e1095]:
+                  - link "29" [ref=f1e1097] [cursor=pointer]:
+                    - /url: "#bbib0335"
+                  - generic [ref=f1e1099]:
+                    - generic [ref=f1e1100]:
+                      - generic [ref=f1e1101]:
+                        - text: J. Sparks,
+                        - emphasis [ref=f1e1102]: et al.
+                      - generic [ref=f1e1103]: Synthesis and characterization of a cationic poly(beta-hydroxyalkanoate)
+                    - generic [ref=f1e1104]: Biomacromolecules, 9 (2008), pp. 2091-2096
+                    - generic [ref=f1e1105]:
+                      - link [ref=f1e1106] [cursor=pointer]:
+                        - /url: https://doi.org/10.1021/bm8005616
+                        - generic [ref=f1e1107]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e1108]
+                      - link [ref=f1e1110] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-52649104035&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e1111]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e1112]
+                      - link [ref=f1e1114] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Synthesis%20and%20characterization%20of%20a%20cationic%20poly&publication_year=2008&author=J.%20Sparks
+                        - generic [ref=f1e1115]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e1116]
+                - listitem [ref=f1e1118]:
+                  - link "30" [ref=f1e1120] [cursor=pointer]:
+                    - /url: "#bbib0340"
+                  - generic [ref=f1e1122]:
+                    - generic [ref=f1e1123]:
+                      - generic [ref=f1e1124]:
+                        - text: Z. Zheng,
+                        - emphasis [ref=f1e1125]: et al.
+                      - generic [ref=f1e1126]:
+                        - text: A novel method for production of 3-hydroxydecanoic acid by recombinant
+                        - emphasis [ref=f1e1127]: Escherichia coli
+                        - text: and
+                        - emphasis [ref=f1e1128]: Pseudomonas putida
+                    - generic [ref=f1e1129]: Chinese J. Chem. Eng., 12 (2004), pp. 550-555
+                    - generic [ref=f1e1130]:
+                      - link [ref=f1e1131] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-8644258407&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e1132]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e1133]
+                      - link [ref=f1e1135] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=A%20novel%20method%20for%20production%20of%203-hydroxydecanoic%20acid%20by%20recombinant%20Escherichia%20coli%20and%20Pseudomonas%20putida&publication_year=2004&author=Z.%20Zheng
+                        - generic [ref=f1e1136]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e1137]
+                - listitem [ref=f1e1139]:
+                  - link "31" [ref=f1e1141] [cursor=pointer]:
+                    - /url: "#bbib0345"
+                  - generic [ref=f1e1143]:
+                    - generic [ref=f1e1144]:
+                      - generic [ref=f1e1145]:
+                        - text: M.Q. Yuan,
+                        - emphasis [ref=f1e1146]: et al.
+                      - generic [ref=f1e1147]:
+                        - text: Microbial production of medium-chain-length 3-hydroxyalkanoic acids by recombinant
+                        - emphasis [ref=f1e1148]: Pseudomonas putida
+                        - text: KT2442 harboring genes fadL, fadD and phaZ
+                    - generic [ref=f1e1149]: FEMS Microbiol. Lett., 283 (2008), pp. 167-175
+                    - generic [ref=f1e1150]:
+                      - link [ref=f1e1151] [cursor=pointer]:
+                        - /url: https://doi.org/10.1111/j.1574-6968.2008.01164.x
+                        - generic [ref=f1e1152]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e1153]
+                      - link [ref=f1e1155] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-43549102849&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e1156]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e1157]
+                      - link [ref=f1e1159] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Microbial%20production%20of%20medium-chain-length%203-hydroxyalkanoic%20acids%20by%20recombinant%20Pseudomonas%20putida%20KT2442%20harboring%20genes%20fadL%2C%20fadD%20and%20phaZ&publication_year=2008&author=M.Q.%20Yuan
+                        - generic [ref=f1e1160]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e1161]
+                - listitem [ref=f1e1163]:
+                  - link "32" [ref=f1e1165] [cursor=pointer]:
+                    - /url: "#bbib0350"
+                  - generic [ref=f1e1167]:
+                    - generic [ref=f1e1168]:
+                      - generic [ref=f1e1169]:
+                        - text: A. Chung,
+                        - emphasis [ref=f1e1170]: et al.
+                      - generic [ref=f1e1171]:
+                        - text: Microbial production of 3-hydroxydodecanoic acid by pha-operon and fadBA knockout mutant of
+                        - emphasis [ref=f1e1172]: Pseudomonas putida
+                        - text: KT2442 harboring
+                        - emphasis [ref=f1e1173]: tesB
+                        - text: gene
+                    - generic [ref=f1e1174]: Appl. Microbiol. Biotechnol., 83 (2009), pp. 513-519
+                    - generic [ref=f1e1175]:
+                      - link [ref=f1e1176] [cursor=pointer]:
+                        - /url: https://doi.org/10.1007/s00253-009-1919-6
+                        - generic [ref=f1e1177]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e1178]
+                      - link [ref=f1e1180] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-67349166933&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e1181]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e1182]
+                      - link [ref=f1e1184] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Microbial%20production%20of%203-hydroxydodecanoic%20acid%20by%20pha-operon%20and%20fadBA%20knockout%20mutant%20of%20Pseudomonas%20putidaKT2442%20harboring%20tesB%20gene&publication_year=2009&author=A.%20Chung
+                        - generic [ref=f1e1185]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e1186]
+                - listitem [ref=f1e1188]:
+                  - link "33" [ref=f1e1190] [cursor=pointer]:
+                    - /url: "#bbib0355"
+                  - generic [ref=f1e1192]:
+                    - generic [ref=f1e1193]:
+                      - generic [ref=f1e1194]:
+                        - text: L. Ma,
+                        - emphasis [ref=f1e1195]: et al.
+                      - generic [ref=f1e1196]:
+                        - text: Production of two monomers containing medium-chain-length polyhydroxyalkanoates by β-oxidation-impaired mutant of
+                        - emphasis [ref=f1e1197]: Pseudomonas putida
+                        - text: KT2442
+                    - generic [ref=f1e1198]: Bioresour. Technol., 100 (2009), pp. 4891-4894
+                    - generic [ref=f1e1199]:
+                      - link [ref=f1e1200] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-67649224073&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e1201]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e1202]
+                      - link [ref=f1e1204] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Production%20of%20two%20monomers%20containing%20medium-chain-length%20polyhydroxyalkanoates%20by%20-oxidation-impaired%20mutant%20of%20Pseudomonas%20putida%20KT2442&publication_year=2009&author=L.%20Ma
+                        - generic [ref=f1e1205]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e1206]
+                - listitem [ref=f1e1208]:
+                  - link "34" [ref=f1e1210] [cursor=pointer]:
+                    - /url: "#bbib0360"
+                  - generic [ref=f1e1212]:
+                    - generic [ref=f1e1213]:
+                      - generic [ref=f1e1214]:
+                        - text: L. Cai,
+                        - emphasis [ref=f1e1215]: et al.
+                      - generic [ref=f1e1216]:
+                        - text: Enhanced production of polyhydroxyalkanoates by PHA depolymerase knockout mutant of
+                        - emphasis [ref=f1e1217]: Pseudomonas putida
+                        - text: KT2442
+                    - generic [ref=f1e1218]: Bioresour. Technol., 100 (2009), pp. 2265-2270
+                    - generic [ref=f1e1219]:
+                      - link [ref=f1e1220] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-58149193164&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e1221]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e1222]
+                      - link [ref=f1e1224] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Enhanced%20production%20of%20polyhydroxyalkanoates%20by%20PHA%20depolymerase%20knockout%20mutant%20of%20Pseudomonas%20putida%20KT2442&publication_year=2009&author=L.%20Cai
+                        - generic [ref=f1e1225]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e1226]
+                - listitem [ref=f1e1228]:
+                  - link "35" [ref=f1e1230] [cursor=pointer]:
+                    - /url: "#bbib0365"
+                  - generic [ref=f1e1232]:
+                    - generic [ref=f1e1233]:
+                      - generic [ref=f1e1234]:
+                        - text: H.E. Valentin,
+                        - emphasis [ref=f1e1235]: et al.
+                      - generic [ref=f1e1236]: Identification of 5-hydroxyhexanoic acid, 4-hydroxyheptanoic acid and 4-hydroxyoctanoic acid as new constituents of bacterial polyhydroxyalkanoic acids
+                    - generic [ref=f1e1237]: Appl. Microbiol. Biotechnol., 46 (1996), pp. 261-267
+                    - generic [ref=f1e1238]:
+                      - link [ref=f1e1239] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-0029906519&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e1240]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e1241]
+                      - link [ref=f1e1243] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Identification%20of%205-hydroxyhexanoic%20acid%2C%204-hydroxyheptanoic%20acid%20and%204-hydroxyoctanoic%20acid%20as%20new%20constituents%20of%20bacterial%20polyhydroxyalkanoic%20acids&publication_year=1996&author=H.E.%20Valentin
+                        - generic [ref=f1e1244]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e1245]
+                - listitem [ref=f1e1247]:
+                  - link "36" [ref=f1e1249] [cursor=pointer]:
+                    - /url: "#bbib0370"
+                  - generic [ref=f1e1251]:
+                    - generic [ref=f1e1252]:
+                      - generic [ref=f1e1253]:
+                        - text: R.D. Ashby,
+                        - emphasis [ref=f1e1254]: et al.
+                      - generic [ref=f1e1255]: "Methanol-induced chain termination in poly(3-hydroxybutyrate) biopolymers: molecular weight control"
+                    - generic [ref=f1e1256]: Int. J. Biol. Macromol., 74 (2015), pp. 195-201
+                    - generic [ref=f1e1257]:
+                      - link [ref=f1e1258] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-84920135286&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e1259]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e1260]
+                      - link [ref=f1e1262] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Methanol-induced%20chain%20termination%20in%20poly%20biopolymers%3A%20molecular%20weight%20control&publication_year=2015&author=R.D.%20Ashby
+                        - generic [ref=f1e1263]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e1264]
+                - listitem [ref=f1e1266]:
+                  - link "37" [ref=f1e1268] [cursor=pointer]:
+                    - /url: "#bbib0375"
+                  - generic [ref=f1e1270]:
+                    - generic [ref=f1e1271]:
+                      - generic [ref=f1e1272]:
+                        - text: Z. Zheng,
+                        - emphasis [ref=f1e1273]: et al.
+                      - generic [ref=f1e1274]: Mutation on N-terminus of poly-3-hydroxyalkanoate (PHA) synthase enhanced PHA accumulation
+                    - generic [ref=f1e1275]: Appl. Microbiol. Biotechnol., 72 (2006), pp. 896-905
+                    - generic [ref=f1e1276]:
+                      - link [ref=f1e1277] [cursor=pointer]:
+                        - /url: https://doi.org/10.1007/s00253-006-0371-0
+                        - generic [ref=f1e1278]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e1279]
+                      - link [ref=f1e1281] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-33749166221&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e1282]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e1283]
+                      - link [ref=f1e1285] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Mutation%20on%20N-terminus%20of%20poly-3-hydroxyalkanoate%20%20synthase%20enhanced%20PHA%20accumulation&publication_year=2006&author=Z.%20Zheng
+                        - generic [ref=f1e1286]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e1287]
+                - listitem [ref=f1e1289]:
+                  - link "38" [ref=f1e1291] [cursor=pointer]:
+                    - /url: "#bbib0380"
+                  - generic [ref=f1e1293]:
+                    - generic [ref=f1e1294]:
+                      - generic [ref=f1e1295]:
+                        - text: F.Y. Shi,
+                        - emphasis [ref=f1e1296]: et al.
+                      - generic [ref=f1e1297]:
+                        - text: Use of poly(ethylene glycol)s to regulate poly(3-hydroxybutyrate) molecular weight during
+                        - emphasis [ref=f1e1298]: Alcaligenes eutrophus
+                        - text: cultivations
+                    - generic [ref=f1e1299]: Macromolecules, 29 (1996), pp. 7753-7758
+                    - generic [ref=f1e1300]:
+                      - link [ref=f1e1301] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-0030284650&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e1302]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e1303]
+                      - link [ref=f1e1305] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Use%20of%20polys%20to%20regulate%20poly%20molecular%20weight%20during%20Alcaligenes%20eutrophus%20cultivations&publication_year=1996&author=F.Y.%20Shi
+                        - generic [ref=f1e1306]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e1307]
+                - listitem [ref=f1e1309]:
+                  - link "39" [ref=f1e1311] [cursor=pointer]:
+                    - /url: "#bbib0385"
+                  - generic [ref=f1e1313]:
+                    - generic [ref=f1e1314]:
+                      - generic [ref=f1e1315]:
+                        - text: R. Ashby,
+                        - emphasis [ref=f1e1316]: et al.
+                      - generic [ref=f1e1317]:
+                        - text: Use of poly(ethylene glycol) to control the end group structure and molecular weight of poly(3-hydroxybutyrate) formed by
+                        - emphasis [ref=f1e1318]: Alcaligenes latus
+                        - text: DSM 1122
+                    - generic [ref=f1e1319]: Tetrahedron, 53 (1997), pp. 15209-15223
+                    - generic [ref=f1e1320]:
+                      - link [ref=f1e1321] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-0030668860&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e1322]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e1323]
+                      - link [ref=f1e1325] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Use%20of%20poly%20to%20control%20the%20end%20group%20structure%20and%20molecular%20weight%20of%20poly%20formed%20by%20Alcaligenes%20latus%20DSM%201122&publication_year=1997&author=R.%20Ashby
+                        - generic [ref=f1e1326]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e1327]
+                - listitem [ref=f1e1329]:
+                  - link "40" [ref=f1e1331] [cursor=pointer]:
+                    - /url: "#bbib0390"
+                  - generic [ref=f1e1333]:
+                    - generic [ref=f1e1334]:
+                      - generic [ref=f1e1335]:
+                        - text: E.N. Pederson,
+                        - emphasis [ref=f1e1336]: et al.
+                      - generic [ref=f1e1337]: Bacterial synthesis of PHA block copolymers
+                    - generic [ref=f1e1338]: Biomacromolecules, 7 (2006), pp. 1904-1911
+                    - generic [ref=f1e1339]:
+                      - link [ref=f1e1340] [cursor=pointer]:
+                        - /url: https://doi.org/10.1021/bm0510101
+                        - generic [ref=f1e1341]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e1342]
+                      - link [ref=f1e1344] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-33745622433&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e1345]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e1346]
+                      - link [ref=f1e1348] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Bacterial%20synthesis%20of%20PHA%20block%20copolymers&publication_year=2006&author=E.N.%20Pederson
+                        - generic [ref=f1e1349]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e1350]
+                - listitem [ref=f1e1352]:
+                  - link "41" [ref=f1e1354] [cursor=pointer]:
+                    - /url: "#bbib0395"
+                  - generic [ref=f1e1356]:
+                    - generic [ref=f1e1357]:
+                      - generic [ref=f1e1358]:
+                        - text: Q. Wang,
+                        - emphasis [ref=f1e1359]: et al.
+                      - generic [ref=f1e1360]: Production of block copolymer poly(3-hydroxybutyrate)-block-poly(3-hydroxypropionate) with adjustable structure from an inexpensive carbon source
+                    - generic [ref=f1e1361]: ACS Macro Lett., 2 (2013), pp. 996-1000
+                    - generic [ref=f1e1362]:
+                      - link [ref=f1e1363] [cursor=pointer]:
+                        - /url: https://doi.org/10.1021/mz400446g
+                        - generic [ref=f1e1364]:
+                          - text: Crossref
+                          - img "Opens in new window" [ref=f1e1365]
+                      - link [ref=f1e1367] [cursor=pointer]:
+                        - /url: https://www.scopus.com/inward/record.url?eid=2-s2.0-84888397225&partnerID=10&rel=R3.0.0
+                        - generic [ref=f1e1368]:
+                          - text: View in Scopus
+                          - img "Opens in new window" [ref=f1e1369]
+                      - link [ref=f1e1371] [cursor=pointer]:
+                        - /url: https://scholar.google.com/scholar_lookup?title=Production%20of%20block%20copolymer%20poly-block-poly%20with%20adjustable%20structure%20from%20an%20inexpensive%20carbon%20source&publication_year=2013&author=Q.%20Wang
+                        - generic [ref=f1e1372]:
+                          - text: Google Scholar
+                          - img "Opens in new window" [ref=f1e1373]
+            - region "Cited by" [ref=f1e1376]:
+              - heading "Cited by (0)" [level=2] [ref=f1e1379]
+            - link "View Abstract" [ref=f1e1380] [cursor=pointer]:
+              - /url: /science/article/abs/pii/S0167779915001584
+            - generic [ref=f1e1382]: Copyright © 2015 Elsevier Ltd. All rights reserved.
+          - complementary "Related content" [ref=f1e1384]:
+            - generic [ref=f1e1385]:
+              - button [expanded] [ref=f1e1387] [cursor=pointer]:
+                - heading "Recommended articles" [level=2] [ref=f1e1390]
+              - generic [ref=f1e1393]: Loading...
+            - generic [ref=f1e1395]:
+              - button [expanded] [ref=f1e1397] [cursor=pointer]:
+                - heading "Article Metrics" [level=2] [ref=f1e1400]
+              - generic [ref=f1e1404]:
+                - heading "Citations" [level=3] [ref=f1e1405]
+                - list [ref=f1e1406]:
+                  - listitem [ref=f1e1407]:
+                    - generic [ref=f1e1408]: Citation Indexes
+                    - generic [ref=f1e1409]: "71"
+                - heading "Captures" [level=3] [ref=f1e1410]
+                - list [ref=f1e1411]:
+                  - listitem [ref=f1e1412]:
+                    - generic [ref=f1e1413]: Mendeley Readers
+                    - generic [ref=f1e1414]: "117"
+                - generic [ref=f1e1415]:
+                  - img "PlumX Metrics Logo" [ref=f1e1416]
+                  - link [ref=f1e1417] [cursor=pointer]:
+                    - /url: https://plu.mx/plum/a/?doi=10.1016%2Fj.tibtech.2015.07.006&theme=plum-sciencedirect-theme&hideUsage=true
+                    - generic [ref=f1e1418]:
+                      - text: View details
+                      - img "Opens in new window" [ref=f1e1419]
+    - contentinfo [ref=f1e1421]:
+      - link "Elsevier home page (opens in a new tab)" [ref=f1e1423] [cursor=pointer]:
+        - /url: https://www.elsevier.com/
+        - img "Elsevier logo with wordmark" [ref=f1e1424]
+      - generic [ref=f1e1425]:
+        - list [ref=f1e1427]:
+          - listitem [ref=f1e1428]:
+            - link [ref=f1e1429] [cursor=pointer]:
+              - /url: https://www.elsevier.com/solutions/sciencedirect
+              - generic [ref=f1e1430]:
+                - text: About ScienceDirect
+                - img "Opens in new window" [ref=f1e1431]
+          - listitem [ref=f1e1433]:
+            - link "Remote access" [ref=f1e1434] [cursor=pointer]:
+              - /url: /user/institution/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS0167779915001584
+          - listitem [ref=f1e1436]:
+            - link [ref=f1e1437] [cursor=pointer]:
+              - /url: https://service.elsevier.com/app/contact/supporthub/sciencedirect/
+              - generic [ref=f1e1438]:
+                - text: Contact and support
+                - img "Opens in new window" [ref=f1e1439]
+          - listitem [ref=f1e1441]:
+            - link [ref=f1e1442] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/elsevier-website-terms-and-conditions
+              - generic [ref=f1e1443]:
+                - text: Terms and conditions
+                - img "Opens in new window" [ref=f1e1444]
+          - listitem [ref=f1e1446]:
+            - link [ref=f1e1447] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/privacy-policy
+              - generic [ref=f1e1448]:
+                - text: Privacy policy
+                - img "Opens in new window" [ref=f1e1449]
+          - listitem [ref=f1e1451]:
+            - button "Cookie settings" [ref=f1e1452] [cursor=pointer]
+        - paragraph [ref=f1e1453]: "All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply."
+      - link "RELX home page (opens in a new tab)" [ref=f1e1455] [cursor=pointer]:
+        - /url: https://www.relx.com/
+        - img "RELX group home page" [ref=f1e1456]

@@ -1,0 +1,793 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e4] [cursor=pointer]:
+    - /url: "#main"
+  - complementary "Advertisement" [ref=e5]:
+    - generic [ref=e7]:
+      - paragraph [ref=e8]: Advertisement
+      - iframe [ref=e11]:
+        - link [ref=f15e2] [cursor=pointer]:
+          - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjss2ZfROboAgmdOvtshZ264aGduzw4A7zwp2J23XzKtoiZKnDn1rkNEpgFyVL_zntnSArhhPsEcRnnmgpOgSLEBFuoHlu1r2MMFHnYoEm64yR50hZVoT2fprfrwzvrnusD9pIrBeg7I5jhD-66kSMPAkCrto6S_6iAUzqHoJNOhsu40M_FD-a9YGJ04uq8U5Obl9AJLXPwrJg5Zwk8AmcSO1ihXKkVscbeDYLypEDiJlK75kT2ECjQhsIHzvqXhRo0HMzsQdRBuCkv-c0oxZuW93AKS3aTnnagSLvVI2BVBYP-43xyjyOzTRd6EdQLV_bVxLJ6xRQjTiuKJKOxkYWKWEwYBDmZwDO76QYlQq_dRpprmIljEsIt3IAKBRcw42_2asf_KeJAPKUIz-e1IHqRBJA1kvtDunm84v&sai=AMfl-YSQI61eJAdyk440DpiEWPo6pKz5h279IdCjg_gNfOXgHj7Bvb5QWLtZR-IN0-PB6h8eYBg4yyv4VGhsmU6NGBu30rge4fngSJkLnCOPW_TMnkAqq1VJwUDwytAegp69pWEvZEHFCsQVdrPEx5ZZENgNVdieX_tLr-F2_MHbo-lUC1IZnTfGiTXjdbPWmbfSgGvSAAY18VJLShx7uKYJFgnJiWuYqIP_OooHso_DuDSr0EBd10rXeyEPH_UDazf1vhdOTngsIwBhoVYNsEJXYkRYdLCWG7JOQNTov8j-86S_0WWSjerfBGiykROw30So9H-OPJH_XNeZe2mEV3eFNBf8dMnE7sxGD_r6-e6gxBvRjGe8TW7rHxeTAjwEBOmoiMdjvBFCvsOux_WZxQ&sig=Cg0ArKJSzPSs6QQjFwcv&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://link.springer.com/journal/253%3Futm_medium%3Dinternal_display%26utm_source%3Dslink%26utm_content%3Dleaderboard_DRVMANUSUB%26utm_term%3Dnull%26utm_campaign%3DCONR_00253_CON1_GL_PJNL_06SKH_IntD-RT2-S1
+          - 'img "Advertisement from Springer Nature: Applied Microbiology and Biotechnology: Explore our journal" [ref=f15e3]'
+  - banner [ref=e12]:
+    - generic [ref=e13]:
+      - link [ref=e15] [cursor=pointer]:
+        - /url: https://link.springer.com
+        - img "Springer Nature Link" [ref=e16]
+      - link "Log in" [ref=e17] [cursor=pointer]:
+        - /url: https://idp.springer.com/auth/personal/springernature?redirect_uri=https://link.springer.com/article/10.1023/B:BILE.0000036599.15302.e5
+    - navigation "Site" [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - link "Find a journal" [ref=e21] [cursor=pointer]:
+            - /url: https://link.springer.com/journals/
+          - link "Publish with us" [ref=e22] [cursor=pointer]:
+            - /url: https://www.springernature.com/gp/authors
+          - link "Track your research" [ref=e23] [cursor=pointer]:
+            - /url: https://link.springernature.com/home/
+        - generic [ref=e24]:
+          - button "Search" [ref=e26] [cursor=pointer]
+          - generic [ref=e29]:
+            - link "Saved research" [ref=e31] [cursor=pointer]:
+              - /url: /saved-research
+            - link "Cart" [ref=e35] [cursor=pointer]:
+              - /url: https://order.springer.com/public/cart
+  - article [ref=e38]:
+    - region "About this article" [ref=e39]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - navigation "breadcrumbs" [ref=e43]:
+            - list [ref=e44]:
+              - listitem [ref=e45]:
+                - link "Home" [ref=e46] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e49]:
+                - link "Biotechnology Letters" [ref=e50] [cursor=pointer]:
+                  - /url: /journal/10529
+              - listitem [ref=e53]: Article
+          - heading "Review Degradation of microbial polyesters" [level=1] [ref=e54]
+          - list [ref=e55]:
+            - listitem [ref=e56]:
+              - text: "Published:"
+              - time [ref=e57]: August 2004
+          - list [ref=e58]:
+            - listitem [ref=e59]: Volume 26, pages 1181–1189 (2004)
+            - listitem [ref=e60]:
+              - link "Cite this article" [ref=e61] [cursor=pointer]:
+                - /url: "#citeas"
+          - generic [ref=e62]:
+            - paragraph [ref=e63]: Access provided by Southern University of Science and Technology
+            - generic [ref=e66]:
+              - link "Download PDF" [ref=e69] [cursor=pointer]:
+                - /url: /content/pdf/10.1023/B%3ABILE.0000036599.15302.e5.pdf
+              - link "Save article" [ref=e74] [cursor=pointer]:
+                - /url: /article/10.1023/B:BILE.0000036599.15302.e5/save-research?_csrf=6wo5L3QzjTqQY7FQs_MexRqHZcvxyIkR
+        - generic [ref=e77]:
+          - link "Biotechnology Letters" [ref=e78] [cursor=pointer]:
+            - /url: /journal/10529
+          - link "Aims and scope" [ref=e81] [cursor=pointer]:
+            - /url: /journal/10529/aims-and-scope
+          - link "Submit manuscript" [ref=e84] [cursor=pointer]:
+            - /url: https://submission.springernature.com/new-submission/10529/3
+    - generic [ref=e87]:
+      - main [ref=e88]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Review Degradation of microbial polyesters
+          - link "Download PDF" [ref=e95] [cursor=pointer]:
+            - /url: /content/pdf/10.1023/B%3ABILE.0000036599.15302.e5.pdf
+        - generic [ref=e100]:
+          - list [ref=e101]:
+            - listitem [ref=e102]:
+              - link "Yutaka Tokiwa" [ref=e103] [cursor=pointer]:
+                - /url: "#auth-Yutaka-Tokiwa-Aff1"
+              - text: "&"
+            - listitem [ref=e106]:
+              - link "Buenaventurada P. Calabia" [ref=e107] [cursor=pointer]:
+                - /url: "#auth-Buenaventurada_P_-Calabia-Aff1"
+          - list [ref=e109]:
+            - listitem [ref=e110]:
+              - paragraph [ref=e111]: 4114 Accesses
+            - listitem [ref=e114]:
+              - paragraph [ref=e115]: 329 Citations
+            - listitem [ref=e118]:
+              - paragraph [ref=e119]: 6 Altmetric
+            - listitem [ref=e122]:
+              - paragraph [ref=e123]:
+                - link "Explore all metrics" [ref=e124] [cursor=pointer]:
+                  - /url: /article/10.1023/B:BILE.0000036599.15302.e5/metrics
+        - generic [ref=e127]:
+          - region [ref=e128]:
+            - generic [ref=e129]:
+              - heading "Abstract" [level=2] [ref=e130]
+              - paragraph [ref=e132]: Microbial polyhydroxyalkanoates (PHAs), one of the largest groups of thermoplastic polyesters are receiving much attention as biodegradable substitutes for non-degradable plastics. Poly(d-3-hydroxybutyrate) (PHB) is the most ubiquitous and most intensively studied PHA. Microorganisms degrading these polyesters are widely distributed in various environments. Although various PHB-degrading microorganisms and PHB depolymerases have been studied and characterized, there are still many groups of microorganisms and enzymes with varying properties awaiting various applications. Distributions of PHB-degrading microorganisms, factors affecting the biodegrada- bility of PHB, and microbial and enzymatic degradation of PHB are discussed in this review. We also propose an application of a new isolated, thermophilic PHB-degrading microorganism, Streptomyces strain MG, for producing pure monomers of PHA and useful chemicals, including d-3-hydroxycarboxylic acids such as d-3-hydroxybutyric acid, by enzymatic degradation of PHB.
+          - region [ref=e135]:
+            - generic [ref=e136]:
+              - heading "Article PDF" [level=2] [ref=e137]
+              - iframe [ref=e139]:
+                
+          - region [ref=e140]:
+            - heading "Similar content being viewed by others" [level=3] [ref=e141]
+            - generic [ref=e142]:
+              - article [ref=e144]:
+                - generic [ref=e146]:
+                  - heading [level=3] [ref=e147]:
+                    - 'link "Polyhydroxybutyrate (PHB): microbial synthesis and waste valorisation for sustainable bioplastics" [ref=e148] [cursor=pointer]':
+                      - /url: https://link.springer.com/10.1007/s42452-026-08715-w?fromPaywallRec=false
+                  - generic [ref=e149]:
+                    - text: Article Open access
+                    - generic [ref=e150]: 12 May 2026
+              - article [ref=e152]:
+                - generic [ref=e154]:
+                  - heading [level=3] [ref=e155]:
+                    - link "The Production and Applications of Microbial-Derived Polyhydroxybutyrates" [ref=e156] [cursor=pointer]:
+                      - /url: https://link.springer.com/10.1007/978-981-16-0045-6_1?fromPaywallRec=false
+                  - generic [ref=e157]: Chapter © 2021
+              - article [ref=e159]:
+                - generic [ref=e161]:
+                  - heading [level=3] [ref=e162]:
+                    - 'link "Bioplastics: A Sustainable Approach Toward Healthier Environment" [ref=e163] [cursor=pointer]':
+                      - /url: https://link.springer.com/10.1007/978-981-10-4732-9_15?fromPaywallRec=false
+                  - generic [ref=e164]: Chapter © 2017
+          - region [ref=e165]:
+            - heading "Explore related subjects" [level=3] [ref=e166]
+            - generic [ref=e167]: Discover the latest articles, books and news in related subjects, suggested using machine learning.
+            - list [ref=e168]:
+              - listitem [ref=e169]:
+                - link "Archaea" [ref=e170] [cursor=pointer]:
+                  - /url: /subjects/archaea
+              - listitem [ref=e171]:
+                - link "Biopolymers" [ref=e172] [cursor=pointer]:
+                  - /url: /subjects/biopolymers
+              - listitem [ref=e173]:
+                - link "Industrial Microbiology" [ref=e174] [cursor=pointer]:
+                  - /url: /subjects/industrial-microbiology
+              - listitem [ref=e175]:
+                - link "Microbe" [ref=e176] [cursor=pointer]:
+                  - /url: /subjects/microbe
+              - listitem [ref=e177]:
+                - link "Microbial Communities" [ref=e178] [cursor=pointer]:
+                  - /url: /subjects/microbial-communities
+              - listitem [ref=e179]:
+                - link "Polyhydroxyalkanoates" [ref=e180] [cursor=pointer]:
+                  - /url: /subjects/polyhydroxyalkanoates
+          - region [ref=e182]:
+            - generic [ref=e183]:
+              - heading "References" [level=2] [ref=e184]
+              - generic [ref=e186]:
+                - list [ref=e187]:
+                  - listitem [ref=e188]:
+                    - paragraph [ref=e189]: "Anderson AJ, Dawes EA (1990) Occurrence, metabolism, metabolic rule, and industrial uses of bacterial polyhydroxyalkanoates. Microbiol. Rev. 54: 450-472."
+                    - paragraph [ref=e190]:
+                      - link "PubMed reference 1" [ref=e191] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=2087222
+                        - text: PubMed
+                      - link "Google Scholar reference 1" [ref=e192] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Occurrence%2C%20metabolism%2C%20metabolic%20rule%2C%20and%20industrial%20uses%20of%20bacterial%20polyhydroxyalkanoates&journal=Microbiol.%20Rev.&volume=54&pages=450-472&publication_year=1990&author=Anderson%2CAJ&author=Dawes%2CEA
+                        - text: Google Scholar
+                  - listitem [ref=e193]:
+                    - paragraph [ref=e194]: Bachmann BM, Seebach D (1999) Investigation of the enzymatic cleavage of diastereomeric oligo(3-hydroxybutanoates) containing two to eight HB subunits. A model for the stereo-selectivity of PHB depolymerase from Alcaligenes faecalis. Macromolecules 32:1777-1784.
+                    - paragraph [ref=e195]:
+                      - link "Article reference 2" [ref=e196] [cursor=pointer]:
+                        - /url: https://doi.org/10.1021%2Fma981496w
+                        - text: Article
+                      - link "Google Scholar reference 2" [ref=e197] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Investigation%20of%20the%20enzymatic%20cleavage%20of%20diastereomeric%20oligo%283-hydroxybutanoates%29%20containing%20two%20to%20eight%20HB%20subunits.%20A%20model%20for%20the%20stereo-selectivity%20of%20PHB%20depolymerase%20from%20Alcaligenes%20faecalis&journal=Macromolecules&doi=10.1021%2Fma981496w&volume=32&pages=1777-1784&publication_year=1999&author=Bachmann%2CBM&author=Seebach%2CD
+                        - text: Google Scholar
+                  - listitem [ref=e198]:
+                    - paragraph [ref=e199]: "Calabia BP, Tokiwa Y (2004) Microbial degradation of poly(D-3-hydroxybutyrate) by a new thermophilic Streptomycesisolate. Biotechnol. Lett. 26: 15-19."
+                    - paragraph [ref=e200]:
+                      - link "Article reference 3" [ref=e201] [cursor=pointer]:
+                        - /url: https://doi.org/10.1023%2FB%3ABILE.0000009453.81444.51
+                        - text: Article
+                      - link "PubMed reference 3" [ref=e202] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15005145
+                        - text: PubMed
+                      - link "Google Scholar reference 3" [ref=e203] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Microbial%20degradation%20of%20poly%28D-3-hydroxybutyrate%29%20by%20a%20new%20thermophilic%20Streptomycesisolate&journal=Biotechnol.%20Lett.&doi=10.1023%2FB%3ABILE.0000009453.81444.51&volume=26&pages=15-19&publication_year=2004&author=Calabia%2CBP&author=Tokiwa%2CY
+                        - text: Google Scholar
+                  - listitem [ref=e204]:
+                    - paragraph [ref=e205]: Chiba T, Nakai T (1985) A synthetic approach to (+)-thienamycin from methyl (R)-(-)3-hydroxybutanoate. A new entry to (3R,4R)-3-[(R)-1-hydroxyethyl]-4-acetoxy-2-azetidinone. Chem. Lett.651-654.
+                  - listitem [ref=e206]:
+                    - paragraph [ref=e207]: "Chowdhury AA (1963) Poly-β-hydroxybuttersaure abbauende Bakterien und exo-Enzyme. Arch. Mikrobiol.47: 167-200."
+                    - paragraph [ref=e208]:
+                      - link "PubMed reference 5" [ref=e209] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=14106079
+                        - text: PubMed
+                      - link "Google Scholar reference 5" [ref=e210] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Poly-%CE%B2-hydroxybuttersaure%20abbauende%20Bakterien%20und%20exo-Enzyme&journal=Arch.%20Mikrobiol.&volume=47&pages=167-200&publication_year=1963&author=Chowdhury%2CAA
+                        - text: Google Scholar
+                  - listitem [ref=e211]:
+                    - paragraph [ref=e212]: "Doi Y (1990) Microbial Polyesters. New York: VCH."
+                    - paragraph [ref=e213]:
+                      - link "Google Scholar reference 6" [ref=e214] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Microbial%20Polyesters&publication_year=1990&author=Doi%2CY
+                        - text: Google Scholar
+                  - listitem [ref=e215]:
+                    - paragraph [ref=e216]: "Doi Y, Kitamura S, Abe H (1995) Microbial synthesis and characterization of poly(3-hydroxybutyrate-co-3-hydroxyhexanoate). Macromolecules 28: 4822-4828."
+                    - paragraph [ref=e217]:
+                      - link "Google Scholar reference 7" [ref=e218] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Microbial%20synthesis%20and%20characterization%20of%20poly%283-hydroxybutyrate-co-3-hydroxyhexanoate%29&journal=Macromolecules&volume=28&pages=4822-4828&publication_year=1995&author=Doi%2CY&author=Kitamura%2CS&author=Abe%2CH
+                        - text: Google Scholar
+                  - listitem [ref=e219]:
+                    - paragraph [ref=e220]: "Doi Y, Tamaki A, Kunioka M, Soga K (1988) Production of copolyesters of 3-hydroxybutyrate and 3-hydroxyvalerate by Alcaligenes eutrophusfrom butyric and pentanoic acid.Appl. Microbiol. Biotechnol. 28: 330-334."
+                    - paragraph [ref=e221]:
+                      - link "Article reference 8" [ref=e222] [cursor=pointer]:
+                        - /url: https://link.springer.com/doi/10.1007/BF00268190
+                        - text: Article
+                      - link "Google Scholar reference 8" [ref=e223] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Production%20of%20copolyesters%20of%203-hydroxybutyrate%20and%203-hydroxyvalerate%20by%20Alcaligenes%20eutrophusfrom%20butyric%20and%20pentanoic%20acid&journal=Appl.%20Microbiol.%20Biotechnol.&doi=10.1007%2FBF00268190&volume=28&pages=330-334&publication_year=1988&author=Doi%2CY&author=Tamaki%2CA&author=Kunioka%2CM&author=Soga%2CK
+                        - text: Google Scholar
+                  - listitem [ref=e224]:
+                    - paragraph [ref=e225]: "Gagnon KD, Lenz RW, Farris RJ, Fuller RC (1992) The mechanical properties of a thermoplastic elastomer produced by the bacterium Pseudomonas oleovorans. Rubber Chem. Technol. 65: 761-777."
+                    - paragraph [ref=e226]:
+                      - link "Google Scholar reference 9" [ref=e227] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=The%20mechanical%20properties%20of%20a%20thermoplastic%20elastomer%20produced%20by%20the%20bacterium%20Pseudomonas%20oleovorans&journal=Rubber%20Chem.%20Technol.&volume=65&pages=761-777&publication_year=1992&author=Gagnon%2CKD&author=Lenz%2CRW&author=Farris%2CRJ&author=Fuller%2CRC
+                        - text: Google Scholar
+                  - listitem [ref=e228]:
+                    - paragraph [ref=e229]: "Holmes PA (1985) Applications of PHB-a microbially produced biodegradable thermoplastics. Phys. Technol. 16: 32-36."
+                    - paragraph [ref=e230]:
+                      - link "Article reference 10" [ref=e231] [cursor=pointer]:
+                        - /url: https://doi.org/10.1088%2F0305-4624%2F16%2F1%2F305
+                        - text: Article
+                      - link "Google Scholar reference 10" [ref=e232] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Applications%20of%20PHB-a%20microbially%20produced%20biodegradable%20thermoplastics&journal=Phys.%20Technol&doi=10.1088%2F0305-4624%2F16%2F1%2F305&volume=16&pages=32-36&publication_year=1985&author=Holmes%2CPA
+                        - text: Google Scholar
+                  - listitem [ref=e233]:
+                    - paragraph [ref=e234]: "Holmes PA (1988) Biologically produced PHA polymers and copolymers.In: Basset DC, ed. Developments in Crystalline Polymers, Vol. 2. London: Elsevier, pp 1-65."
+                    - paragraph [ref=e235]:
+                      - link "Google Scholar reference 11" [ref=e236] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Biologically%20produced%20PHA%20polymers%20and%20copolymers&pages=1-65&publication_year=1988&author=Holmes%2CPA
+                        - text: Google Scholar
+                  - listitem [ref=e237]:
+                    - paragraph [ref=e238]: "Jaeger KE, Ransac S, Dijkstra BW, Colson C, Heuvel Mvan, Misset O (1994) Bacterial lipases. FEMS Microbiol. Rev. 15: 29-63."
+                    - paragraph [ref=e239]:
+                      - link "PubMed reference 12" [ref=e240] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7946464
+                        - text: PubMed
+                      - link "Google Scholar reference 12" [ref=e241] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Bacterial%20lipases&journal=FEMS%20Microbiol.%20Rev.&volume=15&pages=29-63&publication_year=1994&author=Jaeger%2CKE&author=Ransac%2CS&author=Dijkstra%2CBW&author=Colson%2CC&author=Heuvel%2CM.&author=Misset%2CO
+                        - text: Google Scholar
+                  - listitem [ref=e242]:
+                    - paragraph [ref=e243]: "Jaeger KE, Steinbuchel A, Jendrossek D (1995) Substrate specificities of bacterial polyhydroxyalkanoate depolymerases and lipases: bacterial lipases hydrolyze poly(ω-hydroxyalkanoates). Appl. Environ. Microbiol. 61: 311-318."
+                    - paragraph [ref=e244]:
+                      - link "Google Scholar reference 13" [ref=e245] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Substrate%20specificities%20of%20bacterial%20polyhydroxyalkanoate%20depolymerases%20and%20lipases%3A%20bacterial%20lipases%20hydrolyze%20poly%28%CF%89-hydroxyalkanoates%29&journal=Appl.%20Environ.%20Microbiol.&volume=61&pages=311-318&publication_year=1995&author=Jaeger%2CKE&author=Steinbuchel%2CA&author=Jendrossek%2CD
+                        - text: Google Scholar
+                  - listitem [ref=e246]:
+                    - paragraph [ref=e247]: "Jendrossek D (1998) Microbial degradation of polyesters: a review on extracellular poly-(hydroxyalkanoic acid) depolymerase. Polym. Degrad. Stab. 59: 317-325."
+                    - paragraph [ref=e248]:
+                      - link "Article reference 14" [ref=e249] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2FS0141-3910%2897%2900190-0
+                        - text: Article
+                      - link "Google Scholar reference 14" [ref=e250] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Microbial%20degradation%20of%20polyesters%3A%20a%20review%20on%20extracellular%20poly-%28hydroxyalkanoic%20acid%29%20depolymerase&journal=Polym.%20Degrad.%20Stab.&doi=10.1016%2FS0141-3910%2897%2900190-0&volume=59&pages=317-325&publication_year=1998&author=Jendrossek%2CD
+                        - text: Google Scholar
+                  - listitem [ref=e251]:
+                    - paragraph [ref=e252]: "Jendrossek D (2001) Microbial degradation of polyesters. In: Scheper T, ed. Biopolyesters. Advances in Biochemical Engineering/ Biotechnology, Berlin, Heidelberg: Springer-Verlag, pp. 293-325."
+                    - paragraph [ref=e253]:
+                      - link "Google Scholar reference 15" [ref=e254] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Microbial%20degradation%20of%20polyesters&pages=293-325&publication_year=2001&author=Jendrossek%2CD
+                        - text: Google Scholar
+                  - listitem [ref=e255]:
+                    - paragraph [ref=e256]: "Jendrossek D, Knoke I, Habibian RB, Steinbuchel A, Schlegel HG (1993) Degradation of poly(3-hydroxybutyrate), PHB, by bacteria and purification of a novel PHB depolymerase from Comamonassp. J. Environ. Polym Degrad. 1: 53-63."
+                    - paragraph [ref=e257]:
+                      - link "Google Scholar reference 16" [ref=e258] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Degradation%20of%20poly%283-hydroxybutyrate%29%2C%20PHB%2C%20by%20bacteria%20and%20purification%20of%20a%20novel%20PHB%20depolymerase%20from%20Comamonassp.&journal=J.%20Environ.%20Polym%20Degrad.&volume=1&pages=53-63&publication_year=1993&author=Jendrossek%2CD&author=Knoke%2CI&author=Habibian%2CRB&author=Steinbuchel%2CA&author=Schlegel%2CHG
+                        - text: Google Scholar
+                  - listitem [ref=e259]:
+                    - paragraph [ref=e260]: "Jendrossek D, Schirmer A, Schlegel HG (1996) Biodegradation of polyhydroxyalkanoic acids. Appl. Microbiol Biotechnol. 46: 451-463."
+                    - paragraph [ref=e261]:
+                      - link "PubMed reference 17" [ref=e262] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9008883
+                        - text: PubMed
+                      - link "Google Scholar reference 17" [ref=e263] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Biodegradation%20of%20polyhydroxyalkanoic%20acids&journal=Appl.%20Microbiol%20Biotechnol.&volume=46&pages=451-463&publication_year=1996&author=Jendrossek%2CD&author=Schirmer%2CA&author=Schlegel%2CHG
+                        - text: Google Scholar
+                  - listitem [ref=e264]:
+                    - paragraph [ref=e265]: "Kasuya K, Doi Y, Yao T (1994) Enzymatic degradation of poly[(R)-3-hydroxy-butyrate] by Comamonas testosteroneATSU of soil bacterium. Polym. Degrad. Stab. 45: 379-386."
+                    - paragraph [ref=e266]:
+                      - link "Article reference 18" [ref=e267] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2F0141-3910%2894%2990208-9
+                        - text: Article
+                      - link "Google Scholar reference 18" [ref=e268] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Enzymatic%20degradation%20of%20poly%5B%28R%29-3-hydroxy-butyrate%5D%20by%20Comamonas%20testosteroneATSU%20of%20soil%20bacterium&journal=Polym.%20Degrad.%20Stab.&doi=10.1016%2F0141-3910%2894%2990208-9&volume=45&pages=379-386&publication_year=1994&author=Kasuya%2CK&author=Doi%2CY&author=Yao%2CT
+                        - text: Google Scholar
+                  - listitem [ref=e269]:
+                    - paragraph [ref=e270]: "Kobayashi T, Shiraki M, Abe T, Sugiyama A, Saito T (2003) Purification and properties of an intracellular 3-hydroxybutyrateoligomer hydrolase (PhaZ2) in Ralstonia eutrophaH16 and its identification as a novel intracellular poly(3-hydroxybutyrate) depolymerase. J. Bacteriol. 185: 3485-3490."
+                    - paragraph [ref=e271]:
+                      - link "PubMed reference 19" [ref=e272] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12775684
+                        - text: PubMed
+                      - link "Google Scholar reference 19" [ref=e273] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Purification%20and%20properties%20of%20an%20intracellular%203-hydroxybutyrateoligomer%20hydrolase%20%28PhaZ2%29%20in%20Ralstonia%20eutrophaH16%20and%20its%20identification%20as%20a%20novel%20intracellular%20poly%283-hydroxybutyrate%29%20depolymerase&journal=J.%20Bacteriol.&volume=185&pages=3485-3490&publication_year=2003&author=Kobayashi%2CT&author=Shiraki%2CM&author=Abe%2CT&author=Sugiyama%2CA&author=Saito%2CT
+                        - text: Google Scholar
+                  - listitem [ref=e274]:
+                    - paragraph [ref=e275]: "-caprolactone), poly(1,4-butylene adipate) and poly(vinyl acetate)}. Polym. Degrad. Stab. 35: 87-93."
+                    - paragraph [ref=e276]:
+                      - link "Article reference 20" [ref=e277] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2F0141-3910%2892%2990139-V
+                        - text: Article
+                      - link "Google Scholar reference 20" [ref=e278] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Enzymatic%20degradation%20and%20morphologies%20of%20binary%20blends%20of%20microbial%20poly%283-hydroxybutyrate%29%20and%20poly%28_-caprolactone%29%2C%20poly%281%2C4-butylene%20adipate%29%20and%20poly%28vinyl%20acetate%29&journal=Polym.%20Degrad.%20Stab.&doi=10.1016%2F0141-3910%2892%2990139-V&volume=35&pages=87-93&publication_year=1992&author=Kumagai%2CY&author=Doi%2CY
+                        - text: Google Scholar
+                  - listitem [ref=e279]:
+                    - paragraph [ref=e280]: "-butanediol or from 3-hydroxybutyrate by Pseudomonassp. A33.}Appl. Microbiol. Biotechnol. 42: 901-909."
+                    - paragraph [ref=e281]:
+                      - link "Article reference 21" [ref=e282] [cursor=pointer]:
+                        - /url: https://link.springer.com/doi/10.1007/s002530050350
+                        - text: Article
+                      - link "Google Scholar reference 21" [ref=e283] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Biosynthesis%20of%20copolymers%20consisting%20of%203-hydroxybutyric%20acid%20and%20medium-chain-length%203-hydroxyalkanoic%20acids%20from%201-3_-butanediol%20or%20from%203-hydroxybutyrate%20by%20Pseudomonassp.%20A33.&journal=Appl.%20Microbiol.%20Biotechnol.&doi=10.1007%2Fs002530050350&volume=42&pages=901-909&publication_year=1995&author=Lee%2CEY&author=Jendrossek%2CD&author=Schirmer%2CA&author=Choi%2CCY&author=Steinbuchel%2CA
+                        - text: Google Scholar
+                  - listitem [ref=e284]:
+                    - paragraph [ref=e285]: "Lee SY (1996) Bacterial polyhydroxyalkanoates. Biotechnol. Bioeng. 49: 1-14."
+                    - paragraph [ref=e286]:
+                      - link "Google Scholar reference 22" [ref=e287] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Bacterial%20polyhydroxyalkanoates&journal=Biotechnol.%20Bioeng.&volume=49&pages=1-14&publication_year=1996&author=Lee%2CSY
+                        - text: Google Scholar
+                  - listitem [ref=e288]:
+                    - paragraph [ref=e289]: "Lee SY, Hong S, Lee S, Park S (2004) Fermentative production of chemicals that can be used for polymer synthesis. Macromol. Biosci. 4: 157-164."
+                    - paragraph [ref=e290]:
+                      - link "Article reference 23" [ref=e291] [cursor=pointer]:
+                        - /url: https://doi.org/10.1002%2Fmabi.200300096
+                        - text: Article
+                      - link "PubMed reference 23" [ref=e292] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15468205
+                        - text: PubMed
+                      - link "Google Scholar reference 23" [ref=e293] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Fermentative%20production%20of%20chemicals%20that%20can%20be%20used%20for%20polymer%20synthesis&journal=Macromol.%20Biosci.&doi=10.1002%2Fmabi.200300096&volume=4&pages=157-164&publication_year=2004&author=Lee%2CSY&author=Hong%2CS&author=Lee%2CS&author=Park%2CS
+                        - text: Google Scholar
+                  - listitem [ref=e294]:
+                    - paragraph [ref=e295]: "Lee SY, Lee Y, Wang F (1999) Chiral compounds from bacterial polyesters: sugars to plastics to fine chemicals.Biotechnol. Bioeng. 65: 363-368."
+                    - paragraph [ref=e296]:
+                      - link "Article reference 24" [ref=e297] [cursor=pointer]:
+                        - /url: https://doi.org/10.1002%2F%28SICI%291097-0290%2819991105%2965%3A3%3C363%3A%3AAID-BIT15%3E3.0.CO%3B2-1
+                        - text: Article
+                      - link "PubMed reference 24" [ref=e298] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10486136
+                        - text: PubMed
+                      - link "Google Scholar reference 24" [ref=e299] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Chiral%20compounds%20from%20bacterial%20polyesters%3A%20sugars%20to%20plastics%20to%20fine%20chemicals&journal=Biotechnol.%20Bioeng.&doi=10.1002%2F%28SICI%291097-0290%2819991105%2965%3A3%3C363%3A%3AAID-BIT15%3E3.0.CO%3B2-1&volume=65&pages=363-368&publication_year=1999&author=Lee%2CSY&author=Lee%2CY&author=Wang%2CF
+                        - text: Google Scholar
+                  - listitem [ref=e300]:
+                    - paragraph [ref=e301]: "Martin DP, Williams SF (2003) Medical applications of poly-4-hydroxybutyrate: a strong flexible absorbable biomaterial. Biochem. Eng. J. 16: 97-105."
+                    - paragraph [ref=e302]:
+                      - link "Article reference 25" [ref=e303] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2FS1369-703X%2803%2900040-8
+                        - text: Article
+                      - link "Google Scholar reference 25" [ref=e304] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Medical%20applications%20of%20poly-4-hydroxybutyrate%3A%20a%20strong%20flexible%20absorbable%20biomaterial&journal=Biochem.%20Eng.%20J.&doi=10.1016%2FS1369-703X%2803%2900040-8&volume=16&pages=97-105&publication_year=2003&author=Martin%2CDP&author=Williams%2CSF
+                        - text: Google Scholar
+                  - listitem [ref=e305]:
+                    - paragraph [ref=e306]: "Mergaert J, Webb A, Anderson C, Wouters A, Swings J (1993) Microbial degradation of poly(3-hydroxybutyrate) and poly(3-hydroxybutyrate-co-3-hydroxyvalerate) in soils. Appl. Environ. Microbiol. 59: 3233-3238."
+                    - paragraph [ref=e307]:
+                      - link "PubMed reference 26" [ref=e308] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8250550
+                        - text: PubMed
+                      - link "Google Scholar reference 26" [ref=e309] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Microbial%20degradation%20of%20poly%283-hydroxybutyrate%29%20and%20poly%283-hydroxybutyrate-co-3-hydroxyvalerate%29%20in%20soils&journal=Appl.%20Environ.%20Microbiol.&volume=59&pages=3233-3238&publication_year=1993&author=Mergaert%2CJ&author=Webb%2CA&author=Anderson%2CC&author=Wouters%2CA&author=Swings%2CJ
+                        - text: Google Scholar
+                  - listitem [ref=e310]:
+                    - paragraph [ref=e311]: "Merrick JM, Doudoroff M (1964) Depolymerization of polyβ-hydroxybutyrate by an intracellular enzyme system. J. Bacteriol.88: 60-71."
+                    - paragraph [ref=e312]:
+                      - link "PubMed reference 27" [ref=e313] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=14197907
+                        - text: PubMed
+                      - link "Google Scholar reference 27" [ref=e314] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Depolymerization%20of%20poly%CE%B2-hydroxybutyrate%20by%20an%20intracellular%20enzyme%20system&journal=J.%20Bacteriol.&volume=88&pages=60-71&publication_year=1964&author=Merrick%2CJM&author=Doudoroff%2CM
+                        - text: Google Scholar
+                  - listitem [ref=e315]:
+                    - paragraph [ref=e316]: "Mukai K, Doi Y, Sema Y, Tomita K (1993) Substrate specificities in hydrolysis of polyhydroxyalkanoates by microbial esterases. Biotechnol. Lett. 15: 601-604."
+                    - paragraph [ref=e317]:
+                      - link "Google Scholar reference 28" [ref=e318] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Substrate%20specificities%20in%20hydrolysis%20of%20polyhydroxyalkanoates%20by%20microbial%20esterases&journal=Biotechnol.%20Lett.&volume=15&pages=601-604&publication_year=1993&author=Mukai%2CK&author=Doi%2CY&author=Sema%2CY&author=Tomita%2CK
+                        - text: Google Scholar
+                  - listitem [ref=e319]:
+                    - paragraph [ref=e320]: "Mukai K, Yamada K, Doi Y (1994) Efficient hydrolysis of polyhydroxyalkanoates by Pseudomonas stutzeriYM1414 isolated from lake water. Polym. Degrad. Stab. 43: 319-327."
+                    - paragraph [ref=e321]:
+                      - link "Article reference 29" [ref=e322] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2F0141-3910%2894%2990002-7
+                        - text: Article
+                      - link "Google Scholar reference 29" [ref=e323] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Efficient%20hydrolysis%20of%20polyhydroxyalkanoates%20by%20Pseudomonas%20stutzeriYM1414%20isolated%20from%20lake%20water&journal=Polym.%20Degrad.%20Stab.&doi=10.1016%2F0141-3910%2894%2990002-7&volume=43&pages=319-327&publication_year=1994&author=Mukai%2CK&author=Yamada%2CK&author=Doi%2CY
+                        - text: Google Scholar
+                  - listitem [ref=e324]:
+                    - paragraph [ref=e325]: "Nakayama K, Saito T, Fukui T, Shirakura Y, Tomita K (1985) Puri-fication and properties of extracellular poly(3-hydroxybutyrate) depolymerases from Pseudomonas lemoigne. Biochim. Biophys. Acta. 827: 63-72."
+                    - paragraph [ref=e326]:
+                      - link "PubMed reference 30" [ref=e327] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=3967030
+                        - text: PubMed
+                      - link "Google Scholar reference 30" [ref=e328] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Puri-fication%20and%20properties%20of%20extracellular%20poly%283-hydroxybutyrate%29%20depolymerases%20from%20Pseudomonas%20lemoigne.&journal=Biochim.%20Biophys.%20Acta.&volume=827&pages=63-72&publication_year=1985&author=Nakayama%2CK&author=Saito%2CT&author=Fukui%2CT&author=Shirakura%2CY&author=Tomita%2CK
+                        - text: Google Scholar
+                  - listitem [ref=e329]:
+                    - paragraph [ref=e330]: "Nishida H, Tokiwa Y (1992) Effects of higher order structure of poly(3-hydroxybutyrate) on its biodegradation I. Effects of heat treatment on microbial degradation. J. Appl. Polym. Sci. 46: 1467-1476."
+                    - paragraph [ref=e331]:
+                      - link "Article reference 31" [ref=e332] [cursor=pointer]:
+                        - /url: https://doi.org/10.1002%2Fapp.1992.070460818
+                        - text: Article
+                      - link "Google Scholar reference 31" [ref=e333] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Effects%20of%20higher%20order%20structure%20of%20poly%283-hydroxybutyrate%29%20on%20its%20biodegradation%20I.%20Effects%20of%20heat%20treatment%20on%20microbial%20degradation&journal=J.%20Appl.%20Polym.%20Sci.&doi=10.1002%2Fapp.1992.070460818&volume=46&pages=1467-1476&publication_year=1992&author=Nishida%2CH&author=Tokiwa%2CY
+                        - text: Google Scholar
+                  - listitem [ref=e334]:
+                    - paragraph [ref=e335]: "Distribution of poly(β-caprolactone) aerobic degrading microorganisms in different environments}. J. Environ. Polym. Degrad. 1: 227-233."
+                    - paragraph [ref=e336]:
+                      - link "Google Scholar reference 32" [ref=e337] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Distribution%20of%20poly%28%CE%B2-hydroxybutyrate%29%20and%20poly%28_-caprolactone%29%20aerobic%20degrading%20microorganisms%20in%20different%20environments&journal=J.%20Environ.%20Polym.%20Degrad.&volume=1&pages=227-233&publication_year=1993&author=Nishida%2CH&author=Tokiwa%2CY
+                        - text: Google Scholar
+                  - listitem [ref=e338]:
+                    - paragraph [ref=e339]: "Nishida H, Konno M, Ikeda A, Tokiwa Y (2000) Microbial degradation of poly(p-dioxanone) I. Isolation of degrading microorganisms and microbial decomposition in pure culture. Polym. Degrad. Stab. 68: 205-217."
+                    - paragraph [ref=e340]:
+                      - link "Article reference 33" [ref=e341] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2FS0141-3910%2800%2900003-3
+                        - text: Article
+                      - link "Google Scholar reference 33" [ref=e342] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Microbial%20degradation%20of%20poly%28p-dioxanone%29%20I.%20Isolation%20of%20degrading%20microorganisms%20and%20microbial%20decomposition%20in%20pure%20culture&journal=Polym.%20Degrad.%20Stab.&doi=10.1016%2FS0141-3910%2800%2900003-3&volume=68&pages=205-217&publication_year=2000&author=Nishida%2CH&author=Konno%2CM&author=Ikeda%2CA&author=Tokiwa%2CY
+                        - text: Google Scholar
+                  - listitem [ref=e343]:
+                    - paragraph [ref=e344]: "Nishida H, Suzuki S, Tokiwa Y (1998) Distribution of poly(β-propiolactone) aerobic degrading microorganisms in different environments. J. Environ. Polym. Degrad. 6: 43-58."
+                    - paragraph [ref=e345]:
+                      - link "Google Scholar reference 34" [ref=e346] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Distribution%20of%20poly%28%CE%B2-propiolactone%29%20aerobic%20degrading%20microorganisms%20in%20different%20environments&journal=J.%20Environ.%20Polym.%20Degrad.&volume=6&pages=43-58&publication_year=1998&author=Nishida%2CH&author=Suzuki%2CS&author=Tokiwa%2CY
+                        - text: Google Scholar
+                  - listitem [ref=e347]:
+                    - paragraph [ref=e348]: "Noda I, Satkowski MM, Dowrey AE, Marcott C (2004) Polymer alloys of Nodax copolymers and poly(lactic acid). Macromol. Biosci. 4: 269-275."
+                    - paragraph [ref=e349]:
+                      - link "PubMed reference 35" [ref=e350] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15468217
+                        - text: PubMed
+                      - link "Google Scholar reference 35" [ref=e351] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Polymer%20alloys%20of%20Nodax%20copolymers%20and%20poly%28lactic%20acid%29&journal=Macromol.%20Biosci.&volume=4&pages=269-275&publication_year=2004&author=Noda%2CI&author=Satkowski%2CMM&author=Dowrey%2CAE&author=Marcott%2CC
+                        - text: Google Scholar
+                  - listitem [ref=e352]:
+                    - paragraph [ref=e353]: "Pranamuda H, Tokiwa Y, Tanaka H (1997) Polylactide degradation by an Amycolatopsissp. Appl. Environ. Microbiol. 63: 1637-1640."
+                    - paragraph [ref=e354]:
+                      - link "Google Scholar reference 36" [ref=e355] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Polylactide%20degradation%20by%20an%20Amycolatopsissp.&journal=Appl.%20Environ.%20Microbiol.&volume=63&pages=1637-1640&publication_year=1997&author=Pranamuda%2CH&author=Tokiwa%2CY&author=Tanaka%2CH
+                        - text: Google Scholar
+                  - listitem [ref=e356]:
+                    - paragraph [ref=e357]: "Saegusa H, Shiraki M, Kanai C, Saito T (2001) Cloning of an intracellular poly[D(-)-3-hydroxybutyrate] depolymerase gene from Ralstonia eutrophaH16 and characterization of the gene product. J. Bacteriol. 183: 94-100."
+                    - paragraph [ref=e358]:
+                      - link "PubMed reference 37" [ref=e359] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11114905
+                        - text: PubMed
+                      - link "Google Scholar reference 37" [ref=e360] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Cloning%20of%20an%20intracellular%20poly%5BD%28-%29-3-hydroxybutyrate%5D%20depolymerase%20gene%20from%20Ralstonia%20eutrophaH16%20and%20characterization%20of%20the%20gene%20product&journal=J.%20Bacteriol.&volume=183&pages=94-100&publication_year=2001&author=Saegusa%2CH&author=Shiraki%2CM&author=Kanai%2CC&author=Saito%2CT
+                        - text: Google Scholar
+                  - listitem [ref=e361]:
+                    - paragraph [ref=e362]: "Sanchez JG, Tsuchii A, Tokiwa Y (2000) Degradation of polycaprolactone at 50 ?C by a thermotolerant Aspergillussp. Biotechnol. Lett. 22: 849-853."
+                    - paragraph [ref=e363]:
+                      - link "Article reference 38" [ref=e364] [cursor=pointer]:
+                        - /url: https://doi.org/10.1023%2FA%3A1005603112688
+                        - text: Article
+                      - link "Google Scholar reference 38" [ref=e365] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Degradation%20of%20polycaprolactone%20at%2050%20%3FC%20by%20a%20thermotolerant%20Aspergillussp.&journal=Biotechnol.%20Lett.&doi=10.1023%2FA%3A1005603112688&volume=22&pages=849-853&publication_year=2000&author=Sanchez%2CJG&author=Tsuchii%2CA&author=Tokiwa%2CY
+                        - text: Google Scholar
+                  - listitem [ref=e366]:
+                    - paragraph [ref=e367]: "Schober U, Thiel C, Jendrossek D (2000) Poly(3-hydroxyvalerate) depolymerase of Pseudomonas lemoigne. Appl. Environ. Microbiol. 66: 1385-1392."
+                    - paragraph [ref=e368]:
+                      - link "Article reference 39" [ref=e369] [cursor=pointer]:
+                        - /url: https://doi.org/10.1128%2FAEM.66.4.1385-1392.2000
+                        - text: Article
+                      - link "PubMed reference 39" [ref=e370] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10742216
+                        - text: PubMed
+                      - link "Google Scholar reference 39" [ref=e371] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Poly%283-hydroxyvalerate%29%20depolymerase%20of%20Pseudomonas%20lemoigne&journal=Appl.%20Environ.%20Microbiol.&doi=10.1128%2FAEM.66.4.1385-1392.2000&volume=66&pages=1385-1392&publication_year=2000&author=Schober%2CU&author=Thiel%2CC&author=Jendrossek%2CD
+                        - text: Google Scholar
+                  - listitem [ref=e372]:
+                    - paragraph [ref=e373]: "Shirakura Y, Fukui T, Saito T, Okamoto Y, Narikawa T, Koide K, Tomita K, Takemasa T, Masamune S (1986) Degradation of poly(3-hydroxybutyrate) by poly(3-hydroxybutyrate) depolymerase from Alcaligenes faecalisT1. Biochim. Biophys. Acta 880: 46-53."
+                    - paragraph [ref=e374]:
+                      - link "PubMed reference 40" [ref=e375] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=3942778
+                        - text: PubMed
+                      - link "Google Scholar reference 40" [ref=e376] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Degradation%20of%20poly%283-hydroxybutyrate%29%20by%20poly%283-hydroxybutyrate%29%20depolymerase%20from%20Alcaligenes%20faecalisT1&journal=Biochim.%20Biophys.%20Acta&volume=880&pages=46-53&publication_year=1986&author=Shirakura%2CY&author=Fukui%2CT&author=Saito%2CT&author=Okamoto%2CY&author=Narikawa%2CT&author=Koide%2CK&author=Tomita%2CK&author=Takemasa%2CT&author=Masamune%2CS
+                        - text: Google Scholar
+                  - listitem [ref=e377]:
+                    - paragraph [ref=e378]: "Shirakura Y, Fukui T, Tanio T, Nakayama K, Matsuno R (1983) An extracellular D(-)-3-hydroxybutyrate oligomer hydrolase from Alcaligenes faecalis. Biochim. Biophys. Acta 748: 331-339."
+                    - paragraph [ref=e379]:
+                      - link "PubMed reference 41" [ref=e380] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6626560
+                        - text: PubMed
+                      - link "Google Scholar reference 41" [ref=e381] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=An%20extracellular%20D%28-%29-3-hydroxybutyrate%20oligomer%20hydrolase%20from%20Alcaligenes%20faecalis&journal=Biochim.%20Biophys.%20Acta&volume=748&pages=331-339&publication_year=1983&author=Shirakura%2CY&author=Fukui%2CT&author=Tanio%2CT&author=Nakayama%2CK&author=Matsuno%2CR
+                        - text: Google Scholar
+                  - listitem [ref=e382]:
+                    - paragraph [ref=e383]: "Snell KD, Peoples OP (2001) Polyhydroxyalkanoate polymers and their production in transgenic plants. Metab. Eng. 4: 29-40."
+                    - paragraph [ref=e384]:
+                      - link "Article reference 42" [ref=e385] [cursor=pointer]:
+                        - /url: https://doi.org/10.1006%2Fmben.2001.0214
+                        - text: Article
+                      - link "Google Scholar reference 42" [ref=e386] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Polyhydroxyalkanoate%20polymers%20and%20their%20production%20in%20transgenic%20plants&journal=Metab.%20Eng.&doi=10.1006%2Fmben.2001.0214&volume=4&pages=29-40&publication_year=2001&author=Snell%2CKD&author=Peoples%2COP
+                        - text: Google Scholar
+                  - listitem [ref=e387]:
+                    - paragraph [ref=e388]: "Suyama T, Tokiwa Y, Quichanpagdee P, Kanagawa T, Kamagata Y (1998) Phylogenetic affiliation of soil bacteria that degrade aliphatic polyesters available commercially as biodegradable plastics. Appl. Environ. Microbiol. 64: 5008-5011."
+                    - paragraph [ref=e389]:
+                      - link "PubMed reference 43" [ref=e390] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9835597
+                        - text: PubMed
+                      - link "Google Scholar reference 43" [ref=e391] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Phylogenetic%20affiliation%20of%20soil%20bacteria%20that%20degrade%20aliphatic%20polyesters%20available%20commercially%20as%20biodegradable%20plastics&journal=Appl.%20Environ.%20Microbiol.&volume=64&pages=5008-5011&publication_year=1998&author=Suyama%2CT&author=Tokiwa%2CY&author=Quichanpagdee%2CP&author=Kanagawa%2CT&author=Kamagata%2CY
+                        - text: Google Scholar
+                  - listitem [ref=e392]:
+                    - paragraph [ref=e393]: "Swinkels JJM (1985) Composition and properties of commercial native starches. Starch 37: 1-5."
+                    - paragraph [ref=e394]:
+                      - link "Google Scholar reference 44" [ref=e395] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Composition%20and%20properties%20of%20commercial%20native%20starches&journal=Starch&volume=37&pages=1-5&publication_year=1985&author=Swinkels%2CJJM
+                        - text: Google Scholar
+                  - listitem [ref=e396]:
+                    - paragraph [ref=e397]: "Taguchi S, Nakamura H, Kichise T, TsugeT, Yamato I, Doi Y (2003) Production of polyhdroxyalkanoate (PHA) from renewable carbon sources in recombinant Ralstonia eutrophausing mutants of original PHA synthase. Biochem Eng J. 16: 107-113."
+                    - paragraph [ref=e398]:
+                      - link "Article reference 45" [ref=e399] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2FS1369-703X%2803%2900027-5
+                        - text: Article
+                      - link "Google Scholar reference 45" [ref=e400] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Production%20of%20polyhdroxyalkanoate%20%28PHA%29%20from%20renewable%20carbon%20sources%20in%20recombinant%20Ralstonia%20eutrophausing%20mutants%20of%20original%20PHA%20synthase&journal=Biochem%20Eng%20J.&doi=10.1016%2FS1369-703X%2803%2900027-5&volume=16&pages=107-113&publication_year=2003&author=Taguchi%2CS&author=Nakamura%2CH&author=Kichise%2CT&author=Tsuge%2CT&author=Yamato%2CI&author=Doi%2CY
+                        - text: Google Scholar
+                  - listitem [ref=e401]:
+                    - paragraph [ref=e402]: "Takeda M, Koizumi J, Yabe K, Adachi K (1998) Thermostable poly(3-hydroxybutyrate) depolymerase of a thermophilic strain of Leptothrixsp. isolated from hot spring. J. Ferment. Bioeng. 85: 375-380."
+                    - paragraph [ref=e403]:
+                      - link "Article reference 46" [ref=e404] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2FS0922-338X%2898%2980080-9
+                        - text: Article
+                      - link "Google Scholar reference 46" [ref=e405] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Thermostable%20poly%283-hydroxybutyrate%29%20depolymerase%20of%20a%20thermophilic%20strain%20of%20Leptothrixsp.%20isolated%20from%20hot%20spring&journal=J.%20Ferment.%20Bioeng.&doi=10.1016%2FS0922-338X%2898%2980080-9&volume=85&pages=375-380&publication_year=1998&author=Takeda%2CM&author=Koizumi%2CJ&author=Yabe%2CK&author=Adachi%2CK
+                        - text: Google Scholar
+                  - listitem [ref=e406]:
+                    - paragraph [ref=e407]: "Tanaka M, Saito T, Fukui T, Tomita K (1981) Purification and properties of D(-)-3-hydroxybutyrate-dimer hydrolase from Zoogloea ramigera1-16-M. Eur. J. Biochem. 118: 177-182."
+                    - paragraph [ref=e408]:
+                      - link "PubMed reference 47" [ref=e409] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7285912
+                        - text: PubMed
+                      - link "Google Scholar reference 47" [ref=e410] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Purification%20and%20properties%20of%20D%28-%29-3-hydroxybutyrate-dimer%20hydrolase%20from%20Zoogloea%20ramigera1-16-M&journal=Eur.%20J.%20Biochem.&volume=118&pages=177-182&publication_year=1981&author=Tanaka%2CM&author=Saito%2CT&author=Fukui%2CT&author=Tomita%2CK
+                        - text: Google Scholar
+                  - listitem [ref=e411]:
+                    - paragraph [ref=e412]: "Tanio T, Fukui T, Shirakura Y, Saito T, Tomita K, Kaiho T, Masamune S (1982) An extracellular poly(3-hydroxybutyrate) depolymerase from Alcaligenes faecalis. Eur. J. Biochem. 124: 71-77."
+                    - paragraph [ref=e413]:
+                      - link "PubMed reference 48" [ref=e414] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7084231
+                        - text: PubMed
+                      - link "Google Scholar reference 48" [ref=e415] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=An%20extracellular%20poly%283-hydroxybutyrate%29%20depolymerase%20from%20Alcaligenes%20faecalis&journal=Eur.%20J.%20Biochem.&volume=124&pages=71-77&publication_year=1982&author=Tanio%2CT&author=Fukui%2CT&author=Shirakura%2CY&author=Saito%2CT&author=Tomita%2CK&author=Kaiho%2CT&author=Masamune%2CS
+                        - text: Google Scholar
+                  - listitem [ref=e416]:
+                    - paragraph [ref=e417]: Tansengco ML, Tokiwa Y (1998a) Comparative population study on aliphatic polyesters-degrading microorganisms at 50 ?C. Chem. Lett.1043-1044.
+                  - listitem [ref=e418]:
+                    - paragraph [ref=e419]: "Tansengco ML, Tokiwa Y (1998b) Thermophilic microbial degradation of polyethylene succinate. World J. Microbiol. Biotechnol. 14: 133-138."
+                    - paragraph [ref=e420]:
+                      - link "Article reference 50" [ref=e421] [cursor=pointer]:
+                        - /url: https://doi.org/10.1023%2FA%3A1008897121993
+                        - text: Article
+                      - link "Google Scholar reference 50" [ref=e422] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Thermophilic%20microbial%20degradation%20of%20polyethylene%20succinate&journal=World%20J.%20Microbiol.%20Biotechnol.&doi=10.1023%2FA%3A1008897121993&volume=14&pages=133-138&publication_year=1998&author=Tansengco%2CML&author=Tokiwa%2CY
+                        - text: Google Scholar
+                  - listitem [ref=e423]:
+                    - paragraph [ref=e424]: "Tokiwa Y, Jarerat A (2003) Microbial degradation of aliphatic polyesters. Macromol. Symp. 201: 283-289."
+                    - paragraph [ref=e425]:
+                      - link "Article reference 51" [ref=e426] [cursor=pointer]:
+                        - /url: https://doi.org/10.1002%2Fmasy.200351131
+                        - text: Article
+                      - link "Google Scholar reference 51" [ref=e427] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Microbial%20degradation%20of%20aliphatic%20polyesters&journal=Macromol.%20Symp.&doi=10.1002%2Fmasy.200351131&volume=201&pages=283-289&publication_year=2003&author=Tokiwa%2CY&author=Jarerat%2CA
+                        - text: Google Scholar
+                  - listitem [ref=e428]:
+                    - paragraph [ref=e429]: "Tokiwa Y, Suzuki T (1977) Hydrolysis of polyesters by lipases. Nature 270: 76-78."
+                    - paragraph [ref=e430]:
+                      - link "PubMed reference 52" [ref=e431] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=927523
+                        - text: PubMed
+                      - link "Google Scholar reference 52" [ref=e432] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Hydrolysis%20of%20polyesters%20by%20lipases&journal=Nature&volume=270&pages=76-78&publication_year=1977&author=Tokiwa%2CY&author=Suzuki%2CT
+                        - text: Google Scholar
+                  - listitem [ref=e433]:
+                    - paragraph [ref=e434]: "Tokiwa Y, Suzuki T (1978) Hydrolysis of polyesters by Rhizopus delemarlipase. Agric. Biol. Chem. 42: 1071-1072."
+                    - paragraph [ref=e435]:
+                      - link "Google Scholar reference 53" [ref=e436] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Hydrolysis%20of%20polyesters%20by%20Rhizopus%20delemarlipase&journal=Agric.%20Biol.%20Chem.&volume=42&pages=1071-1072&publication_year=1978&author=Tokiwa%2CY&author=Suzuki%2CT
+                        - text: Google Scholar
+                - paragraph [ref=e437]:
+                  - link "Download references" [ref=e438] [cursor=pointer]:
+                    - /url: https://citation-needed.springer.com/v2/references/10.1023/B:BILE.0000036599.15302.e5?format=refman&flavour=references
+          - region [ref=e441]:
+            - generic [ref=e442]:
+              - heading "Author information" [level=2] [ref=e443]
+              - generic [ref=e444]:
+                - heading "Authors and Affiliations" [level=3] [ref=e445]
+                - list [ref=e446]:
+                  - listitem [ref=e447]:
+                    - paragraph [ref=e448]: National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba Central 6, 1-1-1 Higashi, Tsukuba, Ibaraki, 305-8566, Japan
+                    - paragraph [ref=e449]: Yutaka Tokiwa & Buenaventurada P. Calabia
+                - heading "Corresponding author" [level=3] [ref=e450]
+                - paragraph [ref=e451]:
+                  - text: Correspondence to
+                  - link "email Yutaka Tokiwa" [ref=e452] [cursor=pointer]:
+                    - /url: mailto:y.tokiwa@aist.go.jp
+                    - text: Yutaka Tokiwa
+                  - text: .
+          - generic [ref=e454]:
+            - heading "Rights and permissions" [level=2] [ref=e455]
+            - paragraph [ref=e457]:
+              - link "Reprints and permissions" [ref=e458] [cursor=pointer]:
+                - /url: https://s100.copyright.com/AppDispatchServlet?title=Review%20Degradation%20of%20microbial%20polyesters&author=Yutaka%20Tokiwa%20et%20al&contentID=10.1023%2FB%3ABILE.0000036599.15302.e5&copyright=Kluwer%20Academic%20Publishers&publication=0141-5492&publicationDate=2004-08&publisherName=SpringerNature&orderBeanReset=true
+          - region [ref=e459]:
+            - generic [ref=e460]:
+              - heading "About this article" [level=2] [ref=e461]
+              - generic [ref=e464]:
+                - heading "Cite this article" [level=3] [ref=e465]
+                - paragraph [ref=e466]: Tokiwa, Y., Calabia, B.P. Review Degradation of microbial polyesters. Biotechnology Letters 26, 1181–1189 (2004). https://doi.org/10.1023/B:BILE.0000036599.15302.e5
+                - paragraph [ref=e467]:
+                  - link "Download citation" [ref=e468] [cursor=pointer]:
+                    - /url: https://citation-needed.springer.com/v2/references/10.1023/B:BILE.0000036599.15302.e5?format=refman&flavour=citation
+                - list [ref=e471]:
+                  - listitem [ref=e472]:
+                    - paragraph [ref=e473]:
+                      - text: Issue date
+                      - time [ref=e475]: August 2004
+                  - listitem [ref=e476]:
+                    - paragraph [ref=e477]:
+                      - text: DOI
+                      - generic [ref=e478]: https://doi.org/10.1023/B:BILE.0000036599.15302.e5
+                - generic [ref=e480]:
+                  - heading "Share this article" [level=3] [ref=e481]
+                  - paragraph [ref=e482]: "Anyone you share the following link with will be able to read this content:"
+                  - button "Get shareable link" [ref=e483] [cursor=pointer]
+                  - paragraph [ref=e484]: Provided by the Springer Nature SharedIt content-sharing initiative
+                - list [ref=e485]:
+                  - listitem [ref=e486]:
+                    - link "degradation" [ref=e488] [cursor=pointer]:
+                      - /url: /search?query=degradation&facet-discipline="Life%20Sciences"
+                  - listitem [ref=e489]:
+                    - link "polyesters" [ref=e491] [cursor=pointer]:
+                      - /url: /search?query=polyesters&facet-discipline="Life%20Sciences"
+                  - listitem [ref=e492]:
+                    - link "polyhydroxyalkanoates" [ref=e494] [cursor=pointer]:
+                      - /url: /search?query=polyhydroxyalkanoates&facet-discipline="Life%20Sciences"
+                  - listitem [ref=e495]:
+                    - link "poly(d-3-hydroxybutyrate)" [ref=e497] [cursor=pointer]:
+                      - /url: /search?query=poly%28d-3-hydroxybutyrate%29&facet-discipline="Life%20Sciences"
+                  - listitem [ref=e498]:
+                    - link "poly(3-hydroxybutyrate)-degrading microorganisms" [ref=e500] [cursor=pointer]:
+                      - /url: /search?query=poly%283-hydroxybutyrate%29-degrading%20microorganisms&facet-discipline="Life%20Sciences"
+      - complementary "reading companion" [ref=e502]:
+        - generic [ref=e504]:
+          - tablist [ref=e505]:
+            - tab "Sections" [selected] [ref=e506] [cursor=pointer]
+            - tab "References" [ref=e507] [cursor=pointer]
+          - tabpanel "Sections" [ref=e508]:
+            - list [ref=e510]:
+              - listitem [ref=e511]:
+                - link "Abstract" [ref=e512] [cursor=pointer]:
+                  - /url: "#Abs1"
+              - listitem [ref=e513]:
+                - link "Article PDF" [ref=e514] [cursor=pointer]:
+                  - /url: "#preview"
+              - listitem [ref=e515]:
+                - link "References" [ref=e516] [cursor=pointer]:
+                  - /url: "#Bib1"
+              - listitem [ref=e517]:
+                - link "Author information" [ref=e518] [cursor=pointer]:
+                  - /url: "#author-information"
+              - listitem [ref=e519]:
+                - link "Rights and permissions" [ref=e520] [cursor=pointer]:
+                  - /url: "#rightslink"
+              - listitem [ref=e521]:
+                - link "About this article" [ref=e522] [cursor=pointer]:
+                  - /url: "#article-info"
+            - iframe [ref=e528]:
+              - article [ref=f14e4]:
+                - generic [ref=f14e5]:
+                  - generic [ref=f14e7]:
+                    - paragraph [ref=f14e8]: Relevant Collection
+                    - heading [level=2] [ref=f14e9]:
+                      - link "Precision fermentation and food biotechnology" [ref=f14e10] [cursor=pointer]:
+                        - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsueOOrUyB65EiO4obFM4rOip2zEcZzsQW1gZfER5KIZ6LAKZFCqryPsNlC11crW0VVeeV2qNSzKc5aF_liUTH8G8m2RDpn3tMP1-6SpBc2kBkjhmRpDhwpQFu6Ewtvv3mnTiMCEl5VEQTV4OTbheqdJwQ02l_w7dsDjU1Rm7w5DodNfZst3LlmDlPsA_axmHXt-mFJbfYoVR9hwdo58bc_i5O_Pp7K40mbsdBqXDC5KkRrE-CKdjkinicktumJaHwWTBg3O-2Cmfr_bMin6DlQYCkAUOvI-VzmyxqcBAJOJafwFDKvGqoTsdbBsWqzD1nheMplkNq2Qc1oVOQ4kbv6gblCG6f6OUsAtNh31oe73_weOki0RoAS5lFK98kSQuR0C5yaSMwsPfmmwdKu9ZTR0GPAx9yLaKG6L&sai=AMfl-YQ9oZEc61n2A7ppw9Egj56pj3mzfE00o-ZnC-BH7F12BBmkZ6jSjH4_gEEwnIXTAofUb4my6KYDU3FF-JuL3qe5wn0xYD-Ap_oeZ9HWYFRWZvRG22JoVAIxMpH9GiuYpPE61ToRf9pJ_MGsqt6ydHTzQIXoAKjS4F92cNP6fPZahqyh5LBYjKZj-oJlXtNP0wgnyDhFcbr2wJzHjwGiQ5WH5ntEJAQ9ZmhxrAOLGsuzDJ9i1fhizhZ2GTLzlJZEVS_7sQY0Luy-cLUUPspSOXNJAU3vobvdmXl7htXBhyYhFl7WHX0RlmXV4_7Z5PXu9xNMYSwPtvjh4wgor-HIw-i6ndqj-qlZvDPUYaDfJ5s_zT0deesY3JLFQo2_yYw5LwZUDqkH9DBwrruC0A&sig=Cg0ArKJSzCrBvPRWJx6-EAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://link.springer.com/collections/bdefcbabjh?utm_medium=internal_display&utm_source=snlink&utm_content=a01Jz0000131pZJIAY&utm_campaign=CONR_OAJRN_AWA1_GL_PJNL_04NV8_auto-nativ
+                    - paragraph [ref=f14e11]: This Collection seeks to showcase advances in precision fermentation that drive sustainable, nutritious, and resilient food systems. We welcome submissions that explore microbial platforms, synthetic biology, alternative proteins, functional ingredients, flavor and aroma biosynthesis, and innovative bioprocesses shaping the future of food biotechnology.
+                  - generic [ref=f14e14]:
+                    - term [ref=f14e15]: Submission deadline
+                    - definition [ref=f14e16]: 2027-01-15
+  - generic [ref=e529]:
+    - navigation
+    - contentinfo [ref=e530]:
+      - generic [ref=e531]:
+        - heading "Footer Navigation" [level=2] [ref=e532]
+        - navigation "Footer" [ref=e533]:
+          - generic [ref=e535]:
+            - generic [ref=e536]:
+              - heading "Discover content" [level=3] [ref=e537]
+              - list [ref=e538]:
+                - listitem [ref=e539]:
+                  - link "Journals A-Z" [ref=e540] [cursor=pointer]:
+                    - /url: https://link.springer.com/journals/a/1
+                - listitem [ref=e541]:
+                  - link "Books A-Z" [ref=e542] [cursor=pointer]:
+                    - /url: https://link.springer.com/books/a/1
+                - listitem [ref=e543]:
+                  - link "Subjects A-Z" [ref=e544] [cursor=pointer]:
+                    - /url: https://link.springer.com/subjects
+            - generic [ref=e545]:
+              - heading "Publish with us" [level=3] [ref=e546]
+              - list [ref=e547]:
+                - listitem [ref=e548]:
+                  - link "Journal finder" [ref=e549] [cursor=pointer]:
+                    - /url: https://link.springer.com/journals
+                - listitem [ref=e550]:
+                  - link "Publish your research" [ref=e551] [cursor=pointer]:
+                    - /url: https://www.springernature.com/gp/authors
+                - listitem [ref=e552]:
+                  - link "Language editing" [ref=e553] [cursor=pointer]:
+                    - /url: https://authorservices.springernature.com/go/sn/?utm_source=SNLinkfooter&utm_medium=Web&utm_campaign=SNReferral
+                - listitem [ref=e554]:
+                  - link "Open access publishing" [ref=e555] [cursor=pointer]:
+                    - /url: https://www.springernature.com/gp/open-science/about/the-fundamentals-of-open-access-and-open-research
+            - generic [ref=e556]:
+              - heading "Products and services" [level=3] [ref=e557]
+              - list [ref=e558]:
+                - listitem [ref=e559]:
+                  - link "Our products" [ref=e560] [cursor=pointer]:
+                    - /url: https://www.springernature.com/gp/products
+                - listitem [ref=e561]:
+                  - link "Librarians" [ref=e562] [cursor=pointer]:
+                    - /url: https://www.springernature.com/gp/librarians
+                - listitem [ref=e563]:
+                  - link "Societies" [ref=e564] [cursor=pointer]:
+                    - /url: https://www.springernature.com/gp/societies
+                - listitem [ref=e565]:
+                  - link "Partners and advertisers" [ref=e566] [cursor=pointer]:
+                    - /url: https://www.springernature.com/gp/partners
+            - generic [ref=e567]:
+              - heading "Our brands" [level=3] [ref=e568]
+              - list [ref=e569]:
+                - listitem [ref=e570]:
+                  - link "Springer" [ref=e571] [cursor=pointer]:
+                    - /url: https://link.springer.com/brands/springer
+                - listitem [ref=e572]:
+                  - link "Nature Portfolio" [ref=e573] [cursor=pointer]:
+                    - /url: https://www.nature.com/
+                - listitem [ref=e574]:
+                  - link "BMC" [ref=e575] [cursor=pointer]:
+                    - /url: https://link.springer.com/brands/bmc
+                - listitem [ref=e576]:
+                  - link "Palgrave Macmillan" [ref=e577] [cursor=pointer]:
+                    - /url: /brands/palgrave
+                - listitem [ref=e578]:
+                  - link "Apress" [ref=e579] [cursor=pointer]:
+                    - /url: /brands/apress
+                - listitem [ref=e580]:
+                  - link "Discover" [ref=e581] [cursor=pointer]:
+                    - /url: https://link.springer.com/brands/discover
+          - generic [ref=e582]:
+            - heading "Corporate Navigation" [level=3] [ref=e583]
+            - list [ref=e584]:
+              - listitem [ref=e585]:
+                - button "Your privacy choices/Manage cookies" [ref=e586] [cursor=pointer]
+              - listitem [ref=e587]:
+                - link "Your US state privacy rights" [ref=e588] [cursor=pointer]:
+                  - /url: https://www.springernature.com/gp/legal/ccpa
+              - listitem [ref=e589]:
+                - link "Accessibility statement" [ref=e590] [cursor=pointer]:
+                  - /url: https://link.springer.com/accessibility
+              - listitem [ref=e591]:
+                - link "Terms and conditions" [ref=e592] [cursor=pointer]:
+                  - /url: https://link.springer.com/termsandconditions
+              - listitem [ref=e593]:
+                - link "Privacy policy" [ref=e594] [cursor=pointer]:
+                  - /url: https://link.springer.com/privacystatement
+              - listitem [ref=e595]:
+                - link "Help and support" [ref=e596] [cursor=pointer]:
+                  - /url: https://support.springernature.com/en/support/home
+              - listitem [ref=e597]:
+                - link "Legal notice" [ref=e598] [cursor=pointer]:
+                  - /url: https://link.springer.com/legal-notice
+              - listitem [ref=e599]:
+                - link "Cancel contracts here" [ref=e600] [cursor=pointer]:
+                  - /url: https://support.springernature.com/en/support/solutions/articles/6000255911-subscription-cancellations
+        - generic [ref=e601]:
+          - generic [ref=e602]:
+            - paragraph [ref=e603]: 110.65.147.204
+            - paragraph [ref=e604]: 14531 SpringerProtocols China National Consortium (3001311903) - Springer eJournal DRAA National Consortium (3902333186) - China Institute of Science & Technology acting through National Science and (3000202650) - Southern University of Science and Technology (3000944542) - China SUSTC & UTSZ Con. 2013 (3991445408) - Springer Protocols DRAA National consortium (3000882202) - SLCC National Consortium – Full Collection (non-211) 2015-2017 (3991456309) - Springer Materials DRAA National Cons. (3000242950) - Nature DRAA eJournal National Consortium (3902333280) - Springer DRAA ebook National Consortium (3000902328)
+          - link [ref=e605] [cursor=pointer]:
+            - /url: https://www.springernature.com/
+            - img "Springer Nature" [ref=e606]
+          - paragraph [ref=e607]: © 2026 Springer Nature

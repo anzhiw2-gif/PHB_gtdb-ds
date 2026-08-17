@@ -1,0 +1,174 @@
+- generic [ref=f1e1]:
+  - text: ⚠
+  - generic [ref=f1e5]:
+    - generic [ref=f1e6]:
+      - link "Skip to main content":
+        - /url: "#screen-reader-main-content"
+      - link "Skip to article":
+        - /url: "#screen-reader-main-title"
+      - banner [ref=f1e9]:
+        - generic [ref=f1e10]: Brought to you by:Southern University of Science and Technology
+        - generic [ref=f1e13]:
+          - link "ScienceDirect home page" [ref=f1e14] [cursor=pointer]:
+            - /url: /
+            - img "Elsevier logo" [ref=f1e15]
+          - generic [ref=f1e24]:
+            - navigation "links" [ref=f1e25]:
+              - list [ref=f1e26]:
+                - listitem [ref=f1e27]:
+                  - link "Journals & Books" [ref=f1e28] [cursor=pointer]:
+                    - /url: /browse/journals-and-books
+            - navigation "utilities" [ref=f1e30]:
+              - list [ref=f1e31]:
+                - listitem [ref=f1e32]:
+                  - button "Help" [ref=f1e36] [cursor=pointer]
+                - listitem [ref=f1e40]:
+                  - button "Search" [ref=f1e42] [cursor=pointer]
+          - link "My account" [ref=f1e47] [cursor=pointer]:
+            - /url: /user/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS0958166914000445&from=globalheader
+          - button "Southern University of Science and Technology Institutional Access" [ref=f1e54] [cursor=pointer]:
+            - generic [ref=f1e57]: Southern University of Science and Technology
+      - main [ref=f1e58]:
+        - region "Download options and search" [ref=f1e60]:
+          - list "PDF Options" [ref=f1e62]:
+            - listitem [ref=f1e63]:
+              - generic "View PDF. Opens in a new window." [ref=f1e64]:
+                - generic [ref=f1e76]:
+                  - text: View
+                  - strong [ref=f1e77]: PDF
+            - listitem [ref=f1e78]:
+              - button "Download full issue" [ref=f1e79] [cursor=pointer]
+        - generic [ref=f1e82]:
+          - navigation "Table of contents" [ref=f1e83]
+          - article [ref=f1e84]:
+            - generic [ref=f1e85]:
+              - link [ref=f1e87] [cursor=pointer]:
+                - /url: /journal/current-opinion-in-biotechnology
+                - img "Elsevier" [ref=f1e90]
+              - generic [ref=f1e91]:
+                - heading [level=2] [ref=f1e92]:
+                  - link "Current Opinion in Biotechnology" [ref=f1e93] [cursor=pointer]:
+                    - /url: /journal/current-opinion-in-biotechnology
+                - generic [ref=f1e95]:
+                  - link "Volume 29" [ref=f1e96] [cursor=pointer]:
+                    - /url: /journal/current-opinion-in-biotechnology/vol/29/suppl/C
+                  - text: ", October 2014, Pages 24-33"
+              - link "Homepage for Current Opinion in Biotechnology" [ref=f1e99] [cursor=pointer]:
+                - /url: /journal/current-opinion-in-biotechnology/vol/29/suppl/C
+                - img "Current Opinion in Biotechnology" [ref=f1e102]
+            - heading "Engineering the diversity of polyesters" [level=1] [ref=f1e103]
+            - generic [ref=f1e104]:
+              - generic [ref=f1e107]:
+                - generic [ref=f1e108]: Author links open overlay panel
+                - button "De-Chuan Meng" [ref=f1e109] [cursor=pointer]
+                - text: ","
+                - button "Rui Shen" [ref=f1e113] [cursor=pointer]
+                - text: ","
+                - button "Hui Yao" [ref=f1e117] [cursor=pointer]
+                - text: ","
+                - button "Jin-Chun Chen" [ref=f1e121] [cursor=pointer]
+                - text: ","
+                - button "Qiong Wu" [ref=f1e125] [cursor=pointer]
+                - text: ","
+                - button "Guo-Qiang ChenAuthor email or social media contact details icon" [ref=f1e129] [cursor=pointer]:
+                  - generic [ref=f1e131]:
+                    - generic [ref=f1e132]: Guo-Qiang Chen
+                    - img "Author email or social media contact details icon" [ref=f1e133]
+              - button "Show more" [ref=f1e135] [cursor=pointer]
+              - generic [ref=f1e139]:
+                - button "Add to Mendeley" [ref=f1e140] [cursor=pointer]
+                - button "Share" [ref=f1e147] [cursor=pointer]
+                - button "Cite" [ref=f1e154] [cursor=pointer]
+            - generic [ref=f1e158]:
+              - link "Persistent link using digital object identifier" [ref=f1e159] [cursor=pointer]:
+                - /url: https://doi.org/10.1016/j.copbio.2014.02.013
+                - generic [ref=f1e160]:
+                  - text: https://doi.org/10.1016/j.copbio.2014.02.013
+                  - img "Opens in new window" [ref=f1e161]
+              - link [ref=f1e163] [cursor=pointer]:
+                - /url: https://s100.copyright.com/AppDispatchServlet?publisherName=ELS&contentID=S0958166914000445&orderBeanReset=true
+                - generic [ref=f1e164]:
+                  - text: Get rights and content
+                  - img "Opens in new window" [ref=f1e165]
+            - generic [ref=f1e167]: Full text access
+            - generic [ref=f1e171]:
+              - generic [ref=f1e172]:
+                - heading "Highlights" [level=2] [ref=f1e173]
+                - list [ref=f1e176]:
+                  - listitem [ref=f1e177]:
+                    - generic [ref=f1e178]: •
+                    - generic [ref=f1e179]: Increasing PHA diversity reflects more on polymer microstructures.
+                  - listitem [ref=f1e181]:
+                    - generic [ref=f1e182]: •
+                    - generic [ref=f1e183]: Engineering the β-oxidation pathway allows controlled synthesis of PHA compositions.
+                  - listitem [ref=f1e185]:
+                    - generic [ref=f1e186]: •
+                    - generic [ref=f1e187]: Grafting of PHA site chains result in endless variation of PHA.
+              - generic [ref=f1e191]:
+                - text: Many bacteria have been found to produce various polyhydroxyalkanoates (PHA) biopolyesters. In many cases, it is not easy to control the structures of PHA including homopolymers, random copolymers and block copolymers as well as ratios of monomers in the copolymers. It has become possible to engineer bacteria for controllable synthesis of PHA with the desirable structures by creating new PHA synthesis pathways. Remarkably, the weakening of β-oxidation cycle in
+                - emphasis [ref=f1e192]: Pseudomonas putida
+                - text: and
+                - emphasis [ref=f1e193]: Pseudomonas entomophila
+                - text: led to controllable synthesis of all kinds of PHA structures including monomer ratios in random and/or block copolymers when fatty acids are used as PHA precursors. Introduction of functional groups into PHA polymer chains in predefined proportions has become a reality provided fatty acids containing the functional groups are taken up by the bacteria for PHA synthesis. This allows the formation of functional PHA for further grafting. The PHA diversity is further widened by the endless possibility of controllable homopolymerization, random copolymerization, block copolymerization and grafting on functional PHA site chains.
+              - generic [ref=f1e194]:
+                - heading "Graphical abstract" [level=2] [ref=f1e195]
+                - figure [ref=f1e196]:
+                  - list [ref=f1e198]:
+                    - listitem [ref=f1e199]:
+                      - 'link "Download: Download high-res image (92KB)" [ref=f1e200] [cursor=pointer]':
+                        - /url: https://ars.els-cdn.com/content/image/1-s2.0-S0958166914000445-fx1_lrg.jpg
+                    - listitem [ref=f1e203]:
+                      - 'link "Download: Download full-size image" [ref=f1e204] [cursor=pointer]':
+                        - /url: https://ars.els-cdn.com/content/image/1-s2.0-S0958166914000445-fx1.jpg
+            - list [ref=f1e207]:
+              - listitem [ref=f1e208]:
+                - button "Previous article in issue" [disabled] [ref=f1e209]
+              - listitem [ref=f1e214]:
+                - button "Next article in issue" [disabled] [ref=f1e215]
+            - region "Cited by" [ref=f1e221]:
+              - heading "Cited by (0)" [level=2] [ref=f1e224]
+            - link "View Abstract" [ref=f1e225] [cursor=pointer]:
+              - /url: /science/article/abs/pii/S0958166914000445
+            - generic [ref=f1e227]: Copyright © 2014 Elsevier Ltd. All rights reserved.
+          - complementary "Related content" [ref=f1e229]:
+            - button [ref=f1e232] [cursor=pointer]:
+              - heading "Recommended articles" [level=2] [ref=f1e235]
+    - contentinfo [ref=f1e238]:
+      - link "Elsevier home page (opens in a new tab)" [ref=f1e240] [cursor=pointer]:
+        - /url: https://www.elsevier.com/
+        - img "Elsevier logo with wordmark" [ref=f1e241]
+      - generic [ref=f1e242]:
+        - list [ref=f1e244]:
+          - listitem [ref=f1e245]:
+            - link [ref=f1e246] [cursor=pointer]:
+              - /url: https://www.elsevier.com/solutions/sciencedirect
+              - generic [ref=f1e247]:
+                - text: About ScienceDirect
+                - img "Opens in new window" [ref=f1e248]
+          - listitem [ref=f1e250]:
+            - link "Remote access" [ref=f1e251] [cursor=pointer]:
+              - /url: /user/institution/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS0958166914000445
+          - listitem [ref=f1e253]:
+            - link [ref=f1e254] [cursor=pointer]:
+              - /url: https://service.elsevier.com/app/contact/supporthub/sciencedirect/
+              - generic [ref=f1e255]:
+                - text: Contact and support
+                - img "Opens in new window" [ref=f1e256]
+          - listitem [ref=f1e258]:
+            - link [ref=f1e259] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/elsevier-website-terms-and-conditions
+              - generic [ref=f1e260]:
+                - text: Terms and conditions
+                - img "Opens in new window" [ref=f1e261]
+          - listitem [ref=f1e263]:
+            - link [ref=f1e264] [cursor=pointer]:
+              - /url: https://www.elsevier.com/legal/privacy-policy
+              - generic [ref=f1e265]:
+                - text: Privacy policy
+                - img "Opens in new window" [ref=f1e266]
+          - listitem [ref=f1e268]:
+            - button "Cookie settings" [ref=f1e269] [cursor=pointer]
+        - paragraph [ref=f1e270]: "All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply."
+      - link "RELX home page (opens in a new tab)" [ref=f1e272] [cursor=pointer]:
+        - /url: https://www.relx.com/
+        - img "RELX group home page" [ref=f1e273]

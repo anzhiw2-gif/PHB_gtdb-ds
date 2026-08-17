@@ -1,0 +1,2051 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e4] [cursor=pointer]:
+    - /url: "#main"
+  - complementary "Advertisement" [ref=e5]:
+    - generic [ref=e7]:
+      - paragraph [ref=e8]: Advertisement
+      - iframe [ref=e11]:
+        - link [ref=f7e2] [cursor=pointer]:
+          - /url: https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjsviv0ySCxXqdxTYxWE_kQN4witnS0v_0fPGrJjkmjzVAqjBLtMkIa8XFqKuH1d-Yt8eabVFyeZG-wui6spiZXU-sPU4d4q-JKUNOoZBkjFRDvLimeZAA7Z0rNYjV51YutOjE33_-eZIpHk_msyZeosb4Gnx3jM4Tz5CLCCN4zgJ5ETob8KccqxZVFULFrXvPh3MCpuhls-lG9CVGrE6SOD3tyj8QkR_cizMvEMwlRSGjgjBRGjRMHGI_c0nYvc8vn3yZlf64CMEUeEcxOTozrtj1fY989Z1IY1vGYwKhETO7ycs5aMB9un5HczhSoHVTY2fw2qs5MTW2kM6U2g8IsIgzbU7eYnI-q3le-dJSWbPDXP-JUMcGYWk2sheWwRfMwjMpLjURNMHSDhHKtVz5X7p2jdRy3mdZw&sai=AMfl-YRxlUJtFsjbyVRESt3-kWnZpjoI2l6VEA8f-bN8cR66zqVi8K0i8hTAtdYXQpda7zg8mp4eEdFjqjYjvvPBvhhFsLRpUlyEDGYEIbw5db_21yuZVGMMg1hMuFImn5hko5NMeEGTLI2llCgYuh-4wysLb45y_uoJcyYFcW1tDp160IZeRsR8qeaQGbcB8ojyzgYMVdsdbV91WUFy9MKrKR8Cml31BeU8URMUiEBGMZsVlXh2DTT5uIRsJsBrdqvh9iONuqNggYYfrtTSpG2v3pr_dpifquXvUN170tu-SGw_CZy88ply1y-qp52Sfrg2YQ-XKg_Jo3DEA2t78q1srEzoWFyk-dpQlaOOxRJnjjKKDorgXrQcwEz3jp2scp7V7EdYyWEG2PIZfRj5fg&sig=Cg0ArKJSzJKSY7QxzWOH&fbs_aeid=%5Bgw_fbsaeid%5D&adurl=https://link.springer.com/journal/253%3Futm_medium%3Dinternal_display%26utm_source%3Dslink%26utm_content%3Dleaderboard_DRVMANUSUB%26utm_term%3Dnull%26utm_campaign%3DCONR_00253_CON1_GL_PJNL_06SKH_IntD-RT2-S1
+          - 'img "Advertisement from Springer Nature: Applied Microbiology and Biotechnology: Explore our journal" [ref=f7e3]'
+  - banner [ref=e12]:
+    - generic [ref=e13]:
+      - link [ref=e15] [cursor=pointer]:
+        - /url: https://link.springer.com
+        - img "Springer Nature Link" [ref=e16]
+      - link "Log in" [ref=e17] [cursor=pointer]:
+        - /url: https://idp.springer.com/auth/personal/springernature?redirect_uri=https://link.springer.com/article/10.1007/s00253-015-6780-1
+    - navigation "Site" [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - link "Find a journal" [ref=e21] [cursor=pointer]:
+            - /url: https://link.springer.com/journals/
+          - link "Publish with us" [ref=e22] [cursor=pointer]:
+            - /url: https://www.springernature.com/gp/authors
+          - link "Track your research" [ref=e23] [cursor=pointer]:
+            - /url: https://link.springernature.com/home/
+        - generic [ref=e24]:
+          - button "Search" [ref=e26] [cursor=pointer]
+          - generic [ref=e29]:
+            - link "Saved research" [ref=e31] [cursor=pointer]:
+              - /url: /saved-research
+            - link "Cart" [ref=e35] [cursor=pointer]:
+              - /url: https://order.springer.com/public/cart
+  - article [ref=e38]:
+    - region "About this article" [ref=e39]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - navigation "breadcrumbs" [ref=e43]:
+            - list [ref=e44]:
+              - listitem [ref=e45]:
+                - link "Home" [ref=e46] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e49]:
+                - link "Applied Microbiology and Biotechnology" [ref=e50] [cursor=pointer]:
+                  - /url: /journal/253
+              - listitem [ref=e53]: Article
+          - 'heading "Novel extracellular medium-chain-length polyhydroxyalkanoate depolymerase from Streptomyces exfoliatus K10 DSMZ 41693: a promising biocatalyst for the efficient degradation of natural and functionalized mcl-PHAs" [level=1] [ref=e54]'
+          - list [ref=e55]:
+            - listitem [ref=e56]: Biotechnologically relevant enzymes and proteins
+            - listitem [ref=e57]:
+              - text: "Published:"
+              - time [ref=e58]: 10 July 2015
+          - list [ref=e59]:
+            - listitem [ref=e60]: Volume 99, pages 9605–9615 (2015)
+            - listitem [ref=e61]:
+              - link "Cite this article" [ref=e62] [cursor=pointer]:
+                - /url: "#citeas"
+          - generic [ref=e63]:
+            - paragraph [ref=e64]: Access provided by China Institute of Science & Technology acting through National Science and
+            - generic [ref=e67]:
+              - link "Download PDF" [ref=e70] [cursor=pointer]:
+                - /url: /content/pdf/10.1007/s00253-015-6780-1.pdf
+              - link "Save article" [ref=e75] [cursor=pointer]:
+                - /url: /article/10.1007/s00253-015-6780-1/save-research?_csrf=KB7v9_HvUgvCImsNqozisuBGgZRjKzI5
+        - generic [ref=e78]:
+          - link "Applied Microbiology and Biotechnology" [ref=e79] [cursor=pointer]:
+            - /url: /journal/253
+          - link "Aims and scope" [ref=e82] [cursor=pointer]:
+            - /url: /journal/253/aims-and-scope
+          - link "Submit manuscript" [ref=e85] [cursor=pointer]:
+            - /url: https://submission.springernature.com/new-submission/253/3
+    - generic [ref=e88]:
+      - main [ref=e89]:
+        - generic [ref=e91]:
+          - generic [ref=e92]: "Novel extracellular medium-chain-length polyhydroxyalkanoate depolymerase from Streptomyces exfoliatus K10 DSMZ 41693: a promising biocatalyst for the efficient degradation of natural and functionalized mcl-PHAs"
+          - link "Download PDF" [ref=e96] [cursor=pointer]:
+            - /url: /content/pdf/10.1007/s00253-015-6780-1.pdf
+        - generic [ref=e101]:
+          - list [ref=e102]:
+            - listitem [ref=e103]:
+              - link "Virginia Martínez" [ref=e104] [cursor=pointer]:
+                - /url: "#auth-Virginia-Mart_nez-Aff1-Aff3"
+              - text: ","
+            - listitem [ref=e105]:
+              - link "Patricia Gómez de Santos" [ref=e106] [cursor=pointer]:
+                - /url: "#auth-Patricia_G_mez-Santos-Aff1-Aff4"
+              - text: ","
+            - listitem [ref=e107]:
+              - link "Javier García-Hidalgo" [ref=e108] [cursor=pointer]:
+                - /url: "#auth-Javier-Garc_a_Hidalgo-Aff1"
+              - text: ","
+            - listitem [ref=e109]:
+              - link "Daniel Hormigo" [ref=e110] [cursor=pointer]:
+                - /url: "#auth-Daniel-Hormigo-Aff1-Aff5"
+              - text: ","
+            - listitem [ref=e111]:
+              - link "M. Auxiliadora Prieto" [ref=e112] [cursor=pointer]:
+                - /url: "#auth-M__Auxiliadora-Prieto-Aff2"
+              - text: ","
+            - listitem [ref=e113]:
+              - link "Miguel Arroyo" [ref=e114] [cursor=pointer]:
+                - /url: "#auth-Miguel-Arroyo-Aff1"
+              - text: "&"
+            - listitem [ref=e115]:
+              - link "Isabel de la Mata" [ref=e116] [cursor=pointer]:
+                - /url: "#auth-Isabel-Mata-Aff1"
+          - list [ref=e120]:
+            - listitem [ref=e121]:
+              - paragraph [ref=e122]: 1526 Accesses
+            - listitem [ref=e125]:
+              - paragraph [ref=e126]: 42 Citations
+            - listitem [ref=e129]:
+              - paragraph [ref=e130]: 1 Altmetric
+            - listitem [ref=e133]:
+              - paragraph [ref=e134]:
+                - link "Explore all metrics" [ref=e135] [cursor=pointer]:
+                  - /url: /article/10.1007/s00253-015-6780-1/metrics
+        - generic [ref=e138]:
+          - region [ref=e139]:
+            - generic [ref=e140]:
+              - heading "Abstract" [level=2] [ref=e141]
+              - paragraph [ref=e143]:
+                - text: Cloning and biochemical characterization of a novel extracellular medium-chain-length polyhydroxyalkanoate (mcl-PHA) depolymerase from Streptomyces exfoliatus K10 DSMZ 41693 are described. The primary structure of the depolymerase (PhaZ
+                - subscript [ref=e144]: Sex2
+                - text: ) includes the lipase consensus sequence (serine-histidine-aspartic acid) which is known for serine hydrolases. Secondary structure analysis shows 7.9 % α-helix, 43.9 % β-sheet, 19.4 % β-turns, and 31.2 % random coil, suggesting that this enzyme belongs to the α/β hydrolase fold family, in agreement with other PHA depolymerases and lipases. The enzyme was efficiently produced as an extracellular active form in Rhodococcus and purified by two consecutive hydrophobic chromatographic steps. Matrix-assisted laser desorption-time-of-flight (MALDI-TOF) analysis of the purified enzyme revealed a monomer of 27.6 kDa with a midpoint transition temperature of 44.2 °C. Remarkably, the activity is significantly enhanced by low concentrations of nonionic and anionic detergents and thermal stability is improved by the presence of 10 % glycerol. PhaZ
+                - subscript [ref=e145]: Sex2
+                - text: is an endo-exohydrolase that cleaves both large and small PHA molecules, producing (R)-3-hydroxyoctanoic acid monomers as the main reaction product. Markedly, PhaZ
+                - subscript [ref=e146]: Sex2
+                - text: is able to degrade functionalized polymers containing thioester groups in the side chain (PHACOS), releasing functional thioester-based monomers and oligomers demonstrating the potentiality of this novel biocatalyst for the industrial production of enantiopure (R)-3-hydroxyalkanoic acids.
+          - region [ref=e147]:
+            - heading "Similar content being viewed by others" [level=3] [ref=e148]
+            - generic [ref=e149]:
+              - article [ref=e151]:
+                - generic [ref=e153]:
+                  - heading [level=3] [ref=e154]:
+                    - link "Cloning, Overexpression and Application of Lipase from Thermotolerant Bacillus subtilis TTP-06 in the Degradation of Polyhydroxyalkanoate" [ref=e155] [cursor=pointer]:
+                      - /url: https://link.springer.com/10.1007/s12088-024-01329-z?fromPaywallRec=false
+                  - generic [ref=e156]: Article 20 June 2024
+              - article [ref=e158]:
+                - generic [ref=e160]:
+                  - heading [level=3] [ref=e161]:
+                    - link "Circular Dynamics of Medium-Chain-Length Polyhydroxyalkanoates Biogenesis and Degradation" [ref=e162] [cursor=pointer]:
+                      - /url: https://link.springer.com/10.1007/978-3-319-43676-0_68-1?fromPaywallRec=false
+                  - generic [ref=e163]: Chapter © 2026
+              - article [ref=e165]:
+                - generic [ref=e167]:
+                  - heading [level=3] [ref=e168]:
+                    - link "Engineering Strategies for Efficient and Sustainable Production of Medium-Chain Length Polyhydroxyalkanoates in Pseudomonads" [ref=e169] [cursor=pointer]:
+                      - /url: https://link.springer.com/10.1007/978-981-16-1823-9_21?fromPaywallRec=false
+                  - generic [ref=e170]: Chapter © 2021
+          - region [ref=e171]:
+            - heading "Explore related subjects" [level=3] [ref=e172]
+            - generic [ref=e173]: Discover the latest articles, books and news in related subjects, suggested using machine learning.
+            - list [ref=e174]:
+              - listitem [ref=e175]:
+                - link "Biocatalysis" [ref=e176] [cursor=pointer]:
+                  - /url: /subjects/biocatalysis
+              - listitem [ref=e177]:
+                - link "Biomethanol" [ref=e178] [cursor=pointer]:
+                  - /url: /subjects/biomethanol
+              - listitem [ref=e179]:
+                - link "Biopolymers" [ref=e180] [cursor=pointer]:
+                  - /url: /subjects/biopolymers
+              - listitem [ref=e181]:
+                - link "Deoxy Sugar" [ref=e182] [cursor=pointer]:
+                  - /url: /subjects/deoxy-sugar
+              - listitem [ref=e183]:
+                - link "Methylases" [ref=e184] [cursor=pointer]:
+                  - /url: /subjects/methylases
+              - listitem [ref=e185]:
+                - link "Polyhydroxyalkanoates" [ref=e186] [cursor=pointer]:
+                  - /url: /subjects/polyhydroxyalkanoates
+              - listitem [ref=e187]:
+                - link "Polyhydroxyalkanoate Production and Applications" [ref=e188] [cursor=pointer]:
+                  - /url: /subjects/polyhydroxyalkanoate-production-and-applications
+          - generic [ref=e189]:
+            - generic [ref=e191]:
+              - heading "Introduction" [level=2] [ref=e192]
+              - generic [ref=e193]:
+                - paragraph [ref=e194]:
+                  - text: Polyhydroxyalkanoates (PHAs) are intracellular biopolymers that are accumulated by a wide range of microorganisms (eubacteria and archaea) as carbon and energy reserves when environmental conditions are not optimal for cell growth (Luengo et al.
+                  - link "Reference 2003" [ref=e195] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR34
+                    - text: "2003"
+                  - text: ; Madison and Huisman
+                  - link "Reference 1999" [ref=e196] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR38
+                    - text: "1999"
+                  - text: ). PHAs are biodegradable, renewable biopolymers that represent an interesting alternative to conventional plastics as well as biofuels (Gao et al.
+                  - link "Reference 2011" [ref=e197] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR19
+                    - text: "2011"
+                  - text: ). Therefore, substantial effort is underway in developing improved production of these bioplastics (Prieto et al.
+                  - link "Reference 2014" [ref=e198] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR45
+                    - text: "2014"
+                  - text: ). According to the number of carbon atoms of the side chain of the monomers, PHAs are classified as short-chain-length PHAs (scl-PHA) (1 to 2 carbon atoms) and medium-chain-length PHAs (mcl-PHA) (3 to 11 carbon atoms) (Madison and Huisman
+                  - link "Reference 1999" [ref=e199] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR38
+                    - text: "1999"
+                  - text: ). Other criteria have been used to classify PHAs such as their functional substituents in the side chains and the structure of the polymer (Tortajada et al.
+                  - link "Reference 2013" [ref=e200] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR52
+                    - text: "2013"
+                  - text: ). In this sense, introduction of thioester linkages in the polymer backbone has led to different scl-PHAs, referred to as polythioesters (PTEs), with novel physical properties (solubility, crystallinity, and thermal stability) (Lütke-Eversloh et al.
+                  - link "Reference 2001" [ref=e201] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR35
+                    - text: "2001"
+                  - text: ","
+                  - link "Reference 2002" [ref=e202] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR36
+                    - text: "2002"
+                  - text: ; Lütke-Eversloh and Steinbüchel
+                  - link "Reference 2003" [ref=e203] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR37
+                    - text: "2003"
+                  - text: ; Kawada et al.
+                  - link "Reference 2003" [ref=e204] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR29
+                    - text: "2003"
+                  - text: ). Furthermore, it has been recently described a new second-generation polymer containing thioester groups in the side chain (PHACOS) showing tunable thermal and antimicrobial properties (Escapa et al.
+                  - link "Reference 2011" [ref=e205] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR16
+                    - text: "2011"
+                  - text: ; Dinjaski et al.
+                  - link "Reference 2014" [ref=e206] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR13
+                    - text: "2014"
+                  - text: ). Since PHAs are composed of enantiopure hydroxyalkanoic acids (RHAs), they are a source of valuable synthons for the chemical and pharmaceutical industries (Ren et al.
+                  - link "Reference 2010" [ref=e207] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR47
+                    - text: "2010"
+                  - text: ; Chen
+                  - link "Reference 2011" [ref=e208] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR10
+                    - text: "2011"
+                  - text: ; Gao et al.
+                  - link "Reference 2011" [ref=e209] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR19
+                    - text: "2011"
+                  - text: ). Regarding that, PHAs can be catabolized by many microorganisms through extracellular or intracellular depolymerases, depending on the PHA location (Jendrossek and Handrick
+                  - link "Reference 2002" [ref=e210] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR28
+                    - text: "2002"
+                  - text: ). The ability to degrade extracellular PHA in the environment and to use the released oligomers and monomers as a source of carbon and energy depends on the secretion of specific extracellular PHA depolymerases. At present, many extracellular scl-PHA depolymerases have been purified and well characterized (Behrends et al
+                  - link "Reference 1996" [ref=e211] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR3
+                    - text: "1996"
+                  - text: ; Abe and Doi
+                  - link "Reference 1999" [ref=e212] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR1
+                    - text: "1999"
+                  - text: ; Handrick et al.
+                  - link "Reference 2001" [ref=e213] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR23
+                    - text: "2001"
+                  - text: ","
+                  - link "Reference 2004" [ref=e214] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR24
+                    - text: "2004"
+                  - text: ; Jendrossek and Handrick
+                  - link "Reference 2002" [ref=e215] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR28
+                    - text: "2002"
+                  - text: ; Braaz et al.
+                  - link "Reference 2003" [ref=e216] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR7
+                    - text: "2003"
+                  - text: ; Numata et al.
+                  - link "Reference 2006" [ref=e217] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR42
+                    - text: "2006"
+                  - text: ; García-Hidalgo et al.
+                  - link "Reference 2012" [ref=e218] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR20
+                    - text: "2012"
+                  - text: ","
+                  - link "Reference 2013" [ref=e219] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR21
+                    - text: "2013"
+                  - text: ) in contrast to the limited knowledge of mcl-PHA depolymerases. Indeed, mcl-PHA degrading microorganisms are less frequently found in the environment and few mcl-PHA depolymerases have been described so far. Most of these mcl-PHA depolymerases belong to Gram-negative bacteria, predominantly Pseudomonas species (Schirmer and Jendrossek
+                  - link "Reference 1994" [ref=e220] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR50
+                    - text: "1994"
+                  - text: ; Gangoiti et al.
+                  - link "Reference 2010" [ref=e221] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR17
+                    - text: "2010"
+                  - text: ; Jendrossek and Handrick
+                  - link "Reference 2002" [ref=e222] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR28
+                    - text: "2002"
+                  - text: ), although an extracellular-like mcl-PHA depolymerase has been characterized in the obligated predator Bdellovibrio bacteriovorus HD100 (Martínez et al.
+                  - link "Reference 2012" [ref=e223] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR39
+                    - text: "2012"
+                  - text: ). Interestingly, a novel subgroup of mcl-PHA depolymerases has been recently identified in Actinobacteria, as those from Streptomyces roseolus SL3 (Gangoiti et al.
+                  - link "Reference 2012" [ref=e224] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR18
+                    - text: "2012"
+                  - text: ) and Streptomyces venezuelae SO1 (Santos et al.
+                  - link "Reference 2013" [ref=e225] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR49
+                    - text: "2013"
+                  - text: ). Nowadays, PHA depolymerases described so far are specific for oxoester bonds, but are not able to hydrolyze functionalized PHAs, such as PTEs, whose biodegradation is another relevant aspect of these novel biopolymers (Elbanna et al.
+                  - link "Reference 2004" [ref=e226] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR15
+                    - text: "2004"
+                  - text: ; Wübbeler and Steinbüchel
+                  - link "Reference 2014" [ref=e227] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR53
+                    - text: "2014"
+                  - text: ).
+                - paragraph [ref=e228]:
+                  - text: Streptomyces species represent an important source of antibiotics, novel bioactive compounds, and numerous enzymes with biotechnological applications (Nett et al.
+                  - link "Reference 2009" [ref=e229] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR41
+                    - text: "2009"
+                  - text: ). Among them, Streptomyces exfoliatus K10 has been identified as a PHA-degrading strain with scl- and mcl-PHA depolymerases, being one of the few Gram-positive bacteria that display both activities (Jendrossek et al.
+                  - link "Reference 1996" [ref=e230] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR27
+                    - text: "1996"
+                  - text: ; Klingbeil et al.
+                  - link "Reference 1996" [ref=e231] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR32
+                    - text: "1996"
+                  - text: ; García-Hidalgo et al.
+                  - link "Reference 2012" [ref=e232] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR20
+                    - text: "2012"
+                  - text: ; Martínez et al.
+                  - link "Reference 2014" [ref=e233] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR40
+                    - text: "2014"
+                  - text: ). Indeed, a putative mcl-PHA depolymerase-coding sequence has been identified by inspection of the recently published genome sequence of S. exfoliatus DSMZ 41693 (Martínez et al.
+                  - link "Reference 2014" [ref=e234] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR40
+                    - text: "2014"
+                  - text: ). In this study, a novel mcl-PHA depolymerase from S. exfoliatus K10 DSMZ 41693 has been purified and biochemically well characterized after its overexpression in the heterologous host Rhodococcus. In addition, this study highlights on the potentiality of S. exfoliatus as a microbial source for obtaining novel biocatalysts with potential application in the production of chiral RHAs as well as in degradation of bioplastics or biomaterials.
+            - generic [ref=e236]:
+              - heading "Materials and methods" [level=2] [ref=e237]
+              - generic [ref=e238]:
+                - heading "Chemicals" [level=3] [ref=e239]
+                - paragraph [ref=e240]:
+                  - text: Polyhydroxyoctanoate-co -hexanoate [P(HO-co -HH) also named mcl-PHA] was kindly supplied by Biopolis S.L. (Valencia, Spain), and PHACOS [P(OH-Alk-co-OH-6ATH-OH4ATB)] was obtained as previously described (Escapa et al.
+                  - link "Reference 2011" [ref=e241] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR16
+                    - text: "2011"
+                  - text: ). Chromatography media were obtained from GE-Healthcare (Uppsala, Sweden). Most chemicals were obtained from Sigma-Aldrich (St. Louis, MO) and Merck (Darmstadt, Germany).
+                - heading "Bacterial strains, media, and growth conditions" [level=3] [ref=e242]
+                - paragraph [ref=e243]:
+                  - text: S. exfoliatus K10 DSMZ 41693 was used as chromosomal DNA source. Wild-type Rhodococcus sp. T104 KACC 21099 strain was used as host for gene expression (Hernández et al.
+                  - link "Reference 1997" [ref=e244] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR26
+                    - text: "1997"
+                  - text: ; García-Hidalgo et al.
+                  - link "Reference 2012" [ref=e245] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR20
+                    - text: "2012"
+                  - text: ). For DNA purification, S. exfoliatus DSMZ 41693 cells were sporulated in solid SFM (Soya Flour Mannitol) medium and cultured aerobically under submerged conditions in S-YEME liquid medium (yeast extract/malt extract/0.5 % glycine to allow dispersed growth) at 30 °C and 250 rpm (Kieser et al.
+                  - link "Reference 2000" [ref=e246] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR31
+                    - text: "2000"
+                  - text: ). Rhodococcus sp. T104 cells were grown in 2 × YTG (yeast extract/bactotriptone/NaCl) medium supplemented with glucose (5 g L
+                  - superscript [ref=e247]: –1
+                  - text: ) (Kieser et al.
+                  - link "Reference 2000" [ref=e248] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR31
+                    - text: "2000"
+                  - text: ). The appropriate selection antibiotic, ampicillin (100 μg mL
+                  - superscript [ref=e249]: –1
+                  - text: ) or kanamycin (100 μg mL
+                  - superscript [ref=e250]: –1
+                  - text: ) was added when needed. For mcl-PHA depolymerase extracellular activity detection, strains were grown on solid basal medium supplemented with 1 g L
+                  - superscript [ref=e251]: –1
+                  - text: mcl-PHA.
+                - heading "DNA manipulations and plasmid constructions" [level=3] [ref=e252]
+                - paragraph [ref=e253]:
+                  - text: Bifunctional pEM4 (Ap
+                  - superscript [ref=e254]: R
+                  - text: ", Tsr"
+                  - superscript [ref=e255]: R
+                  - text: ", permE*) (Quirós et al."
+                  - link "Reference 1998" [ref=e256] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR46
+                    - text: "1998"
+                  - text: ) and pNV19 (Km
+                  - superscript [ref=e257]: R
+                  - text: ", lacZ) (Chiba et al."
+                  - link "Reference 2007" [ref=e258] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR11
+                    - text: "2007"
+                  - text: ) plasmids were used to obtain the recombinant vectors for gene expression in Rhodococcus sp. T104. Chromosomal DNA from S. exfoliatus DSMZ 41693 was purified according to the method described in Kieser et al. (
+                  - link "Reference 2000" [ref=e259] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR31
+                    - text: "2000"
+                  - text: ). DNA manipulations and other molecular biology techniques were essentially performed as described previously (Kieser et al.
+                  - link "Reference 2000" [ref=e260] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR31
+                    - text: "2000"
+                  - text: ; Sambrook and Russell
+                  - link "Reference 2001" [ref=e261] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR48
+                    - text: "2001"
+                  - text: ). To construct pENVO, the 870-bp DNA fragment coding for the putative depolymerase of S. exfoliatus DSMZ 41693 was amplified by PCR using the oligonucleotides PhaZ1 (5′ CGTCTAGAAGGAGTTCCTATGTCAGGGAGATTCAGCCGGGC 3′) and PhaZ2 (5′ GCGAATTCTCAGGCCGTGGGACCGGGAATCTGGAGCGCC 3′) and chromosomal DNA from S. exfoliatus DSMZ 41693 as the template. Conditions for amplification were chosen according to the high G + C content of PhaZ
+                  - subscript [ref=e262]: Sex2
+                  - text: coding sequence (Fig. S
+                  - link "1" [ref=e263] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#MOESM1
+                  - text: ). The PCR product was digested with the endonucleases EcoRI and XbaI and cloned into the pEM4 vector. The resulting plasmid (pEMZ) (Table
+                  - link "1" [ref=e264] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Tab1
+                  - text: ) was digested with HindIII and EcoRI in order to obtain the fragments containing the ORF along with the strong ermE* promoter of the erythromycin resistance gene from Saccharopolyspora erythraea (Bibb et al.
+                  - link "Reference 1985" [ref=e265] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR4
+                    - text: "1985"
+                  - text: ","
+                  - link "Reference 1994" [ref=e266] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR5
+                    - text: "1994"
+                  - text: ) and transferred to the pNV19 vector, obtaining the recombinant plasmid pENVO (Table
+                  - link "1" [ref=e267] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Tab1
+                  - text: ) that was used to transform electrocompetent Rhodococcus sp. T104 cells, as previously described (García-Hidalgo et al.
+                  - link "Reference 2012" [ref=e268] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR20
+                    - text: "2012"
+                  - text: ). All these constructions were confirmed by sequencing, using an ABI Prism 3730 DNA sequencer.
+                - figure "Table 1 Bacterial strains, plasmids, and constructs used in this study" [ref=e270]:
+                  - link "Full size table 1" [ref=e273] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1/tables/1
+                    - text: Full size table
+                - heading [level=3] [ref=e276]:
+                  - text: Purification of PhaZ
+                  - subscript [ref=e277]: Sex2
+                  - text: produced by Rhodococcus sp. T104 strain
+                - paragraph [ref=e278]:
+                  - text: Rhodoccocus sp. T104 (pENVO) cells were cultured aerobically under submerged conditions in 2 × YTG with 100 μg mL
+                  - superscript [ref=e279]: –1
+                  - text: kanamycin at 30 °C for 72 h. Ammonium sulfate was added to the cell-free culture broth at a final concentration of 0.5 M. Then, the solution was centrifuged at 10,000×g for 10 min at 4 °C and loaded onto a 5-mL HiTrap Butyl HP sepharose column (GE Healthcare) equilibrated with 15 mM Tris-HCl buffer, pH 8, 0.5 M ammonium sulfate (Buffer A) using a BioLogic LP chromatographic system (Bio-Rad). The column was extensively washed with the same buffer, and the retained proteins were eluted with a linear decreasing gradient of 0.5 to 0 M ammonium sulfate in buffer A. The protein fractions containing PhaZ
+                  - subscript [ref=e280]: Sex2
+                  - text: were pooled, and ammonium sulfate was added until final concentration of 0.5 M. After centrifugation at 10,000×g for 10 min, the supernatant was loaded onto a HiTrap Phenyl HP sepharose cartridge (GE Healthcare) (5 mL bed volume) equilibrated with buffer A. The cartridge was washed with the same buffer and a decreasing linear gradient from 0.5 to 0 M ammonium sulfate allowed elution of the bound proteins. Purity of the fractions showing mcl-PHA depolymerase activity was analyzed by SDS-PAGE (Laemmli
+                  - link "Reference 1970" [ref=e281] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR33
+                    - text: "1970"
+                  - text: ) and the amount of protein in the enzyme solutions was routinely determined by the Coomassie Blue method (Bradford
+                  - link "Reference 1976" [ref=e282] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR8
+                    - text: "1976"
+                  - text: ). To determine the N-terminal sequence, the protein bands were transferred to a polyvinylidene difluoride (PVDF) membrane (Bio-Rad) after protein separation by SDS-PAGE (Speicher
+                  - link "Reference 1994" [ref=e283] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR51
+                    - text: "1994"
+                  - text: ), using the Transblot SD cell (Bio-Rad, Hercules, CA) at 25 V for 3 h. The membrane filter was stained with 0.1 % amido black and destained with 5 % acetic acid. The protein band on the filter was excised and subjected to N-terminal amino acid sequence analysis by automatic Edman degradation (Edman and Begg
+                  - link "Reference 1967" [ref=e284] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR14
+                    - text: "1967"
+                  - text: ), using a gas phase protein sequencer (Procise Protein Sequencing System) connected to online model 610A (Applied Biosystems, Foster, CA).
+                - heading "mcl-PHA depolymerase assays" [level=3] [ref=e285]
+                - paragraph [ref=e286]:
+                  - text: mcl-PHA depolymerase activity of S. exfoliatus K10 was detected by clear halo formation on plates of basal mineral medium supplemented with P(HO-co-HH) as sole carbon source whereas depolymerase activity of Rhodococcus T104 (pENVO) was detected by growing recombinant cells on solid 2 × YTG medium plus P(HO-co-HH). In both cases, plates were incubated for 48 h at 30 °C. On the other hand, extracellular depolymerase activity was measured by the quick and simple qualitative spot test method as previously described (Martínez et al.
+                  - link "Reference 2012" [ref=e287] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR39
+                    - text: "2012"
+                  - text: ) but in 50 mM Tris-HCl buffer, pH 8. Finally, depolymerase activity of the recombinant purified enzyme was determined by the quantitative standard turbidimetric assay (Martínez et al.
+                  - link "Reference 2012" [ref=e288] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR39
+                    - text: "2012"
+                  - text: ) measuring the decrease of the turbidity of a homogeneous P(HO-co-HH) suspension with slight modifications. Five hundred microliters of standard reaction mixture contained 15 mM Glycine-NaOH buffer, pH 10, and 1 mg mL
+                  - superscript [ref=e289]: −1
+                  - text: of sonicated homogenous suspension of P(HO-co-HH) in deionized water were preincubated at 30 °C for 3 min; then, the reaction was started by the addition of 2 μg of pure enzyme and after 30 min of incubation at 30 °C, the turbidity decrease at 600 nm was measured. The turbidity decrease was linear during the assayed period. Controls without the enzyme were carried out in parallel to ascertain the possible non-enzymatic hydrolysis of P(HO-co-HH). All the activity assays were performed in triplicate and the maximum error was below 5 %. One unit (U) of mcl-PHA depolymerase activity is defined as the amount of enzyme needed to catalyze the decrease of 1 absorbance unit (at 600 ) per minute in the assay conditions described.
+                - heading "Matrix-assisted laser desorption-time-of-flight analysis" [level=3] [ref=e290]
+                - paragraph [ref=e291]:
+                  - text: The MALDI experiments were performed on an Autoflex III matrix-assisted laser desorption-time-of-flight (MALDI-TOF-TOF) instrument (Bruker Daltonics, Bremen, Germany) with a smartbeam laser. The spectra were acquired using a laser power just above the ionization threshold. Samples were analyzed in the positive ion detection and delayed extraction linear mode. Typically, 1000 laser shots were summed into a single mass spectrum. External calibration was performed, using the Bovine Serum Albumin from Sigma, covering the range from 10 to 140 kDa. The 2,5-dihydroxy-acetophenone matrix solution was prepared by dissolving 7.6 mg in 375 μL ethanol followed by the addition of 125 μL of 80 mM diammonium hydrogen citrate aqueous solution. For sample preparation, 2 μL of 0.25 mg mL
+                  - superscript [ref=e292]: –1
+                  - text: PhaZ
+                  - subscript [ref=e293]: Sex2
+                  - text: solution in 15 mM Tris-HCl buffer, pH 8, were diluted with 2 μL of 2 % trifluoroacetic acid aqueous solution and 2 μL of matrix solution. A volume of 1 μL of these mixtures was spotted on the 800-μm AnchorChip target (Bruker-Daltonics) and allowed to dry at room temperature.
+                - heading [level=3] [ref=e294]:
+                  - text: Thermal inactivation of PhaZ
+                  - subscript [ref=e295]: Sex2
+                - paragraph [ref=e296]:
+                  - text: Thermal inactivation experiments were performed by pre-incubating the pure PhaZ
+                  - subscript [ref=e297]: Sex2
+                  - text: (20 μg mL
+                  - superscript [ref=e298]: –1
+                  - text: ) in 50 mM Tris-HCl buffer, pH 8 at different temperatures ranging from 25 to 70 °C; then, aliquots were withdrawn at the indicated times and incubated at 4 °C in an ice bath for 10 min. The residual activity was determined at 30 °C using the standard turbidimetric assay conditions described above. The experimental deactivation data were modeled by Eq. (
+                  - link "1" [ref=e299] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Equ1
+                  - text: ) using a non-linear regression procedure based on the Lvenberg-Marquardt method of iterative convergence (Henley and Sadana
+                  - link "Reference 1985" [ref=e300] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR25
+                    - text: "1985"
+                  - text: ") included into the TableCurve 2D v5.01 program:"
+                - generic [ref=e301]:
+                  - generic [ref=e302]: "$$ \\begin{array}{c}\\hfill a=\\frac{E+{\\alpha}_1\\cdot {E}_1+{\\alpha}_2\\cdot {E}_2}{E_0}\\hfill \\\\ {}\\hfill ={\\alpha}_2+\\left[1+\\frac{\\alpha_1{k}_1}{k_2-{k}_1}-\\frac{\\alpha_2{k}_2}{k_2-{k}_1}\\right]\\cdot \\left[ \\exp \\left(-{k}_1\\cdot t\\right)\\right]-\\left({\\alpha}_1-{\\alpha}_2\\right)\\left[\\frac{k_1}{k_2-{k}_1}\\right]\\cdot \\left[ \\exp \\left(-{k}_2\\cdot t\\right)\\right]\\hfill \\end{array} $$"
+                  - generic [ref=e303]: (1)
+                - paragraph [ref=e304]:
+                  - text: where α is the residual activity. E, E
+                  - subscript [ref=e305]: "1"
+                  - text: ", and E"
+                  - subscript [ref=e306]: "2"
+                  - text: are the specific activities of native, intermediate and denatured enzyme. α
+                  - subscript [ref=e307]: "1"
+                  - text: and α
+                  - subscript [ref=e308]: "2"
+                  - text: are the ratio of specific activities E
+                  - subscript [ref=e309]: "1"
+                  - text: /E and E
+                  - subscript [ref=e310]: "2"
+                  - text: /E, respectively. k
+                  - subscript [ref=e311]: "1"
+                  - text: and k
+                  - subscript [ref=e312]: "2"
+                  - text: are first-order deactivation coefficients. The values of k
+                  - subscript [ref=e313]: "1"
+                  - text: ", k"
+                  - subscript [ref=e314]: "2"
+                  - text: ", α"
+                  - subscript [ref=e315]: "1"
+                  - text: ", and α"
+                  - subscript [ref=e316]: "2"
+                  - text: were constrained to be non-negative, and the theoretical deactivation curves were obtained from Eq. (
+                  - link "1" [ref=e317] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Equ1
+                  - text: ) by substitution of the calculated convergence values. A good agreement between the experimental and theoretical data was considered when the convergence relation coefficient was higher than 0.98 for each deactivation experiment.
+                - heading "Circular dichroism analysis" [level=3] [ref=e318]
+                - paragraph [ref=e319]:
+                  - text: Circular dichroism spectra (CD) were recorded with 0.3 mg mL
+                  - superscript [ref=e320]: –1
+                  - text: of pure PhaZ
+                  - subscript [ref=e321]: Sex2
+                  - text: in 5 mM potassium phosphate buffer, pH 7 at 25 °C between 190 and 260 nm under thermostated conditions by using a JASCO J-715 spectropolarimeter. The CD readings were expressed as the mean residue molar ellipticity (degrees · cm
+                  - superscript [ref=e322]: "2"
+                  - text: · dmol
+                  - superscript [ref=e323]: −1
+                  - text: ), assuming a residue molecular mass of 106 Da according to the average amino acid mass of PhaZ
+                  - subscript [ref=e324]: Sex2
+                  - text: . Secondary structure data were obtained from CD spectra deconvolution, using the CDNN V2.1 program (Böhm et al.
+                  - link "Reference 1992" [ref=e325] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR6
+                    - text: "1992"
+                  - text: ). Thermal unfolding of PhaZ
+                  - subscript [ref=e326]: Sex2
+                  - text: was analyzed by CD variation at 209 nm in 20–85 °C range scanned at 20 °C h
+                  - superscript [ref=e327]: –1
+                  - text: .
+                - heading "Analytical ultracentrifugation analysis" [level=3] [ref=e328]
+                - paragraph [ref=e329]:
+                  - text: Samples of pure PhaZ
+                  - subscript [ref=e330]: Sex2
+                  - text: at two different concentrations (0.06 and 0.23 mg mL
+                  - superscript [ref=e331]: –1
+                  - text: ) in 15 mM Tris-HCl, buffer pH 8, were loaded (300 μL) into analytical ultracentrifugation cells. The experiments were carried out at 50,000×g in a XL-I analytical ultracentrifuge (Beckman-Coulter Inc.) equipped with a UV-VIS absorbance detection system, using an An-50Ti rotor, and 12 mm Epon-charcoal standard double-sector centerpieces. Sedimentation velocity profiles were recorded using the UV-VIS absorbance detection system at 280 nm. Sedimentation coefficient distributions were calculated by least-squares boundary modeling of sedimentation velocity data using the continuous distribution c(s) Lamm equation model as implemented in SEDFIT 14.1 (Brown and Schuck
+                  - link "Reference 2006" [ref=e332] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR9
+                    - text: "2006"
+                  - text: ).
+                - heading [level=3] [ref=e333]:
+                  - text: Identification of the PhaZ
+                  - subscript [ref=e334]: Sex2
+                  - text: reaction products
+                - paragraph [ref=e335]:
+                  - text: To identify hydrolytic products of P(HO-co-HH) and PHACOS, 1 g L
+                  - superscript [ref=e336]: –1
+                  - text: of polymer was subjected to enzymatic hydrolysis with 2 μg of pure PhaZ
+                  - subscript [ref=e337]: Sex2
+                  - text: depolymerase in 15 mM Glycine-NaOH buffer, pH 10, according to the standard turbidimetric assay. The degradation products were identified by analyzing the supernatant of the reaction mixture by HPLC mass spectrometry (Ion Trap LC-MS) as previously reported (Martínez et al.
+                  - link "Reference 2012" [ref=e338] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR39
+                    - text: "2012"
+                  - text: ). The HPLC-MS experiments were carried out on a Finnigan Surveyor (Thermo Electron) pump coupled with a Finnigan LXQ TM (Thermo Electron) ion trap mass spectrometer. The separation was performed at 40 °C on a 2.1 × 150 mm (3.5 μm particle size) XTerra MS C18 column (Waters) at a flow rate of 100 μL min
+                  - superscript [ref=e339]: –1
+                  - text: "and an injection volume of 25 μL. The mobile phase for analysis of degradation products of both P(HO-co-HH) and PHACOS was 0.1 % ammonium hydroxide in water (A) and 0.1 % ammonium hydroxide in methanol (B). The following elution program was used as follows: at the start, 95 % A and 5 % B; after 3 min, the percentage of B was linearly increased to 95 % in 7 min, then kept constant for 20 min, ramped to the original composition in 5 min, and then equilibrated for 10 min. The samples were introduced to the ESI source in negative mode by continuous infusion by means of the instrument syringe pump at a rate of 3 mL min"
+                  - superscript [ref=e340]: –1
+                  - text: . The source was operated at 4.5 kV and the capillary temperature was set to 200 °C. All spectra were recorded in full scan mode (m/z 50-1500).
+            - generic [ref=e342]:
+              - heading "Results" [level=2] [ref=e343]
+              - generic [ref=e344]:
+                - heading "Identification and functional characterization of a novel extracellular mcl-PHA depolymerase in S. exfoliatus DSMZ 41693" [level=3] [ref=e345]
+                - paragraph [ref=e346]:
+                  - text: A putative extracellular mcl-PHA depolymerase (PhaZ
+                  - subscript [ref=e347]: Sex2
+                  - text: ) has been identified by inspection of the recently published genome sequence of S. exfoliatus DSMZ 41693 (nt 12,616 to 13,485 in Contig334) (Martínez et al.
+                  - link "Reference 2014" [ref=e348] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR40
+                    - text: "2014"
+                  - text: ). PhaZ
+                  - subscript [ref=e349]: Sex2
+                  - text: shows the typical arrangement of extracellular mcl-PHA depolymerases with a secretion signal peptide (Fig S
+                  - link "1" [ref=e350] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#MOESM1
+                  - text: ), predicted to be of 29 amino acids with the algorithm of the SignalP 4.1 server (Petersen et al.
+                  - link "Reference 2011" [ref=e351] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR44
+                    - text: "2011"
+                  - text: ) and the occurrence of a motif (G-H-S-Q-G) which agrees with the lipase box consensus sequence (Arpigny and Jaeger
+                  - link "Reference 1999" [ref=e352] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR2
+                    - text: "1999"
+                  - text: ) (Fig.
+                  - link "1" [ref=e353] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Fig1
+                  - text: ). Alignment of PhaZ
+                  - subscript [ref=e354]: Sex2
+                  - text: with other mcl-PHA depolymerases characterized so far shows the conserved lipase box and the putative catalytic amino acids (Ser
+                  - superscript [ref=e355]: "123"
+                  - text: "-Asp"
+                  - superscript [ref=e356]: "167"
+                  - text: "-His"
+                  - superscript [ref=e357]: "197"
+                  - text: ) (Fig.
+                  - link "1" [ref=e358] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Fig1
+                  - text: ). Likewise, PhaZ
+                  - subscript [ref=e359]: Sex2
+                  - text: shows low sequence identity with depolymerases from Pseudomonas strains and B. bacteriovorus HD100 whereas it displays high identity with S. roseolus SL3 and S. venezuelae SO1, fitting perfectly within the Actinobacteria depolymerase group (Gangoiti et al.
+                  - link "Reference 2012" [ref=e360] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR18
+                    - text: "2012"
+                  - text: ). All these characteristics suggest that this gene codes for a putative extracellular mcl-PHA depolymerase.
+                - figure "Fig. 1" [ref=e362]:
+                  - generic [ref=e365]:
+                    - generic [ref=e366]:
+                      - generic:
+                        - img "Fig. 1"
+                      - link "Full size image figure 1" [ref=e368] [cursor=pointer]:
+                        - /url: /article/10.1007/s00253-015-6780-1/figures/1
+                        - text: Full size image
+                    - paragraph [ref=e372]:
+                      - text: Multiple sequence alignment of PhaZ
+                      - subscript [ref=e373]: Sex2
+                      - text: with other mcl-PHA depolymerase sequences. S. roseolus SL3 (GeneBank accession code gi 402744095), S. venezuelae SO1 (GeneBank accession code gi 402744097), P. fluorescens GK13 (GeneBank accession code gi 504478), and B. bacteriovorus HD100 (GeneBank accession code gi 42525044). Only regions with conserved amino acids are shown. Main catalytic amino acids in S. exfoliatus DSMZ 41693 (Ser
+                      - superscript [ref=e374]: "123"
+                      - text: "-Asp"
+                      - superscript [ref=e375]: "167"
+                      - text: "-His"
+                      - superscript [ref=e376]: "197"
+                      - text: ) are marked with black boxes. Conservation level of each position can be observed in the yellow bars below. Vertical blue lines represent gaps in the complete sequence
+                - paragraph [ref=e377]:
+                  - text: In order to determine the extracellular mcl-PHA depolymerase activity of S. exfoliatus DSMZ 41693, fresh spores were grown on solid basal mineral medium plus mcl-PHA as described in the “
+                  - link "Materials and methods" [ref=e378] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Sec2
+                  - text: ” section. After 2 days of incubation at 30 °C a clear zone around the streak could be observed demonstrating the ability of this streptomycete to extracellularly degrade mcl-PHA (Fig.
+                  - link "2a" [ref=e379] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Fig2
+                  - text: ).
+                - figure "Fig. 2" [ref=e381]:
+                  - generic [ref=e384]:
+                    - generic [ref=e385]:
+                      - generic:
+                        - img "Fig. 2"
+                      - link "Full size image figure 2" [ref=e387] [cursor=pointer]:
+                        - /url: /article/10.1007/s00253-015-6780-1/figures/2
+                        - text: Full size image
+                    - paragraph [ref=e391]:
+                      - text: Expression and purification of PhaZ
+                      - subscript [ref=e392]: Sex2
+                      - text: . a S. exfoliatus K10 DSMZ 41693 growing on solid basal mineral medium plates with mcl-PHA as only source carbon for 2 days at 30 °C. The clear halo around the strain demonstrates the ability to extracellularly degrade mcl-PHA. b Extracellular mcl-PHA degradation by Rhodococcus sp. T104 (pENVO) strain growing on solid 2 × YTG medium plus mcl-PHA. c SDS-PAGE analysis of different purification steps of PhaZ
+                      - subscript [ref=e393]: Sex2
+                      - text: . Lane 1, unstained broad range molecular weight standards from BioRad; lane 2, Rhodococcus sp. T104 (pENVO) culture broth; lane 3, 2 μg of total protein after Butyl HP sepharose purification step; lane 4, 1 μg of total protein after Phenyl HP sepharose purification step. The N-terminal amino acid sequence of the PhaZ
+                      - subscript [ref=e394]: Sex2
+                      - text: ", in one letter code, was determined as described before (Speicher"
+                      - link "Reference 1994" [ref=e395] [cursor=pointer]:
+                        - /url: /article/10.1007/s00253-015-6780-1#ref-CR51
+                        - text: "1994"
+                      - text: )
+                - paragraph [ref=e396]:
+                  - text: To ascribe PHA degradation activity to the PhaZ
+                  - subscript [ref=e397]: Sex2
+                  - text: enzyme, phaZ
+                  - subscript [ref=e398]: Sex2
+                  - text: gene was cloned in the phylogenetically related Gram-positive host, Rhodococcus sp. T104. To this aim, the phaZ
+                  - subscript [ref=e399]: Sex2
+                  - text: "-coding gene was PCR amplified and cloned into the pEM4 plasmid, containing the strong and constitutive ermE* promoter, and subcloned into pNV19 shuttle vector, enabling the expression of heterologous genes in Rhodococcus sp. T104, as previously demonstrated (García-Hidalgo et al."
+                  - link "Reference 2012" [ref=e400] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR20
+                    - text: "2012"
+                  - text: ","
+                  - link "Reference 2013" [ref=e401] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR21
+                    - text: "2013"
+                  - text: ). Remarkably, the abilitiy of Rhodococcus sp. T104 carrying the pENVO plasmid for degrading mcl-PHA was determined by the formation of clear hydrolysis halos surrounding the colonies when growing in the presence of mcl-PHA (Fig.
+                  - link "2b" [ref=e402] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Fig2
+                  - text: ). Moreover, PHA depolymerase activity was detected in the cell-free culture supernatant of Rhodococcus sp. T104 (pENVO). SDS-PAGE analysis of these supernatants revealed the appearance of a 30-kDa protein band, which is consistent with the predicted molecular mass of the mature protein deduced from its amino acid sequence (27.6 kDa) (Fig.
+                  - link "2c" [ref=e403] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Fig2
+                  - text: ). Subsequently, the N-terminal amino acid sequence of this band was determined to be AEAPTGRI, by Edman sequential degradation, confirming its identity as PhaZ
+                  - subscript [ref=e404]: Sex2
+                  - text: depolymerase and also proving that the signal peptide is correctly processed to render the mature form of the protein in Rhodococcus sp. T104 (pENVO).
+                - heading [level=3] [ref=e405]:
+                  - text: Purification and biochemical characterization of PhaZ
+                  - subscript [ref=e406]: Sex2
+                - paragraph [ref=e407]:
+                  - text: PhaZ
+                  - subscript [ref=e408]: Sex2
+                  - text: produced by Rhodococcus sp. T104 (pENVO) was purified from the culture supernatant by two consecutive hydrophobic interaction chromatographic (HIC) steps (Fig.
+                  - link "2c" [ref=e409] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Fig2
+                  - text: ). MALDI-TOF-TOF analysis of pure enzyme showed a main peak of 27.6 kDa, which perfectly fits the theoretical value deduced from the amino acid sequence (27.6 kDa) (Fig.
+                  - link "S2" [ref=e410] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#MOESM1
+                  - text: ). In addition, aliquots of pure PhaZ
+                  - subscript [ref=e411]: Sex2
+                  - text: with two different concentrations (0.06 and 0.23 mg mL
+                  - superscript [ref=e412]: –1
+                  - text: ) were subjected to sedimentation velocity analysis to ascertain the expected monomeric nature of the enzyme. The experiments performed with low protein concentration (0.06 mg mL
+                  - superscript [ref=e413]: –1
+                  - text: ) showed a single peak corresponding to the active monomeric form of PhaZ
+                  - subscript [ref=e414]: Sex2
+                  - text: ", showing characteristic values of a globular shaped protein (Fig."
+                  - link "S3" [ref=e415] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#MOESM1
+                  - text: A). However, analysis of higher concentrations of the protein revealed the existence of both monomers and dimers (Fig.
+                  - link "S3" [ref=e416] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#MOESM1
+                  - text: B).
+                - paragraph [ref=e417]:
+                  - text: The secondary structure content of PhaZ
+                  - subscript [ref=e418]: Sex2
+                  - text: was experimentally calculated by CD spectrum deconvolution, pointing to an α/β structure (Fig.
+                  - link "3" [ref=e419] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Fig3
+                  - text: ). This study has revealed a secondary structure showing 7.9 % α-helix, 43.9 % β-sheet, 19.4 % β-turns, and 31.2 % random coil. Thermal denaturation of PhaZ
+                  - subscript [ref=e420]: Sex2
+                  - text: was also monitored by CD, measuring the change of ellipticity at 209 nm in a temperature range from 20 to 85 °C, showing a single melting temperature (Tm) of 44.2 °C (inset, Fig.
+                  - link "3" [ref=e421] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Fig3
+                  - text: ).
+                - figure "Fig. 3" [ref=e423]:
+                  - generic [ref=e426]:
+                    - generic [ref=e427]:
+                      - generic:
+                        - img "Fig. 3"
+                      - link "Full size image figure 3" [ref=e429] [cursor=pointer]:
+                        - /url: /article/10.1007/s00253-015-6780-1/figures/3
+                        - text: Full size image
+                    - paragraph [ref=e433]:
+                      - text: Far UV circular dichroism spectrum of pure PhaZ
+                      - subscript [ref=e434]: Sex2
+                      - text: . Inset, thermal unfolding of PhaZ
+                      - subscript [ref=e435]: Sex2
+                      - text: ", studied by CD variation at 209 nm in 20–85 °C range"
+                - paragraph [ref=e436]:
+                  - text: In addition, PhaZ
+                  - subscript [ref=e437]: Sex2
+                  - text: was biochemically characterized in detail. With regard to temperature and pH studies, PhaZ
+                  - subscript [ref=e438]: Sex2
+                  - text: showed highest activity at 30 °C and pH 10 (Fig.
+                  - link "S4" [ref=e439] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#MOESM1
+                  - text: ). Depolymerase activity decreased to 56 and 15 % when the reaction was carried out at 25 and 45 °C, respectively, and it showed 7 and 30 % activity at pH 6 and 8, respectively. The specific activity of purified PhaZ
+                  - subscript [ref=e440]: Sex2
+                  - text: ", calculated by turbidimetry with mcl-PHA as substrate, was found to be 42 U mg"
+                  - superscript [ref=e441]: −1
+                  - text: protein at optimal conditions.
+                - paragraph [ref=e442]:
+                  - text: Moreover, thermal inactivation was studied by pre-incubating the PhaZ
+                  - subscript [ref=e443]: Sex2
+                  - text: at different temperatures ranging from 25 to 70 °C. The enzyme was unstable above 30 °C becoming inactive after 1 h of incubation at this temperature whereas it was stable up to 30 °C for at least 4 h in presence of 10 % glycerol (Fig.
+                  - link "4" [ref=e444] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Fig4
+                  - text: ). As shown, the deactivation curves exhibited classical biphasic decays where the value of k
+                  - subscript [ref=e445]: "2"
+                  - text: is very small in presence of glycerol (Table
+                  - link "2" [ref=e446] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Tab2
+                  - text: ) indicating that the remaining activity of the intermediate E
+                  - subscript [ref=e447]: "1"
+                  - text: is more thermostable, with a higher half-life than enzyme in absence of glycerol (Table
+                  - link "2" [ref=e448] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Tab2
+                  - text: ), and resulting in a thermal stabilization factor of 6.85-fold.
+                - figure "Fig. 4" [ref=e450]:
+                  - generic [ref=e453]:
+                    - generic [ref=e454]:
+                      - generic:
+                        - img "Fig. 4"
+                      - link "Full size image figure 4" [ref=e456] [cursor=pointer]:
+                        - /url: /article/10.1007/s00253-015-6780-1/figures/4
+                        - text: Full size image
+                    - paragraph [ref=e460]:
+                      - text: Thermal stability studies of PhaZ
+                      - subscript [ref=e461]: Sex2
+                      - text: . Thermal deactivation profiles were determined at 30 °C in absence (closed circles) and presence of 10 % glycerol (opened circles). The residual activity of PhaZ
+                      - subscript [ref=e462]: Sex2
+                      - text: was measured at 30 °C under standard conditions. One hundred percent activity corresponds to 42 U mg
+                      - superscript [ref=e463]: −1
+                      - text: protein (maximum activity at optimal conditions)
+                - figure [ref=e465]:
+                  - generic [ref=e467]:
+                    - text: Table 2 Deactivation kinetic constants (k
+                    - subscript [ref=e468]: "1"
+                    - text: and k
+                    - subscript [ref=e469]: "2"
+                    - text: ) and half-lives (t
+                    - subscript [ref=e470]: 1/2
+                    - text: ) at 30 °C of recombinant PhaZ
+                    - subscript [ref=e471]: Sex2
+                    - text: in absence (−) and presence (+) of 10 % glycerol
+                  - link "Full size table 2" [ref=e473] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1/tables/2
+                    - text: Full size table
+                - paragraph [ref=e476]:
+                  - text: In addition, the effect of several ions and other compounds was also studied (Table
+                  - link "3" [ref=e477] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Tab3
+                  - text: ). Interestingly, 2 mM MgCl
+                  - subscript [ref=e478]: "2"
+                  - text: and CaCl
+                  - subscript [ref=e479]: "2"
+                  - text: caused a complete inactivation of the dialyzed PhaZ
+                  - subscript [ref=e480]: Sex2
+                  - text: enzyme (Table
+                  - link "3" [ref=e481] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Tab3
+                  - text: ). The activity of PhaZ
+                  - subscript [ref=e482]: Sex2
+                  - text: was also assayed in the presence of some detergents, being considerably enhanced with low concentrations of nonionic detergents, such as 0.01 % (w/v) Tween 20 or 0.005 % (w/v) Triton X-100, as well as in the presence of 0.01 % (w/v) of the anionic detergent SDS (Table
+                  - link "3" [ref=e483] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Tab3
+                  - text: ). However, higher concentration of detergents showed a significant inhibitory effect.
+                - figure [ref=e485]:
+                  - generic [ref=e487]:
+                    - text: Table 3 Effects of various chemicals on PhaZ
+                    - subscript [ref=e488]: Sex2
+                    - text: depolymerase activity
+                  - link "Full size table 3" [ref=e490] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1/tables/3
+                    - text: Full size table
+                - heading [level=3] [ref=e493]:
+                  - text: Identification of the hydrolysis products of P(HO-co-HH) and PHACOS catalyzed by PhaZ
+                  - subscript [ref=e494]: Sex2
+                - paragraph [ref=e495]:
+                  - text: Enzymatic hydrolysis of P(HO-co-HH) latex and PHACOS latex catalyzed by PhaZ
+                  - subscript [ref=e496]: Sex2
+                  - text: depolymerase was examined by HPLC, and the identities of the resulting peaks were determined by ESI-MS (see “
+                  - link "Materials and methods" [ref=e497] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Sec2
+                  - text: ” for details). Figure
+                  - link "5a" [ref=e498] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Fig5
+                  - text: shows the hydrolysis products of P(HO-co-HH) catalyzed by PhaZ
+                  - subscript [ref=e499]: Sex2
+                  - text: after 30 min of incubation at 30 °C. The monomer of (R)-3-hydroxyoctanoate (3-HO) was detected as the main hydrolysis product, representing 70 % of the total degradation products. Additionally, dimers of HO-HO and HO-HX as well as trimers of HO-HO-HO and HO-HO-HX were detected as minor products (Fig.
+                  - link "5a" [ref=e500] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Fig5
+                  - text: ). Similarly, the hydrolysis products of functionalized thioester-based PHACOS after 30 min of hydrolysis catalyzed by PhaZ
+                  - subscript [ref=e501]: Sex2
+                  - text: showed that the amounts of released oligomers (67 % of total hydrolyzed products) were higher than those of PHACOS monomers (6ATH) and HO monomers (21 and 11 %, respectively) (Fig.
+                  - link "5b, d" [ref=e502] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Fig5
+                  - text: ). Remarkably, after 7 h of incubation with PhaZ
+                  - subscript [ref=e503]: Sex2
+                  - text: ", 6ATH and HO monomers were detected as the main degradation products (57 and 34 %, respectively), with dimers of HO-HO as minor products (9 %) (Fig."
+                  - link "5c, e" [ref=e504] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Fig5
+                  - text: ). When mcl-PHA or PHACOS were incubated in absence of enzyme, no degradation occurred (data not shown). These results indicated that PhaZ
+                  - subscript [ref=e505]: Sex2
+                  - text: depolymerase behaves as endo- and exo-hydrolases being able to hydrolyze both large and small polyester molecules to accomplish the total degradation of PHA.
+                - figure "Fig. 5" [ref=e507]:
+                  - generic [ref=e510]:
+                    - generic [ref=e511]:
+                      - generic:
+                        - img "Fig. 5"
+                      - link "Full size image figure 5" [ref=e513] [cursor=pointer]:
+                        - /url: /article/10.1007/s00253-015-6780-1/figures/5
+                        - text: Full size image
+                    - paragraph [ref=e517]:
+                      - text: Identification of the P(HO-co-HX) and PHACOS degradation products catalyzed by PhaZ
+                      - subscript [ref=e518]: Sex2
+                      - text: ". a Pie chart of the P(HO-co-HX) degradation products profile at 30-min reaction. b, c Pie chart of the PHACOS degradation products profile at 30-min (b) and 7-h (c) reactions. HO hydroxyoctanoate monomer, HX-HO dimer of hydroxyhexanoate and hydroxyoctanoate, HO-HO dimer of hydroxyoctanoate, HO-HX-HO trimer of hydroxyhexanoate and hydroxyoctanoate, HO-HO-HO trimer of hydroxyoctanoate, 6-ATH 6-acetylthiohexanoic acid. d, e PHACOS reaction product identification by LC-ESI-MS at 30 min (d) and 7 h (e). Peaks 1 to 5 represent the different separated species. The mass spectrum of peak 1 corresponds to deprotonated monomers of HO (m/z 159). Peak 2: dehydrated monomers of 3OH-6ATH (m/z 187). Peak 3, dimers HO-HO (m/z 301). ESI-MS spectra revealed the presence of 3-hydroxyalkanoates oligomers of high molecular weight in samples shown in b (peaks 4 and 5)"
+            - generic [ref=e520]:
+              - heading "Discussion" [level=2] [ref=e521]
+              - generic [ref=e522]:
+                - paragraph [ref=e523]:
+                  - text: During the last few decades, Streptomycetes have shown to be a very important and adaptable group of bacteria for the production of commercially interesting bioactive natural products, antibiotics, and numerous extracellular hydrolytic enzymes, such as cellulases, chitinases, ligninases, and PHA depolymerases. In this sense, the interest on PHA hydrolysis by PHA depolymerases lies not only in the enzymatic biodegradation of these bioplastics or biomaterials but also as a promising biocatalytic procedure for obtaining chiral RHAs for fine chemical, pharmaceutical, medical, and biofuel industries (Ren et al.
+                  - link "Reference 2010" [ref=e524] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR47
+                    - text: "2010"
+                  - text: ; Chen
+                  - link "Reference 2011" [ref=e525] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR10
+                    - text: "2011"
+                  - text: ; Gao et al.
+                  - link "Reference 2011" [ref=e526] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR19
+                    - text: "2011"
+                  - text: ). Therefore, there is increasing demand for developing novel methods that allow efficient production of RHAs, and the replacement of conventional processes by sustainable biotechnological procedures is one of the main current trends in white biotechnology and biocatalysis (Ren et al.
+                  - link "Reference 2010" [ref=e527] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR47
+                    - text: "2010"
+                  - text: ).
+                - paragraph [ref=e528]:
+                  - text: S. exfoliatus was found to be one of the few bacteria able to hydrolyze scl- and mcl-PHAs, indicating the presence of both types of depolymerases (Klingbeil et al.
+                  - link "Reference 1996" [ref=e529] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR32
+                    - text: "1996"
+                  - text: ; Elbanna et al.
+                  - link "Reference 2004" [ref=e530] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR15
+                    - text: "2004"
+                  - text: ; Papaneophytou et al.
+                  - link "Reference 2011" [ref=e531] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR43
+                    - text: "2011"
+                  - text: ; Martínez et al.
+                  - link "Reference 2012" [ref=e532] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR39
+                    - text: "2012"
+                  - text: ; Santos et al.
+                  - link "Reference 2013" [ref=e533] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR49
+                    - text: "2013"
+                  - text: ). Previously, scl-PHA depolymerase from S. exfoliatus DSMZ 41693 has been cloned and well characterized by our group (García-Hidalgo et al.
+                  - link "Reference 2012" [ref=e534] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR20
+                    - text: "2012"
+                  - text: ). In this work, we have established that the putative phaZ
+                  - subscript [ref=e535]: sex2
+                  - text: gene identified by in silico analysis of the recently published genome sequence of S. exfoliatus DSMZ 41693 (Martínez et al.
+                  - link "Reference 2014" [ref=e536] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR40
+                    - text: "2014"
+                  - text: ) actually encodes a novel mcl-PHA depolymerase (PhaZ
+                  - subscript [ref=e537]: Sex2
+                  - text: ), which displays several characteristics that render its biotechnological exploitation attractive for the production of added value RHAs. In this sense, PhaZ
+                  - subscript [ref=e538]: Sex2
+                  - text: releases (R)-3-hydroxyoctanoic acid monomers as the main reaction products when mcl-PHA is used as substrate. Remarkably, PhaZ
+                  - subscript [ref=e539]: Sex2
+                  - text: is also capable to hydrolyze functionalized biopolymers such as PHACOS, releasing functional thioester-based monomers.
+                - paragraph [ref=e540]:
+                  - text: Alignment of the deduced amino acid sequence of PhaZ
+                  - subscript [ref=e541]: Sex2
+                  - text: with biochemically characterized extracellular mcl-PHA depolymerases shows very high sequence similarity with mcl-PHA depolymerases from S. omiyaensis SO2 (88 %), S venezuelae SO1 (88 %), and S. roseolus SL3 (85 %), revealing that it could belong to the recently identified Actinobacteria subgroup of mcl-PHA depolymerases (Gangoiti et al.
+                  - link "Reference 2012" [ref=e542] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR18
+                    - text: "2012"
+                  - text: ; Santos et al.
+                  - link "Reference 2013" [ref=e543] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR49
+                    - text: "2013"
+                  - text: ). Furthermore, the typical signal peptide domain of extracellular PHA depolymerases (García-Hidalgo et al.
+                  - link "Reference 2012" [ref=e544] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR20
+                    - text: "2012"
+                  - text: ","
+                  - link "Reference 2013" [ref=e545] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR21
+                    - text: "2013"
+                  - text: ) was found at the N-terminus of the deduced amino acid sequence of PhaZ
+                  - subscript [ref=e546]: Sex2
+                  - text: (Fig.
+                  - link "S1" [ref=e547] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#MOESM1
+                  - text: ). Besides, the catalytic triad with essential residues for depolymerase activity (Ser, Asp, His) and the lipase consensus pentapeptide (Gly-X1-Ser-X2-Gly) found in almost all known serine hydrolases, were also identified. 3D modeling of the enzyme structure from its amino acid sequence revealed the spatial arrangement of the catalytic amino acids in the active center as well as the proximity of Gln
+                  - superscript [ref=e548]: "174"
+                  - text: ", the putative oxyanion hole amino acid that stabilizes the tetrahedral transition state (Fig."
+                  - link "6" [ref=e549] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Fig6
+                  - text: ).
+                - figure "Fig. 6" [ref=e551]:
+                  - generic [ref=e554]:
+                    - generic [ref=e555]:
+                      - generic:
+                        - img "Fig. 6"
+                      - link "Full size image figure 6" [ref=e557] [cursor=pointer]:
+                        - /url: /article/10.1007/s00253-015-6780-1/figures/6
+                        - text: Full size image
+                    - paragraph [ref=e561]:
+                      - text: Three-dimensional structure model of PhaZ
+                      - subscript [ref=e562]: Sex2
+                      - text: . The structure was modeled by the Phyre2 server (Protein Homology/analogY Recognition Engine V 2.0) (Kelley and Sternberg
+                      - link "Reference 2009" [ref=e563] [cursor=pointer]:
+                        - /url: /article/10.1007/s00253-015-6780-1#ref-CR30
+                        - text: "2009"
+                      - text: ) available at
+                      - link "www.sbg.bio.ic.ac.uk/phyre2" [ref=e564] [cursor=pointer]:
+                        - /url: http://www.sbg.bio.ic.ac.uk/phyre2
+                      - text: ", which combines homology and an initio modeling algorithms. The active site catalytic amino acids (Ser"
+                      - superscript [ref=e565]: "123"
+                      - text: "-Asp"
+                      - superscript [ref=e566]: "167"
+                      - text: "-His"
+                      - superscript [ref=e567]: "197"
+                      - text: ) are highlighted in cyan, red, and green, respectively.
+                - paragraph [ref=e568]:
+                  - text: Using Rhodococcus as a heterologous expression system, the active form of PhaZ
+                  - subscript [ref=e569]: Sex2
+                  - text: could be extracellularly produced, demonstrating the presence of the signal peptide identified in silico. Once again, Rhodococcus was able to recognize and process a Streptomyces signal peptide which facilitated further protein purification and characterization.
+                - paragraph [ref=e570]:
+                  - text: MALDI-TOF analysis of the purified protein revealed a monomer of 27.6 kDa, and secondary structure analysis as well as 3D modeling (Fig.
+                  - link "6" [ref=e571] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#Fig6
+                  - text: ) supported an α/β hydrolase fold, present in many hydrolytic enzymes such as lipases. However, sedimentation velocity analysis showed that PhaZ
+                  - subscript [ref=e572]: Sex2
+                  - text: could form active dimers at high protein concentrations, which is probably due to its hydrophobic nature that may end up in aggregates formation.
+                - paragraph [ref=e573]:
+                  - text: Regarding the optimum reaction conditions, PhaZ
+                  - subscript [ref=e574]: Sex2
+                  - text: displayed highest activity at 30 °C and pH 10. This temperature is not usual among PHA depolymerases from Actinobacteria, which show higher optimal temperatures (Santos et al.
+                  - link "Reference 2013" [ref=e575] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR49
+                    - text: "2013"
+                  - text: ). PhaZ
+                  - subscript [ref=e576]: Sex2
+                  - text: exhibited a low thermostability when incubated at 30 °C. However, stability is improved in presence of 10 % glycerol (75 % activity is maintained), which allows longer incubation periods. Remarkably, a significant enhancement in the presence of low concentrations of nonionic and anionic detergents was observed in PhaZ
+                  - subscript [ref=e577]: Sex2
+                  - text: . Similarly to lipases, detergents can improve the availability of the substrate by promoting emulsification or triggering protein conformational changes, which will improve the accessibility of the active site (Delorme et al.
+                  - link "Reference 2011" [ref=e578] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR12
+                    - text: "2011"
+                  - text: ). Higher detergent concentrations markedly decreased the enzyme activity. Similar behavior was reported in the P. fluorescens GK13 and S. venezuelae SO1 enzymes (Gangoiti et al.
+                  - link "Reference 2010" [ref=e579] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR17
+                    - text: "2010"
+                  - text: ; Santos et al.
+                  - link "Reference 2013" [ref=e580] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR49
+                    - text: "2013"
+                  - text: ). Interestingly, depolymerase activity was clearly inhibited by divalent cations as CaCl
+                  - subscript [ref=e581]: "2"
+                  - text: and MgCl
+                  - subscript [ref=e582]: "2"
+                  - text: .
+                - paragraph [ref=e583]:
+                  - text: Concerning enzyme activity on mcl-PHA, purified PhaZ
+                  - subscript [ref=e584]: Sex2
+                  - text: showed a higher specific activity compared to previously reported mcl-PHA depolymerases from Actinobacteria, (Santos et al.
+                  - link "Reference 2013" [ref=e585] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR49
+                    - text: "2013"
+                  - text: ; Gangoiti et al.
+                  - link "Reference 2012" [ref=e586] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR18
+                    - text: "2012"
+                  - text: ). In this sense, PhaZ
+                  - subscript [ref=e587]: Sex2
+                  - text: depolymerase specifically degrades mcl-PHA and is inactive towards scl-PHA and it behaves as an endo-exo-hydrolase that cleaves both large and small PHA molecules, producing (R)-3-hydroxyoctanoic acid monomers as the main reaction product of the mcl-PHA hydrolysis. It is worth mentioning that this is the first extracellular mcl-PHA depolymerase producing hydroxyoctanoate monomers as the main products in only 30-min reaction time whereas other mcl-PHA depolymerases from Actinobacteria required higher enzyme concentration (25-fold) and longer reaction time (72 h of incubation) to obtain 57–80 % monomers (Santos et al.
+                  - link "Reference 2013" [ref=e588] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR49
+                    - text: "2013"
+                  - text: ; Gangoiti et al.
+                  - link "Reference 2012" [ref=e589] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR18
+                    - text: "2012"
+                  - text: ). Moreover, the prototype of extracellular mcl-PHA depolymerases PhaZ
+                  - subscript [ref=e590]: GK13
+                  - text: (Schirmer and Jendrossek
+                  - link "Reference 1994" [ref=e591] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR50
+                    - text: "1994"
+                  - text: ; Gangoiti et al.
+                  - link "Reference 2010" [ref=e592] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR17
+                    - text: "2010"
+                  - text: ) or that from the predator bacterium B. bacteriovorus HD100 (Martínez et al.
+                  - link "Reference 2012" [ref=e593] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR39
+                    - text: "2012"
+                  - text: ) releases dimers as the main reaction products. Therefore, PhaZ
+                  - subscript [ref=e594]: Sex2
+                  - text: is herein targeted as the most promising biocatalyst in biotechnological processes for the efficient degradation of natural mcl-PHA for the production of RHAs. Remarkably, the ability of PhaZ
+                  - subscript [ref=e595]: Sex2
+                  - text: to degrade functionalized polymers as PHACOS producing functional thioester-based monomers, highlights the potential use of this novel depolymerase for the production of added value RHAs.
+                - paragraph [ref=e596]:
+                  - text: Finally, analysis of the draft genome sequence from S. exfoliatus DSMZ 41693 (Martínez et al.
+                  - link "Reference 2014" [ref=e597] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR40
+                    - text: "2014"
+                  - text: ) showed the presence of numerous genes of PHA metabolism, which comprise the gene coding and the mcl-PHA depolymerase characterized in this work as well as 48 genes of scl-PHA metabolism including scl-PHA depolymerase previously described (García-Hidalgo et al.
+                  - link "Reference 2012" [ref=e598] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR20
+                    - text: "2012"
+                  - text: ). Further analysis of the assembled genome sequence revealed additional genes involved in degradation of scl-PHA, such as a putative 3-hydroxybutyrate oligomer hydrolase (3HBOH) coding gene (nt 28,268 to 29,713 in Contig61), which is located 973 bp upstream scl-PHA depolymerase gene. Likewise, genome also contains genes which encode for other degrading enzymes such as cellulases, amylases, chitinases, proteases, and lipases (Martínez et al.
+                  - link "Reference 2014" [ref=e599] [cursor=pointer]:
+                    - /url: /article/10.1007/s00253-015-6780-1#ref-CR40
+                    - text: "2014"
+                  - text: ).
+                - paragraph [ref=e600]: Summing up, our findings have contributed to consider S. exfoliatus DSMZ 41693 as promising strain for biomass conversion and environmental bioremediation as well as a microbial source for obtaining novel enzymes with important biotechnological applications.
+          - region [ref=e602]:
+            - generic [ref=e603]:
+              - heading "References" [level=2] [ref=e604]
+              - generic [ref=e606]:
+                - list [ref=e607]:
+                  - listitem [ref=e608]:
+                    - paragraph [ref=e609]: Abe H, Doi Y (1999) Structural effects on enzymatic degradabilities for poly[(R)-3-hydroxybutyric acid] and its copolymers. Int J Biol Macromol 25:185–192
+                    - paragraph [ref=e610]:
+                      - link "Article reference 1" [ref=e611] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2FS0141-8130%2899%2900033-1
+                        - text: Article
+                      - link "CAS reference 1" [ref=e612] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DyaK1MXksV2qt78%3D
+                        - text: CAS
+                      - link "PubMed reference 1" [ref=e613] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10416666
+                        - text: PubMed
+                      - link "Google Scholar reference 1" [ref=e614] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Structural%20effects%20on%20enzymatic%20degradabilities%20for%20poly%5B%28R%29-3-hydroxybutyric%20acid%5D%20and%20its%20copolymers&journal=Int%20J%20Biol%20Macromol&doi=10.1016%2FS0141-8130%2899%2900033-1&volume=25&pages=185-192&publication_year=1999&author=Abe%2CH&author=Doi%2CY
+                        - text: Google Scholar
+                  - listitem [ref=e615]:
+                    - paragraph [ref=e616]: "Arpigny JL, Jaeger KE (1999) Bacterial lipolytic enzymes: classification and properties. Biochem J 343:177–183"
+                    - paragraph [ref=e617]:
+                      - link "Article reference 2" [ref=e618] [cursor=pointer]:
+                        - /url: https://doi.org/10.1042%2Fbj3430177
+                        - text: Article
+                      - link "CAS reference 2" [ref=e619] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DyaK1MXmvVyju7o%3D
+                        - text: CAS
+                      - link "PubMed reference 2" [ref=e620] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10493927
+                        - text: PubMed
+                      - link "Google Scholar reference 2" [ref=e621] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Bacterial%20lipolytic%20enzymes%3A%20classification%20and%20properties&journal=Biochem%20J&doi=10.1042%2Fbj3430177&volume=343&pages=177-183&publication_year=1999&author=Arpigny%2CJL&author=Jaeger%2CKE
+                        - text: Google Scholar
+                  - listitem [ref=e622]:
+                    - paragraph [ref=e623]: Behrends A, Klingbeil B, Jendrossek D (1996) Poly(3-hydroxybutyrate) depolymerases bind to their substrate by a C-terminal located substrate binding site. FEMS Microbiol Lett 143:191–194
+                    - paragraph [ref=e624]:
+                      - link "Article reference 3" [ref=e625] [cursor=pointer]:
+                        - /url: https://doi.org/10.1111%2Fj.1574-6968.1996.tb08479.x
+                        - text: Article
+                      - link "CAS reference 3" [ref=e626] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DyaK28XlvVansL0%3D
+                        - text: CAS
+                      - link "PubMed reference 3" [ref=e627] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8837471
+                        - text: PubMed
+                      - link "Google Scholar reference 3" [ref=e628] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Poly%283-hydroxybutyrate%29%20depolymerases%20bind%20to%20their%20substrate%20by%20a%20C-terminal%20located%20substrate%20binding%20site&journal=FEMS%20Microbiol%20Lett&doi=10.1111%2Fj.1574-6968.1996.tb08479.x&volume=143&pages=191-194&publication_year=1996&author=Behrends%2CA&author=Klingbeil%2CB&author=Jendrossek%2CD
+                        - text: Google Scholar
+                  - listitem [ref=e629]:
+                    - paragraph [ref=e630]: Bibb MJ, Janssen GR, Ward JM (1985) Cloning and analysis of the promoter region of the erythromycin resistance gene (ermE) of Streptomyces erythraeus. Gene 38:215–226
+                    - paragraph [ref=e631]:
+                      - link "Article reference 4" [ref=e632] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2F0378-1119%2885%2990220-3
+                        - text: Article
+                      - link "CAS reference 4" [ref=e633] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DyaL28Xks1Kltw%3D%3D
+                        - text: CAS
+                      - link "PubMed reference 4" [ref=e634] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=2998943
+                        - text: PubMed
+                      - link "Google Scholar reference 4" [ref=e635] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Cloning%20and%20analysis%20of%20the%20promoter%20region%20of%20the%20erythromycin%20resistance%20gene%20%28ermE%29%20of%20Streptomyces%20erythraeus&journal=Gene&doi=10.1016%2F0378-1119%2885%2990220-3&volume=38&pages=215-226&publication_year=1985&author=Bibb%2CMJ&author=Janssen%2CGR&author=Ward%2CJM
+                        - text: Google Scholar
+                  - listitem [ref=e636]:
+                    - paragraph [ref=e637]: Bibb MJ, White J, Ward JM, Janssen GR (1994) The messenger RNA for the 23S ribosomal RNA methylase encoded by the ermE gene of Saccharopolyspora erythraea is translated in the absence of a conventional ribosome-binding site. Mol Microbiol 14:533–545
+                    - paragraph [ref=e638]:
+                      - link "Article reference 5" [ref=e639] [cursor=pointer]:
+                        - /url: https://doi.org/10.1111%2Fj.1365-2958.1994.tb02187.x
+                        - text: Article
+                      - link "CAS reference 5" [ref=e640] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DyaK2MXitFKgtb8%3D
+                        - text: CAS
+                      - link "PubMed reference 5" [ref=e641] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7533884
+                        - text: PubMed
+                      - link "Google Scholar reference 5" [ref=e642] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=The%20messenger%20RNA%20for%20the%2023S%20ribosomal%20RNA%20methylase%20encoded%20by%20the%20ermE%20gene%20of%20Saccharopolyspora%20erythraea%20is%20translated%20in%20the%20absence%20of%20a%20conventional%20ribosome-binding%20site&journal=Mol%20Microbiol&doi=10.1111%2Fj.1365-2958.1994.tb02187.x&volume=14&pages=533-545&publication_year=1994&author=Bibb%2CMJ&author=White%2CJ&author=Ward%2CJM&author=Janssen%2CGR
+                        - text: Google Scholar
+                  - listitem [ref=e643]:
+                    - paragraph [ref=e644]: Böhm G, Muhr R, Jaenicke R (1992) Quantitative analysis of protein far UV circular dichroism spectra by neural networks. Protein Eng 5:191–195
+                    - paragraph [ref=e645]:
+                      - link "Article reference 6" [ref=e646] [cursor=pointer]:
+                        - /url: https://doi.org/10.1093%2Fprotein%2F5.3.191
+                        - text: Article
+                      - link "PubMed reference 6" [ref=e647] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=1409538
+                        - text: PubMed
+                      - link "Google Scholar reference 6" [ref=e648] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Quantitative%20analysis%20of%20protein%20far%20UV%20circular%20dichroism%20spectra%20by%20neural%20networks&journal=Protein%20Eng&doi=10.1093%2Fprotein%2F5.3.191&volume=5&pages=191-195&publication_year=1992&author=B%C3%B6hm%2CG&author=Muhr%2CR&author=Jaenicke%2CR
+                        - text: Google Scholar
+                  - listitem [ref=e649]:
+                    - paragraph [ref=e650]: Braaz R, Handrick R, Jendrossek D (2003) Identification and characterization of the catalytic triad of the alkaliphilic thermotolerant PHA depolymerase PhaZ7 of Paucimonas lemoignei. FEMS Microbiol Lett 224:107–112
+                    - paragraph [ref=e651]:
+                      - link "Article reference 7" [ref=e652] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2FS0378-1097%2803%2900425-7
+                        - text: Article
+                      - link "CAS reference 7" [ref=e653] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BD3sXlt1egtLs%3D
+                        - text: CAS
+                      - link "PubMed reference 7" [ref=e654] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12855176
+                        - text: PubMed
+                      - link "Google Scholar reference 7" [ref=e655] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Identification%20and%20characterization%20of%20the%20catalytic%20triad%20of%20the%20alkaliphilic%20thermotolerant%20PHA%20depolymerase%20PhaZ7%20of%20Paucimonas%20lemoignei&journal=FEMS%20Microbiol%20Lett&doi=10.1016%2FS0378-1097%2803%2900425-7&volume=224&pages=107-112&publication_year=2003&author=Braaz%2CR&author=Handrick%2CR&author=Jendrossek%2CD
+                        - text: Google Scholar
+                  - listitem [ref=e656]:
+                    - paragraph [ref=e657]: Bradford MM (1976) A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal Biochem 72:248–254
+                    - paragraph [ref=e658]:
+                      - link "Article reference 8" [ref=e659] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2F0003-2697%2876%2990527-3
+                        - text: Article
+                      - link "CAS reference 8" [ref=e660] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DyaE28XksVehtrY%3D
+                        - text: CAS
+                      - link "PubMed reference 8" [ref=e661] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=942051
+                        - text: PubMed
+                      - link "Google Scholar reference 8" [ref=e662] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=A%20rapid%20and%20sensitive%20method%20for%20the%20quantitation%20of%20microgram%20quantities%20of%20protein%20utilizing%20the%20principle%20of%20protein-dye%20binding&journal=Anal%20Biochem&doi=10.1016%2F0003-2697%2876%2990527-3&volume=72&pages=248-254&publication_year=1976&author=Bradford%2CMM
+                        - text: Google Scholar
+                  - listitem [ref=e663]:
+                    - paragraph [ref=e664]: Brown PH, Schuck P (2006) Macromolecular size-and-shape distributions by sedimentation velocity analytical ultracentrifugation. Biophys J 90:4651–4661
+                    - paragraph [ref=e665]:
+                      - link "Article reference 9" [ref=e666] [cursor=pointer]:
+                        - /url: https://doi.org/10.1529%2Fbiophysj.106.081372
+                        - text: Article
+                      - link "CAS reference 9" [ref=e667] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BD28XlvVaksbc%3D
+                        - text: CAS
+                      - link "PubMed reference 9" [ref=e668] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16565040
+                        - text: PubMed
+                      - link "Google Scholar reference 9" [ref=e669] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Macromolecular%20size-and-shape%20distributions%20by%20sedimentation%20velocity%20analytical%20ultracentrifugation&journal=Biophys%20J&doi=10.1529%2Fbiophysj.106.081372&volume=90&pages=4651-4661&publication_year=2006&author=Brown%2CPH&author=Schuck%2CP
+                        - text: Google Scholar
+                  - listitem [ref=e670]:
+                    - paragraph [ref=e671]: Chen GQ (2011) Biofunctionalization of polymers and their applications. Adv Biochem Eng Biotechnol 125:29–45
+                    - paragraph [ref=e672]:
+                      - link "CAS reference 10" [ref=e673] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BC3MXhs1KisrrF
+                        - text: CAS
+                      - link "PubMed reference 10" [ref=e674] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21069589
+                        - text: PubMed
+                      - link "Google Scholar reference 10" [ref=e675] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Biofunctionalization%20of%20polymers%20and%20their%20applications&journal=Adv%20Biochem%20Eng%20Biotechnol&volume=125&pages=29-45&publication_year=2011&author=Chen%2CGQ
+                        - text: Google Scholar
+                  - listitem [ref=e676]:
+                    - paragraph [ref=e677]: Chiba K, Hoshino Y, Ishino K, Kogure T, Mikami Y, Uehara Y, Ishikawa J (2007) Construction of a pair of practical Nocardia-Escherichia coli shuttle vectors. Jpn J Infect Dis 60:45–47
+                    - paragraph [ref=e678]:
+                      - link "CAS reference 11" [ref=e679] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BD2sXktFOksLk%3D
+                        - text: CAS
+                      - link "PubMed reference 11" [ref=e680] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=17314425
+                        - text: PubMed
+                      - link "Google Scholar reference 11" [ref=e681] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Construction%20of%20a%20pair%20of%20practical%20Nocardia-Escherichia%20coli%20shuttle%20vectors&journal=Jpn%20J%20Infect%20Dis&volume=60&pages=45-47&publication_year=2007&author=Chiba%2CK&author=Hoshino%2CY&author=Ishino%2CK&author=Kogure%2CT&author=Mikami%2CY&author=Uehara%2CY&author=Ishikawa%2CJ
+                        - text: Google Scholar
+                  - listitem [ref=e682]:
+                    - paragraph [ref=e683]: Delorme V, Dhouib R, Canaan S, Fontiadu F, Carrière F, Cavalier JF (2011) Effects of surfactants on lipase structure, activity, and inhibition. Pharm Res 28:1831–1842
+                    - paragraph [ref=e684]:
+                      - link "Article reference 12" [ref=e685] [cursor=pointer]:
+                        - /url: https://link.springer.com/doi/10.1007/s11095-010-0362-9
+                        - text: Article
+                      - link "CAS reference 12" [ref=e686] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BC3MXmsFCmug%3D%3D
+                        - text: CAS
+                      - link "PubMed reference 12" [ref=e687] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21234659
+                        - text: PubMed
+                      - link "Google Scholar reference 12" [ref=e688] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Effects%20of%20surfactants%20on%20lipase%20structure%2C%20activity%2C%20and%20inhibition&journal=Pharm%20Res&doi=10.1007%2Fs11095-010-0362-9&volume=28&pages=1831-1842&publication_year=2011&author=Delorme%2CV&author=Dhouib%2CR&author=Canaan%2CS&author=Fontiadu%2CF&author=Carri%C3%A8re%2CF&author=Cavalier%2CJF
+                        - text: Google Scholar
+                  - listitem [ref=e689]:
+                    - paragraph [ref=e690]: Dinjaski N, Fernández-Gutiérrez M, Selvam S, Parra-Ruiz FJ, Lehman SM, San Román J, García E, García JL, García AJ, Prieto MA (2014) PHACOS, a functionalized bacterial polyester with bactericidal activity against methicillin-resistant Staphylococcus aureus. Biomaterials 35:14–24
+                    - paragraph [ref=e691]:
+                      - link "Article reference 13" [ref=e692] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2Fj.biomaterials.2013.09.059
+                        - text: Article
+                      - link "CAS reference 13" [ref=e693] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BC3sXhsFKkur7L
+                        - text: CAS
+                      - link "PubMed reference 13" [ref=e694] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24094939
+                        - text: PubMed
+                      - link "Google Scholar reference 13" [ref=e695] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=PHACOS%2C%20a%20functionalized%20bacterial%20polyester%20with%20bactericidal%20activity%20against%20methicillin-resistant%20Staphylococcus%20aureus&journal=Biomaterials&doi=10.1016%2Fj.biomaterials.2013.09.059&volume=35&pages=14-24&publication_year=2014&author=Dinjaski%2CN&author=Fern%C3%A1ndez-Guti%C3%A9rrez%2CM&author=Selvam%2CS&author=Parra-Ruiz%2CFJ&author=Lehman%2CSM&author=San%20Rom%C3%A1n%2CJ&author=Garc%C3%ADa%2CE&author=Garc%C3%ADa%2CJL&author=Garc%C3%ADa%2CAJ&author=Prieto%2CMA
+                        - text: Google Scholar
+                  - listitem [ref=e696]:
+                    - paragraph [ref=e697]: Edman P, Begg G (1967) A protein sequenator. Eur J Biochem 1:80–91
+                    - paragraph [ref=e698]:
+                      - link "Article reference 14" [ref=e699] [cursor=pointer]:
+                        - /url: https://doi.org/10.1111%2Fj.1432-1033.1967.tb00047.x
+                        - text: Article
+                      - link "CAS reference 14" [ref=e700] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DyaF2sXptFKktw%3D%3D
+                        - text: CAS
+                      - link "PubMed reference 14" [ref=e701] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=6059350
+                        - text: PubMed
+                      - link "Google Scholar reference 14" [ref=e702] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=A%20protein%20sequenator&journal=Eur%20J%20Biochem&doi=10.1111%2Fj.1432-1033.1967.tb00047.x&volume=1&pages=80-91&publication_year=1967&author=Edman%2CP&author=Begg%2CG
+                        - text: Google Scholar
+                  - listitem [ref=e703]:
+                    - paragraph [ref=e704]: Elbanna K, Lutke-Eversloh T, Jendrossek D, Luftmann H, Steinbüchel A (2004) Studies on the biodegradability of polythioester copolymers and homopolymers by polyhydroxyalkanoate (PHA)-degrading bacteria and PHA depolymerases. Arch Microbiol 182:212–225
+                    - paragraph [ref=e705]:
+                      - link "Article reference 15" [ref=e706] [cursor=pointer]:
+                        - /url: https://link.springer.com/doi/10.1007/s00203-004-0715-z
+                        - text: Article
+                      - link "CAS reference 15" [ref=e707] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BD2cXns12nt7w%3D
+                        - text: CAS
+                      - link "PubMed reference 15" [ref=e708] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15340783
+                        - text: PubMed
+                      - link "Google Scholar reference 15" [ref=e709] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Studies%20on%20the%20biodegradability%20of%20polythioester%20copolymers%20and%20homopolymers%20by%20polyhydroxyalkanoate%20%28PHA%29-degrading%20bacteria%20and%20PHA%20depolymerases&journal=Arch%20Microbiol&doi=10.1007%2Fs00203-004-0715-z&volume=182&pages=212-225&publication_year=2004&author=Elbanna%2CK&author=Lutke-Eversloh%2CT&author=Jendrossek%2CD&author=Luftmann%2CH&author=Steinb%C3%BCchel%2CA
+                        - text: Google Scholar
+                  - listitem [ref=e710]:
+                    - paragraph [ref=e711]: Escapa IF, Morales V, Martino VP, Pollet E, Averous VL, García JL, Prieto MA (2011) Disruption of β-oxidation pathway in Pseudomona putida KT2442 to produce novel functionalized PHAs with thioester groups. Appl Microbiol Biotechnol 89:1583–1598
+                    - paragraph [ref=e712]:
+                      - link "Article reference 16" [ref=e713] [cursor=pointer]:
+                        - /url: https://link.springer.com/doi/10.1007/s00253-011-3099-4
+                        - text: Article
+                      - link "CAS reference 16" [ref=e714] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BC3MXhslWlsbs%3D
+                        - text: CAS
+                      - link "PubMed reference 16" [ref=e715] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21267558
+                        - text: PubMed
+                      - link "Google Scholar reference 16" [ref=e716] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Disruption%20of%20%CE%B2-oxidation%20pathway%20in%20Pseudomona%20putida%20KT2442%20to%20produce%20novel%20functionalized%20PHAs%20with%20thioester%20groups&journal=Appl%20Microbiol%20Biotechnol&doi=10.1007%2Fs00253-011-3099-4&volume=89&pages=1583-1598&publication_year=2011&author=Escapa%2CIF&author=Morales%2CV&author=Martino%2CVP&author=Pollet%2CE&author=Averous%2CVL&author=Garc%C3%ADa%2CJL&author=Prieto%2CMA
+                        - text: Google Scholar
+                  - listitem [ref=e717]:
+                    - paragraph [ref=e718]: Gangoiti J, Santos M, Llama MJ, Serra JL (2010) Production of chiral (R)-3-hydroxyoctanoic acid monomers, catalyzed by Pseudomonas fluorescens GK13 poly(3-hydroxyoctanoic acid) depolymerase. Appl Environ Microbiol 76:3554–3560
+                    - paragraph [ref=e719]:
+                      - link "Article reference 17" [ref=e720] [cursor=pointer]:
+                        - /url: https://doi.org/10.1128%2FAEM.00337-10
+                        - text: Article
+                      - link "CAS reference 17" [ref=e721] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BC3cXot1Cgurk%3D
+                        - text: CAS
+                      - link "PubMed reference 17" [ref=e722] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20400568
+                        - text: PubMed
+                      - link "Google Scholar reference 17" [ref=e723] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Production%20of%20chiral%20%28R%29-3-hydroxyoctanoic%20acid%20monomers%2C%20catalyzed%20by%20Pseudomonas%20fluorescens%20GK13%20poly%283-hydroxyoctanoic%20acid%29%20depolymerase&journal=Appl%20Environ%20Microbiol&doi=10.1128%2FAEM.00337-10&volume=76&pages=3554-3560&publication_year=2010&author=Gangoiti%2CJ&author=Santos%2CM&author=Llama%2CMJ&author=Serra%2CJL
+                        - text: Google Scholar
+                  - listitem [ref=e724]:
+                    - paragraph [ref=e725]: Gangoiti J, Santos M, Prieto MA, de la Mata I, Serra JL, Llama MJ (2012) Characterization of a novel subgroup of extracellular mcl-PHA depolymerase from Actinobacteria. Appl Environ Microbiol 78:7229–7237
+                    - paragraph [ref=e726]:
+                      - link "Article reference 18" [ref=e727] [cursor=pointer]:
+                        - /url: https://doi.org/10.1128%2FAEM.01707-12
+                        - text: Article
+                      - link "CAS reference 18" [ref=e728] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BC38XhsVOnu77L
+                        - text: CAS
+                      - link "PubMed reference 18" [ref=e729] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22865072
+                        - text: PubMed
+                      - link "Google Scholar reference 18" [ref=e730] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Characterization%20of%20a%20novel%20subgroup%20of%20extracellular%20mcl-PHA%20depolymerase%20from%20Actinobacteria&journal=Appl%20Environ%20Microbiol&doi=10.1128%2FAEM.01707-12&volume=78&pages=7229-7237&publication_year=2012&author=Gangoiti%2CJ&author=Santos%2CM&author=Prieto%2CMA&author=Mata%2CI&author=Serra%2CJL&author=Llama%2CMJ
+                        - text: Google Scholar
+                  - listitem [ref=e731]:
+                    - paragraph [ref=e732]: Gao X, Chen JC, Wu Q, Chen GQ (2011) Polyhydroxyalkanoates as sources of chemicals, polymers, and biofuels. Curr Opin Biotechnol 22:768–774
+                    - paragraph [ref=e733]:
+                      - link "Article reference 19" [ref=e734] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2Fj.copbio.2011.06.005
+                        - text: Article
+                      - link "CAS reference 19" [ref=e735] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BC3MXhsFOhtLbP
+                        - text: CAS
+                      - link "PubMed reference 19" [ref=e736] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21705209
+                        - text: PubMed
+                      - link "Google Scholar reference 19" [ref=e737] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Polyhydroxyalkanoates%20as%20sources%20of%20chemicals%2C%20polymers%2C%20and%20biofuels&journal=Curr%20Opin%20Biotechnol&doi=10.1016%2Fj.copbio.2011.06.005&volume=22&pages=768-774&publication_year=2011&author=Gao%2CX&author=Chen%2CJC&author=Wu%2CQ&author=Chen%2CGQ
+                        - text: Google Scholar
+                  - listitem [ref=e738]:
+                    - paragraph [ref=e739]: "García-Hidalgo J, Hormigo D, Prieto MA, Arroyo M, de la Mata I (2012) Extracellular production of Streptomyces exfoliatus poly(3-hydroxybutyrate) depolymerase in Rhodococcus sp. T104: determination of optimal biocatalyst conditions. Appl Microbiol Biotechnol 93:1975–1988"
+                    - paragraph [ref=e740]:
+                      - link "Article reference 20" [ref=e741] [cursor=pointer]:
+                        - /url: https://link.springer.com/doi/10.1007/s00253-011-3527-5
+                        - text: Article
+                      - link "PubMed reference 20" [ref=e742] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21845385
+                        - text: PubMed
+                      - link "Google Scholar reference 20" [ref=e743] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Extracellular%20production%20of%20Streptomyces%20exfoliatus%20poly%283-hydroxybutyrate%29%20depolymerase%20in%20Rhodococcus%20sp.%20T104%3A%20determination%20of%20optimal%20biocatalyst%20conditions&journal=Appl%20Microbiol%20Biotechnol&doi=10.1007%2Fs00253-011-3527-5&volume=93&pages=1975-1988&publication_year=2012&author=Garc%C3%ADa-Hidalgo%2CJ&author=Hormigo%2CD&author=Prieto%2CMA&author=Arroyo%2CM&author=Mata%2CI
+                        - text: Google Scholar
+                  - listitem [ref=e744]:
+                    - paragraph [ref=e745]: "García-Hidalgo J, Hormigo D, Arroyo M, de la Mata I (2013) Novel extracellular PHB depolymerase from Streptomyces ascomycinicus: PHB copolymers degradation in acidic conditions. PLoS One 8(8):e71699"
+                    - paragraph [ref=e746]:
+                      - link "Article reference 21" [ref=e747] [cursor=pointer]:
+                        - /url: https://doi.org/10.1371%2Fjournal.pone.0071699
+                        - text: Article
+                      - link "PubMed reference 21" [ref=e748] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=23951224
+                        - text: PubMed
+                      - link "Google Scholar reference 21" [ref=e749] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Novel%20extracellular%20PHB%20depolymerase%20from%20Streptomyces%20ascomycinicus%3A%20PHB%20copolymers%20degradation%20in%20acidic%20conditions&journal=PLoS%20One&doi=10.1371%2Fjournal.pone.0071699&volume=8&issue=8&publication_year=2013&author=Garc%C3%ADa-Hidalgo%2CJ&author=Hormigo%2CD&author=Arroyo%2CM&author=Mata%2CI
+                        - text: Google Scholar
+                  - listitem [ref=e750]:
+                    - paragraph [ref=e751]: Hanahan D (1983) Studies on transformation of Escherichia coli with plasmid. J Mol Biol 166:557–580
+                  - listitem [ref=e752]:
+                    - paragraph [ref=e753]: Handrick R, Reinhardt S, Focarete ML, Scandola M, Adamus G, Kowalczuk M, Jendrossek D (2001) A new type of thermoalkalophilic hydrolase of Paucimonas lemoignei with high specificity for amorphous polyesters of short chain-length hydroxyalkanoic acids. J Biol Chem 276:36215–36224
+                    - paragraph [ref=e754]:
+                      - link "Article reference 23" [ref=e755] [cursor=pointer]:
+                        - /url: https://doi.org/10.1074%2Fjbc.M101106200
+                        - text: Article
+                      - link "CAS reference 23" [ref=e756] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BD3MXnt1yrs7k%3D
+                        - text: CAS
+                      - link "PubMed reference 23" [ref=e757] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11457823
+                        - text: PubMed
+                      - link "Google Scholar reference 23" [ref=e758] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=A%20new%20type%20of%20thermoalkalophilic%20hydrolase%20of%20Paucimonas%20lemoignei%20with%20high%20specificity%20for%20amorphous%20polyesters%20of%20short%20chain-length%20hydroxyalkanoic%20acids&journal=J%20Biol%20Chem&doi=10.1074%2Fjbc.M101106200&volume=276&pages=36215-36224&publication_year=2001&author=Handrick%2CR&author=Reinhardt%2CS&author=Focarete%2CML&author=Scandola%2CM&author=Adamus%2CG&author=Kowalczuk%2CM&author=Jendrossek%2CD
+                        - text: Google Scholar
+                  - listitem [ref=e759]:
+                    - paragraph [ref=e760]: Handrick R, Reinhardt S, Kimmig P, Jendrossek D (2004) The “intracellular” poly(3-hydroxybutyrate) (PHB) depolymerase of Rhodospirillum rubrum is a periplasm-located protein with specificity for native PHB and with structural similarity to extracellular PHB depolymerases. J Bacteriol 186:7243–7253
+                    - paragraph [ref=e761]:
+                      - link "Article reference 24" [ref=e762] [cursor=pointer]:
+                        - /url: https://doi.org/10.1128%2FJB.186.21.7243-7253.2004
+                        - text: Article
+                      - link "CAS reference 24" [ref=e763] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BD2cXptVKntrk%3D
+                        - text: CAS
+                      - link "PubMed reference 24" [ref=e764] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=15489436
+                        - text: PubMed
+                      - link "Google Scholar reference 24" [ref=e765] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=The%20%E2%80%9Cintracellular%E2%80%9D%20poly%283-hydroxybutyrate%29%20%28PHB%29%20depolymerase%20of%20Rhodospirillum%20rubrum%20is%20a%20periplasm-located%20protein%20with%20specificity%20for%20native%20PHB%20and%20with%20structural%20similarity%20to%20extracellular%20PHB%20depolymerases&journal=J%20Bacteriol&doi=10.1128%2FJB.186.21.7243-7253.2004&volume=186&pages=7243-7253&publication_year=2004&author=Handrick%2CR&author=Reinhardt%2CS&author=Kimmig%2CP&author=Jendrossek%2CD
+                        - text: Google Scholar
+                  - listitem [ref=e766]:
+                    - paragraph [ref=e767]: Henley JP, Sadana A (1985) Categorization of enzyme deactivations using a series-type mechanism. Enzym Microb Technol 7:50–60
+                    - paragraph [ref=e768]:
+                      - link "Article reference 25" [ref=e769] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2F0141-0229%2885%2990013-4
+                        - text: Article
+                      - link "CAS reference 25" [ref=e770] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DyaL2MXhtVyrsbw%3D
+                        - text: CAS
+                      - link "Google Scholar reference 25" [ref=e771] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Categorization%20of%20enzyme%20deactivations%20using%20a%20series-type%20mechanism&journal=Enzym%20Microb%20Technol&doi=10.1016%2F0141-0229%2885%2990013-4&volume=7&pages=50-60&publication_year=1985&author=Henley%2CJP&author=Sadana%2CA
+                        - text: Google Scholar
+                  - listitem [ref=e772]:
+                    - paragraph [ref=e773]: Hernández BS, Koh SC, Chial M, Focht DD (1997) Terpene-utilizing isolates and their relevance to enhanced biotransformation of polychlorinated biphenyls in soil. Biodegradation 8:153–158
+                    - paragraph [ref=e774]:
+                      - link "Article reference 26" [ref=e775] [cursor=pointer]:
+                        - /url: https://doi.org/10.1023%2FA%3A1008255218432
+                        - text: Article
+                      - link "Google Scholar reference 26" [ref=e776] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Terpene-utilizing%20isolates%20and%20their%20relevance%20to%20enhanced%20biotransformation%20of%20polychlorinated%20biphenyls%20in%20soil&journal=Biodegradation&doi=10.1023%2FA%3A1008255218432&volume=8&pages=153-158&publication_year=1997&author=Hern%C3%A1ndez%2CBS&author=Koh%2CSC&author=Chial%2CM&author=Focht%2CDD
+                        - text: Google Scholar
+                  - listitem [ref=e777]:
+                    - paragraph [ref=e778]: Jendrossek D, Schimmer A, Schlegel HG (1996) Biodegradation of polyhydroxyalkanoic acids. Appl Microbiol Biotechnol 46:451–463
+                    - paragraph [ref=e779]:
+                      - link "Article reference 27" [ref=e780] [cursor=pointer]:
+                        - /url: https://link.springer.com/doi/10.1007/s002530050844
+                        - text: Article
+                      - link "CAS reference 27" [ref=e781] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DyaK2sXht1SqtL4%3D
+                        - text: CAS
+                      - link "PubMed reference 27" [ref=e782] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9008883
+                        - text: PubMed
+                      - link "Google Scholar reference 27" [ref=e783] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Biodegradation%20of%20polyhydroxyalkanoic%20acids&journal=Appl%20Microbiol%20Biotechnol&doi=10.1007%2Fs002530050844&volume=46&pages=451-463&publication_year=1996&author=Jendrossek%2CD&author=Schimmer%2CA&author=Schlegel%2CHG
+                        - text: Google Scholar
+                  - listitem [ref=e784]:
+                    - paragraph [ref=e785]: Jendrossek D, Handrick R (2002) Microbial degradation of polyhydroxyalkanoates. Annu Rev Microbiol 56:403–432
+                    - paragraph [ref=e786]:
+                      - link "Article reference 28" [ref=e787] [cursor=pointer]:
+                        - /url: https://doi.org/10.1146%2Fannurev.micro.56.012302.160838
+                        - text: Article
+                      - link "CAS reference 28" [ref=e788] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BD38Xos1GisLw%3D
+                        - text: CAS
+                      - link "PubMed reference 28" [ref=e789] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12213937
+                        - text: PubMed
+                      - link "Google Scholar reference 28" [ref=e790] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Microbial%20degradation%20of%20polyhydroxyalkanoates&journal=Annu%20Rev%20Microbiol&doi=10.1146%2Fannurev.micro.56.012302.160838&volume=56&pages=403-432&publication_year=2002&author=Jendrossek%2CD&author=Handrick%2CR
+                        - text: Google Scholar
+                  - listitem [ref=e791]:
+                    - paragraph [ref=e792]: "Kawada J, Lütke-Eversloh T, Steinbüchel A, Marchessault RH (2003) Physical properties of microbial polythioesters: characterization of poly(3-mercaptoalkanoates) synthesized by engineered Escherichia coli. Biomacromolecules 4:1698–1702"
+                    - paragraph [ref=e793]:
+                      - link "Article reference 29" [ref=e794] [cursor=pointer]:
+                        - /url: https://doi.org/10.1021%2Fbm0341327
+                        - text: Article
+                      - link "CAS reference 29" [ref=e795] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BD3sXms1eqs7s%3D
+                        - text: CAS
+                      - link "PubMed reference 29" [ref=e796] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=14606898
+                        - text: PubMed
+                      - link "Google Scholar reference 29" [ref=e797] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Physical%20properties%20of%20microbial%20polythioesters%3A%20characterization%20of%20poly%283-mercaptoalkanoates%29%20synthesized%20by%20engineered%20Escherichia%20coli&journal=Biomacromolecules&doi=10.1021%2Fbm0341327&volume=4&pages=1698-1702&publication_year=2003&author=Kawada%2CJ&author=L%C3%BCtke-Eversloh%2CT&author=Steinb%C3%BCchel%2CA&author=Marchessault%2CRH
+                        - text: Google Scholar
+                  - listitem [ref=e798]:
+                    - paragraph [ref=e799]: "Kelley LA, Sternberg MJE (2009) Protein structure prediction on the Web: a case study using the Phyre server. Nat Protoc 4:363–371"
+                    - paragraph [ref=e800]:
+                      - link "Article reference 30" [ref=e801] [cursor=pointer]:
+                        - /url: https://doi.org/10.1038%2Fnprot.2009.2
+                        - text: Article
+                      - link "CAS reference 30" [ref=e802] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BD1MXivF2itbs%3D
+                        - text: CAS
+                      - link "PubMed reference 30" [ref=e803] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19247286
+                        - text: PubMed
+                      - link "Google Scholar reference 30" [ref=e804] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Protein%20structure%20prediction%20on%20the%20Web%3A%20a%20case%20study%20using%20the%20Phyre%20server&journal=Nat%20Protoc&doi=10.1038%2Fnprot.2009.2&volume=4&pages=363-371&publication_year=2009&author=Kelley%2CLA&author=Sternberg%2CMJE
+                        - text: Google Scholar
+                  - listitem [ref=e805]:
+                    - paragraph [ref=e806]: Kieser T, Bibb M, Buttner M, Chater K, Hopwood D (2000) Practical Streptomyces genetics. The John Innes Foundation, Norwich
+                    - paragraph [ref=e807]:
+                      - link "Google Scholar reference 31" [ref=e808] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Practical%20Streptomyces%20genetics&publication_year=2000&author=Kieser%2CT&author=Bibb%2CM&author=Buttner%2CM&author=Chater%2CK&author=Hopwood%2CD
+                        - text: Google Scholar
+                  - listitem [ref=e809]:
+                    - paragraph [ref=e810]: Klingbeil B, Kroppenstedt RM, Jendrossek D (1996) Taxonomic identification of Streptomyces exfoliatus K10 and characterization of its poly(3-hydroxybutyrate) depolymerase gene. FEMS Microbiol Lett 142:215–221
+                    - paragraph [ref=e811]:
+                      - link "Article reference 32" [ref=e812] [cursor=pointer]:
+                        - /url: https://doi.org/10.1111%2Fj.1574-6968.1996.tb08433.x
+                        - text: Article
+                      - link "CAS reference 32" [ref=e813] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DyaK28XltlOqu7k%3D
+                        - text: CAS
+                      - link "PubMed reference 32" [ref=e814] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=8810505
+                        - text: PubMed
+                      - link "Google Scholar reference 32" [ref=e815] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Taxonomic%20identification%20of%20Streptomyces%20exfoliatus%20K10%20and%20characterization%20of%20its%20poly%283-hydroxybutyrate%29%20depolymerase%20gene&journal=FEMS%20Microbiol%20Lett&doi=10.1111%2Fj.1574-6968.1996.tb08433.x&volume=142&pages=215-221&publication_year=1996&author=Klingbeil%2CB&author=Kroppenstedt%2CRM&author=Jendrossek%2CD
+                        - text: Google Scholar
+                  - listitem [ref=e816]:
+                    - paragraph [ref=e817]: Laemmli UK (1970) Cleavage of structural proteins during assembly of head of bacteriophage T4. Nature 227:680–685
+                    - paragraph [ref=e818]:
+                      - link "Article reference 33" [ref=e819] [cursor=pointer]:
+                        - /url: https://doi.org/10.1038%2F227680a0
+                        - text: Article
+                      - link "CAS reference 33" [ref=e820] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BD3MXlsFags7s%3D
+                        - text: CAS
+                      - link "PubMed reference 33" [ref=e821] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=5432063
+                        - text: PubMed
+                      - link "Google Scholar reference 33" [ref=e822] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Cleavage%20of%20structural%20proteins%20during%20assembly%20of%20head%20of%20bacteriophage%20T4&journal=Nature&doi=10.1038%2F227680a0&volume=227&pages=680-685&publication_year=1970&author=Laemmli%2CUK
+                        - text: Google Scholar
+                  - listitem [ref=e823]:
+                    - paragraph [ref=e824]: Luengo J, García B, Sandoval A, Naharroy G, Olivera ER (2003) Bioplastics from microorganisms. Curr Opin Microbiol 6:251–260
+                    - paragraph [ref=e825]:
+                      - link "Article reference 34" [ref=e826] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2FS1369-5274%2803%2900040-7
+                        - text: Article
+                      - link "CAS reference 34" [ref=e827] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BD3sXkvVKgurY%3D
+                        - text: CAS
+                      - link "PubMed reference 34" [ref=e828] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12831901
+                        - text: PubMed
+                      - link "Google Scholar reference 34" [ref=e829] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Bioplastics%20from%20microorganisms&journal=Curr%20Opin%20Microbiol&doi=10.1016%2FS1369-5274%2803%2900040-7&volume=6&pages=251-260&publication_year=2003&author=Luengo%2CJ&author=Garc%C3%ADa%2CB&author=Sandoval%2CA&author=Naharroy%2CG&author=Olivera%2CER
+                        - text: Google Scholar
+                  - listitem [ref=e830]:
+                    - paragraph [ref=e831]: "Lütke-Eversloh T, Bergander K, Luftmann H, Steinbüchel A (2001) Identification of a new class of biopolymer: bacterial synthesis of a sulfur-containing polymer with thioester linkages. Microbiology 147:11–19"
+                    - paragraph [ref=e832]:
+                      - link "Article reference 35" [ref=e833] [cursor=pointer]:
+                        - /url: https://doi.org/10.1099%2F00221287-147-1-11
+                        - text: Article
+                      - link "PubMed reference 35" [ref=e834] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=11160796
+                        - text: PubMed
+                      - link "Google Scholar reference 35" [ref=e835] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Identification%20of%20a%20new%20class%20of%20biopolymer%3A%20bacterial%20synthesis%20of%20a%20sulfur-containing%20polymer%20with%20thioester%20linkages&journal=Microbiology&doi=10.1099%2F00221287-147-1-11&volume=147&pages=11-19&publication_year=2001&author=L%C3%BCtke-Eversloh%2CT&author=Bergander%2CK&author=Luftmann%2CH&author=Steinb%C3%BCchel%2CA
+                        - text: Google Scholar
+                  - listitem [ref=e836]:
+                    - paragraph [ref=e837]: Lütke-Eversloh T, Fischer A, Remminghorst U, Kawada J, Marchessault RH, Bögershausen A, Kalwei M, Eckert H, Reichelt R, Liu SJ, Steinbüchel A (2002) Biosynthesis of novel thermoplastic polythioesters by engineered Escherichia coli. Nat Mater 1:236–242
+                    - paragraph [ref=e838]:
+                      - link "Article reference 36" [ref=e839] [cursor=pointer]:
+                        - /url: https://doi.org/10.1038%2Fnmat773
+                        - text: Article
+                      - link "PubMed reference 36" [ref=e840] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12618785
+                        - text: PubMed
+                      - link "Google Scholar reference 36" [ref=e841] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Biosynthesis%20of%20novel%20thermoplastic%20polythioesters%20by%20engineered%20Escherichia%20coli&journal=Nat%20Mater&doi=10.1038%2Fnmat773&volume=1&pages=236-242&publication_year=2002&author=L%C3%BCtke-Eversloh%2CT&author=Fischer%2CA&author=Remminghorst%2CU&author=Kawada%2CJ&author=Marchessault%2CRH&author=B%C3%B6gershausen%2CA&author=Kalwei%2CM&author=Eckert%2CH&author=Reichelt%2CR&author=Liu%2CSJ&author=Steinb%C3%BCchel%2CA
+                        - text: Google Scholar
+                  - listitem [ref=e842]:
+                    - paragraph [ref=e843]: Lütke-Eversloh T, Steinbüchel A (2003) Novel precursor substrates for polythioesters (PTE) and limits of PTE biosynthesis in Ralstonia eutropha. FEMS Microbiol Lett 221:191–196
+                    - paragraph [ref=e844]:
+                      - link "Article reference 37" [ref=e845] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2FS0378-1097%2803%2900185-X
+                        - text: Article
+                      - link "PubMed reference 37" [ref=e846] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=12725926
+                        - text: PubMed
+                      - link "Google Scholar reference 37" [ref=e847] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Novel%20precursor%20substrates%20for%20polythioesters%20%28PTE%29%20and%20limits%20of%20PTE%20biosynthesis%20in%20Ralstonia%20eutropha&journal=FEMS%20Microbiol%20Lett&doi=10.1016%2FS0378-1097%2803%2900185-X&volume=221&pages=191-196&publication_year=2003&author=L%C3%BCtke-Eversloh%2CT&author=Steinb%C3%BCchel%2CA
+                        - text: Google Scholar
+                  - listitem [ref=e848]:
+                    - paragraph [ref=e849]: "Madison LL, Huisman GW (1999) Metabolic engineering of poly(3- hydroxyalkanoates): from DNA to plastic. Microbiol Mol Biol Rev 63:21–53"
+                    - paragraph [ref=e850]:
+                      - link "CAS reference 38" [ref=e851] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DyaK1MXitVertrc%3D
+                        - text: CAS
+                      - link "PubMed reference 38" [ref=e852] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=10066830
+                        - text: PubMed
+                      - link "Google Scholar reference 38" [ref=e853] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Metabolic%20engineering%20of%20poly%283-%20hydroxyalkanoates%29%3A%20from%20DNA%20to%20plastic&journal=Microbiol%20Mol%20Biol%20Rev&volume=63&pages=21-53&publication_year=1999&author=Madison%2CLL&author=Huisman%2CGW
+                        - text: Google Scholar
+                  - listitem [ref=e854]:
+                    - paragraph [ref=e855]: Martínez V, de la Peña F, García-Hidalgo J, de la Mata I, García JL, Prieto MA (2012) Identification and biochemical evidence of a medium-chain-length polyhydroxyalkanoate depolymerase in the Bdellovibrio bacteriovorus predatory hydrolytic arsenal. Appl Environ Microbiol 78:6017–6026
+                    - paragraph [ref=e856]:
+                      - link "Article reference 39" [ref=e857] [cursor=pointer]:
+                        - /url: https://doi.org/10.1128%2FAEM.01099-12
+                        - text: Article
+                      - link "PubMed reference 39" [ref=e858] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22706067
+                        - text: PubMed
+                      - link "Google Scholar reference 39" [ref=e859] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Identification%20and%20biochemical%20evidence%20of%20a%20medium-chain-length%20polyhydroxyalkanoate%20depolymerase%20in%20the%20Bdellovibrio%20bacteriovorus%20predatory%20hydrolytic%20arsenal&journal=Appl%20Environ%20Microbiol&doi=10.1128%2FAEM.01099-12&volume=78&pages=6017-6026&publication_year=2012&author=Mart%C3%ADnez%2CV&author=Pe%C3%B1a%2CF&author=Garc%C3%ADa-Hidalgo%2CJ&author=Mata%2CI&author=Garc%C3%ADa%2CJL&author=Prieto%2CMA
+                        - text: Google Scholar
+                  - listitem [ref=e860]:
+                    - paragraph [ref=e861]: Martínez V, Hormigo D, Del Cerro C, Gómez de Santos P, García-Hidalgo J, Arroyo M, Prieto MA, García JL, de la Mata I (2014) Genome sequence of Streptomyces exfoliatus DSMZ 41693, a source of poly(3-hydroxyalkanoate)-degrading enzymes. Genome Announc 2(1):e01272–13
+                    - paragraph [ref=e862]:
+                      - link "Article reference 40" [ref=e863] [cursor=pointer]:
+                        - /url: https://doi.org/10.1128%2FgenomeA.01272-13
+                        - text: Article
+                      - link "PubMed reference 40" [ref=e864] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24504004
+                        - text: PubMed
+                      - link "Google Scholar reference 40" [ref=e865] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Genome%20sequence%20of%20Streptomyces%20exfoliatus%20DSMZ%2041693%2C%20a%20source%20of%20poly%283-hydroxyalkanoate%29-degrading%20enzymes&journal=Genome%20Announc&doi=10.1128%2FgenomeA.01272-13&volume=2&issue=1&pages=e01272-13&publication_year=2014&author=Mart%C3%ADnez%2CV&author=Hormigo%2CD&author=Cerro%2CC&author=G%C3%B3mez%20de%20Santos%2CP&author=Garc%C3%ADa-Hidalgo%2CJ&author=Arroyo%2CM&author=Prieto%2CMA&author=Garc%C3%ADa%2CJL&author=Mata%2CI
+                        - text: Google Scholar
+                  - listitem [ref=e866]:
+                    - paragraph [ref=e867]: Nett M, Ikeda H, Moore B (2009) Genomic basis for natural product biosynthetic diversity in the actinomycetes. Nat Prod Rep 26:1362–1384
+                    - paragraph [ref=e868]:
+                      - link "Article reference 41" [ref=e869] [cursor=pointer]:
+                        - /url: https://doi.org/10.1039%2Fb817069j
+                        - text: Article
+                      - link "CAS reference 41" [ref=e870] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BD1MXht12ht7vF
+                        - text: CAS
+                      - link "PubMed reference 41" [ref=e871] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=19844637
+                        - text: PubMed
+                      - link "Google Scholar reference 41" [ref=e872] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Genomic%20basis%20for%20natural%20product%20biosynthetic%20diversity%20in%20the%20actinomycetes&journal=Nat%20Prod%20Rep&doi=10.1039%2Fb817069j&volume=26&pages=1362-1384&publication_year=2009&author=Nett%2CM&author=Ikeda%2CH&author=Moore%2CB
+                        - text: Google Scholar
+                  - listitem [ref=e873]:
+                    - paragraph [ref=e874]: Numata K, Kikkawa Y, Tsuge T, Iwata T, Doi Y, Abe H (2006) Adsorption of biopolyester depolymerase on silicon wafer and poly[(R)-3-hydroxybutyric acid] single crystal revealed by real-time AFM. Macromol Biosci 6:41–50
+                    - paragraph [ref=e875]:
+                      - link "Article reference 42" [ref=e876] [cursor=pointer]:
+                        - /url: https://doi.org/10.1002%2Fmabi.200500160
+                        - text: Article
+                      - link "CAS reference 42" [ref=e877] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BD28XntVentg%3D%3D
+                        - text: CAS
+                      - link "PubMed reference 42" [ref=e878] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16374769
+                        - text: PubMed
+                      - link "Google Scholar reference 42" [ref=e879] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Adsorption%20of%20biopolyester%20depolymerase%20on%20silicon%20wafer%20and%20poly%5B%28R%29-3-hydroxybutyric%20acid%5D%20single%20crystal%20revealed%20by%20real-time%20AFM&journal=Macromol%20Biosci&doi=10.1002%2Fmabi.200500160&volume=6&pages=41-50&publication_year=2006&author=Numata%2CK&author=Kikkawa%2CY&author=Tsuge%2CT&author=Iwata%2CT&author=Doi%2CY&author=Abe%2CH
+                        - text: Google Scholar
+                  - listitem [ref=e880]:
+                    - paragraph [ref=e881]: Papaneophytou CP, Velalia EE, Pantazaki AA (2011) Purification and characterization of an extracellular medium-chain length polyhydroxyalkanoate depolymerase from Thermus thermophilus HB8. Polym Degrad Stab 96:670–678
+                    - paragraph [ref=e882]:
+                      - link "Article reference 43" [ref=e883] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2Fj.polymdegradstab.2010.12.015
+                        - text: Article
+                      - link "CAS reference 43" [ref=e884] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BC3MXisFGktLs%3D
+                        - text: CAS
+                      - link "Google Scholar reference 43" [ref=e885] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Purification%20and%20characterization%20of%20an%20extracellular%20medium-chain%20length%20polyhydroxyalkanoate%20depolymerase%20from%20Thermus%20thermophilus%20HB8&journal=Polym%20Degrad%20Stab&doi=10.1016%2Fj.polymdegradstab.2010.12.015&volume=96&pages=670-678&publication_year=2011&author=Papaneophytou%2CCP&author=Velalia%2CEE&author=Pantazaki%2CAA
+                        - text: Google Scholar
+                  - listitem [ref=e886]:
+                    - paragraph [ref=e887]: "Petersen TN, Brunak S, von Heijne G, Nielsen H (2011) SignalP 4.0: discriminating signal peptides from transmembrane regions. Nat Methods 8:785–786"
+                    - paragraph [ref=e888]:
+                      - link "Article reference 44" [ref=e889] [cursor=pointer]:
+                        - /url: https://doi.org/10.1038%2Fnmeth.1701
+                        - text: Article
+                      - link "CAS reference 44" [ref=e890] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BC3MXht1CrtrbL
+                        - text: CAS
+                      - link "PubMed reference 44" [ref=e891] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=21959131
+                        - text: PubMed
+                      - link "Google Scholar reference 44" [ref=e892] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=SignalP%204.0%3A%20discriminating%20signal%20peptides%20from%20transmembrane%20regions&journal=Nat%20Methods&doi=10.1038%2Fnmeth.1701&volume=8&pages=785-786&publication_year=2011&author=Petersen%2CTN&author=Brunak%2CS&author=Heijne%2CG&author=Nielsen%2CH
+                        - text: Google Scholar
+                  - listitem [ref=e893]:
+                    - paragraph [ref=e894]:
+                      - text: "Prieto MA, Escapa IF, Martínez V, Dinjaski N, Herencias C, de la Peña F, Tarazona N, Revelles O (2014) A holistic view of polyhydroxyalkanoate metabolism in Pseudomonas putida. Environ Microbiol. doi:"
+                      - link "10.1111/1462-2920.12760" [ref=e895] [cursor=pointer]:
+                        - /url: https://doi.org/10.1111/1462-2920.12760
+                    - paragraph [ref=e896]:
+                      - link "Google Scholar reference 45" [ref=e897] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=A%20holistic%20view%20of%20polyhydroxyalkanoate%20metabolism%20in%20Pseudomonas%20putida&journal=Environ%20Microbiol&doi=10.1111%2F1462-2920.12760&publication_year=2014&author=Prieto%2CMA&author=Escapa%2CIF&author=Mart%C3%ADnez%2CV&author=Dinjaski%2CN&author=Herencias%2CC&author=Pe%C3%B1a%2CF&author=Tarazona%2CN&author=Revelles%2CO
+                        - text: Google Scholar
+                  - listitem [ref=e898]:
+                    - paragraph [ref=e899]: Quirós LM, Aguirrezabalaga I, Olano C, Méndez C, Salas JA (1998) Two glycosyltransferases and a glycosidase are involved in oleandomycinmodification during its biosynthesis by Streptomyces antibioticus. Mol Microbiol 28:1177–1185
+                    - paragraph [ref=e900]:
+                      - link "Article reference 46" [ref=e901] [cursor=pointer]:
+                        - /url: https://doi.org/10.1046%2Fj.1365-2958.1998.00880.x
+                        - text: Article
+                      - link "PubMed reference 46" [ref=e902] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=9680207
+                        - text: PubMed
+                      - link "Google Scholar reference 46" [ref=e903] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Two%20glycosyltransferases%20and%20a%20glycosidase%20are%20involved%20in%20oleandomycinmodification%20during%20its%20biosynthesis%20by%20Streptomyces%20antibioticus&journal=Mol%20Microbiol&doi=10.1046%2Fj.1365-2958.1998.00880.x&volume=28&pages=1177-1185&publication_year=1998&author=Quir%C3%B3s%2CLM&author=Aguirrezabalaga%2CI&author=Olano%2CC&author=M%C3%A9ndez%2CC&author=Salas%2CJA
+                        - text: Google Scholar
+                  - listitem [ref=e904]:
+                    - paragraph [ref=e905]: "Ren Q, Ruth K, Thöny-Meyer L, Zinn M (2010) Enatiomerically pure hydroxycarboxylic acids: current approaches and future perspectives. Appl Microbiol Biotechnol 87:41–52"
+                    - paragraph [ref=e906]:
+                      - link "Article reference 47" [ref=e907] [cursor=pointer]:
+                        - /url: https://link.springer.com/doi/10.1007/s00253-010-2530-6
+                        - text: Article
+                      - link "CAS reference 47" [ref=e908] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BC3cXmtFKrsLs%3D
+                        - text: CAS
+                      - link "PubMed reference 47" [ref=e909] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=20393709
+                        - text: PubMed
+                      - link "Google Scholar reference 47" [ref=e910] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Enatiomerically%20pure%20hydroxycarboxylic%20acids%3A%20current%20approaches%20and%20future%20perspectives&journal=Appl%20Microbiol%20Biotechnol&doi=10.1007%2Fs00253-010-2530-6&volume=87&pages=41-52&publication_year=2010&author=Ren%2CQ&author=Ruth%2CK&author=Th%C3%B6ny-Meyer%2CL&author=Zinn%2CM
+                        - text: Google Scholar
+                  - listitem [ref=e911]:
+                    - paragraph [ref=e912]: "Sambrook J, Russell DW (2001) Molecular cloning: a laboratory manual. Cold Spring Harbor Laboratory Press, Cold Spring Harbor"
+                    - paragraph [ref=e913]:
+                      - link "Google Scholar reference 48" [ref=e914] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Molecular%20cloning%3A%20a%20laboratory%20manual&publication_year=2001&author=Sambrook%2CJ&author=Russell%2CDW
+                        - text: Google Scholar
+                  - listitem [ref=e915]:
+                    - paragraph [ref=e916]: Santos M, Gangoiti J, Keul H, Möller M, Serra JL, Llama MJ (2013) Polyester hydrolytic and synthetic activity catalysed by the medium-chain-length poly(3-hydroxyalkanoate) depolymerase from Streptomyces venezuelae SO1. Appl Microbiol Biotechnol 97:211–222
+                    - paragraph [ref=e917]:
+                      - link "Article reference 49" [ref=e918] [cursor=pointer]:
+                        - /url: https://link.springer.com/doi/10.1007/s00253-012-4210-1
+                        - text: Article
+                      - link "CAS reference 49" [ref=e919] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BC3sXjtlGhtA%3D%3D
+                        - text: CAS
+                      - link "PubMed reference 49" [ref=e920] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=22695803
+                        - text: PubMed
+                      - link "Google Scholar reference 49" [ref=e921] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Polyester%20hydrolytic%20and%20synthetic%20activity%20catalysed%20by%20the%20medium-chain-length%20poly%283-hydroxyalkanoate%29%20depolymerase%20from%20Streptomyces%20venezuelae%20SO1&journal=Appl%20Microbiol%20Biotechnol&doi=10.1007%2Fs00253-012-4210-1&volume=97&pages=211-222&publication_year=2013&author=Santos%2CM&author=Gangoiti%2CJ&author=Keul%2CH&author=M%C3%B6ller%2CM&author=Serra%2CJL&author=Llama%2CMJ
+                        - text: Google Scholar
+                  - listitem [ref=e922]:
+                    - paragraph [ref=e923]: Schirmer A, Jendrossek D (1994) Molecular characterization of the extracellular poly(3-hydroxyoctanoic acid) [P(3HO)] depolymerase gene of Pseudomonas fluorescens GK13 and of its gene product. J Bacteriol 176:7065–7073
+                    - paragraph [ref=e924]:
+                      - link "Article reference 50" [ref=e925] [cursor=pointer]:
+                        - /url: https://doi.org/10.1128%2Fjb.176.22.7065-7073.1994
+                        - text: Article
+                      - link "CAS reference 50" [ref=e926] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DyaK2MXitFehtLw%3D
+                        - text: CAS
+                      - link "PubMed reference 50" [ref=e927] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=7961472
+                        - text: PubMed
+                      - link "Google Scholar reference 50" [ref=e928] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Molecular%20characterization%20of%20the%20extracellular%20poly%283-hydroxyoctanoic%20acid%29%20%5BP%283HO%29%5D%20depolymerase%20gene%20of%20Pseudomonas%20fluorescens%20GK13%20and%20of%20its%20gene%20product&journal=J%20Bacteriol&doi=10.1128%2Fjb.176.22.7065-7073.1994&volume=176&pages=7065-7073&publication_year=1994&author=Schirmer%2CA&author=Jendrossek%2CD
+                        - text: Google Scholar
+                  - listitem [ref=e929]:
+                    - paragraph [ref=e930]: Speicher DW (1994) Methods and strategies for the sequence analysis of proteins on PVDF membranes. Methods 6:262–273
+                    - paragraph [ref=e931]:
+                      - link "Article reference 51" [ref=e932] [cursor=pointer]:
+                        - /url: https://doi.org/10.1006%2Fmeth.1994.1028
+                        - text: Article
+                      - link "CAS reference 51" [ref=e933] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DyaK2MXisVCksLg%3D
+                        - text: CAS
+                      - link "Google Scholar reference 51" [ref=e934] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Methods%20and%20strategies%20for%20the%20sequence%20analysis%20of%20proteins%20on%20PVDF%20membranes&journal=Methods&doi=10.1006%2Fmeth.1994.1028&volume=6&pages=262-273&publication_year=1994&author=Speicher%2CDW
+                        - text: Google Scholar
+                  - listitem [ref=e935]:
+                    - paragraph [ref=e936]: "Tortajada M, Ferreira da Silva L, Prieto MA (2013) Second-generation functionalized medium-chain-length polyhydroxyalkanoates: the gateway to high-value bioplastic applications. Int Microbiol 16:1–15"
+                    - paragraph [ref=e937]:
+                      - link "CAS reference 52" [ref=e938] [cursor=pointer]:
+                        - /url: /articles/cas-redirect/1:CAS:528:DC%2BC3sXhsVaqsLvP
+                        - text: CAS
+                      - link "PubMed reference 52" [ref=e939] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24151777
+                        - text: PubMed
+                      - link "Google Scholar reference 52" [ref=e940] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=Second-generation%20functionalized%20medium-chain-length%20polyhydroxyalkanoates%3A%20the%20gateway%20to%20high-value%20bioplastic%20applications&journal=Int%20Microbiol&volume=16&pages=1-15&publication_year=2013&author=Tortajada%2CM&author=Ferreira%20da%20Silva%2CL&author=Prieto%2CMA
+                        - text: Google Scholar
+                  - listitem [ref=e941]:
+                    - paragraph [ref=e942]: Wübbeler JH, Steinbüchel A (2014) New pathways for bacterial polythioesters. Curr Opin Biotechnol 29:85–92
+                    - paragraph [ref=e943]:
+                      - link "Article reference 53" [ref=e944] [cursor=pointer]:
+                        - /url: https://doi.org/10.1016%2Fj.copbio.2014.02.017
+                        - text: Article
+                      - link "PubMed reference 53" [ref=e945] [cursor=pointer]:
+                        - /url: http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=24681198
+                        - text: PubMed
+                      - link "Google Scholar reference 53" [ref=e946] [cursor=pointer]:
+                        - /url: http://scholar.google.com/scholar_lookup?&title=New%20pathways%20for%20bacterial%20polythioesters&journal=Curr%20Opin%20Biotechnol&doi=10.1016%2Fj.copbio.2014.02.017&volume=29&pages=85-92&publication_year=2014&author=W%C3%BCbbeler%2CJH&author=Steinb%C3%BCchel%2CA
+                        - text: Google Scholar
+                - paragraph [ref=e947]:
+                  - link "Download references" [ref=e948] [cursor=pointer]:
+                    - /url: https://citation-needed.springer.com/v2/references/10.1007/s00253-015-6780-1?format=refman&flavour=references
+          - generic [ref=e952]:
+            - heading "Acknowledgments" [level=2] [ref=e953]
+            - generic [ref=e954]:
+              - paragraph [ref=e955]: We thank Carlos del Cerro for helpful discussions and Inmaculada Calvillo for chromatograms. We thank Biopolis S.L. for the supplied mcl-PHA. The technical work of F. de la Peña is greatly appreciated. This work was supported by the Ministerio of Economía y Competitividad from Spain (PIE 201120E050 and BIO2013-44878-R projects).
+              - heading "Compliance with ethical standards" [level=3] [ref=e956]
+              - paragraph [ref=e957]: The authors declare that there are no conflicts of interest among them. This article does not contain any studies with human participants or animals performed by any of the authors.
+          - region [ref=e958]:
+            - generic [ref=e959]:
+              - heading "Author information" [level=2] [ref=e960]
+              - generic [ref=e961]:
+                - generic [ref=e962]: Author notes
+                - list [ref=e963]:
+                  - listitem [ref=e964]:
+                    - paragraph [ref=e965]: Virginia Martínez
+                    - paragraph [ref=e966]: "Present address: Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark, Hørsholm, Denmark"
+                  - listitem [ref=e967]:
+                    - paragraph [ref=e968]: Patricia Gómez de Santos
+                    - paragraph [ref=e969]: "Present address: Department of Biocatalysis, Institute of Catalysis, CSIC, Madrid, Spain"
+                  - listitem [ref=e970]:
+                    - paragraph [ref=e971]: Daniel Hormigo
+                    - paragraph [ref=e972]: "Present address: Department of Pharmacy and Biotechnology, Biomedical Sciences Faculty, European University of Madrid, Madrid, Spain"
+                - heading "Authors and Affiliations" [level=3] [ref=e973]
+                - list [ref=e974]:
+                  - listitem [ref=e975]:
+                    - paragraph [ref=e976]: Department of Biochemistry and Molecular Biology, Facultad de Biología, Universidad Complutense de Madrid, Madrid, Spain
+                    - paragraph [ref=e977]: Virginia Martínez, Patricia Gómez de Santos, Javier García-Hidalgo, Daniel Hormigo, Miguel Arroyo & Isabel de la Mata
+                  - listitem [ref=e978]:
+                    - paragraph [ref=e979]: Department of Environmental Biology, Centro de Investigaciones Biológicas, Consejo Superior de Investigaciones Científicas, Madrid, Spain
+                    - paragraph [ref=e980]: M. Auxiliadora Prieto
+                - heading "Corresponding author" [level=3] [ref=e981]
+                - paragraph [ref=e982]:
+                  - text: Correspondence to
+                  - link "email Isabel de la Mata" [ref=e983] [cursor=pointer]:
+                    - /url: mailto:idlmata@ucm.es
+                    - text: Isabel de la Mata
+                  - text: .
+          - generic [ref=e985]:
+            - heading "Electronic supplementary material" [level=2] [ref=e986]
+            - generic [ref=e988]:
+              - paragraph [ref=e989]: Below is the link to the electronic supplementary material.
+              - generic [ref=e990]:
+                - heading [level=3] [ref=e991]:
+                  - link "ESM 1 (download PDF )" [ref=e992] [cursor=pointer]:
+                    - /url: https://media.springernature.com/original/springer-static/esm/art%3A10.1007%2Fs00253-015-6780-1/MediaObjects/253_2015_6780_MOESM1_ESM.pdf
+                - paragraph [ref=e996]: (PDF 555 kb)
+          - generic [ref=e998]:
+            - heading "Rights and permissions" [level=2] [ref=e999]
+            - paragraph [ref=e1001]:
+              - link "Reprints and permissions" [ref=e1002] [cursor=pointer]:
+                - /url: https://s100.copyright.com/AppDispatchServlet?title=Novel%20extracellular%20medium-chain-length%20polyhydroxyalkanoate%20depolymerase%20from%20Streptomyces%20exfoliatus%20K10%20DSMZ%2041693%3A%20a%20promising%20biocatalyst%20for%20the%20efficient%20degradation%20of%20natural%20and%20functionalized%20mcl-PHAs&author=Virginia%20Mart%C3%ADnez%20et%20al&contentID=10.1007%2Fs00253-015-6780-1&copyright=Springer-Verlag%20Berlin%20Heidelberg&publication=0175-7598&publicationDate=2015-07-10&publisherName=SpringerNature&orderBeanReset=true
+          - region [ref=e1003]:
+            - generic [ref=e1004]:
+              - heading "About this article" [level=2] [ref=e1005]
+              - generic [ref=e1007]:
+                - link [ref=e1009] [cursor=pointer]:
+                  - /url: https://crossmark.crossref.org/dialog/?doi=10.1007/s00253-015-6780-1
+                  - img "Check for updates. Verify currency and authenticity via CrossMark" [ref=e1010]
+                - generic [ref=e1011]:
+                  - heading "Cite this article" [level=3] [ref=e1012]
+                  - paragraph [ref=e1013]: "Martínez, V., de Santos, P.G., García-Hidalgo, J. et al. Novel extracellular medium-chain-length polyhydroxyalkanoate depolymerase from Streptomyces exfoliatus K10 DSMZ 41693: a promising biocatalyst for the efficient degradation of natural and functionalized mcl-PHAs. Appl Microbiol Biotechnol 99, 9605–9615 (2015). https://doi.org/10.1007/s00253-015-6780-1"
+                  - paragraph [ref=e1014]:
+                    - link "Download citation" [ref=e1015] [cursor=pointer]:
+                      - /url: https://citation-needed.springer.com/v2/references/10.1007/s00253-015-6780-1?format=refman&flavour=citation
+                  - list [ref=e1018]:
+                    - listitem [ref=e1019]:
+                      - paragraph [ref=e1020]:
+                        - text: Received
+                        - time [ref=e1022]: 04 May 2015
+                    - listitem [ref=e1023]:
+                      - paragraph [ref=e1024]:
+                        - text: Revised
+                        - time [ref=e1026]: 15 June 2015
+                    - listitem [ref=e1027]:
+                      - paragraph [ref=e1028]:
+                        - text: Accepted
+                        - time [ref=e1030]: 17 June 2015
+                    - listitem [ref=e1031]:
+                      - paragraph [ref=e1032]:
+                        - text: Published
+                        - time [ref=e1034]: 10 July 2015
+                    - listitem [ref=e1035]:
+                      - paragraph [ref=e1036]:
+                        - text: Issue date
+                        - time [ref=e1038]: November 2015
+                    - listitem [ref=e1039]:
+                      - paragraph [ref=e1040]:
+                        - text: DOI
+                        - generic [ref=e1041]: https://doi.org/10.1007/s00253-015-6780-1
+                  - generic [ref=e1043]:
+                    - heading "Share this article" [level=3] [ref=e1044]
+                    - paragraph [ref=e1045]: "Anyone you share the following link with will be able to read this content:"
+                    - button "Get shareable link" [ref=e1046] [cursor=pointer]
+                    - paragraph [ref=e1047]: Provided by the Springer Nature SharedIt content-sharing initiative
+                  - heading "Keywords" [level=3] [ref=e1048]
+                  - list [ref=e1049]:
+                    - listitem [ref=e1050]:
+                      - link "Streptomyces exfoliatus" [ref=e1052] [cursor=pointer]:
+                        - /url: /search?query=%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20&facet-discipline="Life%20Sciences"
+                    - listitem [ref=e1053]:
+                      - link "Polyhydroxyalkanoate depolymerase" [ref=e1055] [cursor=pointer]:
+                        - /url: /search?query=Polyhydroxyalkanoate%20depolymerase&facet-discipline="Life%20Sciences"
+                    - listitem [ref=e1056]:
+                      - link "3-Hydroxyalkanoic acids" [ref=e1058] [cursor=pointer]:
+                        - /url: /search?query=3-Hydroxyalkanoic%20acids&facet-discipline="Life%20Sciences"
+      - complementary "reading companion" [ref=e1060]:
+        - generic [ref=e1062]:
+          - tablist [ref=e1063]:
+            - tab "Sections" [selected] [ref=e1064] [cursor=pointer]
+            - tab "Figures" [ref=e1065] [cursor=pointer]
+            - tab "References" [ref=e1066] [cursor=pointer]
+          - tabpanel "Sections" [ref=e1067]:
+            - list [ref=e1069]:
+              - listitem [ref=e1070]:
+                - link "Abstract" [ref=e1071] [cursor=pointer]:
+                  - /url: "#Abs1"
+              - listitem [ref=e1072]:
+                - link "Introduction" [ref=e1073] [cursor=pointer]:
+                  - /url: "#Sec1"
+              - listitem [ref=e1074]:
+                - link "Materials and methods" [ref=e1075] [cursor=pointer]:
+                  - /url: "#Sec2"
+              - listitem [ref=e1076]:
+                - link "Results" [ref=e1077] [cursor=pointer]:
+                  - /url: "#Sec13"
+              - listitem [ref=e1078]:
+                - link "Discussion" [ref=e1079] [cursor=pointer]:
+                  - /url: "#Sec17"
+              - listitem [ref=e1080]:
+                - link "References" [ref=e1081] [cursor=pointer]:
+                  - /url: "#Bib1"
+              - listitem [ref=e1082]:
+                - link "Acknowledgments" [ref=e1083] [cursor=pointer]:
+                  - /url: "#Ack1"
+              - listitem [ref=e1084]:
+                - link "Author information" [ref=e1085] [cursor=pointer]:
+                  - /url: "#author-information"
+              - listitem [ref=e1086]:
+                - link "Electronic supplementary material" [ref=e1087] [cursor=pointer]:
+                  - /url: "#Sec18"
+              - listitem [ref=e1088]:
+                - link "Rights and permissions" [ref=e1089] [cursor=pointer]:
+                  - /url: "#rightslink"
+              - listitem [ref=e1090]:
+                - link "About this article" [ref=e1091] [cursor=pointer]:
+                  - /url: "#article-info"
+            - iframe [ref=e1097]:
+              - article [ref=f6e4]:
+                - generic [ref=f6e5]:
+                  - generic [ref=f6e7]:
+                    - paragraph [ref=f6e8]: Relevant Collection
+                    - heading [level=2] [ref=f6e9]:
+                      - link "Functional Surfaces and Interfaces for Sustainable Energy and Environmental Applications" [ref=f6e10] [cursor=pointer]:
+                        - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssyB05jv9Zs7ovXR6gAtrHppBy-rqaV5utrBS7YDchSicj-qMs5A9otcDGY--NqoEmzgsBKKv8p-VtVEzDQ2RMXqZQcvoLUkozUZJ0ZghPMP0nUIDoLcowY1WmDCazf7z6Eaz5TDKpIV7QBSda94vBbjDXWPQp7yMQQ8KDeW-27rJd7632jimgCUgPF1fdSEY3Yd7DovvRr-v284UrBP4lxll5hcJK2bEK797gMh7qC5728Cc2BlqPfCNB4zGseqeQr9Y0FjASaq9j22DuuPB9likguf2xsEsqTbBktPdEz2VkQmCKVwFJhFBJPgcP3N7ZwFmCUNI_UYzJGQUUhhB_LCt3i22PsOU1hGHdgvETkp-xfxN_W_LchcD6FDSXr62bPOBVnn_hgTloHG2Fj2LVl9dNdGrQp8A&sai=AMfl-YTZxBKQONkc_6lcj89G9mXxKI-0UUTX6haOEF3JG4PpQBpNzWc02lK4Uhxz0h7lkQ5b59XpKJE4wzVfmg20pZNIDtVWNJjcvmgvR5VWECvfXFCSPu7QcAnW9r6gSufSWMMA6JYjAsQwWrF0OZ_IFcR70bb_aHbZ5shfncZolALsPvCbkH57bNY09I7wFnWy2x2ERfDncCBFpiZ_Wc0AqKaW3fSVnTfVzg5kkjjNXYvgb42N_TUjfgOIdh2jn7CHKZBNiYyt8WXtlbMEAuAFPZopaaYddIdQfSV3dl5MTRX0_udlS-jLYMbzUh67HFwResY2B6sWf_UBqAOKLouExWlVJQrrdwPg1AVt8cgeISqeN9RbjuHQLaN4Rx8DpzAHtSH37XL07CriS38DkA&sig=Cg0ArKJSzCVx4j6KsTAJEAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://link.springer.com/collections/idehfccgjb?utm_medium=internal_display&utm_source=snlink&utm_content=a01Jz00001COn0EIAT&utm_campaign=CONR_DISCV_AWA1_GL_PJNL_04NVK_auto-nativ
+                    - paragraph [ref=f6e11]: This Collection focuses on advances in surface and interface science applied to sustainable energy, environmental remediation, and functional materials. It highlights experimental and theoretical studies of surface properties, adsorption, catalysis, and biomass valorization.
+                  - generic [ref=f6e14]:
+                    - term [ref=f6e15]: Submission deadline
+                    - definition [ref=f6e16]: 2027-02-28
+  - generic [ref=e1098]:
+    - navigation
+    - contentinfo [ref=e1099]:
+      - generic [ref=e1100]:
+        - heading "Footer Navigation" [level=2] [ref=e1101]
+        - navigation "Footer" [ref=e1102]:
+          - generic [ref=e1104]:
+            - generic [ref=e1105]:
+              - heading "Discover content" [level=3] [ref=e1106]
+              - list [ref=e1107]:
+                - listitem [ref=e1108]:
+                  - link "Journals A-Z" [ref=e1109] [cursor=pointer]:
+                    - /url: https://link.springer.com/journals/a/1
+                - listitem [ref=e1110]:
+                  - link "Books A-Z" [ref=e1111] [cursor=pointer]:
+                    - /url: https://link.springer.com/books/a/1
+                - listitem [ref=e1112]:
+                  - link "Subjects A-Z" [ref=e1113] [cursor=pointer]:
+                    - /url: https://link.springer.com/subjects
+            - generic [ref=e1114]:
+              - heading "Publish with us" [level=3] [ref=e1115]
+              - list [ref=e1116]:
+                - listitem [ref=e1117]:
+                  - link "Journal finder" [ref=e1118] [cursor=pointer]:
+                    - /url: https://link.springer.com/journals
+                - listitem [ref=e1119]:
+                  - link "Publish your research" [ref=e1120] [cursor=pointer]:
+                    - /url: https://www.springernature.com/gp/authors
+                - listitem [ref=e1121]:
+                  - link "Language editing" [ref=e1122] [cursor=pointer]:
+                    - /url: https://authorservices.springernature.com/go/sn/?utm_source=SNLinkfooter&utm_medium=Web&utm_campaign=SNReferral
+                - listitem [ref=e1123]:
+                  - link "Open access publishing" [ref=e1124] [cursor=pointer]:
+                    - /url: https://www.springernature.com/gp/open-science/about/the-fundamentals-of-open-access-and-open-research
+            - generic [ref=e1125]:
+              - heading "Products and services" [level=3] [ref=e1126]
+              - list [ref=e1127]:
+                - listitem [ref=e1128]:
+                  - link "Our products" [ref=e1129] [cursor=pointer]:
+                    - /url: https://www.springernature.com/gp/products
+                - listitem [ref=e1130]:
+                  - link "Librarians" [ref=e1131] [cursor=pointer]:
+                    - /url: https://www.springernature.com/gp/librarians
+                - listitem [ref=e1132]:
+                  - link "Societies" [ref=e1133] [cursor=pointer]:
+                    - /url: https://www.springernature.com/gp/societies
+                - listitem [ref=e1134]:
+                  - link "Partners and advertisers" [ref=e1135] [cursor=pointer]:
+                    - /url: https://www.springernature.com/gp/partners
+            - generic [ref=e1136]:
+              - heading "Our brands" [level=3] [ref=e1137]
+              - list [ref=e1138]:
+                - listitem [ref=e1139]:
+                  - link "Springer" [ref=e1140] [cursor=pointer]:
+                    - /url: https://link.springer.com/brands/springer
+                - listitem [ref=e1141]:
+                  - link "Nature Portfolio" [ref=e1142] [cursor=pointer]:
+                    - /url: https://www.nature.com/
+                - listitem [ref=e1143]:
+                  - link "BMC" [ref=e1144] [cursor=pointer]:
+                    - /url: https://link.springer.com/brands/bmc
+                - listitem [ref=e1145]:
+                  - link "Palgrave Macmillan" [ref=e1146] [cursor=pointer]:
+                    - /url: /brands/palgrave
+                - listitem [ref=e1147]:
+                  - link "Apress" [ref=e1148] [cursor=pointer]:
+                    - /url: /brands/apress
+                - listitem [ref=e1149]:
+                  - link "Discover" [ref=e1150] [cursor=pointer]:
+                    - /url: https://link.springer.com/brands/discover
+          - generic [ref=e1151]:
+            - heading "Corporate Navigation" [level=3] [ref=e1152]
+            - list [ref=e1153]:
+              - listitem [ref=e1154]:
+                - button "Your privacy choices/Manage cookies" [ref=e1155] [cursor=pointer]
+              - listitem [ref=e1156]:
+                - link "Your US state privacy rights" [ref=e1157] [cursor=pointer]:
+                  - /url: https://www.springernature.com/gp/legal/ccpa
+              - listitem [ref=e1158]:
+                - link "Accessibility statement" [ref=e1159] [cursor=pointer]:
+                  - /url: https://link.springer.com/accessibility
+              - listitem [ref=e1160]:
+                - link "Terms and conditions" [ref=e1161] [cursor=pointer]:
+                  - /url: https://link.springer.com/termsandconditions
+              - listitem [ref=e1162]:
+                - link "Privacy policy" [ref=e1163] [cursor=pointer]:
+                  - /url: https://link.springer.com/privacystatement
+              - listitem [ref=e1164]:
+                - link "Help and support" [ref=e1165] [cursor=pointer]:
+                  - /url: https://support.springernature.com/en/support/home
+              - listitem [ref=e1166]:
+                - link "Legal notice" [ref=e1167] [cursor=pointer]:
+                  - /url: https://link.springer.com/legal-notice
+              - listitem [ref=e1168]:
+                - link "Cancel contracts here" [ref=e1169] [cursor=pointer]:
+                  - /url: https://support.springernature.com/en/support/solutions/articles/6000255911-subscription-cancellations
+        - generic [ref=e1170]:
+          - generic [ref=e1171]:
+            - paragraph [ref=e1172]: 110.65.147.204
+            - paragraph [ref=e1173]: 14531 SpringerProtocols China National Consortium (3001311903) - Springer eJournal DRAA National Consortium (3902333186) - China Institute of Science & Technology acting through National Science and (3000202650) - Southern University of Science and Technology (3000944542) - China SUSTC & UTSZ Con. 2013 (3991445408) - Springer Protocols DRAA National consortium (3000882202) - SLCC National Consortium – Full Collection (non-211) 2015-2017 (3991456309) - Springer Materials DRAA National Cons. (3000242950) - Nature DRAA eJournal National Consortium (3902333280) - Springer DRAA ebook National Consortium (3000902328)
+          - link [ref=e1174] [cursor=pointer]:
+            - /url: https://www.springernature.com/
+            - img "Springer Nature" [ref=e1175]
+          - paragraph [ref=e1176]: © 2026 Springer Nature

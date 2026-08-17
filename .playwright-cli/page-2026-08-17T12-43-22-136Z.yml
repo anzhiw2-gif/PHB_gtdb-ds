@@ -1,0 +1,1358 @@
+- generic [ref=e1]:
+  - navigation:
+    - list:
+      - listitem:
+        - button "Skip to Article Content" [ref=e2]
+      - listitem:
+        - button "Skip to Article Information" [ref=e3]
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - banner [ref=e7]:
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - generic:
+              - link:
+                - /url: /
+            - link "Southern University of Science and Technology" [ref=e17] [cursor=pointer]:
+              - /url: http://lib.sustc.edu.cn/
+          - generic [ref=e19]:
+            - generic [ref=e20]:
+              - generic:
+                - text: 
+                - generic [ref=e23]:
+                  - searchbox "Search" [ref=e24]
+                  - generic [ref=e25]: Search within
+                  - combobox "Search within" [ref=e26]:
+                    - option "This Journal" [selected]
+                    - option "SfAM Journals"
+                    - option "Wiley Online Library"
+                  - list [ref=e27]:
+                    - listitem [ref=e28]:
+                      - search "Quick Search" [ref=e29]:
+                        - generic [ref=e30]:
+                          - generic [ref=e31]: Search term
+                          - combobox "search text" [ref=e32]
+                          - status [ref=e33]
+                        - button "Submit Search" [ref=e34]: 
+                    - text:  
+            - generic [ref=e37]:
+              - button "Log in or Register" [ref=e39]:
+                - text: 
+                - generic [ref=e40]: Login / Register
+              - text:  
+            - text: 
+      - button "open ai companion modal" [ref=e41] [cursor=pointer]: open AI companion
+    - main [ref=e43]:
+      - generic [ref=e45]:
+        - navigation [ref=e48]:
+          - menubar [ref=e49]:
+            - listitem "Journals" [ref=e50]:
+              - menuitem "Journals" [ref=e51] [cursor=pointer]:
+                - text: Journals
+                - generic [ref=e52]: 
+        - complementary [ref=e56]:
+          - generic [ref=e57]: Advertisement
+        - generic [ref=e62]:
+          - article [ref=e63]:
+            - generic [ref=e64]:
+              - generic [ref=e65]:
+                - generic [ref=e67]:
+                  - generic [ref=e68]:
+                    - generic:
+                      - link "Environmental Microbiology":
+                        - /url: /journal/14622920
+                    - link [ref=e69] [cursor=pointer]:
+                      - /url: /journal/14622920
+                      - img "Environmental Microbiology" [ref=e70]
+                  - generic [ref=e71]:
+                    - generic [ref=e72]: Research Article
+                    - generic [ref=e74]:
+                      - generic [ref=e75]: 
+                      - generic [ref=e76]: Full Access
+                  - heading "The phylogenetic and global distribution of bacterial polyhydroxyalkanoate bioplastic-degrading genes" [level=1] [ref=e77]
+                  - text:     
+                  - generic [ref=e81]:
+                    - generic [ref=e82]:
+                      - button "V. R. Viljakainen" [ref=e83] [cursor=pointer]: V. R. Viljakainen 
+                      - generic [ref=e84]: ","
+                    - generic [ref=e85]:
+                      - button [ref=e86] [cursor=pointer]:
+                        - generic [ref=e87]:
+                          - text: L. A. Hug
+                          - generic [ref=e88]: 
+                        - text: 
+                      - text:  
+                  - generic [ref=e89]:
+                    - generic [ref=e90]: "First published: 26 January 2021 |"
+                    - generic [ref=e91]:
+                      - link "https://doi.org/10.1111/1462-2920.15409 Digital Object Identifier (DOI)" [ref=e92] [cursor=pointer]:
+                        - /url: https://doi.org/10.1111/1462-2920.15409
+                        - text: https://doi.org/10.1111/1462-2920.15409
+                        - generic [ref=e93]: Digital Object Identifier (DOI)
+                      - text: "|"
+                    - button "view metrics" [ref=e95]:
+                      - generic [ref=e96]: 
+                      - text: view metrics
+                - navigation "Article navigation and tools" [ref=e98]:
+                  - generic [ref=e99]:
+                    - generic [ref=e100]:
+                      - generic:     
+                      - button " Sections" [ref=e102] [cursor=pointer]:
+                        - generic [ref=e103]: 
+                        - text: Sections
+                    - generic [ref=e104]:
+                      - link "PDF" [ref=e107] [cursor=pointer]:
+                        - /url: /doi/epdf/10.1111/1462-2920.15409
+                      - button "CITE" [ref=e109] [cursor=pointer]:
+                        - generic [ref=e110]: 
+                      - generic [ref=e112]:
+                        - button "Tools" [ref=e113] [cursor=pointer]:
+                          - generic [ref=e114]: 
+                          - text: Tools
+                        - text:   
+                      - generic [ref=e115]:
+                        - button "Share" [ref=e116] [cursor=pointer]:
+                          - generic [ref=e117]: 
+                          - text: Share
+                        - text:       
+                - article [ref=e119]:
+                  - generic [ref=e121]:
+                    - heading "Summary" [level=2] [ref=e122]
+                    - paragraph [ref=e124]: Polyhydroxyalkanoates (PHAs) are a family of microbially made polyesters commercialized as biodegradable plastics. PHA production rates are predicted to increase as concerns around environmental plastic contamination and limited fossil fuel resources have increased the importance of biodegradable and bio-based plastic alternatives. Microbially produced PHA depolymerases are the key enzymes mediating PHA biodegradation, but only a few PHA depolymerases have been well-characterized and screens employing metagenomic sequence data are lacking. Here, we used 3078 metagenomes to analyse the distribution of PHA depolymerases in microbial communities from diverse aquatic, terrestrial and waste management systems. We significantly expand the recognized diversity of this protein family by screening 1914 Gb of sequence data and identifying 13 869 putative PHA depolymerases in 1295 metagenomes. Our results indicate that PHA depolymerases are unevenly distributed across environments. We predicted the highest frequency of PHA depolymerases in wastewater systems and the lowest in marine and thermal springs. In tandem, we screened 5290 metagenome-assembled genomes to describe the phylogenetic distribution of PHA depolymerases, which is substantially broader compared with current cultured representatives. The Proteobacteria and Bacteroidota are key lineages encoding PHA depolymerases, but PHA depolymerases were predicted from members of the Bdellovibrionota, Methylomirabilota, Actinobacteriota, Firmicutes, Spirochaetota, Desulfobacterota, Myxococcota and Planctomycetota.
+                  - generic [ref=e125]:
+                    - generic [ref=e126]:
+                      - heading "Introduction" [level=2] [ref=e127]
+                      - paragraph [ref=e128]:
+                        - text: Global concerns associated with environmental plastic contamination and fossil fuel use have led to a demand for sustainable alternatives to petroleum-based plastics (Shah et al.,
+                        - link "2008" [ref=e130] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0053"
+                        - text: ). Increased public awareness coupled with ongoing legislative changes aimed at reducing single-use plastics are promoting a pivot to bio-based and biodegradable alternatives like polyhydroxyalkanoates (PHAs) (Aeschelmann and Carus,
+                        - link "2015" [ref=e132] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0002"
+                        - text: ; United Nations Environment Programme,
+                        - link "2018" [ref=e134] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0058"
+                        - text: ). Conventional plastics rely on fossil resources and are extremely recalcitrant to degradation, causing them to persist upon disposal (Danso et al.,
+                        - link "2019" [ref=e136] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0014"
+                        - text: ). Annual plastic production now exceeds 380 million tons, with most plastics experiencing a short service lifespan before being discarded (Geyer et al.,
+                        - link "2017" [ref=e138] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0023"
+                        - text: ). It is estimated that 79% of plastic waste accumulates in landfills or the environment (Geyer et al.,
+                        - link "2017" [ref=e140] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0023"
+                        - text: ) where it can cause ecological damage (Li et al.,
+                        - link "2016" [ref=e142] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0036"
+                        - text: ).
+                      - paragraph [ref=e143]:
+                        - text: PHAs offer an exciting solution to curb environmental damage caused by liberal plastic use because they are made from renewable carbon resources (bio-based) and biodegrade into non-harmful products in natural environments through the action of microbially secreted PHA depolymerases (Nishida and Tokiwa,
+                        - link "1993" [ref=e145] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0043"
+                        - text: ; Mergaert and Swings,
+                        - link "1996" [ref=e147] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0040"
+                        - text: ; Volova et al.,
+                        - link "2011" [ref=e149] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0060"
+                        - text: ; Boyandin et al.,
+                        - link "2013" [ref=e151] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0009"
+                        - text: ; Altaee et al.,
+                        - link "2016" [ref=e153] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0004"
+                        - text: ; Dilkes-Hoffman et al.,
+                        - link "2019" [ref=e155] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0017"
+                        - text: ). PHAs are a naturally produced family of polyesters synthesized by bacteria and archaea as intracellular energy and carbon storage compounds (Fernandez-Castillo et al.,
+                        - link "1985" [ref=e157] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0020"
+                        - text: ; Jendrossek,
+                        - link "2002" [ref=e159] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0030"
+                        - text: ). Commercial PHAs currently represent a small fraction (1.4%) of the bioplastic market (European Bioplastics,
+                        - link "2018" [ref=e161] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0019"
+                        - text: ) but show the highest growth rates with production capacities forecasted to more than triple in the next 5 years (European Bioplastic, Bioplastic Market Data
+                        - link "2019" [ref=e163] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0018"
+                        - text: ).
+                      - paragraph [ref=e164]:
+                        - text: Rates of environmental plastic degradation are influenced by polymer properties (e.g. available surface area, monomeric composition, additives), the extant microbial community and abiotic factors (e.g. temperature, UV, pH) (Tokiwa et al.,
+                        - link "2009" [ref=e166] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0057"
+                        - text: ). PHA biodegradation is largely reliant on the abundance and diversity of microorganisms encoding extracellular PHA (ePHA) depolymerases (the key PHA degrading enzymes) (Tokiwa and Calabia,
+                        - link "2004" [ref=e168] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0056"
+                        - text: ; Vigneswari et al.,
+                        - link "2015" [ref=e170] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0059"
+                        - text: ). PHAs are broadly classified as either short-chain length (PHAscl) with 3–5 carbon atoms per monomer or medium-chain length (PHAmcl) with 6–15 carbon atoms per monomer, where the size of the monomer impacts enzyme-substrate specificity (Jendrossek,
+                        - link "2002" [ref=e172] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0030"
+                        - text: ).
+                      - paragraph [ref=e173]:
+                        - text: PHA depolymerases are a diverse family of intracellular and extracellular carboxylesterases and are members of the alpha/beta-hydrolase fold family (Knoll et al.,
+                        - link "2009" [ref=e175] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0033"
+                        - text: ). To date, approximately 35 PHA depolymerases have been isolated and biochemically characterized (
+                        - link "Supp. Data 1" [ref=e176] [cursor=pointer]:
+                          - /url: "#support-information-section"
+                        - text: and references within), from organisms within the phyla Ascomycetes, Firmicutes, Proteobacteria (most) and Actinobacteria. PHA depolymerases are classified based on subcellular location (extracellular or intracellular), substrate specificity (mcl [EC 3.1.1.76] or scl [EC 3.1.1.75]) and features of the catalytic domain (Jendrossek,
+                        - link "2002" [ref=e178] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0030"
+                        - text: ; Knoll et al.,
+                        - link "2009" [ref=e180] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0033"
+                        - text: ). Intracellular PHA depolymerases mobilize amorphous PHA stores in intracellular, protein-associated granules referred to as carbonosomes (Bresan et al.,
+                        - link "2016" [ref=e182] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0010"
+                        - text: ). ePHA depolymerases are secreted from the cell to scavenge exogenous semi-crystalline PHAs found in the environment (Jendrossek,
+                        - link "2002" [ref=e184] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0030"
+                        - text: ) and are the focus of this project.
+                      - paragraph [ref=e185]:
+                        - text: Early culture-based studies have isolated ePHAscl-degrading microorganisms from different environments including soil, compost, sewage and aquatic environments but indicate that ePHAmcl degraders appear to be relatively rare (Nishida and Tokiwa,
+                        - link "1993" [ref=e187] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0043"
+                        - text: ; Jendrossek,
+                        - link "2002" [ref=e189] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0030"
+                        - text: ; Tokiwa and Calabia,
+                        - link "2004" [ref=e191] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0056"
+                        - text: ). Reflecting these findings, relatively few ePHAmcl depolymerases have been characterized compared with ePHAscl depolymerases (Knoll et al.,
+                        - link "2009" [ref=e193] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0033"
+                        - text: ; Martínez et al.,
+                        - link "2015" [ref=e195] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0039"
+                        - text: ). All known ePHA depolymerases contain a catalytic triad composed of a serine (embedded in a lipase box motif), histidine and aspartic acid (Knoll et al.,
+                        - link "2009" [ref=e197] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0033"
+                        - text: ). ePHAscl depolymerases typically consist of a signal peptide, a catalytic domain, a linker domain and a C-terminal substrate-binding domain (Jendrossek,
+                        - link "2002" [ref=e199] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0030"
+                        - text: ). There are two recognized ePHAscl depolymerase subtypes (denoted type 1 [T1] and type 2 [T2]) that differ in the arrangement of their catalytic domains. In ePHAsclT1 depolymerases, the oxyanion hole is N-terminal to the lipase box, whereas in ePHAsclT2 depolymerases the oxyanion hole is C-terminal to the lipase box (Jendrossek,
+                        - link "2002" [ref=e201] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0030"
+                        - text: ). Characterized ePHAmcl depolymerases do not exhibit a C-terminal substrate-binding domain; instead, the N-terminal region is presumed to mediate substrate binding (Jendrossek,
+                        - link "2002" [ref=e203] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0030"
+                        - text: ). ePHAmcl depolymerases share no significant homology with ePHAscl depolymerases except for the catalytic triad (Knoll et al.,
+                        - link "2009" [ref=e205] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0033"
+                        - text: ) which is non-specific as it is shared by all carboxylesterases (Sood et al.,
+                        - link "2018" [ref=e207] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0055"
+                        - text: ).
+                      - paragraph [ref=e208]:
+                        - text: With PHA production levels expected to increase, a strong understanding of the diversity and distribution of PHA-degrading enzymes and organisms is critical for understanding the impact of PHAs on the environment and to reveal biomolecular tools useful for processing these plastics (Tokiwa and Calabia,
+                        - link "2004" [ref=e210] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0056"
+                        - text: ). Culture-based research has developed a foundational understanding of the enzymes and organisms mediating PHA biodegradation (reviewed by Jendrossek,
+                        - link "2002" [ref=e212] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0030"
+                        - text: ). However, many microbial lineages are currently unamenable to culturing and are only recognized from culture-independent analyses (Hug et al.,
+                        - link "2016a" [ref=e214] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0027"
+                        - text: ). With the advent of high-throughput sequencing and metagenomics, there has been a proliferation of publicly available DNA sequence data from microbial communities inhabiting diverse global environments (Meyer et al.,
+                        - link "2008" [ref=e216] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0041"
+                        - text: ; Markowitz et al.,
+                        - link "2012" [ref=e218] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0037"
+                        - text: ), enabling broad surveys of gene distributions (Podar et al.,
+                        - link "2015" [ref=e220] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0049"
+                        - text: ; Danso et al.,
+                        - link "2018" [ref=e222] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0015"
+                        - text: ; Holert et al.,
+                        - link "2018" [ref=e224] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0026"
+                        - text: ).
+                      - paragraph [ref=e225]: Here, we employed a culture-independent approach and leveraged large amounts of publicly available environmental sequence data to characterize the phylogenetic and environmental distribution of PHA depolymerases and predict novel PHA-degrading enzymes. We screened 5290 metagenome-assembled genomes (MAGs) and 3078 metagenomes sequenced from globally distributed natural environments and waste-management systems. Biochemically characterized ePHA depolymerases were used to seed a homology-based search to identity novel PHA depolymerase candidates from different environments and across the bacterial tree of life. Our analyses significantly expand the recognized diversity of PHA depolymerases and inform our understanding of the frequency of PHA depolymerases in the environment, with implications for the microbial conversion of PHA litter. Furthermore, we identify enzymes and organisms that may prove suitable for future bioremediation, chemical processing or biotechnological applications.
+                    - generic [ref=e226]:
+                      - heading "Methods" [level=2] [ref=e227]
+                      - generic [ref=e228]:
+                        - heading "Identification of ePHA depolymerases" [level=3] [ref=e229]
+                        - paragraph [ref=e230]:
+                          - text: A reference set of biochemically validated ePHA depolymerases were gathered from the literature (Supp.
+                          - link "Data 1" [ref=e231] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ) and used as queries in a BLASTp search (threshold e < 1 × 10
+                          - superscript [ref=e232]: −10
+                          - text: ) against 3078 assembled and annotated metagenomes (Supp.
+                          - link "Data 2" [ref=e233] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ) and 5290 MAGs (Supp.
+                          - link "Data 3" [ref=e234] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ) that were publicly available on the Integrated Microbial Genomes and Microbiomes system (IMG/M)
+                          - link "https://img.jgi.doe.gov/m/" [ref=e235] [cursor=pointer]:
+                            - /url: https://img.jgi.doe.gov/m/
+                          - text: (Markowitz et al.,
+                          - link "2012" [ref=e237] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0037"
+                          - text: ). Datasets screened were publicly available, but permissions were requested from PIs associated with the datasets. Many metagenomes came from datasets associated with publications, including He et al., (
+                          - link "2015" [ref=e239] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0025"
+                          - text: ), Anantharaman et al., (
+                          - link "2016" [ref=e241] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0006"
+                          - text: ), Butterfield et al., (
+                          - link "2016" [ref=e243] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0012"
+                          - text: ), Hug et al., (
+                          - link "2016b" [ref=e245] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0028"
+                          - text: ), Oyserman et al., (
+                          - link "2015" [ref=e247] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0045"
+                          - text: ), Hartman et al., (
+                          - link "2017" [ref=e249] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0024"
+                          - text: ), Kimbrel et al., (
+                          - link "2018" [ref=e251] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0032"
+                          - text: ), Schulz et al., (
+                          - link "2018" [ref=e253] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0052"
+                          - text: ), Yao et al., (
+                          - link "2018" [ref=e255] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0061"
+                          - text: ), Acinas et al., (
+                          - link "2019" [ref=e257] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0001"
+                          - text: ), Diamond et al., (
+                          - link "2019" [ref=e259] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0016"
+                          - text: ), Lavy et al., (
+                          - link "2019" [ref=e261] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0034"
+                          - text: ), Sharrar et al., (
+                          - link "2019" [ref=e263] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0054"
+                          - text: ), Alteio et al., (
+                          - link "2020" [ref=e265] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0005"
+                          - text: ), Flores-Nunez et al., (
+                          - link "2020" [ref=e267] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0021"
+                          - text: ), and Bouma-Gregson et al., (
+                          - link "2019" [ref=e269] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0008"
+                          - text: ). A series of curation steps were taken to increase PHA depolymerase prediction accuracy and to reduce or eliminate non-functional homologues. Briefly, curation included eliminating severely truncated hits, ensuring key catalytic residues were present using multiple sequence alignments (MSAs), and protein-tree based curation using tree topology and branch length of hits placed among reference enzymes (for detailed curation notes see Supp.
+                          - link "Data 4" [ref=e270] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). BLAST output data for the reference query sequence with the lowest e-value and a summary of the average, minimum, and maximum bit scores, identities, e-values and lengths of predicted PHA depolymerases can be found in
+                          - link "Supp. Data 5" [ref=e271] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: . Signal peptides were predicted for predicted PHA depolymerases using Signal P 5.0 (
+                          - link "https://services.healthtech.dtu.dk/service.php?SignalP" [ref=e272] [cursor=pointer]:
+                            - /url: https://services.healthtech.dtu.dk/service.php?SignalP
+                          - text: ) with default settings using both Gram-negative and Gram-positive predictions (Almagro Armenteros et al.,
+                          - link "2019" [ref=e274] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0003"
+                          - text: ).
+                      - generic [ref=e275]:
+                        - heading "Dataset selection, ecosystem classification and normalization" [level=3] [ref=e276]
+                        - paragraph [ref=e277]:
+                          - text: All 3078 metagenomic datasets had a minimum of 0.5 Mb of assembled sequence data and were selected to analyse the environmental distribution of PHA depolymerases. All metagenomic datasets had environmental metadata available in accordance with the GOLD five-level ecosystem classification system ([1] ecosystem [2] ecosystem category [3] ecosystem type [4] ecosystem subtype and [5] specific ecosystem) (Mukherjee et al.,
+                          - link "2018" [ref=e279] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0042"
+                          - text: ). All environmental data provided was used without modification with the exception of 8 metagenomes with ecosystem subtype classifications of loam (3) and peat (5) which were modified to soil to match other loam and peat samples. Additionally, sediment samples were inconsistently classified at the [5] specific ecosystem type or [3] ecosystem type levels, which was remedied by manually grouping all aquatic sediment samples together as an ecosystem type (see Supp.
+                          - link "Data 2" [ref=e280] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: for modifications). Collectively, 104 unique GOLD ecosystems were described (Supp.
+                          - link "Data 2" [ref=e281] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). Less than 2 % of metagenomes (40/3078) lacked latitude and longitude locations, which were input manually using data given in an associated study, or approximate geocoordinates were used given samples' described geographical locations (Supp.
+                          - link "Data 2" [ref=e282] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). To account for differing dataset sizes, we calculated the frequency (hits/Gb) of PHA depolymerases occurring in metagenomes and MAGs (Supp. Fig. 1 Supp.
+                          - link "Data 3" [ref=e283] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). Frequencies for different GOLD level ecosystem classifications were derived by dividing the total number of enzymes identified in metagenomes from an ecosystem category or subtype by the sum total of the sequence data screened from metagenomes occurring within a group. Frequencies in the MAGs for different phyla were calculated by dividing the total number of enzymes identified from a phylum by the sum total of the sequence data screened from MAGs of that phylum. Gene frequencies were calculated in this manner to normalize based on clade size.
+                      - generic [ref=e284]:
+                        - heading "Taxonomic affiliation of PHA depolymerases" [level=3] [ref=e285]
+                        - paragraph [ref=e286]:
+                          - text: Phylogenetic affiliations of PHA depolymerases were predicted for the unbinned PHA depolymerase-encoding scaffolds with a minimum length of 2000 bps (7260 scaffolds) using a diamond-blast search (Buchfink et al.,
+                          - link "2014" [ref=e288] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0011"
+                          - text: ) against NCBI's non-redundant database and subsequently conducting a lowest common ancestor analysis (LCA) with MEGAN6 v6.19.5 (Huson et al.,
+                          - link "2016" [ref=e290] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0029"
+                          - text: ) using GTDB taxonomy (Chaumeil et al.,
+                          - link "2019" [ref=e292] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0013"
+                          - text: ). For MAGs, 143 MAGs encoding predicted PHA depolymerases were assessed using CheckM v1.0.13 (Parks et al.,
+                          - link "2015" [ref=e294] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0046"
+                          - text: ), with MAGs kept for on-going analyses if they scored >50% complete and <10% contaminated (Supp.
+                          - link "Data 3" [ref=e295] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). MAGs were subsequently dereplicated using dRep v. 2.5.3 (Olm et al.,
+                          - link "2017" [ref=e297] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0044"
+                          - text: ). GTDB-tk (Chaumeil et al.,
+                          - link "2019" [ref=e299] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0013"
+                          - text: ), as implemented on Kbase (Arkin et al.,
+                          - link "2018" [ref=e301] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0007"
+                          - text: ), was used to taxonomically identify dereplicated MAGs. Finally, a concatenated ribosomal protein (rp) tree was constructed to phylogenetically place the dereplicated MAGs that were >50% complete and <10% redundant (Supp.
+                          - link "Data 3" [ref=e302] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). A dataset of 16 rps (rpL2, L3, L4, L5, L6, L14, L15, L16, L18, L22, L24, S3, S8, S10, S17 and S19) were gathered from MAGs and independently aligned. Alignments were masked to remove columns comprised of 95% + gaps. MAGs with <50% of expected ungapped residues over the concatenated alignment were excluded. Phyla containing predicted PHA depolymerase-encoding MAGs were selected from a bacterial reference set (Hug et al.,
+                          - link "2016a" [ref=e304] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0027"
+                          - text: ) and included in the final concatenated alignment. The final alignment was composed of 2789 positions, 886 reference taxa and 98 MAGs. The final concatenated rp tree was inferred using FastTree (Price et al.,
+                          - link "2010" [ref=e306] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0050"
+                          - text: ) as implemented in Geneious v.10.2.6. (
+                          - link "https://www.geneious.com" [ref=e307] [cursor=pointer]:
+                            - /url: https://www.geneious.com
+                          - text: ) and the tree was visualized using iTOL (
+                          - link "https://itol.embl.de/" [ref=e308] [cursor=pointer]:
+                            - /url: https://itol.embl.de/
+                          - text: ) (Letunic and Bork,
+                          - link "2016" [ref=e310] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0035"
+                          - text: ).
+                    - generic [ref=e311]:
+                      - heading "Results" [level=2] [ref=e312]
+                      - generic [ref=e313]:
+                        - heading "Environmental distribution of predicted PHA depolymerases" [level=3] [ref=e314]
+                        - paragraph [ref=e315]:
+                          - text: All IMG/M metagenomes included in this study had a minimum of 0.5 Mb of assembled sequence data and had available GOLD environmental metadata (Supp.
+                          - link "Data 2" [ref=e316] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). The 3078 metagenomes were classified into 104 specific ecosystems from the GOLD hierarchy level 3 (Supp.
+                          - link "Data 2" [ref=e317] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: "). Metagenomes were treated at the level of ecosystem category (level 1: aquatic, terrestrial, solid waste or wastewater) and ecosystem type (level 2: 14 subcategories). We focus on specific ecosystems or metagenomes only for select notable cases; however, all data including raw number of predicted PHA depolymerases, presence/absence and frequency of predicted enzymes identified from each metagenome and each specific ecosystem type can be found in Supp."
+                          - link "Data 2" [ref=e318] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: .
+                        - paragraph [ref=e319]:
+                          - text: A total of 13 869 PHA depolymerases (13 377 unique) were predicted in 1295 metagenomes from aquatic (417/1492 = 27.9%), solid waste (23/34 = 67.6%), terrestrial (764/1323 = 57.7%) and wastewater (91/229 = 39.7%) environments (Fig. 1).Of these, 43% (5949/13,869) had predicted signal peptides. Most metagenomes had a low frequency of predicted PHA depolymerases (0.3–10 hits/Gb) (Supp. Fig.
+                          - link "1" [ref=e320] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ", Supp."
+                          - link "Data 2" [ref=e321] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). Looking broadly at different ecosystem categories, the highest frequency of predicted PHA depolymerases occurred in wastewater systems (10.73 hits/Gb) and terrestrial environments (8.22 hits/Gb), whereas solid waste and aquatic systems had averages of 5.53 and 4.09 hits/Gb respectively (Table
+                          - link "1" [ref=e322] [cursor=pointer]:
+                            - /url: "#emi15409-tbl-0001"
+                          - text: ", Supp."
+                          - link "Data 2" [ref=e323] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ).
+                        - figure [ref=e325]:
+                          - link [ref=e326] [cursor=pointer]:
+                            - /url: /cms/asset/53040d8f-12dc-47c2-9050-1c294f2de5a3/emi15409-fig-0001-m.jpg
+                            - img "Details are in the caption following the image" [ref=e328]
+                          - generic [ref=e329]:
+                            - generic [ref=e330]:
+                              - strong [ref=e331]: Fig 1
+                              - generic [ref=e332]:
+                                - link "Open in figure viewer" [ref=e333] [cursor=pointer]:
+                                  - /url: "#"
+                                - link "PowerPoint" [ref=e334] [cursor=pointer]:
+                                  - /url: /action/downloadFigures?id=emi15409-fig-0001&partId=&doi=10.1111%2F1462-2920.15409
+                                  - generic [ref=e335]: 
+                                  - text: PowerPoint
+                            - generic [ref=e336]:
+                              - text: A total of 13 869 PHA depolymerases were predicted in 1295 metagenomes from aquatic (417), terrestrial (764), solid waste (23) and wastewater (91) environments. A. World map showing geocoordinates of samples with metagenomes containing one or more predicted PHA depolymerase, coloured by GOLD ecosystem type. Metagenomes sequenced from all seven continents were included in our dataset but were unequally represented, with certain regions having more sampled locations and sample types than others. B. Metagenomes from North America were the most heavily represented in our dataset and nearly every ecosystem type showed some evidence for PHA depolymerase genes within this region. Several samples share geocoordinates and represent samples taken at different depths, samples taken within close proximity to each other, or at different time points. [Color figure can be viewed at
+                              - link "wileyonlinelibrary.com" [ref=e337] [cursor=pointer]:
+                                - /url: http://wileyonlinelibrary.com
+                              - text: "]"
+                        - generic [ref=e338]:
+                          - generic [ref=e339]: Table 1. Environmental distribution of 13 869 predicted PHA depolymerases (222 ePHAmcl, 10 245 ePHAsclT1 and 3402 ePHAsclT2 depolymerases) identified by screening 3078 metagenomes.
+                          - table [ref=e341]:
+                            - rowgroup [ref=e342]:
+                              - row [ref=e343]:
+                                - columnheader "Metagenomes screened (n)" [ref=e344]
+                                - columnheader "# of predicted PHA depolymerases" [ref=e345]
+                                - columnheader "% of metagenomes with predicted PHA depolymerases" [ref=e346]
+                                - columnheader "Frequency of predicted PHA depolymerases (hits/Gb)" [ref=e347]
+                              - row [ref=e348]:
+                                - columnheader "Ecosystem" [ref=e349]
+                                - columnheader "sclT1" [ref=e350]
+                                - columnheader "sclT2" [ref=e351]
+                                - columnheader "mcl" [ref=e352]
+                                - columnheader "Total" [ref=e353]
+                                - columnheader "sclT1" [ref=e354]
+                                - columnheader "sclT2" [ref=e355]
+                                - columnheader "mcl" [ref=e356]
+                                - columnheader "Total" [ref=e357]
+                                - columnheader "sclT1" [ref=e358]
+                                - columnheader "sclT2" [ref=e359]
+                                - columnheader "mcl" [ref=e360]
+                                - columnheader "Total" [ref=e361]
+                            - rowgroup [ref=e362]:
+                              - row [ref=e363]:
+                                - cell "Aquatic (1492)" [ref=e364]
+                                - cell [ref=e365]
+                                - cell [ref=e366]
+                                - cell [ref=e367]
+                              - row [ref=e368]:
+                                - cell "Freshwater (481)" [ref=e369]
+                                - cell "648" [ref=e370]
+                                - cell "140" [ref=e371]
+                                - cell "23" [ref=e372]
+                                - cell "811" [ref=e373]
+                                - cell "26.0" [ref=e374]
+                                - cell "13.5" [ref=e375]
+                                - cell "3.3" [ref=e376]
+                                - cell "27.4" [ref=e377]
+                                - cell "3.94" [ref=e378]
+                                - cell "0.85" [ref=e379]
+                                - cell "0.14" [ref=e380]
+                                - cell "4.93" [ref=e381]
+                              - row [ref=e382]:
+                                - cell "Marine (373)" [ref=e383]
+                                - cell "187" [ref=e384]
+                                - cell "126" [ref=e385]
+                                - cell "20" [ref=e386]
+                                - cell "333" [ref=e387]
+                                - cell "19.3" [ref=e388]
+                                - cell "21.4" [ref=e389]
+                                - cell "4" [ref=e390]
+                                - cell "31.4" [ref=e391]
+                                - cell "1.06" [ref=e392]
+                                - cell "0.71" [ref=e393]
+                                - cell "0.11" [ref=e394]
+                                - cell "1.88" [ref=e395]
+                              - row [ref=e396]:
+                                - cell "Saline and alkaline (75)" [ref=e397]
+                                - cell "41" [ref=e398]
+                                - cell "18" [ref=e399]
+                                - cell "0" [ref=e400]
+                                - cell "59" [ref=e401]
+                                - cell "24.0" [ref=e402]
+                                - cell "20.0" [ref=e403]
+                                - cell "0" [ref=e404]
+                                - cell "34.7" [ref=e405]
+                                - cell "2.91" [ref=e406]
+                                - cell "1.28" [ref=e407]
+                                - cell "0.00" [ref=e408]
+                                - cell "4.18" [ref=e409]
+                              - row [ref=e410]:
+                                - cell "Sediment (442)" [ref=e411]
+                                - cell "488" [ref=e412]
+                                - cell "286" [ref=e413]
+                                - cell "10" [ref=e414]
+                                - cell "784" [ref=e415]
+                                - cell "26.2" [ref=e416]
+                                - cell "23.3" [ref=e417]
+                                - cell "2.3" [ref=e418]
+                                - cell "30.5" [ref=e419]
+                                - cell "3.76" [ref=e420]
+                                - cell "2.21" [ref=e421]
+                                - cell "0.08" [ref=e422]
+                                - cell "6.05" [ref=e423]
+                              - row [ref=e424]:
+                                - cell "Thermal springs (121)" [ref=e425]
+                                - cell "15" [ref=e426]
+                                - cell "1" [ref=e427]
+                                - cell "0" [ref=e428]
+                                - cell "16" [ref=e429]
+                                - cell "5.8" [ref=e430]
+                                - cell "0.8" [ref=e431]
+                                - cell "0" [ref=e432]
+                                - cell "5.8" [ref=e433]
+                                - cell "3.14" [ref=e434]
+                                - cell "0.21" [ref=e435]
+                                - cell "0.00" [ref=e436]
+                                - cell "3.34" [ref=e437]
+                              - row [ref=e438]:
+                                - cell [ref=e439]
+                                - cell "1379" [ref=e440]
+                                - cell "571" [ref=e441]
+                                - cell "53" [ref=e442]
+                                - cell "2003" [ref=e443]
+                                - cell "22.7" [ref=e444]
+                                - cell "17.7" [ref=e445]
+                                - cell "2.7" [ref=e446]
+                                - cell "27.9" [ref=e447]
+                                - cell "2.81" [ref=e448]
+                                - cell "1.16" [ref=e449]
+                                - cell "0.11" [ref=e450]
+                                - cell "4.09" [ref=e451]
+                              - row [ref=e452]:
+                                - cell "Solid waste (34)" [ref=e453]
+                                - cell [ref=e454]
+                                - cell [ref=e455]
+                                - cell [ref=e456]
+                              - row [ref=e457]:
+                                - cell "Compost (30)" [ref=e458]
+                                - cell "27" [ref=e459]
+                                - cell "29" [ref=e460]
+                                - cell "0" [ref=e461]
+                                - cell "56" [ref=e462]
+                                - cell "33.3" [ref=e463]
+                                - cell "63.3" [ref=e464]
+                                - cell "0" [ref=e465]
+                                - cell "66.7" [ref=e466]
+                                - cell "4.52" [ref=e467]
+                                - cell "4.85" [ref=e468]
+                                - cell "0.00" [ref=e469]
+                                - cell "9.37" [ref=e470]
+                              - row [ref=e471]:
+                                - cell "Landfill (4)" [ref=e472]
+                                - cell "19" [ref=e473]
+                                - cell "9" [ref=e474]
+                                - cell "0" [ref=e475]
+                                - cell "28" [ref=e476]
+                                - cell "75.0" [ref=e477]
+                                - cell "75.0" [ref=e478]
+                                - cell "0" [ref=e479]
+                                - cell "75" [ref=e480]
+                                - cell "2.06" [ref=e481]
+                                - cell "0.98" [ref=e482]
+                                - cell "0.00" [ref=e483]
+                                - cell "3.04" [ref=e484]
+                              - row [ref=e485]:
+                                - cell [ref=e486]
+                                - cell "46" [ref=e487]
+                                - cell "38" [ref=e488]
+                                - cell "0" [ref=e489]
+                                - cell "84" [ref=e490]
+                                - cell "38.2" [ref=e491]
+                                - cell "64.7" [ref=e492]
+                                - cell "0" [ref=e493]
+                                - cell "67.6" [ref=e494]
+                                - cell "1.78" [ref=e495]
+                                - cell "1.91" [ref=e496]
+                                - cell "0.00" [ref=e497]
+                                - cell "5.53" [ref=e498]
+                              - row [ref=e499]:
+                                - cell "Terrestrial (1323)" [ref=e500]
+                                - cell [ref=e501]
+                                - cell [ref=e502]
+                                - cell [ref=e503]
+                              - row [ref=e504]:
+                                - cell "Deep subsurface (104)" [ref=e505]
+                                - cell "59" [ref=e506]
+                                - cell "16" [ref=e507]
+                                - cell "1" [ref=e508]
+                                - cell "76" [ref=e509]
+                                - cell "18.3" [ref=e510]
+                                - cell "7.7" [ref=e511]
+                                - cell "1" [ref=e512]
+                                - cell "20.2" [ref=e513]
+                                - cell "6.19" [ref=e514]
+                                - cell "1.68" [ref=e515]
+                                - cell "0.10" [ref=e516]
+                                - cell "7.97" [ref=e517]
+                              - row [ref=e518]:
+                                - cell "Rock-dwelling (3)" [ref=e519]
+                                - cell "28" [ref=e520]
+                                - cell "5" [ref=e521]
+                                - cell "0" [ref=e522]
+                                - cell "33" [ref=e523]
+                                - cell "100" [ref=e524]
+                                - cell "66.7" [ref=e525]
+                                - cell "0" [ref=e526]
+                                - cell "100" [ref=e527]
+                                - cell "9.17" [ref=e528]
+                                - cell "1.64" [ref=e529]
+                                - cell "0.00" [ref=e530]
+                                - cell "10.81" [ref=e531]
+                              - row [ref=e532]:
+                                - cell "Soil (1211)" [ref=e533]
+                                - cell "8331" [ref=e534]
+                                - cell "2374" [ref=e535]
+                                - cell "130" [ref=e536]
+                                - cell "10,835" [ref=e537]
+                                - cell "57.1" [ref=e538]
+                                - cell "43.8" [ref=e539]
+                                - cell "7.7" [ref=e540]
+                                - cell "61.1" [ref=e541]
+                                - cell "6.32" [ref=e542]
+                                - cell "1.80" [ref=e543]
+                                - cell "0.10" [ref=e544]
+                                - cell "8.22" [ref=e545]
+                              - row [ref=e546]:
+                                - cell "Volcanic (5)" [ref=e547]
+                                - cell "0" [ref=e548]
+                                - cell "0" [ref=e549]
+                                - cell "0" [ref=e550]
+                                - cell "0" [ref=e551]
+                                - cell "0" [ref=e552]
+                                - cell "0" [ref=e553]
+                                - cell "0" [ref=e554]
+                                - cell "0" [ref=e555]
+                                - cell "0.00" [ref=e556]
+                                - cell "0.00" [ref=e557]
+                                - cell "0.00" [ref=e558]
+                                - cell "0.00" [ref=e559]
+                              - row [ref=e560]:
+                                - cell [ref=e561]
+                                - cell "8418" [ref=e562]
+                                - cell "2395" [ref=e563]
+                                - cell "131" [ref=e564]
+                                - cell "10,944" [ref=e565]
+                                - cell "53.9" [ref=e566]
+                                - cell "40.8" [ref=e567]
+                                - cell "7.1" [ref=e568]
+                                - cell "57.7" [ref=e569]
+                                - cell "6.33" [ref=e570]
+                                - cell "1.80" [ref=e571]
+                                - cell "0.10" [ref=e572]
+                                - cell "8.22" [ref=e573]
+                              - row [ref=e574]:
+                                - cell "Wastewater (229)" [ref=e575]
+                                - cell [ref=e576]
+                                - cell [ref=e577]
+                                - cell [ref=e578]
+                              - row [ref=e579]:
+                                - cell "Activated sludge (140)" [ref=e580]
+                                - cell "133" [ref=e581]
+                                - cell "73" [ref=e582]
+                                - cell "11" [ref=e583]
+                                - cell "217" [ref=e584]
+                                - cell "9.3" [ref=e585]
+                                - cell "5.7" [ref=e586]
+                                - cell "5" [ref=e587]
+                                - cell "9.3" [ref=e588]
+                                - cell "8.47" [ref=e589]
+                                - cell "4.65" [ref=e590]
+                                - cell "0.70" [ref=e591]
+                                - cell "13.82" [ref=e592]
+                              - row [ref=e593]:
+                                - cell "Anaerobic digester (54)" [ref=e594]
+                                - cell "152" [ref=e595]
+                                - cell "179" [ref=e596]
+                                - cell "7" [ref=e597]
+                                - cell "338" [ref=e598]
+                                - cell "70.4" [ref=e599]
+                                - cell "87" [ref=e600]
+                                - cell "13" [ref=e601]
+                                - cell "94.4" [ref=e602]
+                                - cell "3.37" [ref=e603]
+                                - cell "3.97" [ref=e604]
+                                - cell "0.16" [ref=e605]
+                                - cell "7.50" [ref=e606]
+                              - row [ref=e607]:
+                                - cell "Nutrient removal (35)" [ref=e608]
+                                - cell "117" [ref=e609]
+                                - cell "146" [ref=e610]
+                                - cell "20" [ref=e611]
+                                - cell "283" [ref=e612]
+                                - cell "60" [ref=e613]
+                                - cell "77.1" [ref=e614]
+                                - cell "11.4" [ref=e615]
+                                - cell "77.1" [ref=e616]
+                                - cell "6.76" [ref=e617]
+                                - cell "8.43" [ref=e618]
+                                - cell "1.15" [ref=e619]
+                                - cell "16.34" [ref=e620]
+                              - row [ref=e621]:
+                                - cell [ref=e622]
+                                - cell "402" [ref=e623]
+                                - cell "398" [ref=e624]
+                                - cell "38" [ref=e625]
+                                - cell "838" [ref=e626]
+                                - cell "31.4" [ref=e627]
+                                - cell "35.8" [ref=e628]
+                                - cell "7.9" [ref=e629]
+                                - cell "39.7" [ref=e630]
+                                - cell "5.15" [ref=e631]
+                                - cell "5.10" [ref=e632]
+                                - cell "0.49" [ref=e633]
+                                - cell "10.73" [ref=e634]
+                              - row [ref=e635]:
+                                - 'cell "Total: 3078" [ref=e636]'
+                                - cell "10 245" [ref=e637]
+                                - cell "3402" [ref=e638]
+                                - cell "222" [ref=e639]
+                                - cell "13 869" [ref=e640]
+                                - cell "36.9" [ref=e641]
+                                - cell "29.5" [ref=e642]
+                                - cell "5" [ref=e643]
+                                - cell "42.1" [ref=e644]
+                                - cell "5.35" [ref=e645]
+                                - cell "1.78" [ref=e646]
+                                - cell "0.12" [ref=e647]
+                                - cell "7.24" [ref=e648]
+                          - list [ref=e650]:
+                            - listitem [ref=e651]: Number of metagenomes screened, percent of metagenomes with at least one or more predicted PHA depolymerase, the number of predicted PHA depolymerases identified and the frequency of predicted PHA depolymerases (hits/Gb) per ecosystem type are included.
+                        - paragraph [ref=e652]:
+                          - text: "(i) Aquatic: across all aquatic ecosystem types, around 30% (±5%) of metagenomes had predicted PHA depolymerases, with the exception of thermal spring metagenomes (7/121 = 5.8%) (Table"
+                          - link "1" [ref=e653] [cursor=pointer]:
+                            - /url: "#emi15409-tbl-0001"
+                          - text: ). Despite this finding, marine ecosystem metagenomes had the lowest frequency of predicted enzymes within aquatic environments (1.88 hits/Gb). Notably, no metagenomes from marine samples or thermal springs contained any predicted PHAmcl enzymes. The highest frequency of predicted PHA depolymerases in this category occurred in aquatic sediments (6.05 hits/Gb). (Table
+                          - link "1" [ref=e654] [cursor=pointer]:
+                            - /url: "#emi15409-tbl-0001"
+                          - text: ).
+                        - paragraph [ref=e655]:
+                          - text: "(ii) Solid waste: 66.7% (20/30) of compost metagenomes and 75.0% (3/4) of landfill metagenomes had predicted PHAscl depolymerases at a frequency of 9.37 hits/Gb and 3.04 hits/Gb respectively (Table"
+                          - link "1" [ref=e656] [cursor=pointer]:
+                            - /url: "#emi15409-tbl-0001"
+                          - text: ).
+                        - paragraph [ref=e657]:
+                          - text: "(iii) Terrestrial: Soil microbial communities have been extremely well-sampled relative to other environments. From our screen, 61.1% (740/1211) of soil metagenomes had predicted PHA depolymerases at a frequency of 8.22 hits/Gb. Other terrestrial environments with predicted depolymerases were deep subsurface environments (21/104 = 20.2%, 7.97 hits/Gb) and rock-dwelling communities (3/3 = 100.0%, 10.81 hits/Gb) (Table"
+                          - link "1" [ref=e658] [cursor=pointer]:
+                            - /url: "#emi15409-tbl-0001"
+                          - text: ).
+                        - paragraph [ref=e659]:
+                          - text: "(iv) Wastewater: Within wastewater environments, the majority of anaerobic digesters (51/54 = 94.4%) and nutrient removal communities (27/35 = 77.1%) had predicted PHA depolymerases, whereas only a small fraction of activated sludge communities had any (13/140 = 9.3%). Despite this, activated sludge communities had a high frequency of predicted PHA depolymerases (13.82 hits/Gb), second to nutrient removal systems (16.34 hits/Gb), while anaerobic digesters were more similar to sediments and deep subsurface environments with 7.50 hits/Gb (Table"
+                          - link "1" [ref=e660] [cursor=pointer]:
+                            - /url: "#emi15409-tbl-0001"
+                          - text: ; Supp.
+                          - link "Data 2" [ref=e661] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ).
+                      - generic [ref=e662]:
+                        - heading "The environmental distribution of PHA depolymerase subtypes" [level=3] [ref=e663]
+                        - paragraph [ref=e664]:
+                          - text: "(i) PHAmcl depolymerases: PHAmcl depolymerases were sparsely predicted across environments, with only 222 PHAmcl depolymerases identified from 153 metagenomes (Supp. Fig."
+                          - link "2" [ref=e665] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: a) from aquatic (41/1492 = 2.7%, 0.11 hits/Gb), terrestrial (94/1323 = 7.1%, 0.10 hits/Gb) and wastewater (18/229 = 7.9%, 0.49 hits/Gb) environments (Table
+                          - link "1" [ref=e666] [cursor=pointer]:
+                            - /url: "#emi15409-tbl-0001"
+                          - text: ). The highest frequency of PHAmcl depolymerases was detected in nutrient removal (1.15 hits/Gb) and activated sludge (0.70 hits/Gb) wastewater systems. Solid waste systems had no predicted PHAmcl depolymerases (Table
+                          - link "1" [ref=e667] [cursor=pointer]:
+                            - /url: "#emi15409-tbl-0001"
+                          - text: ). Of the 222 PHAmcl depolymerases predicted in this study, 208 placed in maximum-likelihood trees with reference enzymes isolated from species of Bdellovibrio (Martínez et al.,
+                          - link "2012" [ref=e669] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0038"
+                          - text: ) and Pseudomonas (Schirmer and Jendrossek,
+                          - link "1994" [ref=e671] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0051"
+                          - text: ; Kim et al.,
+                          - link "2005" [ref=e673] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0031"
+                          - text: ). Another 14 predicted PHAmcl depolymerases formed a second clade with enzymes recently isolated from Streptomyces species, which share limited sequence homology with other ePHAmcl biomarker enzymes (Gangoiti et al.,
+                          - link "2012" [ref=e675] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0022"
+                          - text: ; Martínez et al.,
+                          - link "2015" [ref=e677] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0039"
+                          - text: ) (Supp. Fig.
+                          - link "2" [ref=e678] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: a).
+                        - paragraph [ref=e679]:
+                          - text: "(ii) PHAscl depolymerases: Predicted PHAscl depolymerases were more prevalent across environments. A total of 10 245 PHAsclT1 depolymerases were predicted from 1136 metagenomes (Supp. Fig."
+                          - link "2" [ref=e680] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: b), from aquatic (338/1492 = 22.7%, 2.81 hits/Gb), solid waste (13/34 = 38.2%, 3.03 hits/Gb), terrestrial (713 /1323 = 53.9%, 6.33 hits/Gb) and wastewater (72/229 = 31.4%, 5.15 hits/Gb) environments (Table
+                          - link "1" [ref=e681] [cursor=pointer]:
+                            - /url: "#emi15409-tbl-0001"
+                          - text: ). A large number of T1 depolymerases were predicted in soil metagenomes (8331 enzymes), but when scaled for dataset size this normalized to a frequency of 6.32 hits/Gb. All three metagenomes sequenced from rock-dwelling microbial communities encoded T1 enzymes and collectively had the highest frequency across ecosystem types with 9.17 hits/Gb. Activated sludge wastewater systems also had a higher frequency of predicted T1 enzymes with 8.47 hits/Gb.
+                        - paragraph [ref=e682]:
+                          - text: For PHAsclT2 depolymerases, 3402 were predicted from 908 metagenomes (Supp. Fig.
+                          - link "2" [ref=e683] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: c) from aquatic (264/1492 = 17.7%, 1.16 hits/Gb), solid waste (22/34 = 64.7%, 2.50 hits/Gb), terrestrial (540/1323 = 40.8%, 1.80 hits/Gb) and wastewater (82/229 = 35.8%, 5.10 hits/Gb) environments (Table
+                          - link "1" [ref=e684] [cursor=pointer]:
+                            - /url: "#emi15409-tbl-0001"
+                          - text: ). Here too, a large number of hits (2374) came from soil metagenomes, but soil did not have a particularly high frequency of enzymes (1.80 hits/Gb) compared with other ecosystem types. In fact, the frequency of predicted T2 enzymes was low (<2.5 hits/Gb) across most ecosystems with the exceptions of compost (4.85 hits/Gb) and wastewater systems (5.10 hits/Gb).
+                        - paragraph [ref=e685]:
+                          - text: Tree files, MSAs and fasta files for all predicted PHA depolymerases and information linking hits to associated metagenome information including environmental metadata, size, scaffold read depth, etc., can be found in Supp.
+                          - link "Data 2" [ref=e686] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: and
+                          - link "https://github.com/vrviljak/-The-phylogenetic-and-global-distribution-of-polyhydroxyalkanoate-bioplastic-degrading-genes.git" [ref=e687] [cursor=pointer]:
+                            - /url: https://github.com/vrviljak/-The-phylogenetic-and-global-distribution-of-polyhydroxyalkanoate-bioplastic-degrading-genes.git
+                          - text: .
+                      - generic [ref=e688]:
+                        - heading "Taxonomic affiliation of unbinned PHA depolymerase-encoding scaffolds" [level=3] [ref=e689]
+                        - paragraph [ref=e690]:
+                          - text: Only a few biochemically characterized ePHA depolymerases exist, which originate from the Proteobacteria, Actinobacteriota, Firmicutes, Bdellovibrionota and Ascomycetes (Supp.
+                          - link "Data 1" [ref=e691] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). To assess the taxonomic distribution of unbinned PHA depolymerase-encoding scaffolds >2000 bp in length (7250 scaffolds), taxonomic affiliations were inferred using MEGAN (Huson et al.,
+                          - link "2016" [ref=e693] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0029"
+                          - text: ) with GTDB-tk (Chaumeil et al.,
+                          - link "2019" [ref=e695] [cursor=pointer]:
+                            - /url: "#emi15409-bib-0013"
+                          - text: ) taxonomy (Supp.
+                          - link "Data 2" [ref=e696] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). Most sequences were assigned to the Proteobacteria, Actinobacteriota, Chloroflexota, Methylmirabilota, Bacteroidota and Myxococcota (Supp. Fig.
+                          - link "3" [ref=e697] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). Predicted PHAmcl depolymerase-encoding scaffolds were mainly affiliated with the Myxococcota (26.0%), Proteobacteria (17.8% Gammaproteobacteria and 1.4% Alphaproteobacteria), Actinobacteriota (16.4%) and Bdellovibrionota (4.1%). Scaffolds encoding predicted PHAmcl depolymerases also originated from the Deinococcota (1), Dormibacterota (1) and Thermoplasmatota (1) (Supp.
+                          - link "Data 2" [ref=e698] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). 27.4% were unclassified.
+                        - paragraph [ref=e699]:
+                          - text: The majority of predicted PHAsclT1 enzymes were on scaffolds affiliated with the Proteobacteria (64.1%), with some representation from the Actinobacteriota (5.0%), Chloroflexota (4.7%), Methylomirabilota (3.4%), Bacteroidota (2.3%), Myxococcota (1.4%) and Acidobacteriota (1.0%) (Supp. Fig.
+                          - link "3" [ref=e700] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). Unclassified scaffolds represented a further 14.6%, and 17 other phyla were represented at <1% of sequences (Supp.
+                          - link "Data 2" [ref=e701] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). PHAsclT2 enzymes were mostly predicted to be from the Proteobacteria (80.4%), with some in the Actinobacteriota (2.3%) (Supp. Fig.
+                          - link "3" [ref=e702] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). T2 enzymes were predicted at <1% in 12 phyla, with 13.3% unclassified at the phylum level (Supp.
+                          - link "Data 2" [ref=e703] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). Six PHA depolymerase scaffolds were assigned to archaeal phyla including the Halobacteriota (5), encoding predicted PHAsclT1 depolymerases, and one Thermoplasmatota scaffold encoding a predicted PHAmcl depolymerase. 5122 predicted PHA depolymerase encoding scaffolds were classified down to the family level (2138 or 29.5% of the phylum-level classified scaffolds were unclassified at the family-level). Family classified scaffolds were affiliated with 184 different families, including the Xanthobacteraceae (16.0%), Burkholderiaceae (13.1%), Beijerinckiaceae (4.7%), Rhodocyclaceae (3.0%), Alteromonadaceae (1.7%), Methyloligellaceae (1.6%) of the Proteobacteria, the Ktedonobacteraceae (3.09%) of the Chloroflexota and the GWA2-73-35 (2.4%) of the Methylomirabilota. A complete family-level overview of predicted PHA depolymerases can be found in Supp.
+                          - link "Data 2" [ref=e704] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: .
+                        - paragraph [ref=e705]:
+                          - text: Across ecosystem types, the Proteobacteria (Alpha and Gamma) were the most abundant predicted PHA depolymerase hosts (Fig.
+                          - link "2" [ref=e706] [cursor=pointer]:
+                            - /url: "#emi15409-fig-0002"
+                          - text: ). Soil environments harboured the highest diversity of predicted PHA depolymerase hosts with 24 phyla predicted. Notably, several phyla were found only in soil (at <1% abundance) - the Desulfobacterota, Dormibacterota, Elusimicrobiota, Nitrospirota, Patescibacteria, Poribacteria and Thermoplasmatota (Supp.
+                          - link "Data 2" [ref=e707] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). The Myxococcota-encoded PHA depolymerases appeared in relatively high levels in thermal springs (19.1% of taxonomically assigned PHA depolymerase-encoding scaffolds) and lower levels in some other ecosystem types (1.9% in freshwater, 1.2% in sediment, 1.5% in marine, 7.5% in nutrient removal, 5.4% in activated sludge and 1.8% in anaerobic digesters). Chloroflexota-associated PHA depolymerases were also relatively abundant in thermal springs (9.5%) and only otherwise found in soil (4.5%). Five phyla were detected in all wastewater ecosystem types - the Proteobacteria, Bacteroidota, Gemmatimonadota, Myxococcota and Spirochaetota.
+                        - figure [ref=e709]:
+                          - link [ref=e710] [cursor=pointer]:
+                            - /url: /cms/asset/05da00af-3227-4e51-a3f5-460553039f30/emi15409-fig-0002-m.jpg
+                            - img "Details are in the caption following the image" [ref=e712]
+                          - generic [ref=e713]:
+                            - generic [ref=e714]:
+                              - strong [ref=e715]: Fig 2
+                              - generic [ref=e716]:
+                                - link "Open in figure viewer" [ref=e717] [cursor=pointer]:
+                                  - /url: "#"
+                                - link "PowerPoint" [ref=e718] [cursor=pointer]:
+                                  - /url: /action/downloadFigures?id=emi15409-fig-0002&partId=&doi=10.1111%2F1462-2920.15409
+                                  - generic [ref=e719]: 
+                                  - text: PowerPoint
+                            - generic [ref=e720]:
+                              - text: Phylogenetic affiliation of scaffolds >2000 bps in length encoding at least one predicted PHA depolymerase across different ecosystems, presented as relative abundances. ‘Unassigned’ proteins could not be classified at the phylum-level. Phyla that contributed <1% of proteins (per ecosystem type) were combined into the ‘other’ category. Number of PHA depolymerase-encoding scaffolds for each environmental category is listed (n). [Color figure can be viewed at
+                              - link "wileyonlinelibrary.com" [ref=e721] [cursor=pointer]:
+                                - /url: http://wileyonlinelibrary.com
+                              - text: "]"
+                        - paragraph [ref=e722]: Predicted PHA depolymerases co-occurred in pairs on the same assembled scaffold 39 times (1.1%), including 28 pairs of predicted PHAsclT1 depolymerases predicted to be from the Proteobacteria, Gemmatimonadota, Chloroflexota, Actinobacteriota, Myxococcota and Bacteroidota, six pairs of predicted PHAsclT2 depolymerases from the Proteobacteria and Eremiobacterota, and one pair of predicted PHAmcl depolymerases from Sandaracinus amylolyticus of the Myxococcota. Predicted PHAsclT1 and PHAsclT2 depolymerases co-occurred in four cases, with three predicted as from the Gammaproteobacteria.
+                      - generic [ref=e723]:
+                        - heading "Phylogenetic distribution of predicted PHA depolymerase-encoding MAGs" [level=3] [ref=e724]
+                        - paragraph [ref=e725]:
+                          - text: To further describe the phylogenetic distribution of PHA depolymerases, we separately screened 5290 MAGs available on IMG/M for PHA depolymerases. A total of 4927 bacterial and 363 archaeal MAGs across over 70 phyla were included in our screen, which were reconstructed from metagenomes originating from engineered (443), environmental (4659), host-associated (186) and unclassified (2) systems (Supp.
+                          - link "Data 3" [ref=e726] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). We identified a total of 143 MAGs (2.7%) encoding a total of 231 predicted PHA depolymerases in MAGs from 10 different bacterial phylum-level lineages. Of these, 71% (163/231) had predicted signal peptides. In our screen, the highest frequency of predicted PHA depolymerases (hits/Gb) was identified in the Proteobacteria (90.6 hits/Gb), followed by the Bdellovibrionota (52.5 hits/Gb), Myxococcota (47.17 hits/Gb), Methylomirabilota (28.1 hits/Gb), Actinobacteriota (20.9 hits/Gb), Bacteroidota (16.5 hits/Gb), Spirochaetota (16.1 hits/Gb), Firmicutes (12.8 hits/Gb), Desulfobacterota (5.8 hits/Gb) and Planctomycetota (3.4 hits/Gb). The remaining phyla represented in the MAG dataset had no predicted hits (Supp.
+                          - link "Data 3" [ref=e727] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ). 110 dereplicated PHA depolymerase-encoding MAGs were >50% complete and <10% redundant, and 98/110 encoded sufficient marker genes for inclusion in an rp-based phylogenetic tree (Fig.
+                          - link "3" [ref=e728] [cursor=pointer]:
+                            - /url: "#emi15409-fig-0003"
+                          - text: ). GTDB-tk successfully classified all but 5/110 MAGs (Supp.
+                          - link "Data 3" [ref=e729] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: ), with those five placing among the Proteobacteria in the concatenated rp tree (Fig.
+                          - link "3" [ref=e730] [cursor=pointer]:
+                            - /url: "#emi15409-fig-0003"
+                          - text: ). Notably, we did not detect any MAGs with predicted PHA depolymerases from MAGs associated with the Candidate Phyla Radiation/Patescibacteria.
+                        - figure [ref=e732]:
+                          - link [ref=e733] [cursor=pointer]:
+                            - /url: /cms/asset/92f66448-20b0-4457-a813-743d404a0ff9/emi15409-fig-0003-m.jpg
+                            - img "Details are in the caption following the image" [ref=e735]
+                          - generic [ref=e736]:
+                            - generic [ref=e737]:
+                              - strong [ref=e738]: Fig 3
+                              - generic [ref=e739]:
+                                - link "Open in figure viewer" [ref=e740] [cursor=pointer]:
+                                  - /url: "#"
+                                - link "PowerPoint" [ref=e741] [cursor=pointer]:
+                                  - /url: /action/downloadFigures?id=emi15409-fig-0003&partId=&doi=10.1111%2F1462-2920.15409
+                                  - generic [ref=e742]: 
+                                  - text: PowerPoint
+                            - generic [ref=e743]:
+                              - text: The predicted phylogenetic distribution of MAGs encoding predicted PHA depolymerases. A concatenated rp tree inferred using FastTree shows the placement of 98 high-quality, dereplicated MAGs encoding predicted PHA depolymerases placed among reference sequences selected from the bacterial domain. Tree has been rooted between the Proteobacteria and the other phyla to enhance readability. Tree scale bar indicates number of substitutions per site. The coloured ring labelled ‘PHA-encoding MAGs’ is coloured to indicate the phylum-level classification for each MAG as predicted by GTDB-tk. Above this, the ‘References’ coloured ring indicates the phylum-level classification of the bacterial reference sequences. The outer ring bar plot shows the number of PHA depolymerases predicted in each MAG. The type(s) of predicted PHA depolymerase(s) (mcl, sclT1, or sclT2) found in that MAG are indicated with coloured squares on the innermost rings. [Color figure can be viewed at
+                              - link "wileyonlinelibrary.com" [ref=e744] [cursor=pointer]:
+                                - /url: http://wileyonlinelibrary.com
+                              - text: "]"
+                        - paragraph [ref=e745]: "(i) Proteobacteria: The vast majority of PHA depolymerases were predicted in dereplicated MAGs classified as Alphaproteobacteria (14/110) and Gammaproteobacteria (63/110). From the Alphaproteobacteria we identified MAGs from 10 families including the Hyphomicrobiaceae (three MAGs) and the Sphingomonadaceae (four MAGs). From the Gammaproteobacteria we identified MAGs from 15 families with most from the Burkholderiaceae (31 MAGs), the Rhodocyclaceae (10 MAGs) and the Alteromonadaceae (five MAGs).Within the Proteobacteria, all three ePHA depolymerase types were detected (mcl = 4; sclT1 = 83; sclT2 = 45)."
+                        - paragraph [ref=e746]: "(ii) Bacteroidota: Beyond the Proteobacteria, 11 MAGs from the Bacteroidota encoded one (nine MAGs) or two (two MAGs) predicted ePHAsclT1 depolymerases from seven families. A 2-12-FULL-35-15 and a GWF2-33-38 MAG each encoded two predicted ePHAsclT1 enzymes that shared high sequence similarity. Bacteroidota with one predicted PHAsclT1 depolymerase included members of the b-17BO (1), GWA2-32-17 (1), GWF2-33-38 (3), GWF2-35-48 (2), Saprospiraceae (1) and UBA2798 (1)."
+                        - paragraph [ref=e747]: "(iii) Myxococcota: Seven Myxococcota (formally the deltaproteobacteria) encoded predicted PHA depolymerases. Three PHAmcl depolymerases were predicted from two SG8-38 MAGs and a Polyangiaceae. A PHAsclT1 depolymerase was predicted from a Haliangiaceae, Nannocystaceae, SG8-38 and three from a Polyangiaceae MAG."
+                        - paragraph [ref=e748]: "(iv) Actinobacteriota: Five Actinobacteriota MAGs from the Cellulomonadaceae, Pseudonocardiaceae and QHCA01 were predicted to encode ePHAsclT1 depolymerase(s). Three were Pseudonocardiaceae, two of which were predicted to encode two ePHAsclT1 depolymerase."
+                        - paragraph [ref=e749]: "(v) Firmicutes: Two Clostridia (Firmicutes A) both from the Ruminococcaceae family sequenced from an anaerobic bioreactor were predicted to have a PHAmcl depolymerase. One UBA5603 (Firmicutes) was predicted to encode a PHAsclT1 depolymerase."
+                        - paragraph [ref=e750]:
+                          - text: "(vi) Others: Three Bacteriovoracales from the Bdellovibrionota encoded one (one MAG) or two (two MAGs) predicted PHAsclT1 depolymerases. A Spirochaetota from freshwater encoded three predicted PHAsclT1 depolymerases, a Desulfobacterota, a Planctomycetota and a Methylomirabilota (formally the Candidate phylum Rokubacteria) all encoded one. For a detailed overview of the PHA depolymerase complement predicted for each MAG and taxonomic affiliations, see Supp."
+                          - link "Data 3" [ref=e751] [cursor=pointer]:
+                            - /url: "#support-information-section"
+                          - text: .
+                        - generic [ref=e752]:
+                          - heading "MAGs encoding multiple predicted PHA depolymerases" [level=4] [ref=e753]
+                          - paragraph [ref=e754]:
+                            - text: Of the 110 dereplicated MAGs with predicted PHA depolymerases, 68 were predicted to encode one PHA depolymerase, 25 were predicted to encode two, 16 were predicted to encode three and one, a Herminiimonas species (98.48% complete, 4.69% redundant) from the Burkholderiaceae family, was predicted to encode nine PHA depolymerases (Supp.
+                            - link "Data 3" [ref=e755] [cursor=pointer]:
+                              - /url: "#support-information-section"
+                            - text: ). The Herminiimonas MAG was predicted to have two closely related ePHAsclT1, four ePHAsclT2 and three closely related ePHAmcl depolymerases. MAGs from the Burkholderiaceae (6), Rhodocyclaceae (6) and Halomonadaceae (1) from the Proteobacteria all encoded three predicted PHAscl enzymes each encoding both T1 and T2 enzyme(s). One unclassified Proteobacteria that clustered closely with a Bradyrhizobiaceae reference sequence in the rp tree encoded three closely related PHAsclT1 enzymes. MAGs from the Polyangiaceae of the Myxococcota (1) and GWB1-36-13 of the Spirochaetota (1) each encoded three predicted PHAscl T1 depolymerases. Twelve of the Proteobacteria with three predicted depolymerases were from the Burkholderiales and one from the Pseudomonadales, each encoding both T1 and T2 enzyme(s).
+                      - generic [ref=e756]:
+                        - heading "Phylogenetic distribution of MAG-encoded PHA depolymerase subtypes" [level=3] [ref=e757]
+                        - paragraph [ref=e758]:
+                          - text: "(i) ePHAmcl depolymerases: We predicted eight unique ePHAmcl depolymerase genes from six dereplicated MAGs (Fig."
+                          - link "4A" [ref=e759] [cursor=pointer]:
+                            - /url: "#emi15409-fig-0004"
+                          - text: ). All PHAmcl depolymerases occurred as singletons with the exception of the three predicted in the Herminiimonas-related MAG, which co-occurred with six PHAscl depolymerases. Three PHAmcl depolymerases were predicted in members of the Myxococcota and two were predicted in Firmicutes. Based on ML analyses, the predicted Firmicutes ePHAmcl depolymerases were more closely related to the biochemically validated Streptomyces ePHAmcl depolymerases, whereas the other predicted PHAmcl enzymes were more closely related to those reference ePHA depolymerases isolated from Pseudomonas and Bdellovibrio (Fig.
+                          - link "4A" [ref=e760] [cursor=pointer]:
+                            - /url: "#emi15409-fig-0004"
+                          - text: ).
+                        - figure [ref=e762]:
+                          - link [ref=e763] [cursor=pointer]:
+                            - /url: /cms/asset/b6e5e0ee-29af-42b0-b3d5-0e824a5c83ec/emi15409-fig-0004-m.jpg
+                            - img "Details are in the caption following the image" [ref=e765]
+                          - generic [ref=e766]:
+                            - generic [ref=e767]:
+                              - strong [ref=e768]: Fig 4
+                              - generic [ref=e769]:
+                                - link "Open in figure viewer" [ref=e770] [cursor=pointer]:
+                                  - /url: "#"
+                                - link "PowerPoint" [ref=e771] [cursor=pointer]:
+                                  - /url: /action/downloadFigures?id=emi15409-fig-0004&partId=&doi=10.1111%2F1462-2920.15409
+                                  - generic [ref=e772]: 
+                                  - text: PowerPoint
+                            - generic [ref=e773]:
+                              - text: Environmental origin and phylogenetic relationships of the 231 PHA depolymerases predicted from all 143 MAGs. Tree scale bar indicates number of substitutions per site. Outer rings are coloured by environmental origin of predicted PHA depolymerases. Inner rings are coloured by phylum of the MAG encoding the predicted PHA depolymerase. ML trees showing (A) 10 (eight unique) PHAmcl depolymerases (B) 156 (133 unique) PHAscl T1 depolymerases and (C) 65 (56 unique) PHAscl T2 depolymerases. [Color figure can be viewed at
+                              - link "wileyonlinelibrary.com" [ref=e774] [cursor=pointer]:
+                                - /url: http://wileyonlinelibrary.com
+                              - text: "]"
+                        - paragraph [ref=e775]:
+                          - text: "(ii) ePHAscl depolymerases: In our MAG screen, we predicted 109 unique ePHAsclT1 depolymerases from 84 dereplicated MAGs from the Proteobacteria (59), Bacteroidota (11), Myxococcota (4), Actinobacteriota (3), Bdellovibrionota (2) Desulfobacterota (1), Firmicutes (1), Methylomirabilota (1), Planctomycetota (1) and Spirochaetota (1) (Fig."
+                          - link "4B" [ref=e776] [cursor=pointer]:
+                            - /url: "#emi15409-fig-0004"
+                          - text: ). Predicted T1 enzymes occurred as mostly as singletons (62 MAGs) but also in pairs (19 MAGs) or triplets (three MAGs). T1 and T2 enzymes were predicted to co-occur in 17 Proteobacteria MAGs. We predicted 44 unique ePHAsclT2 depolymerases in 33 dereplicated MAGs exclusively from members of the Proteobacteria (Fig.
+                          - link "4C" [ref=e777] [cursor=pointer]:
+                            - /url: "#emi15409-fig-0004"
+                          - text: ). Three MAGs were not classified with GTDB-tk but placed among the Proteobacteria in the concatenated rp tree near Burkholderiales (one MAG) and Rhizobiales (two MAGs) reference sequences. Most predicted T2 enzymes occurred as singletons (24) or co-occurred with T1 enzymes (23). Notably, seven Burkholderiales from the Rhodocyclaceae family encoded two predicted T2 enzymes as well as a predicted T1 enzyme.
+                    - generic [ref=e778]:
+                      - heading "Discussion" [level=2] [ref=e779]
+                      - paragraph [ref=e780]:
+                        - text: PHA depolymerases degrade PHA substrates in the environment and have potential applications for bioremediation, composting and chemical recycling. The objective of this study was to increase the recognized diversity of PHA depolymerases and to elucidate their phylogenetic affiliations and occurrence in the environment. We used a homology-based search seeded with biochemically validated ePHA depolymerases followed by manual curation to identify 13 869 predicted PHA depolymerases in 1295 annotated and assembled metagenomes from diverse global environments (from all seven continents) and affiliated these enzymes with a broader-than-expected distribution of taxonomic lineages. Our results indicate that PHA depolymerases are globally distributed and occur in most ecosystems. However, PHA depolymerases were not universally detected in metagenomic datasets (e.g. less than a third of the 1492 aquatic metagenomes screened had predicted hits) or occurred with low frequency (Supp. Fig.
+                        - link "1" [ref=e781] [cursor=pointer]:
+                          - /url: "#support-information-section"
+                        - text: ). PHAmcl depolymerases were particularly poorly represented in the metagenomic dataset, with only 3% of aquatic metagenomes and no solid waste metagenomes harbouring predicted enzymes. There are very few reports of isolated PHAmcl degraders in the literature (Martínez et al.,
+                        - link "2015" [ref=e783] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0039"
+                        - text: ) and our screen supports a sparse environmental distribution of these organisms. We allowed a permissive size cut-off threshold of 0.5 Mb of assembled sequence data to retain even small datasets. Notably, the majority of thermal spring and volcanic metagenomes were small (81/121 and 4/5 metagenomes were <10 Mb respectively), as well as a significant fraction of sediment, freshwater and activated sludge (212/442, 213/481 and 60/140 were <10 Mb respectively). Since we were less likely to identify enzymes in smaller metagenomes, we performed normalization by dataset size to calculate PHA depolymerase frequency. We note that PHA depolymerases may be present in a greater proportion of environments than our screen predict. We explored the relationship between metagenome size and the frequency of predicted PHA depolymerases and did not find a strong linear relationship (R
+                        - superscript [ref=e784]: "2"
+                        - text: = 0.0282) (Supp. Fig.
+                        - link "4" [ref=e785] [cursor=pointer]:
+                          - /url: "#support-information-section"
+                        - text: ). Predicted PHA depolymerases were placed in ML trees anchored with reference enzymes (Supp. Fig.
+                        - link "2" [ref=e786] [cursor=pointer]:
+                          - /url: "#support-information-section"
+                        - text: ). Based on tree placement, only a handful of predicted enzymes were closely related to biomarker enzymes; the majority of predicted enzymes formed more distantly related clades. If functional, these enzymes significantly expand the known sequence diversity of PHA depolymerases.
+                      - paragraph [ref=e787]:
+                        - text: PHA depolymerase subtypes were predicted at different frequencies across ecosystems. PHAsclT1 depolymerases were the most prevalent followed by PHAsclT2 enzymes, with PHAmcl depolymerases having substantially lower frequencies across all ecosystems. Wastewater metagenomes, particularly those from activated sludge and nutrient removal systems, had the highest frequency of predicted PHA depolymerases and may be ecological hotspots for these enzymes. Interestingly, wastewater has been explored as a promising carbon source for PHA production (Pittmann and Steinmetz,
+                        - link "2017" [ref=e789] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0048"
+                        - text: ). With the predicted presence of PHA degraders in the majority of wastewater systems, there is the possibility of engineering a circular system where wastewater acts as both a feedstock and a waste processing component in the bioplastic life cycle. Notably, a high frequency of PHAsclT1 depolymerases were detected in terrestrial metagenomes, with soil metagenomes harbouring a huge number of novel predicted T1 enzymes, though at average or low relative frequencies.
+                      - paragraph [ref=e790]:
+                        - text: Prior to our screen, bacterial ePHA depolymerases were characterized from the Proteobacteria, Actinobacteriota, Bdellovibrionota (formerly within the Deltaproteobacteria) and Firmicutes, as well as one fungal phylum, the Ascomycetes. Our screen infers PHA depolymerases occur in 23 additional bacterial phyla and two archaeal phyla. An LCA analysis on unbinned predicted PHA-depolymerase encoding scaffolds associated this predicted function with 28 different phylum-level lineages, 10 of which were also identified in our MAG screen. MAGs allowed us to more confidently taxonomically place putative PHA depolymerase hosts, compare enzyme frequencies between lineages and place predicted enzymes within a genomic context, whereas our work with metagenomic scaffolds provided a larger dataset originating from a greater number of environmental samples. Together, our analyses affiliated predicted PHA depolymerases predominantly with the Proteobacteria, Bdellovibrionota, Myxococcota, Methylomirabilota, Actinobacteriota and Chloroflexota (Fig.
+                        - link "3" [ref=e791] [cursor=pointer]:
+                          - /url: "#emi15409-fig-0003"
+                        - text: ", Supp. Fig."
+                        - link "3" [ref=e792] [cursor=pointer]:
+                          - /url: "#support-information-section"
+                        - text: ). Many Proteobacterial PHA degraders have been identified through culture-based studies, particularly from soils (Jendrossek,
+                        - link "2002" [ref=e794] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0030"
+                        - text: ) and many of the PHA depolymerases used to seed our screen were from this phylum (Supp.
+                        - link "Data 1" [ref=e795] [cursor=pointer]:
+                          - /url: "#support-information-section"
+                        - text: and references within). For this reason, we cannot be certain if this phylum is genuinely enriched for this function compared with other phyla, meaning efforts to characterize distantly related enzymes from non-Proteobacterial lineages may confirm a broader phylogenetic distribution for this enzyme family.
+                      - paragraph [ref=e796]:
+                        - text: A small number of predicted PHAscl depolymerase-encoding scaffolds identified from metagenomes were classified as archaeal, from the Halobacteriota, and one predicted PHAmcl depolymerase-encoding scaffold was classified as Thermoplasmatota. A number of distantly related genes were identified in archaeal MAGs but none passed our curation steps. These archaeal sequences may represent true PHA depolymerases that are distantly related to reference enzymes and thus may be interesting targets for future characterization (Supp.
+                        - link "Data 6" [ref=e797] [cursor=pointer]:
+                          - /url: "#support-information-section"
+                        - text: ).
+                      - paragraph [ref=e798]: Reference ePHAmcl depolymerases originated from the Bdellovibrionota (formerly a lineage within the Deltaproteobacteria), Gammaproteobacteria and Actinobacteriota. We identified PHAmcl depolymerase-encoding MAGs from the Proteobacteria, Firmicutes and Myxococcota (formerly the Deltaproteobacteria), with the highest overall frequency occurring in the Firmicutes. More phylum-level diversity was found in the LCA analyses of PHAmcl depolymerase-encoding scaffolds but interestingly no Firmicutes were identified. Most scaffolds were affiliated with the Proteobacteria, Myxococcota and Actinobacteriota but many were unclassified. Intriguingly, a few ePHAmcl-encoding scaffolds were classified as Acidobacteriota, Deinococcota and Dormibacterota, which are lineages that have not yet been associated with PHAmcl depolymerases. T2 reference enzymes originated from the Proteobacteria (most), a fungal species (1) and Actinobacteriota (1). All MAG-encoded PHAsclT2 depolymerases occurred in members of the Proteobacteria (mainly the Burkholderiales) and often co-occurred with PHAsclT1 depolymerases. The restriction of predicted T2 enzymes to only a few lineages is an interesting result which was mirrored by our LCA analyses on T2-encoding scaffolds.
+                      - paragraph [ref=e799]: Two biochemically validated intracellular PHAsclT1 depolymerases (ACN29674.1 & BAE44206.1) are homologous to our reference extracellular PHAsclT1 depolymerases. To assess cellular localization of our predicted PHA depolymerases, we predicted signal peptides. The majority of MAG-encoded PHA depolymerases are expected to localize extracellularly. In contrast, fewer than half of the metagenome-derived PHA depolymerases had predicted signal peptides. We predict that a small fraction of identified PHA depolymerases may represent intracellular enzymes, but suspect that signal prediction algorithms may overlook valid signal peptides, particularly for organisms not well-represented in current databases.
+                      - paragraph [ref=e800]: We identified several hosts with multiple predicted PHA depolymerases, which may indicate metabolic flexibility on PHA substrates. We consider these organisms and their PHA depolymerases important targets for future characterization. Most notably, we identified a Herminiimonas species from the Burkholderiales which encoded a complement of nine predicted PHA depolymerases, suggesting it may be an efficient and/or highly versatile PHA degrader. We also identified a scaffold encoding two PHAmcl enzymes that were classified as from a member of the Myxococcota, indicating this family may be enriched for this rarer enzyme subtype.
+                      - paragraph [ref=e801]:
+                        - text: Biodegradable plastics like PHA offer a promising solution to the devastating environmental effects caused by conventional plastics; however, it is important to understand the potential impacts of adding a novel substrate into the environment. Our screen identified low frequencies or non-detection of PHA depolymerases in many environments. The presence of PHA waste may enrich low-abundance community members with PHA degradation capacity and significantly alter microbial community structure. In a controlled trial, biofilms associated with PHAs were dominated by sulfate-reducing microorganisms in comparison to polyethylene terephthalate controls (Pinnell and Turner,
+                        - link "2019" [ref=e803] [cursor=pointer]:
+                          - /url: "#emi15409-bib-0047"
+                        - text: ). The potential for low abundance organisms to respond to PHAs in an environment may allow more robust PHA degradation than our screen predicts and also may have unexpected impacts on microbial community dynamics and biogeochemical cycling.
+                      - paragraph [ref=e804]: In conclusion, our work presents a carefully curated set of predicted PHA depolymerases to conservatively catalogue the existing environmental sequence diversity and the associated taxonomic affiliations of this enzyme family. We dramatically expand the inventory of PHA depolymerases available to target for future biochemical characterization and affiliate many of these enzymes with novel taxonomic lineages for this function. We also provide an overview of the occurrence and frequency of PHA depolymerases detected in the environment. Future research should employ a combination of metagenomic predictions, possibly leveraging hidden Markov models for broader diversity capture, burial degradation trials with functional profiling and biochemical validation of predicted enzymes (particularly for enzymes distantly related to biomarker enzymes) in targeted environments to confirm predictions developed here.
+                    - generic [ref=e805]:
+                      - heading "Acknowledgements" [level=2] [ref=e806]
+                      - paragraph [ref=e807]: We would like to thank Angus Hilts for help with technical infrastructure. We would also like to extend our gratitude to the scientific community sequencing environmental metagenomes for their part in developing global data repositories. L.A.H. is supported by a Tier II Canada Research Chair, and this work was funded by an NSERC Discovery grant (2016-03686) to L.A.H. A significant proportion of the datasets used were derived from grant support to Jill Banfield under DOE Office of Science BER grant DOE-SC10010566 and National Science Foundation grant CZP EAR-1331940; and to James Tiedje under DOE Office of Science BER DE-FC02-07ER64494.
+                      - list
+                    - generic [ref=e808]:
+                      - heading "Data Availability Statement" [level=2] [ref=e809]
+                      - paragraph [ref=e810]:
+                        - text: All predicted PHA depolymerase faa files, MSAs and tree files are available at
+                        - link "https://github.com/vrviljak/-The-phylogenetic-and-global-distribution-of-polyhydroxyalkanoate-bioplastic-degrading-genes.git" [ref=e811] [cursor=pointer]:
+                          - /url: https://github.com/vrviljak/-The-phylogenetic-and-global-distribution-of-polyhydroxyalkanoate-bioplastic-degrading-genes.git
+                        - text: . All trees visualized with iTOL for this project can be viewed at
+                        - link "https://itol.embl.de/shared/2DHP8UFMQVeYO" [ref=e812] [cursor=pointer]:
+                          - /url: https://itol.embl.de/shared/2DHP8UFMQVeYO
+                    - heading [level=2] [ref=e815]:
+                      - button "Supporting Information" [ref=e816] [cursor=pointer]:
+                        - generic [ref=e817]:
+                          - generic [ref=e818]: Supporting Information
+                          - generic [ref=e819]: 
+                    - generic [ref=e821]:
+                      - heading [level=2] [ref=e822]:
+                        - button "References" [ref=e823] [cursor=pointer]:
+                          - generic [ref=e825]: 
+                      - text:                                                                                                                                                                                              
+                  - generic [ref=e826]:
+                    - list
+                  - heading [level=2] [ref=e830]:
+                    - button "Citing Literature" [ref=e831] [cursor=pointer]:
+                      - generic [ref=e833]: 
+              - generic [ref=e834]:
+                - generic [ref=e835]:
+                  - link "View Volume 23, Issue 3" [ref=e837] [cursor=pointer]:
+                    - /url: /toc/14622920/2021/23/3
+                  - generic [ref=e838]:
+                    - paragraph [ref=e839]:
+                      - link "Volume23, Issue3" [ref=e840] [cursor=pointer]:
+                        - /url: /toc/14622920/2021/23/3
+                    - paragraph [ref=e841]: March 2021
+                    - paragraph [ref=e842]: Pages 1717-1731
+                - generic [ref=e843]: Advertisement
+                - generic [ref=e846]:
+                  - tablist "Article Information" [ref=e847]:
+                    - tab [ref=e848] [cursor=pointer]:
+                      - generic [ref=e849]: 
+                      - heading "Figures" [level=2] [ref=e850]
+                    - tab [ref=e851] [cursor=pointer]:
+                      - generic [ref=e852]: 
+                      - heading "References" [level=2] [ref=e853]
+                    - tab [ref=e854] [cursor=pointer]:
+                      - generic [ref=e855]: 
+                      - heading "Related" [level=2] [ref=e856]
+                    - tab [ref=e857] [cursor=pointer]:
+                      - generic [ref=e858]: 
+                      - heading "Information" [level=2] [ref=e859]
+                  - tabpanel "Related" [ref=e860]:
+                    - generic [ref=e863]:
+                      - heading "Recommended" [level=3] [ref=e864]
+                      - list [ref=e866]:
+                        - listitem [ref=e867]:
+                          - generic [ref=e868]:
+                            - paragraph [ref=e869]:
+                              - link "Assessing bacterial diversity in a seawater-processing wastewater treatment plant by 454-pyrosequencing of the 16S rRNA and amoA genes" [ref=e870] [cursor=pointer]:
+                                - /url: /doi/full/10.1111/1751-7915.12052
+                            - generic [ref=e871]:
+                              - generic [ref=e873]:
+                                - link "Olga Sánchez" [ref=e874] [cursor=pointer]:
+                                  - /url: /authored-by/S%C3%A1nchez/Olga
+                                - text: ","
+                              - generic [ref=e876]:
+                                - link "Isabel Ferrera" [ref=e877] [cursor=pointer]:
+                                  - /url: /authored-by/Ferrera/Isabel
+                                - text: ","
+                              - generic [ref=e879]:
+                                - link "Jose M. González" [ref=e880] [cursor=pointer]:
+                                  - /url: /authored-by/Gonz%C3%A1lez/Jose+M.
+                                - text: ","
+                              - link "Jordi Mas" [ref=e883] [cursor=pointer]:
+                                - /url: /authored-by/Mas/Jordi
+                            - link "Microbial Biotechnology" [ref=e886] [cursor=pointer]:
+                              - /url: /journal/17517915
+                        - listitem [ref=e887]:
+                          - generic [ref=e888]:
+                            - paragraph [ref=e889]:
+                              - link "Development of a phylogenetic microarray for comprehensive analysis of ruminal bacterial communities" [ref=e890] [cursor=pointer]:
+                                - /url: /doi/full/10.1111/jam.12598
+                            - generic [ref=e891]:
+                              - generic [ref=e893]:
+                                - link "M. Kim" [ref=e894] [cursor=pointer]:
+                                  - /url: /authored-by/Kim/M.
+                                - text: ","
+                              - generic [ref=e896]:
+                                - link "L. Wang" [ref=e897] [cursor=pointer]:
+                                  - /url: /authored-by/Wang/L.
+                                - text: ","
+                              - generic [ref=e899]:
+                                - link "M. Morrison" [ref=e900] [cursor=pointer]:
+                                  - /url: /authored-by/Morrison/M.
+                                - text: ","
+                              - link "Z. Yu" [ref=e903] [cursor=pointer]:
+                                - /url: /authored-by/Yu/Z.
+                            - link "Journal of Applied Microbiology" [ref=e906] [cursor=pointer]:
+                              - /url: /journal/13652672
+                        - listitem [ref=e907]:
+                          - generic [ref=e908]:
+                            - paragraph [ref=e909]:
+                              - link "Metagenomic and metatranscriptomic analysis reveals enrichment for xenobiotic-degrading bacterial specialists and xenobiotic-degrading genes in a Canadian Prairie two-cell biobed system" [ref=e910] [cursor=pointer]:
+                                - /url: /doi/full/10.1111/1758-2229.12990
+                            - generic [ref=e911]:
+                              - generic [ref=e913]:
+                                - link "Jennifer N. Russell" [ref=e914] [cursor=pointer]:
+                                  - /url: /authored-by/Russell/Jennifer+N.
+                                - text: ","
+                              - generic [ref=e916]:
+                                - link "Benjamin J. Perry" [ref=e917] [cursor=pointer]:
+                                  - /url: /authored-by/Perry/Benjamin+J.
+                                - text: ","
+                              - generic [ref=e919]:
+                                - link "Jordyn Bergsveinson" [ref=e920] [cursor=pointer]:
+                                  - /url: /authored-by/Bergsveinson/Jordyn
+                                - text: ","
+                              - generic [ref=e922]:
+                                - link "Claire N. Freeman" [ref=e923] [cursor=pointer]:
+                                  - /url: /authored-by/Freeman/Claire+N.
+                                - text: ","
+                              - generic [ref=e925]:
+                                - link "Claudia Sheedy" [ref=e926] [cursor=pointer]:
+                                  - /url: /authored-by/Sheedy/Claudia
+                                - text: ","
+                              - generic [ref=e928]:
+                                - link "Denise Nilsson" [ref=e929] [cursor=pointer]:
+                                  - /url: /authored-by/Nilsson/Denise
+                                - text: ","
+                              - generic [ref=e931]:
+                                - link "Larry Braul" [ref=e932] [cursor=pointer]:
+                                  - /url: /authored-by/Braul/Larry
+                                - text: ","
+                              - link "Christopher K. Yost" [ref=e935] [cursor=pointer]:
+                                - /url: /authored-by/Yost/Christopher+K.
+                            - link "Environmental Microbiology Reports" [ref=e938] [cursor=pointer]:
+                              - /url: /journal/17582229
+                        - listitem [ref=e939]:
+                          - generic [ref=e940]:
+                            - paragraph [ref=e941]:
+                              - 'link "Plastics degradation by hydrolytic enzymes: The plastics-active enzymes database—PAZy" [ref=e942] [cursor=pointer]':
+                                - /url: /doi/full/10.1002/prot.26325
+                            - generic [ref=e943]:
+                              - generic [ref=e945]:
+                                - link "Patrick C. F. Buchholz" [ref=e946] [cursor=pointer]:
+                                  - /url: /authored-by/Buchholz/Patrick+C.+F.
+                                - text: ","
+                              - generic [ref=e948]:
+                                - link "Golo Feuerriegel" [ref=e949] [cursor=pointer]:
+                                  - /url: /authored-by/Feuerriegel/Golo
+                                - text: ","
+                              - generic [ref=e951]:
+                                - link "Hongli Zhang" [ref=e952] [cursor=pointer]:
+                                  - /url: /authored-by/Zhang/Hongli
+                                - text: ","
+                              - generic [ref=e954]:
+                                - link "Pablo Perez-Garcia" [ref=e955] [cursor=pointer]:
+                                  - /url: /authored-by/Perez%E2%80%90Garcia/Pablo
+                                - text: ","
+                              - generic [ref=e957]:
+                                - link "Lena-Luisa Nover" [ref=e958] [cursor=pointer]:
+                                  - /url: /authored-by/Nover/Lena%E2%80%90Luisa
+                                - text: ","
+                              - generic [ref=e960]:
+                                - link "Jennifer Chow" [ref=e961] [cursor=pointer]:
+                                  - /url: /authored-by/Chow/Jennifer
+                                - text: ","
+                              - generic [ref=e963]:
+                                - link "Wolfgang R. Streit" [ref=e964] [cursor=pointer]:
+                                  - /url: /authored-by/Streit/Wolfgang+R.
+                                - text: ","
+                              - link "Jürgen Pleiss" [ref=e967] [cursor=pointer]:
+                                - /url: /authored-by/Pleiss/J%C3%BCrgen
+                            - 'link "Proteins: Structure, Function, and Bioinformatics" [ref=e970] [cursor=pointer]':
+                              - /url: /journal/10970134
+                        - listitem [ref=e971]:
+                          - generic [ref=e972]:
+                            - paragraph [ref=e973]:
+                              - link "The structure of bacterial communities in the western Arctic Ocean as revealed by pyrosequencing of 16S rRNA genes" [ref=e974] [cursor=pointer]:
+                                - /url: /doi/full/10.1111/j.1462-2920.2010.02154.x
+                            - generic [ref=e975]:
+                              - generic [ref=e977]:
+                                - link "David L. Kirchman" [ref=e978] [cursor=pointer]:
+                                  - /url: /authored-by/Kirchman/David+L.
+                                - text: ","
+                              - generic [ref=e980]:
+                                - link "Matthew T. Cottrell" [ref=e981] [cursor=pointer]:
+                                  - /url: /authored-by/Cottrell/Matthew+T.
+                                - text: ","
+                              - link "Connie Lovejoy" [ref=e984] [cursor=pointer]:
+                                - /url: /authored-by/Lovejoy/Connie
+                            - link "Environmental Microbiology" [ref=e987] [cursor=pointer]:
+                              - /url: /journal/14622920
+                - complementary [ref=e991]:
+                  - generic [ref=e992]: Advertisement
+          - generic: 
+          - generic:      
+          - generic:       
+          - text:       |
+          - link "Download PDF" [ref=e995] [cursor=pointer]:
+            - /url: /doi/pdf/10.1111/1462-2920.15409
+      - link "back" [ref=e998] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic [ref=e999]: 
+        - text: back
+    - contentinfo [ref=e1002]:
+      - generic [ref=e1003]:
+        - generic [ref=e1004]: © 2026 John Wiley & Sons Ltd
+        - generic [ref=e1015]:
+          - generic [ref=e1016]:
+            - heading "Additional links" [level=2] [ref=e1017]
+            - generic [ref=e1019]:
+              - generic [ref=e1021]:
+                - heading "About Wiley Online Library" [level=3] [ref=e1022]
+                - list [ref=e1023]:
+                  - listitem [ref=e1024]:
+                    - link "Privacy Policy" [ref=e1025] [cursor=pointer]:
+                      - /url: https://www.wiley.com/privacy
+                  - listitem [ref=e1026]:
+                    - link "Terms of Use" [ref=e1027] [cursor=pointer]:
+                      - /url: https://onlinelibrary.wiley.com/terms-and-conditions
+                  - listitem [ref=e1028]:
+                    - link "About Cookies" [ref=e1029] [cursor=pointer]:
+                      - /url: https://onlinelibrary.wiley.com/cookies
+                  - listitem [ref=e1030]:
+                    - button "Manage Cookies" [ref=e1031] [cursor=pointer]
+                  - listitem [ref=e1032]:
+                    - link "Accessibility" [ref=e1033] [cursor=pointer]:
+                      - /url: https://onlinelibrary.wiley.com/accessibility
+                  - listitem [ref=e1034]:
+                    - link "Wiley Research DE&I Statement and Publishing Policies" [ref=e1035] [cursor=pointer]:
+                      - /url: https://onlinelibrary.wiley.com/publishing-policies
+              - generic [ref=e1037]:
+                - heading "Help & Support" [level=3] [ref=e1038]
+                - list [ref=e1039]:
+                  - listitem [ref=e1040]:
+                    - link "Contact Us" [ref=e1041] [cursor=pointer]:
+                      - /url: https://hub.wiley.com/community/support/onlinelibrary
+                  - listitem [ref=e1042]:
+                    - link "Training and Support" [ref=e1043] [cursor=pointer]:
+                      - /url: https://www.wiley.com/customer-success/wiley-online-library-training-hub
+                  - listitem [ref=e1044]:
+                    - link "DMCA & Reporting Piracy" [ref=e1045] [cursor=pointer]:
+                      - /url: https://onlinelibrary.wiley.com/dmca-notification-policy
+                  - listitem [ref=e1046]:
+                    - link "Sitemap" [ref=e1047] [cursor=pointer]:
+                      - /url: https://onlinelibrary.wiley.com/sitemap
+              - generic [ref=e1049]:
+                - heading "Opportunities" [level=3] [ref=e1050]
+                - list [ref=e1051]:
+                  - listitem [ref=e1052]:
+                    - link "Subscription Agents" [ref=e1053] [cursor=pointer]:
+                      - /url: https://onlinelibrary.wiley.com/agents
+                  - listitem [ref=e1054]:
+                    - link "Advertisers & Corporate Partners" [ref=e1055] [cursor=pointer]:
+                      - /url: https://onlinelibrary.wiley.com/advertisers
+              - generic [ref=e1057]:
+                - heading "Connect with Wiley" [level=3] [ref=e1058]
+                - list [ref=e1059]:
+                  - listitem [ref=e1060]:
+                    - link "The Wiley Network" [ref=e1061] [cursor=pointer]:
+                      - /url: https://www.wiley.com/network
+                  - listitem [ref=e1062]:
+                    - link "Wiley Press Room" [ref=e1063] [cursor=pointer]:
+                      - /url: https://newsroom.wiley.com/
+          - generic [ref=e1067]:
+            - generic [ref=e1068]:
+              - paragraph [ref=e1069]:
+                - text: Copyright © 1999-2026
+                - link "John Wiley & Sons, Inc" [ref=e1070] [cursor=pointer]:
+                  - /url: https://www.wiley.com
+                - text: or related companies. All rights reserved, including rights for text and data mining and training of artificial intelligence technologies or similar technologies.
+              - paragraph
+            - link "Wiley" [ref=e1072] [cursor=pointer]:
+              - /url: https://www.wiley.com
+              - img "Wiley Home Page" [ref=e1073]
+    - text:      ▲   
+  - generic [ref=e1074]:
+    - generic [ref=e1075]:
+      - generic [ref=e1076]: Have questions about this content? Try AI Companion.
+      - button [ref=e1079]
+    - generic [ref=e1085] [cursor=pointer]: BETA
