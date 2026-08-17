@@ -1,0 +1,63 @@
+- generic [ref=f217e3]:
+  - banner:
+    - img "Replace or remove this logo" [ref=f217e4]
+    - img "logo for Nature Research" [ref=f217e5]
+  - paragraph [ref=f217e6]
+  - paragraph [ref=f217e7]: "你正在登录到服务: Nature Research of Springer Nature Limited"
+  - paragraph [ref=f217e8]: "此服务提供的描述: Nature Research serves the research community by publishing its most significant discoveries."
+  - paragraph [ref=f217e9]:
+    - link "Additional information about the service" [ref=f217e10] [cursor=pointer]:
+      - /url: https://www.nature.com/nature/about
+  - table [ref=f217e12]:
+    - rowgroup [ref=f217e13]:
+      - row [ref=f217e14]:
+        - columnheader "提供给服务的信息" [ref=f217e15]
+    - rowgroup [ref=f217e16]:
+      - row [ref=f217e17]:
+        - cell "eduPersonPrincipalName" [ref=f217e18]
+        - cell [ref=f217e19]:
+          - strong [ref=f217e20]: 12432768@sustech.edu.cn
+        - cell [ref=f217e21]
+      - row [ref=f217e22]:
+        - cell "eduPersonScopedAffiliation" [ref=f217e23]
+        - cell [ref=f217e24]:
+          - strong [ref=f217e25]: member@sustech.edu.cn
+        - cell [ref=f217e26]
+      - row [ref=f217e27]:
+        - cell "schacHomeOrganization" [ref=f217e28]
+        - cell [ref=f217e29]:
+          - strong [ref=f217e30]: sustech.edu.cn
+        - cell [ref=f217e31]
+  - paragraph [ref=f217e32]:
+    - link "Data privacy information of the service" [ref=f217e33] [cursor=pointer]:
+      - /url: https://www.nature.com/info/privacy
+  - generic [ref=f217e34]:
+    - paragraph [ref=f217e35]: 如果您继续，以上信息将与服务共享。您是否同意每次访问该服务时都将其发布到服务中？
+    - generic [ref=f217e36]:
+      - text: 选择信息发布同意期限：
+      - paragraph [ref=f217e37]:
+        - radio "下次登录时再次询问我" [ref=f217e38]
+        - text: 下次登录时再次询问我
+      - list [ref=f217e39]:
+        - listitem [ref=f217e40]: 我同意这次发送我的信息。
+      - paragraph
+      - paragraph [ref=f217e41]:
+        - radio "如果提供给该服务的信息是否发生了变化，再次询问我。" [checked] [ref=f217e42]
+        - text: 如果提供给该服务的信息是否发生了变化，再次询问我。
+      - list [ref=f217e43]:
+        - listitem [ref=f217e44]: 我同意将来相同的信息会自动发送到该服务。
+      - paragraph
+      - paragraph [ref=f217e45]:
+        - radio "不要再问我" [ref=f217e46]
+        - text: 不要再问我
+      - list [ref=f217e47]:
+        - listitem [ref=f217e48]:
+          - text: 我同意允许将我的
+          - strong [ref=f217e49]: 所有
+          - text: 信息将发布到
+          - strong [ref=f217e50]: 任何
+          - text: 服务。
+      - paragraph
+    - paragraph [ref=f217e51]:
+      - button "拒绝" [ref=f217e52]
+      - button "接受" [ref=f217e53]

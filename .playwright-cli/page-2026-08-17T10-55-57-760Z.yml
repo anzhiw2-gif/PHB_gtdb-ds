@@ -1,0 +1,544 @@
+- generic [active] [ref=e1]:
+  - text: 
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - text:    
+      - generic [ref=e6]:
+        - link "Skip to content" [ref=e7] [cursor=pointer]:
+          - /url: "#main-content-container"
+        - navigation [ref=e12]:
+          - list [ref=e13]:
+            - listitem [ref=e14]:
+              - link "Institutional Login" [ref=e15] [cursor=pointer]:
+                - /url: /session/ext/shib?url=%2Fcontent%2Fjournals%2F10.1146%2Fannurev.micro.56.012302.160838
+            - listitem [ref=e17]:
+              - link "Login" [ref=e20] [cursor=pointer]:
+                - /url: /registration/signin-or-register.action?signInTarget=%2Fcontent%2Fjournals%2F10.1146%2Fannurev.micro.56.012302.160838
+            - listitem [ref=e21]:
+              - link "Register" [ref=e22] [cursor=pointer]:
+                - /url: /registration/signin-or-register.action?page=register&signInTarget=%2Fcontent%2Fjournals%2F10.1146%2Fannurev.micro.56.012302.160838
+            - listitem [ref=e23]:
+              - link [ref=e26] [cursor=pointer]:
+                - /url: /cart
+                - generic [ref=e27]:
+                  - generic [ref=e28]: 
+                  - text: 0 Cart
+            - listitem [ref=e29]:
+              - link "Help" [ref=e30] [cursor=pointer]:
+                - /url: /help/main
+        - navigation "site" [ref=e31]:
+          - link "Annual Reviews Icon" [ref=e32] [cursor=pointer]:
+            - /url: /
+            - img "Annual Reviews Icon" [ref=e34]
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - button "Publications A-Z" [ref=e38] [cursor=pointer]
+            - listitem [ref=e39]:
+              - button "Journal Information"
+          - list [ref=e40]:
+            - listitem [ref=e41]:
+              - button "About" [ref=e42] [cursor=pointer]
+            - listitem [ref=e43]:
+              - link "Subscribe":
+                - /url: /page/subscriptions/general-information
+            - listitem [ref=e44]:
+              - link "Give" [ref=e45] [cursor=pointer]:
+                - /url: /support-annual-reviews
+            - listitem [ref=e46]:
+              - generic "Quick Search" [ref=e47]:
+                - searchbox "Search" [ref=e48]
+                - status [ref=e49]
+                - status [ref=e50]
+                - button "Search" [ref=e51] [cursor=pointer]
+                - text: 
+              - text: 
+    - generic [ref=e52]:
+      - main [ref=e53]:
+        - navigation "breadcrumbs" [ref=e54]:
+          - list [ref=e55]:
+            - listitem [ref=e56]:
+              - link "Home" [ref=e57] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e58]:
+              - text: /
+              - link "A-Z Publications" [ref=e59] [cursor=pointer]:
+                - /url: /content/publications
+            - listitem [ref=e60]:
+              - text: /
+              - link "Annual Review of Microbiology" [ref=e61] [cursor=pointer]:
+                - /url: /content/journals/micro
+            - listitem [ref=e62]:
+              - text: /
+              - link "Volume 56, 2002" [ref=e63] [cursor=pointer]:
+                - /url: /content/journals/micro/56/1
+            - listitem [ref=e64]: / Article
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - heading [level=3] [ref=e68]:
+              - link "Annual Review of Microbiology" [ref=e69] [cursor=pointer]:
+                - /url: /content/journals/micro
+            - link [ref=e70] [cursor=pointer]:
+              - /url: /content/journals/micro/56/1
+              - heading "Volume 56, 2002" [level=4] [ref=e71]
+          - heading "Review Article" [level=4] [ref=e73]
+          - heading [level=1] [ref=e74]:
+            - text: Microbial Degradation of Polyhydroxyalkanoates
+            - link "*" [ref=e76] [cursor=pointer]:
+              - /url: "#right-ref-fn1"
+          - list [ref=e77]:
+            - listitem [ref=e78]:
+              - generic [ref=e79]:
+                - link "Dieter Jendrossek" [ref=e80] [cursor=pointer]:
+                  - /url: /search?value1=Dieter+Jendrossek&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true
+                - superscript [ref=e81]: "1"
+                - text: and
+                - link "René Handrick" [ref=e82] [cursor=pointer]:
+                  - /url: /search?value1=Ren%C3%A9+Handrick&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true
+                - superscript [ref=e83]: "1"
+            - listitem [ref=e84]:
+              - button " View Affiliations and Author Notes" [ref=e86] [cursor=pointer]:
+                - generic [ref=e87]:
+                  - generic [ref=e88]: 
+                  - text: View Affiliations and Author Notes
+                - text: 
+            - listitem [ref=e89]:
+              - generic [ref=e90]: Vol. 56:403-432 (Volume publication date October 2002)
+              - link "https://doi.org/10.1146/annurev.micro.56.012302.160838" [ref=e91] [cursor=pointer]:
+                - /url: https://doi.org/10.1146/annurev.micro.56.012302.160838
+            - listitem [ref=e92]:
+              - generic [ref=e93]: © Annual Reviews
+            - listitem [ref=e94]:
+              - button " View Citation" [ref=e96] [cursor=pointer]:
+                - generic [ref=e97]:
+                  - generic [ref=e98]: 
+                  - text: View Citation
+                - text: 
+        - navigation "Article navigation" [ref=e99]:
+          - generic:
+            - list [ref=e100]:
+              - listitem [ref=e101]:
+                - button "info Info" [ref=e102] [cursor=pointer]:
+                  - generic [ref=e103]: info
+                  - text: Info
+                - text:          
+              - listitem [ref=e104]:
+                - button "list Sections" [disabled] [ref=e105] [cursor=pointer]:
+                  - generic [ref=e106]: list
+                  - text: Sections
+            - list [ref=e107]:
+              - listitem [ref=e108]:
+                - link "vpn_key Get Access" [ref=e109] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e110]: vpn_key
+                  - text: Get Access
+              - listitem [ref=e111]:
+                - button "build Tools" [ref=e112] [cursor=pointer]:
+                  - generic [ref=e113]: build
+                  - text: Tools
+                - text:         
+              - listitem [ref=e114]:
+                - button "share Share" [ref=e115] [cursor=pointer]:
+                  - generic [ref=e116]: share
+                  - text: Share
+                - text:        
+        - generic [ref=e117]:
+          - generic [ref=e118]:
+            - heading "Abstract" [level=2] [ref=e119]
+            - generic [ref=e121]:
+              - generic [ref=e122]: ▪ Abstract
+              - paragraph [ref=e123]: Polyesters such as poly(3-hydroxybutyrate) (PHB) or other polyhydroxyalkanoates (PHA) have attracted commercial and academic interest as new biodegradable materials. The ability to degrade PHA is widely distributed among bacteria and fungi and depends on the secretion of specific extracellular PHA depolymerases (e-PHA depolymerases), which are carboxyesterases (EC 3.1.1.75 and EC 3.1.1.76), and on the physical state of the polymer (amorphous or crystalline). This contribution provides a summary of the biochemical and molecular biological characteristics of e-PHA depolymerases and focuses on the intracellular mobilization of storage PHA by intracellular PHA depolymerases (i-PHA depolymerases) of PHA-accumulating bacteria. The importance of different assay systems for PHA depolymerase activity is also discussed.
+          - list
+          - generic [ref=e124]:
+            - strong [ref=e126]: "Keyword(s):"
+            - link "extracellular PHB depolymerase" [ref=e127] [cursor=pointer]:
+              - /url: /search?value1=%22extracellular+PHB+depolymerase%22&option1=pub_keyword
+            - text: ","
+            - link "intracellular PHB depolymerase" [ref=e128] [cursor=pointer]:
+              - /url: /search?value1=%22intracellular+PHB+depolymerase%22&option1=pub_keyword
+            - text: ","
+            - link "Paucimonas lemoignei" [ref=e129] [cursor=pointer]:
+              - /url: /search?value1=%22Paucimonas+lemoignei%22&option1=pub_keyword
+            - text: ","
+            - link "polyhydroxybutyrate" [ref=e130] [cursor=pointer]:
+              - /url: /search?value1=%22polyhydroxybutyrate%22&option1=pub_keyword
+        - generic [ref=e132]:
+          - heading "Most Read This Month" [level=3] [ref=e134]
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - generic [ref=e141]:
+                - heading [level=2] [ref=e142]:
+                  - link "Origin and Early Evolution of the Eukaryotic Cell" [ref=e144] [cursor=pointer]:
+                    - /url: /content/journals/10.1146/annurev-micro-090817-062213
+                - generic [ref=e145]: Toni Gabaldón
+                - generic [ref=e148]: pp. 631–647 (17)
+            - listitem [ref=e149]:
+              - generic [ref=e152]:
+                - heading [level=2] [ref=e153]:
+                  - 'link "Mechanisms Underlying Ophiocordyceps Infection and Behavioral Manipulation of Ants: Unique or Ubiquitous?" [ref=e155] [cursor=pointer]':
+                    - /url: /content/journals/10.1146/annurev-micro-041522-092522
+                - generic [ref=e156]: Emmeline van Roosmalen and Charissa de Bekker
+                - generic [ref=e159]: pp. 575–593 (19)
+            - listitem [ref=e160]:
+              - generic [ref=e163]:
+                - heading [level=2] [ref=e164]:
+                  - link "Candida auris Genetics and Emergence" [ref=e166] [cursor=pointer]:
+                    - /url: /content/journals/10.1146/annurev-micro-032521-015858
+                - generic [ref=e167]: Anuradha Chowdhary, Kusum Jain and Neeraj Chauhan
+                - generic [ref=e170]: pp. 583–602 (20)
+            - listitem [ref=e171]:
+              - generic [ref=e174]:
+                - heading [level=2] [ref=e175]:
+                  - link "The Microbiology of Biological Soil Crusts" [ref=e177] [cursor=pointer]:
+                    - /url: /content/journals/10.1146/annurev-micro-032521-015202
+                - generic [ref=e178]: Ferran Garcia-Pichel
+                - generic [ref=e181]: pp. 149–171 (23)
+            - listitem [ref=e182]:
+              - generic [ref=e185]:
+                - heading [level=2] [ref=e186]:
+                  - link "Microbiome Assembly in Fermented Foods" [ref=e188] [cursor=pointer]:
+                    - /url: /content/journals/10.1146/annurev-micro-032521-041956
+                - generic [ref=e189]: Nicolas L. Louw, Kasturi Lele, Ruby Ye, Collin B. Edwards and Benjamin E. Wolfe
+                - generic [ref=e192]: pp. 381–402 (22)
+            - listitem
+        - generic [ref=e193]:
+          - heading [level=2] [ref=e195]:
+            - text: Most Cited
+            - link " Most Cited RSS feed" [ref=e197] [cursor=pointer]:
+              - /url: /rss/content/journals/micro/mostcitedarticles?fmt=rss
+              - generic [ref=e198]: 
+              - generic [ref=e199]: Most Cited RSS feed
+          - list [ref=e202]:
+            - listitem [ref=e203]:
+              - generic [ref=e206]:
+                - heading [level=2] [ref=e207]:
+                  - link "MICROBIAL BIOFILMS" [ref=e209] [cursor=pointer]:
+                    - /url: /content/journals/10.1146/annurev.mi.49.100195.003431
+                - generic [ref=e212]:
+                  - link "J. William Costerton" [ref=e214] [cursor=pointer]:
+                    - /url: /search?value1=J.+William+Costerton&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true
+                  - generic [ref=e215]:
+                    - text: ","
+                    - link "Zbigniew Lewandowski" [ref=e216] [cursor=pointer]:
+                      - /url: /search?value1=Zbigniew+Lewandowski&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true
+                  - generic [ref=e217]:
+                    - text: ","
+                    - link "Douglas E. Caldwell" [ref=e218] [cursor=pointer]:
+                      - /url: /search?value1=Douglas+E.+Caldwell&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true
+                  - generic [ref=e219]:
+                    - text: ","
+                    - link "Darren R. Korber" [ref=e220] [cursor=pointer]:
+                      - /url: /search?value1=Darren+R.+Korber&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true
+                  - generic [ref=e221]:
+                    - text: and
+                    - link "Hilary M. Lappin-Scott" [ref=e222] [cursor=pointer]:
+                      - /url: /search?value1=Hilary+M.+Lappin-Scott&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true
+                - generic [ref=e223]:
+                  - text: Vol. 49 (1995),
+                  - generic [ref=e224]: pp. 711–745
+            - listitem [ref=e225]:
+              - generic [ref=e228]:
+                - heading [level=2] [ref=e229]:
+                  - link "Quorum Sensing in Bacteria" [ref=e231] [cursor=pointer]:
+                    - /url: /content/journals/10.1146/annurev.micro.55.1.165
+                - generic [ref=e234]:
+                  - link "Melissa B. Miller" [ref=e236] [cursor=pointer]:
+                    - /url: /search?value1=Melissa+B.+Miller&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true
+                  - generic [ref=e237]:
+                    - text: and
+                    - link "Bonnie L. Bassler" [ref=e238] [cursor=pointer]:
+                      - /url: /search?value1=Bonnie+L.+Bassler&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true
+                - generic [ref=e239]:
+                  - text: Vol. 55 (2001),
+                  - generic [ref=e240]: pp. 165–199
+            - listitem [ref=e241]:
+              - generic [ref=e244]:
+                - heading [level=2] [ref=e245]:
+                  - link "THE GROWTH OF BACTERIAL CULTURES" [ref=e247] [cursor=pointer]:
+                    - /url: /content/journals/10.1146/annurev.mi.03.100149.002103
+                - link "Jacques Monod" [ref=e252] [cursor=pointer]:
+                  - /url: /search?value1=Jacques+Monod&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true
+                - generic [ref=e253]:
+                  - text: Vol. 3 (1949),
+                  - generic [ref=e254]: pp. 371–394
+            - listitem [ref=e255]:
+              - generic [ref=e258]:
+                - heading [level=2] [ref=e259]:
+                  - link "Plant-Growth-Promoting Rhizobacteria" [ref=e261] [cursor=pointer]:
+                    - /url: /content/journals/10.1146/annurev.micro.62.081307.162918
+                - generic [ref=e264]:
+                  - link "Ben Lugtenberg" [ref=e266] [cursor=pointer]:
+                    - /url: /search?value1=Ben+Lugtenberg&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true
+                  - generic [ref=e267]:
+                    - text: and
+                    - link "Faina Kamilova" [ref=e268] [cursor=pointer]:
+                      - /url: /search?value1=Faina+Kamilova&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true
+                - generic [ref=e269]:
+                  - text: Vol. 63 (2009),
+                  - generic [ref=e270]: pp. 541–556
+            - listitem [ref=e271]:
+              - generic [ref=e274]:
+                - heading [level=2] [ref=e275]:
+                  - link "Biofilm Formation as Microbial Development" [ref=e277] [cursor=pointer]:
+                    - /url: /content/journals/10.1146/annurev.micro.54.1.49
+                - generic [ref=e280]:
+                  - link "George O'Toole" [ref=e282] [cursor=pointer]:
+                    - /url: /search?value1=George+O%27Toole&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true
+                  - generic [ref=e283]:
+                    - text: ","
+                    - link "Heidi B. Kaplan" [ref=e284] [cursor=pointer]:
+                      - /url: /search?value1=Heidi+B.+Kaplan&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true
+                  - generic [ref=e285]:
+                    - text: and
+                    - link "Roberto Kolter" [ref=e286] [cursor=pointer]:
+                      - /url: /search?value1=Roberto+Kolter&option1=author&noRedirect=true&sortField=prism_publicationDate&sortDescending=true
+                - generic [ref=e287]:
+                  - text: Vol. 54 (2000),
+                  - generic [ref=e288]: pp. 49–79
+            - listitem [ref=e289]:
+              - button "more cited articles" [ref=e290] [cursor=pointer]:
+                - generic [ref=e291]: 
+                - text: More
+              - text: 
+      - generic [ref=e292]:
+        - generic: 
+        - complementary "site sidebar containing page tools, access key and possibly adverts" [ref=e293]
+        - complementary [ref=e294]:
+          - generic [ref=e295]:
+            - heading "Related Articles from Annual Reviews" [level=4] [ref=e297]
+            - list [ref=e300]:
+              - listitem [ref=e301]:
+                - generic [ref=e304]:
+                  - heading [level=2] [ref=e305]:
+                    - link "Microbial Degradation of Haloaromatics" [ref=e307] [cursor=pointer]:
+                      - /url: /content/journals/10.1146/annurev.mi.42.100188.001403
+                  - generic [ref=e308]: W Reineke and H J Knackmuss
+                  - generic [ref=e311]: Annual Review of Microbiology
+              - listitem [ref=e312]:
+                - generic [ref=e315]:
+                  - heading [level=2] [ref=e316]:
+                    - link "Microbial Degradation of Synthetic Compounds" [ref=e318] [cursor=pointer]:
+                      - /url: /content/journals/10.1146/annurev.py.02.090164.001541
+                  - generic [ref=e319]: D Woodcock
+                  - generic [ref=e322]: Annual Review of Phytopathology
+              - listitem [ref=e323]:
+                - generic [ref=e326]:
+                  - heading [level=2] [ref=e327]:
+                    - 'link "Enzymatic \"Combustion\": The Microbial Degradation of Lignin" [ref=e329] [cursor=pointer]':
+                      - /url: /content/journals/10.1146/annurev.mi.41.100187.002341
+                  - generic [ref=e330]: T K Kirk and R L Farrell
+                  - generic [ref=e333]: Annual Review of Microbiology
+          - generic [ref=e334]:
+            - generic [ref=e336]:
+              - paragraph
+              - paragraph
+              - heading [level=3] [ref=e337]:
+                - text: From
+                - emphasis [ref=e338]: "Knowable Magazine:"
+              - paragraph [ref=e339]:
+                - link [ref=e340] [cursor=pointer]:
+                  - /url: https://mailchi.mp/annualreviews/teen-brain-bootcamp
+                  - 'img "From knowable magazine: Teen Brain Bootcamp - A free email course - Enroll today" [ref=e341]'
+            - generic [ref=e343]:
+              - paragraph
+              - paragraph
+              - paragraph [ref=e344]:
+                - link [ref=e345] [cursor=pointer]:
+                  - /url: https://knowablemagazine.org/
+                  - img "Knowable Magazine from Annual Reviews" [ref=e346]
+              - separator [ref=e347]
+              - paragraph [ref=e348]:
+                - link [ref=e349] [cursor=pointer]:
+                  - /url: https://bsky.app/profile/annualreviews.bsky.social
+                  - img "Let's Connect on Bluesky @annualreviews.bsky.social" [ref=e350]
+              - paragraph
+              - paragraph [ref=e351]
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph [ref=e352]:
+                - link [ref=e353] [cursor=pointer]:
+                  - /url: /page/climateresources
+                  - img "Climate Resource Center - Article Collection from Annual Reviews" [ref=e354]
+              - paragraph [ref=e355]
+          - generic [ref=e356]:
+            - heading "Journal News" [level=3] [ref=e359]
+            - paragraph [ref=e362]:
+              - link [ref=e363] [cursor=pointer]:
+                - /url: /S2O
+    - contentinfo [ref=e365]:
+      - generic [ref=e368]:
+        - generic [ref=e370]:
+          - paragraph [ref=e371]: "About Annual Reviews:"
+          - list [ref=e372]:
+            - listitem [ref=e373]:
+              - link "What We Do" [ref=e374] [cursor=pointer]:
+                - /url: /about/what-we-do
+            - listitem [ref=e375]:
+              - link "Press and News" [ref=e376] [cursor=pointer]:
+                - /url: /about/press-center
+            - listitem [ref=e377]:
+              - link "Careers" [ref=e378] [cursor=pointer]:
+                - /url: /page/about/careers-at-annual-reviews
+            - listitem [ref=e379]:
+              - link "Contact Us" [ref=e380] [cursor=pointer]:
+                - /url: /page/about/contact-us
+            - listitem [ref=e381]:
+              - link "FAQ" [ref=e382] [cursor=pointer]:
+                - /url: /page/about/faq
+            - listitem [ref=e383]:
+              - link "Help" [ref=e384] [cursor=pointer]:
+                - /url: /help/main
+        - generic [ref=e386]:
+          - paragraph [ref=e387]: "Discover Content:"
+          - list [ref=e388]:
+            - listitem [ref=e389]:
+              - link "Journals A-Z" [ref=e390] [cursor=pointer]:
+                - /url: /content/publications
+            - listitem [ref=e391]:
+              - link "Impact Factor Rankings" [ref=e392] [cursor=pointer]:
+                - /url: /about/impact-factors
+            - listitem [ref=e393]:
+              - link "Publication Dates" [ref=e394] [cursor=pointer]:
+                - /url: /journal/pubdates
+            - listitem [ref=e395]:
+              - link "Online Events" [ref=e396] [cursor=pointer]:
+                - /url: /page/events
+            - listitem [ref=e397]:
+              - link "Article Collections" [ref=e398] [cursor=pointer]:
+                - /url: /page/collectionarchive
+            - listitem [ref=e399]:
+              - link [ref=e400] [cursor=pointer]:
+                - /url: https://knowablemagazine.org/
+                - emphasis [ref=e401]: Knowable Magazine
+            - listitem [ref=e402]:
+              - link [ref=e403] [cursor=pointer]:
+                - /url: https://katinamagazine.org/
+                - emphasis [ref=e404]: Katina Magazine
+            - listitem [ref=e405]:
+              - link "Against the Grain" [ref=e406] [cursor=pointer]:
+                - /url: https://www.charleston-hub.com/about/about-against-the-grain/
+        - generic [ref=e408]:
+          - paragraph
+          - paragraph [ref=e409]: "Libraries and Institutions:"
+          - list [ref=e410]:
+            - listitem [ref=e411]:
+              - link "Subscribe to Open (S2O)" [ref=e412] [cursor=pointer]:
+                - /url: /S2O
+            - listitem [ref=e413]:
+              - link "Librarian Resource Center" [ref=e414] [cursor=pointer]:
+                - /url: /page/librarians/librarian-resource-page
+            - listitem [ref=e415]:
+              - link "Institutional Account Administration" [ref=e416] [cursor=pointer]:
+                - /url: https://www.annualreviews.org/registration/signin-or-register.action?signInTarget=%2Fadmin
+            - listitem [ref=e417]:
+              - link "Institutional Pricing" [ref=e418] [cursor=pointer]:
+                - /url: /page/subscriptions/instchoice
+            - listitem [ref=e419]:
+              - link "Usage Statistics" [ref=e420] [cursor=pointer]:
+                - /url: /action/showInstitutionUsageReport
+            - listitem [ref=e421]:
+              - link "Charleston Hub" [ref=e422] [cursor=pointer]:
+                - /url: https://www.charleston-hub.com/
+            - listitem [ref=e423]:
+              - link "Katina | Librarianship Elevated" [ref=e424] [cursor=pointer]:
+                - /url: https://katinamagazine.org/
+            - listitem [ref=e425]:
+              - link "Charleston Advisor (Archive)" [ref=e426] [cursor=pointer]:
+                - /url: https://annurev.publisher.ingentaconnect.com/content/annurev/tca/
+            - listitem [ref=e427]:
+              - link "Against the Grain" [ref=e428] [cursor=pointer]:
+                - /url: https://www.charleston-hub.com/about/about-against-the-grain/
+          - paragraph [ref=e429]
+        - generic [ref=e430]:
+          - paragraph [ref=e431]: "Author Resources:"
+          - list [ref=e432]:
+            - listitem [ref=e433]:
+              - link "Article Preparation and Submission" [ref=e434] [cursor=pointer]:
+                - /url: /page/authors/general-information
+            - listitem [ref=e435]:
+              - link "Editorial Principles and Policies" [ref=e436] [cursor=pointer]:
+                - /url: /page/authors/editorial-policies
+            - listitem [ref=e437]:
+              - link "Contact Us" [ref=e438] [cursor=pointer]:
+                - /url: /page/authors/contact-us
+            - listitem [ref=e439]:
+              - link "Copyright and Permissions" [ref=e440] [cursor=pointer]:
+                - /url: /page/about/copyright-and-permissions
+            - listitem [ref=e441]:
+              - link "Article Proposals" [ref=e442] [cursor=pointer]:
+                - /url: /page/authors/author-instructions/unsolicited-authors
+      - generic [ref=e445]:
+        - generic:
+          - list [ref=e448]:
+            - listitem [ref=e449]:
+              - text: ©
+              - link "Copyright 2026" [ref=e450] [cursor=pointer]:
+                - /url: /page/about/trademark
+              - text: "|"
+            - listitem [ref=e451]:
+              - link "Contact Us" [ref=e452] [cursor=pointer]:
+                - /url: /page/about/contact-us
+              - text: "|"
+            - listitem [ref=e453]:
+              - link "Email Preferences" [ref=e454] [cursor=pointer]:
+                - /url: /userpreferencecenter
+              - text: "|"
+            - listitem [ref=e455]:
+              - link "Annual Reviews Directory" [ref=e456] [cursor=pointer]:
+                - /url: /db/directory
+              - text: "|"
+            - listitem [ref=e457]:
+              - link "FAQs" [ref=e458] [cursor=pointer]:
+                - /url: /page/about/faq
+              - text: "|"
+            - listitem [ref=e459]:
+              - link "Privacy Policy" [ref=e460] [cursor=pointer]:
+                - /url: /page/about/privacy
+              - text: "|"
+            - listitem [ref=e461]:
+              - link "Cookie Settings" [ref=e462] [cursor=pointer]:
+                - /url: /page/about/privacy
+          - list [ref=e464]:
+            - listitem [ref=e465]:
+              - link "Share on Bluesky" [ref=e466] [cursor=pointer]:
+                - /url: https://bsky.app/profile/annualreviews.bsky.social
+                - text: 
+            - listitem [ref=e467]:
+              - link "Share on X" [ref=e468] [cursor=pointer]:
+                - /url: https://twitter.com/AnnualReviews
+                - text: 
+            - listitem [ref=e469]:
+              - link "Share on Mastodon" [ref=e470] [cursor=pointer]:
+                - /url: https://mstdn.science/@AnnualReviews
+                - text: 
+            - listitem [ref=e471]:
+              - link "Share on LinkedIn" [ref=e472] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/annual-reviews
+                - text: 
+            - listitem [ref=e473]:
+              - link "Share on Facebook" [ref=e474] [cursor=pointer]:
+                - /url: https://www.facebook.com/AnnualReviews
+                - text: 
+            - listitem [ref=e475]:
+              - link "Share on Instagram" [ref=e476] [cursor=pointer]:
+                - /url: https://www.instagram.com/annualreviews/
+                - text: 
+            - listitem [ref=e477]:
+              - link "Follow us via RSS" [ref=e478] [cursor=pointer]:
+                - /url: /page/about/rssfeeds
+                - text: 
+            - listitem [ref=e479]:
+              - link "Annual Reviews YouTube Channel" [ref=e480] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/annualreviews
+                - text: 
+            - listitem [ref=e481]:
+              - link "Share on WeChat" [ref=e482] [cursor=pointer]:
+                - /url: ""
+                - text: 
+      - paragraph [ref=e484]:
+        - text: We use
+        - link "cookies" [ref=e485] [cursor=pointer]:
+          - /url: /cookie-info
+        - text: to track usage and preferences.
+        - link "I Understand" [ref=e486] [cursor=pointer]:
+          - /url: ""
