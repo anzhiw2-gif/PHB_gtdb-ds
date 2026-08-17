@@ -17,7 +17,13 @@ uv.lock
 
 # ===== GTDB 原始数据与大中间产物（服务器侧，不入 git） =====
 # data/ 含蛋白预测、hmmsearch 命中（676 万行 hits_all.tsv）、tier 序列等大文件
-data/
+data/*
+!data/hmms
+data/hmms/*
+!data/hmms/*.hmm
+!data/hmms/v2
+data/hmms/v2/*
+!data/hmms/v2/*.hmm
 *.fna.gz
 *.faa.gz
 *.tar.gz
@@ -28,6 +34,11 @@ results/logs/
 results/trees/          # 完整系统发育树较大，单独同步或走 release/LFS
 *.log
 *.tmp
+# IQ-TREE 中间产物（只入库 .treefile/.nwk 树文件）
+*.ckp.gz
+*.mldist
+*.bionj
+*.uniqueseq.phy
 
 # ===== OS / 编辑器 =====
 Thumbs.db

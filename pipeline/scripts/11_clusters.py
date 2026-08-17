@@ -98,8 +98,8 @@ def annotate_markers(faa, marker_hmms, workdir, threads, evalue="1e-5"):
     return anno
 
 
-def read_hit_loci(hits_path):
-    """读取命中位点：返回 [(genome, locus, family)]，family 过滤到核心降解家族。"""
+def read_hit_loci(hits_path, focus_fams):
+    """读取命中位点：返回 [(genome, locus, family)]，family 过滤到关注家族。"""
     rows = []
     with open(hits_path) as f:
         header = f.readline().rstrip("\n").split("\t")
@@ -110,7 +110,7 @@ def read_hit_loci(hits_path):
             p = line.rstrip("\n").split("\t")
             if len(p) <= max(fi, gi, li):
                 continue
-            if p[fi] in CORE_FAMILIES:
+            if p[fi] in focus_fams:
                 rows.append((p[gi], p[li], p[fi]))
     return rows
 
@@ -118,6 +118,10 @@ def read_hit_loci(hits_path):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--hits", default="data/screen/hits_filtered.tsv")
+    ap.add_argument("--hits-fasta", default="",
+                    help="替代 --hits：从 FASTA 头（genome|locus）读命中位点，用于 tier1 序列集精确限定")
+    ap.add_argument("--families", default=",".join(CORE_FAMILIES),
+                    help="关注的核心降解家族（逗号分隔）")
     ap.add_argument("--marker-hmms", default="data/hmms/v2", help="标记家族 HMM 目录")
     ap.add_argument("--marker-families", default=",".join(MARKER_FAMILIES))
     ap.add_argument("--gtdb", default=os.path.expanduser("~/GTDB/gtdb_genomes_reps_r232/database"))
@@ -141,8 +145,21 @@ def main():
             print(f"[warn] 标记 HMM 缺失，跳过: {fam}")
     print(f"标记家族: {[os.path.basename(x)[:-4] for x in marker_hmms]}")
 
-    hits = read_hit_loci(args.hits)
-    print(f"命中位点: {len(hits)}（核心降解家族）")
+    focus_fams = set(x for x in args.families.split(",") if x)
+    if args.hits_fasta:
+        # 从 FASTA 头读位点（>{genome}|{locus}），家族取 --families（单个）
+        fam0 = next(iter(focus_fams)) if len(focus_fams) == 1 else "unknown"
+        hits = []
+        for line in open(args.hits_fasta):
+            if line.startswith(">"):
+                h = line[1:].strip().split()[0]
+                parts = h.split("|")
+                if len(parts) >= 2:
+                    hits.append((parts[0], parts[1], fam0))
+        print(f"命中位点(from fasta): {len(hits)}（关注家族: {sorted(focus_fams)}）")
+    else:
+        hits = read_hit_loci(args.hits, focus_fams)
+        print(f"命中位点: {len(hits)}（关注家族: {sorted(focus_fams)}）")
 
     # 按基因组分组
     by_genome = defaultdict(list)
@@ -220,8 +237,8 @@ def main():
     # 汇总：含 PhaC/PhaP 邻近的 patatin 位点数（patatin 二次过滤的直接依据）
     pat_total = sum(1 for r in ctx_rows if r["hit_family"] == "ArchPhaZ_patatin")
     pat_phac = sum(1 for r in ctx_rows if r["hit_family"] == "ArchPhaZ_patatin"
-                   and ("PhaC" in r["nearby_markers"] or "PhaP" in r["nearby_markers"]))
-    print(f"\n[patatin] 位点总数={pat_total}, 邻近 PhaC/PhaP={pat_phac}")
+                   and ("PhaC" in r["nearby_markers"] or "phasin" in r["nearby_markers"]))
+    print(f"\n[patatin] 位点总数={pat_total}, 邻近 PhaC/phasin={pat_phac}")
 
 
 if __name__ == "__main__":

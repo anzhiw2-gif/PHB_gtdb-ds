@@ -65,15 +65,28 @@ def main():
     hits = pd.read_csv(args.hits, sep="\t")
     print(f"genome-family pairs: {len(hits)}; genomes: {hits['genome'].nunique()}")
 
-    # ---------- 分类学 ----------
+    # ---------- 分类学（bac120 + ar53；键带 RS_/GB_ 前缀，命中表 genome 无前缀） ----------
     tax = {}
-    if os.path.exists(args.taxonomy):
-        with open(args.taxonomy) as f:
-            for line in f:
-                p = line.rstrip("\n").split("\t")
-                if len(p) >= 2:
-                    tax[p[0]] = p[1]
-    hits["gtdb_taxonomy"] = hits["genome"].map(tax).fillna("unclassified")
+    def _load_tax(path):
+        if os.path.exists(path):
+            with open(path) as f:
+                for line in f:
+                    p = line.rstrip("\n").split("\t")
+                    if len(p) >= 2:
+                        tax[p[0]] = p[1]
+    _load_tax(args.taxonomy)
+    _load_tax(os.path.join(os.path.dirname(args.taxonomy), "ar53_taxonomy_r232.tsv"))
+
+    def _lookup_tax(g):
+        if g in tax:
+            return tax[g]
+        if g.startswith("GCA_"):
+            return tax.get("GB_" + g, "unclassified")
+        if g.startswith("GCF_"):
+            return tax.get("RS_" + g, "unclassified")
+        return "unclassified"
+
+    hits["gtdb_taxonomy"] = hits["genome"].apply(_lookup_tax)
     hits["phylum"] = hits["gtdb_taxonomy"].apply(
         lambda t: t.split(";")[1].replace("p__", "") if ";" in t and len(t.split(";")) > 1 else "unknown")
     hits["class"] = hits["gtdb_taxonomy"].apply(
@@ -97,7 +110,9 @@ def main():
             if src_cols:
                 # 优先 ncbi_isolation_source；否则取第一个可用列
                 iso_col = "ncbi_isolation_source" if "ncbi_isolation_source" in meta.columns else src_cols[0]
-                iso_map = dict(zip(meta[acc_col], meta[iso_col]))
+                def _strip(a):
+                    return a[3:] if isinstance(a, str) and a[:3] in ("RS_", "GB_") else a
+                iso_map = {_strip(a): s for a, s in zip(meta[acc_col], meta[iso_col])}
         except Exception as e:
             print("metadata 读取失败:", e)
     else:
