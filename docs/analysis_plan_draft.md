@@ -97,8 +97,8 @@
 | 步骤 | 状态 | 说明 |
 |------|------|------|
 | 工作区搭建 | ✅ | ~/PHB_gtdb-ds（边界：外只读） |
-| 种子收集 | ✅ | 146 条（UniProt+PAZy+ESTHER），5 家族 |
-| HMM 构建 | ✅ | ePhaZ(37)/iPhaZ(41)/OH(23)/BdhA(13)/phasin(2) |
+| 种子收集 | ✅ | curated 78（manifest）+ v2 扩充种子，9 家族 |
+| HMM 构建 | ✅ | 9 家族（ePhaZ/iPhaZ/OH/ArchPhaZ_patatin/ArchPhaZ_hydrolase + BdhA + PhaJ/phasin/PhaC） |
 | 蛋白预测 | 🔄 运行中 | Pyrodigal 199,923 基因组, 80 并行, ~50h |
 | HMM 全库筛选 | ⏳ | 06_screen.sh（脚本已测通） |
 | 命中处理 | ⏳ | 07_process_hits.py（脚本已测通） |
