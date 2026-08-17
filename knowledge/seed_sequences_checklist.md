@@ -39,10 +39,14 @@
 | *B. thuringiensis*（胞内） | G-**W**-S102-M-G；S102A 失活 | 16936025, 39592048 |
 | *P. putida* PhaZKT（mcl 胞内） | Ser102-Asp221-His248 + lid | 17170116, 41055782 |
 | *A. faecalis* T1（胞外） | Ser139-Asp214-His273 | (见 comp 报告) |
+| *T. thermophilus* HB8（胞外） | **Ser183-Glu310-His405**（**Glu 型**！酸性残基用 Glu 而非 Asp） | 19214501 |
 | *P. lemoignei* PhaZ7（nPHB） | His47-Ser136-Asp242 + 氧阴离子 His306 | 12855176 |
 | *Wautersia/R. eutropha* 3HB 寡聚体水解酶 | S-V-S*-N-G（新基序） | 16233278 |
 | *Acidovorax* sp. SA1 i3HBOH | 292 aa，G-X-S-X-G 型 | 12070691 |
 | 3HB 脱氢酶（BdhA） | *S. meliloti* 258 aa 短链脱氢酶超家族 | 9922248 |
+
+> 注：催化三联体的"酸性残基"Asp(D)与 Glu(E)可互换（如 *T. thermophilus* HB8 用 Glu310）。
+> 验证脚本 `08_validate.py` 已按 Ser/Cys-Asp/Glu-His 放宽，勿再写死为 Asp。
 
 ### G2. 补充已表征酶（种子扩充参考）
 - **mcl 胞外**：*P. alcaligenes* LB19/M4-7、*Pseudomonas* sp. RY-1、*Streptomyces exfoliatus* K10 PhaZSex2、*Bdellovibrio* PhaZBd（Bd3709）、*T. thermophilus* HB8

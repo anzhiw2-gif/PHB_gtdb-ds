@@ -8,7 +8,8 @@
 ## 1. 分类逻辑（两维）
 
 PHA 解聚酶（EC 3.1.1.75 SCL / EC 3.1.1.76 MCL）均属 α/β-水解酶折叠，
-催化 Ser-His-Asp 三联体（个别 Cys-His-Asp），催化 Ser 在 Gx₁Sx₂G lipase box：
+催化 Ser-His-Asp/Glu 三联体（个别 Cys-His-Asp/Glu；酸性残基 Asp 与 Glu 可互换，
+如 *T. thermophilus* HB8 的 Ser183-Glu310-His405），催化 Ser 在 Gx₁Sx₂G lipase box：
 
 1. **定位×底物状态**：胞内 i-天然颗粒 nPHA / 胞外 e-变性颗粒 dPHA / 周质 / 胞外天然 nPHA
 2. **链长**：SCL（3-5 C，PHB/PHV）vs MCL（6-15 C，P(3HO)）

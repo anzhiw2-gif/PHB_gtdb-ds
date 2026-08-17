@@ -2,7 +2,7 @@
 """
 08_validate.py — 命中序列功能特征验证
   - lipase box (G-x-S-x-G) 扫描
-  - 催化三联体 Ser-Asp-His / Ser-His-Asp 模式扫描（宽松）
+  - 催化三联体 Ser-Asp/Glu-His / Cys-Asp/Glu-His 模式扫描（酸性残基 Asp/Glu 均可）
   - ePhaZ 家族信号肽预测（调用 SignalP6，可选）
   - 输出: data/screen/validation.tsv + data/screen/family_seqs/*_validated.faa
 用法: python 08_validate.py [--signalp 0|1] [--signalp-dir /path]
@@ -43,7 +43,7 @@ def scan_features(seq: str, kind: str) -> dict:
     """
     feats = {"lipase_box": False, "x1_hydrophobic": False, "nad_binding": False,
              "ser_triad": False, "cys_triad": False, "patatin_dyad": False,
-             "ser_pos": -1, "asp_pos": -1, "his_pos": -1, "cys_pos": -1}
+             "ser_pos": -1, "asp_pos": -1, "his_pos": -1, "cys_pos": -1, "acid_res": ""}
     if kind == "dehydrogenase":
         feats["nad_binding"] = bool(NAD_BINDING.search(seq))
         return feats
@@ -69,26 +69,27 @@ def scan_features(seq: str, kind: str) -> dict:
                 feats["patatin_dyad"] = True
         return feats
 
-    # --- hydrolase：Ser 三联体（独立检测，不被 Cys 覆盖）---
+    # --- hydrolase：Ser 三联体（酸性残基 Asp/Glu 均可，如 Thermus HB8 Ser183-Glu310-His405）---
     s = ser_box if ser_box >= 0 else seq.find("S", 50)
     if s >= 0:
-        d = seq[s + 60:s + 240].find("D")
-        if d >= 0:
-            asp = s + 60 + d
-            h = seq[asp + 30:asp + 150].find("H")
+        m_acid = re.search(r"[DE]", seq[s + 60:s + 240])
+        if m_acid:
+            acid = s + 60 + m_acid.start()
+            h = seq[acid + 30:acid + 150].find("H")
             if h >= 0:
                 feats["ser_pos"] = s
-                feats["asp_pos"] = asp
-                feats["his_pos"] = asp + 30 + h
+                feats["asp_pos"] = acid
+                feats["acid_res"] = m_acid.group(0)
+                feats["his_pos"] = acid + 30 + h
                 feats["ser_triad"] = True
 
-    # --- Cys 三联体（胞内 i-nPHASCL 无 lipase box，PhaDED 家族1）---
+    # --- Cys 三联体（胞内 i-nPHASCL 无 lipase box，PhaDED 家族1；酸性残基 Asp/Glu 均可）---
     c = seq.find("C", 100)
     if c >= 0:
-        d = seq[c + 80:c + 300].find("D")
-        if d >= 0:
-            c_asp = c + 80 + d
-            h = seq[c_asp + 20:c_asp + 120].find("H")
+        m_acid = re.search(r"[DE]", seq[c + 80:c + 300])
+        if m_acid:
+            c_acid = c + 80 + m_acid.start()
+            h = seq[c_acid + 20:c_acid + 120].find("H")
             if h >= 0:
                 feats["cys_pos"] = c
                 feats["cys_triad"] = True
@@ -189,7 +190,7 @@ def main():
                     "ser_triad": feats["ser_triad"],
                     "cys_triad": feats["cys_triad"],
                     "patatin_dyad": feats["patatin_dyad"],
-                    "ser_pos": feats["ser_pos"], "asp_pos": feats["asp_pos"], "his_pos": feats["his_pos"],
+                    "ser_pos": feats["ser_pos"], "asp_pos": feats["asp_pos"], "acid_res": feats["acid_res"], "his_pos": feats["his_pos"],
                     "signal_peptide": "" if is_sp is None else ("yes" if is_sp else "no"),
                     "length_ok": len_ok,
                     "high_confidence": high_conf,
@@ -202,7 +203,7 @@ def main():
 
     with open(os.path.join(args.outdir, "validation.tsv"), "w") as f:
         cols = ["family", "protein", "genome", "length", "lipase_box", "x1_hydrophobic", "nad_binding",
-                "ser_triad", "cys_triad", "patatin_dyad", "ser_pos", "asp_pos", "his_pos",
+                "ser_triad", "cys_triad", "patatin_dyad", "ser_pos", "asp_pos", "acid_res", "his_pos",
                 "signal_peptide", "length_ok", "high_confidence"]
         f.write("\t".join(cols) + "\n")
         for r in out_rows:
