@@ -1,0 +1,405 @@
+﻿{
+  "id": "https://openalex.org/W2131164625",
+  "display_name": "The PHA Depolymerase Engineering Database: A systematic analysis tool for the diverse family of polyhydroxyalkanoate (PHA) depolymerases",
+  "publication_year": 2009,
+  "cited_by_count": 162,
+  "doi": "https://doi.org/10.1186/1471-2105-10-89",
+  "primary_location": {
+    "id": "doi:10.1186/1471-2105-10-89",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1186/1471-2105-10-89",
+    "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-10-89",
+    "source": {
+      "id": "https://openalex.org/S19032547",
+      "display_name": "BMC Bioinformatics",
+      "issn_l": "1471-2105",
+      "issn": [
+        "1471-2105"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320256",
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320256",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "BioMed Central",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "BMC Bioinformatics",
+    "raw_type": "journal-article"
+  },
+  "abstract_inverted_index": {
+    "BACKGROUND:": [
+      0
+    ],
+    "Polyhydroxyalkanoates": [
+      1
+    ],
+    "(PHAs)": [
+      2
+    ],
+    "can": [
+      3,
+      114
+    ],
+    "be": [
+      4,
+      115
+    ],
+    "degraded": [
+      5
+    ],
+    "by": [
+      6
+    ],
+    "many": [
+      7
+    ],
+    "microorganisms": [
+      8
+    ],
+    "using": [
+      9
+    ],
+    "intra-": [
+      10
+    ],
+    "or": [
+      11
+    ],
+    "extracellular": [
+      12
+    ],
+    "PHA": [
+      13,
+      15,
+      44,
+      70,
+      120,
+      130
+    ],
+    "depolymerases.": [
+      14
+    ],
+    "depolymerases": [
+      16
+    ],
+    "are": [
+      17,
+      98,
+      104
+    ],
+    "very": [
+      18
+    ],
+    "diverse": [
+      19
+    ],
+    "in": [
+      20,
+      39,
+      126
+    ],
+    "sequence": [
+      21,
+      66,
+      85,
+      91
+    ],
+    "and": [
+      22,
+      31,
+      78,
+      93,
+      100,
+      137
+    ],
+    "substrate": [
+      23
+    ],
+    "specificity,": [
+      24
+    ],
+    "but": [
+      25
+    ],
+    "share": [
+      26
+    ],
+    "a": [
+      27,
+      32,
+      54,
+      110
+    ],
+    "common": [
+      28
+    ],
+    "alpha/beta-hydrolase": [
+      29
+    ],
+    "fold": [
+      30
+    ],
+    "catalytic": [
+      33
+    ],
+    "triad,": [
+      34
+    ],
+    "which": [
+      35,
+      72,
+      113
+    ],
+    "is": [
+      36,
+      109
+    ],
+    "also": [
+      37
+    ],
+    "found": [
+      38
+    ],
+    "other": [
+      40
+    ],
+    "alpha/beta-hydrolases.": [
+      41
+    ],
+    "RESULTS:": [
+      42
+    ],
+    "The": [
+      43,
+      63,
+      107
+    ],
+    "Depolymerase": [
+      45
+    ],
+    "Engineering": [
+      46
+    ],
+    "Database": [
+      47
+    ],
+    "(DED,": [
+      48
+    ],
+    "http://www.ded.uni-stuttgart.de)": [
+      49
+    ],
+    "has": [
+      50
+    ],
+    "been": [
+      51
+    ],
+    "established": [
+      52
+    ],
+    "as": [
+      53
+    ],
+    "tool": [
+      55,
+      112
+    ],
+    "for": [
+      56
+    ],
+    "systematic": [
+      57
+    ],
+    "analysis": [
+      58
+    ],
+    "of": [
+      59,
+      68
+    ],
+    "this": [
+      60
+    ],
+    "enzyme": [
+      61,
+      140
+    ],
+    "family.": [
+      62
+    ],
+    "DED": [
+      64,
+      108
+    ],
+    "contains": [
+      65
+    ],
+    "entries": [
+      67
+    ],
+    "587": [
+      69
+    ],
+    "depolymerases,": [
+      71,
+      131
+    ],
+    "were": [
+      73
+    ],
+    "assigned": [
+      74
+    ],
+    "to": [
+      75,
+      117,
+      128,
+      132,
+      138
+    ],
+    "8": [
+      76
+    ],
+    "superfamilies": [
+      77
+    ],
+    "38": [
+      79
+    ],
+    "homologous": [
+      80
+    ],
+    "families": [
+      81
+    ],
+    "based": [
+      82
+    ],
+    "on": [
+      83
+    ],
+    "their": [
+      84,
+      134
+    ],
+    "similarity.": [
+      86
+    ],
+    "For": [
+      87
+    ],
+    "each": [
+      88
+    ],
+    "family,": [
+      89
+    ],
+    "multiple": [
+      90
+    ],
+    "alignments": [
+      92
+    ],
+    "profile": [
+      94
+    ],
+    "hidden": [
+      95
+    ],
+    "Markov": [
+      96
+    ],
+    "models": [
+      97
+    ],
+    "provided,": [
+      99
+    ],
+    "functionally": [
+      101
+    ],
+    "relevant": [
+      102
+    ],
+    "residues": [
+      103
+    ],
+    "annotated.": [
+      105
+    ],
+    "CONCLUSION:": [
+      106
+    ],
+    "valuable": [
+      111
+    ],
+    "applied": [
+      116
+    ],
+    "identify": [
+      118
+    ],
+    "new": [
+      119
+    ],
+    "depolymerase": [
+      121
+    ],
+    "sequences": [
+      122
+    ],
+    "from": [
+      123
+    ],
+    "complete": [
+      124
+    ],
+    "genomes": [
+      125
+    ],
+    "silico,": [
+      127
+    ],
+    "classify": [
+      129
+    ],
+    "predict": [
+      133
+    ],
+    "biochemical": [
+      135
+    ],
+    "properties,": [
+      136
+    ],
+    "design": [
+      139
+    ],
+    "variants": [
+      141
+    ],
+    "with": [
+      142
+    ],
+    "improved": [
+      143
+    ],
+    "properties.": [
+      144
+    ]
+  }
+}

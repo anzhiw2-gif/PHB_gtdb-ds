@@ -1,0 +1,146 @@
+[
+  {
+    "pmid": "22247127",
+    "title": "Identification of the haloarchaeal phasin (PhaP) that functions in polyhydroxyalkanoate accumulation and granule formation in Haloferax mediterranei.",
+    "authors": [
+      "Cai S",
+      "Cai L",
+      "Liu H",
+      "Liu X",
+      "Han J",
+      "Zhou J",
+      "Xiang H"
+    ],
+    "journal": "Applied and environmental microbiology",
+    "pubdate": "2012 Mar",
+    "doi": "10.1128/AEM.07114-11",
+    "abstract": "The polyhydroxyalkanoate (PHA) granule-associated proteins (PGAPs) are important for PHA synthesis and granule formation, but currently little is known about the haloarchaeal PGAPs. This study focused on the identification and functional analysis of the PGAPs in the haloarchaeon Haloferax mediterranei. These PGAPs were visualized with two-dimensional gel electrophoresis (2-DE) and identified by matrix-assisted laser desorption ionization-tandem time of flight mass spectrometry (MALDI-TOF/TOF MS). The most abundant protein on the granules was identified as a hypothetical protein, designated PhaP. A genome-wide analysis revealed that the phaP gene is located upstream of the previously identified phaEC genes. Through an integrative approach of gene knockout/complementation and fermentation analyses, we demonstrated that this PhaP is involved in PHA accumulation. The \u0394phaP mutant was defective in both PHA biosynthesis and cell growth compared to the wild-type strain. Additionally, transmission electron microscopy results indicated that the number of PHA granules in the \u0394phaP mutant cells was significantly lower, and in most of the \u0394phaP cells only a single large granule was observed. These results demonstrated that the H. mediterranei PhaP was the predominant structure protein (phasin) on the PHA granules involved in PHA accumulation and granule formation. In addition, BLASTp and phylogenetic results indicate that this type of PhaP is exclusively conserved in haloarchaea, implying that it is a representative of the haloarchaeal type PHA phasin."
+  },
+  {
+    "pmid": "17547455",
+    "title": "Adsorption and hydrolysis reactions of poly(hydroxybutyric acid) depolymerases secreted from Ralstonia pickettii T1 and Penicillium funiculosum onto poly[(R)-3-hydroxybutyric acid].",
+    "authors": [
+      "Numata K",
+      "Yamashita K",
+      "Fujita M",
+      "Tsuge T",
+      "Kasuya K",
+      "Iwata T",
+      "Doi Y",
+      "Abe H"
+    ],
+    "journal": "Biomacromolecules",
+    "pubdate": "2007 Jul",
+    "doi": null,
+    "abstract": "Reaction processes of poly[(R)-3-hydroxybutyric acid] (P(3HB)) with two types of poly(hydroxybutyric acid) (PHB) depolymerases secreted from Ralstonia pickettii T1 and Penicillium funiculosum were characterized by means of atomic force microscopy (AFM) and quartz crystal microbalance (QCM). The PHB depolymerase from R. pickettii T1 consists of catalytic, linker, and substrate-binding domains, whereas the one from P. funiculosum lacks a substrate-binding domain. We succeeded in observing the adsorption of single molecules of the PHB depolymerase from R. pickettii T1 onto P(3HB) single crystals and the degradation of the single crystals in a phosphate buffer solution at 37 degrees C by real-time AFM. On the contrary, the enzyme molecule from P. funiculosum was hardly observed at the surface of P(3HB) single crystals by real-time AFM, even though the enzymatic degradation of the single crystals was surely progressed. On the basis of the AFM observations in air of the P(3HB) single crystals after the enzymatic treatments, however, not only the PHB depolymerase from R. pickettii T1 but also that from P. funiculosum adsorbed onto the surface of P(3HB) crystals, and both concentrations of the enzymes on the surface were nearly identical. This means both enzymes were adsorbed onto the surface of P(3HB) single crystals. Moreover, QCM measurements clarified quantitatively the differences in detachment behavior between two types of PHB depolymerases, namely the enzyme from R. pickettii T1 was hardly detached but the enzyme from P. funiculosum was released easily from the surface of P(3HB) crystals under an aqueous condition."
+  },
+  {
+    "pmid": "14607367",
+    "title": "Cloning, expression and characterization of a poly(3-hydroxybutyrate) depolymerase from Marinobacter sp. NK-1.",
+    "authors": [
+      "Kasuya K",
+      "Takano T",
+      "Tezuka Y",
+      "Hsieh WC",
+      "Mitomo H",
+      "Doi Y"
+    ],
+    "journal": "International journal of biological macromolecules",
+    "pubdate": "2003 Dec",
+    "doi": null,
+    "abstract": "A DNA fragment carrying the gene encoding poly(3-hydroxybutyrate) (P(3HB)) depolymerase was cloned from the genomic DNA of Marinobacter sp. DNA sequencing analysis revealed that the Marinobacter sp. P(3HB) depolymerase gene is composed of 1734bp and encodes 578 amino acids with a molecular mass of 61,757Da. A sequence homology search showed that the deduced protein contains the signal peptide, catalytic domain (CD), cadherin-type linker domain (LD), and two substrate-binding domain (SBD). The fusion proteins of glutathione S-transferase (GST) with the CD showed the hydrolytic activity for denatured P(3HB) (dP(3HB)), P(3HB) emulsion (eP(3HB)) and p-nitrophenylbutyrate. On the other hand, the fusion proteins lacking the SBD showed much lower hydrolytic activity for dP(3HB) compared to the proteins containing both CD and SBD. In addition, binding tests revealed that the SBDs are specifically bound not to eP(3HB) but dP(3HB). These suggest that the SBDs play a crucial role in the enzymatic hydrolysis of dP(3HB) that is a solid substrate."
+  },
+  {
+    "pmid": "6626560",
+    "title": "An extracellular D(-)-3-hydroxybutyrate oligomer hydrolase from Alcaligenes faecalis.",
+    "authors": [
+      "Shirakura Y",
+      "Fukui T",
+      "Tanio T",
+      "Nakayama K",
+      "Matsuno R",
+      "Tomita K"
+    ],
+    "journal": "Biochimica et biophysica acta",
+    "pubdate": "1983 Oct 28",
+    "doi": null,
+    "abstract": "A strain of Alcaligenes faecalis secretes an extracellular D(-)-3-hydroxybutyrate oligomer hydrolase, in addition to poly(3-hydroxybutyrate) depolymerase, when it is grown in a medium containing poly(3-hydroxybutyrate) as the sole carbon source. The oligomer hydrolase (EC 3.1.1.22), which has been purified to electrophoretic homogeneity, has a molecular weight of 68 000, as estimated by Sephadex G-100 gel filtration, and of 74 000, by polyacrylamide gel electrophoresis in the presence of sodium dodecyl sulfate. The isoelectric point of the enzyme is approx. 6.0 and the pH optimum for the enzyme reaction is 8.5. The purified oligomer hydrolase has high affinity for oligomeric esters (apparent Km for the D(-)-3-hydroxybutyrate dimer = 32.8 microM; for the dodecamer = 1.3 microM), but does not attack poly(3-hydroxybutyrate) (average molecular weight, 32 500) at all. Analysis of hydrolysates of the oligomeric esters suggests that the enzyme hydrolyzes these substrates from the carboxyl terminus, releasing D(-)-3-hydroxybutyrate units one by one."
+  },
+  {
+    "pmid": "7285912",
+    "title": "Purification and properties of D(-)-3-hydroxybutyrate-dimer hydrolase from Zoogloea ramigera I-16-M.",
+    "authors": [
+      "Tanaka Y",
+      "Saito T",
+      "Fukui T",
+      "Tanio T",
+      "Tomita K"
+    ],
+    "journal": "European journal of biochemistry",
+    "pubdate": "1981 Aug",
+    "doi": null,
+    "abstract": "D(-)-3-Hydroxybutyrate-dimer hydrolase from Zoogloea ramigera I-16-M was purified 7000-fold to electrophoretic homogeneity. The molecular weight of the purified enzyme was 28 000 as determined by Sephadex G-100 gel filtration, and 30 000 as estimated by polyacrylamide gel electrophoresis in the presence of sodium dodecyl sulfate. The isoelectric point was at pH 5.7. The pH optimum for the enzyme reaction was 8.0. The dimer hydrolase was stereospecific for D(-)-3-[D(-)-3-hydroxybutyryloxy]butyric acid (DD-dimer) but also hydrolyzed D(-)-3-[L(+)-3-hydroxybutyryloxy]butyric acid (DL-dimmer) and L(+)-3-[D(-)-3-hydroxybutyryloxy]butyric acid (LD-dimer) at reduced rates. However, the enzyme did not attack L(+)-3-[L(+)-3-hydroxybutyryloxy]butyric acid (LL-dimer) at all. In addition, the purified hydrolase hydrolyzed several oligomeric esters of D(-)-3-hydroxybutyric acid (DDD-dimer, DDDD-tetramer and DDDDD-pentamer) faster than DD-dimer. Time course experiments with these oligomers and analysis of hydrolytic products of DDD-tetramer methyl ester with the hydrolase indicated that the enzyme attached these substrates from the free hydroxyl terminus releasing monomer units one at a time."
+  },
+  {
+    "pmid": "17964488",
+    "title": "Purification and molecular cloning of an intracellular 3-hydroxybutyrate-oligomer hydrolase from Paucimonas lemoignei.",
+    "authors": [
+      "Uchino K",
+      "Katsumata Y",
+      "Takeda T",
+      "Arai H",
+      "Shiraki M",
+      "Saito T"
+    ],
+    "journal": "Journal of bioscience and bioengineering",
+    "pubdate": "2007 Sep",
+    "doi": null,
+    "abstract": "An intracellular 3-hydroxybutyrate-oligomer hydrolase was purified from a poly(3-hydroxybutyrate)-degrading bacterium, Paucimonas lemoignei. It hydrolyzed the 3-hydroxybutyrate dimer with the highest specific activity of any of the enzymes reported so far. The gene was cloned and sequenced. The deduced amino acid sequence showed that the enzyme is a homolog of the PhaZc of Ralstonia eutropha H16."
+  },
+  {
+    "pmid": "40562145",
+    "title": "Environmentally friendly upcycling of PHA-based copolymers.",
+    "authors": [
+      "Damonte G",
+      "Cozzani M",
+      "Ozenda M",
+      "Siracusa C",
+      "Calandri MJ",
+      "Pellis A",
+      "Guebitz GM",
+      "Monticelli O"
+    ],
+    "journal": "International journal of biological macromolecules",
+    "pubdate": "2025 Aug",
+    "doi": "10.1016/j.ijbiomac.2025.145457",
+    "abstract": "This work focuses on two fundamental aspects that make the use of plastics and, more recently, bioplastics sustainable and cyclical, namely their recycling and the valorization of the products resulting from this process. Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) (PHBH) was considered as substrate. A solventless partial chemical decomposition with concomitant branching was developed based on the use of reagents from renewable sources, namely pentaerythritol as polyalcohol and zinc stearate as catalyst. 1H NMR, IR, and DSC measurements showed the formation of oligomers having a branched structure whose molecular weights and glass transition temperatures decreased with the increasing of the polyalcohol content in the reaction mixture. The oligomers were used as additives in the development of porous films based on the starting high molecular weight PHBH, exploiting a Non-Solvent Induced Phase Separation (NIPS) method using Cyrene\u00ae, a green solvent derived from cellulose. The ability of the films to retain a dye and the metal precursor palladium chloride was studied. In the latter case, the catalytic activity of the system consisting of Pd clusters formed on the porous substrate after the metal precursor reduction was demonstrated. Finally, the enzymatic hydrolysis of the films was evaluated using Humicola insolens Cutinase (HiC) at different concentrations and in different media."
+  },
+  {
+    "pmid": "24146107",
+    "title": "Transcriptional repression of the poly(3-hydroxybutyrate) depolymerase in Ralstonia pickettii T1 by a tetR-like gene.",
+    "authors": [
+      "Shiraki M",
+      "Okura H",
+      "Saito T"
+    ],
+    "journal": "Antonie van Leeuwenhoek",
+    "pubdate": "2014 Jan",
+    "doi": "10.1007/s10482-013-0056-5",
+    "abstract": "Ralstonia pickettii T1 secretes a poly(3-hydroxybutyrate) (PHB) depolymerase (PhaZ) and a 3-hydroxybutyrate (3HB)-oligomer hydrolase, and extracellularly degrades PHB to produce 3HB. However, it is not clear how the expression of phaZ is regulated. In this study, the mechanism by which phaZ expression is controlled in R. pickettii T1 was examined using a mutant made by the random insertion of a transposon, Tn5. The mutant produced a larger amount of PhaZ than the wild type in nutrient broth or a minimal salt (SM) medium supplemented with succinate. However, there was essentially no difference in the activity or amount of PhaZ in the culture supernatant between the wild type and mutant when the two were grown on 3HB. The gene disrupted by the insertion of Tn5 (epdR) was cloned and its nucleotide sequence was determined. In a BLAST search, epdR showed a high degree of similarity to genes for TetR transcriptional regulators of several bacteria. The introduction of epdR into the wild type and mutant grown on the three media described above decreased the amount of PhaZ. These results indicated EpdR to be involved in the repression of phaZ in R. pickettii T1. A quantitative RT-PCR analysis indicated that mRNA levels corresponded with the activity detected and the amounts of PhaZ in the wild type and mutant. Furthermore, the amount of epdR transcript was inversely proportional to the amount of phaZ transcript. In addition, the existence of a positive element acting on phaZ expression was suggested, because in the mutant lacking EpdR, the amount of phaZ transcript varied in cells grown in SM-3HB, SM-succinate or nutrient broth. Based on the above results, a model for the regulation of PhaZ expression in R. pickettii T1 is proposed."
+  },
+  {
+    "pmid": "11710119",
+    "title": "Function of the catalytic domain of poly(3-hydroxybutyrate) depolymerase from Pseudomonas stutzeri.",
+    "authors": [
+      "Hiraishi T",
+      "Ohura T",
+      "Ito S",
+      "Kasuya K",
+      "Doi Y"
+    ],
+    "journal": "Biomacromolecules",
+    "pubdate": "2000",
+    "doi": null,
+    "abstract": "The mechanism of enzymatic hydrolysis for (R)-3-hydroxybutyrate (3HB) oligomers with poly[(R)-3-hydroxybutyrate] [P(3HB)] depolymerase (PhaZpst) from Pseudomonas stutzeri was investigated by two deletion mutants lacking the substrate-binding domain and linker region, PhaZpst delta sbd and PhaZpstcore. The two deletion mutants had no ability for hydrolysis of water-insoluble P(3HB), while the hydrolysis activities of two deletion mutants for water-soluble 3HB oligomer and its derivatives (dimer, trimer, and tetramer) were identical with those of the wild type, indicating that the function of catalytic domain is independent of its substrate-binding domain and linker region. The hydrolyzed products analysis of 3HB oligomers by HPLC showed that the active site of catalytic domain recognizes at least two 3HB units for hydrolysis. The initial rates of hydrolysis of dimer derivative were lower by 2 orders of magnitude than those of trimer and tetramer derivatives, suggesting that 3HB oligomer derivatives larger than trimer are favorite substrates for PhaZpst."
+  }
+]

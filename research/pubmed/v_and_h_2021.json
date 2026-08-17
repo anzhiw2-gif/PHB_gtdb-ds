@@ -1,0 +1,14 @@
+[
+  {
+    "pmid": "33496062",
+    "title": "The phylogenetic and global distribution of bacterial polyhydroxyalkanoate bioplastic-degrading genes.",
+    "authors": [
+      "Viljakainen VR",
+      "Hug LA"
+    ],
+    "journal": "Environmental microbiology",
+    "pubdate": "2021 Mar",
+    "doi": "10.1111/1462-2920.15409",
+    "abstract": "Polyhydroxyalkanoates (PHAs) are a family of microbially made polyesters commercialized as biodegradable plastics. PHA production rates are predicted to increase as concerns around environmental plastic contamination and limited fossil fuel resources have increased the importance of biodegradable and bio-based plastic alternatives. Microbially produced PHA depolymerases are the key enzymes mediating PHA biodegradation, but only a few PHA depolymerases have been well-characterized and screens employing metagenomic sequence data are lacking. Here, we used 3078 metagenomes to analyse the distribution of PHA depolymerases in microbial communities from diverse aquatic, terrestrial and waste management systems. We significantly expand the recognized diversity of this protein family by screening 1914\u2009Gb of sequence data and identifying 13\u2009869 putative PHA depolymerases in 1295 metagenomes. Our results indicate that PHA depolymerases are unevenly distributed across environments. We predicted the highest frequency of PHA depolymerases in wastewater systems and the lowest in marine and thermal springs. In tandem, we screened 5290 metagenome-assembled genomes to describe the phylogenetic distribution of PHA depolymerases, which is substantially broader compared with current cultured representatives. The Proteobacteria and Bacteroidota are key lineages encoding PHA depolymerases, but PHA depolymerases were predicted from members of the Bdellovibrionota, Methylomirabilota, Actinobacteriota, Firmicutes, Spirochaetota, Desulfobacterota, Myxococcota and Planctomycetota."
+  }
+]

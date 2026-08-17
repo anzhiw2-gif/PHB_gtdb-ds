@@ -1,0 +1,3877 @@
+{
+  "hitCount": 1493,
+  "nextCursorMark": "AoIIQE4p1ig1MzcyNzU4OA==",
+  "results": [
+    {
+      "id": "37514417",
+      "source": "MED",
+      "pmid": "37514417",
+      "pmcid": "PMC10383645",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC10383645"
+        ]
+      },
+      "doi": "10.3390/polym15143027",
+      "title": "Polyhydroxybutyrate Metabolism in <i>Azospirillum brasilense</i> and Its Applications, a Review.",
+      "authorString": "Mart\u00ednez ML\u00c1M, Urz\u00faa LS, Carrillo YA, Ram\u00edrez MB, Morales LJM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mart\u00ednez ML\u00c1M",
+            "firstName": "Mar\u00eda de Los \u00c1ngeles Mart\u00ednez",
+            "lastName": "Mart\u00ednez",
+            "initials": "ML\u00c1M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centro de Investigaciones en Ciencias Microbiol\u00f3gicas, Instituto de Ciencias, Benem\u00e9rita Universidad Aut\u00f3noma de Puebla, Av. San Claudio y Av. 24 Sur, Col. San Manuel Ciudad Universitaria, Puebla 72570, Mexico."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Urz\u00faa LS",
+            "firstName": "Luc\u00eda Soto",
+            "lastName": "Urz\u00faa",
+            "initials": "LS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centro de Investigaciones en Ciencias Microbiol\u00f3gicas, Instituto de Ciencias, Benem\u00e9rita Universidad Aut\u00f3noma de Puebla, Av. San Claudio y Av. 24 Sur, Col. San Manuel Ciudad Universitaria, Puebla 72570, Mexico."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Carrillo YA",
+            "firstName": "Yovani Aguilar",
+            "lastName": "Carrillo",
+            "initials": "YA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centro de Investigaciones en Ciencias Microbiol\u00f3gicas, Instituto de Ciencias, Benem\u00e9rita Universidad Aut\u00f3noma de Puebla, Av. San Claudio y Av. 24 Sur, Col. San Manuel Ciudad Universitaria, Puebla 72570, Mexico."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ram\u00edrez MB",
+            "firstName": "Mirian Becerril",
+            "lastName": "Ram\u00edrez",
+            "initials": "MB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centro de Investigaciones en Ciencias Microbiol\u00f3gicas, Instituto de Ciencias, Benem\u00e9rita Universidad Aut\u00f3noma de Puebla, Av. San Claudio y Av. 24 Sur, Col. San Manuel Ciudad Universitaria, Puebla 72570, Mexico."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morales LJM",
+            "firstName": "Luis Javier Mart\u00ednez",
+            "lastName": "Morales",
+            "initials": "LJM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6176-1079"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centro de Investigaciones en Ciencias Microbiol\u00f3gicas, Instituto de Ciencias, Benem\u00e9rita Universidad Aut\u00f3noma de Puebla, Av. San Claudio y Av. 24 Sur, Col. San Manuel Ciudad Universitaria, Puebla 72570, Mexico."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3142-3271"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6176-1079"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "14",
+        "volume": "15",
+        "journalIssueId": 3607355,
+        "dateOfPublication": "2023 Jul",
+        "monthOfPublication": 7,
+        "yearOfPublication": 2023,
+        "printPublicationDate": "2023-07-01",
+        "journal": {
+          "title": "Polymers",
+          "medlineAbbreviation": "Polymers (Basel)",
+          "issn": "2073-4360",
+          "isoabbreviation": "Polymers (Basel)",
+          "essn": "2073-4360",
+          "nlmid": "101545357"
+        }
+      },
+      "pubYear": "2023",
+      "pageInfo": "3027",
+      "abstractText": "Gram-negative <i>Azospirillum brasilense</i> accumulates approximately 80% of polyhydroxybutyrate (PHB) as dry cell weight. For this reason, this bacterium has been characterized as one of the main microorganisms that produce PHB. PHB is synthesized inside bacteria by the polymerization of 3-hydroxybutyrate monomers. In this review, we are focusing on the analysis of the PHB production by <i>A. brasilense</i> in order to understand the metabolism during PHB accumulation. First, the carbon and nitrogen sources used to improve PHB accumulation are discussed. <i>A. brasilense</i> accumulates more PHB when it is grown on a minimal medium containing a high C/N ratio, mainly from malate and ammonia chloride, respectively. The metabolic pathways to accumulate and mobilize PHB in <i>A. brasilense</i> are mentioned and compared with those of other microorganisms. Next, we summarize the available information to understand the role of the genes involved in the regulation of PHB metabolism as well as the role of PHB in the physiology of <i>Azospirillum</i>. Finally, we made a comparison between the properties of PHB and polypropylene, and we discussed some applications of PHB in biomedical and commercial areas.",
+      "affiliation": "Centro de Investigaciones en Ciencias Microbiol\u00f3gicas, Instituto de Ciencias, Benem\u00e9rita Universidad Aut\u00f3noma de Puebla, Av. San Claudio y Av. 24 Sur, Col. San Manuel Ciudad Universitaria, Puebla 72570, Mexico.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "00243",
+            "agency": "Vicerrector\u00eda de Investigaci\u00f3n y Estudios de Posgrado, Benem\u00e9rita Universidad Aut\u00f3noma de Puebla",
+            "orderIn": 0
+          },
+          {
+            "grantId": "00243",
+            "agency": "VIEP-BUAP",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Azospirillum brasilense",
+          "Phb genes",
+          "Polyhydroxybutyrate",
+          "Phb Metabolism",
+          "Phb Regulation"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.mdpi.com/2073-4360/15/14/3027/pdf?version=1689214469"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3390/polym15143027"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC10383645"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC10383645?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 7,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pfam"
+        ]
+      },
+      "dateOfCreation": "2023-07-29",
+      "firstIndexDate": "2023-07-30",
+      "fullTextReceivedDate": "2023-08-20",
+      "dateOfRevision": "2023-08-01",
+      "electronicPublicationDate": "2023-07-13",
+      "firstPublicationDate": "2023-07-13"
+    },
+    {
+      "id": "42326417",
+      "source": "MED",
+      "pmid": "42326417",
+      "pmcid": "PMC13275390",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13275390"
+        ]
+      },
+      "doi": "10.3389/fmicb.2026.1792436",
+      "title": "Characterization of an AsnC/Lrp-family transcriptional regulator in &lt;i&gt;Herbaspirillum rubrisubalbicans&lt;/i&gt; M1: linking plant interaction, nitrogen response and PHB metabolism.",
+      "authorString": "Chaves RBR, Alves LPS, de Lima Nichio BT, Tuleski TR, Baura VA, Muller-Santos M, Tomazini E, Sampaio A, Souza EM, Monteiro RA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Chaves RBR",
+            "firstName": "Roxana Beatriz Ribeiro",
+            "lastName": "Chaves",
+            "initials": "RBR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biology, Federal University of Paran\u00e1, Curitiba, Brazil."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Alves LPS",
+            "firstName": "Luis Paulo Silveira",
+            "lastName": "Alves",
+            "initials": "LPS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biology Institute of Paran\u00e1, Curitiba, Brazil."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Lima Nichio BT",
+            "firstName": "Bruno Thiago",
+            "lastName": "de Lima Nichio",
+            "initials": "BT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Federation of Industries of the State of Paran\u00e1, Curitiba, Brazil."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tuleski TR",
+            "firstName": "Thalita Regina",
+            "lastName": "Tuleski",
+            "initials": "TR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biology, Federal University of Paran\u00e1, Curitiba, Brazil."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baura VA",
+            "firstName": "Valter Ant\u00f4nio",
+            "lastName": "Baura",
+            "initials": "VA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biology, Federal University of Paran\u00e1, Curitiba, Brazil."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Muller-Santos M",
+            "firstName": "Marcelo",
+            "lastName": "Muller-Santos",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biology, Federal University of Paran\u00e1, Curitiba, Brazil."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tomazini E",
+            "firstName": "Estevan",
+            "lastName": "Tomazini",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biology, Federal University of Paran\u00e1, Curitiba, Brazil."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sampaio A",
+            "firstName": "Andr\u00e9",
+            "lastName": "Sampaio",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biology Institute of Paran\u00e1, Curitiba, Brazil."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Souza EM",
+            "firstName": "Emanuel Maltempi",
+            "lastName": "Souza",
+            "initials": "EM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biology, Federal University of Paran\u00e1, Curitiba, Brazil."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Monteiro RA",
+            "firstName": "Rose Adele",
+            "lastName": "Monteiro",
+            "initials": "RA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biology, Federal University of Paran\u00e1, Curitiba, Brazil."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "17",
+        "journalIssueId": 4112147,
+        "dateOfPublication": "2026 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-01-01",
+        "journal": {
+          "title": "Frontiers in microbiology",
+          "medlineAbbreviation": "Front Microbiol",
+          "issn": "1664-302X",
+          "isoabbreviation": "Front Microbiol",
+          "essn": "1664-302X",
+          "nlmid": "101548977"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "1792436",
+      "abstractText": "<h4>Introduction</h4>The mutation of <i>Hrubri_0242</i> in <i>Herbaspirillum rubrisubalbicans</i> M1 altered the regulation of genes associated with polyhydroxybutyrate (PHB) metabolism, including <i>phaC1</i>, <i>phaP1, phaP2, phaZ1</i>, and <i>phaZ2</i>, disrupting the coordinated balance between biopolymer synthesis, stabilization, and degradation.<h4>Methods</h4>Quantitative GC-FID analyses, fluorescence microscopy, and gene expression analysis were used to evaluate PHB metabolism, intracellular granule formation, and transcriptional responses under nitrogen-replete and nitrogen-limited conditions.<h4>Results</h4>Quantitative GC-FID analyses revealed a dynamic accumulation-consumption cycle of PHB in the wild-type strain, whereas the hr0242:Tn5 mutant exhibited reduced production, impaired turnover, and earlier depletion of intracellular reserves. Although both strains synthesized PHB under nitrogen-replete and nitrogen-limited conditions, accumulation was less sustained in the mutant, indicating compromised storage capacity. Fluorescence microscopy confirmed the presence of intracellular granules in both strains, with lower intensity and frequency in the mutant. Gene expression analysis revealed coordinated regulation of genes involved in PHB metabolism in the wild type according to nitrogen availability, whereas the mutant exhibited reduced <i>phaP1</i> expression, compensatory activation of <i>phaP2</i>, and increased expression of depolymerases, resulting in enhanced polymer turnover. In addition to metabolic effects, disruption of <i>Hrubri_0242</i> significantly reduced swarming motility, indicating broader physiological consequences.<h4>Discussion</h4>Together, these findings demonstrate that <i>Hrubri_0242</i> functions as an integrative transcriptional regulator linking nitrogen-responsive gene expression to PHB metabolic homeostasis and motility, thereby contributing to physiological adaptation in <i>H. rubrisubalbicans</i> M1.",
+      "affiliation": "Department of Biochemistry and Molecular Biology, Federal University of Paran\u00e1, Curitiba, Brazil.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Root colonization",
+          "motility",
+          "Gene Expression",
+          "Nitrogen Limitation",
+          "Biofilm Formation",
+          "Herbaspirillum Rubrisubalbicans",
+          "Phb Metabolism",
+          "Asnc/lrp Transcriptional Regulator"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3389/fmicb.2026.1792436"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13275390"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13275390?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCompletion": "2026-06-22",
+      "dateOfCreation": "2026-06-22",
+      "firstIndexDate": "2026-06-23",
+      "fullTextReceivedDate": "2026-06-26",
+      "dateOfRevision": "2026-06-22",
+      "electronicPublicationDate": "2026-06-04",
+      "firstPublicationDate": "2026-06-04"
+    },
+    {
+      "id": "42249469",
+      "source": "MED",
+      "pmid": "42249469",
+      "pmcid": "PMC13262354",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13262354"
+        ]
+      },
+      "doi": "10.1186/s12934-026-03040-8",
+      "title": "Engineering primary metabolism for sustainable production of isoprene in Synechocystis sp. PCC 6803.",
+      "authorString": "Bolay P, Janssen KN, Timm S, Hagemann M, Lindberg P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bolay P",
+            "firstName": "Paul",
+            "lastName": "Bolay",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry - \u00c5ngstr\u00f6m Laboratory, Uppsala University, Uppsala, 75120, Sweden."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Janssen KN",
+            "firstName": "Kim N",
+            "lastName": "Janssen",
+            "initials": "KN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry - \u00c5ngstr\u00f6m Laboratory, Uppsala University, Uppsala, 75120, Sweden."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Timm S",
+            "firstName": "Stefan",
+            "lastName": "Timm",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department Plant Physiology, Institute of Biosciences, University of Rostock, 18059, Rostock, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hagemann M",
+            "firstName": "Martin",
+            "lastName": "Hagemann",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department Plant Physiology, Institute of Biosciences, University of Rostock, 18059, Rostock, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lindberg P",
+            "firstName": "Pia",
+            "lastName": "Lindberg",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry - \u00c5ngstr\u00f6m Laboratory, Uppsala University, Uppsala, 75120, Sweden. pia.lindberg@kemi.uu.se."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "25",
+        "journalIssueId": 4215243,
+        "dateOfPublication": "2026 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-06-01",
+        "journal": {
+          "title": "Microbial cell factories",
+          "medlineAbbreviation": "Microb Cell Fact",
+          "issn": "1475-2859",
+          "isoabbreviation": "Microb Cell Fact",
+          "essn": "1475-2859",
+          "nlmid": "101139812"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "142",
+      "abstractText": "The imminent climate crisis calls for the development of truly sustainable alternatives in virtually every aspect of human life. The photosynthetic production of chemicals like isoprene, a critical precursor for wide ranging applications, presents a promising alternative to conventional petroleum-based processes. While cyanobacteria can offer the ability for direct CO<sub>2</sub> to isoprene conversion, highly efficient strains are required to reduce costs and resource usage. In this study, we enhanced isoprene productivity in the model cyanobacterium Synechocystis sp. PCC 6803 by engineering the primary metabolism of an isoprene producing strain. We inactivated synthesis of the carbon and energy storage polymer polyhydroxybutyrate (PHB) and increased isoprene synthase copy number in a previously published deletion mutant of PirC (sll0994), a recently discovered regulator involved in the fate of newly fixed carbon during limited nutrient supply. The engineered strains achieved an isoprene production of 278\u00a0\u00b5g*L<sup>-\u20091</sup>*OD<sup>-\u20091</sup>*h<sup>-\u20091</sup> and showed elevated productivity under fluctuating nitrogen supply, ultimately resulting in significantly enhanced nitrogen use efficiency for isoprene production. As nitrate represents the ingredient with the highest cost contribution and climate impact in conventionally used cyanobacterial growth media, the presented strategy could reduce cost and environmental footprint without impeding performance for a wide array of compounds sustainably produced with cyanobacteria.",
+      "affiliation": "Department of Chemistry - \u00c5ngstr\u00f6m Laboratory, Uppsala University, Uppsala, 75120, Sweden.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Uppsala University",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Synechocystis",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Nitrogen",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Pentanes",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Butadienes",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Hemiterpenes",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "BI",
+                  "qualifierName": "biosynthesis",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Alkyl and Aryl Transferases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Bacterial Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Metabolic Engineering",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "MT",
+                  "qualifierName": "methods",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Polyhydroxybutyrates"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Cyanobacteria",
+          "Nitrogen use efficiency",
+          "Isoprene",
+          "metabolic engineering",
+          "Carbon Partitioning"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "isoprene synthase",
+            "registryNumber": "EC 2.5.1.-"
+          },
+          {
+            "name": "Bacterial Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Butadienes",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Pentanes",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Hemiterpenes",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Alkyl and Aryl Transferases",
+            "registryNumber": "EC 2.5.-"
+          },
+          {
+            "name": "isoprene",
+            "registryNumber": "0A62964IBU"
+          },
+          {
+            "name": "Nitrogen",
+            "registryNumber": "N762921K75"
+          },
+          {
+            "name": "Polyhydroxybutyrates",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1186/s12934-026-03040-8"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13262354"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13262354?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-06-12",
+      "dateOfCreation": "2026-06-05",
+      "firstIndexDate": "2026-06-06",
+      "fullTextReceivedDate": "2026-06-13",
+      "dateOfRevision": "2026-07-26",
+      "electronicPublicationDate": "2026-06-05",
+      "firstPublicationDate": "2026-06-05"
+    },
+    {
+      "id": "41939706",
+      "source": "MED",
+      "pmid": "41939706",
+      "pmcid": "PMC13044030",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13044030"
+        ]
+      },
+      "doi": "10.3389/fmicb.2026.1744475",
+      "title": "Growth-associated polyhydroxybutyrate accumulation in &lt;i&gt;Azospira suillum&lt;/i&gt; PS during aerobic and perchlorate respiration.",
+      "authorString": "Meier DAO, Glazer B, Lanclos VC, Carlson HK, Coates JD.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Meier DAO",
+            "firstName": "David A O",
+            "lastName": "Meier",
+            "initials": "DAO",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, CA, United States."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Glazer B",
+            "firstName": "Benjamin",
+            "lastName": "Glazer",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, CA, United States."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lanclos VC",
+            "firstName": "V Celeste",
+            "lastName": "Lanclos",
+            "initials": "VC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, CA, United States."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Carlson HK",
+            "firstName": "Hans K",
+            "lastName": "Carlson",
+            "initials": "HK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Environmental Genomics and Systems Biology Division, Lawrence Berkeley National Laboratory, Berkeley, CA, United States."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Coates JD",
+            "firstName": "John D",
+            "lastName": "Coates",
+            "initials": "JD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, CA, United States."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "volume": "17",
+        "journalIssueId": 4112147,
+        "dateOfPublication": "2026 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-01-01",
+        "journal": {
+          "title": "Frontiers in microbiology",
+          "medlineAbbreviation": "Front Microbiol",
+          "issn": "1664-302X",
+          "isoabbreviation": "Front Microbiol",
+          "essn": "1664-302X",
+          "nlmid": "101548977"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "1744475",
+      "abstractText": "Polyhydroxyalkanoates (PHAs) are widespread microbial storage polymers increasingly recognized for roles beyond carbon and energy storage, including redox homeostasis and stress physiology. While PHA accumulation is classically associated with stationary-phase metabolism under severe nutrient imbalance, comparatively little is known about growth-associated PHA synthesis in facultative anaerobes with unusual respiratory strategies. Here, we investigated polyhydroxybutyrate (PHB) metabolism in <i>Azospira suillum</i> PS, a genetically tractable perchlorate-reducing bacterium capable of both aerobic and anaerobic respiration. Using physiological growth experiments, targeted gene deletions, PHB extractions, and intracellular redox measurements, we examined PHB accumulation under varying respiratory and nutrient conditions. We demonstrate that PHB accumulates during exponential growth under moderately nitrogen-limited conditions, both aerobically and during perchlorate respiration, representing a rare example of growth-associated PHB synthesis under anaerobic conditions. Genomic analysis revealed four <i>phaC</i> homologs, one of which could not be deleted under the experimental conditions tested and co-localized with <i>phaB</i> and <i>phaR</i>. Redox profiling further revealed a strong positive correlation between PHB accumulation and intracellular NADPH/NADP<sup>+</sup> ratios. Together, these findings expand the physiological contexts in which PHB synthesis is known to occur and highlight perchlorate-respiring bacteria as underexplored model systems for studying growth-integrated carbon and redox storage strategies.",
+      "affiliation": "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, CA, United States.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Metabolism",
+          "Polyhydroxybutyrate",
+          "Perchlorate Reducing Bacteria",
+          "Azospira Suillum Ps",
+          "Growth Associated Carbon Storage"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3389/fmicb.2026.1744475"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13044030"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13044030?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-04-06",
+      "dateOfCreation": "2026-04-06",
+      "firstIndexDate": "2026-04-07",
+      "fullTextReceivedDate": "2026-04-03",
+      "dateOfRevision": "2026-04-06",
+      "electronicPublicationDate": "2026-03-19",
+      "firstPublicationDate": "2026-03-19"
+    },
+    {
+      "id": "41787545",
+      "source": "MED",
+      "pmid": "41787545",
+      "pmcid": "PMC13261966",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13261966"
+        ]
+      },
+      "doi": "10.1186/s13068-026-02752-8",
+      "title": "Synechocystis sp. PCC 6803 with ddh disruption and heterologous pk gene expression in the phosphoketolase pathway drives carbon flux toward polyhydroxybutyrate production.",
+      "authorString": "Tharasirivat V, Liu X, Lindblad P, Jantaro S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tharasirivat V",
+            "firstName": "Vetaka",
+            "lastName": "Tharasirivat",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Cyanobacterial Biotechnology, Department of Biochemistry, Faculty of Science, Chulalongkorn University, Bangkok, 10330, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu X",
+            "firstName": "Xufeng",
+            "lastName": "Liu",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Microbial Chemistry, Department of Chemistry, \u00c5ngstr\u00f6m, Uppsala University, Box 523, 75120, Uppsala, Sweden."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lindblad P",
+            "firstName": "Peter",
+            "lastName": "Lindblad",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Microbial Chemistry, Department of Chemistry, \u00c5ngstr\u00f6m, Uppsala University, Box 523, 75120, Uppsala, Sweden."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jantaro S",
+            "firstName": "Saowarath",
+            "lastName": "Jantaro",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9259-9684"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Cyanobacterial Biotechnology, Department of Biochemistry, Faculty of Science, Chulalongkorn University, Bangkok, 10330, Thailand. saowarath.j@chula.ac.th."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9259-9684"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "19",
+        "journalIssueId": 4176074,
+        "dateOfPublication": "2026 Mar",
+        "monthOfPublication": 3,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-03-01",
+        "journal": {
+          "title": "Biotechnology for biofuels and bioproducts",
+          "medlineAbbreviation": "Biotechnol Biofuels Bioprod",
+          "issn": "2731-3654",
+          "isoabbreviation": "Biotechnol Biofuels Bioprod",
+          "essn": "2731-3654",
+          "nlmid": "9918300888906676"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "45",
+      "abstractText": "<h4>Background</h4>To overcome the limitations in the production of polyhydroxybutyrate (PHB) in cyanobacteria, we genetically modified Synechocystis sp. PCC 6803 focusing on carbon metabolism at the phosphoketolase pathway. In addition, for the baseline of the control strain (Ct), an inhibition of the pyruvate-to-lactate reaction was created by the disruption of the native ddh gene that encodes lactate dehydrogenase.<h4>Results</h4>The effects on cell growth of phosphoketolase (pk) gene expression derived from Pseudomonas aeruginosa ATCC 15442 (Ct_OXpkPa), Bifidobacterium breve strain 203 (Ct_OXpkBb), and Bifidobacterium adolescentis ATCC 15703 (Ct_OXpkBa) were comparable to that observed in the Ct strain. Notably, the PHB production in the Ct_OXpkBb strain increased under the normal growth condition without any stress, reaching 32.5% of dry cell weight. Combined nitrogen and phosphorus deprivation, the Ct_OXpkBb strain significantly accumulated PHB up to 62.2% of dry cell weight within 7\u00a0days of treatment. Compared with the Ct strain, the Ct_OXpkBb strain also exhibited a significant reduction in glycogen, in accordance with decreased glgC transcript levels for glycogen synthesis and increased glgX transcript levels for glycogen degradation. Furthermore, under the NP-deprived condition, the Ct_OXpkBb strain exhibited reduced transcript levels of acetate metabolism genes, in particular ackA and acs, compared with the control condition.<h4>Conclusions</h4>Synechocystis PCC 6803 expressing pk from Bifidobacterium breve strain 203 resulted in significant production of PHB, indicating its potential for biotechnological applications.",
+      "affiliation": "Laboratory of Cyanobacterial Biotechnology, Department of Biochemistry, Faculty of Science, Chulalongkorn University, Bangkok, 10330, Thailand.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "RES_68_191_2300_017",
+            "agency": "The National Science Research and Innovation Fund (NSRF), National Research Council of Thailand (NRCT) and Chulalongkorn University",
+            "orderIn": 0
+          },
+          {
+            "agency": "The Second Century Fund (C2F), Chulalongkorn University",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Lactate dehydrogenase",
+          "Synechocystis sp. PCC 6803",
+          "Polyhydroxybutyrate",
+          "Bifidobacterium Breve",
+          "Phosphoketolase"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1186/s13068-026-02752-8"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13261966"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13261966?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by-nc-nd",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-06-12",
+      "dateOfCreation": "2026-03-05",
+      "firstIndexDate": "2026-03-07",
+      "fullTextReceivedDate": "2026-06-13",
+      "dateOfRevision": "2026-08-13",
+      "electronicPublicationDate": "2026-03-05",
+      "firstPublicationDate": "2026-03-05"
+    },
+    {
+      "id": "41796373",
+      "source": "MED",
+      "pmid": "41796373",
+      "pmcid": "PMC13081634",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13081634"
+        ]
+      },
+      "doi": "10.1186/s13036-026-00653-w",
+      "title": "Hybrid metabolic engineering enables xylose-driven co-production of polyhydroxybutyrate and violacein in Escherichia coli.",
+      "authorString": "Pham KN, Lee EY.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Pham KN",
+            "firstName": "Khoi Nhat",
+            "lastName": "Pham",
+            "initials": "KN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical Engineering (BK21 FOUR Integrated Engineering), Kyung Hee University, Yongin-si, Gyeonggi-do, 17104, Republic of Korea."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lee EY",
+            "firstName": "Eun Yeol",
+            "lastName": "Lee",
+            "initials": "EY",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical Engineering (BK21 FOUR Integrated Engineering), Kyung Hee University, Yongin-si, Gyeonggi-do, 17104, Republic of Korea. eunylee@khu.ac.kr."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "20",
+        "journalIssueId": 4156455,
+        "dateOfPublication": "2026 Mar",
+        "monthOfPublication": 3,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-03-01",
+        "journal": {
+          "title": "Journal of biological engineering",
+          "medlineAbbreviation": "J Biol Eng",
+          "issn": "1754-1611",
+          "isoabbreviation": "J Biol Eng",
+          "essn": "1754-1611",
+          "nlmid": "101306640"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "66",
+      "abstractText": "BACKGROUND: Within lignocellulosic biomass, xylose is the second most abundant sugar after glucose. As a renewable and sustainable substrate, it is gaining attention as a feedstock for microbial bioprocesses. In this study, we demonstrated the co-production of polyhydroxybutyrate (PHB) and violacein from xylose. We initially confirmed the feasibility of co-production through genome-scale metabolic simulations, followed by optimization using a hybrid expression system that combines a conventional tac promoter and synthetic promoter-ribosome-binding site-terminator (semi-endo PRT) elements in dual plasmids. Additionally, we assessed the antimicrobial activity of violacein against type I methanotrophs. RESULTS: Recombinant Escherichia coli DH5\u03b1 harboring a hybrid system produced 111.3\u2009\u00b1\u200919.7 and 0.88\u2009\u00b1\u20090.23\u00a0mg/L of PHB and violacein, respectively, in M9 using xylose as the sole carbon source, without tryptophan supplementation. Using the synthetic PRT system, 528.9\u2009\u00b1\u2009104\u00a0mg/g dry cell weight (DCW) of PHB was obtained. Additionally, violacein inhibits the growth of Methylomicrobium alcaliphilum 20Z at 9\u00a0\u00b5g/mL in nitrate mineral salt medium containing methanol as the sole carbon source. CONCLUSIONS: The use of lignocellulose-derived sugars for co-production offers an environmentally sustainable bio-manufacturing approach that contributes to greenhouse gas mitigation and supports the transition toward a circular bioeconomy.",
+      "affiliation": "Department of Chemical Engineering (BK21 FOUR Integrated Engineering), Kyung Hee University, Yongin-si, Gyeonggi-do, 17104, Republic of Korea.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "RS-2024-00466473",
+            "agency": "Korea government (MSIT)",
+            "orderIn": 0
+          },
+          {
+            "grantId": "RS-2023-00265608 & 1415188462",
+            "agency": "Ministry of Trade, Industry and Energy (MOTIE)",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "E. coli",
+          "Methanotroph",
+          "Polyhydroxybutyrate",
+          "Violacein",
+          "Co-production",
+          "Lignocellulosic Xylose"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1186/s13036-026-00653-w"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13081634"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13081634?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by-nc-nd",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refseq",
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2026-06-27",
+      "dateOfCreation": "2026-03-09",
+      "firstIndexDate": "2026-03-10",
+      "fullTextReceivedDate": "2026-04-20",
+      "dateOfRevision": "2026-08-13",
+      "electronicPublicationDate": "2026-03-09",
+      "firstPublicationDate": "2026-03-09"
+    },
+    {
+      "id": "42317755",
+      "source": "MED",
+      "pmid": "42317755",
+      "pmcid": "PMC13272299",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13272299"
+        ]
+      },
+      "doi": "10.3389/fmicb.2026.1828736",
+      "title": "Metagenomic insights into microbial diversity, xenobiotic and plastic-degrading enzymes in sediments of river Yamuna at Agra.",
+      "authorString": "Rout AK, Tripathy PS, Rout SS, Kumar N, Parida SN, Panda A, Suman D, Tyagi A, Behera BK, Pandey PK.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Rout AK",
+            "firstName": "Ajaya Kumar",
+            "lastName": "Rout",
+            "initials": "AK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Fisheries (Datia), Rani Lakshmi Bai Central Agricultural University, Jhansi, Uttar Pradesh, India."
+                },
+                {
+                  "affiliation": "ICAR-Central Inland Fisheries Research Institute, Kolkata, West Bengal, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tripathy PS",
+            "firstName": "Partha Sarathi",
+            "lastName": "Tripathy",
+            "initials": "PS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Fisheries (Datia), Rani Lakshmi Bai Central Agricultural University, Jhansi, Uttar Pradesh, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rout SS",
+            "firstName": "Sushree Swati",
+            "lastName": "Rout",
+            "initials": "SS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Zoology, Fakir Mohan University, Balasore, Odisha, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kumar N",
+            "firstName": "Neelesh",
+            "lastName": "Kumar",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Fisheries (Datia), Rani Lakshmi Bai Central Agricultural University, Jhansi, Uttar Pradesh, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Parida SN",
+            "firstName": "Satya Narayan",
+            "lastName": "Parida",
+            "initials": "SN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Fisheries (Datia), Rani Lakshmi Bai Central Agricultural University, Jhansi, Uttar Pradesh, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Panda A",
+            "firstName": "Anusuiya",
+            "lastName": "Panda",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Agriculture, Rani Lakshmi Bai Central Agricultural University, Jhansi, Uttar Pradesh, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Suman D",
+            "firstName": "Deepa",
+            "lastName": "Suman",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Fisheries Development Board, Department of Fisheries, Government of India, Hyderabad, Telangana, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tyagi A",
+            "firstName": "Anuj",
+            "lastName": "Tyagi",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Fisheries (Datia), Rani Lakshmi Bai Central Agricultural University, Jhansi, Uttar Pradesh, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Behera BK",
+            "firstName": "Bijay Kumar",
+            "lastName": "Behera",
+            "initials": "BK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "ICAR-Central Inland Fisheries Research Institute, Kolkata, West Bengal, India."
+                },
+                {
+                  "affiliation": "National Fisheries Development Board, Department of Fisheries, Government of India, Hyderabad, Telangana, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pandey PK",
+            "firstName": "Pramod Kumar",
+            "lastName": "Pandey",
+            "initials": "PK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9629-4549"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Fisheries (Datia), Rani Lakshmi Bai Central Agricultural University, Jhansi, Uttar Pradesh, India."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9629-4549"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "17",
+        "journalIssueId": 4112147,
+        "dateOfPublication": "2026 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-01-01",
+        "journal": {
+          "title": "Frontiers in microbiology",
+          "medlineAbbreviation": "Front Microbiol",
+          "issn": "1664-302X",
+          "isoabbreviation": "Front Microbiol",
+          "essn": "1664-302X",
+          "nlmid": "101548977"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "1828736",
+      "abstractText": "The river Yamuna is one of the most polluted rivers in India and is heavily impacted by urban, industrial, and agricultural inputs. In this study, shotgun metagenomics was used to investigate microbial diversity and functional potential in sediments from three locations: Balkeshwar Shivpuri Agra (BSA), Taj Ganj Yamuna (TGY), and Yamuna Expressway Agra (YEA). A total of 38.3-46.5 million reads per sample were generated, yielding 3.08-5.54 million predicted ORFs. Taxonomic profiling revealed that BSA exhibited higher microbial diversity, with a more even distribution of dominant taxa compared to TGY and YEA. Functional analysis indicated that core metabolic pathways (e.g., glycolysis and TCA cycle) were more abundant in BSA, whereas pathways related to aromatic compound degradation were relatively enriched in TGY. Plastic-degrading enzyme homologs were detected across all sites, with the strongest signals associated with biodegradable polymers such as polyhydroxyalkanoates (PHA), polyhydroxybutyrate (PHB), and polyethylene glycol (PEG). The normalized abundances of PHA-associated enzymes were approximately 60-75% higher in YEA compared to BSA and TGY, while homologs linked to recalcitrant plastics such as polyethylene (PE) and low-density polyethylene (LDPE) were detected at low levels across all sites (< 10-15%). Similarly, xenobiotic degradation pathways, including chlorocyclohexane and chlorobenzene degradation, showed relatively higher abundance in YEA, whereas bisphenol degradation was more prominent in BSA. Overall, the results indicate that sediment microbial communities along the river Yamuna harbor diverse metabolic capabilities and functional potential for pollutant degradation, with site-specific variations driven by local environmental conditions.",
+      "affiliation": "College of Fisheries (Datia), Rani Lakshmi Bai Central Agricultural University, Jhansi, Uttar Pradesh, India.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Sediment",
+          "Microbial diversity",
+          "Metagenomics",
+          "Xenobiotic Degradation",
+          "River Yamuna",
+          "Plastic Degrading Enzyme"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3389/fmicb.2026.1828736"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13272299"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13272299?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "dateOfCompletion": "2026-06-19",
+      "dateOfCreation": "2026-06-19",
+      "firstIndexDate": "2026-06-20",
+      "fullTextReceivedDate": "2026-06-24",
+      "dateOfRevision": "2026-06-19",
+      "electronicPublicationDate": "2026-06-03",
+      "firstPublicationDate": "2026-06-03"
+    },
+    {
+      "id": "40628755",
+      "source": "MED",
+      "pmid": "40628755",
+      "pmcid": "PMC12238407",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12238407"
+        ]
+      },
+      "doi": "10.1038/s41598-025-04501-7",
+      "title": "Evolutionary adaptations of cyanobacterial polyhydroxybutyrate (PHB) biosynthesis and metabolic pathways in Spirulina, Arthrospira, and Limnospira spp.",
+      "authorString": "Thajuddin F, Rasheed AS, Palanivel P, Thajuddin SF, Nooruddin T, Dharumadurai D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Thajuddin F",
+            "firstName": "Fayaazuddin",
+            "lastName": "Thajuddin",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Repository for Microalgae and Cyanobacteria - Freshwater (NRMC-F) (Sponsored by the DBT, Govt. of India), Bharathidasan University, Tamil Nadu, Tiruchirappalli, 620 024, India."
+                },
+                {
+                  "affiliation": "Department of Microbiology, Bharathidasan University, Tamil Nadu, Tiruchirappalli, 620 024, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rasheed AS",
+            "firstName": "Asraf Sithikka",
+            "lastName": "Rasheed",
+            "initials": "AS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, Bharathidasan University, Tamil Nadu, Tiruchirappalli, 620 024, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Palanivel P",
+            "firstName": "Prakash",
+            "lastName": "Palanivel",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Repository for Microalgae and Cyanobacteria - Freshwater (NRMC-F) (Sponsored by the DBT, Govt. of India), Bharathidasan University, Tamil Nadu, Tiruchirappalli, 620 024, India."
+                },
+                {
+                  "affiliation": "Department of Microbiology, Bharathidasan University, Tamil Nadu, Tiruchirappalli, 620 024, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thajuddin SF",
+            "firstName": "Shakena Fathima",
+            "lastName": "Thajuddin",
+            "initials": "SF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Jamal Mohammed College, Tamil Nadu, Tiruchirappalli, 620 020, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nooruddin T",
+            "firstName": "Thajuddin",
+            "lastName": "Nooruddin",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Repository for Microalgae and Cyanobacteria - Freshwater (NRMC-F) (Sponsored by the DBT, Govt. of India), Bharathidasan University, Tamil Nadu, Tiruchirappalli, 620 024, India. provc@crescent.education."
+                },
+                {
+                  "affiliation": "B.S. Abdur Rahman Crescent Institute of Science & Technology (Deemed to Be University), Tamil Nadu, Vandalur, Chennai, 600 048, India. provc@crescent.education."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dharumadurai D",
+            "firstName": "Dhanasekaran",
+            "lastName": "Dharumadurai",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Repository for Microalgae and Cyanobacteria - Freshwater (NRMC-F) (Sponsored by the DBT, Govt. of India), Bharathidasan University, Tamil Nadu, Tiruchirappalli, 620 024, India. ddhanasekaran@bdu.ac.in."
+                },
+                {
+                  "affiliation": "Department of Microbiology, Bharathidasan University, Tamil Nadu, Tiruchirappalli, 620 024, India. ddhanasekaran@bdu.ac.in."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0009-0002-9434-7322"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0003-9864-4161"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "15",
+        "journalIssueId": 3968958,
+        "dateOfPublication": "2025 Jul",
+        "monthOfPublication": 7,
+        "yearOfPublication": 2025,
+        "printPublicationDate": "2025-07-01",
+        "journal": {
+          "title": "Scientific reports",
+          "medlineAbbreviation": "Sci Rep",
+          "issn": "2045-2322",
+          "isoabbreviation": "Sci Rep",
+          "essn": "2045-2322",
+          "nlmid": "101563288"
+        }
+      },
+      "pubYear": "2025",
+      "pageInfo": "24497",
+      "abstractText": "Cyanobacteria are photosynthetic microorganisms with significant biotechnological potential owing to their ability to produce valuable biopolymers such as polyhydroxybutyrate (PHB). This study focuses on PHB production in the cyanobacteria, Limnospira fusiformis NRMCF6962 and Spirulina major NRMCF6963, under nitrogen-limited conditions. Qualitative and quantitative analyses confirmed PHB accumulation in L. fusiformis and its absence in S. major. Whole-genome sequencing of L. fusiformis revealed 5,177 coding sequences. Comparative genomic analysis of 26 cyanobacterial strains belonging to genera of Spirulina, Arthrospira, and Limnospira revealed significant variations in gene content, particularly within PHB biosynthesis pathways. Functional annotation revealed that PHB metabolism is absent in S. major, which instead relies on alternative stress-response pathways including chlorophyll degradation, selenocysteine metabolism and xanthine metabolism. Phylogenomic and metabolic pathway analyses suggests an evolutionary adaptation among the three genera of Oscillatoriales, with S. major as a divergent species from PHB-producing descendants. Orthologous Average Nucleotide Identity and digital DNA-DNA hybridization validated the taxonomic distinction between two major clades within strains. Metabolic insights revealed the critical role of PHB and alternative metabolic pathways in cyanobacteria for stress adaptation. This research advances the understanding of PHB metabolism and evolutionary mechanisms in cyanobacteria, underscoring the potential for cyanobacterial strain improvement and scale-up in bioprocess industry.",
+      "affiliation": "National Repository for Microalgae and Cyanobacteria - Freshwater (NRMC-F) (Sponsored by the DBT, Govt. of India), Bharathidasan University, Tamil Nadu, Tiruchirappalli, 620 024, India.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Cyanobacteria",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CL",
+                  "qualifierName": "classification",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Hydroxybutyrates",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Adaptation, Physiological"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Evolution, Molecular"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phylogeny"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Genome, Bacterial"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Spirulina",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Metabolic Networks and Pathways"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Polyhydroxybutyrates"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Spirulina",
+          "Arthrospira",
+          "Phylogenomics",
+          "Chlorophyll Degradation",
+          "Polyhydroxybutyrate Biosynthesis",
+          "Limnospira"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "poly-beta-hydroxybutyrate",
+            "registryNumber": "26063-00-3"
+          },
+          {
+            "name": "Hydroxybutyrates",
+            "registryNumber": "0"
+          },
+          {
+            "name": "polyhydroxybutyrate",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Polyhydroxybutyrates",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1038/s41598-025-04501-7"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12238407"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12238407?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 3,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by-nc-nd",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2025-07-08",
+      "dateOfCreation": "2025-07-08",
+      "firstIndexDate": "2025-07-09",
+      "fullTextReceivedDate": "2025-07-11",
+      "dateOfRevision": "2026-01-27",
+      "electronicPublicationDate": "2025-07-08",
+      "firstPublicationDate": "2025-07-08"
+    },
+    {
+      "id": "41286796",
+      "source": "MED",
+      "pmid": "41286796",
+      "pmcid": "PMC12642111",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12642111"
+        ]
+      },
+      "doi": "10.1186/s12863-025-01383-6",
+      "title": "Complete genome sequence of thermophilic PHA-producing Hydrogenophilus thermoluteolus strain KS0102 isolated from hot spring sediments in Thailand.",
+      "authorString": "Ruangsuj P, Yamprayoonswat W, Phatcharaharikarn M, Songngamsuk T, Santaweesuk P, Tangwattanachuleeporn M, Srisucharitpanit K, Yasawong M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ruangsuj P",
+            "firstName": "Pattarawan",
+            "lastName": "Ruangsuj",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Programme on Environmental Toxicology, Chulabhorn Graduate Institute, Bangkok, 10210, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yamprayoonswat W",
+            "firstName": "Wariya",
+            "lastName": "Yamprayoonswat",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Programme on Environmental Toxicology, Chulabhorn Graduate Institute, Bangkok, 10210, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Phatcharaharikarn M",
+            "firstName": "Manassanan",
+            "lastName": "Phatcharaharikarn",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Programme on Environmental Toxicology, Chulabhorn Graduate Institute, Bangkok, 10210, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Songngamsuk T",
+            "firstName": "Thunwarat",
+            "lastName": "Songngamsuk",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Programme on Environmental Toxicology, Chulabhorn Graduate Institute, Bangkok, 10210, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Santaweesuk P",
+            "firstName": "Parweenuch",
+            "lastName": "Santaweesuk",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Programme on Environmental Toxicology, Chulabhorn Graduate Institute, Bangkok, 10210, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tangwattanachuleeporn M",
+            "firstName": "Marut",
+            "lastName": "Tangwattanachuleeporn",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Allied Health Sciences, Burapha University, 169 Long- Hard Bangsean Road, Saensuk Sub-district, Mueang Chon Buri District, Chon Buri Province, 20130, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Srisucharitpanit K",
+            "firstName": "Kanokporn",
+            "lastName": "Srisucharitpanit",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Allied Health Sciences, Burapha University, 169 Long- Hard Bangsean Road, Saensuk Sub-district, Mueang Chon Buri District, Chon Buri Province, 20130, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yasawong M",
+            "firstName": "Montri",
+            "lastName": "Yasawong",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Programme on Environmental Toxicology, Chulabhorn Graduate Institute, Bangkok, 10210, Thailand. montri@cgi.ac.th."
+                },
+                {
+                  "affiliation": "Center of Excellence on Environmental Health and Toxicology (EHT), OPS, MHESI, Bangkok, 10400, Thailand. montri@cgi.ac.th."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "26",
+        "journalIssueId": 4042010,
+        "dateOfPublication": "2025 Nov",
+        "monthOfPublication": 11,
+        "yearOfPublication": 2025,
+        "printPublicationDate": "2025-11-01",
+        "journal": {
+          "title": "BMC genomic data",
+          "medlineAbbreviation": "BMC Genom Data",
+          "issn": "2730-6844",
+          "isoabbreviation": "BMC Genom Data",
+          "essn": "2730-6844",
+          "nlmid": "101775394"
+        }
+      },
+      "pubYear": "2025",
+      "pageInfo": "89",
+      "abstractText": "<h4>Objectives</h4>Thermophilic bacteria are valuable biotechnological resources. A thermophilic bacterium isolated from the Thai hot spring sediments was subjected to complete genome sequencing. Genome data will facilitate bacterial identification and comparative genomics within the Hydrogenophilus genus and provide insights into polyhydroxybutyrate biosynthesis pathways for industrial applications.<h4>Data description</h4>The H. thermoluteolus KS0102 genome comprises a single circular chromosome containing 2,136,028\u00a0bp and 61.70% GC. The genome was sequenced using Illumina and Oxford Nanopore technologies and assembled using Unicycler. It contained 1,848 CDS, 9 rRNAs, 49 tRNAs, and 1 CRISPR region. This dataset enables the investigation of polyhydroxybutyrate biosynthesis pathways and comparative genomic studies of thermophilic adaptation mechanisms in Hydrogenophilus species.",
+      "affiliation": "Programme on Environmental Toxicology, Chulabhorn Graduate Institute, Bangkok, 10210, Thailand.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "brief-report",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "FRB680079/0518 Project code 209042",
+            "agency": "Chulabhorn Graduate Institute (Fundamental Fund by National Science Research and Innovation Fund (NSRF): fiscal year 2025)",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Hot Springs",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phylogeny"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Genome, Bacterial"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Geologic Sediments",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Thailand"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Whole Genome Sequencing"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Polyhydroxybutyrate",
+          "Biodegradable Polymers",
+          "Hybrid Assembly",
+          "Phac1",
+          "Phac2",
+          "Phb Synthase",
+          "Hot Spring Sediments"
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1186/s12863-025-01383-6"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12642111"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12642111?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by-nc-nd",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2025-11-25",
+      "dateOfCreation": "2025-11-25",
+      "firstIndexDate": "2025-11-25",
+      "fullTextReceivedDate": "2025-11-26",
+      "dateOfRevision": "2025-11-27",
+      "electronicPublicationDate": "2025-11-24",
+      "firstPublicationDate": "2025-11-24"
+    },
+    {
+      "id": "41704441",
+      "source": "MED",
+      "pmid": "41704441",
+      "pmcid": "PMC12907008",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12907008"
+        ]
+      },
+      "doi": "10.1016/j.btre.2025.e00941",
+      "title": "Valorization of agricultural residues for bioplastic production by bacteria isolated from plastic dumpsites: Integrating waste streams into the circular bioeconomy.",
+      "authorString": "Olayiwola OS, Olaniyi OO, Odunmbaku E, Fadipe TO, Oyinloye GO, Amoo RA, Odeshi TA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Olayiwola OS",
+            "firstName": "Olawale Sunday",
+            "lastName": "Olayiwola",
+            "initials": "OS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Federal University of Technology, PMB 704, Akure, Nigeria."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Olaniyi OO",
+            "firstName": "Oladipo Oladiti",
+            "lastName": "Olaniyi",
+            "initials": "OO",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Federal University of Technology, PMB 704, Akure, Nigeria."
+                },
+                {
+                  "affiliation": "Swammerdam Institute of Life Sciences, University of Amsterdam, Science Park 904 1098 XH Amsterdam, The Netherlands."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Odunmbaku E",
+            "firstName": "Elizabeth",
+            "lastName": "Odunmbaku",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Federal University of Technology, PMB 704, Akure, Nigeria."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fadipe TO",
+            "firstName": "Temitope Ojuolape",
+            "lastName": "Fadipe",
+            "initials": "TO",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Federal Institute of Industrial Research, Oshodi (FIIRO) in Lagos, Nigeria."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oyinloye GO",
+            "firstName": "Grace Odunayo",
+            "lastName": "Oyinloye",
+            "initials": "GO",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Federal University of Technology, PMB 704, Akure, Nigeria."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Amoo RA",
+            "firstName": "Ridwan Ayomide",
+            "lastName": "Amoo",
+            "initials": "RA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Federal University of Technology, PMB 704, Akure, Nigeria."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Odeshi TA",
+            "firstName": "Tolulope A",
+            "lastName": "Odeshi",
+            "initials": "TA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Environmental Standards and Regulations Enforcement Agency, Port Harcourt, Nigeria."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "49",
+        "journalIssueId": 4077896,
+        "dateOfPublication": "2026 Mar",
+        "monthOfPublication": 3,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-03-01",
+        "journal": {
+          "title": "Biotechnology reports (Amsterdam, Netherlands)",
+          "medlineAbbreviation": "Biotechnol Rep (Amst)",
+          "issn": "2215-017X",
+          "isoabbreviation": "Biotechnol Rep (Amst)",
+          "essn": "2215-017X",
+          "nlmid": "101637426"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "e00941",
+      "abstractText": "Polyhydroxybutyrate (PHB) is a biodegradable polymer produced by bacteria under nutrient-limiting conditions, offering a sustainable alternative to petroleum plastics. This study investigated PHB production by bacterial isolates from plastic-contaminated soils. Forty isolates were screened using Sudan Black B, Nile Blue A, and Nile Red; 12 tested positive, and 11 promising strains belonging to genera, <i>Corynebacterium, Bacillus, Micrococcus, Arthrobacter</i>, and <i>Sinomonas</i> were selected for detailed study. Cultivation in nutrient-limiting medium with 2% sugars (fructose, glucose, sucrose, galactose, mannitol) or agro-wastes (cassava wastewater, cassava and potato peels) revealed strain- and substrate-dependent PHB accumulation, peaking at 24-96 h. <i>Micrococcus</i> sp<i>.</i> OO(14)-5 produced the highest PHB content (0.15 g/L) on mannitol, while <i>Corynebacterium</i> sp. FT(1)-6 and <i>Bacillus</i> sp. GO(10)-6 yielded 3.2-3.4 g/L and \u223c60% PHB/CDW on cassava wastewater. Other isolates produced >2.7 g/L on peels. Fourier-transform infrared spectroscopy confirmed PHB. These findings highlight low-cost agro-wastes as effective substrates for sustainable PHB production.",
+      "affiliation": "Department of Microbiology, Federal University of Technology, PMB 704, Akure, Nigeria.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Microbial Fermentation",
+          "Phb-Producing Bacteria",
+          "Waste-To-Value Biotechnology",
+          "Sustainable Biopolymers"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/j.btre.2025.e00941"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12907008"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12907008?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2026-02-18",
+      "dateOfCreation": "2026-02-18",
+      "firstIndexDate": "2026-02-19",
+      "fullTextReceivedDate": "2026-02-17",
+      "dateOfRevision": "2026-08-13",
+      "electronicPublicationDate": "2026-01-28",
+      "firstPublicationDate": "2026-01-28"
+    },
+    {
+      "id": "42122715",
+      "source": "MED",
+      "pmid": "42122715",
+      "pmcid": "PMC13165661",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13165661"
+        ]
+      },
+      "doi": "10.3390/polym18091091",
+      "title": "Bioplastics Toxicity upon Ingestion: A Critical Review of Biotransformation and Gastrointestinal Effects.",
+      "authorString": "Fernandes C, Oliveira H, Rocha-Santos T, Bastos V.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Fernandes C",
+            "firstName": "Cristiana",
+            "lastName": "Fernandes",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0003-1512-4831"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Environmental and Marine Studies (CESAM), Department of Chemistry, University of Aveiro, 3810-193 Aveiro, Portugal."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oliveira H",
+            "firstName": "Helena",
+            "lastName": "Oliveira",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4673-0696"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Environmental and Marine Studies (CESAM), Department of Biology, University of Aveiro, 3810-193 Aveiro, Portugal."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rocha-Santos T",
+            "firstName": "Teresa",
+            "lastName": "Rocha-Santos",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3660-4116"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Environmental and Marine Studies (CESAM), Department of Chemistry, University of Aveiro, 3810-193 Aveiro, Portugal."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bastos V",
+            "firstName": "Ver\u00f3nica",
+            "lastName": "Bastos",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9882-4766"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Environmental and Marine Studies (CESAM), Department of Biology, University of Aveiro, 3810-193 Aveiro, Portugal."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4673-0696"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9882-4766"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3660-4116"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0003-1512-4831"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "9",
+        "volume": "18",
+        "journalIssueId": 4193387,
+        "dateOfPublication": "2026 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-04-01",
+        "journal": {
+          "title": "Polymers",
+          "medlineAbbreviation": "Polymers (Basel)",
+          "issn": "2073-4360",
+          "isoabbreviation": "Polymers (Basel)",
+          "essn": "2073-4360",
+          "nlmid": "101545357"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "1091",
+      "abstractText": "In response to the plastic pollution crisis, bioplastics emerged as a sustainable alternative. However, low degradation rate and abiotic decomposition generate micro- and nanoplastics. These particles enter the food chain, establishing oral intake as a key route of human exposure. This review gathered studies on the biotransformation of bioplastics in the gastrointestinal tract and on their toxicity in human cells and murine models. Most studies focused on polylactic acid particles due to widespread use in food packaging. Under simulated gastrointestinal conditions in vitro, particles were modulated, resulting in cavity and pore formation, fragmentation, lipase competition, protein corona formation, and alterations in the gut microbiota (including <i>Selenomonadaceae</i>, <i>Bifidobacterium</i>, and <i>Prevotellaceae</i>). Also, particle breakdown increases surface area, enhancing interactions with biomolecules and causing higher in vitro and in vivo toxicity. Indeed, pro-inflammatory cytokine secretion, oxidative stress induction, and redox imbalance were found in both models. In mice, alterations in gut microbiota involving <i>Bacillales</i> indirectly mediated hepatotoxicity, leading to uric acid and triglyceride accumulation. Furthermore, microbiota adaptation over time was suggested with an increase in microorganisms and the potential conversion of L-lactic into harmful D-lactic acid. Despite limited studies, this review highlighted that ingested bioplastic-derived micro- and nanoplastics can lead to toxic effects.",
+      "affiliation": "Centre for Environmental and Marine Studies (CESAM), Department of Chemistry, University of Aveiro, 3810-193 Aveiro, Portugal.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "COMPETE2030-FEDER-00843100",
+            "agency": "Foundation for Science and Technology",
+            "orderIn": 0
+          },
+          {
+            "grantId": "10.54499/CEECIND/04050/2017/CP1459/CT0023",
+            "agency": "Foundation for Science and Technology",
+            "orderIn": 0
+          },
+          {
+            "grantId": "UID/50006 + LA/P/0094/2020",
+            "agency": "Foundation for Science and Technology",
+            "orderIn": 0
+          },
+          {
+            "grantId": "10.54499/2022.05740.CEECIND/CP1720/CT0031",
+            "agency": "Foundation for Science and Technolog",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Cytotoxicity",
+          "Oxidative stress",
+          "Gastrointestinal tract",
+          "Inflammation",
+          "Human health",
+          "Bioplastic",
+          "Micro- And Nanoplastics"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3390/polym18091091"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13165661"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13165661?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 0,
+      "hasData": "N",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-05-13",
+      "dateOfCreation": "2026-05-13",
+      "firstIndexDate": "2026-05-15",
+      "fullTextReceivedDate": "2026-05-20",
+      "dateOfRevision": "2026-05-15",
+      "electronicPublicationDate": "2026-04-29",
+      "firstPublicationDate": "2026-04-29"
+    },
+    {
+      "id": "41519985",
+      "source": "MED",
+      "pmid": "41519985",
+      "pmcid": "PMC12799609",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12799609"
+        ]
+      },
+      "doi": "10.1038/s41598-025-26791-7",
+      "title": "Sustainable CO&lt;sub&gt;2&lt;/sub&gt; valorization for PHB production towards circular economy: metagenomic insights on enriched indigenous microbial cultures.",
+      "authorString": "Bodhe I, Gokuladoss V.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bodhe I",
+            "firstName": "Isha",
+            "lastName": "Bodhe",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biosciences and Technology, Vellore Institute of Technology, Vellore, India."
+                },
+                {
+                  "affiliation": "CO2 Research & Green Technologies Centre, Vellore Institute of Technology, Vellore, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gokuladoss V",
+            "firstName": "Velvizhi",
+            "lastName": "Gokuladoss",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CO2 Research & Green Technologies Centre, Vellore Institute of Technology, Vellore, India. velvizhi.g@vit.ac.in."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "16",
+        "journalIssueId": 4082835,
+        "dateOfPublication": "2026 Jan",
+        "monthOfPublication": 1,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-01-01",
+        "journal": {
+          "title": "Scientific reports",
+          "medlineAbbreviation": "Sci Rep",
+          "issn": "2045-2322",
+          "isoabbreviation": "Sci Rep",
+          "essn": "2045-2322",
+          "nlmid": "101563288"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "1552",
+      "abstractText": "This study developed resilient mixed microbial cultures\u00a0(MMCs) from diverse indigenous sources\u00a02 through strategic pretreatment and enrichment, robust conversion of CO2 and bicarbonate into volatile fatty acids (VFAs) and polyhydroxybutyrate (PHB)\u00a0was achieved. This article establishes a sustainable biotechnological platform, transforming waste CO2 into valuable bio-products and biodegradable polymers,\u00a0thereby bridging a circular bioeconomy approach. In Phase I, CO2 was converted into VFAs (2.017, 2.307, 3.243, and 3.467\u00a0g/L)\u00a0by anaerobic MMC and PHB (3.2% (0.082\u00a0g/L)) by aerobic cultures, respectively.The reduction in pH was observed to 3.45\u2009\u00b1\u20090.22\u00a0due to pretreatment methods, indicated acetogenic dominance. In phase II, VFA was recirculated for PHB production (6.5\u2009\u00b1\u20090.24%)\u00a0and molecular confirmation was done using FTIR and NMR.ted The anaerobic MMC achieved a CO2 reduction efficiency of 70\u2009\u00b1\u20091.78%, while aerobic cultures showed 45\u2009\u00b1\u20091.26%, contributing to the production of biodegradable PHB, thus closing loop towards circular bio-economy. This study also shows carbon balance and thermodynamic feasibility of converting CO\u2082 into PHB via microbial fermentation, highlighting the energy requirements and process efficiency. Metagenomic analysis of microbial consortia, using 16S rRNA (V3-V4) sequencing, identified key bacteria for CO2 bioconversion. Anaerobic genera like Pseudomonas and Halomonas dominated VFA production, while aerobic bacteria such as Brevundimonas, Achromobacter were predominant in PHB synthesis. KEGG analysis predicts genetic pathways for CO2 fixation.",
+      "affiliation": "School of Biosciences and Technology, Vellore Institute of Technology, Vellore, India.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Vellore Institute of Technology, Vellore",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Bacteria",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Carbon Dioxide",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Hydroxybutyrates",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Polyesters",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Fatty Acids, Volatile",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Metagenomics",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "MT",
+                  "qualifierName": "methods",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Polyhydroxybutyrates"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Polyhydroxybutyrate",
+          "Metagenomics",
+          "Co2 Sequestration",
+          "Volatile Fatty Acids",
+          "Microbial Enrichment",
+          "Circular Bio-economy"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Hydroxybutyrates",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Fatty Acids, Volatile",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Polyesters",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Carbon Dioxide",
+            "registryNumber": "142M471B3J"
+          },
+          {
+            "name": "polyhydroxybutyrate",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Polyhydroxybutyrates",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1038/s41598-025-26791-7"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12799609"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12799609?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-06-27",
+      "dateOfCreation": "2026-01-10",
+      "firstIndexDate": "2026-01-13",
+      "fullTextReceivedDate": "2026-01-15",
+      "dateOfRevision": "2026-06-27",
+      "electronicPublicationDate": "2026-01-10",
+      "firstPublicationDate": "2026-01-10"
+    },
+    {
+      "id": "41199521",
+      "source": "MED",
+      "pmid": "41199521",
+      "pmcid": "PMC12678847",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12678847"
+        ]
+      },
+      "doi": "10.1002/jobm.70124",
+      "title": "Phasins PhbP2 and PhbP3 Are Involved in the Depolymerization of Polyhydroxybutyrate in Azotobacter vinelandii.",
+      "authorString": "Ruiz-Escobedo J, Guzm\u00e1n J, Esp\u00edn G, Barrientos-Mill\u00e1n T, Moyao-Mej\u00eda A, Pe\u00f1a C, Moreno S, Meneses-Romero EP, Segura D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ruiz-Escobedo J",
+            "firstName": "Jessica",
+            "lastName": "Ruiz-Escobedo",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0003-8147-8144"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departamento de Microbiolog\u00eda Molecular, Instituto de Biotecnolog\u00eda, Universidad Nacional Aut\u00f3noma de M\u00e9xico, Cuernavaca, M\u00e9xico."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guzm\u00e1n J",
+            "firstName": "Josefina",
+            "lastName": "Guzm\u00e1n",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departamento de Microbiolog\u00eda Molecular, Instituto de Biotecnolog\u00eda, Universidad Nacional Aut\u00f3noma de M\u00e9xico, Cuernavaca, M\u00e9xico."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Esp\u00edn G",
+            "firstName": "Guadalupe",
+            "lastName": "Esp\u00edn",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departamento de Microbiolog\u00eda Molecular, Instituto de Biotecnolog\u00eda, Universidad Nacional Aut\u00f3noma de M\u00e9xico, Cuernavaca, M\u00e9xico."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barrientos-Mill\u00e1n T",
+            "firstName": "Thal\u00eda",
+            "lastName": "Barrientos-Mill\u00e1n",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departamento de Microbiolog\u00eda Molecular, Instituto de Biotecnolog\u00eda, Universidad Nacional Aut\u00f3noma de M\u00e9xico, Cuernavaca, M\u00e9xico."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Moyao-Mej\u00eda A",
+            "firstName": "Andrea",
+            "lastName": "Moyao-Mej\u00eda",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0009-9138-4356"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departamento de Microbiolog\u00eda Molecular, Instituto de Biotecnolog\u00eda, Universidad Nacional Aut\u00f3noma de M\u00e9xico, Cuernavaca, M\u00e9xico."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pe\u00f1a C",
+            "firstName": "Carlos",
+            "lastName": "Pe\u00f1a",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departamento de Ingenier\u00eda Celular y Biocat\u00e1lisis, Instituto de Biotecnolog\u00eda, Universidad Nacional Aut\u00f3noma de M\u00e9xico, Cuernavaca, M\u00e9xico."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Moreno S",
+            "firstName": "Soledad",
+            "lastName": "Moreno",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8576-7216"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departamento de Microbiolog\u00eda Molecular, Instituto de Biotecnolog\u00eda, Universidad Nacional Aut\u00f3noma de M\u00e9xico, Cuernavaca, M\u00e9xico."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meneses-Romero EP",
+            "firstName": "Erika P",
+            "lastName": "Meneses-Romero",
+            "initials": "EP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratorio de Prote\u00f3mica, Instituto de Biotecnolog\u00eda, Universidad Nacional Aut\u00f3noma de M\u00e9xico, Cuernavaca, M\u00e9xico."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Segura D",
+            "firstName": "Daniel",
+            "lastName": "Segura",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6662-7250"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departamento de Microbiolog\u00eda Molecular, Instituto de Biotecnolog\u00eda, Universidad Nacional Aut\u00f3noma de M\u00e9xico, Cuernavaca, M\u00e9xico."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6662-7250"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8576-7216"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0003-8147-8144"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0009-9138-4356"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "12",
+        "volume": "65",
+        "journalIssueId": 4064857,
+        "dateOfPublication": "2025 Dec",
+        "monthOfPublication": 12,
+        "yearOfPublication": 2025,
+        "printPublicationDate": "2025-12-01",
+        "journal": {
+          "title": "Journal of basic microbiology",
+          "medlineAbbreviation": "J Basic Microbiol",
+          "issn": "0233-111X",
+          "isoabbreviation": "J Basic Microbiol",
+          "essn": "1521-4028",
+          "nlmid": "8503885"
+        }
+      },
+      "pubYear": "2025",
+      "pageInfo": "e70124",
+      "abstractText": "Polyhydroxybutyrate (PHB) is a natural polyester synthesized and stored intracellularly as cytoplasmic granules, serving as a carbon and energy reserve in certain bacteria. These granules are surrounded by a variety of proteins, including those directly involved in PHB metabolism-both in its synthesis and degradation-as well as a group of non-enzymatic proteins known as phasins, which constitute the major protein component of the PHB granule. Although phasins lack enzymatic activity, some, such as PhbP1 in Azotobacter vinelandii, significantly influence granule size and number, while others have been shown to modulate enzymes involved in PHB synthesis or degradation in PHB-producing bacteria. This study aimed to elucidate the roles of phasins PhbP2 and PhbP3 in PHB metabolism in A. vinelandii. Our findings indicate that PhbP3 belongs to a novel family of phasin proteins and demonstrate that, although PhbP2 and PhbP3 do not contribute to granule structure, they are involved in PHB degradation. Gene inactivation of phbP2 and phbP3 led to a decrease in PHB depolymerase activity. Additionally, SDS-PAGE analysis revealed alterations in the relative abundance of some granule-associated proteins in the mutants, suggesting that PhbP2 and PhbP3 may play a role in stabilizing proteins on the PHB granule surface.",
+      "affiliation": "Departamento de Microbiolog\u00eda Molecular, Instituto de Biotecnolog\u00eda, Universidad Nacional Aut\u00f3noma de M\u00e9xico, Cuernavaca, M\u00e9xico.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Consejo Nacional de Ciencia y Tecnolog\u00eda, Grant/Award Number 255158. Programa de apoyo a proyectos de investigaci\u00f3n e innovci\u00f3n tecnol\u00f3gica, Grant/Award Numbers IG200222, IG200225.",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cytoplasmic Granules",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Azotobacter vinelandii",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "EN",
+                  "qualifierName": "enzymology",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Hydroxybutyrates",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Polyesters",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Bacterial Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plant Lectins"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Polyhydroxybutyrates"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Azotobacter vinelandii",
+          "Granules",
+          "Polyhydroxybutyrate (Phb)",
+          "Phasin"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "poly-beta-hydroxybutyrate",
+            "registryNumber": "26063-00-3"
+          },
+          {
+            "name": "phasin",
+            "registryNumber": "1392-87-6"
+          },
+          {
+            "name": "Plant Lectins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Hydroxybutyrates",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Bacterial Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Polyesters",
+            "registryNumber": "0"
+          },
+          {
+            "name": "polyhydroxybutyrate",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Polyhydroxybutyrates",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1002/jobm.70124"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12678847"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12678847?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 1,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by-nc",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pfam"
+        ]
+      },
+      "dateOfCompletion": "2025-12-05",
+      "dateOfCreation": "2025-11-07",
+      "firstIndexDate": "2025-11-07",
+      "fullTextReceivedDate": "2025-12-08",
+      "dateOfRevision": "2026-01-27",
+      "electronicPublicationDate": "2025-11-06",
+      "firstPublicationDate": "2025-11-06"
+    },
+    {
+      "id": "PPR1218182",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1218182"
+        ]
+      },
+      "doi": "10.64898/2026.03.25.714165",
+      "title": "Intracellular carbon storage enables starvation survival in marine bacteria",
+      "authorString": "Shlakhter O, Talmor Y, Malitsky S, Otikovs L, Szitenberg A, Segev E.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Shlakhter O",
+            "firstName": "Olesia",
+            "lastName": "Shlakhter",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant and Environmental Sciences, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Talmor Y",
+            "firstName": "Yonathan",
+            "lastName": "Talmor",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant and Environmental Sciences, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Malitsky S",
+            "firstName": "Sergey",
+            "lastName": "Malitsky",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences Core Facilities, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Otikovs L",
+            "firstName": "Leilah",
+            "lastName": "Otikovs",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical Research Support, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Szitenberg A",
+            "firstName": "Amir",
+            "lastName": "Szitenberg",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Ilana And Pascal Mantoux Institute for Bioinformatics, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Segev E",
+            "firstName": "Einat",
+            "lastName": "Segev",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant and Environmental Sciences, ; , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Heterotrophic marine bacteria frequently experience fluctuations in carbon availability driven by phytoplankton dynamics. As a result, bacteria undergo repeated cycles of rapid growth during brief resource pulses followed by prolonged starvation. Yet the mechanisms that support bacterial survival during nutrient limitation remain poorly understood. Here, we investigate starvation survival in the algal-associated bacterium  Phaeobacter inhibens . We show that cells remain viable for extended periods under carbon depletion while undergoing physiological and morphological changes. Using electron microscopy, metabolomics, and genetic approaches, we identify intracellular polyhydroxybutyrate (PHB) granules as a key factor supporting survival during starvation. PHB accumulates during growth and is progressively consumed under carbon limitation. Deletion of the PHB synthase gene (  phaC ) eliminates granule formation and reduces long-term viability. Comparative analyses show that the genetic capacity for PHB biosynthesis is widespread among members of the Roseobacter group, suggesting a conserved strategy among algal-associated bacteria. However, species lacking PHB also survive starvation, indicating that additional mechanisms contribute to persistence under nutrient limitation. Together, our results identify intracellular carbon storage as a central mechanism linking bacterial physiology to survival in fluctuating marine environments, and highlight the diversity of strategies shaping microbial community dynamics and carbon cycling in the ocean.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "101075514",
+            "agency": "European Research Council",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.03.25.714165"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1218182"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by-nc-nd",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215198",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-14",
+      "firstPublicationDate": "2026-03-25"
+    },
+    {
+      "id": "40869139",
+      "source": "MED",
+      "pmid": "40869139",
+      "pmcid": "PMC12386471",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12386471"
+        ]
+      },
+      "doi": "10.3390/ijms26167815",
+      "title": "Native <i>putA</i> Overexpression in <i>Synechocystis</i> sp. PCC 6803 Significantly Enhances Polyhydroxybutyrate Production, Further Augmented by the <i>adc1</i> Knockout Under Prolonged Nitrogen Deprivation.",
+      "authorString": "Utharn S, Lindblad P, Jantaro S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Utharn S",
+            "firstName": "Suthira",
+            "lastName": "Utharn",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Cyanobacterial Biotechnology, Department of Biochemistry, Faculty of Science, Chulalongkorn University, Bangkok 10330, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lindblad P",
+            "firstName": "Peter",
+            "lastName": "Lindblad",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7256-0275"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Microbial Chemistry, Department of Chemistry-\u00c5ngstr\u00f6m, Uppsala University, Box 523, SE-75120 Uppsala, Sweden."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jantaro S",
+            "firstName": "Saowarath",
+            "lastName": "Jantaro",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9259-9684"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Cyanobacterial Biotechnology, Department of Biochemistry, Faculty of Science, Chulalongkorn University, Bangkok 10330, Thailand."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7256-0275"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9259-9684"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "16",
+        "volume": "26",
+        "journalIssueId": 4003963,
+        "dateOfPublication": "2025 Aug",
+        "monthOfPublication": 8,
+        "yearOfPublication": 2025,
+        "printPublicationDate": "2025-08-01",
+        "journal": {
+          "title": "International journal of molecular sciences",
+          "medlineAbbreviation": "Int J Mol Sci",
+          "issn": "1422-0067",
+          "isoabbreviation": "Int J Mol Sci",
+          "essn": "1422-0067",
+          "nlmid": "101092791"
+        }
+      },
+      "pubYear": "2025",
+      "pageInfo": "7815",
+      "abstractText": "This study highlights a new avenue to improve polyhydroxybutyrate (PHB) productivity by optimizing genes related to arginine catabolism, which influences nitrogen metabolism in cyanobacteria based on the carbon/nitrogen metabolism balance. In the <i>Synechocystis</i> sp. PCC 6803 wild type (WT) and its <i>adc1</i> mutant (\u0394<i>adc1</i>), the native <i>putA</i> gene, responsible for the oxidation of proline to glutamate, was overexpressed to create the OX<i>PutA</i> and OX<i>PutA</i>/\u0394<i>adc1</i> strains, respectively. PHB accumulation was considerably higher in OX<i>PutA</i> and OX<i>PutA</i>/\u0394<i>adc1</i> under the nitrogen-deprived condition than in strains that overexpressed the <i>proC</i> gene, involved in proline synthesis. The increased transcript level of <i>glgX</i>, associated with glycogen degradation, confirmed that glycogen served as the primary carbon source for PHB synthesis under nitrogen stress without any carbon source addition. Furthermore, proline and glutamate level changes helped cells deal with nitrogen stress and considerably improve intracellular carbon/nitrogen metabolism. As indicated by elevated levels of <i>proA</i> and <i>argD</i> transcripts as well as chlorophyll <i>a</i> accumulation, this impact was most noticeable in strains that overexpressed <i>putA</i>, which was crucial for the synthesis of glutamate, a precursor for important metabolic pathways that respond to nitrogen stress. Therefore, our metabolic model presents PHB-producing strains as promising candidates for biomaterial biotechnology applications in medical and agricultural fields.",
+      "affiliation": "Laboratory of Cyanobacterial Biotechnology, Department of Biochemistry, Faculty of Science, Chulalongkorn University, Bangkok 10330, Thailand.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "RES_68_191_2300_017",
+            "agency": "National Science Research and Innovation Fund (NSRF), National Research Council of Thailand (NRCT) and Chulalongkorn University",
+            "orderIn": 0
+          },
+          {
+            "grantId": "RES_68_191_2300_017",
+            "agency": "Second Century Fund (C2F), Chulalongkorn University",
+            "orderIn": 0
+          },
+          {
+            "grantId": "C2F",
+            "agency": "the Second Century Fund, Chulalongkorn University",
+            "orderIn": 0
+          },
+          {
+            "grantId": "RES_68_191_2300_017",
+            "agency": "the National Science Research and Innovation Fund (NSRF), National Research Council of Thai-land (NRCT) and Chulalongkorn University",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Synechocystis",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Carbon",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Nitrogen",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Hydroxybutyrates",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Polyesters",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Bacterial Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gene Expression Regulation, Bacterial"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gene Knockout Techniques"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Polyhydroxybutyrates"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Glutamate",
+          "PHB",
+          "Synechocystis sp. PCC 6803",
+          "Proline oxidase",
+          "Arginine decarboxylase"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "poly-beta-hydroxybutyrate",
+            "registryNumber": "26063-00-3"
+          },
+          {
+            "name": "Carbon",
+            "registryNumber": "7440-44-0"
+          },
+          {
+            "name": "Hydroxybutyrates",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Bacterial Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Polyesters",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Nitrogen",
+            "registryNumber": "N762921K75"
+          },
+          {
+            "name": "polyhydroxybutyrate",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Polyhydroxybutyrates",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.3390/ijms26167815"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3390/ijms26167815"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12386471"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12386471?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2025-08-28",
+      "dateOfCreation": "2025-08-28",
+      "firstIndexDate": "2025-09-04",
+      "fullTextReceivedDate": "2025-08-29",
+      "dateOfRevision": "2026-01-27",
+      "electronicPublicationDate": "2025-08-13",
+      "firstPublicationDate": "2025-08-13"
+    }
+  ]
+}

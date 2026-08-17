@@ -1,0 +1,581 @@
+﻿{
+  "id": "https://openalex.org/W2159582344",
+  "display_name": "A Patatin-Like Protein Associated with the Polyhydroxyalkanoate (PHA) Granules of Haloferax mediterranei Acts as an Efficient Depolymerase in the Degradation of Native PHA",
+  "publication_year": 2015,
+  "cited_by_count": 29,
+  "doi": "https://doi.org/10.1128/aem.04269-14",
+  "primary_location": {
+    "id": "doi:10.1128/aem.04269-14",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1128/aem.04269-14",
+    "pdf_url": "https://aem.asm.org/content/aem/81/9/3029.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S158228368",
+      "display_name": "Applied and Environmental Microbiology",
+      "issn_l": "0099-2240",
+      "issn": [
+        "0099-2240",
+        "1070-6291",
+        "1098-5336"
+      ],
+      "is_oa": false,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320263",
+      "host_organization_name": "American Society for Microbiology",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320263"
+      ],
+      "host_organization_lineage_names": [
+        "American Society for Microbiology"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Applied and Environmental Microbiology",
+    "raw_type": "journal-article"
+  },
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      77,
+      124
+    ],
+    "key": [
+      1,
+      167
+    ],
+    "enzymes": [
+      2,
+      21
+    ],
+    "and": [
+      3,
+      59,
+      92,
+      108,
+      162,
+      226
+    ],
+    "pathways": [
+      4
+    ],
+    "involved": [
+      5
+    ],
+    "in": [
+      6,
+      10,
+      15,
+      44,
+      63,
+      67,
+      102,
+      121,
+      154,
+      169,
+      173,
+      235
+    ],
+    "polyhydroxyalkanoate": [
+      7
+    ],
+    "(PHA)": [
+      8
+    ],
+    "biosynthesis": [
+      9
+    ],
+    "haloarchaea": [
+      11,
+      213
+    ],
+    "have": [
+      12
+    ],
+    "been": [
+      13
+    ],
+    "identified": [
+      14
+    ],
+    "recent": [
+      16
+    ],
+    "years,": [
+      17
+    ],
+    "but": [
+      18
+    ],
+    "the": [
+      19,
+      41,
+      45,
+      51,
+      74,
+      146,
+      166,
+      175,
+      184,
+      189,
+      201,
+      221,
+      232
+    ],
+    "haloarchaeal": [
+      20
+    ],
+    "for": [
+      22,
+      99,
+      219
+    ],
+    "PHA": [
+      23,
+      32,
+      42,
+      53,
+      151,
+      186,
+      194,
+      233
+    ],
+    "degradation": [
+      24,
+      130,
+      152
+    ],
+    "remain": [
+      25
+    ],
+    "unknown.": [
+      26
+    ],
+    "In": [
+      27
+    ],
+    "this": [
+      28,
+      64,
+      95,
+      209
+    ],
+    "study,": [
+      29
+    ],
+    "a": [
+      30,
+      87,
+      115,
+      150,
+      216
+    ],
+    "patatin-like": [
+      31,
+      210
+    ],
+    "depolymerase,": [
+      33
+    ],
+    "PhaZh1,": [
+      34
+    ],
+    "was": [
+      35,
+      163
+    ],
+    "determined": [
+      36
+    ],
+    "to": [
+      37,
+      119
+    ],
+    "be": [
+      38,
+      134
+    ],
+    "located": [
+      39
+    ],
+    "on": [
+      40,
+      183,
+      231
+    ],
+    "granules": [
+      43,
+      66
+    ],
+    "haloarchaeon": [
+      46
+    ],
+    "Haloferax": [
+      47
+    ],
+    "mediterranei.": [
+      48,
+      123,
+      205
+    ],
+    "PhaZh1": [
+      49,
+      81,
+      132,
+      158
+    ],
+    "hydrolyzed": [
+      50
+    ],
+    "native": [
+      52,
+      56,
+      60
+    ],
+    "(nPHA)": [
+      54
+    ],
+    "[including": [
+      55
+    ],
+    "polyhydroxybutyrate": [
+      57
+    ],
+    "(nPHB)": [
+      58
+    ],
+    "poly(3-hydroxybutyrate-co-3-hydroxyvalerate)": [
+      61
+    ],
+    "(nPHBV)": [
+      62
+    ],
+    "study]": [
+      65
+    ],
+    "vitro": [
+      68
+    ],
+    "with": [
+      69
+    ],
+    "3-hydroxybutyrate": [
+      70
+    ],
+    "(3HB)": [
+      71
+    ],
+    "monomer": [
+      72,
+      126
+    ],
+    "as": [
+      73
+    ],
+    "primary": [
+      75
+    ],
+    "product.": [
+      76
+    ],
+    "site-directed": [
+      78
+    ],
+    "mutagenesis": [
+      79
+    ],
+    "of": [
+      80,
+      94,
+      149,
+      177,
+      191,
+      203,
+      208,
+      212
+    ],
+    "indicated": [
+      82
+    ],
+    "that": [
+      83,
+      142,
+      197
+    ],
+    "Gly16,": [
+      84
+    ],
+    "Ser47": [
+      85
+    ],
+    "(in": [
+      86
+    ],
+    "classical": [
+      88
+    ],
+    "lipase": [
+      89
+    ],
+    "box,": [
+      90
+    ],
+    "G-X-S47-X-G),": [
+      91
+    ],
+    "Asp195": [
+      93
+    ],
+    "depolymerase": [
+      96,
+      211
+    ],
+    "were": [
+      97
+    ],
+    "essential": [
+      98
+    ],
+    "its": [
+      100
+    ],
+    "activity": [
+      101,
+      161
+    ],
+    "nPHA": [
+      103,
+      129,
+      170
+    ],
+    "granule": [
+      104,
+      171
+    ],
+    "hydrolysis.": [
+      105
+    ],
+    "Notably,": [
+      106
+    ],
+    "phaZh1": [
+      107,
+      178
+    ],
+    "bdhA": [
+      109
+    ],
+    "(encoding": [
+      110
+    ],
+    "putative": [
+      111
+    ],
+    "3HB": [
+      112,
+      125
+    ],
+    "dehydrogenase)": [
+      113
+    ],
+    "form": [
+      114
+    ],
+    "gene": [
+      116
+    ],
+    "cluster": [
+      117
+    ],
+    "(HFX_6463": [
+      118
+    ],
+    "_6464)": [
+      120
+    ],
+    "H.": [
+      122,
+      204
+    ],
+    "generated": [
+      127
+    ],
+    "from": [
+      128
+    ],
+    "by": [
+      131,
+      139
+    ],
+    "could": [
+      133
+    ],
+    "further": [
+      135
+    ],
+    "converted": [
+      136
+    ],
+    "into": [
+      137
+    ],
+    "acetoacetate": [
+      138
+    ],
+    "BdhA,": [
+      140
+    ],
+    "indicating": [
+      141
+    ],
+    "PhaZh1-BdhA": [
+      143
+    ],
+    "may": [
+      144,
+      214,
+      227
+    ],
+    "constitute": [
+      145
+    ],
+    "first": [
+      147
+    ],
+    "part": [
+      148
+    ],
+    "pathway": [
+      153
+    ],
+    "vivo.": [
+      155
+    ],
+    "Interestingly,": [
+      156
+    ],
+    "although": [
+      157
+    ],
+    "showed": [
+      159
+    ],
+    "efficient": [
+      160
+    ],
+    "most": [
+      164
+    ],
+    "likely": [
+      165
+    ],
+    "enzyme": [
+      168
+    ],
+    "hydrolysis": [
+      172
+    ],
+    "vitro,": [
+      174
+    ],
+    "knockout": [
+      176
+    ],
+    "had": [
+      179
+    ],
+    "no": [
+      180
+    ],
+    "significant": [
+      181
+    ],
+    "effect": [
+      182
+    ],
+    "intracellular": [
+      185
+    ],
+    "mobilization,": [
+      187
+    ],
+    "implying": [
+      188
+    ],
+    "existence": [
+      190
+    ],
+    "an": [
+      192
+    ],
+    "alternative": [
+      193
+    ],
+    "mobilization": [
+      195,
+      234
+    ],
+    "pathway(s)": [
+      196
+    ],
+    "functions": [
+      198
+    ],
+    "effectively": [
+      199
+    ],
+    "within": [
+      200
+    ],
+    "cells": [
+      202
+    ],
+    "Therefore,": [
+      206
+    ],
+    "identification": [
+      207
+    ],
+    "provide": [
+      215
+    ],
+    "new": [
+      217
+    ],
+    "strategy": [
+      218
+    ],
+    "producing": [
+      220
+    ],
+    "high-value-added": [
+      222
+    ],
+    "chiral": [
+      223
+    ],
+    "compound": [
+      224
+    ],
+    "(R)-3HB": [
+      225
+    ],
+    "also": [
+      228
+    ],
+    "shed": [
+      229
+    ],
+    "light": [
+      230
+    ],
+    "haloarchaea.": [
+      236
+    ]
+  }
+}

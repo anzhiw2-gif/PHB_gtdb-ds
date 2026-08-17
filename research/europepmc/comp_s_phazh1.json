@@ -1,0 +1,590 @@
+{
+  "hitCount": 3,
+  "nextCursorMark": "",
+  "results": [
+    {
+      "id": "PMC11205408",
+      "source": "PMC",
+      "pmcid": "PMC11205408",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC11205408"
+        ]
+      },
+      "title": "Bioplastic Production from Agri-Food Waste through the Use of Haloferax mediterranei: A Comprehensive Initial Overview",
+      "authorString": "Longo A, Fanelli F, Villano M, Montemurro M, Rizzello C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Longo A",
+            "firstName": "Angela",
+            "lastName": "Longo",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Environmental Biology, Sapienza University of Rome, 00185 Rome, Italy; (A.L.); (C.G.R.)"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fanelli F",
+            "firstName": "Francesca",
+            "lastName": "Fanelli",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Sciences of Food Production (CNR-ISPA), National Research Council of Italy, 70126 Bari, Italy;"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Villano M",
+            "firstName": "Marianna",
+            "lastName": "Villano",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Sapienza University of Rome, 00185 Rome, Italy;"
+                },
+                {
+                  "affiliation": "Research Center for Applied Sciences to the Safeguard of Environment and Cultural Heritage (CIABC), Sapienza University of Rome, 00185 Rome, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Montemurro M",
+            "firstName": "Marco",
+            "lastName": "Montemurro",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Sciences of Food Production (CNR-ISPA), National Research Council of Italy, 70126 Bari, Italy;"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rizzello C",
+            "firstName": "Carlo Giuseppe",
+            "lastName": "Rizzello",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Environmental Biology, Sapienza University of Rome, 00185 Rome, Italy; (A.L.); (C.G.R.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "6",
+        "volume": "12",
+        "journalIssueId": 3790813,
+        "dateOfPublication": "2024 May",
+        "monthOfPublication": 5,
+        "yearOfPublication": 2024,
+        "printPublicationDate": "2024-05-01",
+        "journal": {
+          "title": "Microorganisms",
+          "medlineAbbreviation": "Microorganisms",
+          "essn": "2076-2607",
+          "issn": "2076-2607",
+          "isoabbreviation": "Microorganisms",
+          "nlmid": "101625893"
+        }
+      },
+      "pubYear": "2024",
+      "language": "eng",
+      "pubModel": "Undetermined",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "PIANO NAZIONALE DI RIPRESA E RESILIENZA (PNRR)\u2014MISSIONE 4 COMPONENTE 2, INVESTIMENTO 1.4\u2014D.D. 1032 17/06/2022, CN00000022",
+            "agency": "European Union Next-GenerationEU",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Bioreactor",
+          "Bioplastics",
+          "Polyhydroxyalkanoates",
+          "Haloferax Mediterranei",
+          "Agri-food Waste"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "PubMedCentral",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11205408/?tool=EBI"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "PubMedCentral",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11205408/pdf/?tool=EBI"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11205408"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11205408?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 0,
+      "hasData": "N",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-06-28",
+      "firstIndexDate": "2024-06-28",
+      "fullTextReceivedDate": "2024-06-28",
+      "dateOfRevision": "2024-06-29",
+      "electronicPublicationDate": "2024-05-21",
+      "firstPublicationDate": "2024-05-21"
+    },
+    {
+      "id": "30995811",
+      "source": "MED",
+      "pmid": "30995811",
+      "pmcid": "PMC6631277",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6631277"
+        ]
+      },
+      "doi": "10.3390/bioengineering6020034",
+      "title": "Polyhydroxyalkanoate Biosynthesis at the Edge of Water Activitiy-Haloarchaea as Biopolyester Factories.",
+      "authorString": "Koller M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Koller M",
+            "firstName": "Martin",
+            "lastName": "Koller",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9251-1822"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Graz, Office of Research Management and Service, c/o Institute of Chemistry, NAWI Graz, Heinrichstrasse 28/III, 8010 Graz, Austria. martin.koller@uni-graz.at."
+                },
+                {
+                  "affiliation": "ARENA-Association for Resource Efficient and Sustainable Technologies, Inffeldgasse 21b, 8010 Graz, Austria. martin.koller@uni-graz.at."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9251-1822"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "2",
+        "volume": "6",
+        "journalIssueId": 2803905,
+        "dateOfPublication": "2019 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2019,
+        "printPublicationDate": "2019-04-01",
+        "journal": {
+          "title": "Bioengineering (Basel, Switzerland)",
+          "medlineAbbreviation": "Bioengineering (Basel)",
+          "essn": "2306-5354",
+          "issn": "2306-5354",
+          "isoabbreviation": "Bioengineering (Basel)",
+          "nlmid": "101676056"
+        }
+      },
+      "pubYear": "2019",
+      "pageInfo": "E34",
+      "abstractText": "Haloarchaea, the extremely halophilic branch of the Archaea domain, encompass a steadily increasing number of genera and associated species which accumulate polyhydroxyalkanoate biopolyesters in their cytoplasm. Such ancient organisms, which thrive in highly challenging, often hostile habitats characterized by salinities between 100 and 300 g/L NaCl, have the potential to outperform established polyhydroxyalkanoate production strains. As detailed in the review, this optimization presents due to multifarious reasons, including: cultivation setups at extreme salinities can be performed at minimized sterility precautions by excluding the growth of microbial contaminants; the high inner-osmotic pressure in haloarchaea cells facilitates the recovery of intracellular biopolyester granules by cell disintegration in hypo-osmotic media; many haloarchaea utilize carbon-rich waste streams as main substrates for growth and polyhydroxyalkanoate biosynthesis, which allows coupling polyhydroxyalkanoate production with bio-economic waste management; finally, in many cases, haloarchaea are reported to produce copolyesters from structurally unrelated inexpensive substrates, and polyhydroxyalkanoate biosynthesis often occurs in parallel to the production of additional marketable bio-products like pigments or polysaccharides. This review summarizes the current knowledge about polyhydroxyalkanoate production by diverse haloarchaea; this covers the detection of new haloarchaea producing polyhydroxyalkanoates, understanding the genetic and enzymatic particularities of such organisms, kinetic aspects, material characterization, upscaling and techno-economic and life cycle assessment.",
+      "affiliation": "University of Graz, Office of Research Management and Service, c/o Institute of Chemistry, NAWI Graz, Heinrichstrasse 28/III, 8010 Graz, Austria. martin.koller@uni-graz.at.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Archaea",
+          "Biopolyester",
+          "Salinity",
+          "Extremophiles",
+          "Downstream Processing",
+          "Haloarchaea",
+          "Halophiles",
+          "Bioeconomy",
+          "Polyhydroxyalkanoates",
+          "Haloferax"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.mdpi.com/2306-5354/6/2/34/pdf?version=1556533435"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3390/bioengineering6020034"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6631277"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6631277?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 56,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2019-04-19",
+      "firstIndexDate": "2019-04-18",
+      "fullTextReceivedDate": "2025-02-05",
+      "dateOfRevision": "2020-09-29",
+      "electronicPublicationDate": "2019-04-16",
+      "firstPublicationDate": "2019-04-16"
+    },
+    {
+      "id": "31143170",
+      "source": "MED",
+      "pmid": "31143170",
+      "pmcid": "PMC6520949",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6520949"
+        ]
+      },
+      "doi": "10.3389/fmicb.2019.01027",
+      "title": "Designing and Engineering <i>Methylorubrum extorquens</i> AM1 for Itaconic Acid Production.",
+      "authorString": "Lim CK, Villada JC, Chalifour A, Duran MF, Lu H, Lee PKH.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lim CK",
+            "firstName": "Chee Kent",
+            "lastName": "Lim",
+            "initials": "CK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Energy and Environment, City University of Hong Kong, Hong Kong, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Villada JC",
+            "firstName": "Juan C",
+            "lastName": "Villada",
+            "initials": "JC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Energy and Environment, City University of Hong Kong, Hong Kong, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chalifour A",
+            "firstName": "Annie",
+            "lastName": "Chalifour",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2266-3094"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, City University of Hong Kong, Hong Kong, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Duran MF",
+            "firstName": "Maria F",
+            "lastName": "Duran",
+            "initials": "MF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8598-0172"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Energy and Environment, City University of Hong Kong, Hong Kong, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lu H",
+            "firstName": "Hongyuan",
+            "lastName": "Lu",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Energy and Environment, City University of Hong Kong, Hong Kong, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lee PKH",
+            "firstName": "Patrick K H",
+            "lastName": "Lee",
+            "initials": "PKH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Energy and Environment, City University of Hong Kong, Hong Kong, China."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8598-0172"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2216-4279"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2266-3094"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data",
+          "related_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "10",
+        "journalIssueId": 2776217,
+        "dateOfPublication": "2019 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2019,
+        "printPublicationDate": "2019-01-01",
+        "journal": {
+          "title": "Frontiers in microbiology",
+          "medlineAbbreviation": "Front Microbiol",
+          "essn": "1664-302X",
+          "issn": "1664-302X",
+          "isoabbreviation": "Front Microbiol",
+          "nlmid": "101548977"
+        }
+      },
+      "pubYear": "2019",
+      "pageInfo": "1027",
+      "abstractText": "<i>Methylorubrum extorquens</i> (formerly <i>Methylobacterium extorquens</i>) AM1 is a methylotrophic bacterium with a versatile lifestyle. Various carbon sources including acetate, succinate and methanol are utilized by <i>M. extorquens</i> AM1 with the latter being a promising inexpensive substrate for use in the biotechnology industry. Itaconic acid (ITA) is a high-value building block widely used in various industries. Given that no wildtype methylotrophic bacteria are able to utilize methanol to produce ITA, we tested the potential of <i>M. extorquens</i> AM1 as an engineered host for this purpose. In this study, we successfully engineered <i>M. extorquens</i> AM1 to express a heterologous codon-optimized gene encoding <i>cis-</i>aconitic acid decarboxylase. The engineered strain produced ITA using acetate, succinate and methanol as the carbon feedstock. The highest ITA titer in batch culture with methanol as the carbon source was 31.6 \u00b1 5.5 mg/L, while the titer and productivity were 5.4 \u00b1 0.2 mg/L and 0.056 \u00b1 0.002 mg/L/h, respectively, in a scaled-up fed-batch bioreactor under 60% dissolved oxygen saturation. We attempted to enhance the carbon flux toward ITA production by impeding poly-\u03b2-hydroxybutyrate accumulation, which is used as carbon and energy storage, via mutation of the regulator gene <i>phaR</i>. Unexpectedly, ITA production by the <i>phaR</i> mutant strain was not higher even though poly-\u03b2-hydroxybutyrate concentration was lower. Genome-wide transcriptomic analysis revealed that <i>phaR</i> mutation in the ITA-producing strain led to complex rewiring of gene transcription, which might result in a reduced carbon flux toward ITA production. Besides poly-\u03b2-hydroxybutyrate metabolism, we found evidence that PhaR might regulate the transcription of many other genes including those encoding other regulatory proteins, methanol dehydrogenases, formate dehydrogenases, malate:quinone oxidoreductase, and those synthesizing pyrroloquinoline quinone and thiamine co-factors. Overall, <i>M. extorquens</i> AM1 was successfully engineered to produce ITA using acetate, succinate and methanol as feedstock, further supporting this bacterium as a feasible host for use in the biotechnology industry. This study showed that PhaR could have a broader regulatory role than previously anticipated, and increased our knowledge of this regulator and its influence on the physiology of <i>M. extorquens</i> AM1.",
+      "affiliation": "School of Energy and Environment, City University of Hong Kong, Hong Kong, China.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Research Grants Council, University Grants Committee",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Methanol",
+          "Itaconic acid",
+          "metabolic engineering",
+          "Transcriptomic",
+          "Poly-\u03b2-hydroxybutyrate",
+          "Phar",
+          "Methylorubrum Extorquens Am1"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.3389/fmicb.2019.01027"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3389/fmicb.2019.01027"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6520949"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6520949?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 33,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "refseq"
+        ]
+      },
+      "dateOfCreation": "2019-05-31",
+      "firstIndexDate": "2019-05-31",
+      "fullTextReceivedDate": "2025-02-03",
+      "dateOfRevision": "2020-10-01",
+      "electronicPublicationDate": "2019-05-09",
+      "firstPublicationDate": "2019-05-09"
+    }
+  ]
+}

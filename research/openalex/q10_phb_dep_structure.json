@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "count": 6,
+    "db_response_time_ms": 35,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where title/abstract has (\n    crystal structure\n    and polyhydroxybutyrate depolymerase\n  )",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "crystal structure",
+            "operator": "has"
+          },
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "polyhydroxybutyrate depolymerase",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=title_and_abstract.search:crystal structure,title_and_abstract.search:polyhydroxybutyrate depolymerase&per_page=5&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2056256968",
+      "display_name": "The Crystal Structure of Polyhydroxybutyrate Depolymerase from Penicillium funiculosum Provides Insights into the Recognition and Degradation of Biopolyesters",
+      "publication_year": 2005,
+      "cited_by_count": 122,
+      "doi": "https://doi.org/10.1016/j.jmb.2005.12.028"
+    },
+    {
+      "id": "https://openalex.org/W2024864408",
+      "display_name": "Strong Fibers and Films of Microbial Polyesters",
+      "publication_year": 2005,
+      "cited_by_count": 116,
+      "doi": "https://doi.org/10.1002/mabi.200500066"
+    },
+    {
+      "id": "https://openalex.org/W2120707072",
+      "display_name": "Biochemical and molecular characterization of the polyhydroxybutyrate depolymerase of Comamonas acidovorans YM1609, isolated from freshwater",
+      "publication_year": 1997,
+      "cited_by_count": 83,
+      "doi": "https://doi.org/10.1128/aem.63.12.4844-4852.1997"
+    },
+    {
+      "id": "https://openalex.org/W2326291131",
+      "display_name": "Physical and Structural Effects of Adding Ultrahigh-Molecular-Weight Poly[(<i>R</i>)-3-hydroxybutyrate] to Wild-Type Poly[(<i>R</i>)-3-hydroxybutyrate]",
+      "publication_year": 2012,
+      "cited_by_count": 56,
+      "doi": "https://doi.org/10.1021/ma202285c"
+    },
+    {
+      "id": "https://openalex.org/W4304689113",
+      "display_name": "Bioplastic degradation by a polyhydroxybutyrate depolymerase from a thermophilic soil bacterium",
+      "publication_year": 2022,
+      "cited_by_count": 26,
+      "doi": "https://doi.org/10.1002/pro.4470"
+    }
+  ],
+  "group_by": []
+}

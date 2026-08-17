@@ -1,0 +1,1074 @@
+﻿{
+  "meta": {
+    "count": 50,
+    "db_response_time_ms": 20,
+    "page": 1,
+    "per_page": 25,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where title/abstract has (\n    depolymerase\n    or haloarchaea polyhydroxyalkanoate degradation\n  )",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "join": "or",
+            "filters": [
+              {
+                "column_id": "title_and_abstract.search",
+                "value": "depolymerase",
+                "operator": "has"
+              },
+              {
+                "column_id": "title_and_abstract.search",
+                "value": "haloarchaea polyhydroxyalkanoate degradation",
+                "operator": "has"
+              }
+            ]
+          }
+        ]
+      },
+      "url": "/works?filter=title_and_abstract.search:depolymerase|haloarchaea polyhydroxyalkanoate degradation&per_page=25&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2075693757",
+      "display_name": "Identification of polyhydroxyalkanoates in Halococcus and other haloarchaeal species",
+      "publication_year": 2010,
+      "cited_by_count": 132,
+      "doi": "https://doi.org/10.1007/s00253-010-2611-6",
+      "primary_location": {
+        "id": "doi:10.1007/s00253-010-2611-6",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/s00253-010-2611-6",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00253-010-2611-6.pdf",
+        "source": {
+          "id": "https://openalex.org/S70979998",
+          "display_name": "Applied Microbiology and Biotechnology",
+          "issn_l": "0175-7598",
+          "issn": [
+            "0175-7598",
+            "1432-0614"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied Microbiology and Biotechnology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2153267006",
+      "display_name": "Molecular Characterization of the <i>phaEC</i> <sub>Hm</sub> Genes, Required for Biosynthesis of Poly(3-Hydroxybutyrate) in the Extremely Halophilic Archaeon <i>Haloarcula marismortui</i>",
+      "publication_year": 2007,
+      "cited_by_count": 132,
+      "doi": "https://doi.org/10.1128/aem.00953-07",
+      "primary_location": {
+        "id": "doi:10.1128/aem.00953-07",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1128/aem.00953-07",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S158228368",
+          "display_name": "Applied and Environmental Microbiology",
+          "issn_l": "0099-2240",
+          "issn": [
+            "0099-2240",
+            "1070-6291",
+            "1098-5336"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320263",
+          "host_organization_name": "American Society for Microbiology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320263"
+          ],
+          "host_organization_lineage_names": [
+            "American Society for Microbiology"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied and Environmental Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2021169602",
+      "display_name": "Wide Distribution among Halophilic Archaea of a Novel Polyhydroxyalkanoate Synthase Subtype with Homology to Bacterial Type III Synthases",
+      "publication_year": 2010,
+      "cited_by_count": 114,
+      "doi": "https://doi.org/10.1128/aem.01117-10",
+      "primary_location": {
+        "id": "doi:10.1128/aem.01117-10",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1128/aem.01117-10",
+        "pdf_url": "https://aem.asm.org/content/aem/76/23/7811.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S158228368",
+          "display_name": "Applied and Environmental Microbiology",
+          "issn_l": "0099-2240",
+          "issn": [
+            "0099-2240",
+            "1070-6291",
+            "1098-5336"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320263",
+          "host_organization_name": "American Society for Microbiology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320263"
+          ],
+          "host_organization_lineage_names": [
+            "American Society for Microbiology"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied and Environmental Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2140128133",
+      "display_name": "Identification of the Haloarchaeal Phasin (PhaP) That Functions in Polyhydroxyalkanoate Accumulation and Granule Formation in Haloferax mediterranei",
+      "publication_year": 2012,
+      "cited_by_count": 112,
+      "doi": "https://doi.org/10.1128/aem.07114-11",
+      "primary_location": {
+        "id": "doi:10.1128/aem.07114-11",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1128/aem.07114-11",
+        "pdf_url": "https://aem.asm.org/content/aem/78/6/1946.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S158228368",
+          "display_name": "Applied and Environmental Microbiology",
+          "issn_l": "0099-2240",
+          "issn": [
+            "0099-2240",
+            "1070-6291",
+            "1098-5336"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320263",
+          "host_organization_name": "American Society for Microbiology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320263"
+          ],
+          "host_organization_lineage_names": [
+            "American Society for Microbiology"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied and Environmental Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2021373734",
+      "display_name": "Development of pyrF-based gene knockout systems for genome-wide manipulation of the archaea Haloferax mediterranei and Haloarcula hispanica",
+      "publication_year": 2011,
+      "cited_by_count": 109,
+      "doi": "https://doi.org/10.1016/j.jgg.2011.05.003",
+      "primary_location": {
+        "id": "doi:10.1016/j.jgg.2011.05.003",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.jgg.2011.05.003",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S54145736",
+          "display_name": "Journal of genetics and genomics/Journal of Genetics and Genomics",
+          "issn_l": "1873-5533",
+          "issn": [
+            "1873-5533",
+            "1673-8527"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Genetics and Genomics",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2938325311",
+      "display_name": "Polyhydroxyalkanoate Biosynthesis at the Edge of Water Activity-Haloarchaea as Biopolyester Factories",
+      "publication_year": 2019,
+      "cited_by_count": 103,
+      "doi": "https://doi.org/10.3390/bioengineering6020034",
+      "primary_location": {
+        "id": "doi:10.3390/bioengineering6020034",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/bioengineering6020034",
+        "pdf_url": "https://www.mdpi.com/2306-5354/6/2/34/pdf?version=1556533435",
+        "source": {
+          "id": "https://openalex.org/S4210179121",
+          "display_name": "Bioengineering",
+          "issn_l": "2306-5354",
+          "issn": [
+            "2306-5354"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Bioengineering",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2151676795",
+      "display_name": "Comparative genomics study of polyhydroxyalkanoates (PHA) and ectoine relevant genes from Halomonas sp. TD01 revealed extensive horizontal gene transfer events and co-evolutionary relationships",
+      "publication_year": 2011,
+      "cited_by_count": 90,
+      "doi": "https://doi.org/10.1186/1475-2859-10-88",
+      "primary_location": {
+        "id": "doi:10.1186/1475-2859-10-88",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1186/1475-2859-10-88",
+        "pdf_url": "https://microbialcellfactories.biomedcentral.com/counter/pdf/10.1186/1475-2859-10-88",
+        "source": {
+          "id": "https://openalex.org/S171368329",
+          "display_name": "Microbial Cell Factories",
+          "issn_l": "1475-2859",
+          "issn": [
+            "1475-2859"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320256",
+          "host_organization_name": "BioMed Central",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320256",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "BioMed Central",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Microbial Cell Factories",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2754857012",
+      "display_name": "Haloarchaea: worth exploring for their biotechnological potential",
+      "publication_year": 2017,
+      "cited_by_count": 69,
+      "doi": "https://doi.org/10.1007/s10529-017-2434-y",
+      "primary_location": {
+        "id": "doi:10.1007/s10529-017-2434-y",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/s10529-017-2434-y",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S113993733",
+          "display_name": "Biotechnology Letters",
+          "issn_l": "0141-5492",
+          "issn": [
+            "0141-5492",
+            "1573-6776"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Biotechnology Letters",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W3136715570",
+      "display_name": "Haloarchaea as Cell Factories to Produce Bioplastics",
+      "publication_year": 2021,
+      "cited_by_count": 69,
+      "doi": "https://doi.org/10.3390/md19030159",
+      "primary_location": {
+        "id": "doi:10.3390/md19030159",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/md19030159",
+        "pdf_url": "https://www.mdpi.com/1660-3397/19/3/159/pdf?version=1616751600",
+        "source": {
+          "id": "https://openalex.org/S146563757",
+          "display_name": "Marine Drugs",
+          "issn_l": "1660-3397",
+          "issn": [
+            "1660-3397"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Marine Drugs",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2106384224",
+      "display_name": "A Novel DNA-Binding Protein, PhaR, Plays a Central Role in the Regulation of Polyhydroxyalkanoate Accumulation and Granule Formation in the Haloarchaeon Haloferax mediterranei",
+      "publication_year": 2014,
+      "cited_by_count": 55,
+      "doi": "https://doi.org/10.1128/aem.02878-14",
+      "primary_location": {
+        "id": "doi:10.1128/aem.02878-14",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1128/aem.02878-14",
+        "pdf_url": "https://aem.asm.org/content/aem/81/1/373.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S158228368",
+          "display_name": "Applied and Environmental Microbiology",
+          "issn_l": "0099-2240",
+          "issn": [
+            "0099-2240",
+            "1070-6291",
+            "1098-5336"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320263",
+          "host_organization_name": "American Society for Microbiology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320263"
+          ],
+          "host_organization_lineage_names": [
+            "American Society for Microbiology"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied and Environmental Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W4362470343",
+      "display_name": "Bioactive molecules from haloarchaea: Scope and prospects for industrial and therapeutic applications",
+      "publication_year": 2023,
+      "cited_by_count": 53,
+      "doi": "https://doi.org/10.3389/fmicb.2023.1113540",
+      "primary_location": {
+        "id": "doi:10.3389/fmicb.2023.1113540",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/fmicb.2023.1113540",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fmicb.2023.1113540/pdf",
+        "source": {
+          "id": "https://openalex.org/S2484704948",
+          "display_name": "Frontiers in Microbiology",
+          "issn_l": "1664-302X",
+          "issn": [
+            "1664-302X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W210441544",
+      "display_name": "Poly(3-hydroxybutyrate-co-3-hydroxyvalerate) production by Haloarchaeon Halogranum amylolyticum",
+      "publication_year": 2015,
+      "cited_by_count": 50,
+      "doi": "https://doi.org/10.1007/s00253-015-6609-y",
+      "primary_location": {
+        "id": "doi:10.1007/s00253-015-6609-y",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/s00253-015-6609-y",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S70979998",
+          "display_name": "Applied Microbiology and Biotechnology",
+          "issn_l": "0175-7598",
+          "issn": [
+            "0175-7598",
+            "1432-0614"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied Microbiology and Biotechnology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2799457725",
+      "display_name": "Anti-infective biomaterials with surface-decorated tachyplesin I",
+      "publication_year": 2018,
+      "cited_by_count": 50,
+      "doi": "https://doi.org/10.1016/j.biomaterials.2018.05.008",
+      "primary_location": {
+        "id": "doi:10.1016/j.biomaterials.2018.05.008",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.biomaterials.2018.05.008",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S163807576",
+          "display_name": "Biomaterials",
+          "issn_l": "0142-9612",
+          "issn": [
+            "0142-9612",
+            "1878-5905"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Biomaterials",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W3163329761",
+      "display_name": "Analysis of Polyhydroxyalkanoates Granules in Haloferax mediterranei by Double-Fluorescence Staining with Nile Red and SYBR Green by Confocal Fluorescence Microscopy",
+      "publication_year": 2021,
+      "cited_by_count": 47,
+      "doi": "https://doi.org/10.3390/polym13101582",
+      "primary_location": {
+        "id": "doi:10.3390/polym13101582",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/polym13101582",
+        "pdf_url": "https://www.mdpi.com/2073-4360/13/10/1582/pdf?version=1628128985",
+        "source": {
+          "id": "https://openalex.org/S123288148",
+          "display_name": "Polymers",
+          "issn_l": "2073-4360",
+          "issn": [
+            "2073-4360"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Polymers",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W4295298120",
+      "display_name": "Haloarchaea as emerging big players in future polyhydroxyalkanoate bioproduction: Review of trends and perspectives",
+      "publication_year": 2022,
+      "cited_by_count": 41,
+      "doi": "https://doi.org/10.1016/j.crbiot.2022.09.002",
+      "primary_location": {
+        "id": "doi:10.1016/j.crbiot.2022.09.002",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.crbiot.2022.09.002",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210236447",
+          "display_name": "Current Research in Biotechnology",
+          "issn_l": "2590-2628",
+          "issn": [
+            "2590-2628"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Current Research in Biotechnology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2747233523",
+      "display_name": "Cold adaptation of the Antarctic haloarchaea <i>Halohasta litchfieldiae</i> and <i>Halorubrum lacusprofundi</i>",
+      "publication_year": 2017,
+      "cited_by_count": 39,
+      "doi": "https://doi.org/10.1111/1462-2920.13705",
+      "primary_location": {
+        "id": "doi:10.1111/1462-2920.13705",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1111/1462-2920.13705",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S6919857",
+          "display_name": "Environmental Microbiology",
+          "issn_l": "1462-2912",
+          "issn": [
+            "1462-2912",
+            "1462-2920"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Environmental Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2974195733",
+      "display_name": "Unusual Phosphoenolpyruvate (PEP) Synthetase-Like Protein Crucial to Enhancement of Polyhydroxyalkanoate Accumulation in Haloferax mediterranei Revealed by Dissection of PEP-Pyruvate Interconversion Mechanism",
+      "publication_year": 2019,
+      "cited_by_count": 32,
+      "doi": "https://doi.org/10.1128/aem.00984-19",
+      "primary_location": {
+        "id": "doi:10.1128/aem.00984-19",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1128/aem.00984-19",
+        "pdf_url": "https://aem.asm.org/content/aem/85/19/e00984-19.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S158228368",
+          "display_name": "Applied and Environmental Microbiology",
+          "issn_l": "0099-2240",
+          "issn": [
+            "0099-2240",
+            "1070-6291",
+            "1098-5336"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320263",
+          "host_organization_name": "American Society for Microbiology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320263"
+          ],
+          "host_organization_lineage_names": [
+            "American Society for Microbiology"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied and Environmental Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2319658753",
+      "display_name": "Enoyl-CoA hydratase mediates polyhydroxyalkanoate mobilization in Haloferax mediterranei",
+      "publication_year": 2016,
+      "cited_by_count": 31,
+      "doi": "https://doi.org/10.1038/srep24015",
+      "primary_location": {
+        "id": "doi:10.1038/srep24015",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/srep24015",
+        "pdf_url": "https://www.nature.com/articles/srep24015.pdf",
+        "source": {
+          "id": "https://openalex.org/S196734849",
+          "display_name": "Scientific Reports",
+          "issn_l": "2045-2322",
+          "issn": [
+            "2045-2322"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Scientific Reports",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2159582344",
+      "display_name": "A Patatin-Like Protein Associated with the Polyhydroxyalkanoate (PHA) Granules of Haloferax mediterranei Acts as an Efficient Depolymerase in the Degradation of Native PHA",
+      "publication_year": 2015,
+      "cited_by_count": 29,
+      "doi": "https://doi.org/10.1128/aem.04269-14",
+      "primary_location": {
+        "id": "doi:10.1128/aem.04269-14",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1128/aem.04269-14",
+        "pdf_url": "https://aem.asm.org/content/aem/81/9/3029.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S158228368",
+          "display_name": "Applied and Environmental Microbiology",
+          "issn_l": "0099-2240",
+          "issn": [
+            "0099-2240",
+            "1070-6291",
+            "1098-5336"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320263",
+          "host_organization_name": "American Society for Microbiology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320263"
+          ],
+          "host_organization_lineage_names": [
+            "American Society for Microbiology"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied and Environmental Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2073143267",
+      "display_name": "Cellular and organellar membrane-associated proteins in haloarchaea: Perspectives on the physiological significance and biotechnological applications",
+      "publication_year": 2012,
+      "cited_by_count": 29,
+      "doi": "https://doi.org/10.1007/s11427-012-4321-z",
+      "primary_location": {
+        "id": "doi:10.1007/s11427-012-4321-z",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/s11427-012-4321-z",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007%2Fs11427-012-4321-z.pdf",
+        "source": {
+          "id": "https://openalex.org/S45795350",
+          "display_name": "Science China Life Sciences",
+          "issn_l": "1674-7305",
+          "issn": [
+            "1674-7305",
+            "1869-1889"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Science China Life Sciences",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W1148721410",
+      "display_name": "The methylaspartate cycle in haloarchaea and its possible role in carbon metabolism",
+      "publication_year": 2015,
+      "cited_by_count": 28,
+      "doi": "https://doi.org/10.1038/ismej.2015.132",
+      "primary_location": {
+        "id": "doi:10.1038/ismej.2015.132",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/ismej.2015.132",
+        "pdf_url": "https://www.nature.com/articles/ismej2015132.pdf",
+        "source": {
+          "id": "https://openalex.org/S149218730",
+          "display_name": "The ISME Journal",
+          "issn_l": "1751-7362",
+          "issn": [
+            "1751-7362",
+            "1751-7370"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319965",
+          "host_organization_name": "Springer Nature",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The ISME Journal",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W3010167188",
+      "display_name": "Advances in Polyhydroxyalkanoate (PHA) Production, Volume 2",
+      "publication_year": 2020,
+      "cited_by_count": 27,
+      "doi": "https://doi.org/10.3390/bioengineering7010024",
+      "primary_location": {
+        "id": "doi:10.3390/bioengineering7010024",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/bioengineering7010024",
+        "pdf_url": "https://www.mdpi.com/2306-5354/7/1/24/pdf",
+        "source": {
+          "id": "https://openalex.org/S4210179121",
+          "display_name": "Bioengineering",
+          "issn_l": "2306-5354",
+          "issn": [
+            "2306-5354"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Bioengineering",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W4308121164",
+      "display_name": "Characterization of Polyhydroxybutyrate, PHB, Synthesized by Newly Isolated Haloarchaea Halolamina spp.",
+      "publication_year": 2022,
+      "cited_by_count": 24,
+      "doi": "https://doi.org/10.3390/molecules27217366",
+      "primary_location": {
+        "id": "doi:10.3390/molecules27217366",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/molecules27217366",
+        "pdf_url": "https://www.mdpi.com/1420-3049/27/21/7366/pdf?version=1667190665",
+        "source": {
+          "id": "https://openalex.org/S108911230",
+          "display_name": "Molecules",
+          "issn_l": "1420-3049",
+          "issn": [
+            "1420-3049",
+            "1433-1373"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Molecules",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W969508850",
+      "display_name": "Polymerase chain reaction-based screening method applicable universally to environmental haloarchaea and halobacteria for identifying polyhydroxyalkanoate producers among them",
+      "publication_year": 2015,
+      "cited_by_count": 24,
+      "doi": "https://doi.org/10.1007/s00792-015-0775-9",
+      "primary_location": {
+        "id": "doi:10.1007/s00792-015-0775-9",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/s00792-015-0775-9",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S195642041",
+          "display_name": "Extremophiles",
+          "issn_l": "1431-0651",
+          "issn": [
+            "1431-0651",
+            "1433-4909"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Extremophiles",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2731704143",
+      "display_name": "Applied optimal control: optimization, estimation and control",
+      "publication_year": 1972,
+      "cited_by_count": 22,
+      "doi": "https://doi.org/10.1016/0016-0032(72)90145-7",
+      "primary_location": {
+        "id": "doi:10.1016/0016-0032(72)90145-7",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/0016-0032(72)90145-7",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S183498172",
+          "display_name": "Journal of the Franklin Institute",
+          "issn_l": "0016-0032",
+          "issn": [
+            "0016-0032",
+            "1879-2693"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of the Franklin Institute",
+        "raw_type": "journal-article"
+      }
+    }
+  ],
+  "group_by": []
+}

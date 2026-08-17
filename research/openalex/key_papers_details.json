@@ -1,0 +1,1314 @@
+{
+  "meta": {
+    "count": 28,
+    "db_response_time_ms": 25,
+    "page": 1,
+    "per_page": 100,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where DOI is (\n    10.1002/macp.1992.021930105 or 10.1002/pro.4470 or 10.1007/s00253-011-3096-7\n    or 10.1007/s00253-018-9153-8 or 10.1007/s00253-018-9195-y\n    or 10.1016/j.jmb.2005.12.028 or \"10.1016/s0065-2911(08)60088-0\"\n    or 10.1021/bm049401n or 10.1023/b:bile.0000036599.15302.e5\n    or 10.1038/nature24621 or 10.1038/nbt.4229 or 10.1038/nbt1244\n    or 10.1038/s41578-021-00407-8 or 10.1093/bioinformatics/btac672\n    or 10.1093/bioinformatics/btz848 or 10.1093/nar/gkab776\n    or 10.1111/1462-2920.12760 or 10.1111/1751-7915.12710\n    or 10.1126/science.aad6359 or 10.1128/aem.02773-17\n    or 10.1128/aem.63.12.4844-4852.1997 or 10.1128/jb.180.24.6459-6467.1998\n    or 10.1146/annurev.micro.56.012302.160838 or 10.1186/1471-2105-10-89\n    or 10.3389/fmicb.2019.01252 or 10.3389/fmicb.2020.580709\n    or 10.3389/fmicb.2022.888343 or 10.3390/ijms10093722\n  )",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "join": "or",
+            "filters": [
+              {
+                "column_id": "doi",
+                "value": "10.1002/macp.1992.021930105"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1002/pro.4470"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1007/s00253-011-3096-7"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1007/s00253-018-9153-8"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1007/s00253-018-9195-y"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1016/j.jmb.2005.12.028"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1016/s0065-2911(08)60088-0"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1021/bm049401n"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1023/b:bile.0000036599.15302.e5"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1038/nature24621"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1038/nbt.4229"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1038/nbt1244"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1038/s41578-021-00407-8"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1093/bioinformatics/btac672"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1093/bioinformatics/btz848"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1093/nar/gkab776"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1111/1462-2920.12760"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1111/1751-7915.12710"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1126/science.aad6359"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1128/aem.02773-17"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1128/aem.63.12.4844-4852.1997"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1128/jb.180.24.6459-6467.1998"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1146/annurev.micro.56.012302.160838"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.1186/1471-2105-10-89"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.3389/fmicb.2019.01252"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.3389/fmicb.2020.580709"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.3389/fmicb.2022.888343"
+              },
+              {
+                "column_id": "doi",
+                "value": "10.3390/ijms10093722"
+              }
+            ]
+          }
+        ]
+      },
+      "url": "/works?filter=doi:10.1002%2Fmacp.1992.021930105|10.1002%2Fpro.4470|10.1007%2Fs00253-011-3096-7|10.1007%2Fs00253-018-9153-8|10.1007%2Fs00253-018-9195-y|10.1016%2Fj.jmb.2005.12.028|10.1016%2Fs0065-2911%2808%2960088-0|10.1021%2Fbm049401n|10.1023%2Fb:bile.0000036599.15302.e5|10.1038%2Fnature24621|10.1038%2Fnbt.4229|10.1038%2Fnbt1244|10.1038%2Fs41578-021-00407-8|10.1093%2Fbioinformatics%2Fbtac672|10.1093%2Fbioinformatics%2Fbtz848|10.1093%2Fnar%2Fgkab776|10.1111%2F1462-2920.12760|10.1111%2F1751-7915.12710|10.1126%2Fscience.aad6359|10.1128%2Faem.02773-17|10.1128%2Faem.63.12.4844-4852.1997|10.1128%2Fjb.180.24.6459-6467.1998|10.1146%2Fannurev.micro.56.012302.160838|10.1186%2F1471-2105-10-89|10.3389%2Ffmicb.2019.01252|10.3389%2Ffmicb.2020.580709|10.3389%2Ffmicb.2022.888343|10.3390%2Fijms10093722&per_page=100&page=1"
+    },
+    "cost_usd": 0.0001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2986925300",
+      "display_name": "GTDB-Tk: a toolkit to classify genomes with the Genome Taxonomy Database",
+      "publication_year": 2019,
+      "cited_by_count": 5648,
+      "doi": "https://doi.org/10.1093/bioinformatics/btz848",
+      "primary_location": {
+        "id": "doi:10.1093/bioinformatics/btz848",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1093/bioinformatics/btz848",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S52395412",
+          "display_name": "Bioinformatics",
+          "issn_l": "1367-4803",
+          "issn": [
+            "1367-4803",
+            "1367-4811"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Bioinformatics",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2889019390",
+      "display_name": "A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life",
+      "publication_year": 2018,
+      "cited_by_count": 3964,
+      "doi": "https://doi.org/10.1038/nbt.4229",
+      "primary_location": {
+        "id": "doi:10.1038/nbt.4229",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1038/nbt.4229",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S106963461",
+          "display_name": "Nature Biotechnology",
+          "issn_l": "0733-222X",
+          "issn": [
+            "0733-222X",
+            "1087-0156",
+            "1546-1696",
+            "2331-3684"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature Biotechnology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2294707565",
+      "display_name": "A bacterium that degrades and assimilates poly(ethylene terephthalate)",
+      "publication_year": 2016,
+      "cited_by_count": 3342,
+      "doi": "https://doi.org/10.1126/science.aad6359",
+      "primary_location": {
+        "id": "doi:10.1126/science.aad6359",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1126/science.aad6359",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S3880285",
+          "display_name": "Science",
+          "issn_l": "0036-8075",
+          "issn": [
+            "0036-8075",
+            "0193-4511",
+            "1095-9203"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310315823",
+          "host_organization_name": "American Association for the Advancement of Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315823"
+          ],
+          "host_organization_lineage_names": [
+            "American Association for the Advancement of Science"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Science",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2766358903",
+      "display_name": "A communal catalogue reveals Earth\u2019s multiscale microbial diversity",
+      "publication_year": 2017,
+      "cited_by_count": 2944,
+      "doi": "https://doi.org/10.1038/nature24621",
+      "primary_location": {
+        "id": "doi:10.1038/nature24621",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/nature24621",
+        "pdf_url": "https://www.nature.com/articles/nature24621.pdf",
+        "source": {
+          "id": "https://openalex.org/S137773608",
+          "display_name": "Nature",
+          "issn_l": "0028-0836",
+          "issn": [
+            "0028-0836",
+            "1476-4687"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W3200103613",
+      "display_name": "GTDB: an ongoing census of bacterial and archaeal diversity through a phylogenetically consistent, rank normalized\u00a0and complete genome-based taxonomy",
+      "publication_year": 2021,
+      "cited_by_count": 2571,
+      "doi": "https://doi.org/10.1093/nar/gkab776",
+      "primary_location": {
+        "id": "doi:10.1093/nar/gkab776",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1093/nar/gkab776",
+        "pdf_url": "https://academic.oup.com/nar/article-pdf/50/D1/D785/42058270/gkab776.pdf",
+        "source": {
+          "id": "https://openalex.org/S134668137",
+          "display_name": "Nucleic Acids Research",
+          "issn_l": "0305-1048",
+          "issn": [
+            "0305-1048",
+            "1362-4954",
+            "1362-4962"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nucleic Acids Research",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W4205722716",
+      "display_name": "Bioplastics for a circular economy",
+      "publication_year": 2022,
+      "cited_by_count": 2047,
+      "doi": "https://doi.org/10.1038/s41578-021-00407-8",
+      "primary_location": {
+        "id": "doi:10.1038/s41578-021-00407-8",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41578-021-00407-8",
+        "pdf_url": "https://www.nature.com/articles/s41578-021-00407-8.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764917516",
+          "display_name": "Nature Reviews Materials",
+          "issn_l": "2058-8437",
+          "issn": [
+            "2058-8437"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature Reviews Materials",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W4304481015",
+      "display_name": "GTDB-Tk v2: memory friendly classification with the genome taxonomy database",
+      "publication_year": 2022,
+      "cited_by_count": 2018,
+      "doi": "https://doi.org/10.1093/bioinformatics/btac672",
+      "primary_location": {
+        "id": "doi:10.1093/bioinformatics/btac672",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1093/bioinformatics/btac672",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S52395412",
+          "display_name": "Bioinformatics",
+          "issn_l": "1367-4803",
+          "issn": [
+            "1367-4803",
+            "1367-4811"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Bioinformatics",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2149308759",
+      "display_name": "Biodegradability of Plastics",
+      "publication_year": 2009,
+      "cited_by_count": 1747,
+      "doi": "https://doi.org/10.3390/ijms10093722",
+      "primary_location": {
+        "id": "doi:10.3390/ijms10093722",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/ijms10093722",
+        "pdf_url": "https://www.mdpi.com/1422-0067/10/9/3722/pdf?version=1403138469",
+        "source": {
+          "id": "https://openalex.org/S10623703",
+          "display_name": "International Journal of Molecular Sciences",
+          "issn_l": "1422-0067",
+          "issn": [
+            "1422-0067",
+            "1661-6596"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Molecular Sciences",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W3107539693",
+      "display_name": "Microbial and Enzymatic Degradation of Synthetic Plastics",
+      "publication_year": 2020,
+      "cited_by_count": 1101,
+      "doi": "https://doi.org/10.3389/fmicb.2020.580709",
+      "primary_location": {
+        "id": "doi:10.3389/fmicb.2020.580709",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/fmicb.2020.580709",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fmicb.2020.580709/pdf",
+        "source": {
+          "id": "https://openalex.org/S2484704948",
+          "display_name": "Frontiers in Microbiology",
+          "issn_l": "1664-302X",
+          "issn": [
+            "1664-302X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W1815987069",
+      "display_name": "The Role and Regulation of Energy Reserve Polymers in Micro-organisms",
+      "publication_year": 1973,
+      "cited_by_count": 864,
+      "doi": "https://doi.org/10.1016/s0065-2911(08)60088-0",
+      "primary_location": {
+        "id": "doi:10.1016/s0065-2911(08)60088-0",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/s0065-2911(08)60088-0",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S13598995",
+          "display_name": "Advances in microbial physiology/Advances in Microbial Physiology",
+          "issn_l": "0065-2911",
+          "issn": [
+            "0065-2911",
+            "2162-5468"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "book series"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Advances in Microbial Physiology",
+        "raw_type": "book-chapter"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2600922952",
+      "display_name": "Microbial enzymes for the recycling of recalcitrant petroleum\u2010based plastics: how far are we?",
+      "publication_year": 2017,
+      "cited_by_count": 853,
+      "doi": "https://doi.org/10.1111/1751-7915.12710",
+      "primary_location": {
+        "id": "doi:10.1111/1751-7915.12710",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1111/1751-7915.12710",
+        "pdf_url": "https://sfamjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1751-7915.12710",
+        "source": {
+          "id": "https://openalex.org/S4210238104",
+          "display_name": "Microbial Biotechnology",
+          "issn_l": "1751-7915",
+          "issn": [
+            "1751-7915",
+            "1751-7907"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Microbial Biotechnology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2164479864",
+      "display_name": "Microbial Degradation of Polyhydroxyalkanoates",
+      "publication_year": 2002,
+      "cited_by_count": 692,
+      "doi": "https://doi.org/10.1146/annurev.micro.56.012302.160838",
+      "primary_location": {
+        "id": "doi:10.1146/annurev.micro.56.012302.160838",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1146/annurev.micro.56.012302.160838",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S82779230",
+          "display_name": "Annual Review of Microbiology",
+          "issn_l": "0066-4227",
+          "issn": [
+            "0066-4227",
+            "1545-3251"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320373",
+          "host_organization_name": "Annual Reviews",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320373"
+          ],
+          "host_organization_lineage_names": [
+            "Annual Reviews"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Annual Review of Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2125645956",
+      "display_name": "Genome sequence of the bioplastic-producing \u201cKnallgas\u201d bacterium Ralstonia eutropha H16",
+      "publication_year": 2006,
+      "cited_by_count": 669,
+      "doi": "https://doi.org/10.1038/nbt1244",
+      "primary_location": {
+        "id": "doi:10.1038/nbt1244",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/nbt1244",
+        "pdf_url": "https://www.nature.com/articles/nbt1244.pdf",
+        "source": {
+          "id": "https://openalex.org/S106963461",
+          "display_name": "Nature Biotechnology",
+          "issn_l": "0733-222X",
+          "issn": [
+            "0733-222X",
+            "1087-0156",
+            "1546-1696",
+            "2331-3684"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature Biotechnology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2869876473",
+      "display_name": "Degradation of plastics and plastic-degrading bacteria in cold marine habitats",
+      "publication_year": 2018,
+      "cited_by_count": 611,
+      "doi": "https://doi.org/10.1007/s00253-018-9195-y",
+      "primary_location": {
+        "id": "doi:10.1007/s00253-018-9195-y",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/s00253-018-9195-y",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00253-018-9195-y.pdf",
+        "source": {
+          "id": "https://openalex.org/S70979998",
+          "display_name": "Applied Microbiology and Biotechnology",
+          "issn_l": "0175-7598",
+          "issn": [
+            "0175-7598",
+            "1432-0614"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied Microbiology and Biotechnology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2791560780",
+      "display_name": "New Insights into the Function and Global Distribution of Polyethylene Terephthalate (PET)-Degrading Bacteria and Enzymes in Marine and Terrestrial Metagenomes",
+      "publication_year": 2018,
+      "cited_by_count": 445,
+      "doi": "https://doi.org/10.1128/aem.02773-17",
+      "primary_location": {
+        "id": "doi:10.1128/aem.02773-17",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1128/aem.02773-17",
+        "pdf_url": "https://aem.asm.org/content/aem/84/8/e02773-17.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S158228368",
+          "display_name": "Applied and Environmental Microbiology",
+          "issn_l": "0099-2240",
+          "issn": [
+            "0099-2240",
+            "1070-6291",
+            "1098-5336"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320263",
+          "host_organization_name": "American Society for Microbiology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320263"
+          ],
+          "host_organization_lineage_names": [
+            "American Society for Microbiology"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied and Environmental Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2023631098",
+      "display_name": "Review Degradation of microbial polyesters",
+      "publication_year": 2004,
+      "cited_by_count": 339,
+      "doi": "https://doi.org/10.1023/b:bile.0000036599.15302.e5",
+      "primary_location": {
+        "id": "doi:10.1023/b:bile.0000036599.15302.e5",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1023/b:bile.0000036599.15302.e5",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S113993733",
+          "display_name": "Biotechnology Letters",
+          "issn_l": "0141-5492",
+          "issn": [
+            "0141-5492",
+            "1573-6776"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Biotechnology Letters",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W1549936434",
+      "display_name": "A holistic view of polyhydroxyalkanoate metabolism in <i>Pseudomonas putida</i>",
+      "publication_year": 2014,
+      "cited_by_count": 232,
+      "doi": "https://doi.org/10.1111/1462-2920.12760",
+      "primary_location": {
+        "id": "doi:10.1111/1462-2920.12760",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1111/1462-2920.12760",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1462-2920.12760",
+        "source": {
+          "id": "https://openalex.org/S6919857",
+          "display_name": "Environmental Microbiology",
+          "issn_l": "1462-2912",
+          "issn": [
+            "1462-2912",
+            "1462-2920"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Environmental Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2087453257",
+      "display_name": "Poly(3-hydroxybutyrate) Granule-Associated Proteins:\u2009 Impacts on Poly(3-hydroxybutyrate) Synthesis and Degradation",
+      "publication_year": 2005,
+      "cited_by_count": 226,
+      "doi": "https://doi.org/10.1021/bm049401n",
+      "primary_location": {
+        "id": "doi:10.1021/bm049401n",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1021/bm049401n",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S11629336",
+          "display_name": "Biomacromolecules",
+          "issn_l": "1525-7797",
+          "issn": [
+            "1525-7797",
+            "1526-4602"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320006",
+          "host_organization_name": "American Chemical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320006"
+          ],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Biomacromolecules",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2955133522",
+      "display_name": "Shotgun Metagenomics Reveals the Benthic Microbial Community Response to Plastic and Bioplastic in a Coastal Marine Environment",
+      "publication_year": 2019,
+      "cited_by_count": 215,
+      "doi": "https://doi.org/10.3389/fmicb.2019.01252",
+      "primary_location": {
+        "id": "doi:10.3389/fmicb.2019.01252",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/fmicb.2019.01252",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fmicb.2019.01252/pdf",
+        "source": {
+          "id": "https://openalex.org/S2484704948",
+          "display_name": "Frontiers in Microbiology",
+          "issn_l": "1664-302X",
+          "issn": [
+            "1664-302X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2131164625",
+      "display_name": "The PHA Depolymerase Engineering Database: A systematic analysis tool for the diverse family of polyhydroxyalkanoate (PHA) depolymerases",
+      "publication_year": 2009,
+      "cited_by_count": 162,
+      "doi": "https://doi.org/10.1186/1471-2105-10-89",
+      "primary_location": {
+        "id": "doi:10.1186/1471-2105-10-89",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1186/1471-2105-10-89",
+        "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-10-89",
+        "source": {
+          "id": "https://openalex.org/S19032547",
+          "display_name": "BMC Bioinformatics",
+          "issn_l": "1471-2105",
+          "issn": [
+            "1471-2105"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320256",
+          "host_organization_name": "BioMed Central",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320256",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "BioMed Central",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "BMC Bioinformatics",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2809748194",
+      "display_name": "Polyhydroxybutyrate (PHB) biodegradation using bacterial strains with demonstrated and predicted PHB depolymerase activity",
+      "publication_year": 2018,
+      "cited_by_count": 78,
+      "doi": "https://doi.org/10.1007/s00253-018-9153-8",
+      "primary_location": {
+        "id": "doi:10.1007/s00253-018-9153-8",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/s00253-018-9153-8",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S70979998",
+          "display_name": "Applied Microbiology and Biotechnology",
+          "issn_l": "0175-7598",
+          "issn": [
+            "0175-7598",
+            "1432-0614"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied Microbiology and Biotechnology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W1899396383",
+      "display_name": "Enzymatic degradation of microbial poly(3\u2010hydroxybutyrate) films",
+      "publication_year": 1992,
+      "cited_by_count": 232,
+      "doi": "https://doi.org/10.1002/macp.1992.021930105",
+      "primary_location": {
+        "id": "doi:10.1002/macp.1992.021930105",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1002/macp.1992.021930105",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210221479",
+          "display_name": "Die Makromolekulare Chemie",
+          "issn_l": "0025-116X",
+          "issn": [
+            "0025-116X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Die Makromolekulare Chemie",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W1592377749",
+      "display_name": "Cloning and Molecular Analysis of the Poly(3-hydroxybutyrate) and Poly(3-hydroxybutyrate-<i>co</i>-3-hydroxyalkanoate) Biosynthesis Genes in<i>Pseudomonas</i>sp. Strain 61-3",
+      "publication_year": 1998,
+      "cited_by_count": 214,
+      "doi": "https://doi.org/10.1128/jb.180.24.6459-6467.1998",
+      "primary_location": {
+        "id": "doi:10.1128/jb.180.24.6459-6467.1998",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1128/jb.180.24.6459-6467.1998",
+        "pdf_url": "https://jb.asm.org/content/jb/180/24/6459.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S133274750",
+          "display_name": "Journal of Bacteriology",
+          "issn_l": "0021-9193",
+          "issn": [
+            "0021-9193",
+            "1067-8832",
+            "1098-5530"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320263",
+          "host_organization_name": "American Society for Microbiology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320263"
+          ],
+          "host_organization_lineage_names": [
+            "American Society for Microbiology"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Bacteriology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2056256968",
+      "display_name": "The Crystal Structure of Polyhydroxybutyrate Depolymerase from Penicillium funiculosum Provides Insights into the Recognition and Degradation of Biopolyesters",
+      "publication_year": 2005,
+      "cited_by_count": 122,
+      "doi": "https://doi.org/10.1016/j.jmb.2005.12.028",
+      "primary_location": {
+        "id": "doi:10.1016/j.jmb.2005.12.028",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.jmb.2005.12.028",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S46058472",
+          "display_name": "Journal of Molecular Biology",
+          "issn_l": "0022-2836",
+          "issn": [
+            "0022-2836",
+            "1089-8638"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Molecular Biology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2026010604",
+      "display_name": "Biochemical characterization of a new type of intracellular PHB depolymerase from Rhodospirillum rubrum with high hydrolytic activity on native PHB granules",
+      "publication_year": 2011,
+      "cited_by_count": 27,
+      "doi": "https://doi.org/10.1007/s00253-011-3096-7",
+      "primary_location": {
+        "id": "doi:10.1007/s00253-011-3096-7",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/s00253-011-3096-7",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S70979998",
+          "display_name": "Applied Microbiology and Biotechnology",
+          "issn_l": "0175-7598",
+          "issn": [
+            "0175-7598",
+            "1432-0614"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied Microbiology and Biotechnology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W4304689113",
+      "display_name": "Bioplastic degradation by a polyhydroxybutyrate depolymerase from a thermophilic soil bacterium",
+      "publication_year": 2022,
+      "cited_by_count": 26,
+      "doi": "https://doi.org/10.1002/pro.4470",
+      "primary_location": {
+        "id": "doi:10.1002/pro.4470",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1002/pro.4470",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/pro.4470",
+        "source": {
+          "id": "https://openalex.org/S156919612",
+          "display_name": "Protein Science",
+          "issn_l": "0961-8368",
+          "issn": [
+            "0961-8368",
+            "1469-896X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Protein Science",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W4223437726",
+      "display_name": "Identification of BgP, a Cutinase-Like Polyesterase From a Deep-Sea Sponge-Derived Actinobacterium",
+      "publication_year": 2022,
+      "cited_by_count": 23,
+      "doi": "https://doi.org/10.3389/fmicb.2022.888343",
+      "primary_location": {
+        "id": "doi:10.3389/fmicb.2022.888343",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/fmicb.2022.888343",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fmicb.2022.888343/pdf",
+        "source": {
+          "id": "https://openalex.org/S2484704948",
+          "display_name": "Frontiers in Microbiology",
+          "issn_l": "1664-302X",
+          "issn": [
+            "1664-302X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2120707072",
+      "display_name": "Biochemical and molecular characterization of the polyhydroxybutyrate depolymerase of Comamonas acidovorans YM1609, isolated from freshwater",
+      "publication_year": 1997,
+      "cited_by_count": 83,
+      "doi": "https://doi.org/10.1128/aem.63.12.4844-4852.1997",
+      "primary_location": {
+        "id": "doi:10.1128/aem.63.12.4844-4852.1997",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1128/aem.63.12.4844-4852.1997",
+        "pdf_url": "https://aem.asm.org/content/aem/63/12/4844.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S158228368",
+          "display_name": "Applied and Environmental Microbiology",
+          "issn_l": "0099-2240",
+          "issn": [
+            "0099-2240",
+            "1070-6291",
+            "1098-5336"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320263",
+          "host_organization_name": "American Society for Microbiology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320263"
+          ],
+          "host_organization_lineage_names": [
+            "American Society for Microbiology"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied and Environmental Microbiology",
+        "raw_type": "journal-article"
+      }
+    }
+  ],
+  "group_by": []
+}

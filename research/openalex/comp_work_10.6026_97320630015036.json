@@ -1,0 +1,223 @@
+﻿{
+  "id": "https://openalex.org/W2954208825",
+  "display_name": "Polyhydroxyalkanoates (PHA) genes Database",
+  "publication_year": 2019,
+  "cited_by_count": 9,
+  "doi": "https://doi.org/10.6026/97320630015036",
+  "primary_location": {
+    "id": "doi:10.6026/97320630015036",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.6026/97320630015036",
+    "pdf_url": "http://www.bioinformation.net/015/97320630015036.pdf",
+    "source": {
+      "id": "https://openalex.org/S2755911950",
+      "display_name": "Bioinformation",
+      "issn_l": "0973-2063",
+      "issn": [
+        "0973-2063",
+        "0973-8894"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4328143488",
+      "host_organization_name": "Biomedical Informatics",
+      "host_organization_lineage": [
+        "https://openalex.org/P4328143488"
+      ],
+      "host_organization_lineage_names": [
+        "Biomedical Informatics"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Bioinformation",
+    "raw_type": "journal-article"
+  },
+  "abstract_inverted_index": {
+    "Polyhydroxyalkanoates": [
+      0
+    ],
+    "(PHA)": [
+      1
+    ],
+    "are": [
+      2,
+      9
+    ],
+    "polyesters": [
+      3
+    ],
+    "of": [
+      4,
+      28,
+      43,
+      45
+    ],
+    "various": [
+      5
+    ],
+    "hydroxyl": [
+      6
+    ],
+    "alkanoates": [
+      7
+    ],
+    "that": [
+      8
+    ],
+    "synthesized": [
+      10
+    ],
+    "by": [
+      11
+    ],
+    "many": [
+      12
+    ],
+    "gram-positive": [
+      13
+    ],
+    "and": [
+      14,
+      30,
+      67
+    ],
+    "gramnegative": [
+      15
+    ],
+    "bacteria": [
+      16
+    ],
+    "from": [
+      17,
+      64
+    ],
+    "about": [
+      18
+    ],
+    "75": [
+      19
+    ],
+    "different": [
+      20
+    ],
+    "genera.": [
+      21
+    ],
+    "PHA": [
+      22,
+      62
+    ],
+    "genes": [
+      23,
+      29,
+      63
+    ],
+    "database": [
+      24,
+      58
+    ],
+    "is": [
+      25
+    ],
+    "a": [
+      26
+    ],
+    "repository": [
+      27
+    ],
+    "its": [
+      31
+    ],
+    "genomic": [
+      32,
+      41,
+      57
+    ],
+    "information": [
+      33
+    ],
+    "related": [
+      34
+    ],
+    "to": [
+      35
+    ],
+    "PHA.It": [
+      36
+    ],
+    "contains": [
+      37
+    ],
+    "data": [
+      38,
+      60
+    ],
+    "on": [
+      39,
+      61
+    ],
+    "the": [
+      40
+    ],
+    "characterization": [
+      42
+    ],
+    "intermediates": [
+      44
+    ],
+    "PHA.": [
+      46
+    ],
+    "These": [
+      47
+    ],
+    "include": [
+      48
+    ],
+    "CAB": [
+      49
+    ],
+    "genes,": [
+      50
+    ],
+    "responsible": [
+      51
+    ],
+    "for": [
+      52
+    ],
+    "biodegradable": [
+      53
+    ],
+    "plastic": [
+      54
+    ],
+    "synthesis.": [
+      55
+    ],
+    "The": [
+      56
+    ],
+    "provides": [
+      59
+    ],
+    "archaeal,": [
+      65
+    ],
+    "bacterial": [
+      66
+    ],
+    "eukaryotic": [
+      68
+    ],
+    "genomes.": [
+      69
+    ]
+  }
+}

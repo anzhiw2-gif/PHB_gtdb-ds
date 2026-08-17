@@ -1,0 +1,295 @@
+﻿{
+  "id": "https://openalex.org/W2732496376",
+  "display_name": "Degradation of Polyhydroxyalkanoate (PHA): a Review",
+  "publication_year": 2017,
+  "cited_by_count": 75,
+  "doi": "https://doi.org/10.17516/1997-1389-0024",
+  "primary_location": {
+    "id": "doi:10.17516/1997-1389-0024",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.17516/1997-1389-0024",
+    "pdf_url": "https://doi.org/10.17516/1997-1389-0024",
+    "source": {
+      "id": "https://openalex.org/S4210173362",
+      "display_name": "Journal of Siberian Federal University Biology",
+      "issn_l": "1997-1389",
+      "issn": [
+        "1997-1389",
+        "2313-5530"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": false,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Siberian Federal University. Biology",
+    "raw_type": "journal-article"
+  },
+  "abstract_inverted_index": {
+    "Polyhydroxyalkanoate": [
+      0
+    ],
+    "(PHA)": [
+      1
+    ],
+    "is": [
+      2,
+      28,
+      49
+    ],
+    "an": [
+      3
+    ],
+    "attractive": [
+      4
+    ],
+    "material": [
+      5
+    ],
+    "due": [
+      6
+    ],
+    "to": [
+      7,
+      19
+    ],
+    "its": [
+      8,
+      17
+    ],
+    "mechanical": [
+      9
+    ],
+    "properties": [
+      10,
+      76
+    ],
+    "and": [
+      11,
+      74,
+      84,
+      97,
+      106
+    ],
+    "biodegradability.": [
+      12
+    ],
+    "As": [
+      13
+    ],
+    "a": [
+      14,
+      29,
+      33,
+      93
+    ],
+    "result": [
+      15
+    ],
+    "of": [
+      16,
+      26,
+      39,
+      68,
+      77,
+      87,
+      95,
+      104,
+      109
+    ],
+    "ability": [
+      18
+    ],
+    "degrade": [
+      20
+    ],
+    "naturally": [
+      21
+    ],
+    "in": [
+      22
+    ],
+    "the": [
+      23,
+      37,
+      41,
+      44,
+      66,
+      71,
+      75,
+      88,
+      102,
+      107
+    ],
+    "environment,": [
+      24
+    ],
+    "utilization": [
+      25
+    ],
+    "PHA": [
+      27,
+      48,
+      57,
+      69,
+      78,
+      105,
+      110
+    ],
+    "step": [
+      30
+    ],
+    "closer": [
+      31
+    ],
+    "towards": [
+      32
+    ],
+    "greener": [
+      34
+    ],
+    "environment": [
+      35
+    ],
+    "with": [
+      36
+    ],
+    "aim": [
+      38
+    ],
+    "reducing": [
+      40
+    ],
+    "dependency": [
+      42
+    ],
+    "on": [
+      43
+    ],
+    "nondegradable": [
+      45
+    ],
+    "synthetic": [
+      46
+    ],
+    "plastic.": [
+      47
+    ],
+    "degraded": [
+      50
+    ],
+    "by": [
+      51
+    ],
+    "microorganisms": [
+      52
+    ],
+    "that": [
+      53,
+      63
+    ],
+    "could": [
+      54,
+      64
+    ],
+    "secrete": [
+      55
+    ],
+    "extracellular": [
+      56,
+      98
+    ],
+    "depolymerase.": [
+      58
+    ],
+    "Besides": [
+      59
+    ],
+    "that,": [
+      60
+    ],
+    "other": [
+      61
+    ],
+    "factors": [
+      62,
+      100
+    ],
+    "affect": [
+      65
+    ],
+    "degradation": [
+      67,
+      103
+    ],
+    "include": [
+      70
+    ],
+    "environmental": [
+      72
+    ],
+    "condition": [
+      73
+    ],
+    "such": [
+      79
+    ],
+    "as": [
+      80
+    ],
+    "composition,": [
+      81
+    ],
+    "crystallinity,": [
+      82
+    ],
+    "additives": [
+      83
+    ],
+    "surface": [
+      85
+    ],
+    "area": [
+      86
+    ],
+    "PHA.": [
+      89
+    ],
+    "This": [
+      90
+    ],
+    "review": [
+      91
+    ],
+    "provides": [
+      92
+    ],
+    "summary": [
+      94
+    ],
+    "intracellular": [
+      96
+    ],
+    "degradation,": [
+      99
+    ],
+    "affecting": [
+      101
+    ],
+    "application": [
+      108
+    ],
+    "degradation.": [
+      111
+    ]
+  }
+}

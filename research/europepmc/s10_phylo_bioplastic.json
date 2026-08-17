@@ -1,0 +1,2735 @@
+{
+  "hitCount": 35,
+  "nextCursorMark": "AoIIQGP+OCg1MDQ5ODgyMg==",
+  "results": [
+    {
+      "id": "42317755",
+      "source": "MED",
+      "pmid": "42317755",
+      "pmcid": "PMC13272299",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13272299"
+        ]
+      },
+      "doi": "10.3389/fmicb.2026.1828736",
+      "title": "Metagenomic insights into microbial diversity, xenobiotic and plastic-degrading enzymes in sediments of river Yamuna at Agra.",
+      "authorString": "Rout AK, Tripathy PS, Rout SS, Kumar N, Parida SN, Panda A, Suman D, Tyagi A, Behera BK, Pandey PK.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Rout AK",
+            "firstName": "Ajaya Kumar",
+            "lastName": "Rout",
+            "initials": "AK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Fisheries (Datia), Rani Lakshmi Bai Central Agricultural University, Jhansi, Uttar Pradesh, India."
+                },
+                {
+                  "affiliation": "ICAR-Central Inland Fisheries Research Institute, Kolkata, West Bengal, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tripathy PS",
+            "firstName": "Partha Sarathi",
+            "lastName": "Tripathy",
+            "initials": "PS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Fisheries (Datia), Rani Lakshmi Bai Central Agricultural University, Jhansi, Uttar Pradesh, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rout SS",
+            "firstName": "Sushree Swati",
+            "lastName": "Rout",
+            "initials": "SS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Zoology, Fakir Mohan University, Balasore, Odisha, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kumar N",
+            "firstName": "Neelesh",
+            "lastName": "Kumar",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Fisheries (Datia), Rani Lakshmi Bai Central Agricultural University, Jhansi, Uttar Pradesh, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Parida SN",
+            "firstName": "Satya Narayan",
+            "lastName": "Parida",
+            "initials": "SN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Fisheries (Datia), Rani Lakshmi Bai Central Agricultural University, Jhansi, Uttar Pradesh, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Panda A",
+            "firstName": "Anusuiya",
+            "lastName": "Panda",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Agriculture, Rani Lakshmi Bai Central Agricultural University, Jhansi, Uttar Pradesh, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Suman D",
+            "firstName": "Deepa",
+            "lastName": "Suman",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Fisheries Development Board, Department of Fisheries, Government of India, Hyderabad, Telangana, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tyagi A",
+            "firstName": "Anuj",
+            "lastName": "Tyagi",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Fisheries (Datia), Rani Lakshmi Bai Central Agricultural University, Jhansi, Uttar Pradesh, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Behera BK",
+            "firstName": "Bijay Kumar",
+            "lastName": "Behera",
+            "initials": "BK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "ICAR-Central Inland Fisheries Research Institute, Kolkata, West Bengal, India."
+                },
+                {
+                  "affiliation": "National Fisheries Development Board, Department of Fisheries, Government of India, Hyderabad, Telangana, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pandey PK",
+            "firstName": "Pramod Kumar",
+            "lastName": "Pandey",
+            "initials": "PK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9629-4549"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Fisheries (Datia), Rani Lakshmi Bai Central Agricultural University, Jhansi, Uttar Pradesh, India."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9629-4549"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "17",
+        "journalIssueId": 4112147,
+        "dateOfPublication": "2026 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-01-01",
+        "journal": {
+          "title": "Frontiers in microbiology",
+          "medlineAbbreviation": "Front Microbiol",
+          "essn": "1664-302X",
+          "issn": "1664-302X",
+          "isoabbreviation": "Front Microbiol",
+          "nlmid": "101548977"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "1828736",
+      "abstractText": "The river Yamuna is one of the most polluted rivers in India and is heavily impacted by urban, industrial, and agricultural inputs. In this study, shotgun metagenomics was used to investigate microbial diversity and functional potential in sediments from three locations: Balkeshwar Shivpuri Agra (BSA), Taj Ganj Yamuna (TGY), and Yamuna Expressway Agra (YEA). A total of 38.3-46.5 million reads per sample were generated, yielding 3.08-5.54 million predicted ORFs. Taxonomic profiling revealed that BSA exhibited higher microbial diversity, with a more even distribution of dominant taxa compared to TGY and YEA. Functional analysis indicated that core metabolic pathways (e.g., glycolysis and TCA cycle) were more abundant in BSA, whereas pathways related to aromatic compound degradation were relatively enriched in TGY. Plastic-degrading enzyme homologs were detected across all sites, with the strongest signals associated with biodegradable polymers such as polyhydroxyalkanoates (PHA), polyhydroxybutyrate (PHB), and polyethylene glycol (PEG). The normalized abundances of PHA-associated enzymes were approximately 60-75% higher in YEA compared to BSA and TGY, while homologs linked to recalcitrant plastics such as polyethylene (PE) and low-density polyethylene (LDPE) were detected at low levels across all sites (< 10-15%). Similarly, xenobiotic degradation pathways, including chlorocyclohexane and chlorobenzene degradation, showed relatively higher abundance in YEA, whereas bisphenol degradation was more prominent in BSA. Overall, the results indicate that sediment microbial communities along the river Yamuna harbor diverse metabolic capabilities and functional potential for pollutant degradation, with site-specific variations driven by local environmental conditions.",
+      "affiliation": "College of Fisheries (Datia), Rani Lakshmi Bai Central Agricultural University, Jhansi, Uttar Pradesh, India.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Sediment",
+          "Microbial diversity",
+          "Metagenomics",
+          "Xenobiotic Degradation",
+          "River Yamuna",
+          "Plastic Degrading Enzyme"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3389/fmicb.2026.1828736"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13272299"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13272299?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "dateOfCompletion": "2026-06-19",
+      "dateOfCreation": "2026-06-19",
+      "firstIndexDate": "2026-06-20",
+      "fullTextReceivedDate": "2026-06-24",
+      "dateOfRevision": "2026-06-19",
+      "electronicPublicationDate": "2026-06-03",
+      "firstPublicationDate": "2026-06-03"
+    },
+    {
+      "id": "41632325",
+      "source": "MED",
+      "pmid": "41632325",
+      "pmcid": "PMC12913324",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12913324"
+        ]
+      },
+      "doi": "10.1007/s00248-025-02677-z",
+      "title": "The Diversity of Plastisphere Bacterial and Fungal Communities Differs between Biodegradable Polymer Types in Soil.",
+      "authorString": "Lyons R, Chan CM, Hodal CME, Parry AR, Lant P, Pratt S, Laycock B, Dennis PG.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lyons R",
+            "firstName": "Rebecca",
+            "lastName": "Lyons",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of the Environment, The University of Queensland, St Lucia, QLD, Australia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chan CM",
+            "firstName": "Clement M",
+            "lastName": "Chan",
+            "initials": "CM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemical Engineering, The University of Queensland, St Lucia, QLD, Australia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hodal CME",
+            "firstName": "Catherine M E",
+            "lastName": "Hodal",
+            "initials": "CME",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of the Environment, The University of Queensland, St Lucia, QLD, Australia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Parry AR",
+            "firstName": "Andrew R",
+            "lastName": "Parry",
+            "initials": "AR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of the Environment, The University of Queensland, St Lucia, QLD, Australia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lant P",
+            "firstName": "Paul",
+            "lastName": "Lant",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemical Engineering, The University of Queensland, St Lucia, QLD, Australia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pratt S",
+            "firstName": "Steven",
+            "lastName": "Pratt",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemical Engineering, The University of Queensland, St Lucia, QLD, Australia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Laycock B",
+            "firstName": "Bronwyn",
+            "lastName": "Laycock",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0251-844X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemical Engineering, The University of Queensland, St Lucia, QLD, Australia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dennis PG",
+            "firstName": "Paul G",
+            "lastName": "Dennis",
+            "initials": "PG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of the Environment, The University of Queensland, St Lucia, QLD, Australia. p.dennis@uq.edu.au."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0251-844X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "89",
+        "journalIssueId": 4124210,
+        "dateOfPublication": "2026 Feb",
+        "monthOfPublication": 2,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-02-01",
+        "journal": {
+          "title": "Microbial ecology",
+          "medlineAbbreviation": "Microb Ecol",
+          "essn": "1432-184X",
+          "issn": "0095-3628",
+          "isoabbreviation": "Microb Ecol",
+          "nlmid": "7500663"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "56",
+      "abstractText": "Biodegradable polymers (BPs) are often seen as sustainable alternatives to conventional plastics. However, their actual degradability in soils, a major sink for plastic pollution, varies considerably. Moreover, their breakdown can influence soil microbial communities, with potential consequences for ecosystem function. Here, we compared the impacts of four major BP types: (1) poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (PHBV), (2) poly(butylene adipate-co-terephthalate) (PBAT), (3) poly(butylene succinate) (PBS), and (4) poly(lactic acid) (PLA), on soil and plastisphere microbial communities. Standardised BP samples were buried in soil for 117 days, after which bacterial and fungal biomass load and diversity were assessed in the BPs and surrounding soils using quantitative PCR and metabarcoding. X-ray micro-computed tomography (\u00b5XCT) and gel permeation chromatography (GPC) were also used to compare signs of degradation. PLA exhibited negligible signs of degradation, no evidence of microbial colonisation, and minimal impacts on microbial diversity relative to bulk soil. In contrast, PHBV, PBAT, and PBS underwent marked degradation and supported distinct microbial assemblages with elevated biomass but reduced diversity, indicating selective enrichment of specific taxa. These findings demonstrate that BPs differ markedly in their environmental degradability and influence on soil microbial communities, providing insights to support polymer selection for more sustainable plastic use.",
+      "affiliation": "School of the Environment, The University of Queensland, St Lucia, QLD, Australia.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "The University of Queensland",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Bacteria",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CL",
+                  "qualifierName": "classification",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "IP",
+                  "qualifierName": "isolation & purification",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Fungi",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CL",
+                  "qualifierName": "classification",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "IP",
+                  "qualifierName": "isolation & purification",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Butylene Glycols",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Polymers",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Polyesters",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Soil",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Soil Microbiology"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biodiversity"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biodegradation, Environmental"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Biodegradable Plastics",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Polyhydroxybutyrates"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Poly(lactic Acid) (Pla)",
+          "Poly(butylene Succinate) (Pbs)",
+          "Poly(butylene Adipate-co-terephthalate) (Pbat)",
+          "Poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (Phbv)",
+          "Biodegradation In Soil",
+          "Microbial Communities, Biodegradable Polymers"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "poly(butylene adipate-co-butylene terephthalate)",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Polymers",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Polyesters",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Butylene Glycols",
+            "registryNumber": "0"
+          },
+          {
+            "name": "poly(3-hydroxybutyrate)-co-(3-hydroxyvalerate)",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Soil",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Biodegradable Plastics",
+            "registryNumber": "0"
+          },
+          {
+            "name": "poly(lactide)",
+            "registryNumber": "459TN2L5F5"
+          },
+          {
+            "name": "Polyhydroxybutyrates",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1007/s00248-025-02677-z"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12913324"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12913324?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2026-06-27",
+      "dateOfCreation": "2026-02-03",
+      "firstIndexDate": "2026-02-09",
+      "fullTextReceivedDate": "2026-02-19",
+      "dateOfRevision": "2026-08-13",
+      "electronicPublicationDate": "2026-02-03",
+      "firstPublicationDate": "2026-02-03"
+    },
+    {
+      "id": "40320445",
+      "source": "MED",
+      "pmid": "40320445",
+      "pmcid": "PMC12050325",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12050325"
+        ]
+      },
+      "doi": "10.1038/s41598-025-99034-4",
+      "title": "Isolation of marine bacteria with potential for polyhydroxyalkanoate degradation and optimization for enzyme production.",
+      "authorString": "Boondaeng A, Trakunjae C, Vaithanomsat P, Niyomvong N.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Boondaeng A",
+            "firstName": "Antika",
+            "lastName": "Boondaeng",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Kasetsart Agricultural and Agro-Industrial Product Improvement Institute, Kasetsart University, Bangkok, 10900, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Trakunjae C",
+            "firstName": "Chanaporn",
+            "lastName": "Trakunjae",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Kasetsart Agricultural and Agro-Industrial Product Improvement Institute, Kasetsart University, Bangkok, 10900, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vaithanomsat P",
+            "firstName": "Pilanee",
+            "lastName": "Vaithanomsat",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Kasetsart Agricultural and Agro-Industrial Product Improvement Institute, Kasetsart University, Bangkok, 10900, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Niyomvong N",
+            "firstName": "Nanthavut",
+            "lastName": "Niyomvong",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and Biotechnology, Faculty of Science and Technology, Nakhon Sawan Rajabhat University, Nakhon Sawan, 60000, Thailand. nanthavut.ni@nsru.ac.th."
+                },
+                {
+                  "affiliation": "Science Center, Nakhon Sawan Rajabhat University, Nakhon Sawan, 60000, Thailand. nanthavut.ni@nsru.ac.th."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "15",
+        "journalIssueId": 3935672,
+        "dateOfPublication": "2025 May",
+        "monthOfPublication": 5,
+        "yearOfPublication": 2025,
+        "printPublicationDate": "2025-05-01",
+        "journal": {
+          "title": "Scientific reports",
+          "medlineAbbreviation": "Sci Rep",
+          "essn": "2045-2322",
+          "issn": "2045-2322",
+          "isoabbreviation": "Sci Rep",
+          "nlmid": "101563288"
+        }
+      },
+      "pubYear": "2025",
+      "pageInfo": "15586",
+      "abstractText": "Plastic materials are widely used because of their strength, light weight, durability, and environmental resistance. However, their decomposition rates are significantly slower than their typical lifespans. The rapid and continuous increase in plastic consumption has caused severe environmental impacts due to the accumulation of plastic waste. We identified potential polyhydroxyalkanoate (PHA)-degrading bacteria from marine environments capable of producing extracellular PHA depolymerases crucial for biodegrading PHAs. Marine debris was collected to screen poly [(R)-3-hydroxybutyric acid] (P(3HB))-degrading bacteria. Six isolates showed the ability to produce clear zones surrounding their colonies by degrading the bioplastic P(3HB). The isolate SS1-2, exhibiting the greatest degradation index of 1.44, was chosen for optimization through the statistical technique. The results indicated that NH<sub>4</sub>Cl was the best nitrogen source for enzyme production, and the response surface methodology (RSM) suggested that the greatest P(3HB) depolymerase production could be achieved when the concentrations of substrate loading and NH<sub>4</sub>Cl both set at 0.5%. Analysis of the 16S rRNA sequence of isolate SS1-2 revealed similarity to Pseudooceanicola antarcticus CGMCC 1.12662 (97.81% similarity). The findings of this study indicate the potential for further exploitation of this depolymerase in enzyme kinetics studies and its application in PHA degradation experiments.",
+      "affiliation": "Kasetsart Agricultural and Agro-Industrial Product Improvement Institute, Kasetsart University, Bangkok, 10900, Thailand.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "(Grant number: Kurdi (FF(KU)41.67).",
+            "agency": "Kasetsart University Research and Development, Institute, Thailand",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Bacteria",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CL",
+                  "qualifierName": "classification",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "EN",
+                  "qualifierName": "enzymology",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "IP",
+                  "qualifierName": "isolation & purification",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Carboxylic Ester Hydrolases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "RNA, Ribosomal, 16S",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Seawater",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phylogeny"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biodegradation, Environmental"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Polyhydroxyalkanoates",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Aquatic Organisms",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "IP",
+                  "qualifierName": "isolation & purification",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Extracellular enzyme",
+          "Depolymerase",
+          "Bioplastic",
+          "Surface Response Methodology"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "RNA, Ribosomal, 16S",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Carboxylic Ester Hydrolases",
+            "registryNumber": "EC 3.1.1.-"
+          },
+          {
+            "name": "Polyhydroxyalkanoates",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1038/s41598-025-99034-4"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12050325"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12050325?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 1,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by-nc-nd",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "dateOfCompletion": "2025-05-05",
+      "dateOfCreation": "2025-05-04",
+      "firstIndexDate": "2025-05-06",
+      "fullTextReceivedDate": "2025-11-27",
+      "dateOfRevision": "2025-05-07",
+      "electronicPublicationDate": "2025-05-04",
+      "firstPublicationDate": "2025-05-04"
+    },
+    {
+      "id": "41716694",
+      "source": "MED",
+      "pmid": "41716694",
+      "pmcid": "PMC12914315",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12914315"
+        ]
+      },
+      "doi": "10.1016/j.crmicr.2026.100557",
+      "title": "Mangrove cyanobacterial diversity as a source of bioactive natural products.",
+      "authorString": "Roy AR, Basu S, Villalobos SLS, Mukherjee J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Roy AR",
+            "firstName": "Arup Ratan",
+            "lastName": "Roy",
+            "initials": "AR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1468-7988"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Environmental Studies, Jadavpur University, Kolkata, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Basu S",
+            "firstName": "Shayontani",
+            "lastName": "Basu",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Environmental Studies, Jadavpur University, Kolkata, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Villalobos SLS",
+            "firstName": "Sergio de Los Santos",
+            "lastName": "Villalobos",
+            "initials": "SLS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departamento de Ciencias Agronomicas y Veterinarias, Instituto Technologic de Sonora, Cd. Obregon, Sonora, Mexico."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mukherjee J",
+            "firstName": "Joydeep",
+            "lastName": "Mukherjee",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Environmental Studies, Jadavpur University, Kolkata, India."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1468-7988"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "10",
+        "journalIssueId": 4077903,
+        "dateOfPublication": "2026 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-01-01",
+        "journal": {
+          "title": "Current research in microbial sciences",
+          "medlineAbbreviation": "Curr Res Microb Sci",
+          "essn": "2666-5174",
+          "issn": "2666-5174",
+          "isoabbreviation": "Curr Res Microb Sci",
+          "nlmid": "101773003"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "100557",
+      "abstractText": "Extensive exploration of lesser-explored habitats undertaken in search of novel and sustainable sources of pharmaceuticals, agrochemicals, renewable energy sources, and dyestuffs has uncovered the capability of cyanobacteria or blue-green algae as producers of these commodities. Mangroves represent one such highly abiotic-stressed and vulnerable biodiversity hotspot found in the intertidal regions of the tropics and sub-tropics that harbor diverse microflora. However, limited data on cyanobacterial taxonomic classification and the study of secondary metabolites rich in novel molecules are currently available, as compared to other prokaryotes. The discovery of useful natural products from cyanobacteria is limited since few strains can be genetically modified, and beneficial compounds are often produced in low or inconsistent amounts. Difficulties with transferring biosynthetic pathways to other hosts, combined with the high cost and ecological challenges of scaling cultivation and advanced screening, require integrated multiomics and simple, scalable workflows for industrial translation. This article attempts to review the reported bioactive secondary metabolites of importance produced by cyanobacteria from mangrove ecosystems across the world and the modern methods that can be utilized for bioactive compound discovery from these cyanobacteria.",
+      "affiliation": "School of Environmental Studies, Jadavpur University, Kolkata, India.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "09/096(0997)/2019-EMR-I",
+            "agency": "Council of Scientific and Industrial Research, India",
+            "orderIn": 0
+          },
+          {
+            "grantId": "200510616803",
+            "agency": "University Grants Commission",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Cyanobacteria",
+          "polyphasic taxonomy",
+          "Mangrove Ecosystems",
+          "Bioactive Natural Products"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/j.crmicr.2026.100557"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12914315"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12914315?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2026-02-20",
+      "dateOfCreation": "2026-02-20",
+      "firstIndexDate": "2026-02-21",
+      "fullTextReceivedDate": "2026-02-19",
+      "dateOfRevision": "2026-08-13",
+      "electronicPublicationDate": "2026-01-23",
+      "firstPublicationDate": "2026-01-23"
+    },
+    {
+      "id": "41236116",
+      "source": "MED",
+      "pmid": "41236116",
+      "pmcid": "PMC12866759",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12866759"
+        ]
+      },
+      "doi": "10.1002/advs.202513035",
+      "title": "Coupling Nitrogenous Organic Wastewater Treatment and Biorefinery via N-Cycling Bacterium.",
+      "authorString": "Wang Z, Du C, Zheng G, Ding D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wang Z",
+            "firstName": "Ziqian",
+            "lastName": "Wang",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Resources and Environmental Sciences, Nanjing Agricultural University, Nanjing, 210095, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Du C",
+            "firstName": "Chunyu",
+            "lastName": "Du",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Resources and Environmental Sciences, Nanjing Agricultural University, Nanjing, 210095, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zheng G",
+            "firstName": "Guanyu",
+            "lastName": "Zheng",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Resources and Environmental Sciences, Nanjing Agricultural University, Nanjing, 210095, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ding D",
+            "firstName": "Dahu",
+            "lastName": "Ding",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2548-0376"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Resources and Environmental Sciences, Nanjing Agricultural University, Nanjing, 210095, China."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2548-0376"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "7",
+        "volume": "13",
+        "journalIssueId": 4111923,
+        "dateOfPublication": "2026 Feb",
+        "monthOfPublication": 2,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-02-01",
+        "journal": {
+          "title": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+          "medlineAbbreviation": "Adv Sci (Weinh)",
+          "essn": "2198-3844",
+          "issn": "2198-3844",
+          "isoabbreviation": "Adv Sci (Weinh)",
+          "nlmid": "101664569"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "e13035",
+      "abstractText": "The pathway toward circular economy fundamentally overthrows the perspective on wastewater, from a mere waste to a stream encompassing retrievable resources. Nevertheless, reliable and cost-effective technologies for resource recovery from refractory nitrogenous organic wastewaters (NOWs) are very scarce. Therefore, this study proposes an innovative strategy that couples the bioremediation of NOWs with sustainable production of polyhydroxybutyrate (PHB). Specifically, this study employs the newly discovered Paracoccus sp. ZQW-1 as a \"sustainable cell factory\", which exhibits outstanding PHB production capabilities using N-methylpyrrolidone (NMP) as the specific nitrogen source. Ingeniously, the selective pressure of NMP eliminates the sterilization requirement in PHB biorefinery processes. Capitalizing on this advantage, the conceptual demonstration of simultaneous non-sterile PHB production (7.71\u2009g\u2009L<sup>-1</sup>) and steady-state wastewater depuration is successfully conducted in a 3-L bioreactor. More encouragingly, this paradigm has been successfully applied to the valorization of diverse NOWs (e.g., pyridine and N, N-dimethylformamide), demonstrating its general applicability. Therefore, this study provides a valuable reference for upcycling other NOWs (e.g., aziridine, acridine, pyrrole, and indole). Additionally, life-cycle assessment and techno-economic analysis validate the environmental and economic sustainability of this biorefinery process. Overall, this study proposes an innovative biorefinery strategy and offers a forward-looking trajectory for sustainable wastewater valorization.",
+      "affiliation": "College of Resources and Environmental Sciences, Nanjing Agricultural University, Nanjing, 210095, China.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "CX (24) 3112",
+            "agency": "Jiangsu Agriculture Science and Technology Innovation Fund",
+            "orderIn": 0
+          },
+          {
+            "grantId": "2023YFC3207100",
+            "agency": "National Key R&D Program of China",
+            "orderIn": 0
+          },
+          {
+            "grantId": "BK20230040",
+            "agency": "Natural Science Foundation of Jiangsu Province",
+            "orderIn": 0
+          },
+          {
+            "grantId": "2023YFC3207100",
+            "agency": "National Key Research and Development Program of China",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Paracoccus",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Nitrogen",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hydroxybutyrates",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Pyrrolidinones"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Bioreactors",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Water Purification",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "MT",
+                  "qualifierName": "methods",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biodegradation, Environmental"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Wastewater",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Wastewater Valorization",
+          "Life\u2010cycle Assessment",
+          "Phb Biorefinery",
+          "Non\u2010sterile Fermentation",
+          "Techno\u2010economic Analysis"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Pyrrolidinones",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Hydroxybutyrates",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Nitrogen",
+            "registryNumber": "N762921K75"
+          },
+          {
+            "name": "N-methylpyrrolidone",
+            "registryNumber": "JR9CE63FPM"
+          },
+          {
+            "name": "Wastewater",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1002/advs.202513035"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12866759"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12866759?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 1,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-02-03",
+      "dateOfCreation": "2025-11-14",
+      "firstIndexDate": "2025-11-15",
+      "fullTextReceivedDate": "2026-02-14",
+      "dateOfRevision": "2026-02-05",
+      "electronicPublicationDate": "2025-11-14",
+      "firstPublicationDate": "2025-11-14"
+    },
+    {
+      "id": "41918286",
+      "source": "MED",
+      "pmid": "41918286",
+      "pmcid": "PMC13040137",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13040137"
+        ]
+      },
+      "doi": "10.1002/cssc.202501955",
+      "title": "Biological Degradation of Phthalates: From Bioremediation to Plastic Waste Valorization.",
+      "authorString": "Pereyra-Camacho MA, Pardo I.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Pereyra-Camacho MA",
+            "firstName": "Marco A",
+            "lastName": "Pereyra-Camacho",
+            "initials": "MA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1481-7399"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centro de Investigaciones Biol\u00f3gicas Margarita Salas, CSIC, Madrid, Spain."
+                },
+                {
+                  "affiliation": "Interdisciplinary Platform SusPlast, CSIC, Madrid, Spain."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pardo I",
+            "firstName": "Isabel",
+            "lastName": "Pardo",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8568-1559"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centro de Investigaciones Biol\u00f3gicas Margarita Salas, CSIC, Madrid, Spain."
+                },
+                {
+                  "affiliation": "Interdisciplinary Platform SusPlast, CSIC, Madrid, Spain."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8568-1559"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1481-7399"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "7",
+        "volume": "19",
+        "journalIssueId": 4161647,
+        "dateOfPublication": "2026 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-04-01",
+        "journal": {
+          "title": "ChemSusChem",
+          "medlineAbbreviation": "ChemSusChem",
+          "essn": "1864-564X",
+          "issn": "1864-5631",
+          "isoabbreviation": "ChemSusChem",
+          "nlmid": "101319536"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "e202501955",
+      "abstractText": "Terephthalic, ortho-phthalic, and isophthalic acid (i.e., phthalates) are aromatic petrochemicals with an important role in the plastics industry, since they are precursors for both polymers and plasticizers. Although their large-scale industrial production is less than 80 years old, the recalcitrance and accumulation of plastics and plasticizers in the environment have caused severe pollution and health concerns. In this context, the biodegradation of these xenobiotic compounds and derived products has gained significant attention in recent years, as it could provide environmentally-friendly solutions for the removal of these contaminants from the environment and for the biological recycling and valorization of phthalate-derived plastic waste. Here, we review the known microbial mechanisms for the degradation of the three phthalate isomers and derived esters (polymers and plasticizers), focusing on bacterial hydrolases and catabolic pathways for the assimilation of the aromatic monomers. We then highlight recent advances made in the bioremediation of phthalates in the environment, the engineering of more efficient enzymes for the recycling of polymers and the degradation of plasticizers, the development of microbial cell factories for the valorization of phthalates, and the application of new biosensor tools. In all, this review highlights the potential of microbial biotechnology in achieving a circular economy for plastics.",
+      "affiliation": "Centro de Investigaciones Biol\u00f3gicas Margarita Salas, CSIC, Madrid, Spain.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "Grant TED2021-180350A-I00",
+            "agency": "MICIU/AEI/10.13039/501100011033 and the European Union NextGenerationEU/PRTR",
+            "orderIn": 0
+          },
+          {
+            "grantId": "Grant 20210510",
+            "agency": "Consejo Superior de Investigaciones Cient\u00edficas",
+            "orderIn": 0
+          },
+          {
+            "grantId": "Grant 20210510",
+            "agency": "Fundaci\u00f3n Reina Sof\u00eda (ES)",
+            "orderIn": 0
+          },
+          {
+            "grantId": "PIE202120E064",
+            "agency": "Consejo Superior de Investigaciones Cient\u00edficas",
+            "orderIn": 0
+          },
+          {
+            "grantId": "Grant 2022-T1/BIO-23939",
+            "agency": "Comunidad de Madrid",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Bacteria",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "EN",
+                  "qualifierName": "enzymology",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Phthalic Acids",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Plastics",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plasticizers",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Environmental Pollutants",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biodegradation, Environmental"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Bacteria",
+          "Plastics",
+          "Biodegradation",
+          "Phthalates",
+          "Plasticizers"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Plastics",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Environmental Pollutants",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Phthalic Acids",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Plasticizers",
+            "registryNumber": "0"
+          },
+          {
+            "name": "phthalic acid",
+            "registryNumber": "6O7F7IX66E"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1002/cssc.202501955"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13040137"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC13040137?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 1,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "pdb"
+        ]
+      },
+      "dateOfCompletion": "2026-07-14",
+      "dateOfCreation": "2026-04-01",
+      "firstIndexDate": "2026-04-02",
+      "fullTextReceivedDate": "2026-04-02",
+      "dateOfRevision": "2026-08-07",
+      "firstPublicationDate": "2026-04-01"
+    },
+    {
+      "id": "41657981",
+      "source": "MED",
+      "pmid": "41657981",
+      "pmcid": "PMC12876002",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12876002"
+        ]
+      },
+      "doi": "10.3389/fmicb.2025.1691658",
+      "title": "Machine learning reveals microbial interactions driving plastic degradation across plastisphere environments.",
+      "authorString": "Mahir AA, Kulathuvayal AS, Lei Y, Zhang Q, Wang L, Su Y, Hou L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mahir AA",
+            "firstName": "Akib Al",
+            "lastName": "Mahir",
+            "initials": "AA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Utah Water Research Laboratory, Logan, UT, United States."
+                },
+                {
+                  "affiliation": "Department of Civil and Environmental Engineering, Utah State University, Logan, UT, United States."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kulathuvayal AS",
+            "firstName": "Arjun Sathyan",
+            "lastName": "Kulathuvayal",
+            "initials": "AS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Aerospace and Mechanical Engineering, University of Oklahoma, Norman, OK, United States."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lei Y",
+            "firstName": "Yunjian",
+            "lastName": "Lei",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computer Sciences Department, University of Wisconsin-Madison, Madison, WI, United States."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang Q",
+            "firstName": "Qijun",
+            "lastName": "Zhang",
+            "initials": "Q",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bacteriology, University of Wisconsin-Madison, Madison, WI, United States."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang L",
+            "firstName": "Luguang",
+            "lastName": "Wang",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4566-6143"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Engineering, Utah State University, Logan, UT, United States."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Su Y",
+            "firstName": "Yanqing",
+            "lastName": "Su",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Aerospace and Mechanical Engineering, University of Oklahoma, Norman, OK, United States."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hou L",
+            "firstName": "Liyuan",
+            "lastName": "Hou",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2337-9175"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Utah Water Research Laboratory, Logan, UT, United States."
+                },
+                {
+                  "affiliation": "Department of Civil and Environmental Engineering, Utah State University, Logan, UT, United States."
+                },
+                {
+                  "affiliation": "Department of Biological Engineering, Utah State University, Logan, UT, United States."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4566-6143"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2337-9175"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "volume": "16",
+        "journalIssueId": 3895030,
+        "dateOfPublication": "2025 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2025,
+        "printPublicationDate": "2025-01-01",
+        "journal": {
+          "title": "Frontiers in microbiology",
+          "medlineAbbreviation": "Front Microbiol",
+          "essn": "1664-302X",
+          "issn": "1664-302X",
+          "isoabbreviation": "Front Microbiol",
+          "nlmid": "101548977"
+        }
+      },
+      "pubYear": "2025",
+      "pageInfo": "1691658",
+      "abstractText": "Microplastic pollution fosters the development of distinct microbial biofilm communities, termed the plastisphere, that vary across environmental contexts. Here, we used 16S rRNA gene sequencing combined with machine learning (ML) approaches to explore plastisphere microbial diversity and the interactions between potential plastic-degrading bacteria (PDBs) and non-plastic-degrading bacteria (NDBs) across ocean, surface water, and wastewater habitats. Our findings reveal that wastewater plastispheres harbor the most diverse and compositionally even microbial communities, likely driven by complex nutrient loads, pollutant inputs, and high microbial seeding potential. Genus-level analysis of potential PDBs indicated habitat-specific taxa, including <i>Pseudomonas</i>, <i>Acinetobacter</i>, and <i>Aquabacterium</i> in wastewater, <i>Flavobacterium</i> and <i>Alteromonas</i> in ocean, and <i>Psychrobacter</i> and <i>Novosphingobium</i> in surface waters. Network analyses using Pearson's correlation and Random Forest modeling uncovered consistent co-occurrence patterns between potential PDBs and diverse NDB taxa such as <i>Clostridium_sensu_stricto_5</i>, <i>Lachnospiraceae_UCG-001</i>, and <i>Cloacibacterium</i>, suggesting potential facilitative interactions, including redox modulation, nutrient exchange, and biofilm support. ML tools proved effective in identifying key taxa and potential ecological interactions, but their application remains limited by taxonomic resolution, lack of functional validation, and insufficient integration of environmental metadata. These findings underscore the ecological complexity of plastisphere communities and the need for community-level approaches in plastic biodegradation research.",
+      "affiliation": "Utah Water Research Laboratory, Logan, UT, United States.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Predictive modeling",
+          "Machine Learning",
+          "Microbial Analysis",
+          "Plastic Degradation",
+          "Microplastic Biofilm"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3389/fmicb.2025.1691658"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12876002"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12876002?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 0,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-02-09",
+      "dateOfCreation": "2026-02-09",
+      "firstIndexDate": "2026-02-10",
+      "fullTextReceivedDate": "2026-02-14",
+      "dateOfRevision": "2026-02-11",
+      "electronicPublicationDate": "2026-01-23",
+      "firstPublicationDate": "2026-01-23"
+    },
+    {
+      "id": "39935634",
+      "source": "MED",
+      "pmid": "39935634",
+      "pmcid": "PMC11810901",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC11810901"
+        ]
+      },
+      "doi": "10.3389/fmicb.2025.1507902",
+      "title": "The family <i>Thermoactinomycetaceae</i>: an emerging microbial resource with high application value.",
+      "authorString": "Zhong M, Sun Z, Wei C, Muhoza B, Tian H, Liu M, Qiu S, Li D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zhong M",
+            "firstName": "Mingmei",
+            "lastName": "Zhong",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Liquor and Food Engineering, Guizhou University, Guiyang, Guizhou, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sun Z",
+            "firstName": "Zhenchun",
+            "lastName": "Sun",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Guizhou Academy of Tobacco Science, Guiyang, Guizhou, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wei C",
+            "firstName": "Chunhui",
+            "lastName": "Wei",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Liquor Making Biological Technology and Application of Key Laboratory of Sichuan Province, Sichuan University of Science & Engineering, Yibin, Sichuan, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Muhoza B",
+            "firstName": "Bertrand",
+            "lastName": "Muhoza",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Food Science and Technology, Jiangnan University, Wuxi, Jiangsu, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tian H",
+            "firstName": "Haojie",
+            "lastName": "Tian",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Liquor and Food Engineering, Guizhou University, Guiyang, Guizhou, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu M",
+            "firstName": "Maoqiang",
+            "lastName": "Liu",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sichuan Langjiu Group Co. Ltd., Luzhou, Sichuan, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Qiu S",
+            "firstName": "Shuyi",
+            "lastName": "Qiu",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Liquor and Food Engineering, Guizhou University, Guiyang, Guizhou, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li D",
+            "firstName": "Dounan",
+            "lastName": "Li",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Liquor and Food Engineering, Guizhou University, Guiyang, Guizhou, China."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "16",
+        "journalIssueId": 3895030,
+        "dateOfPublication": "2025 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2025,
+        "printPublicationDate": "2025-01-01",
+        "journal": {
+          "title": "Frontiers in microbiology",
+          "medlineAbbreviation": "Front Microbiol",
+          "essn": "1664-302X",
+          "issn": "1664-302X",
+          "isoabbreviation": "Front Microbiol",
+          "nlmid": "101548977"
+        }
+      },
+      "pubYear": "2025",
+      "pageInfo": "1507902",
+      "abstractText": "In recent years, interest has increased in the use of microorganisms to obtain additional valuable resources for green and sustainable development. Preliminary functional analyses have indicated that members of the family <i>Thermoactinomycetaceae</i> have good application potential for the production of novel specific enzymes, high-value bioactive compounds, novel secondary metabolites and the promotion of efficient biomass conversion. Therefore, they can be considered a new class of microbial resources with potentially high value. However, the lack of culture and culture-independent techniques coupled with the uncertain taxonomic status of the family <i>Thermoactinomycetaceae</i>, has made exploring these potential applications challenging. This paper reviews the distribution characteristics and functional properties of the family <i>Thermoactinomycetaceae</i>, providing a detailed interpretation of the potential application value of this group and proposing a set of systematic resource development strategies based on a combination of culture-dependent and culture-independent strategies to exploit its potential for resource applications.",
+      "affiliation": "College of Liquor and Food Engineering, Guizhou University, Guiyang, Guizhou, China.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Environmental protection",
+          "Bioactive compounds",
+          "Thermoactinomycetaceae",
+          "Underexplored Sources",
+          "Heat-resistant Enzymes"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3389/fmicb.2025.1507902"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11810901"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11810901?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 2,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-02-12",
+      "firstIndexDate": "2025-02-12",
+      "fullTextReceivedDate": "2025-12-03",
+      "dateOfRevision": "2025-02-13",
+      "electronicPublicationDate": "2025-01-28",
+      "firstPublicationDate": "2025-01-28"
+    },
+    {
+      "id": "39337987",
+      "source": "MED",
+      "pmid": "39337987",
+      "pmcid": "PMC11433292",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC11433292"
+        ]
+      },
+      "doi": "10.3390/life14091205",
+      "title": "Advances in Extremophile Research: Biotechnological Applications through Isolation and Identification Techniques.",
+      "authorString": "Gallo G, Aulitto M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Gallo G",
+            "firstName": "Giovanni",
+            "lastName": "Gallo",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6846-6526"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Microbiology, Faculty of Biology, Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen, 82152 Martinsried, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aulitto M",
+            "firstName": "Martina",
+            "lastName": "Aulitto",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9162-0920"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of Napoli Federico II, Complesso Universitario Monte Sant'Angelo, 80126 Napoli, Italy."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6846-6526"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9162-0920"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "9",
+        "volume": "14",
+        "journalIssueId": 3832854,
+        "dateOfPublication": "2024 Sep",
+        "monthOfPublication": 9,
+        "yearOfPublication": 2024,
+        "printPublicationDate": "2024-09-01",
+        "journal": {
+          "title": "Life (Basel, Switzerland)",
+          "medlineAbbreviation": "Life (Basel)",
+          "essn": "2075-1729",
+          "issn": "2075-1729",
+          "isoabbreviation": "Life (Basel)",
+          "nlmid": "101580444"
+        }
+      },
+      "pubYear": "2024",
+      "pageInfo": "1205",
+      "abstractText": "Extremophiles, organisms thriving in extreme environments such as hot springs, deep-sea hydrothermal vents, and hypersaline ecosystems, have garnered significant attention due to their remarkable adaptability and biotechnological potential. This review presents recent advancements in isolating and characterizing extremophiles, highlighting their applications in enzyme production, bioplastics, environmental management, and space exploration. The unique biological mechanisms of extremophiles offer valuable insights into life's resilience and potential uses in industry and astrobiology.",
+      "affiliation": "Division of Microbiology, Faculty of Biology, Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen, 82152 Martinsried, Germany.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Biotechnology",
+          "Extremozymes",
+          "Astrobiology",
+          "Extremophiles",
+          "Isolation Techniques"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3390/life14091205"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11433292"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11433292?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 10,
+      "hasData": "N",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-09-28",
+      "firstIndexDate": "2024-09-29",
+      "fullTextReceivedDate": "2024-10-28",
+      "dateOfRevision": "2024-09-30",
+      "electronicPublicationDate": "2024-09-23",
+      "firstPublicationDate": "2024-09-23"
+    },
+    {
+      "id": "38627476",
+      "source": "MED",
+      "pmid": "38627476",
+      "pmcid": "PMC11021508",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC11021508"
+        ]
+      },
+      "doi": "10.1038/s41598-024-59279-x",
+      "title": "Potential routes of plastics biotransformation involving novel plastizymes revealed by global multi-omic analysis of plastic associated microbes.",
+      "authorString": "Ridley RS, Conrad RE, Lindner BG, Woo S, Konstantinidis KT.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ridley RS Jr",
+            "firstName": "Rodney S",
+            "lastName": "Ridley",
+            "initials": "RS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemical and Biomolecular Engineering, Georgia Institute of Technology, Atlanta, GA, 30332, USA. rridley3@gatech.edu."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Conrad RE",
+            "firstName": "Roth E",
+            "lastName": "Conrad",
+            "initials": "RE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biological Sciences, Georgia Institute of Technology, Atlanta, GA, 30332, USA."
+                },
+                {
+                  "affiliation": "School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA, 30332, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lindner BG",
+            "firstName": "Blake G",
+            "lastName": "Lindner",
+            "initials": "BG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA, 30332, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Woo S",
+            "firstName": "Seongwook",
+            "lastName": "Woo",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biological Sciences, Georgia Institute of Technology, Atlanta, GA, 30332, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Konstantinidis KT",
+            "firstName": "Konstantinos T",
+            "lastName": "Konstantinidis",
+            "initials": "KT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biological Sciences, Georgia Institute of Technology, Atlanta, GA, 30332, USA. kostas@ce.gatech.edu."
+                },
+                {
+                  "affiliation": "School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA, 30332, USA. kostas@ce.gatech.edu."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5347-1242"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "14",
+        "journalIssueId": 3747240,
+        "dateOfPublication": "2024 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2024,
+        "printPublicationDate": "2024-04-01",
+        "journal": {
+          "title": "Scientific reports",
+          "medlineAbbreviation": "Sci Rep",
+          "essn": "2045-2322",
+          "issn": "2045-2322",
+          "isoabbreviation": "Sci Rep",
+          "nlmid": "101563288"
+        }
+      },
+      "pubYear": "2024",
+      "pageInfo": "8798",
+      "abstractText": "Despite increasing efforts across various disciplines, the fate, transport, and impact of synthetic plastics on the environment and public health remain poorly understood. To better elucidate the microbial ecology of plastic waste and its potential for biotransformation, we conducted a large-scale analysis of all publicly available meta-omic studies investigating plastics (n\u00a0=\u00a027) in the environment. Notably, we observed low prevalence of known plastic degraders throughout most environments, except for substantial enrichment in riverine systems. This indicates rivers may be a highly promising environment for discovery of novel plastic bioremediation products. Ocean samples associated with degrading plastics showed clear differentiation from non-degrading polymers, showing enrichment of novel putative biodegrading taxa in the degraded samples. Regarding plastisphere pathogenicity, we observed significant enrichment of antimicrobial resistance genes on plastics but not of virulence factors. Additionally, we report a co-occurrence network analysis of 10\u00a0+\u2009million proteins associated with the plastisphere. This analysis revealed a localized sub-region enriched with known and putative plastizymes-these may be useful for deeper investigation of nature's ability to biodegrade man-made plastics. Finally, the combined data from our meta-analysis was used to construct a publicly available database, the Plastics Meta-omic Database (PMDB)-accessible at plasticmdb.org. These data should aid in the integrated exploration of the microbial plastisphere and facilitate research efforts investigating the fate and bioremediation potential of environmental plastic waste.",
+      "affiliation": "School of Chemical and Biomolecular Engineering, Georgia Institute of Technology, Atlanta, GA, 30332, USA. rridley3@gatech.edu.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Meta-Analysis",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "American Chemical Society",
+            "orderIn": 0
+          },
+          {
+            "grantId": "2136146",
+            "agency": "National Science Foundation",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Polymers"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Plastics"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biotransformation"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biodegradation, Environmental"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Multiomics"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Polymers",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Plastics",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.nature.com/articles/s41598-024-59279-x.pdf"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1038/s41598-024-59279-x"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11021508"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11021508?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 11,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2024-04-18",
+      "dateOfCreation": "2024-04-16",
+      "firstIndexDate": "2024-04-17",
+      "fullTextReceivedDate": "2025-02-05",
+      "dateOfRevision": "2024-12-08",
+      "electronicPublicationDate": "2024-04-16",
+      "firstPublicationDate": "2024-04-16"
+    }
+  ]
+}

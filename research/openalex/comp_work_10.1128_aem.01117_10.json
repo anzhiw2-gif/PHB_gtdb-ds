@@ -1,0 +1,574 @@
+﻿{
+  "id": "https://openalex.org/W2021169602",
+  "display_name": "Wide Distribution among Halophilic Archaea of a Novel Polyhydroxyalkanoate Synthase Subtype with Homology to Bacterial Type III Synthases",
+  "publication_year": 2010,
+  "cited_by_count": 114,
+  "doi": "https://doi.org/10.1128/aem.01117-10",
+  "primary_location": {
+    "id": "doi:10.1128/aem.01117-10",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1128/aem.01117-10",
+    "pdf_url": "https://aem.asm.org/content/aem/76/23/7811.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S158228368",
+      "display_name": "Applied and Environmental Microbiology",
+      "issn_l": "0099-2240",
+      "issn": [
+        "0099-2240",
+        "1070-6291",
+        "1098-5336"
+      ],
+      "is_oa": false,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320263",
+      "host_organization_name": "American Society for Microbiology",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320263"
+      ],
+      "host_organization_lineage_names": [
+        "American Society for Microbiology"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Applied and Environmental Microbiology",
+    "raw_type": "journal-article"
+  },
+  "abstract_inverted_index": {
+    "Polyhydroxyalkanoates": [
+      0
+    ],
+    "(PHAs)": [
+      1
+    ],
+    "are": [
+      2
+    ],
+    "accumulated": [
+      3
+    ],
+    "as": [
+      4
+    ],
+    "intracellular": [
+      5
+    ],
+    "carbon": [
+      6
+    ],
+    "and": [
+      7,
+      14,
+      41,
+      74,
+      92,
+      125,
+      148,
+      168,
+      175,
+      218
+    ],
+    "energy": [
+      8
+    ],
+    "storage": [
+      9
+    ],
+    "polymers": [
+      10
+    ],
+    "by": [
+      11,
+      101
+    ],
+    "various": [
+      12
+    ],
+    "bacteria": [
+      13
+    ],
+    "a": [
+      15,
+      193
+    ],
+    "few": [
+      16
+    ],
+    "haloarchaea.": [
+      17
+    ],
+    "In": [
+      18
+    ],
+    "this": [
+      19
+    ],
+    "study,": [
+      20
+    ],
+    "28": [
+      21
+    ],
+    "strains": [
+      22,
+      53
+    ],
+    "belonging": [
+      23
+    ],
+    "to": [
+      24,
+      35,
+      38,
+      161,
+      181,
+      220
+    ],
+    "15": [
+      25
+    ],
+    "genera": [
+      26,
+      56
+    ],
+    "in": [
+      27,
+      144,
+      186,
+      216,
+      223
+    ],
+    "the": [
+      28,
+      42,
+      72,
+      115,
+      123,
+      126,
+      209
+    ],
+    "family": [
+      29
+    ],
+    "Halobacteriaceae": [
+      30,
+      124
+    ],
+    "were": [
+      31,
+      82,
+      93,
+      98,
+      179
+    ],
+    "investigated": [
+      32
+    ],
+    "with": [
+      33,
+      86,
+      202
+    ],
+    "respect": [
+      34
+    ],
+    "their": [
+      36,
+      45,
+      133
+    ],
+    "ability": [
+      37
+    ],
+    "synthesize": [
+      39,
+      58
+    ],
+    "PHAs": [
+      40
+    ],
+    "types": [
+      43
+    ],
+    "of": [
+      44,
+      66,
+      71,
+      122,
+      132,
+      156,
+      177,
+      197
+    ],
+    "PHA": [
+      46,
+      78,
+      96,
+      118,
+      140,
+      200,
+      224
+    ],
+    "synthases.": [
+      47
+    ],
+    "Fermentation": [
+      48
+    ],
+    "results": [
+      49
+    ],
+    "showed": [
+      50,
+      113
+    ],
+    "that": [
+      51,
+      114,
+      138,
+      192,
+      205
+    ],
+    "18": [
+      52
+    ],
+    "from": [
+      54,
+      120,
+      208
+    ],
+    "12": [
+      55
+    ],
+    "could": [
+      57
+    ],
+    "polyhydroxybutyrate": [
+      59
+    ],
+    "(PHB)": [
+      60
+    ],
+    "or": [
+      61
+    ],
+    "poly(3-hydroxybutyrate-co-3-hydroxyvalerate)": [
+      62
+    ],
+    "(PHBV).": [
+      63
+    ],
+    "For": [
+      64
+    ],
+    "most": [
+      65
+    ],
+    "these": [
+      67
+    ],
+    "haloarchaea,": [
+      68
+    ],
+    "selected": [
+      69
+    ],
+    "regions": [
+      70
+    ],
+    "phaE": [
+      73
+    ],
+    "phaC": [
+      75
+    ],
+    "genes": [
+      76
+    ],
+    "encoding": [
+      77
+    ],
+    "synthases": [
+      79,
+      97,
+      119,
+      141
+    ],
+    "(type": [
+      80
+    ],
+    "III)": [
+      81
+    ],
+    "cloned": [
+      83
+    ],
+    "via": [
+      84
+    ],
+    "PCR": [
+      85
+    ],
+    "consensus-degenerate": [
+      87
+    ],
+    "hybrid": [
+      88
+    ],
+    "oligonucleotide": [
+      89
+    ],
+    "primers": [
+      90
+    ],
+    "(CODEHOPs)": [
+      91
+    ],
+    "sequenced.": [
+      94
+    ],
+    "The": [
+      95,
+      152
+    ],
+    "also": [
+      99
+    ],
+    "examined": [
+      100
+    ],
+    "Western": [
+      102
+    ],
+    "blotting": [
+      103
+    ],
+    "using": [
+      104
+    ],
+    "haloarchaeal": [
+      105,
+      139,
+      157
+    ],
+    "Haloarcula": [
+      106
+    ],
+    "marismortui": [
+      107
+    ],
+    "PhaC": [
+      108,
+      158
+    ],
+    "(PhaC(Hm))": [
+      109
+    ],
+    "antisera.": [
+      110
+    ],
+    "Phylogenetic": [
+      111
+    ],
+    "analysis": [
+      112
+    ],
+    "type": [
+      116,
+      198
+    ],
+    "III": [
+      117,
+      199
+    ],
+    "species": [
+      121
+    ],
+    "Bacteria": [
+      127
+    ],
+    "domain": [
+      128
+    ],
+    "clustered": [
+      129
+    ],
+    "separately.": [
+      130
+    ],
+    "Comparison": [
+      131
+    ],
+    "amino": [
+      134,
+      171
+    ],
+    "acid": [
+      135,
+      172
+    ],
+    "sequences": [
+      136
+    ],
+    "revealed": [
+      137
+    ],
+    "differed": [
+      142
+    ],
+    "greatly": [
+      143
+    ],
+    "both": [
+      145
+    ],
+    "molecular": [
+      146
+    ],
+    "weight": [
+      147
+    ],
+    "certain": [
+      149
+    ],
+    "conserved": [
+      150
+    ],
+    "motifs.": [
+      151
+    ],
+    "longer": [
+      153
+    ],
+    "C": [
+      154
+    ],
+    "terminus": [
+      155
+    ],
+    "was": [
+      159
+    ],
+    "found": [
+      160
+    ],
+    "be": [
+      162,
+      182,
+      221
+    ],
+    "indispensable": [
+      163
+    ],
+    "for": [
+      164,
+      184
+    ],
+    "its": [
+      165,
+      185
+    ],
+    "enzymatic": [
+      166
+    ],
+    "activity,": [
+      167
+    ],
+    "two": [
+      169
+    ],
+    "additional": [
+      170
+    ],
+    "residues": [
+      173
+    ],
+    "(C143": [
+      174
+    ],
+    "C190)": [
+      176
+    ],
+    "PhaC(Hm)": [
+      178
+    ],
+    "proved": [
+      180
+    ],
+    "important": [
+      183
+    ],
+    "vivo": [
+      187
+    ],
+    "function.": [
+      188
+    ],
+    "Thus,": [
+      189
+    ],
+    "we": [
+      190
+    ],
+    "conclude": [
+      191
+    ],
+    "novel": [
+      194
+    ],
+    "subtype": [
+      195,
+      211
+    ],
+    "(IIIA)": [
+      196
+    ],
+    "synthase": [
+      201
+    ],
+    "unique": [
+      203
+    ],
+    "features": [
+      204
+    ],
+    "distinguish": [
+      206
+    ],
+    "it": [
+      207
+    ],
+    "bacterial": [
+      210
+    ],
+    "(IIIB)": [
+      212
+    ],
+    "is": [
+      213
+    ],
+    "widely": [
+      214
+    ],
+    "distributed": [
+      215
+    ],
+    "haloarchaea": [
+      217
+    ],
+    "appears": [
+      219
+    ],
+    "involved": [
+      222
+    ],
+    "biosynthesis.": [
+      225
+    ]
+  }
+}

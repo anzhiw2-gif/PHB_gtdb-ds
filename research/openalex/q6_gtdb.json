@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "count": 6666,
+    "db_response_time_ms": 37,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where title/abstract has (Genome Taxonomy Database)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "Genome Taxonomy Database",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=title_and_abstract.search:Genome Taxonomy Database&per_page=10&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2096525273",
+      "display_name": "Database resources of the National Center for Biotechnology Information: update",
+      "publication_year": 2003,
+      "cited_by_count": 11008,
+      "doi": "https://doi.org/10.1093/nar/gkh073"
+    },
+    {
+      "id": "https://openalex.org/W2579533542",
+      "display_name": "Introducing EzBioCloud: a taxonomically united database of 16S rRNA gene sequences and whole-genome assemblies",
+      "publication_year": 2016,
+      "cited_by_count": 7860,
+      "doi": "https://doi.org/10.1099/ijsem.0.001755"
+    },
+    {
+      "id": "https://openalex.org/W2173732482",
+      "display_name": "Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation",
+      "publication_year": 2015,
+      "cited_by_count": 7192,
+      "doi": "https://doi.org/10.1093/nar/gkv1189"
+    },
+    {
+      "id": "https://openalex.org/W4307425304",
+      "display_name": "KEGG for taxonomy-based analysis of pathways and genomes",
+      "publication_year": 2022,
+      "cited_by_count": 6688,
+      "doi": "https://doi.org/10.1093/nar/gkac963"
+    },
+    {
+      "id": "https://openalex.org/W2951254987",
+      "display_name": "High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries",
+      "publication_year": 2018,
+      "cited_by_count": 5900,
+      "doi": "https://doi.org/10.1038/s41467-018-07641-9"
+    },
+    {
+      "id": "https://openalex.org/W2986925300",
+      "display_name": "GTDB-Tk: a toolkit to classify genomes with the Genome Taxonomy Database",
+      "publication_year": 2019,
+      "cited_by_count": 5648,
+      "doi": "https://doi.org/10.1093/bioinformatics/btz848"
+    },
+    {
+      "id": "https://openalex.org/W2900629010",
+      "display_name": "eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated orthology resource based on 5090 organisms and 2502 viruses",
+      "publication_year": 2018,
+      "cited_by_count": 5396,
+      "doi": "https://doi.org/10.1093/nar/gky1085"
+    },
+    {
+      "id": "https://openalex.org/W4210702584",
+      "display_name": "UniProt: the universal protein knowledgebase",
+      "publication_year": 2016,
+      "cited_by_count": 4716,
+      "doi": "https://doi.org/10.1093/nar/gkw1099"
+    },
+    {
+      "id": "https://openalex.org/W2178043251",
+      "display_name": "BlastKOALA and GhostKOALA: KEGG Tools for Functional Characterization of Genome and Metagenome Sequences",
+      "publication_year": 2015,
+      "cited_by_count": 4393,
+      "doi": "https://doi.org/10.1016/j.jmb.2015.11.006"
+    },
+    {
+      "id": "https://openalex.org/W4394785938",
+      "display_name": "Interactive Tree of Life (iTOL) v6: recent updates to the phylogenetic tree display and annotation tool",
+      "publication_year": 2024,
+      "cited_by_count": 4243,
+      "doi": "https://doi.org/10.1093/nar/gkae268"
+    }
+  ],
+  "group_by": []
+}

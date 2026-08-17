@@ -1,0 +1,28 @@
+# PHB_gtdb-ds 分析环境（服务器 T141 已就绪为 `phb_gtdb`）
+#
+# 复现：conda env create -f environment.yml
+# 版本为服务器实测版本；如需锁定完全一致的环境，
+# 在服务器上执行：conda env export -n phb_gtdb > environment.lock.yml
+name: phb_gtdb
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.12
+  - hmmer=3.4            # hmmbuild / hmmsearch
+  - diamond=2.2.1        # 快速预筛 / marker 注释
+  - pyrodigal=3.7.1      # 蛋白预测
+  - mafft                # 多序列比对
+  - trimal               # 比对修剪
+  - iqtree               # 最大似然系统发育
+  - cd-hit               # 去冗余
+  - parallel             # GNU parallel（分片并行）
+  - biopython
+  - pandas
+  - numpy
+  - matplotlib
+  - ete3                 # 树可视化
+  - pip
+  - pip:
+      - pyyaml

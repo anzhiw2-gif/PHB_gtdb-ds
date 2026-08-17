@@ -1,0 +1,655 @@
+﻿{
+  "id": "https://openalex.org/W2075693757",
+  "display_name": "Identification of polyhydroxyalkanoates in Halococcus and other haloarchaeal species",
+  "publication_year": 2010,
+  "cited_by_count": 132,
+  "doi": "https://doi.org/10.1007/s00253-010-2611-6",
+  "primary_location": {
+    "id": "doi:10.1007/s00253-010-2611-6",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1007/s00253-010-2611-6",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00253-010-2611-6.pdf",
+    "source": {
+      "id": "https://openalex.org/S70979998",
+      "display_name": "Applied Microbiology and Biotechnology",
+      "issn_l": "0175-7598",
+      "issn": [
+        "0175-7598",
+        "1432-0614"
+      ],
+      "is_oa": false,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319900",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Science+Business Media",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Applied Microbiology and Biotechnology",
+    "raw_type": "journal-article"
+  },
+  "abstract_inverted_index": {
+    "Polyhydroxyalkanoates": [
+      0
+    ],
+    "(PHAs)": [
+      1
+    ],
+    "are": [
+      2
+    ],
+    "accumulated": [
+      3
+    ],
+    "in": [
+      4,
+      86,
+      161,
+      181,
+      186,
+      208,
+      212,
+      240
+    ],
+    "many": [
+      5
+    ],
+    "prokaryotes.": [
+      6
+    ],
+    "Several": [
+      7
+    ],
+    "members": [
+      8
+    ],
+    "of": [
+      9,
+      26,
+      40,
+      64,
+      78,
+      84,
+      98,
+      194,
+      205
+    ],
+    "the": [
+      10,
+      27,
+      62,
+      93,
+      96,
+      203,
+      237
+    ],
+    "Halobacteriaceae": [
+      11
+    ],
+    "produce": [
+      12
+    ],
+    "poly-3-hydroxybutyrate": [
+      13
+    ],
+    "(PHB),": [
+      14
+    ],
+    "but": [
+      15
+    ],
+    "it": [
+      16
+    ],
+    "is": [
+      17,
+      22
+    ],
+    "not": [
+      18
+    ],
+    "known": [
+      19
+    ],
+    "if": [
+      20
+    ],
+    "this": [
+      21,
+      241
+    ],
+    "a": [
+      23
+    ],
+    "general": [
+      24
+    ],
+    "property": [
+      25
+    ],
+    "family.": [
+      28
+    ],
+    "We": [
+      29,
+      90
+    ],
+    "evaluated": [
+      30
+    ],
+    "identification": [
+      31
+    ],
+    "methods": [
+      32
+    ],
+    "for": [
+      33,
+      61,
+      76,
+      92
+    ],
+    "PHAs": [
+      34,
+      85,
+      99,
+      178
+    ],
+    "with": [
+      35,
+      47
+    ],
+    "20": [
+      36
+    ],
+    "haloarchaeal": [
+      37,
+      220
+    ],
+    "species,": [
+      38
+    ],
+    "three": [
+      39
+    ],
+    "them": [
+      41
+    ],
+    "isolates": [
+      42
+    ],
+    "from": [
+      43
+    ],
+    "Permian": [
+      44,
+      248
+    ],
+    "salt.": [
+      45
+    ],
+    "Staining": [
+      46
+    ],
+    "Sudan": [
+      48
+    ],
+    "Black": [
+      49
+    ],
+    "B,": [
+      50
+    ],
+    "Nile": [
+      51,
+      55
+    ],
+    "Blue": [
+      52
+    ],
+    "A,": [
+      53
+    ],
+    "or": [
+      54
+    ],
+    "Red": [
+      56
+    ],
+    "was": [
+      57,
+      159
+    ],
+    "applied": [
+      58
+    ],
+    "to": [
+      59,
+      228
+    ],
+    "screen": [
+      60
+    ],
+    "presence": [
+      63
+    ],
+    "PHAs.": [
+      65
+    ],
+    "Transmission": [
+      66
+    ],
+    "electron": [
+      67
+    ],
+    "microscopy": [
+      68
+    ],
+    "and": [
+      69,
+      81,
+      141,
+      152,
+      170,
+      196,
+      211,
+      216,
+      221
+    ],
+    "(1)H-nuclear": [
+      70
+    ],
+    "magnetic": [
+      71
+    ],
+    "resonance": [
+      72
+    ],
+    "spectroscopy": [
+      73
+    ],
+    "were": [
+      74,
+      191
+    ],
+    "used": [
+      75
+    ],
+    "visualization": [
+      77
+    ],
+    "PHB": [
+      79,
+      158,
+      195
+    ],
+    "granules": [
+      80
+    ],
+    "chemical": [
+      82
+    ],
+    "confirmation": [
+      83
+    ],
+    "cell": [
+      87
+    ],
+    "extracts,": [
+      88
+    ],
+    "respectively.": [
+      89
+    ],
+    "report": [
+      91
+    ],
+    "first": [
+      94
+    ],
+    "time": [
+      95
+    ],
+    "production": [
+      97
+    ],
+    "by": [
+      100
+    ],
+    "Halococcus": [
+      101,
+      107,
+      111,
+      115,
+      119,
+      123
+    ],
+    "sp.": [
+      102,
+      128
+    ],
+    "(Halococcus": [
+      103
+    ],
+    "morrhuae": [
+      104
+    ],
+    "DSM": [
+      105,
+      109,
+      113,
+      117,
+      131,
+      135,
+      150,
+      155,
+      173
+    ],
+    "1307(T),": [
+      106
+    ],
+    "saccharolyticus": [
+      108
+    ],
+    "5350(T),": [
+      110
+    ],
+    "salifodinae": [
+      112
+    ],
+    "8989(T),": [
+      114
+    ],
+    "dombrowskii": [
+      116
+    ],
+    "14522(T),": [
+      118
+    ],
+    "hamelinensis": [
+      120
+    ],
+    "JCM": [
+      121,
+      125
+    ],
+    "12892(T),": [
+      122
+    ],
+    "qingdaonensis": [
+      124
+    ],
+    "13587(T)),": [
+      126
+    ],
+    "Halorubrum": [
+      127,
+      133
+    ],
+    "(Hrr.": [
+      129
+    ],
+    "coriense": [
+      130
+    ],
+    "10284(T),": [
+      132
+    ],
+    "chaoviator": [
+      134,
+      138
+    ],
+    "19316(T),": [
+      136
+    ],
+    "Hrr.": [
+      137
+    ],
+    "strains": [
+      139
+    ],
+    "NaxosII": [
+      140
+    ],
+    "AUS-1),": [
+      142
+    ],
+    "haloalkaliphiles": [
+      143
+    ],
+    "(Natronobacterium": [
+      144
+    ],
+    "gregoryi": [
+      145
+    ],
+    "NCMB": [
+      146
+    ],
+    "2189(T),": [
+      147
+    ],
+    "Natronococcus": [
+      148
+    ],
+    "occultus": [
+      149
+    ],
+    "3396(T))": [
+      151
+    ],
+    "Halobacterium": [
+      153,
+      162
+    ],
+    "noricense": [
+      154
+    ],
+    "9758(T).": [
+      156
+    ],
+    "No": [
+      157
+    ],
+    "detected": [
+      160
+    ],
+    "salinarum": [
+      163,
+      168
+    ],
+    "NRC-1": [
+      164
+    ],
+    "ATCC": [
+      165
+    ],
+    "700922,": [
+      166
+    ],
+    "Hbt.": [
+      167
+    ],
+    "R1": [
+      169
+    ],
+    "Haloferax": [
+      171
+    ],
+    "volcanii": [
+      172
+    ],
+    "3757(T).": [
+      174
+    ],
+    "Most": [
+      175
+    ],
+    "species": [
+      176
+    ],
+    "synthesized": [
+      177
+    ],
+    "when": [
+      179
+    ],
+    "growing": [
+      180
+    ],
+    "synthetic": [
+      182
+    ],
+    "as": [
+      183,
+      185
+    ],
+    "well": [
+      184
+    ],
+    "complex": [
+      187
+    ],
+    "medium.": [
+      188
+    ],
+    "The": [
+      189
+    ],
+    "polyesters": [
+      190
+    ],
+    "generally": [
+      192
+    ],
+    "composed": [
+      193
+    ],
+    "poly-ss-hydroxybutyrate-co-3-hydroxyvalerate": [
+      197
+    ],
+    "(PHBV).": [
+      198
+    ],
+    "Available": [
+      199
+    ],
+    "genomic": [
+      200
+    ],
+    "data": [
+      201,
+      238
+    ],
+    "suggest": [
+      202
+    ],
+    "absence": [
+      204
+    ],
+    "PHA": [
+      206,
+      223
+    ],
+    "synthesis": [
+      207
+    ],
+    "some": [
+      209,
+      229
+    ],
+    "haloarchaea": [
+      210
+    ],
+    "all": [
+      213
+    ],
+    "other": [
+      214
+    ],
+    "Euryarchaeota": [
+      215
+    ],
+    "Crenarchaeota.": [
+      217
+    ],
+    "Homologies": [
+      218
+    ],
+    "between": [
+      219
+    ],
+    "bacterial": [
+      222
+    ],
+    "synthesizing": [
+      224
+    ],
+    "enzymes": [
+      225
+    ],
+    "had": [
+      226
+    ],
+    "indicated": [
+      227
+    ],
+    "authors": [
+      230
+    ],
+    "probable": [
+      231
+    ],
+    "horizontal": [
+      232
+    ],
+    "gene": [
+      233
+    ],
+    "transfer,": [
+      234
+    ],
+    "which,": [
+      235
+    ],
+    "considering": [
+      236
+    ],
+    "obtained": [
+      239
+    ],
+    "study,": [
+      242
+    ],
+    "may": [
+      243
+    ],
+    "have": [
+      244
+    ],
+    "occurred": [
+      245
+    ],
+    "already": [
+      246
+    ],
+    "before": [
+      247
+    ],
+    "times.": [
+      249
+    ]
+  }
+}

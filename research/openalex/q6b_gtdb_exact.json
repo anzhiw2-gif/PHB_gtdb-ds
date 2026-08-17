@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "count": 3506,
+    "db_response_time_ms": 13,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where title/abstract has (GTDB)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "GTDB",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=title_and_abstract.search:GTDB&per_page=10&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2986925300",
+      "display_name": "GTDB-Tk: a toolkit to classify genomes with the Genome Taxonomy Database",
+      "publication_year": 2019,
+      "cited_by_count": 5648,
+      "doi": "https://doi.org/10.1093/bioinformatics/btz848"
+    },
+    {
+      "id": "https://openalex.org/W4394785938",
+      "display_name": "Interactive Tree of Life (iTOL) v6: recent updates to the phylogenetic tree display and annotation tool",
+      "publication_year": 2024,
+      "cited_by_count": 4243,
+      "doi": "https://doi.org/10.1093/nar/gkae268"
+    },
+    {
+      "id": "https://openalex.org/W3200103613",
+      "display_name": "GTDB: an ongoing census of bacterial and archaeal diversity through a phylogenetically consistent, rank normalized\u00a0and complete genome-based taxonomy",
+      "publication_year": 2021,
+      "cited_by_count": 2571,
+      "doi": "https://doi.org/10.1093/nar/gkab776"
+    },
+    {
+      "id": "https://openalex.org/W4304481015",
+      "display_name": "GTDB-Tk v2: memory friendly classification with the genome taxonomy database",
+      "publication_year": 2022,
+      "cited_by_count": 2018,
+      "doi": "https://doi.org/10.1093/bioinformatics/btac672"
+    },
+    {
+      "id": "https://openalex.org/W3213732104",
+      "display_name": "RESCRIPt: Reproducible sequence taxonomy reference database management",
+      "publication_year": 2021,
+      "cited_by_count": 993,
+      "doi": "https://doi.org/10.1371/journal.pcbi.1009581"
+    },
+    {
+      "id": "https://openalex.org/W3106120778",
+      "display_name": "Database\u00a0Resources of the National Genomics Data Center, China National Center for Bioinformation in 2021",
+      "publication_year": 2020,
+      "cited_by_count": 457,
+      "doi": "https://doi.org/10.1093/nar/gkaa1022"
+    },
+    {
+      "id": "https://openalex.org/W2040446875",
+      "display_name": "STS Database Risk Models: Predictors of Mortality and Major Morbidity for Lung Cancer Resection",
+      "publication_year": 2010,
+      "cited_by_count": 354,
+      "doi": "https://doi.org/10.1016/j.athoracsur.2010.03.115"
+    },
+    {
+      "id": "https://openalex.org/W2035156416",
+      "display_name": "Predictors of Major Morbidity and Mortality After Pneumonectomy Utilizing The Society for Thoracic Surgeons General Thoracic Surgery Database",
+      "publication_year": 2010,
+      "cited_by_count": 239,
+      "doi": "https://doi.org/10.1016/j.athoracsur.2010.05.041"
+    },
+    {
+      "id": "https://openalex.org/W3089811728",
+      "display_name": "RESCRIPt: Reproducible sequence taxonomy reference database management for the masses",
+      "publication_year": 2020,
+      "cited_by_count": 122,
+      "doi": "https://doi.org/10.1101/2020.10.05.326504"
+    },
+    {
+      "id": "https://openalex.org/W4207023259",
+      "display_name": "A Genomic Perspective Across Earth\u2019s Microbiomes Reveals That Genome Size in Archaea and Bacteria Is Linked to Ecosystem Type and Trophic Strategy",
+      "publication_year": 2022,
+      "cited_by_count": 111,
+      "doi": "https://doi.org/10.3389/fmicb.2021.761869"
+    }
+  ],
+  "group_by": []
+}

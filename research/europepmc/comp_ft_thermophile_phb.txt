@@ -1,0 +1,291 @@
+# Bioplastic degradation by a polyhydroxybutyrate depolymerase from a thermophilic soil bacterium
+
+## Abstract
+
+AbstractAs the epidemic of single‐use plastic worsens, it has become critical to identify fully renewable plastics such as those that can be degraded using enzymes. Here we describe the structure and biochemistry of an alkaline poly[(R)‐3‐hydroxybutyric acid] (PHB) depolymerase from the soil thermophile Lihuaxuella thermophila. Like other PHB depolymerases or PHBases, the Lihuaxuella enzyme is active against several different polyhydroxyalkanoates, including homo‐ and heteropolymers, but L. thermophila PHB depolymerase (LtPHBase) is unique in that it also hydrolyzes polylactic acid and polycaprolactone. LtPHBase exhibits optimal activity at 70°C, and retains 88% of activity upon incubation at 65°C for 3 days. The 1.2 Å resolution crystal structure reveals an α/β‐hydrolase fold typical of PHBases, but with a shallow active site containing the catalytic Ser‐His‐Asp‐triad that appears poised for broad substrate specificity. LtPHBase holds promise for the depolymerization of PHB and related bioplastics at high temperature, as would be required in bioindustrial operations like recycling or landfill management.
+
+## Abstract
+
+PDB Code(s): 8DAJ
+
+
+## INTRODUCTION
+
+
+The continued worldwide reliance on petroleum‐based single‐use plastics (most notably polypropylene and polyethylene) poses a multifaceted existential threat to the biosphere.
+1
+ Non‐polyester plastics are notoriously long lived in the environment and create microplastics as they degrade, which pose health hazards to humans and to aquatic organisms.
+2
+, 
+3
+, 
+4
+ Although petroleum‐based polyesters like polyethylene terephthalate degrade faster in the environment,
+5
+, 
+6
+, 
+7
+ they too are problematic.
+
+Several biologically‐derived polymers have emerged as potential replacements for petroleum plastics.
+8
+ One promising substitute bioplastic is polyhydroxyalkanoates (PHAs), most notably poly[(R)‐3‐hydroxybutyric acid] (PHB; for a review see
+9
+). PHAs are fully biorenewable, biocompatible, and are produced across many bacterial, fungal, and archaeal lineages. PHAs are versatile bioplastics for medical applications
+10
+ and can be processed by a variety of polymer techniques including melt spinning, 3D printing, melt extrusion, electrospinning, and solvent casting. PHB has physical properties similar to polypropylene,
+11
+ and might be a suitable replacement for both polypropylene and polyethylene.
+12
+, 
+13
+
+PHB depolymerases (PHBases; E.C. 3.1.1.75), particularly those derived from thermophiles, and the organisms themselves, hold promise for future PHA‐based bioindustrial operations like recycling or landfill management that require elevated temperatures. Naturally occurring PHBases act on intracellular or extracellular PHAs. Secreted PHBases scavenge PHB from the environment whereas the intracellular form converts the internal PHB granule, which functions as an energy sink akin to linear polyphosphate, into β‐hydroxybutyrate (HB).
+14
+ Enzymes from thermophiles generally have higher protein stability and activity half‐life compared to their mesophile or halophile counterparts,
+15
+ and PHB becomes amorphous at higher temperatures where it is more accessible to enzymatic depolymerization.
+16
+, 
+17
+
+PHBases have been studied in a variety of organisms. PHBases hydrolyze oxoester bonds
+18
+ using a conserved Ser‐His‐Asp catalytic triad motif and an oxyanion hole that drive PHB binding and catalysis.
+19
+, 
+20
+ The overall degradation reaction is biphasic, and is characterized by an initially slow binding step onto the surface of the polymer, followed by a depolymerization step. The rate of each step is dependent on the polymer and its molecular weight.
+21
+
+Here we biochemically and structurally characterize the secreted PHB depolymerase from a novel thermophilic soil bacterium, Lihuaxuella thermophila.
+22
+
+L. thermophila (taxonomy: Bacteria; Terrabacteria; Firmicutes; Bacilli; Bacillales; Thermoactinomycetaceae; Lihuaxuella; Thermophila) was originally isolated from geothermal soil. Unlike other organisms that contain both PHB biosynthesis and degradation enzymes, L. thermophila lacks enzymes for polymer synthesis but contains a PHB depolymerase, suggesting this bacterium scavenges environmentally accessible PHB as an energy source. We find that L. thermophila PHBase (LtPHBase) is capable of depolymerizing two PHA copolymers in addition to PHB, and two polymers unrelated to PHA, at a temperature of up to 70°C. The 1.2 Å resolution structure reveals a shallow active site with a surface poised to accommodate a variety of polymeric substrates. Based on these characteristics, LtPHBase is a promising candidate for further development for the application of high temperature degradation of bioplastics.
+
+
+## RESULTS
+
+
+
+## Sequence selection
+
+
+LtPHBase was selected as the subject of this work as a representative of a PHBase from a novel thermophilic organism. The filamentous bacterium was first isolated from geothermal soil in Tengchong China
+22
+ and has a growth optimum of 50°C (range 28–65°C) and a pH optimum of 7.0 (range 6.0–8.0). Taxonomically, the bacterium is the only species of the genus Lihuaexuella within the small family Thermoactinomycetaceae. Taxonomic analysis of LtPHBase supports the observation that there is low overall sequence conservation across PHBases, including those from thermophiles (Figure 1). Four taxonomic families, representing the 15 closest sequences to LtPHBase, from Thermoactinomycetaceae, Bacillaceae, Paenibacillaceae, and Thermoanaerobacteraceae are represented on the tree, and each taxonomic family forms a separate clade. The Penicillium PHBase sequence, used as the outgroup root for the evolutionary analysis, is only 24% identical to LtPHBase. Percent identity ranges from 64.0% (for Priestia aryabhattai) to 78.9% for a species from the genus Thermoactinomyces, with an average percent identity of 64.8%.
+
+Phylogenetic analysis of LtPHBase. Maximum Likelihood bootstrapped consensus tree for thermophilic PHBase enzymes closely related to the genus Lihuaxuella. The node numbers indicate the fraction of 1,000 bootstrapped replicates that contain that node. The numbers at the right of each entry indicate the percent sequence identity between the PHBase of Lihuaxuella. The four taxonomic families that define the clades are noted
+
+Inspection of the primary sequence confirms that LtPHBase contains the four consensus sequences associated with PHB depolymerase activity: a Ser‐His‐Asp catalytic triad as well as the oxyanion hole (Figure S1). The serine motif, IDXXXXYVXGLSXGG, is found at amino acids 109–124 (SDDSRRVYAAGLSAGG); the histidine motif, GMXHXXPXXG, is found at amino acids 267–274 (GMGHAWSSG); the aspartate motif, GXXDYTV, is found at amino acids 194–200 (GTSDYTV); and the oxyanion hole consensus, HGCXQ, is found at amino acids 38–42 (HGCTQ).
+
+
+## Enzyme purification
+
+
+The full sequence of LtPHBase comprises 322 residues including a 22 amino acid N‐terminal signal sequence; all work described herein was performed on an LtPHBase construct in which the signal sequence was omitted to facilitate recombinant expression in E. coli. The protein is readily expressed at 37°C and purified to homogeneity with a final yield of 30.0 mg L−1. The protein retains activity after repeated freeze–thaw cycles when stored at −20°C (not shown).
+
+
+## Enzyme activity and stability
+
+
+LtPHBase activity was assayed using a turbidometric assay for the depolymerization of PHB granules. The enzyme is increasingly active between 30 and 72°C, with maximum activity reached at 70°C, beyond which there is a rapid loss of depolymerase activity; the enzyme is completely inactive at temperatures beyond 78°C (Figure 2a). LtPHBase has measurable activity in the pH range of 7.0–10.0 and a pH optimum of 9.0 (Figure 2b), thus, LtPHBase is part of the basic PHB depolymerase family. As with all previously studied PHB depolymerases, the LtPHBase is active with KCl and CaCl2 in the buffer.
+
+LtPHBase activity and stability. (a) Temperature‐dependent activity profile probed by turbidometric assay. Inset, the percent remaining activity after incubating the enzyme at 65°C for the indicated time. (b) Enzymatic activity as a function pH. (c) Far UV CD spectra as a function of temperature. (d) Molar ellipticity at 222 nm as a function of temperature (see spectra in panel c)
+
+Circular dichroism (CD) reveals a far‐UV spectrum typical of mixed α‐helix and β‐sheet secondary structure (Figure 2c), which remains stable until approximately 55°C when there is a transition characterized by a loss of molar ellipticity at 222 nm, presumably α‐helix unfolding, that ends at 70°C. The ellipticity signal plateaus between 70 and 80°C, after which the enzyme precipitates out of solution (Figure 2d). In spite of the conformational change observed at 65°C, LtPHBase is kinetically stable, retaining 100% activity after 24 hr of incubation at 65°C and retaining 88% activity after 72 hr (Figure 2a, inset).
+
+
+## Substrate specificity and enzyme kinetics
+
+
+Five of 10 polymers tested were found to be substrates for LtPHBase: three PHAs, PHB and co‐polymers PHBH, and PHBVH, and, surprisingly, two structurally divergent commercial polymers, polylactic acid (PLA) and polycaprolactone (PCL, Figure 3a); poly(butylene succinate), poly(ethylene terephthalate), poly(trimethylene terephthalate), polypropylene, and polyethylene were not hydrolyzed. Release of HB, measured when PHB, PHBH, or PHBVH films are used as substrates, is the fastest when PHB is the substrate; HB product is detectible within the first 2 min of the assay (Figure 3b). For PHBVH, there is a lag, with little activity measurable for the first 10 min in the assay (Figure 3b), perhaps because of the relatively low concentration, and therefore accessibility, of PHB within the copolymer for hydrolysis. On the basis of catalytic efficiency (Table 1), LtPHBase is 7.4‐fold more active against PHB than PHBH and 123‐fold more active toward PHB compared to PHBVH, again suggesting a role for concentration of PHB within the polymer in dictating reactivity. PCL and PLA activity was also measured using a turbidometric assay, monitoring loss of OD600 nm absorbance signal (Figure 3c,d). Compared to PHB, which is completely hydrolyzed within 40 min, PCL is 61% depolymerized at that point in the assay, and PLA is 21%t hydrolyzed, corresponding to an enzymatic activity of 0.15, 0.025, and 0.008 mg mL−1 min−1, respectively.
+
+LtPHBase enzyme kinetics. (a) Chemical structures of the polymers found to be hydrolyzed by LtPHBase. 1) Poly(R‐3‐hydroxybutyrate)‐PHB, 2) Polylactic acid‐PLA, 3) Polycaprolactone‐PCL, 4) Poly((R‐3‐hydroxybutyrate‐co‐(R)‐3‐hydroxyhexanoate‐PHBH, 5) Poly((R‐3‐hydroxybutyrate‐co‐(R)‐3‐hydroxyvalerate‐co‐(R)‐3‐hydroxyhexanoate‐PHBVH. (b) Enzyme activity as a function of time versus thin polymer films composed of PHB, PHBH, and PHBVH. (c) Enzyme activity as a function of time versus polymer granules composed of PHB, PLA, PCL, and control reaction for PHB lacking LtPHBase. (d) Visualization of the PHB granule depolymerization reaction. The four vials are for reactions at 60°C, at time = 0, 10, 30, and 40 min
+
+Kinetic constants for purified L. thermophila PHBase versus polymer films at 60°C
+
+Note: Values are the mean of three independent experiments. Numbers in parentheses are the standard deviation.
+
+
+## Crystal structure and substrate docking
+
+
+The 1.2 Å resolution LtPHBase structure (Figure 4a) was solved by molecular replacement using a search model generated with Alphafold2, confirming the α/β hydrolase architecture. A central 10‐stranded β‐sheet is flanked on each side by α‐helices. In the central β‐sheet, the first two and the last two β‐strands are anti‐parallel, and the center six β‐strands are parallel. The catalytic triad is defined by Ser121‐His270‐Asp197 and the oxyanion hole cysteine is formed by Cys40 (Figure 4a). Nine ethylene glycol and four isopropanol ligands were modeled in the structure both in the active site, and scattered on the surface (Figure 4a).
+
+LtPHBase structure. (a) Overall architecture showing fortuitous ligands and zoom into active site with and without surface representation. Beige, central sheet; purple, helix; cyan, loops. Grey and red sticks are fortuitous isopropanol and ethylene glycol molecules modeled into electron density in the structure. Dashed lines represent polar interactions between 2.5 and 3.5 Å. (b) Superposition of LtPHBase and PfPHBase. Color scheme as in a. (c) Top ranked pose for HB trimer docked into LtPHBase active site. Orientation and representations as in a
+
+Comparison across PHBase structures reveals that the closest structural homolog of LtPHBase is the PHBase from the fungus Penicillium funiculosum (PfPHBase, PDB 2D80, 2D81),
+23
+ with an overall root mean squared deviation (r.m.s.d.) of 1.0 Å (Figure 4b). The active site residues occupy the same position, in a cleft near the enzyme surface. However, the two enzymes have different topology and share just 16% sequence identity (Figure S1). LtPHBase also contains two more β‐strands in the central β‐sheet. Two features at the mouth of the active site in LtPHBase are notably shorter than the corresponding feature in PfPHBase, leading to a more shallow surface extending from the active site. First, Pro281‐Gly319, which contains a β‐hairpin, is replaced in LtPHBase with a 13‐residue‐shorter loop comprising Pro67‐Arg91 (Figure S1). Second, Thr150‐Asp183 is replaced with a 10‐residue‐shorter loop composed of Val265‐Glu288. Finally, hydrophobic residues that line the active site in PfPHBase and thought to accommodate polymer binding, are largely conserved in LtPHBase, albeit with some substituted residues (Figure S1).
+
+Docking of an HB trimer on to the LtPHBase structure reveals five top scoring poses that cluster near the active site, in the previously identified cleft (Figure 4c). One hydroxybutyrate ester oxygen is positioned near the catalytic triad and the oxyanion hole, nearly overlapping with the molecules of 2‐propanol and ethylene glycol from the crystallization condition bound in the active site (Figure 4a,c). Thus, the overall ester hydrolysis mechanism is expected to be the same as previously reported.
+14
+, 
+24
+ The combination of docked substrate and multiple fortuitous 2‐propanol and ethylene glycol ligands extending from the active site to the protein surface provide a plausible explanation for why LtPHBase is uniquely capable of depolymerizing divergent substrates. Namely, the shallow and relatively hydrophobic surface surrounding the active site can bind the polymer beyond the oxo‐ester bond positioned for hydrolysis in the active site.
+
+Notably, LtPHBase is quite different from PHBase from the thermophilic bacterium Paucimonas lemoignei,
+25
+ which shares 17% sequence identity with LtPHBase (r.m.s.d. of 20 Å, not shown). Both enzymes possess the overall α/β hydrolase architecture characteristic of PHBases but unlike LtPHBase, the active site of Paucimonas lemoignei PHBase is inaccessible to solvent and capped by a mobile 14 residue lid (residues 281–295 in 5MlX, 5MlY). In addition, whereas a structural search of P. lemoignei PHBase identifies lipases,
+25
+ the analogous search using DALI
+26
+ for LtPHBase reveals esterases and peptidases.
+
+
+## DISCUSSION
+
+
+According to a recent assessment from the European Bioplastics Organization
+27
+ PLA and PHA are abundant and two of the major biodegradable bioplastics used in industry. PHA depolymerases are a key element of PHA circularity. To date, the development of PHA as a replacement for petroleum based polymers like polyethylene and propylene has focused on the biofermentation of the polymer, and includes strain selection, feedstock choice, bioreactor parameters, and metabolic/pathway engineering to improve yields (for a review see
+28
+). Now that production methodology has been established by several global companies, studies have shifted to how the polymer can be processed by industrial methods designed for processing polyethylene and polypropylene.
+
+PHBases have been isolated from organisms found in water (e.g., 7), salt water (e.g., 29), sludge (e.g., 30), and soil (e.g., 22). PHB biodegradation by organisms isolated from soil
+31
+ is thought to be particularly relevant to commercial applications that will involve PHB in landfills or other agricultural uses of the polymer.
+32
+ In addition, thermophiles from soil and sludge are considered the best choice for environmental remediation
+33
+ as often landfills and sludge processing sites are of elevated temperature, coupled with the observation that catalytic efficiency increases with temperature as PHB becomes less crystalline. Finally, for a bioindustrial process, enzyme kinetics must be fast, the enzyme must be long‐lived in the process, and must be active in the given environmental context. For example, thermophilic enzymes are attractive because the reaction can be run at temperatures that kill contaminating mesophiles, but once the reaction is complete, the temperature of the reaction can be reduced for any downstream processing steps.
+
+LtPHBase, the first extremophilic PHBase from a soil bacterium to be structurally characterized, is an attractive enzyme for further bioindustrial development to degrade bioplastics. To our knowledge, LtPHBase is the first PHBase that can depolymerase PHB, two different PHA copolymers, and two non‐PHA polymers, PLA and PCL, at up to 70°C. The atomic resolution structure reveals the expected catalytic triad and oxyanion hole and places LtPHBase within the serine hydrolase family similar to proteases and esterases, and not lipases. LtPHBase most closely resembles the structure of a fungal PHBase despite low sequence identity, and, despite an overall similar architecture, diverges from other structurally characterized thermotolerant PHBases.
+
+The LtPHBase activity profile, with a Km of 27 μg mL−1 and activity that is sustained for 3d at 65°C, compares favorably to the two other true thermophile PHBases documented previously: (a) the aquatic T. thermophilus PHBase has a pH optimum of 8.0, a maximum activity temperature of 70°C, and a Km of 53 μg mL−1
+
+34
+ and (b) the PHBase from Schlegelella depolymerans, isolated from sludge, has a pH optimum of 8.0, a maximum activity temperature of 75°C, a Km of 45 μg mL−1, and the enzyme is stable at 70°C for over 24 hr.
+18
+ Additional comparative enzymology, including to PfPHBase,
+35
+ remains difficult because kinetic data are obtained with different forms of PHB (powder, granules, films, different molecular weight ranges) that affect rates independent of the enzyme used.
+36
+ We hypothesize LtPHBase is similar to the other two thermophilic PHBases, which degrade PHB primarily in an exohydrolytic manner, producing only HB monomer as a reaction product.
+
+Identifying enzymes that are capable of efficient depolymerization of emerging bioplastics in the environment or in commercial settings is critical to supporting the replacement of petroleum‐based plastics (notably polypropylene and polyethylene) with polymers from the PHA family. Although these biopolyesters exhibit significantly accelerated degradation rates in the marine environment or in landfills, it is critical to identify methods to improve upon current efficiencies. Additional efforts to improve LtPHBase, for example, by further engineering for its broad substrate selectivity, are underway. The last stage of PHA commercial development will entail recycling the waste polymer. Since a variety of organisms can synthesize PHB in a process linked to the Krebs cycle via acetyl‐CoA,
+37
+ HB produced during depolymerization can be enzymatically repolymerized. In the long run, this achievement will eliminate PHA from the environment and represent a truly circularly sustainable plastic.
+
+
+## CONCLUSION
+
+
+The PHB depolymerase from the soil thermophile L. thermophila was enzymatically and structurally characterized. L. thermophila PHBase is active against several different PHAs, including both homo‐ and heteropolymers. Unlike any other studied PHB depolymerase, the Lihuaxuella enzyme also depolymerizes both PLAand PCL, albeit with decreased catalytic efficiency. The enzyme has a 70°C temperature of maximum activity, and is impressively stable at 65°C for 3 days. The 1.2 Å resolution crystal structure reveals a shallow enzyme active site containing a catalytic Ser‐ His‐Asp triad that appears poised for broad substrate specificity. The combination of high temperature of activity, high stability, and broad substrate specificity suggests this enzyme is a promising candidate for industrial degradation of bioplastics.
+
+
+## MATERIALS AND METHODS
+
+
+
+## Chemicals and materials
+
+
+All chemicals were purchased from Millipore‐Sigma, Inc., including all buffer components, media, isopropyl‐β‐D‐thiogalactoside (IPTG), antibiotics, polyhydroxybutyrate granules, and other polymers. PHB copolymers contain the following mole percent of the non‐PHB monomer: PHBH: 15.2%; PHBVH: PHH 4.1%, PHV 2.3%. The polymers were supplied as a powder and used without further characterization. Chromatography resins were also from Millipore‐Sigma, Inc. All laboratory supplies were purchased from Fisher Scientific. Competent E. coli were purchased from New England Biolabs, Inc.
+
+
+## Sequence selection and evolutionary analysis
+
+
+The PHBase from L. thermophila was identified by searching the NCBI Protein and Identical Protein Groups databases for thermophilic variants of the enzyme. The LtPHBase sequence was used as input to the BlastP program (hosted by NCBI) and run using the default settings. The top 20 matching sequences were downloaded in FASTA format and used as input to the program Muscle
+38
+ for a UPGMA method alignment. The alignment was improved by statistical analysis in Guidance2
+39
+ where five sequences were removed from further analysis. An outgroup root consisting of the Penicillium PHBase sequence (Genbank accession PCH05226.1) was selected so that tree calculations could be rooted. The final alignment file was used to reconstruct the phylogeny in MegaX.
+40
+ A JTT model was employed with uniform substitution rates and the nearest‐neighbor‐interchange heuristic. 1,000 bootstrapped replicates were calculated. Final trees were displayed using FigTree (github.com/rambaut/figtree/releases).
+
+
+## Production of expression plasmid
+
+
+The amino acid sequence of the L. thermophila PHBase (GenBank WP_089972404)
+22
+ was utilized to construct a recombinant DNA plasmid for overexpression and purification. The first 22 residues of the sequence, corresponding to a putative signal sequence,
+41
+ were replaced with MHHHHHHENLYFQGP. This sequence provides a nickel chelating hexahistidine tag followed by the TEV protease cleavage site. The amended protein sequence was reverse translated to DNA and codon optimized for expression in E. coli. The gene was assembled in‐house using assembly PCR methods
+42
+; it was cloned into the Nco I site of the expression vector pET11b. The insert was verified by DNA sequencing after construction.
+
+
+## Enzyme expression and purification
+
+
+The expression plasmid was used to transform chemically competent E. coli Oragami2‐(DE3) cells. Single colonies were selected from LB‐Ampicilin plates and used for expression screening. Colonies were grown at 37°C for 12 hr in LB media supplemented with 100 μg mL−1 ampicillin. This culture was used to inoculate fresh LB‐AMP flasks at a 1:100 inoculum. These cultures were grown at 37°C until OD595 nm = 0.4 (typically 4 hr) at which time IPTG was added to a final concentration of 1 mM. Growth was continued for 12 hr. Cells were harvested by centrifugation at 10,000 xg for 15 min and frozen at −80°C until use (minimal time frozen was 24 hr).
+
+Cells were thawed on ice and were resuspended in lysis buffer (0.5 M NaCl, 20 mM Tris–HCl, 5 mM imidazole, pH 7.9), typically with 1 ml buffer per gram of cells. Cells were disrupted via two passes through a French Press, followed by centrifugation at 30,000g for 30 min to clarify lysate. The crude extract was mixed with an equal volume of charged His‐Bind resin slurry and the mixture was poured into a 5 cm x 4.9 cc column. The column was washed with 10 column volumes (CVs) of wash buffer (0.5 M NaCl, 20 mM Tris–HCl, 60 mM imidazole, pH 7.9) at a flow rate of 0.2 ml min−1. Enzyme was eluted from the column with the addition of 3 CVs of elution buffer (0.5 M NaCl, 20 mM Tris–HCl, 1.0 M imidazole, pH 7.9), with 1‐mL fractions collected. Fractions containing enzyme were pooled after analysis by SDS PAGE. The pooled fractions were applied to a 70 cm x 4.9 cc Sephadex G‐75 column equilibrated with 10 mM Tris–HCl buffer at pH 7.5 with 1 mM EDTA. Fractions containing homogeneous protein were pooled (after inspection by SDS PAGE), and concentrated to 5 mg mL−1 via Centricon filters. Enzyme was stored frozen at −20°C until use. The hexahistidine tag was removed from the LtPHBase using TEV protease. Protein was diluted to 1.0 mg mL−1 into 10 mM Tris–HCl at pH 7.5 with 25 mM NaCl. 100 U of histidine‐tagged TEV protease was added per mg of the enzyme (approximate ratio of 1:100 [w/w]). The reaction was allowed to proceed for 16 hr at 4°C. The mixture was passed over a charged nickel column. One CV of flowthrough was collected representing purified tag‐free enzyme.
+
+
+## PHB depolymerase reaction
+
+
+A turbidometric assay was employed to measure PHBase activity under various conditions. The standard reaction (final volume = 1.0 ml) contained 200 mg L−1 of PHB granules that were previously stably suspended via sonication, in 25 mM buffer at various pH values containing 10 mM KCl and 10 mM CaCl2. The reaction was initiated after the addition of 30 nM – 30 μM enzyme and monitored at 600 nm in an Applied Photophysics spectropolarimeter in absorbance mode. The reaction was gently stirred and maintained at a constant temperature. OD600 nm measurements (typically starting in the range of 2–3) were converted to percent OD600 nm remaining as a function of time. Enzyme activity is defined in units of mg mL−1 min−1 as reported
+43
+:
+ΔOD600nmx0.82/volumextime
+
+Alternatively, a second assay was utilized to measure β‐hydroxybutyrate (HB) directly using the Sigma‐Aldrich hydroxybutyrate assay kit MAK272. HB was measured fluorometrically (λ
+ex = 535 nm, λ
+em = 587 nm). Aliquots (10 μl) were removed from the PHB depolymerase reaction at various time points, mixed with 50 μl of the supplied HB assay buffer, and pipetted into wells of a black, flat bottomed, 96‐well plate. The plate was incubated at room temperature in the dark for 30 min. Fluorescence emission intensity was measured using a Molecular Dynamics SpectraMax M5 microplate reader. Fluorescence readings were converted to HB concentration via comparison to a standard curve constructed from known concentrations of pure HB. All kinetic parameters are calculated per reference.
+44
+ Results presented are the average of three independent trials.
+
+
+## Circular dichroism (CD)
+
+
+CD spectra were recorded using an Applied Photophysics Chirascan CD spectropolarimeter. Typically, samples contained 10 mM enzyme in 10 mM CHES pH 9.0, and spectra were scanned at 1°C per min with a dwell at temperature of 2 min to ensure that the system had reached equilibrium. The temperature ranged from 10 to 90°C under control of the Chirascan software. Raw CD data was converted to mean molar ellipticity using Chirascan data analysis software. The data represent the average of three independent scans. All scans were within 1% mean molar ellipticity at each wavelength.
+
+
+## Crystallization
+
+
+Crystallization conditions were discovered by commercial sparse matrix screening in hanging drop crystallization trials. Protein at 10 mg mL−1 in 10 mM Tris–HCl (pH 9.0) was mixed with an equal volume of reservoir buffer consisting of 100 mM citrate (pH 5.6), 18% propanol, and 20% PEG 4000, (total drop volume was 4 μl) in 24‐well VDX plates incubated at 25°C. Crystals appeared after 5–7 days as hexagonal rods approximately 1–3 mm in length with a cross section diameter of 0.2–0.3 mm. Crystals were harvested and subsequently flash frozen in liquid nitrogen after a brief soak in the final crystallization buffer supplemented with 20% ethylene glycol.
+
+
+## Data collection, processing, and structure determination
+
+
+X‐ray diffraction data were collected on the Southeast Regional Collaborative Access Team (SER‐CAT) beamline 22‐ID at the Advanced Photon Source. Data were processed using XDS and scaled using XSCALE.
+45
+ The structure of LtPHBase was solved by molecular replacement as implemented in Phaser within the Phenix package.
+46
+, 
+47
+ Five molecular replacement models were generated using the LtPHBase sequence as input to AlphaFold2
+48
+ on the Google Collaboratory AlphaFold2.ipynb, using default settings. The top scoring model from AlphaFold2 produced the best molecular replacement result, as judged by the translational Z‐factor and log‐likelihood gain. The 1.2 Å resolution LtPHBase structure was iteratively built in Coot
+49
+ and refined using Phenix.refine
+50
+ (Table 2). The top scoring Alphafold2 model is similar to the experimentally determined structure with a root mean squared deviation (r.m.s.d.) of 0.2 Å; the main structural deviations were in residues 1–14 and a loop composed of residues 220–230 (not shown). The structure was deposited to the PDB with accession 8DAJ. PyMOL was used to generate figures.
+
+Data collection and refinement statistics
+
+Note: Statistics for the highest‐resolution shell are shown in parentheses.
+
+is a statistic used in crystallography, derived from CC1/2.
+
+
+## Molecular docking
+
+
+The LtPHBase structure was used along with the 3‐hydroxybutyrate trimer ligand RB3 from PDB 4BTV as input to the blind molecular docking program EDock.
+51
+ The program was run with the default settings. EDock calculations first identify the best binding site with the original ligand geometry and then perform several replica exchange Monte Carlo simulations in order to optimize ligand geometry within the binding site. The top scoring ligand pose was selected for analysis.
+
+
+## AUTHOR CONTRIBUTIONS
+
+
+Gwendell M Thomas: Data curation (equal); formal analysis (equal); investigation (equal). Dustin J. E. Huard: Data curation (equal); formal analysis (equal); investigation (equal). Stephen Quirk: Conceptualization (lead); data curation (equal); formal analysis (equal); investigation (equal); project administration (equal). Raquel Lieberman: Data curation (equal); formal analysis (equal); funding acquisition (equal); supervision (equal); validation (equal); visualization (equal); writing – original draft (equal); writing – review and editing (equal).
+
+
+## Supporting information
+
+
+Supplemental Figure S1 Comparison of LtPHBase and PfPHBase. (A) Sequence comparison generated by PROMALS3D (37). *, identical residues; X, catalytic residues; X, hydrophobic residues in active site environs; X/X, shortened active site loop residues. (B) Comparison of topology generated by PDBsum (38).
+
+Click here for additional data file.

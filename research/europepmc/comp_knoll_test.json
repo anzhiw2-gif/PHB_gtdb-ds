@@ -1,0 +1,257 @@
+{
+  "hitCount": 1,
+  "nextCursorMark": "",
+  "results": [
+    {
+      "id": "19296857",
+      "source": "MED",
+      "pmid": "19296857",
+      "pmcid": "PMC2666664",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC2666664"
+        ]
+      },
+      "doi": "10.1186/1471-2105-10-89",
+      "title": "The PHA Depolymerase Engineering Database: A systematic analysis tool for the diverse family of polyhydroxyalkanoate (PHA) depolymerases.",
+      "authorString": "Knoll M, Hamm TM, Wagner F, Martinez V, Martinez V, Pleiss J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Knoll M",
+            "firstName": "Michael",
+            "lastName": "Knoll",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Technical Biochemistry, University of Stuttgart, Allmandring, Germany. michael.knoll@itb.uni-stuttgart.de"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hamm TM",
+            "firstName": "Thomas M",
+            "lastName": "Hamm",
+            "initials": "TM"
+          },
+          {
+            "fullName": "Wagner F",
+            "firstName": "Florian",
+            "lastName": "Wagner",
+            "initials": "F"
+          },
+          {
+            "fullName": "Martinez V",
+            "firstName": "Virginia",
+            "lastName": "Martinez",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4977-4176"
+            }
+          },
+          {
+            "fullName": "Martinez V",
+            "firstName": "Virginia",
+            "lastName": "Martinez",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-6940-8589"
+            }
+          },
+          {
+            "fullName": "Pleiss J",
+            "firstName": "J\u00fcrgen",
+            "lastName": "Pleiss",
+            "initials": "J"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4977-4176"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-6940-8589"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "10",
+        "journalIssueId": 2467025,
+        "dateOfPublication": "2009 Mar",
+        "monthOfPublication": 3,
+        "yearOfPublication": 2009,
+        "printPublicationDate": "2009-03-01",
+        "journal": {
+          "title": "BMC bioinformatics",
+          "medlineAbbreviation": "BMC Bioinformatics",
+          "essn": "1471-2105",
+          "issn": "1471-2105",
+          "isoabbreviation": "BMC Bioinformatics",
+          "nlmid": "100965194"
+        }
+      },
+      "pubYear": "2009",
+      "pageInfo": "89",
+      "abstractText": "<h4>Background</h4>Polyhydroxyalkanoates (PHAs) can be degraded by many microorganisms using intra- or extracellular PHA depolymerases. PHA depolymerases are very diverse in sequence and substrate specificity, but share a common alpha/beta-hydrolase fold and a catalytic triad, which is also found in other alpha/beta-hydrolases.<h4>Results</h4>The PHA Depolymerase Engineering Database (DED, http://www.ded.uni-stuttgart.de) has been established as a tool for systematic analysis of this enzyme family. The DED contains sequence entries of 587 PHA depolymerases, which were assigned to 8 superfamilies and 38 homologous families based on their sequence similarity. For each family, multiple sequence alignments and profile hidden Markov models are provided, and functionally relevant residues are annotated.<h4>Conclusion</h4>The DED is a valuable tool which can be applied to identify new PHA depolymerase sequences from complete genomes in silico, to classify PHA depolymerases, to predict their biochemical properties, and to design enzyme variants with improved properties.",
+      "affiliation": "Institute of Technical Biochemistry, University of Stuttgart, Allmandring, Germany. michael.knoll@itb.uni-stuttgart.de",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Carboxylic Ester Hydrolases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Markov Chains"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Protein Engineering"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Binding Sites"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Software"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Databases, Protein"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "poly(3-hydroxyalkanoic acid) depolymerase",
+            "registryNumber": "EC 3.1.1.-"
+          },
+          {
+            "name": "Carboxylic Ester Hydrolases",
+            "registryNumber": "EC 3.1.1.-"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "BioMedCentral",
+            "url": "http://www.biomedcentral.com/content/pdf/1471-2105-10-89.pdf"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "abs",
+            "site": "BioMedCentral",
+            "url": "http://www.biomedcentral.com/1471-2105/10/89/abstract"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "BioMedCentral",
+            "url": "http://www.biomedcentral.com/1471-2105/10/89"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1186/1471-2105-10-89"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC2666664"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC2666664?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 91,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pfam",
+          "pdb"
+        ]
+      },
+      "dateOfCompletion": "2009-05-18",
+      "dateOfCreation": "2009-03-20",
+      "firstIndexDate": "2009-12-23",
+      "fullTextReceivedDate": "2020-07-11",
+      "dateOfRevision": "2021-10-20",
+      "electronicPublicationDate": "2009-03-18",
+      "firstPublicationDate": "2009-03-18"
+    }
+  ]
+}

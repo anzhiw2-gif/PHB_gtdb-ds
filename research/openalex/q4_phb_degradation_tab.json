@@ -1,0 +1,97 @@
+﻿{
+  "meta": {
+    "count": 876,
+    "db_response_time_ms": 14,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where title/abstract has (polyhydroxybutyrate degradation)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "polyhydroxybutyrate degradation",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=title_and_abstract.search:polyhydroxybutyrate degradation&per_page=10&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W1974664624",
+      "display_name": "An overview of the recent developments in polylactide (PLA) research",
+      "publication_year": 2010,
+      "cited_by_count": 2407,
+      "doi": "https://doi.org/10.1016/j.biortech.2010.05.092"
+    },
+    {
+      "id": "https://openalex.org/W2889466042",
+      "display_name": "Biodegradable Plastic Blends Create New Possibilities for End-of-Life Management of Plastics but They Are Not a Panacea for Plastic Pollution",
+      "publication_year": 2018,
+      "cited_by_count": 613,
+      "doi": "https://doi.org/10.1021/acs.est.8b02963"
+    },
+    {
+      "id": "https://openalex.org/W2148714283",
+      "display_name": "Tissue response and <i>in vivo</i> degradation of selected polyhydroxyacids: Polylactides (PLA), poly(3\u2010hydroxybutyrate) (PHB), and poly(3\u2010hydroxybutyrate\u2010<i>co</i>\u20103\u2010hydroxyvalerate) (PHB/VA)",
+      "publication_year": 1993,
+      "cited_by_count": 546,
+      "doi": "https://doi.org/10.1002/jbm.820270904"
+    },
+    {
+      "id": "https://openalex.org/W1532785796",
+      "display_name": "Biochemistry of inorganic polyphosphates",
+      "publication_year": 1975,
+      "cited_by_count": 542,
+      "doi": "https://doi.org/10.1007/bfb0034661"
+    },
+    {
+      "id": "https://openalex.org/W2021758123",
+      "display_name": "Nitrogen fixation island and rhizosphere competence traits in the genome of root-associated <i>Pseudomonas stutzeri</i> A1501",
+      "publication_year": 2008,
+      "cited_by_count": 371,
+      "doi": "https://doi.org/10.1073/pnas.0801093105"
+    },
+    {
+      "id": "https://openalex.org/W2561795551",
+      "display_name": "Production of biodegradable plastic by polyhydroxybutyrate (PHB) accumulating bacteria using low cost agricultural waste material",
+      "publication_year": 2016,
+      "cited_by_count": 334,
+      "doi": "https://doi.org/10.1186/s13104-016-2321-y"
+    },
+    {
+      "id": "https://openalex.org/W2030787604",
+      "display_name": "In vitro and in vivo evaluation of polyhydroxybutyrate and of polyhydroxybutyrate reinforced with hydroxyapatite",
+      "publication_year": 1991,
+      "cited_by_count": 329,
+      "doi": "https://doi.org/10.1016/0142-9612(91)90072-i"
+    },
+    {
+      "id": "https://openalex.org/W2957523480",
+      "display_name": "A review on biopolymer production via lignin valorization",
+      "publication_year": 2019,
+      "cited_by_count": 315,
+      "doi": "https://doi.org/10.1016/j.biortech.2019.121790"
+    },
+    {
+      "id": "https://openalex.org/W2081581284",
+      "display_name": "A composite of hydroxyapatite with electrospun biodegradable nanofibers as a tissue engineering material",
+      "publication_year": 2005,
+      "cited_by_count": 273,
+      "doi": "https://doi.org/10.1263/jbb.100.43"
+    },
+    {
+      "id": "https://openalex.org/W2965573952",
+      "display_name": "Microbial degradation of four biodegradable polymers in soil and compost demonstrating polycaprolactone as an ideal compostable plastic",
+      "publication_year": 2019,
+      "cited_by_count": 266,
+      "doi": "https://doi.org/10.1016/j.wasman.2019.07.042"
+    }
+  ],
+  "group_by": []
+}

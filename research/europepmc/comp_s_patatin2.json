@@ -1,0 +1,3745 @@
+{
+  "hitCount": 13,
+  "nextCursorMark": "",
+  "results": [
+    {
+      "id": "39797518",
+      "source": "MED",
+      "pmid": "39797518",
+      "pmcid": "PMC11724238",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC11724238"
+        ]
+      },
+      "doi": "10.1111/1462-2920.70028",
+      "title": "Hepatincolaceae (Alphaproteobacteria) are Distinct From Holosporales and Independently Evolved to Associate With Ecdysozoa.",
+      "authorString": "Castelli M, Gammuto L, Podushkina D, Vecchi M, Altiero T, Clementi E, Guidetti R, Rebecchi L, Sassera D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Castelli M",
+            "firstName": "Michele",
+            "lastName": "Castelli",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2177-5772"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and Biotechnology, University of Pavia, Pavia, Italy."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gammuto L",
+            "firstName": "Leandro",
+            "lastName": "Gammuto",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and Biotechnology, University of Pavia, Pavia, Italy."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Podushkina D",
+            "firstName": "Diona",
+            "lastName": "Podushkina",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and Biotechnology, University of Pavia, Pavia, Italy."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vecchi M",
+            "firstName": "Matteo",
+            "lastName": "Vecchi",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dipartimento di Scienze Della Vita, Universit\u00e0 degli Studi di Modena e Reggio Emilia, Modena, Italy."
+                },
+                {
+                  "affiliation": "Institute of Systematics and Evolution of Animals, Polish Academy of Sciences, Krakow, Poland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Altiero T",
+            "firstName": "Tiziana",
+            "lastName": "Altiero",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dipartimento Educazione e Scienze Umane, Universit\u00e0 degli Studi di Modena e Reggio Emilia, Modena, Italy."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Clementi E",
+            "firstName": "Emanuela",
+            "lastName": "Clementi",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and Biotechnology, University of Pavia, Pavia, Italy."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guidetti R",
+            "firstName": "Roberto",
+            "lastName": "Guidetti",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dipartimento di Scienze Della Vita, Universit\u00e0 degli Studi di Modena e Reggio Emilia, Modena, Italy."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rebecchi L",
+            "firstName": "Lorena",
+            "lastName": "Rebecchi",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dipartimento di Scienze Della Vita, Universit\u00e0 degli Studi di Modena e Reggio Emilia, Modena, Italy."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sassera D",
+            "firstName": "Davide",
+            "lastName": "Sassera",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and Biotechnology, University of Pavia, Pavia, Italy."
+                },
+                {
+                  "affiliation": "Fondazione IRCCS Policlinico San Matteo, Pavia, Italy."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2177-5772"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "27",
+        "journalIssueId": 3883135,
+        "dateOfPublication": "2025 Jan",
+        "monthOfPublication": 1,
+        "yearOfPublication": 2025,
+        "printPublicationDate": "2025-01-01",
+        "journal": {
+          "title": "Environmental microbiology",
+          "medlineAbbreviation": "Environ Microbiol",
+          "isoabbreviation": "Environ Microbiol",
+          "nlmid": "100883692",
+          "essn": "1462-2920",
+          "issn": "1462-2912"
+        }
+      },
+      "pubYear": "2025",
+      "pageInfo": "e70028",
+      "abstractText": "The Hepatincolaceae (Alphaproteobacteria) are a group of bacteria that inhabit the gut of arthropods and other ecdysozoans, associating extracellularly with microvilli. Previous phylogenetic studies, primarily single-gene analyses, suggested their relationship to the Holosporales, which includes intracellular bacteria in protist hosts. However, the genomics of Hepatincolaceae is still in its early stages. In this study, the number of available Hepatincolaceae genomes was increased to examine their evolutionary and functional characteristics. It was found that the previous phylogenetic grouping with Holosporales was incorrect due to sequence compositional biases and that Hepatincolaceae form an independent branch within the Hepatincolaceae. This led to a reinterpretation of their features, proposing a new evolutionary scenario that involves an independent adaptation to host association compared to the Holosporales, with distinct specificities. The Hepatincolaceae exhibit greater nutritional flexibility, utilising various molecules available in the host gut and thriving in anaerobic conditions. However, they have a less complex mechanism for modulating host interactions, which are likely less direct than those of intracellular bacteria. In addition, representatives of Hepatincolaceae show several lineage-specific traits related to differences in host species and life conditions.",
+      "affiliation": "Department of Biology and Biotechnology, University of Pavia, Pavia, Italy.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "brief-report",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "Italian NRPP Mission 4 Component 2 Investment 1.4",
+            "agency": "European Union-NextGenerationEU",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Animals"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Arthropods",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Alphaproteobacteria",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CL",
+                  "qualifierName": "classification",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Evolution, Molecular"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phylogeny"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Symbiosis"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Genome, Bacterial"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biological Evolution"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Symbiosis",
+          "Rickettsiales",
+          "Protists",
+          "Gut Bacteria",
+          "Tardigrades",
+          "Prophages",
+          "Bacterial Parasites"
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1111/1462-2920.70028"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11724238"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11724238?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 1,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "gca"
+        ]
+      },
+      "dateOfCompletion": "2025-04-30",
+      "dateOfCreation": "2025-01-11",
+      "firstIndexDate": "2025-01-13",
+      "fullTextReceivedDate": "2025-11-28",
+      "dateOfRevision": "2025-05-21",
+      "firstPublicationDate": "2025-01-01"
+    },
+    {
+      "id": "38578779",
+      "source": "MED",
+      "pmid": "38578779",
+      "pmcid": "PMC10997104",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC10997104"
+        ]
+      },
+      "doi": "10.1371/journal.pone.0300503",
+      "title": "Searching for new plastic-degrading enzymes from the plastisphere of alpine soils using a metagenomic mining approach.",
+      "authorString": "Frey B, Aiesi M, Rast BM, R\u00fcthi J, Julmi J, Stierli B, Qi W, Brunner I.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Frey B",
+            "firstName": "Beat",
+            "lastName": "Frey",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6391-3574"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Swiss Federal Institute for Forest, Forest Soils and Biogeochemistry, Snow and Landscape Research WSL, Birmensdorf, Switzerland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aiesi M",
+            "firstName": "Margherita",
+            "lastName": "Aiesi",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Swiss Federal Institute for Forest, Forest Soils and Biogeochemistry, Snow and Landscape Research WSL, Birmensdorf, Switzerland."
+                },
+                {
+                  "affiliation": "Facolt\u00e0 de Science Agrarie e Alimentari, University Degli Studi di Milano, Milano, Italy."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rast BM",
+            "firstName": "Basil M",
+            "lastName": "Rast",
+            "initials": "BM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1723-3938"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Swiss Federal Institute for Forest, Forest Soils and Biogeochemistry, Snow and Landscape Research WSL, Birmensdorf, Switzerland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "R\u00fcthi J",
+            "firstName": "Joel",
+            "lastName": "R\u00fcthi",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0568-9551"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Swiss Federal Institute for Forest, Forest Soils and Biogeochemistry, Snow and Landscape Research WSL, Birmensdorf, Switzerland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Julmi J",
+            "firstName": "J\u00e9r\u00f4me",
+            "lastName": "Julmi",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0000-0497-7255"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Swiss Federal Institute for Forest, Forest Soils and Biogeochemistry, Snow and Landscape Research WSL, Birmensdorf, Switzerland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stierli B",
+            "firstName": "Beat",
+            "lastName": "Stierli",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Swiss Federal Institute for Forest, Forest Soils and Biogeochemistry, Snow and Landscape Research WSL, Birmensdorf, Switzerland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Qi W",
+            "firstName": "Weihong",
+            "lastName": "Qi",
+            "initials": "W",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8581-908X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Functional Genomics Center Z\u00fcrich, ETH Z\u00fcrich and University of Z\u00fcrich, Z\u00fcrich, Switzerland."
+                },
+                {
+                  "affiliation": "Swiss Institute of Bioinformatics SIB, Geneva, Switzerland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brunner I",
+            "firstName": "Ivano",
+            "lastName": "Brunner",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3436-995X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Swiss Federal Institute for Forest, Forest Soils and Biogeochemistry, Snow and Landscape Research WSL, Birmensdorf, Switzerland."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8581-908X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0568-9551"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6391-3574"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1723-3938"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3436-995X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0000-0497-7255"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "4",
+        "volume": "19",
+        "journalIssueId": 3747507,
+        "dateOfPublication": "2024 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2024,
+        "printPublicationDate": "2024-01-01",
+        "journal": {
+          "title": "PloS one",
+          "medlineAbbreviation": "PLoS One",
+          "isoabbreviation": "PLoS One",
+          "nlmid": "101285081",
+          "essn": "1932-6203",
+          "issn": "1932-6203"
+        }
+      },
+      "pubYear": "2024",
+      "pageInfo": "e0300503",
+      "abstractText": "Plastic materials, including microplastics, accumulate in all types of ecosystems, even in remote and cold environments such as the European Alps. This pollution poses a risk for the environment and humans and needs to be addressed. Using shotgun DNA metagenomics of soils collected in the eastern Swiss Alps at about 3,000 m a.s.l., we identified genes and their proteins that potentially can degrade plastics. We screened the metagenomes of the plastisphere and the bulk soil with a differential abundance analysis, conducted similarity-based screening with specific databases dedicated to putative plastic-degrading genes, and selected those genes with a high probability of signal peptides for extracellular export and a high confidence for functional domains. This procedure resulted in a final list of nine candidate genes. The lengths of the predicted proteins were between 425 and 845 amino acids, and the predicted genera producing these proteins belonged mainly to Caballeronia and Bradyrhizobium. We applied functional validation, using heterologous expression followed by enzymatic assays of the supernatant. Five of the nine proteins tested showed significantly increased activities when we used an esterase assay, and one of these five proteins from candidate genes, a hydrolase-type esterase, clearly had the highest activity, by more than double. We performed the fluorescence assays for plastic degradation of the plastic types BI-OPL and ecovio\u00ae only with proteins from the five candidate genes that were positively active in the esterase assay, but like the negative controls, these did not show any significantly increased activity. In contrast, the activity of the positive control, which contained a PLA-degrading gene insert known from the literature, was more than 20 times higher than that of the negative controls. These findings suggest that in silico screening followed by functional validation is suitable for finding new plastic-degrading enzymes. Although we only found one new esterase enzyme, our approach has the potential to be applied to any type of soil and to plastics in various ecosystems to search rapidly and efficiently for new plastic-degrading enzymes.",
+      "affiliation": "Swiss Federal Institute for Forest, Forest Soils and Biogeochemistry, Snow and Landscape Research WSL, Birmensdorf, Switzerland.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "5233.00388.001.01, Bioactive Permafrost",
+            "agency": "Swiss Federal Institute for Forest, Snow and Landscape Research",
+            "orderIn": 0
+          },
+          {
+            "grantId": "WSL; 5231.00900.002.01, Metagenomics",
+            "agency": "Swiss Federal Institute for Forest, Snow and Landscape Research",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plastics"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Esterases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Soil"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Ecosystem"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Metagenome"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Plastics",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Soil",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Esterases",
+            "registryNumber": "EC 3.1.-"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0300503&type=printable"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1371/journal.pone.0300503"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC10997104"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC10997104?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 5,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2024-04-08",
+      "dateOfCreation": "2024-04-05",
+      "firstIndexDate": "2024-04-06",
+      "fullTextReceivedDate": "2025-02-04",
+      "dateOfRevision": "2024-04-08",
+      "electronicPublicationDate": "2024-04-05",
+      "firstPublicationDate": "2024-04-05"
+    },
+    {
+      "id": "41124673",
+      "source": "MED",
+      "pmid": "41124673",
+      "pmcid": "PMC12766997",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12766997"
+        ]
+      },
+      "doi": "10.1002/advs.202512030",
+      "title": "Chronic PET-Microplastic Exposure: Disruption of Gut-Liver Homeostasis and Risk of Hepatic Steatosis.",
+      "authorString": "Park S, Kim MJ, Shin JH, Kim E, Son M, Lee S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Park S",
+            "firstName": "Surye",
+            "lastName": "Park",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0000-6154-9214"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Applied Biosciences, Kyungpook National University, Daegu, 41566, Republic of Korea."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kim MJ",
+            "firstName": "Min-Ji",
+            "lastName": "Kim",
+            "initials": "MJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4525-7542"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Applied Biosciences, Kyungpook National University, Daegu, 41566, Republic of Korea."
+                },
+                {
+                  "affiliation": "NGS Core Facility, Kyungpook National University, Daegu, 41566, Republic of Korea."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shin JH",
+            "firstName": "Jae-Ho",
+            "lastName": "Shin",
+            "initials": "JH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6450-9787"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Applied Biosciences, Kyungpook National University, Daegu, 41566, Republic of Korea."
+                },
+                {
+                  "affiliation": "NGS Core Facility, Kyungpook National University, Daegu, 41566, Republic of Korea."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kim E",
+            "firstName": "Eunsoo",
+            "lastName": "Kim",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4196-8280"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Pharmacy and Research Institute for Drug Development, Pusan National University, Busan, 46241, Republic of Korea."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Son M",
+            "firstName": "Myeongjoo",
+            "lastName": "Son",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9104-3991"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Anatomy & Cell Biology, School of Medicine, Kangwon National University, Chuncheon, 24341, Republic of Korea."
+                },
+                {
+                  "affiliation": "Brain Health Research Laboratory, Institute of Medical Science, Kangwon National University College of Medicine, Chuncheon, 24341, Republic of Korea."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lee S",
+            "firstName": "Seungjun",
+            "lastName": "Lee",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2848-3521"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Applied Biosciences, Kyungpook National University, Daegu, 41566, Republic of Korea."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6450-9787"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2848-3521"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4525-7542"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9104-3991"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4196-8280"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0000-6154-9214"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "13",
+        "journalIssueId": 4084536,
+        "dateOfPublication": "2026 Jan",
+        "monthOfPublication": 1,
+        "yearOfPublication": 2026,
+        "printPublicationDate": "2026-01-01",
+        "journal": {
+          "title": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+          "medlineAbbreviation": "Adv Sci (Weinh)",
+          "isoabbreviation": "Adv Sci (Weinh)",
+          "nlmid": "101664569",
+          "essn": "2198-3844",
+          "issn": "2198-3844"
+        }
+      },
+      "pubYear": "2026",
+      "pageInfo": "e12030",
+      "abstractText": "Microplastics (MPs) are pervasive pollutants found in environments and food, with humans experiencing continuous exposure. Polyethylene terephthalate (PET) is a major plastic contaminant detected in food and beverages. However, the chronic effects of environmentally relevant, physically abraded PET-MPs on health, on the liver, remain elusive. This study investigates the hepatotoxicity of the PET-MPs following long-term exposure, with a focus on the gut-liver axis interactions and transcriptomic responses. Male mice are exposed to PET-MPs (5\u00a0mg\u00a0week<sup>-1</sup>) from 5 to 34 weeks of age. Environmentally mimetic PET particles are prepared by grinding plastic bottles. Prolonged exposure to MPs for 29 weeks led to increased adiposity and obesity. The mice exposed to PET-MPs developed hepatomegaly, steatosis, and early-stage fibrosis. Transcriptome data revealed the downregulation of genes involved in mitochondrial energy metabolism and the upregulation of lipid droplet and fibrotic pathway genes. Gut microbiota is also significantly changed, with a decrease in Bacteroides and Lachnospiraceae, which maintain gut homeostasis. Disruption of bile acid metabolism and fecal color change further indicated impairment of the gut-liver axis. These findings provide new toxicological insights and emphasize the requirement to reassess the public health risks posed by long-term MPs ingestion.",
+      "affiliation": "Department of Applied Biosciences, Kyungpook National University, Daegu, 41566, Republic of Korea.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "2022R1C1C1008799",
+            "agency": "Kementerian Pendidikan",
+            "orderIn": 0
+          },
+          {
+            "grantId": "2021R1A6C101A416",
+            "agency": "Ministry of Education",
+            "orderIn": 0
+          },
+          {
+            "grantId": "2022R1C1C1008799",
+            "agency": "Ministry of Education",
+            "orderIn": 0
+          },
+          {
+            "grantId": "2025-RISE-03-001",
+            "agency": "Ministry of Education (MOE) and Daegu Metropolitan City, Republic of Korea",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Research Foundation of Korea",
+            "orderIn": 0
+          },
+          {
+            "grantId": "2021R1A6C101A416",
+            "agency": "Kementerian Pendidikan",
+            "orderIn": 0
+          },
+          {
+            "agency": "Korea Basic Science Institute (National research Facilities and Equipment center)",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Liver",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "DE",
+                  "qualifierName": "drug effects",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Animals"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Mice, Inbred C57BL"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Mice"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Fatty Liver",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CI",
+                  "qualifierName": "chemically induced",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Homeostasis",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "DE",
+                  "qualifierName": "drug effects",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gastrointestinal Microbiome",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "DE",
+                  "qualifierName": "drug effects",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Microplastics",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "AE",
+                  "qualifierName": "adverse effects",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "TO",
+                  "qualifierName": "toxicity",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Gut Microbiota",
+          "Dysbiosis",
+          "Polyethylene Terephthalate",
+          "Non\u2010alcoholic Fatty Liver Disease",
+          "Gut\u2013liver Axis"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Microplastics",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1002/advs.202512030"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12766997"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12766997?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 4,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-01-05",
+      "dateOfCreation": "2025-10-22",
+      "firstIndexDate": "2025-10-22",
+      "fullTextReceivedDate": "2026-01-07",
+      "dateOfRevision": "2026-01-07",
+      "electronicPublicationDate": "2025-10-22",
+      "firstPublicationDate": "2025-10-22"
+    },
+    {
+      "id": "PMC11205408",
+      "source": "PMC",
+      "pmcid": "PMC11205408",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC11205408"
+        ]
+      },
+      "title": "Bioplastic Production from Agri-Food Waste through the Use of Haloferax mediterranei: A Comprehensive Initial Overview",
+      "authorString": "Longo A, Fanelli F, Villano M, Montemurro M, Rizzello C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Longo A",
+            "firstName": "Angela",
+            "lastName": "Longo",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Environmental Biology, Sapienza University of Rome, 00185 Rome, Italy; (A.L.); (C.G.R.)"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fanelli F",
+            "firstName": "Francesca",
+            "lastName": "Fanelli",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Sciences of Food Production (CNR-ISPA), National Research Council of Italy, 70126 Bari, Italy;"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Villano M",
+            "firstName": "Marianna",
+            "lastName": "Villano",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Sapienza University of Rome, 00185 Rome, Italy;"
+                },
+                {
+                  "affiliation": "Research Center for Applied Sciences to the Safeguard of Environment and Cultural Heritage (CIABC), Sapienza University of Rome, 00185 Rome, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Montemurro M",
+            "firstName": "Marco",
+            "lastName": "Montemurro",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Sciences of Food Production (CNR-ISPA), National Research Council of Italy, 70126 Bari, Italy;"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rizzello C",
+            "firstName": "Carlo Giuseppe",
+            "lastName": "Rizzello",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Environmental Biology, Sapienza University of Rome, 00185 Rome, Italy; (A.L.); (C.G.R.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "6",
+        "volume": "12",
+        "journalIssueId": 3790813,
+        "dateOfPublication": "2024 May",
+        "monthOfPublication": 5,
+        "yearOfPublication": 2024,
+        "printPublicationDate": "2024-05-01",
+        "journal": {
+          "title": "Microorganisms",
+          "medlineAbbreviation": "Microorganisms",
+          "isoabbreviation": "Microorganisms",
+          "nlmid": "101625893",
+          "essn": "2076-2607",
+          "issn": "2076-2607"
+        }
+      },
+      "pubYear": "2024",
+      "language": "eng",
+      "pubModel": "Undetermined",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "PIANO NAZIONALE DI RIPRESA E RESILIENZA (PNRR)\u2014MISSIONE 4 COMPONENTE 2, INVESTIMENTO 1.4\u2014D.D. 1032 17/06/2022, CN00000022",
+            "agency": "European Union Next-GenerationEU",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Bioreactor",
+          "Bioplastics",
+          "Polyhydroxyalkanoates",
+          "Haloferax Mediterranei",
+          "Agri-food Waste"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "PubMedCentral",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11205408/?tool=EBI"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "PubMedCentral",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11205408/pdf/?tool=EBI"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11205408"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11205408?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 0,
+      "hasData": "N",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-06-28",
+      "firstIndexDate": "2024-06-28",
+      "fullTextReceivedDate": "2024-06-28",
+      "dateOfRevision": "2024-06-29",
+      "electronicPublicationDate": "2024-05-21",
+      "firstPublicationDate": "2024-05-21"
+    },
+    {
+      "id": "36386863",
+      "source": "MED",
+      "pmid": "36386863",
+      "pmcid": "PMC9661560",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC9661560"
+        ]
+      },
+      "doi": "10.1177/11779322221136002",
+      "title": "Functional Analysis of Hypothetical Proteins of <i>Vibrio parahaemolyticus</i> Reveals the Presence of Virulence Factors and Growth-Related Enzymes With Therapeutic Potential.",
+      "authorString": "Shahrear S, Afroj Zinnia M, Sany MRU, Islam ABMMK.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Shahrear S",
+            "firstName": "Sazzad",
+            "lastName": "Shahrear",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetic Engineering and Biotechnology, University of Dhaka, Dhaka, Bangladesh."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Afroj Zinnia M",
+            "firstName": "Maliha",
+            "lastName": "Afroj Zinnia",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacy, East West University, Dhaka, Bangladesh."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sany MRU",
+            "firstName": "Md Rabi Us",
+            "lastName": "Sany",
+            "initials": "MRU",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetic Engineering and Biotechnology, University of Dhaka, Dhaka, Bangladesh."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Islam ABMMK",
+            "firstName": "Abul Bashar Mir Md Khademul",
+            "lastName": "Islam",
+            "initials": "ABMMK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7274-0855"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetic Engineering and Biotechnology, University of Dhaka, Dhaka, Bangladesh."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7274-0855"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "16",
+        "journalIssueId": 3294339,
+        "dateOfPublication": "2022 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2022,
+        "printPublicationDate": "2022-01-01",
+        "journal": {
+          "title": "Bioinformatics and biology insights",
+          "medlineAbbreviation": "Bioinform Biol Insights",
+          "isoabbreviation": "Bioinform Biol Insights",
+          "nlmid": "101467187",
+          "essn": "1177-9322",
+          "issn": "1177-9322"
+        }
+      },
+      "pubYear": "2022",
+      "pageInfo": "11779322221136002",
+      "abstractText": "<i>Vibrio parahaemolyticus</i>, an aquatic pathogen, is a major concern in the shrimp aquaculture industry. Several strains of this pathogen are responsible for causing acute hepatopancreatic necrosis disease as well as other serious illness, both of which result in severe economic losses. The genome sequence of two pathogenic strains of <i>V. parahaemolyticus</i>, MSR16 and MSR17, isolated from Bangladesh, have been reported to gain a better understanding of their diversity and virulence. However, the prevalence of hypothetical proteins (HPs) makes it challenging to obtain a comprehensive understanding of the pathogenesis of <i>V. parahaemolyticus</i>. The aim of the present study is to provide a functional annotation of the HPs to elucidate their role in pathogenesis employing several in silico tools. The exploration of protein domains and families, similarity searches against proteins with known function, gene ontology enrichment, along with protein-protein interaction analysis of the HPs led to the functional assignment with a high level of confidence for 656 proteins out of a pool of 2631 proteins. The in silico approach used in this study was important for accurately assigning function to HPs and inferring interactions with proteins with previously described functions. The HPs with function predicted were categorized into various groups such as enzymes involved in small-compound biosynthesis pathway, iron binding proteins, antibiotics resistance proteins, and other proteins. Several proteins with potential druggability were identified among them. In addition, the HPs were investigated in search of virulent factors, which led to the identification of proteins that have the potential to be exploited as vaccine candidate. The findings of the study will be effective in gaining a better understanding of the molecular mechanisms of bacterial pathogenesis. They may also provide an insight into the process of evaluating promising targets for the development of drugs and vaccines against <i>V. parahaemolyticus</i>.",
+      "affiliation": "Department of Genetic Engineering and Biotechnology, University of Dhaka, Dhaka, Bangladesh.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Biosynthesis",
+          "Virulence factor",
+          "Functional Annotation",
+          "Therapeutic Potential",
+          "Hypothetical Protein"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1177/11779322221136002"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC9661560"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC9661560?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 1,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by-nc",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-11-17",
+      "firstIndexDate": "2022-11-18",
+      "fullTextReceivedDate": "2022-11-21",
+      "dateOfRevision": "2022-11-18",
+      "electronicPublicationDate": "2022-11-09",
+      "firstPublicationDate": "2022-11-09"
+    },
+    {
+      "id": "36442812",
+      "source": "MED",
+      "pmid": "36442812",
+      "pmcid": "PMC9868680",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC9868680"
+        ]
+      },
+      "doi": "10.1016/j.jcmgh.2022.11.008",
+      "title": "In\u00a0Vitro Models for the Study of Liver Biology and Diseases: Advances and Limitations.",
+      "authorString": "Kaur S, Kidambi S, Ortega-Ribera M, Thuy LTT, Nieto N, Cogger VC, Xie WF, Tacke F, Gracia-Sancho J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kaur S",
+            "firstName": "Savneet",
+            "lastName": "Kaur",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9863-2772"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular and Cellular Medicine, Institute of Liver and Biliary Sciences, New Delhi, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kidambi S",
+            "firstName": "Srivatsan",
+            "lastName": "Kidambi",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Biomolecular Engineering, University of Nebraska, Lincoln, Nebraska."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ortega-Ribera M",
+            "firstName": "Mart\u00ed",
+            "lastName": "Ortega-Ribera",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, Massachusetts."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thuy LTT",
+            "firstName": "Le Thi Thanh",
+            "lastName": "Thuy",
+            "initials": "LTT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Hepatology, Graduate School of Medicine, Osaka Metropolitan University, Osaka, Japan."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nieto N",
+            "firstName": "Natalia",
+            "lastName": "Nieto",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, University of Illinois at Chicago, Chicago, Illinois."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cogger VC",
+            "firstName": "Victoria C",
+            "lastName": "Cogger",
+            "initials": "VC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Medicine and Health, University of Sydney, Sydney, Australia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xie WF",
+            "firstName": "Wei-Fen",
+            "lastName": "Xie",
+            "initials": "WF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tacke F",
+            "firstName": "Frank",
+            "lastName": "Tacke",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Hepatology and Gastroenterology, Charit\u00e9 Universit\u00e4tsmedizin Berlin, Berlin, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gracia-Sancho J",
+            "firstName": "Jordi",
+            "lastName": "Gracia-Sancho",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7736-4089"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Liver Vascular Biology, IDIBAPS Biomedical Research Institute, CIBEREHD, Barcelona, Spain; Department of Visceral Surgery and Medicine, Inselspital, Bern University Hospital, University of Bern, Switzerland; Department for BioMedical Research, Visceral Surgery and Medicine, University of Bern, Switzerland. Electronic address: jgracia@recerca.clinic.cat."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7736-4089"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9863-2772"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "3",
+        "volume": "15",
+        "journalIssueId": 3510675,
+        "dateOfPublication": "2023 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2023,
+        "printPublicationDate": "2023-01-01",
+        "journal": {
+          "title": "Cellular and molecular gastroenterology and hepatology",
+          "medlineAbbreviation": "Cell Mol Gastroenterol Hepatol",
+          "isoabbreviation": "Cell Mol Gastroenterol Hepatol",
+          "nlmid": "101648302",
+          "essn": "2352-345X",
+          "issn": "2352-345X"
+        }
+      },
+      "pubYear": "2023",
+      "pageInfo": "559-571",
+      "abstractText": "In\u00a0vitro models of liver (patho)physiology, new technologies, and experimental approaches are progressing rapidly. Based on cell lines, induced pluripotent stem cells or primary cells derived from mouse or human liver as well as whole tissue (slices), such in\u00a0vitro single- and multicellular models, including complex microfluidic organ-on-a-chip systems, provide tools to functionally understand mechanisms of liver health and disease. The International Society of Hepatic Sinusoidal Research (ISHSR) commissioned this working group to review the currently available in\u00a0vitro liver\u00a0models and describe the advantages and disadvantages\u00a0of each in the context of evaluating their use for the\u00a0study\u00a0of\u00a0liver functionality, disease modeling, therapeutic\u00a0discovery, and\u00a0clinical applicability.",
+      "affiliation": "Department of Molecular and Cellular Medicine, Institute of Liver and Biliary Sciences, New Delhi, India.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "review-article",
+          "Review",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "R01 AA025907",
+            "agency": "NIAAA NIH HHS",
+            "acronym": "AA",
+            "orderIn": 0
+          },
+          {
+            "grantId": "R01 DK111677",
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "orderIn": 0
+          },
+          {
+            "grantId": "R01 DK134461",
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "orderIn": 0
+          },
+          {
+            "grantId": "I01 BX005093",
+            "agency": "BLRD VA",
+            "acronym": "BX",
+            "orderIn": 0
+          },
+          {
+            "grantId": "P20 GM104320",
+            "agency": "NIGMS NIH HHS",
+            "acronym": "GM",
+            "orderIn": 0
+          },
+          {
+            "grantId": "R01 AA027189",
+            "agency": "NIAAA NIH HHS",
+            "acronym": "AA",
+            "orderIn": 0
+          },
+          {
+            "grantId": "P20 GM113126",
+            "agency": "NIGMS NIH HHS",
+            "acronym": "GM",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Liver",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Animals"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Mice"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Biology"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Cirrhosis",
+          "bioengineering",
+          "Mechanobiology",
+          "NASH",
+          "Omics",
+          "Nafld",
+          "Hepatic Sinusoid"
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/j.jcmgh.2022.11.008"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC9868680"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC9868680?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 42,
+      "hasData": "N",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2023-02-23",
+      "dateOfCreation": "2022-11-28",
+      "firstIndexDate": "2022-11-29",
+      "fullTextReceivedDate": "2025-02-04",
+      "dateOfRevision": "2024-09-11",
+      "electronicPublicationDate": "2022-11-26",
+      "firstPublicationDate": "2022-11-26"
+    },
+    {
+      "id": "35651318",
+      "source": "MED",
+      "pmid": "35651318",
+      "pmcid": "PMC9795978",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC9795978"
+        ]
+      },
+      "doi": "10.1111/1758-2229.13097",
+      "title": "Providing octane degradation capability to Pseudomonas putida KT2440 through the horizontal acquisition of oct genes located on an integrative and conjugative element.",
+      "authorString": "Duque E, Udaondo Z, Molina L, de la Torre J, Godoy P, Ramos JL.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Duque E",
+            "firstName": "Estrella",
+            "lastName": "Duque",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4857-8974"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Environmental Protection, Estaci\u00f3n Experimental del Zaid\u00edn, CSIC, Granada, Spain."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Udaondo Z",
+            "firstName": "Zulema",
+            "lastName": "Udaondo",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3445-6842"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Informatics, University of Arkansas for Medical Science, Little Rock, Arkansas, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Molina L",
+            "firstName": "L\u00e1zaro",
+            "lastName": "Molina",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8483-9203"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Environmental Protection, Estaci\u00f3n Experimental del Zaid\u00edn, CSIC, Granada, Spain."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de la Torre J",
+            "firstName": "Jes\u00fas",
+            "lastName": "de la Torre",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Environmental Protection, Estaci\u00f3n Experimental del Zaid\u00edn, CSIC, Granada, Spain."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Godoy P",
+            "firstName": "Patricia",
+            "lastName": "Godoy",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8301-2346"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Environmental Protection, Estaci\u00f3n Experimental del Zaid\u00edn, CSIC, Granada, Spain."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ramos JL",
+            "firstName": "Juan L",
+            "lastName": "Ramos",
+            "initials": "JL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8731-7435"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Environmental Protection, Estaci\u00f3n Experimental del Zaid\u00edn, CSIC, Granada, Spain."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8111-6299"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8301-2346"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4857-8974"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8483-9203"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8731-7435"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3445-6842"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "6",
+        "volume": "14",
+        "journalIssueId": 3456255,
+        "dateOfPublication": "2022 Dec",
+        "monthOfPublication": 12,
+        "yearOfPublication": 2022,
+        "printPublicationDate": "2022-12-01",
+        "journal": {
+          "title": "Environmental microbiology reports",
+          "medlineAbbreviation": "Environ Microbiol Rep",
+          "isoabbreviation": "Environ Microbiol Rep",
+          "nlmid": "101499207",
+          "essn": "1758-2229",
+          "issn": "1758-2229"
+        }
+      },
+      "pubYear": "2022",
+      "pageInfo": "934-946",
+      "abstractText": "The extensive use of petrochemicals has produced serious environmental pollution problems; fortunately, bioremediation is considered an efficient way to fight against pollution. In line with Synthetic Biology is that robust microbial chassis with an expanded ability to remove environmental pollutants are desirable. Pseudomonas putida KT2440 is a robust lab microbe that has preserved the ability to survive in the environment and is the natural host for the self-transmissible TOL plasmid, which allows metabolism of toluene and xylenes to central metabolism. We show that the P. putida KT2440 (pWW0) acquired the ability to use octane as the sole C-source after acquisition of an almost 62-kb ICE from a microbial community that harbours an incomplete set of octane metabolism genes. The ICE bears genes for an alkane monooxygenase, a PQQ-dependent alcohol dehydrogenase and aldehyde dehydrogenase but lacks the electron donor enzymes required for the monooxygenase to operate. Host rubredoxin and rubredoxin reductase allow metabolism of octane to octanol. Proteomic assays and mutants unable to grow on octane or octanoic acid revealed that metabolism of octane is mediated by redundant host and ICE enzymes. Octane is oxidized to octanol, octanal and octanoic acid, the latter is subsequently acylated and oxidized to yield acetyl-CoA that is assimilated via the glyoxylate shunt; in fact, a knockout mutant in the aceA gene, encoding isocitrate lyase was unable to grow on octane or octanoic acid.",
+      "affiliation": "Department of Environmental Protection, Estaci\u00f3n Experimental del Zaid\u00edn, CSIC, Granada, Spain.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "brief-report",
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "RTI2018\u2010094370\u2010B\u2010I00",
+            "agency": "Ministerio de Ciencia y Tecnolog\u00eda",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Pseudomonas putida",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Octanols",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Caprylates"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Octanes",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Mixed Function Oxygenases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Proteomics"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Mixed Function Oxygenases",
+            "registryNumber": "EC 1.-"
+          },
+          {
+            "name": "Caprylates",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Octanols",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Octanes",
+            "registryNumber": "0"
+          },
+          {
+            "name": "octane",
+            "registryNumber": "X1RV0B2FJV"
+          },
+          {
+            "name": "octanoic acid",
+            "registryNumber": "OBL58JN025"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1111/1758-2229.13097"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC9795978"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC9795978?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 8,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by-nc-nd",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2022-11-15",
+      "dateOfCreation": "2022-06-02",
+      "firstIndexDate": "2022-06-02",
+      "fullTextReceivedDate": "2022-12-30",
+      "dateOfRevision": "2026-01-27",
+      "electronicPublicationDate": "2022-06-01",
+      "firstPublicationDate": "2022-06-01"
+    },
+    {
+      "id": "38321113",
+      "source": "MED",
+      "pmid": "38321113",
+      "pmcid": "PMC10847448",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC10847448"
+        ]
+      },
+      "doi": "10.1038/s41467-024-45351-7",
+      "title": "Host association and intracellularity evolved multiple times independently in the Rickettsiales.",
+      "authorString": "Castelli M, Nardi T, Gammuto L, Bellinzona G, Sabaneyeva E, Potekhin A, Serra V, Petroni G, Sassera D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Castelli M",
+            "firstName": "Michele",
+            "lastName": "Castelli",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2177-5772"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and Biotechnology, University of Pavia, Pavia, Italy."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nardi T",
+            "firstName": "Tiago",
+            "lastName": "Nardi",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1248-9873"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and Biotechnology, University of Pavia, Pavia, Italy."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gammuto L",
+            "firstName": "Leandro",
+            "lastName": "Gammuto",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of Pisa, Pisa, Italy."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bellinzona G",
+            "firstName": "Greta",
+            "lastName": "Bellinzona",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7050-8940"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and Biotechnology, University of Pavia, Pavia, Italy."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sabaneyeva E",
+            "firstName": "Elena",
+            "lastName": "Sabaneyeva",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7939-8263"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cytology and Histology, Saint Petersburg State University, Petersburg, Russia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Potekhin A",
+            "firstName": "Alexey",
+            "lastName": "Potekhin",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4162-5923"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Saint Petersburg State University, Petersburg, Russia."
+                },
+                {
+                  "affiliation": "Research Department for Limnology, University of Innsbruck, Mondsee, Austria."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Serra V",
+            "firstName": "Valentina",
+            "lastName": "Serra",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2887-993X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of Pisa, Pisa, Italy."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Petroni G",
+            "firstName": "Giulio",
+            "lastName": "Petroni",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9572-9897"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of Pisa, Pisa, Italy. giulio.petroni@unipi.it."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sassera D",
+            "firstName": "Davide",
+            "lastName": "Sassera",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0442-5252"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and Biotechnology, University of Pavia, Pavia, Italy. davide.sassera@unipv.it."
+                },
+                {
+                  "affiliation": "IRCCS Policlinico San Matteo, Pavia, Italy. davide.sassera@unipv.it."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7050-8940"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9572-9897"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1248-9873"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2887-993X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7939-8263"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0442-5252"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2177-5772"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4162-5923"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "15",
+        "journalIssueId": 3704656,
+        "dateOfPublication": "2024 Feb",
+        "monthOfPublication": 2,
+        "yearOfPublication": 2024,
+        "printPublicationDate": "2024-02-01",
+        "journal": {
+          "title": "Nature communications",
+          "medlineAbbreviation": "Nat Commun",
+          "isoabbreviation": "Nat Commun",
+          "nlmid": "101528555",
+          "essn": "2041-1723",
+          "issn": "2041-1723"
+        }
+      },
+      "pubYear": "2024",
+      "pageInfo": "1093",
+      "abstractText": "The order Rickettsiales (Alphaproteobacteria) encompasses multiple diverse lineages of host-associated bacteria, including pathogens, reproductive manipulators, and mutualists. Here, in order to understand how intracellularity and host association originated in this order, and whether they are ancestral or convergently evolved characteristics, we built a large and phylogenetically-balanced dataset that includes de novo sequenced genomes and a selection of published genomic and metagenomic assemblies. We perform detailed functional reconstructions that clearly indicates \"late\" and parallel evolution of obligate host-association in different Rickettsiales lineages. According to the depicted scenario, multiple independent horizontal acquisitions of transporters led to the progressive loss of biosynthesis of nucleotides, amino acids and other metabolites, producing distinct conditions of host-dependence. Each clade experienced a different pattern of evolution of the ancestral arsenal of interaction apparatuses, including development of specialised effectors involved in the lineage-specific mechanisms of host cell adhesion and/or invasion.",
+      "affiliation": "Department of Biology and Biotechnology, University of Pavia, Pavia, Italy.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cytoplasm"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Alphaproteobacteria",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Evolution, Molecular"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phylogeny"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Metagenome"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Rickettsiales",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1038/s41467-024-45351-7"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC10847448"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC10847448?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 17,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gca"
+        ]
+      },
+      "dateOfCompletion": "2024-02-08",
+      "dateOfCreation": "2024-02-06",
+      "firstIndexDate": "2024-02-08",
+      "fullTextReceivedDate": "2024-02-09",
+      "dateOfRevision": "2026-06-03",
+      "electronicPublicationDate": "2024-02-06",
+      "firstPublicationDate": "2024-02-06"
+    },
+    {
+      "id": "31143170",
+      "source": "MED",
+      "pmid": "31143170",
+      "pmcid": "PMC6520949",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6520949"
+        ]
+      },
+      "doi": "10.3389/fmicb.2019.01027",
+      "title": "Designing and Engineering <i>Methylorubrum extorquens</i> AM1 for Itaconic Acid Production.",
+      "authorString": "Lim CK, Villada JC, Chalifour A, Duran MF, Lu H, Lee PKH.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lim CK",
+            "firstName": "Chee Kent",
+            "lastName": "Lim",
+            "initials": "CK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Energy and Environment, City University of Hong Kong, Hong Kong, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Villada JC",
+            "firstName": "Juan C",
+            "lastName": "Villada",
+            "initials": "JC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Energy and Environment, City University of Hong Kong, Hong Kong, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chalifour A",
+            "firstName": "Annie",
+            "lastName": "Chalifour",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2266-3094"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, City University of Hong Kong, Hong Kong, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Duran MF",
+            "firstName": "Maria F",
+            "lastName": "Duran",
+            "initials": "MF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8598-0172"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Energy and Environment, City University of Hong Kong, Hong Kong, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lu H",
+            "firstName": "Hongyuan",
+            "lastName": "Lu",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Energy and Environment, City University of Hong Kong, Hong Kong, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lee PKH",
+            "firstName": "Patrick K H",
+            "lastName": "Lee",
+            "initials": "PKH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Energy and Environment, City University of Hong Kong, Hong Kong, China."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8598-0172"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2216-4279"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2266-3094"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data",
+          "related_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "10",
+        "journalIssueId": 2776217,
+        "dateOfPublication": "2019 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2019,
+        "printPublicationDate": "2019-01-01",
+        "journal": {
+          "title": "Frontiers in microbiology",
+          "medlineAbbreviation": "Front Microbiol",
+          "isoabbreviation": "Front Microbiol",
+          "nlmid": "101548977",
+          "essn": "1664-302X",
+          "issn": "1664-302X"
+        }
+      },
+      "pubYear": "2019",
+      "pageInfo": "1027",
+      "abstractText": "<i>Methylorubrum extorquens</i> (formerly <i>Methylobacterium extorquens</i>) AM1 is a methylotrophic bacterium with a versatile lifestyle. Various carbon sources including acetate, succinate and methanol are utilized by <i>M. extorquens</i> AM1 with the latter being a promising inexpensive substrate for use in the biotechnology industry. Itaconic acid (ITA) is a high-value building block widely used in various industries. Given that no wildtype methylotrophic bacteria are able to utilize methanol to produce ITA, we tested the potential of <i>M. extorquens</i> AM1 as an engineered host for this purpose. In this study, we successfully engineered <i>M. extorquens</i> AM1 to express a heterologous codon-optimized gene encoding <i>cis-</i>aconitic acid decarboxylase. The engineered strain produced ITA using acetate, succinate and methanol as the carbon feedstock. The highest ITA titer in batch culture with methanol as the carbon source was 31.6 \u00b1 5.5 mg/L, while the titer and productivity were 5.4 \u00b1 0.2 mg/L and 0.056 \u00b1 0.002 mg/L/h, respectively, in a scaled-up fed-batch bioreactor under 60% dissolved oxygen saturation. We attempted to enhance the carbon flux toward ITA production by impeding poly-\u03b2-hydroxybutyrate accumulation, which is used as carbon and energy storage, via mutation of the regulator gene <i>phaR</i>. Unexpectedly, ITA production by the <i>phaR</i> mutant strain was not higher even though poly-\u03b2-hydroxybutyrate concentration was lower. Genome-wide transcriptomic analysis revealed that <i>phaR</i> mutation in the ITA-producing strain led to complex rewiring of gene transcription, which might result in a reduced carbon flux toward ITA production. Besides poly-\u03b2-hydroxybutyrate metabolism, we found evidence that PhaR might regulate the transcription of many other genes including those encoding other regulatory proteins, methanol dehydrogenases, formate dehydrogenases, malate:quinone oxidoreductase, and those synthesizing pyrroloquinoline quinone and thiamine co-factors. Overall, <i>M. extorquens</i> AM1 was successfully engineered to produce ITA using acetate, succinate and methanol as feedstock, further supporting this bacterium as a feasible host for use in the biotechnology industry. This study showed that PhaR could have a broader regulatory role than previously anticipated, and increased our knowledge of this regulator and its influence on the physiology of <i>M. extorquens</i> AM1.",
+      "affiliation": "School of Energy and Environment, City University of Hong Kong, Hong Kong, China.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Research Grants Council, University Grants Committee",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Methanol",
+          "Itaconic acid",
+          "metabolic engineering",
+          "Transcriptomic",
+          "Poly-\u03b2-hydroxybutyrate",
+          "Phar",
+          "Methylorubrum Extorquens Am1"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.3389/fmicb.2019.01027"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3389/fmicb.2019.01027"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6520949"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6520949?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 33,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "refseq"
+        ]
+      },
+      "dateOfCreation": "2019-05-31",
+      "firstIndexDate": "2019-05-31",
+      "fullTextReceivedDate": "2025-02-03",
+      "dateOfRevision": "2020-10-01",
+      "electronicPublicationDate": "2019-05-09",
+      "firstPublicationDate": "2019-05-09"
+    },
+    {
+      "id": "27795492",
+      "source": "MED",
+      "pmid": "27795492",
+      "pmcid": "PMC5158114",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5158114"
+        ]
+      },
+      "doi": "10.1264/jsme2.me15195",
+      "title": "Proteome Analyses of Soil Bacteria Grown in the Presence of Potato Suberin, a Recalcitrant Biopolymer.",
+      "authorString": "Sidib\u00e9 A, Simao-Beaunoir AM, Lerat S, Giroux L, Toussaint V, Beaulieu C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sidib\u00e9 A",
+            "firstName": "Amadou",
+            "lastName": "Sidib\u00e9",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre S\u00c8VE, D\u00e9partement de Biologie, Universit\u00e9 de Sherbrooke."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Simao-Beaunoir AM",
+            "firstName": "Anne-Marie",
+            "lastName": "Simao-Beaunoir",
+            "initials": "AM"
+          },
+          {
+            "fullName": "Lerat S",
+            "firstName": "Sylvain",
+            "lastName": "Lerat",
+            "initials": "S"
+          },
+          {
+            "fullName": "Giroux L",
+            "firstName": "Lauriane",
+            "lastName": "Giroux",
+            "initials": "L"
+          },
+          {
+            "fullName": "Toussaint V",
+            "firstName": "Vicky",
+            "lastName": "Toussaint",
+            "initials": "V"
+          },
+          {
+            "fullName": "Beaulieu C",
+            "firstName": "Carole",
+            "lastName": "Beaulieu",
+            "initials": "C"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "4",
+        "volume": "31",
+        "journalIssueId": 2508504,
+        "dateOfPublication": "2016 Dec",
+        "monthOfPublication": 12,
+        "yearOfPublication": 2016,
+        "printPublicationDate": "2016-12-01",
+        "journal": {
+          "title": "Microbes and environments",
+          "medlineAbbreviation": "Microbes Environ",
+          "isoabbreviation": "Microbes Environ",
+          "nlmid": "9710937",
+          "essn": "1347-4405",
+          "issn": "1342-6311"
+        }
+      },
+      "pubYear": "2016",
+      "pageInfo": "418-426",
+      "abstractText": "Suberin is a complex lipidic plant polymer found in various tissues including the potato periderm. The biological degradation of suberin is attributed to fungi. Soil samples from a potato field were used to inoculate a culture medium containing suberin as the carbon source, and a metaproteomic approach was used to identify bacteria that developed in the presence of suberin over a 60-d incubation period. The normalized spectral counts of predicted extracellular proteins produced by the soil bacterial community markedly decreased from day 5 to day 20 and then slowly increased, revealing a succession of bacteria. The population of fast-growing pseudomonads declined and was replaced by species with the ability to develop in the presence of suberin. The recalcitrance of suberin was demonstrated by the emergence of auxotrophic bacteria such as Oscillatoria on the last days of the assay. Nevertheless, two putative lipases from Rhodanobacter thiooxydans (I4WGM2) and Myxococcus xanthus (Q1CWS1) were detected in the culture supernatants, suggesting that at least some bacterial species degrade suberin. When grown in suberin-containing medium, R. thiooxydans strain LCS2 and M. xanthus strain DK 1622 both produced three lipases, including I4WGM2 and Q1CWS1. These strains also produced other proteins linked to lipid metabolism, including fatty acid and lipid transporters and \u03b2-oxidation enzymes, suggesting that they participate in the degradation of suberin. However, only the R. thiooxydans strain appeared to retrieve sufficient carbon and energy from this recalcitrant polymer in order to maintain its population over an extended period of time.",
+      "affiliation": "Centre S\u00c8VE, D\u00e9partement de Biologie, Universit\u00e9 de Sherbrooke.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Bacteria",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CL",
+                  "qualifierName": "classification",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "GD",
+                  "qualifierName": "growth & development",
+                  "majorTopic_YN": "Y"
+                },
+                {
+                  "abbreviation": "IP",
+                  "qualifierName": "isolation & purification",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Carbon",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biopolymers",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Lipids"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Proteome",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "AN",
+                  "qualifierName": "analysis",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Culture Media",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Soil Microbiology"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Solanum tuberosum",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Lipid Metabolism"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "suberin",
+            "registryNumber": "8072-95-5"
+          },
+          {
+            "name": "Lipids",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Culture Media",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Carbon",
+            "registryNumber": "7440-44-0"
+          },
+          {
+            "name": "Biopolymers",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Proteome",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1264/jsme2.ME15195"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5158114"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5158114?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 4,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot"
+        ]
+      },
+      "dateOfCompletion": "2017-04-03",
+      "dateOfCreation": "2016-11-01",
+      "firstIndexDate": "2016-11-01",
+      "fullTextReceivedDate": "2020-07-09",
+      "dateOfRevision": "2018-11-13",
+      "electronicPublicationDate": "2016-10-28",
+      "firstPublicationDate": "2016-10-28"
+    },
+    {
+      "id": "30995811",
+      "source": "MED",
+      "pmid": "30995811",
+      "pmcid": "PMC6631277",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6631277"
+        ]
+      },
+      "doi": "10.3390/bioengineering6020034",
+      "title": "Polyhydroxyalkanoate Biosynthesis at the Edge of Water Activitiy-Haloarchaea as Biopolyester Factories.",
+      "authorString": "Koller M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Koller M",
+            "firstName": "Martin",
+            "lastName": "Koller",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9251-1822"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Graz, Office of Research Management and Service, c/o Institute of Chemistry, NAWI Graz, Heinrichstrasse 28/III, 8010 Graz, Austria. martin.koller@uni-graz.at."
+                },
+                {
+                  "affiliation": "ARENA-Association for Resource Efficient and Sustainable Technologies, Inffeldgasse 21b, 8010 Graz, Austria. martin.koller@uni-graz.at."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9251-1822"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "2",
+        "volume": "6",
+        "journalIssueId": 2803905,
+        "dateOfPublication": "2019 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2019,
+        "printPublicationDate": "2019-04-01",
+        "journal": {
+          "title": "Bioengineering (Basel, Switzerland)",
+          "medlineAbbreviation": "Bioengineering (Basel)",
+          "isoabbreviation": "Bioengineering (Basel)",
+          "nlmid": "101676056",
+          "essn": "2306-5354",
+          "issn": "2306-5354"
+        }
+      },
+      "pubYear": "2019",
+      "pageInfo": "E34",
+      "abstractText": "Haloarchaea, the extremely halophilic branch of the Archaea domain, encompass a steadily increasing number of genera and associated species which accumulate polyhydroxyalkanoate biopolyesters in their cytoplasm. Such ancient organisms, which thrive in highly challenging, often hostile habitats characterized by salinities between 100 and 300 g/L NaCl, have the potential to outperform established polyhydroxyalkanoate production strains. As detailed in the review, this optimization presents due to multifarious reasons, including: cultivation setups at extreme salinities can be performed at minimized sterility precautions by excluding the growth of microbial contaminants; the high inner-osmotic pressure in haloarchaea cells facilitates the recovery of intracellular biopolyester granules by cell disintegration in hypo-osmotic media; many haloarchaea utilize carbon-rich waste streams as main substrates for growth and polyhydroxyalkanoate biosynthesis, which allows coupling polyhydroxyalkanoate production with bio-economic waste management; finally, in many cases, haloarchaea are reported to produce copolyesters from structurally unrelated inexpensive substrates, and polyhydroxyalkanoate biosynthesis often occurs in parallel to the production of additional marketable bio-products like pigments or polysaccharides. This review summarizes the current knowledge about polyhydroxyalkanoate production by diverse haloarchaea; this covers the detection of new haloarchaea producing polyhydroxyalkanoates, understanding the genetic and enzymatic particularities of such organisms, kinetic aspects, material characterization, upscaling and techno-economic and life cycle assessment.",
+      "affiliation": "University of Graz, Office of Research Management and Service, c/o Institute of Chemistry, NAWI Graz, Heinrichstrasse 28/III, 8010 Graz, Austria. martin.koller@uni-graz.at.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Archaea",
+          "Biopolyester",
+          "Salinity",
+          "Extremophiles",
+          "Downstream Processing",
+          "Haloarchaea",
+          "Halophiles",
+          "Bioeconomy",
+          "Polyhydroxyalkanoates",
+          "Haloferax"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.mdpi.com/2306-5354/6/2/34/pdf?version=1556533435"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3390/bioengineering6020034"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6631277"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6631277?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 56,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2019-04-19",
+      "firstIndexDate": "2019-04-18",
+      "fullTextReceivedDate": "2025-02-05",
+      "dateOfRevision": "2020-09-29",
+      "electronicPublicationDate": "2019-04-16",
+      "firstPublicationDate": "2019-04-16"
+    },
+    {
+      "id": "29483539",
+      "source": "MED",
+      "pmid": "29483539",
+      "pmcid": "PMC5827749",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5827749"
+        ]
+      },
+      "doi": "10.1038/s41598-018-21919-4",
+      "title": "Genome sequencing and analysis of Alcaligenes faecalis subsp. phenolicus MB207.",
+      "authorString": "Basharat Z, Yasmin A, He T, Tong Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Basharat Z",
+            "firstName": "Zarrin",
+            "lastName": "Basharat",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1785-3803"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Microbiology & Biotechnology Research Lab, Department of Environmental Sciences, Fatima Jinnah Women University, Rawalpindi, 46000, Pakistan."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yasmin A",
+            "firstName": "Azra",
+            "lastName": "Yasmin",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5232-9698"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Microbiology & Biotechnology Research Lab, Department of Environmental Sciences, Fatima Jinnah Women University, Rawalpindi, 46000, Pakistan. azrayasmin@fjwu.edu.pk."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "He T",
+            "firstName": "Tongtong",
+            "lastName": "He",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Pathogen and Biosecurity, Beijing Institute of Microbiology and Epidemiology, Beijing, 100071, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tong Y",
+            "firstName": "Yigang",
+            "lastName": "Tong",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8503-8045"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Pathogen and Biosecurity, Beijing Institute of Microbiology and Epidemiology, Beijing, 100071, China."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5232-9698"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8503-8045"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1785-3803"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "8",
+        "journalIssueId": 2645780,
+        "dateOfPublication": "2018 Feb",
+        "monthOfPublication": 2,
+        "yearOfPublication": 2018,
+        "printPublicationDate": "2018-02-01",
+        "journal": {
+          "title": "Scientific reports",
+          "medlineAbbreviation": "Sci Rep",
+          "isoabbreviation": "Sci Rep",
+          "nlmid": "101563288",
+          "essn": "2045-2322",
+          "issn": "2045-2322"
+        }
+      },
+      "pubYear": "2018",
+      "pageInfo": "3616",
+      "abstractText": "Bacteria within the genus Alcaligenes, exhibit diverse properties but remain largely unexplored at genome scale. To shed light on the genome structure, heterogeneity and traits of Alcaligenes species, the genome of a tannery effluent isolated Alcaligenes faecalis subsp. phenolicus MB207 was sequenced and assembled. The genome was compared to the whole genome sequences of genus Alcaligenes present in the National Centre for Biotechnology Information database. Core, pan and species specific gene sequences i.e. singletons were identified. Members of this genus did not portray exceptional genetic heterogeneity or conservation and out of 5,166 protein coding genes from pooled genome dataset, 2429 (47.01%) contributed to the core, 1193 (23.09%) to singletons and 1544 (29.88%) to accessory genome. Secondary metabolite forming apparatus, antibiotic production and resistance was also profiled. Alcaligenes faecalis subsp. phenolicus MB207 genome consisted of a copious amount of bioremediation genes i.e. metal tolerance and xenobiotic degrading genes. This study marks this strain as a prospective eco-friendly bacterium with numerous benefits for the environment related research. Availability of the whole genome sequence heralds an opportunity for researchers to explore enzymes and apparatus for sustainable environmental clean-up as well as important compounds/substance production.",
+      "affiliation": "Microbiology & Biotechnology Research Lab, Department of Environmental Sciences, Fatima Jinnah Women University, Rawalpindi, 46000, Pakistan.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Alcaligenes faecalis",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "DNA, Bacterial",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Sequence Analysis, DNA"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biodegradation, Environmental"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Whole Genome Sequencing"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "DNA, Bacterial",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1038/s41598-018-21919-4"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5827749"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5827749?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 27,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "bioproject",
+          "gen",
+          "pdb"
+        ]
+      },
+      "dateOfCompletion": "2019-09-23",
+      "dateOfCreation": "2018-02-28",
+      "firstIndexDate": "2018-02-28",
+      "fullTextReceivedDate": "2020-07-11",
+      "dateOfRevision": "2019-09-23",
+      "electronicPublicationDate": "2018-02-26",
+      "firstPublicationDate": "2018-02-26"
+    },
+    {
+      "id": "25861650",
+      "source": "MED",
+      "pmid": "25861650",
+      "pmcid": "PMC4377440",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4377440"
+        ]
+      },
+      "doi": "10.1155/2015/909016",
+      "title": "Biotechnological and agronomic potential of endophytic pink-pigmented methylotrophic Methylobacterium spp.",
+      "authorString": "Dourado MN, Camargo Neves AA, Santos DS, Ara\u00fajo WL.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Dourado MN",
+            "firstName": "Manuella N\u00f3brega",
+            "lastName": "Dourado",
+            "initials": "MN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2152-0246"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Institute of Biomedical Sciences, University of S\u00e3o Paulo, Brazil."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Camargo Neves AA",
+            "firstName": "Aline Aparecida",
+            "lastName": "Camargo Neves",
+            "initials": "AA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Institute of Biomedical Sciences, University of S\u00e3o Paulo, Brazil."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Santos DS",
+            "firstName": "Daiene Souza",
+            "lastName": "Santos",
+            "initials": "DS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Institute of Biomedical Sciences, University of S\u00e3o Paulo, Brazil."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ara\u00fajo WL",
+            "firstName": "Welington Luiz",
+            "lastName": "Ara\u00fajo",
+            "initials": "WL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2120-8172"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Institute of Biomedical Sciences, University of S\u00e3o Paulo, Brazil."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2120-8172"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2152-0246"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "2015",
+        "journalIssueId": 2246988,
+        "dateOfPublication": "2015 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2015,
+        "printPublicationDate": "2015-01-01",
+        "journal": {
+          "title": "BioMed research international",
+          "medlineAbbreviation": "Biomed Res Int",
+          "isoabbreviation": "Biomed Res Int",
+          "nlmid": "101600173",
+          "essn": "2314-6141",
+          "issn": "2314-6133"
+        }
+      },
+      "pubYear": "2015",
+      "pageInfo": "909016",
+      "abstractText": "The genus Methylobacterium is composed of pink-pigmented facultative methylotrophic (PPFM) bacteria, which are able to synthesize carotenoids and grow on reduced organic compounds containing one carbon (C1), such as methanol and methylamine. Due to their high phenotypic plasticity, these bacteria are able to colonize different habitats, such as soil, water, and sediment, and different host plants as both endophytes and epiphytes. In plant colonization, the frequency and distribution may be influenced by plant genotype or by interactions with other associated microorganisms, which may result in increasing plant fitness. In this review, different aspects of interactions with the host plant are discussed, including their capacity to fix nitrogen, nodule the host plant, produce cytokinins, auxin and enzymes involved in the induction of systemic resistance, such as pectinase and cellulase, and therefore plant growth promotion. In addition, bacteria belonging to this group can be used to reduce environmental contamination because they are able to degrade toxic compounds, tolerate high heavy metal concentrations, and increase plant tolerance to these compounds. Moreover, genome sequencing and omics approaches have revealed genes related to plant-bacteria interactions that may be important for developing strains able to promote plant growth and protection against phytopathogens.",
+      "affiliation": "Department of Microbiology, Institute of Biomedical Sciences, University of S\u00e3o Paulo, Brazil.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "2010/07594-5",
+            "agency": "Foundation for Research Assistance, S\u00e3o Paulo State, Brazil",
+            "orderIn": 0
+          },
+          {
+            "grantId": "2012/24217-6",
+            "agency": "Foundation for Research Assistance, S\u00e3o Paulo State, Brazil",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Methylobacterium",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                },
+                {
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plants",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Carbon",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biotechnology",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "MT",
+                  "qualifierName": "methods",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Ecosystem"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Host-Pathogen Interactions",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Carbon",
+            "registryNumber": "7440-44-0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://downloads.hindawi.com/journals/bmri/2015/909016.pdf"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1155/2015/909016"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4377440"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4377440?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 75,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gca"
+        ]
+      },
+      "dateOfCompletion": "2015-12-28",
+      "dateOfCreation": "2015-04-11",
+      "firstIndexDate": "2015-04-11",
+      "fullTextReceivedDate": "2020-07-10",
+      "dateOfRevision": "2024-03-24",
+      "electronicPublicationDate": "2015-03-10",
+      "firstPublicationDate": "2015-03-10"
+    }
+  ]
+}

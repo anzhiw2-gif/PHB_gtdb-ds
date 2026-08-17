@@ -1,0 +1,718 @@
+[
+  {
+    "pmid": "1",
+    "title": "Formate assay in body fluids: application in methanol poisoning.",
+    "authors": [
+      "Makar AB",
+      "McMartin KE",
+      "Palese M",
+      "Tephly TR"
+    ],
+    "journal": "Biochemical medicine",
+    "pubdate": "1975 Jun",
+    "doi": null,
+    "abstract": null
+  },
+  {
+    "pmid": "11450853",
+    "title": "Enzymes and operons mediating xenobiotic degradation in bacteria.",
+    "authors": [
+      "Mishra V",
+      "Lal R",
+      "Srinivasan"
+    ],
+    "journal": "Critical reviews in microbiology",
+    "pubdate": "2001",
+    "doi": null,
+    "abstract": "Aromatic hydrocarbons constitute a major group of environmental pollutants. Bioremediation appears to be the only viable alternative for large-scale decontamination. A number of bacteria have been identified that can degrade a variety of xenobiotics. Extensive studies of the enzymes and genes involved in degradation of aromatic hydrocarbons have revealed that the degradative enzymes could be broadly grouped into two major categories, peripheral and ring-cleavage enzymes. The peripheral enzymes are the ones that catabolize the pollutants initially to a metabolite that is further degraded. A majority of peripheral enzymes are oxygenases that hydroxylate the aromatic compounds, rendering them susceptible to the enzymes of ring-cleavage pathway. The genes of ring-cleavage enzymes have been shown to be highly conserved between different bacterial species. Presently, a number of constraints limit the use of available strains for efficient bioremediation. This review describes the enzymes and genes involved in xenobiotic degradation and underscores the importance of understanding the expression and regulation of genes encoding peripheral enzymes and their intelligent manipulation using recombinant DNA technology for efficient degradation of aromatic compounds."
+  },
+  {
+    "pmid": "12070691",
+    "title": "Cloning and sequencing of an intracellular D(-)-3-hydroxybutyrate oligomer hydrolase from Acidovorax sp. strain SA1 and purification of the enzyme.",
+    "authors": [
+      "Sugiyama A",
+      "Shiraki M",
+      "Kobayashi T",
+      "Morikawa G",
+      "Yamamoto M",
+      "Yamaoka M",
+      "Saito T"
+    ],
+    "journal": "Current microbiology",
+    "pubdate": "2002 Aug",
+    "doi": null,
+    "abstract": "The gene of an intracellular D(-)-3-hydroxybutyrate oligomer hydrolase (i3HBOH) was cloned and sequenced from a poly(3-hydroxybutyrate) (PHB)-degrading bacterium, Acidovorax sp. strain SA1. The i3HBOH gene has 876 nucleotides corresponding to the deduced sequence of 292 amino acids. In this amino acid sequence, the general lipase box sequence (G-X(1)-S-X(2)-G) was found, whose serine residue was determined to the active sites serine by site-directed mutagenesis. An i3HBOH was purified to electrophoretical homogeneity from SA1. The molecular mass of the purified enzyme was estimated to be 32 kDa by SDS-PAGE. The N-terminal amino acid sequence of the purified enzyme corresponded to the deduced N-terminal amino acid sequence in the cloned i3HBOH gene. This is the first cloning and sequencing of an intracellular D(-)-3-hydroxybutyrate oligomer hydrolase gene to date."
+  },
+  {
+    "pmid": "15360276",
+    "title": "Biodegradation of aliphatic homopolyesters and aliphatic-aromatic copolyesters by anaerobic microorganisms.",
+    "authors": [
+      "Abou-Zeid DM",
+      "M\u00fcller RJ",
+      "Deckwer WD"
+    ],
+    "journal": "Biomacromolecules",
+    "pubdate": "2004",
+    "doi": null,
+    "abstract": "The anaerobic degradability of natural and synthetic polyesters is investigated applying microbial consortia (3 sludges, 1 sediment) as well as individual strains isolated for this purpose. In contrast to aerobic conditions, the natural homopolyester polyhydroxybutyrate (PHB) degrades faster than the copolyester poly(hydroxybutyrate-co-hydroxyvalerate) (PHBV). For the synthetic polyester poly(epsilon-caroplacton) (PCL), microbial degradation in the absence of oxygen could be clearly demonstrated; however, the degradation rate is significantly lower than for PHB and PHBV. Other synthetic polyesters such as poly(trimethylene adipate) (SP3/6), poly(tetramethylene adipate) (SP4/6), and aliphatic-aromatic copolyesters from 1,4-butanediol, terephthalic acid, and adipic acid (BTA-copolymers) exhibit only very low anaerobic microbial susceptibility. A copolyester with high amount of terephthalic acid (BTA 40:60) resisted the anaerobic breakdown even under thermophilic conditions and/or when blended with starch. For the synthetic polymers, a number of individual anaerobic strain could be isolated which are able to depolymerize the polymers and selected strains where identified as new species of the genus Clostridium or Propionispora. Their distinguished degradation patterns point to the involvement of different degrading enzymes which are specialized to depolymerize either the natural polyhydroxyalkanoates (e.g., PHB), the synthetic polyester PCL, or other synthetic aliphatic polyesters such as SP3/6. It can be supposed that these enzymes exhibit comparable characteristics as those described to be responsible for aerobic polyester degradation (lipases, cutinases, and PHB-depolymerases)."
+  },
+  {
+    "pmid": "15774885",
+    "title": "The presumptive magnetosome protein Mms16 is a poly(3-hydroxybutyrate) granule-bound protein (phasin) in Magnetospirillum gryphiswaldense.",
+    "authors": [
+      "Schultheiss D",
+      "Handrick R",
+      "Jendrossek D",
+      "Hanzlik M",
+      "Sch\u00fcler D"
+    ],
+    "journal": "Journal of bacteriology",
+    "pubdate": "2005 Apr",
+    "doi": null,
+    "abstract": "The Mms16 protein has been previously found to be associated with isolated magnetosomes from two Magnetospirillum strains. A function of this protein as a magnetosome-specific GTPase involved in the formation of intracellular magnetosome membrane vesicles was suggested. Here we present a study of the Mms16 protein from Magnetospirillum gryphiswaldense to clarify its function. Insertion-duplication mutagenesis of the mms16 gene did not affect the formation of magnetosome particles but resulted in the loss of the ability of M. gryphiswaldense cell extracts to activate poly(3-hydroxybutyrate) (PHB) depolymerization in vitro, which was coincident with loss of the most abundant 16-kDa polypeptide from preparations of PHB granule-bound proteins. The mms16 mutation could be functionally complemented by enhanced yellow fluorescent protein (EYFP) fused to ApdA, which is a PHB granule-bound protein (phasin) in Rhodospirillum rubrum sharing 55% identity to Mms16. Fusions of Mms16 and ApdA to enhanced green fluorescent protein (EGFP) or EYFP were colocalized in vivo with the PHB granules but not with the magnetosome particles after conjugative transfer to M. gryphiswaldense. Although the Mms16-EGFP fusion protein became detectable by Western analysis in all cell fractions upon cell disruption, it was predominantly associated with isolated PHB granules. Contrary to previous suggestions, our results argue against an essential role of Mms16 in magnetosome formation, and the previously observed magnetosome localization is likely an artifact due to unspecific adsorption during preparation. Instead, we conclude that Mms16 in vivo is a PHB granule-bound protein (phasin) and acts in vitro as an activator of PHB hydrolysis by R. rubrum PHB depolymerase PhaZ1. Accordingly, we suggest renaming the Mms16 protein of Magnetospirillum species to ApdA, as in R. rubrum."
+  },
+  {
+    "pmid": "16233278",
+    "title": "Cloning of an intracellular D(-)-3-hydroxybutyrate-oligomer hydrolase gene from Ralstonia eutropha H16 and identification of the active site serine residue by site-directed mutagenesis.",
+    "authors": [
+      "Saegusa H",
+      "Shiraki M",
+      "Saito T"
+    ],
+    "journal": "Journal of bioscience and bioengineering",
+    "pubdate": "2002",
+    "doi": null,
+    "abstract": "An intracellular D(-)-3-hydroxybutyrate (3HB)-oligomer hydrolase gene from Ralstonia eutropha (formerly Alcaligenes eutrophus) H16 was cloned, sequenced, and characterized. As a hybridization probe to screen restriction digests of chromosomal DNA, an extracellular 3HB-oligomer hydrolase gene from Ralstonia pickettii strain (formerly Pseudomonas sp. strain) A1 was used. A specific hybridization signal was obtained and a 6.5-kbp SmaI fragment was cloned in an Escherichia coli phagemid vector. The crude extract from E. coli with this plasmid showed 3HB-trimer hydrolase activity. The subcloned 3.2-kbp fragment still showed 3HB-trimer hydrolase activity in E. coli and expressed an approximately 78-kDa protein in an in vitro transcription-translation system. Nucleotide sequence analysis of the 3.2-kbp fragment showed an open reading frame that encodes a polypeptide with a deduced molecular weight of 78,510. The putative amino acid sequence showed 54% identity with that of the oligomer hydrolase from R. pickettii A1. By site-directed mutagenesis, a novel amino acid sequence (S-V-S*-N-G) containing an essential serine residue in the catalytic center of the enzyme was determined. The gene product was found in PHB-rich cells of R. eutropha by immunodetection. The expressed 3HB-oligomer hydrolase localized both in the supernatant fraction and the PHB granules of the cells."
+  },
+  {
+    "pmid": "17616591",
+    "title": "Lon protease degrades transfer-messenger RNA-tagged proteins.",
+    "authors": [
+      "Choy JS",
+      "Aung LL",
+      "Karzai AW"
+    ],
+    "journal": "Journal of bacteriology",
+    "pubdate": "2007 Sep",
+    "doi": null,
+    "abstract": "Bacterial trans translation is activated when translating ribosomes are unable to elongate or terminate properly. Small protein B (SmpB) and transfer-messenger RNA (tmRNA) are the two known factors required for and dedicated to trans translation. tmRNA, encoded by the ssrA gene, is a bifunctional molecule that acts both as a tRNA and as an mRNA during trans translation. The functions of tmRNA ensure that stalled ribosomes are rescued, the causative defective mRNAs are degraded, and the incomplete polypeptides are marked for targeted proteolysis. We present in vivo and in vitro evidence that demonstrates a direct role for the Lon ATP-dependent protease in the degradation of tmRNA-tagged proteins. In an endogenous protein tagging assay, lon mutants accumulated excessive levels of tmRNA-tagged proteins. In a reporter protein tagging assay with lambda-CI-N, the protein product of a nonstop mRNA construct designed to activate trans translation, lon mutant cells efficiently tagged the reporter protein, but the tagged protein exhibited increased stability. Similarly, a green fluorescent protein (GFP) construct containing a hard-coded C-terminal tmRNA tag (GFP-SsrA) exhibited increased stability in lon mutant cells. Most significantly, highly purified Lon preferentially degraded the tmRNA-tagged forms of proteins compared to the untagged forms. Based on these results, we conclude that Lon protease participates directly in the degradation of tmRNA-tagged proteins."
+  },
+  {
+    "pmid": "17988219",
+    "title": "A picky eater: exploring the mechanisms of selective autophagy in human pathologies.",
+    "authors": [
+      "van der Vaart A",
+      "Mari M",
+      "Reggiori F"
+    ],
+    "journal": "Traffic (Copenhagen, Denmark)",
+    "pubdate": "2008 Mar",
+    "doi": null,
+    "abstract": "Autophagy is a catabolic process conserved among all eukaryotes essential for the cellular and organismal homeostasis. One of the principal roles of this pathway is to maintain an accurate balance between synthesis, degradation and subsequent recycling of cellular components. Under certain conditions, however, cells are also able to modulate autophagy and specifically remove a number of structures that are potentially harmful. Aberrant protein aggregates, damaged organelles or pathogens can be selectively incorporated into large double-membrane vesicles called autophagosomes to be delivered into lysosomes for destruction. This ability to eliminate specific structures is exploited by the cells in several physiological processes as well as in multiple pathological situations, making autophagy a precious multitask cellular degradative pathway. In this review, we will first examine what is known about the basic mechanisms of autophagy and then discuss in a second part the nature of the cargoes that are selectively sequestered into autophagosomes, what provides the specificity and the possible implications of selective types of autophagy in human pathologies."
+  },
+  {
+    "pmid": "19538984",
+    "title": "Nrf2 signaling and cell survival.",
+    "authors": [
+      "Niture SK",
+      "Kaspar JW",
+      "Shen J",
+      "Jaiswal AK"
+    ],
+    "journal": "Toxicology and applied pharmacology",
+    "pubdate": "2010 Apr 01",
+    "doi": "10.1016/j.taap.2009.06.009",
+    "abstract": "Nrf2:INrf2 acts as a sensor for oxidative/electrophilic stress. INrf2 serves as an adaptor to link Nrf2 to the ubiquitin ligase Cul3-Rbx1 complex that ubiquitinate and degrade Nrf2. Under basal conditions, cytosolic INrf2/Cul3-Rbx1 is constantly degrading Nrf2. When a cell encounters stress Nrf2 dissociates from the INrf2 and translocates into the nucleus. Oxidative/electrophilic stress induced modification of INrf2Cysteine151 and/or protein kinase C (PKC)-mediated phosphorylation of Nrf2Serine40 controls Nrf2 release from INrf2 followed by stabilization and nuclear translocation of Nrf2. Nrf2 binds to the antioxidant response element (ARE) and activates a myriad of genes that protect cells against oxidative/electrophilic stress and neoplasia. A delayed response of oxidative/electrophilic stress activates GSK-3beta that phosphorylates Fyn at unknown threonine residue(s). Phosphorylated Fyn translocates to the nucleus and phosphorylates Nrf2Tyrosine568 that leads to nuclear export and degradation of Nrf2. Prothymosin-alpha mediated nuclear translocation of INrf2 also degrades nuclear Nrf2. The degradation of Nrf2 both in cytosol and nuclear compartments rapidly brings down its levels to normal resulting in suppression of Nrf2 downstream gene expression. An auto-regulatory loop between Nrf2 and INrf2 controls their cellular abundance. Nrf2 regulates INrf2 by controlling its transcription, and INrf2 controls Nrf2 by degrading it. In conclusion, switching on and off of Nrf2 combined with promoting an auto-regulatory loop between them regulates activation/deactivation of defensive genes leading to protection of cells against adverse effects of oxidative and electrophilic stress and promote cell survival."
+  },
+  {
+    "pmid": "19590867",
+    "title": "Biochemistry of microbial polyvinyl alcohol degradation.",
+    "authors": [
+      "Kawai F",
+      "Hu X"
+    ],
+    "journal": "Applied microbiology and biotechnology",
+    "pubdate": "2009 Aug",
+    "doi": "10.1007/s00253-009-2113-6",
+    "abstract": "Effect of minor chemical structures such as 1,2-diol content, ethylene content, tacticity, a degree of polymerization, and a degree of saponification of the main chain on biodegradability of polyvinyl alcohol (PVA) is summarized. Most PVA-degraders are Gram-negative bacteria belonging to the Pseudomonads and Sphingomonads, but Gram-positive bacteria also have PVA-degrading abilities. Several examples show symbiotic degradation of PVA by different mechanisms. Penicillium sp. is the only reported eukaryotic degrader. A vinyl alcohol oligomer-utilizing fungus, Geotrichum fermentans WF9101, has also been reported. Lignolytic fungi have displayed non-specific degradation of PVA. Extensive published studies have established a two-step process for the biodegradation of PVA. Some bacteria excrete extracellular PVA oxidase to yield oxidized PVA, which is partly under spontaneous depolymerization and is further metabolized by the second step enzyme (hydrolase). On the other hand, PVA (whole and depolymerized to some extent) must be taken up into the periplasmic space of some Gram-negative bacteria, where PVA is oxidized by PVA dehydrogenase, coupled to a respiratory chain. The complete pva operon was identified in Sphingopyxis sp. 113P3. Anaerobic biodegradability of PVA has also been suggested."
+  },
+  {
+    "pmid": "19807712",
+    "title": "Degradation of alkanes by bacteria.",
+    "authors": [
+      "Rojo F"
+    ],
+    "journal": "Environmental microbiology",
+    "pubdate": "2009 Oct",
+    "doi": "10.1111/j.1462-2920.2009.01948.x",
+    "abstract": "Pollution of soil and water environments by crude oil has been, and is still today, an important problem. Crude oil is a complex mixture of thousands of compounds. Among them, alkanes constitute the major fraction. Alkanes are saturated hydrocarbons of different sizes and structures. Although they are chemically very inert, most of them can be efficiently degraded by several microorganisms. This review summarizes current knowledge on how microorganisms degrade alkanes, focusing on the biochemical pathways used and on how the expression of pathway genes is regulated and integrated within cell physiology."
+  },
+  {
+    "pmid": "20172857",
+    "title": "Identification and characterization of high molecular weight complexes formed by matrix AAA proteases and prohibitins in mitochondria of Arabidopsis thaliana.",
+    "authors": [
+      "Piechota J",
+      "Kolodziejczak M",
+      "Juszczak I",
+      "Sakamoto W",
+      "Janska H"
+    ],
+    "journal": "The Journal of biological chemistry",
+    "pubdate": "2010 Apr 23",
+    "doi": "10.1074/jbc.M109.063644",
+    "abstract": "We identify and characterize two matrix (m)-AAA proteases (AtFtsH3 and AtFtsH10) present in the mitochondria of Arabidopsis thaliana. AtFtsH3 is the predominant protease in leaves of wild type plants. Both proteases assemble with prohibitins (PHBs) into high molecular weight complexes (approximately 2 MDa), similarly to their yeast counterparts. A smaller PHB complex (approximately 1 MDa), without the m-AAA proteases, was also detected. Unlike in yeast, stable prohibitin-independent high molecular weight assemblies of m-AAA proteases could not be identified in A. thaliana. AtFtsH3 and AtFtsH10 form at least two types of m-AAA-PHB complexes in wild type plants. The one type contains PHBs and AtFtsH3, and the second one is composed of PHBs and both AtFtsH3 and AtFtsH10. Complexes composed of PHBs and AtFtsH10 were found in an Arabidopsis mutant lacking AtFtsH3 (ftsh3). Thus, both AtFtsH3 and AtFtsH10 may form hetero- and homo-oligomeric complexes with prohibitins. The increased level of AtFtsH10 observed in ftsh3 suggests that functions of the homo- and hetero-oligomeric complexes containing AtFtsH3 can be at least partially substituted by AtFtsH10 homo-oligomers. The steady-state level of the AtFtsH10 transcripts did not change in ftsh3 compared with wild type plants, but we found that almost twice more of the AtFtsH10 transcripts were associated with polysomes in ftsh3. Based on this result, we assume that the AtFtsH10 protein is synthesized at a higher rate in the ftsh3 mutant. Our results provide the first data on the composition of m-AAA and PHB complexes in plant mitochondria and suggest that the abundance of m-AAA proteases is regulated not only at the transcriptional but also at the translational level."
+  },
+  {
+    "pmid": "21995547",
+    "title": "A novel mitochondrial and chloroplast peptidasome, PreP.",
+    "authors": [
+      "Kmiec B",
+      "Glaser E"
+    ],
+    "journal": "Physiologia plantarum",
+    "pubdate": "2012 May",
+    "doi": "10.1111/j.1399-3054.2011.01531.x",
+    "abstract": "A novel mitochondrial and chloroplast peptidasome, the Presequence Protease (PreP) degrades organellar targeting peptides as well as other unstructured peptides up to 65 amino acid residues in length. PreP belongs to the pitrilysin oligopeptidase family (M16C) containing an inverted zinc-binding motif. The crystal structure of Arabidopsis thaliana PreP, AtPreP, refined at 2.1 \u00c5, revealed a novel mechanism of proteolysis in which two halves of the enzyme connected by a hinge region enclose a large catalytic chamber opening and closing in response to peptide binding. Double knock-out mutant of AtPreP1 and AtPreP2 results in a severe phenotype, including decreased size and growth rate, chlorosis and organellar abnormalities, such as altered chloroplast starch content, partial loss of the integrity of the inner mitochondrial membrane and reduced mitochondrial respiration. PreP homologues are also present in yeast and humans. Interestingly, human PreP has been associated with Alzheimer's disease as it is responsible for degradation of amyloid-\u03b2 peptide in brain mitochondria."
+  },
+  {
+    "pmid": "22895086",
+    "title": "Enterohemorrhagic and enteropathogenic Escherichia coli evolved different strategies to resist antimicrobial peptides.",
+    "authors": [
+      "Thomassin JL",
+      "Brannon JR",
+      "Kaiser J",
+      "Gruenheid S",
+      "Le Moual H"
+    ],
+    "journal": "Gut microbes",
+    "pubdate": "2012",
+    "doi": "10.4161/gmic.21656",
+    "abstract": "Enterohemorrhagic and enteropathogenic Escherichia coli (EHEC and EPEC) are enteric human pathogens that colonize the large and small intestines, respectively. To establish infection EHEC and EPEC must overcome innate host defenses, such as antimicrobial peptides (AMPs) produced by the intestinal epithelium. Gram-negative pathogens have evolved different mechanisms to resist AMPs, including outer-membrane proteases that degrade AMPs. We showed that the protease OmpT degrades the human AMP LL-37 more rapidly in EHEC than in EPEC. Promoter-swap experiments showed that this is due to differences in the promoters of the two genes, leading to greater ompT expression and subsequently greater levels of OmpT in EHEC. Here, we propose that the different ompT expression in EHEC and EPEC reflects the varying levels of LL-37 throughout the human intestinal tract. These data suggest that EHEC and EPEC adapted to their specific niches by developing distinct AMP-specific resistance mechanisms."
+  },
+  {
+    "pmid": "2518709",
+    "title": "Multiple determinants of eukaryotic mRNA stability.",
+    "authors": [
+      "Cleveland DW",
+      "Yen TJ"
+    ],
+    "journal": "The New biologist",
+    "pubdate": "1989 Nov",
+    "doi": null,
+    "abstract": "Regulated changes in mRNA stability play an important role in modulating the level of expression of many eukaryotic genes. In several systems, specific sequence determinants that dictate mRNA instability have been identified. Thus, the presence of instability determinants, and not the absence of sequences that dictate stability, appears to be required for regulated mRNA degradation. These instability determinants presumably interact with specific nucleases or other trans-acting factors that regulate the accessibility of the domain to nucleases. Although each RNA destabilization pathway has unique features, in many cases RNA degradation requires ongoing protein synthesis. In some of the systems discussed, the mRNAs are degraded co-translationally, perhaps by a ribosome-associated ribonuclease. For other messages, the mechanistic reasons for the dependence of mRNA degradation on ongoing protein synthesis are still unknown."
+  },
+  {
+    "pmid": "25328684",
+    "title": "A Simple Route for Purifying Extracellular Poly(3-hydroxybutyrate)-depolymerase from Penicillium pinophilum.",
+    "authors": [
+      "Panagiotidou E",
+      "Konidaris C",
+      "Baklavaridis A",
+      "Zuburtikudis I",
+      "Achilias D",
+      "Mitlianga P"
+    ],
+    "journal": "Enzyme research",
+    "pubdate": "2014",
+    "doi": "10.1155/2014/159809",
+    "abstract": "This work proposes the purification of an active and efficient enzyme, extracellular poly(3-hydroxybutyrate) (PHB)-depolymerase, suitable for industrial applications. This is achieved by the application of an easy, fast, and cheap route, skipping the chromatography step. Chromatography with one or two columns is a common step in the purification procedure, which however renders the isolation of the enzyme a time consuming and an expensive process. A strain of the fungus Penicillium pinophilum (ATCC 9644) is used for the isolation of extracellular PHB-depolymerase. The molecular weight of the purified enzyme is about 35\u2009kDa and is estimated by gel electrophoresis (SDS-PAGE, 12% polyacrylamide). The enzymatic activity of the isolated enzyme is determined to be 3.56-fold similar to that found by other researchers that have used chromatography for the isolation. The as-isolated enzyme disintegrates the poly(3-hydroxybutyrate) (PHB) films successfully, as it is demonstrated by the biodegradation test results provided here."
+  },
+  {
+    "pmid": "25502823",
+    "title": "In silico metagenomes mining to discover novel esterases with industrial application by sequential search strategies.",
+    "authors": [
+      "Barriuso J",
+      "Mart\u00ednez MJ"
+    ],
+    "journal": "Journal of microbiology and biotechnology",
+    "pubdate": "2015 May",
+    "doi": null,
+    "abstract": "We present here an in silico search of fungal sterol-esterase/lipase and bacterial depolymerase sequences from environmental metagenomes. Both enzyme types contain the \u03b1/\u03b2-hydrolase protein fold. Analysis of DNA conserved motifs, protein homology search, phylogenetic analysis, and protein 3D modeling have been used, and the efficiency of these screening strategies is discussed. The presence of bacterial genes in the metagenomes was higher than those from fungi, and the sequencing depth of the metagenomes seemed to be crucial to allow finding enough diversity of enzyme sequences. As a result, a novel putative PHA-depolymerase is described."
+  },
+  {
+    "pmid": "25645948",
+    "title": "Degradation of SsrA-tagged proteins in streptococci.",
+    "authors": [
+      "Tao L",
+      "Biswas I"
+    ],
+    "journal": "Microbiology (Reading, England)",
+    "pubdate": "2015 Apr",
+    "doi": "10.1099/mic.0.000048",
+    "abstract": "In prokaryotes, a conserved small RNA molecule, called tmRNA, rescues ribosomes from proteins that are abnormally truncated due to the presence of rare codons or degraded mRNA. During the rescue process, a peptide tag (SsrA) encoded by tmRNA is cotranslationally added to the truncated polypeptides, thereby targeting these proteins for proteolytic degradation. In Escherichia coli, ClpXP and ClpAP proteases primarily degrade SsrA-tagged proteins. Other proteases such as Lon and FtsH also participate in the degradation in E. coli. However, in Bacillus subtilis, ClpXP is the major protease that degrades the SsrA-tagged proteins. Degradation of SsrA-tagged protein in streptococci is not well understood except that ClpXP is responsible for the majority of the degradation. Here we show that in Streptococcus mutans, in addition to ClpXP, two other Clp complexes, ClpCP and ClpEP, are also involved in the degradation. We also found that ClpCP- and ClpEP-mediated proteolysis of SsrA-tagged substrates is induced by heat stress. As ClpCP and ClpEP proteins are highly conserved in streptococci, we predicted that ClpEP- and ClpCP-mediated degradation of SsrA-tagged proteins might be operational in other streptococci."
+  },
+  {
+    "pmid": "25905671",
+    "title": "Quality control of transcription start site selection by nonsense-mediated-mRNA decay.",
+    "authors": [
+      "Malabat C",
+      "Feuerbach F",
+      "Ma L",
+      "Saveanu C",
+      "Jacquier A"
+    ],
+    "journal": "eLife",
+    "pubdate": "2015 Apr 23",
+    "doi": "10.7554/eLife.06722",
+    "abstract": "Nonsense-mediated mRNA decay (NMD) is a translation-dependent RNA quality-control pathway targeting transcripts such as messenger RNAs harboring premature stop-codons or short upstream open reading frame (uORFs). Our transcription start sites (TSSs) analysis of Saccharomyces cerevisiae cells deficient for RNA degradation pathways revealed that about half of the pervasive transcripts are degraded by NMD, which provides a fail-safe mechanism to remove spurious transcripts that escaped degradation in the nucleus. Moreover, we found that the low specificity of RNA polymerase II TSSs selection generates, for 47% of the expressed genes, NMD-sensitive transcript isoforms carrying uORFs or starting downstream of the ATG START codon. Despite the low abundance of this last category of isoforms, their presence seems to constrain genomic sequences, as suggested by the significant bias against in-frame ATGs specifically found at the beginning of the corresponding genes and reflected by a depletion of methionines in the N-terminus of the encoded proteins."
+  },
+  {
+    "pmid": "26912618",
+    "title": "APOBEC3G and APOBEC3F Act in Concert To Extinguish HIV-1 Replication.",
+    "authors": [
+      "Krisko JF",
+      "Begum N",
+      "Baker CE",
+      "Foster JL",
+      "Garcia JV"
+    ],
+    "journal": "Journal of virology",
+    "pubdate": "2016 May",
+    "doi": "10.1128/JVI.03275-15",
+    "abstract": "UNLABELLED: The multifunctional HIV-1 accessory protein Vif counters the antiviral activities of APOBEC3G (A3G) and APOBEC3F (A3F), and some Vifs counter stable alleles of APOBEC3H (A3H). Studies in humanized mice have shown that HIV-1 lacking Vif expression is not viable. Here, we look at the relative contributions of the three APOBEC3s to viral extinction. Inoculation of bone marrow/liver/thymus (BLT) mice with CCR5-tropic HIV-1JRCSF(JRCSF) expressing a vif gene inactive for A3G but not A3F degradation activity (JRCSFvifH42/43D) displayed either no or delayed replication. JRCSF expressing a vif gene mutated to inactivate A3F degradation but not A3G degradation (JRCSFvifW79S) always replicated to high viral loads with variable delays. JRCSF with vif mutated to lack both A3G and A3F degradation activities (JRCSFvifH42/43DW79S) failed to replicate, mimicking JRCSF without Vif expression (JRCSF\u0394vif). JRCSF and JRCSFvifH42/43D, but not JRCSFvifW79S or JRCSFvifH42/43DW79S, degraded APOBEC3D. With one exception, JRCSFs expressing mutant Vifs that replicated acquired enforced vif mutations. These mutations partially restored A3G or A3F degradation activity and fully replaced JRCSFvifH42/43D or JRCSFvifW79S by 10 weeks. Surprisingly, induced mutations temporally lagged behind high levels of virus in blood. In the exceptional case, JRCSFvifH42/43D replicated after a prolonged delay with no mutations in vif but instead a V27I mutation in the RNase H coding sequence. JRCSFvifH42/43D infections exhibited massive GG/AG mutations in pol viral DNA, but in viral RNA, there were no fixed mutations in the Gag or reverse transcriptase coding sequence. A3H did not contribute to viral extinction but, in combination with A3F, could delay JRCSF replication. A3H was also found to hypermutate viral DNA.\nIMPORTANCE: Vif degradation of A3G and A3F enhances viral fitness, as virus with even a partially restored capacity for degradation outgrows JRCSFvifH42/43D and JRCSFvifW79S. Unexpectedly, fixation of mutations that replaced H42/43D or W79S in viral RNA lagged behind the appearance of high viral loads. In one exceptional JRCSFvifH42/43D infection, vif was unchanged but replication proceeded after a long delay. These results suggest that Vif binds and inhibits the non-cytosine deaminase activities of intact A3G and intact A3F, allowing JRCSFvifH42/43D and JRCSFvifW79S to replicate with reduced fitness. Subsequently, enhanced Vif function is acquired by enforced mutations. In infected cells, JRCSF\u0394vif and JRCSFvifH42/43DW79S are exposed to active A3F and A3G and fail to replicate. JRCSFvifH42/43D Vif degrades A3F and, in some cases, overcomes A3G mutagenic activity to replicate. Vif may have evolved to inhibit A3F and A3G by stoichiometric binding and subsequently acquired the ability to target these proteins to proteasomes."
+  },
+  {
+    "pmid": "28408474",
+    "title": "When mRNA translation meets decay.",
+    "authors": [
+      "Bicknell AA",
+      "Ricci EP"
+    ],
+    "journal": "Biochemical Society transactions",
+    "pubdate": "2017 Apr 15",
+    "doi": "10.1042/BST20160243",
+    "abstract": "Messenger RNA (mRNA) translation and mRNA degradation are important determinants of protein output, and they are interconnected. Previously, it was thought that translation of an mRNA, as a rule, prevents its degradation. mRNA surveillance mechanisms, which degrade mRNAs as a consequence of their translation, were considered to be exceptions to this rule. Recently, however, it has become clear that many mRNAs are degraded co-translationally, and it has emerged that codon choice, by influencing the rate of ribosome elongation, affects the rate of mRNA decay. In this review, we discuss the links between translation and mRNA stability, with an emphasis on emerging data suggesting that codon optimality may regulate mRNA degradation."
+  },
+  {
+    "pmid": "29435618",
+    "title": "Inactivation of an intracellular poly-3-hydroxybutyrate depolymerase of Azotobacter vinelandii allows to obtain a polymer of uniform high molecular mass.",
+    "authors": [
+      "Adaya L",
+      "Mill\u00e1n M",
+      "Pe\u00f1a C",
+      "Jendrossek D",
+      "Esp\u00edn G",
+      "Tinoco-Valencia R",
+      "Guzm\u00e1n J",
+      "Pfeiffer D",
+      "Segura D"
+    ],
+    "journal": "Applied microbiology and biotechnology",
+    "pubdate": "2018 Mar",
+    "doi": "10.1007/s00253-018-8806-y",
+    "abstract": "A novel poly-3-hydroxybutyrate depolymerase was identified in Azotobacter vinelandii. This enzyme, now designated PhbZ1, is associated to the poly-3-hydroxybutyrate (PHB) granules and when expressed in Escherichia coli, it showed in vitro PHB depolymerizing activity on native or artificial PHB granules, but not on crystalline PHB. Native PHB (nPHB) granules isolated from a PhbZ1 mutant had a diminished endogenous in vitro hydrolysis of the polyester, when compared to the granules of the wild-type strain. This in vitro degradation was also tested in the presence of free coenzyme A. Thiolytic degradation of the polymer was observed in the nPHB granules of the wild type, resulting in the formation of 3-hydroxybutyryl-CoA, but was absent in the granules of the mutant. It was previously reported that cultures of A. vinelandii OP grown in a bioreactor showed a decrease in the weight average molecular weight (Mw) of the PHB after 20\u00a0h of culture, with an increase in the fraction of polymers of lower molecular weight. This decrease was correlated with an increase in the PHB depolymerase activity during the culture. Here, we show that in the phbZ1 mutant, neither the decrease in the Mw nor the appearance of a low molecular weight polymers occurred. In addition, a higher PHB accumulation was observed in the cultures of the phbZ1 mutant. These results suggest that PhbZ1 has a role in the degradation of PHB in cultures in bioreactors and its inactivation allows the production of a polymer of a uniform high molecular weight."
+  },
+  {
+    "pmid": "29507086",
+    "title": "A Bacterial Microcompartment Is Used for Choline Fermentation by Escherichia coli 536.",
+    "authors": [
+      "Herring TI",
+      "Harris TN",
+      "Chowdhury C",
+      "Mohanty SK",
+      "Bobik TA"
+    ],
+    "journal": "Journal of bacteriology",
+    "pubdate": "2018 May 15",
+    "doi": "10.1128/JB.00764-17",
+    "abstract": "Bacterial choline degradation in the human gut has been associated with cancer and heart disease. In addition, recent studies found that a bacterial microcompartment is involved in choline utilization by Proteus and Desulfovibrio species. However, many aspects of this process have not been fully defined. Here, we investigate choline degradation by the uropathogen Escherichia coli 536. Growth studies indicated E. coli 536 degrades choline primarily by fermentation. Electron microscopy indicated that a bacterial microcompartment was used for this process. Bioinformatic analyses suggested that the choline utilization (cut) gene cluster of E. coli 536 includes two operons, one containing three genes and a main operon of 13 genes. Regulatory studies indicate that the cutX gene encodes a positive transcriptional regulator required for induction of the main cut operon in response to choline supplementation. Each of the 16 genes in the cut cluster was individually deleted, and phenotypes were examined. The cutX, cutY, cutF, cutO, cutC, cutD, cutU, and cutV genes were required for choline degradation, but the remaining genes of the cut cluster were not essential under the conditions used. The reasons for these varied phenotypes are discussed.IMPORTANCE Here, we investigate choline degradation in E. coli 536. These studies provide a basis for understanding a new type of bacterial microcompartment and may provide deeper insight into the link between choline degradation in the human gut and cancer and heart disease. These are also the first studies of choline degradation in E. coli 536, an organism for which sophisticated genetic analysis methods are available. In addition, the cut gene cluster of E. coli 536 is located in pathogenicity island II (PAI-II536) and hence might contribute to pathogenesis."
+  },
+  {
+    "pmid": "29581585",
+    "title": "The dTAG system for immediate and target-specific protein degradation.",
+    "authors": [
+      "Nabet B",
+      "Roberts JM",
+      "Buckley DL",
+      "Paulk J",
+      "Dastjerdi S",
+      "Yang A",
+      "Leggett AL",
+      "Erb MA",
+      "Lawlor MA",
+      "Souza A",
+      "Scott TG",
+      "Vittori S",
+      "Perry JA",
+      "Qi J",
+      "Winter GE",
+      "Wong KK",
+      "Gray NS",
+      "Bradner JE"
+    ],
+    "journal": "Nature chemical biology",
+    "pubdate": "2018 May",
+    "doi": "10.1038/s41589-018-0021-8",
+    "abstract": "Dissection of complex biological systems requires target-specific control of the function or abundance of proteins. Genetic perturbations are limited by off-target effects, multicomponent complexity, and irreversibility. Most limiting is the requisite delay between modulation to experimental measurement. To enable the immediate and selective control of single protein abundance, we created a chemical biology system that leverages the potency of cell-permeable heterobifunctional degraders. The dTAG system pairs a novel degrader of FKBP12F36V with expression of FKBP12F36V in-frame with a protein of interest. By transgene expression or CRISPR-mediated locus-specific knock-in, we exemplify a generalizable strategy to study the immediate consequence of protein loss. Using dTAG, we observe an unexpected superior antiproliferative effect of pan-BET bromodomain degradation over selective BRD4 degradation, characterize immediate effects of KRASG12V loss on proteomic signaling, and demonstrate rapid degradation in vivo. This technology platform will confer kinetic resolution to biological investigation and provide target validation in the context of drug discovery."
+  },
+  {
+    "pmid": "30446677",
+    "title": "Induction of N-Ras degradation by flunarizine-mediated autophagy.",
+    "authors": [
+      "Zheng ZY",
+      "Li J",
+      "Li F",
+      "Zhu Y",
+      "Cui K",
+      "Wong ST",
+      "Chang EC",
+      "Liao YH"
+    ],
+    "journal": "Scientific reports",
+    "pubdate": "2018 Nov 16",
+    "doi": "10.1038/s41598-018-35237-2",
+    "abstract": "Ras GTPases are powerful drivers for tumorigenesis, but directly targeting Ras for treating cancer remains challenging. The growth and transforming activity of the aggressive basal-like breast cancer (BLBC) are driven by N-Ras. To target N-Ras in BLBC, this study screened existing pharmacologically active compounds for the new ability to induce N-Ras degradation, which led to the identification of flunarizine (FLN), previously approved for treating migraine and epilepsy. The FLN-induced N-Ras degradation was not affected by a 26S-proteasome inhibitor. Rather, it was blocked by autophagy inhibitors. Furthermore, N-Ras can be seen co-localized with active autophagosomes upon FLN treatment, suggesting that FLN alters the autophagy pathway to degrade N-Ras. Importantly, FLN treatment recapitulated the effect of N-RAS silencing in vitro by selectively inhibiting the growth of BLBC cells, but not that of breast cancer cells of other subtypes. In addition, in vivo FLN inhibited tumor growth of a BLBC xenograft model. In conclusion, this proof-of-principle study presents evidence that the autophagy pathway can be coerced by small molecule inhibitors, such as FLN, to degrade Ras as a strategy to treat cancer. FLN has low toxicity and should be further investigated to enrich the toolbox of cancer therapeutics."
+  },
+  {
+    "pmid": "30707467",
+    "title": "l-Rhamnose catabolism in archaea.",
+    "authors": [
+      "Reinhardt A",
+      "Johnsen U",
+      "Sch\u00f6nheit P"
+    ],
+    "journal": "Molecular microbiology",
+    "pubdate": "2019 Apr",
+    "doi": "10.1111/mmi.14213",
+    "abstract": "The halophilic archaeon Haloferax volcanii utilizes l-rhamnose as a sole carbon and energy source. It is shown that l-rhamnose is taken up by an ABC transporter and is oxidatively degraded to pyruvate and l-lactate via the diketo-hydrolase pathway. The genes involved in l-rhamnose uptake and degradation form a l-rhamnose catabolism (rhc) gene cluster. The rhc cluster also contains a gene, rhcR, that encodes the transcriptional regulator RhcR which was characterized as an activator of all rhc genes. 2-keto-3-deoxy-l-rhamnonate, a metabolic intermediate of l-rhamnose degradation, was identified as inducer molecule of RhcR. The essential function of rhc genes for uptake and degradation of l-rhamnose was proven by the respective knockout mutants. Enzymes of the diketo-hydrolase pathway, including l-rhamnose dehydrogenase, l-rhamnonolactonase, l-rhamnonate dehydratase, 2-keto-3-deoxy-l-rhamnonate dehydrogenase and 2,4-diketo-3-deoxy-l-rhamnonate hydrolase, were characterized. Further, genes of the diketo-hydrolase pathway were also identified in the hyperthermophilic crenarchaeota Vulcanisaeta distributa and Sulfolobus solfataricus and selected enzymes were characterized, indicating the presence of the diketo-hydrolase pathway in these archaea. Together, this is the first comprehensive description of l-rhamnose catabolism in the domain of archaea."
+  },
+  {
+    "pmid": "30755729",
+    "title": "Screening of endogenous strong promoters for enhanced production of medium-chain-length polyhydroxyalkanoates in Pseudomonas mendocina NK-01.",
+    "authors": [
+      "Zhao F",
+      "Liu X",
+      "Kong A",
+      "Zhao Y",
+      "Fan X",
+      "Ma T",
+      "Gao W",
+      "Wang S",
+      "Yang C"
+    ],
+    "journal": "Scientific reports",
+    "pubdate": "2019 Feb 12",
+    "doi": "10.1038/s41598-019-39321-z",
+    "abstract": "Polyhydroxyalkanoate (PHA) can be produced by microorganisms from renewable resources and is regarded as a promising bioplastic to replace petroleum-based plastics. Pseudomonas mendocina NK-01 is a medium-chain-length PHA (mcl-PHA)-producing strain and its whole-genome sequence is currently available. The yield of mcl-PHA in P. mendocina NK-01 is expected to be improved by applying a promoter engineering strategy. However, a limited number of well-characterized promoters has greatly restricted the application of promoter engineering for increasing the yield of mcl-PHA in P. mendocina NK-01. In this work, 10 endogenous promoters from P. mendocina NK-01 were identified based on RNA-seq and promoter prediction results. Subsequently, 10 putative promoters were characterized for their strength through the expression of a reporter gene gfp. As a result, five strong promoters designated as P4, P6, P9, P16 and P25 were identified based on transcriptional level and GFP fluorescence intensity measurements. To evaluate whether the screened promoters can be used to enhance transcription of PHA synthase gene (phaC), the three promoters P4, P6 and P16 were separately integrated into upstream of the phaC operon in the genome of P. mendocina NK-01, resulting in the recombinant strains NKU-4C1, NKU-6C1 and NKU-16C1. As expected, the transcriptional levels of phaC1 and phaC2 in the recombinant strains were increased as shown by real-time quantitative RT-PCR. The phaZ gene encoding PHA depolymerase was further deleted to construct the recombinant strains NKU-\u2206phaZ-4C1, NKU-\u2206phaZ-6C1 and NKU-\u2206phaZ-16C1. The results from shake-flask fermentation indicated that the mcl-PHA titer of recombinant strain NKU-\u2206phaZ-16C1 was increased from 17 to 23\u2009wt% compared with strain NKU-\u2206phaZ. This work provides a feasible method to discover strong promoters in P. mendocina NK-01 and highlights the potential of the screened endogenous strong promoters for metabolic engineering of P. mendocina NK-01 to increase the yield of mcl-PHA."
+  },
+  {
+    "pmid": "31164460",
+    "title": "Regulatory Mechanism of Nicotine Degradation in ",
+    "authors": [
+      "Hu H",
+      "Wang L",
+      "Wang W",
+      "Wu G",
+      "Tao F",
+      "Xu P",
+      "Deng Z",
+      "Tang H"
+    ],
+    "journal": "mBio",
+    "pubdate": "2019 Jun 04",
+    "doi": "10.1128/mBio.00602-19",
+    "abstract": "Nicotine, a toxic and addictive alkaloid from tobacco, is an environmental pollutant in areas near cigarette production facilities. Over the last decade, our group has studied, in depth, the pyrrolidine pathway of nicotine degradation in Pseudomonas putida S16. However, little is known regarding whole mechanism(s) regulating transcription of the nicotine degradation pathway gene cluster. In the present study, we comprehensively elucidate an overall view of the NicR2-mediated two-step mechanism regulating 3-succinoyl-pyridine (SP) biotransformation, which involves the association of free NicR2 with two promoters and the dissociation of NicR2 from the NicR2-promoter complex. NicR2 can bind to another promoter, Pspm, and regulate expression of the nicotine-degrading genes in the middle of nic2 gene cluster, which are not controlled by the previously reported Phsp promoter. We identified the function of the inverted repeat bases on the two promoters responsible for NicR2 binding and found out that the -35/-10 motif for RNA polymerase is overlapped by the NicR2 binding site. We clarify the exact role of 6-hydroxy-3-succinoyl-pyridine (HSP), which acts as an antagonist and may prevent binding of free NicR2 to the promoters but cannot release NicR2 from the promoters. Finally, a regulatory model is proposed, which consists of three parts: the interaction between NicR2 and two promoters (Pspm and Phsp), the interaction between NicR2 and two effectors (HSP and SP), and the interaction between NicR2 and RNA polymerase.IMPORTANCE We report the entire process underlying the NicR2 regulatory mechanism from association between free NicR2 and two promoters to dissociation of the NicR2-promoter complex. NicR2 can bind to another promoter, Pspm, which controls expression of nicotine-degrading genes that are not controlled by the Phsp promoter. We identified specific nucleotides of the Pspm promoter responsible for NicR2 binding. HSP was further demonstrated as an antagonist, which prevents the binding of NicR2 to the Pspm and Phsp promoters, by locking NicR2 in the derepression conformation. The competition between NicR2 and RNA polymerase is essential to initiate transcription of nicotine-degrading genes. This study extends our understanding of molecular mechanisms in biodegradation of environmental pollutants and toxicants."
+  },
+  {
+    "pmid": "32441612",
+    "title": "Microbial metabolism of isoprene: a much-neglected climate-active gas.",
+    "authors": [
+      "Murrell JC",
+      "McGenity TJ",
+      "Crombie AT"
+    ],
+    "journal": "Microbiology (Reading, England)",
+    "pubdate": "2020 Jul",
+    "doi": "10.1099/mic.0.000931",
+    "abstract": "The climate-active gas isoprene is the major volatile produced by a variety of trees and is released into the atmosphere in enormous quantities, on a par with global emissions of methane. While isoprene production in plants and its effect on atmospheric chemistry have received considerable attention, research into the biological isoprene sink has been neglected until recently. Here, we review current knowledge on the sources and sinks of isoprene and outline its environmental effects. Focusing on degradation by microbes, many of which are able to use isoprene as the sole source of carbon and energy, we review recent studies characterizing novel isoprene degraders isolated from soils, marine sediments and in association with plants. We describe the development and use of molecular methods to identify, quantify and genetically characterize isoprene-degrading strains in environmental samples. Finally, this review identifies research imperatives for the further study of the environmental impact, ecology, regulation and biochemistry of this interesting group of microbes."
+  },
+  {
+    "pmid": "34845370",
+    "title": "SARS-CoV-2 ORF10 suppresses the antiviral innate immune response by degrading MAVS through mitophagy.",
+    "authors": [
+      "Li X",
+      "Hou P",
+      "Ma W",
+      "Wang X",
+      "Wang H",
+      "Yu Z",
+      "Chang H",
+      "Wang T",
+      "Jin S",
+      "Wang X",
+      "Wang W",
+      "Zhao Y",
+      "Zhao Y",
+      "Xu C",
+      "Ma X",
+      "Gao Y",
+      "He H"
+    ],
+    "journal": "Cellular & molecular immunology",
+    "pubdate": "2022 Jan",
+    "doi": "10.1038/s41423-021-00807-4",
+    "abstract": "The global coronavirus disease 2019 (COVID-19) pandemic caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has caused severe morbidity and mortality in humans. It is urgent to understand the function of viral genes. However, the function of open reading frame 10 (ORF10), which is uniquely expressed by SARS-CoV-2, remains unclear. In this study, we showed that overexpression of ORF10 markedly suppressed the expression of type I interferon (IFN-I) genes and IFN-stimulated genes. Then, mitochondrial antiviral signaling protein (MAVS) was identified as the target via which ORF10 suppresses the IFN-I signaling pathway, and MAVS was found to be degraded through the ORF10-induced autophagy pathway. Furthermore, overexpression of ORF10 promoted the accumulation of LC3 in mitochondria and induced mitophagy. Mechanistically, ORF10 was translocated to mitochondria by interacting with the mitophagy receptor Nip3-like protein X (NIX) and induced mitophagy through its interaction with both NIX and LC3B. Moreover, knockdown of NIX expression blocked mitophagy activation, MAVS degradation, and IFN-I signaling pathway inhibition by ORF10. Consistent with our observations, in the context of SARS-CoV-2 infection, ORF10 inhibited MAVS expression and facilitated viral replication. In brief, our results reveal a novel mechanism by which SARS-CoV-2 inhibits the innate immune response; that is, ORF10 induces mitophagy-mediated MAVS degradation by binding to NIX."
+  },
+  {
+    "pmid": "34893608",
+    "title": "Cellular variability of nonsense-mediated mRNA decay.",
+    "authors": [
+      "Sato H",
+      "Singer RH"
+    ],
+    "journal": "Nature communications",
+    "pubdate": "2021 Dec 10",
+    "doi": "10.1038/s41467-021-27423-0",
+    "abstract": "Nonsense-mediated mRNA decay (NMD) is an mRNA degradation pathway that eliminates transcripts containing premature termination codons (PTCs). Half-lives of the mRNAs containing PTCs demonstrate that a small percent escape surveillance and do not degrade. It is not known whether this escape represents variable mRNA degradation within cells or, alternatively cells within the population are resistant. Here we demonstrate a single-cell approach with a bi-directional reporter, which expresses two \u03b2-globin genes with or without a PTC in the same cell, to characterize the efficiency of NMD in individual cells. We found a broad range of NMD efficiency in the population; some cells degraded essentially all of the mRNAs, while others escaped NMD almost completely. Characterization of NMD efficiency together with NMD regulators in single cells showed cell-to-cell variability of NMD reflects the differential level of surveillance factors, SMG1 and phosphorylated UPF1. A single-cell fluorescent reporter system that enabled detection of NMD using flow cytometry revealed that this escape occurred either by translational readthrough at the PTC or by a failure of mRNA degradation after successful translation termination at the PTC."
+  },
+  {
+    "pmid": "34989903",
+    "title": "Improvement of laccase activity by silencing PacC in Ganoderma lucidum.",
+    "authors": [
+      "Zhu J",
+      "Song S",
+      "Lian L",
+      "Shi L",
+      "Ren A",
+      "Zhao M"
+    ],
+    "journal": "World journal of microbiology & biotechnology",
+    "pubdate": "2022 Jan 06",
+    "doi": "10.1007/s11274-021-03216-x",
+    "abstract": "Ganoderma lucidum is a representative white-rot fungus that has great potential to degrade lignocellulose biomass. Laccase is recognized as a class of the most important lignin-degrading enzymes in G. lucidum. However, the comprehensive regulatory mechanisms of laccase are still lacking. Based on the genome sequence of G. lucidum, 15 laccase genes were identified and their encoding proteins were analyzed in this study. All of the laccase proteins are predicted to be multicopper oxidases with conserved copper-binding domains. Most laccase proteins were secreted enzymes in addition to Lac14 in which the signal peptide could not be predicted. The activity of all laccases showed the highest level at pH 3.0 or pH 7.0, with total laccase activity of approximately 200 U/mg protein. Silencing PacC resulted in a 5.2 fold increase in laccase activity compared with WT. Five laccase genes (lac1, lac6, lac9, lac10 and lac14) showed an increased transcription levels (approximately 1.5-5.6 fold) in the PacC-silenced strains versus that in WT, while other laccase genes were downregulated or unchanged. The extracellular pH value was about 3.1, which was more acidic in the PacC-silenced strains than in the WT (pH 3.5). Moreover, maintaining the fermentation pH resulted in a downregulation of laccase activity which is induced by silencing PacC. Our findings indicate that in addition to its function in acidification of environmental pH, PacC plays an important role in regulating laccase activity in fungi."
+  },
+  {
+    "pmid": "35080440",
+    "title": "The Linker Region Promotes Activity and Binding Efficiency of Modular LPMO towards Polymeric Substrate.",
+    "authors": [
+      "Srivastava A",
+      "Nagar P",
+      "Rathore S",
+      "Adlakha N"
+    ],
+    "journal": "Microbiology spectrum",
+    "pubdate": "2022 Feb 23",
+    "doi": "10.1128/spectrum.02697-21",
+    "abstract": "Lytic polysaccharide monooxygenases (LPMOs) mediate oxidative degradation of plant polysaccharides. The genes encoding LPMOs are most commonly arranged with one catalytic domain, while a few are found tethered to additional noncatalytic units, i.e., cellulase linker and carbohydrate-binding module (CBM). The presence of CBM is known to facilitate catalysis by directing the enzymes toward cellulosic polymer, while the role of linkers is poorly understood. Based on limited experimental evidence, linkers are believed to serve merely as flexible spacers between the structured domains. Thus, this study aims to unravel the role of the linker regions present in LPMO sequences. For this, we analyzed the genome of Botrytis cinerea and found 9 genes encoding cellulose lytic monooxygenases (AA9 family), of which BcAA9C was overexpressed in cellulose-inducible conditions. We designed variants of flLPMO (full-length enzyme) with truncation of either linker or CBM to examine the role of linker in activity, binding, and thermal stability of the associated monooxygenase. Biochemical assays predicted that the deletion of linker does not impact the potential of flLPMO for catalyzing the oxidation of Amplex Red, but that it does have a major influence on the capability of flLPMO to degrade recalcitrant polysaccharide substrate. Langmuir isotherm and SEM analysis demonstrated that linker domain aids in polysaccharide binding during flLPMO-mediated deconstruction of plant cell wall. Interestingly, linker domain was also found to contribute toward the thermostability of flLPMO. Overall, our study reveals that linker is not merely a spacer, but plays a key role in LPMO-mediated biomass fibrillation; these findings are broadly applicable to other polysaccharide-degrading enzymes. IMPORTANCE The polysaccharide-disintegrating carbohydrate-active enzymes (CAZymes) are often found with multimodular architecture, where the catalytic domain is connected to an accessory CBM domain with the help of a flexible linker region. So far, the linker has been understood merely as a flexible spacer between the two domains. Therefore, the current study is designed to determine the role of linker in polysaccharide fibrillation. To conceive this study, we have selected LPMO as a model enzyme, as it is not only an industrially relevant enzyme but it also harbors a catalytic domain, linker region, and CBM domain. The present study highlighted the crucial and indispensable role of the linker region in mediating polysaccharide disintegration. Considering its role in binding, thermostability, and activity toward polysaccharide substrate, we propose linker as a potential candidate for future CAZyme engineering."
+  },
+  {
+    "pmid": "38630153",
+    "title": "Metagenomic investigations into the microbial consortia, degradation pathways, and enzyme systems involved in the biodegradation of plastics in a tropical lentic pond sediment.",
+    "authors": [
+      "Salam LB"
+    ],
+    "journal": "World journal of microbiology & biotechnology",
+    "pubdate": "2024 Apr 17",
+    "doi": "10.1007/s11274-024-03972-6",
+    "abstract": "The exploitation of exciting features of plastics for diverse applications has resulted in significant plastic waste generation, which negatively impacts environmental compartments, metabolic processes, and the well-being of aquatic ecosystems biota. A shotgun metagenomic approach was deployed to investigate the microbial consortia, degradation pathways, and enzyme systems involved in the degradation of plastics in a tropical lentic pond sediment (APS). Functional annotation of the APS proteome (ORFs) using the PlasticDB database revealed annotation of 1015 proteins of enzymes such as depolymerase, esterase, lipase, hydrolase, nitrobenzylesterase, chitinase, carboxylesterase, polyesterase, oxidoreductase, polyamidase, PETase, MHETase, laccase, alkane monooxygenase, among others involved in the depolymerization of the plastic polymers. It also revealed that polyethylene glycol (PEG), polyhydroxyalkanoates (PHA), polyhydroxybutyrate (PHB), polylactic acid (PLA), polybutylene adipate terephthalate (PBAT), polyethylene terephthalate (PET), and nylon have the highest number of annotated enzymes. Further annotation using the KEGG GhostKOALA revealed that except for terephthalate, all the other degradation products of the plastic polymers depolymerization such as glyoxylate, adipate, succinate, 1,4-butanediol, ethylene glycol, lactate, and acetaldehyde were further metabolized to intermediates of the tricarboxylic acid cycle. Taxonomic characterization of the annotated proteins using the AAI Profiler and BLASTP revealed that Pseudomonadota members dominate most plastic types, followed by Actinomycetota and Acidobacteriota. The study reveals novel plastic degraders from diverse phyla hitherto not reported to be involved in plastic degradation. This suggests that plastic pollution in aquatic environments is prevalent with well-adapted degrading communities and could be the silver lining in mitigating the impacts of plastic pollution in aquatic environments."
+  },
+  {
+    "pmid": "38637703",
+    "title": "Luciferase- and HaloTag-based reporter assays to measure small-molecule-induced degradation pathway in living cells.",
+    "authors": [
+      "Schwalm MP",
+      "Saxena K",
+      "M\u00fcller S",
+      "Knapp S"
+    ],
+    "journal": "Nature protocols",
+    "pubdate": "2024 Aug",
+    "doi": "10.1038/s41596-024-00979-z",
+    "abstract": "The rational development of small-molecule degraders (e.g., proteolysis targeting chimeras) remains a challenge as the rate-limiting steps that determine degrader efficiency are largely unknown. Standard methods in the field of targeted protein degradation mostly rely on classical, low-throughput endpoint assays such as western blots or quantitative proteomics. Here we applied NanoLuciferase- and HaloTag-based screening technologies to determine the kinetics and stability of small-molecule-induced ternary complex formation between a protein of interest and a selected E3 ligase. A collection of live-cell assays were designed to probe the most critical steps of the degradation process while minimizing the number of required expression constructs, making the proposed assay pipeline flexible and adaptable to the requirements of the users. This approach evaluates the underlying mechanism of selective target degraders and reveals the exact characteristics of the developed degrader molecules in living cells. The protocol allows scientists trained in basic cell culture and molecular biology to carry out small-molecule proximity-inducer screening via tracking of the ternary complex formation within 2 weeks of establishment, while degrader screening using the HiBiT system requires a CRISPR-Cas9 engineered cell line whose generation can take up to 3 months. After cell-line generation, degrader screening and validation can be carried out in high-throughput manner within days."
+  },
+  {
+    "pmid": "38640665",
+    "title": "Biodegradation of atrazine and nicosulfuron by Streptomyces nigra LM01: Performance, degradative pathway, and possible genes involved.",
+    "authors": [
+      "Zhao S",
+      "Wang J"
+    ],
+    "journal": "Journal of hazardous materials",
+    "pubdate": "2024 Jun 05",
+    "doi": "10.1016/j.jhazmat.2024.134336",
+    "abstract": "Microbial herbicide degradation is an efficient bioremediation method. In this study, a strain of Streptomyces nigra, LM01, which efficiently degrades atrazine and nicosulfuron, was isolated from a corn field using a direct isolation method. The degradation effects of the identified strain on two herbicides were investigated and optimized using an artificial neural network. The maximum degradation rates of S. nigra LM01 were 58.09\u00a0% and 42.97\u00a0% for atrazine and nicosulfuron, respectively. The degradation rate of atrazine in the soil reached 67.94\u00a0% when the concentration was 108 CFU/g after 5 d and was less effective than that of nicosulfuron. Whole genome sequencing of strain LM01 helped elucidate the possible degradation pathways of atrazine and nicosulfuron. The protein sequences of strain LM01 were aligned with the sequences of the degraded proteins of the two herbicides by using the National Center for Biotechnology Information platform. The sequence (GE005358, GE001556, GE004212, GE005218, GE004846, GE002487) with the highest query cover was retained and docked with the small-molecule ligands of the herbicides. The results revealed a binding energy of -\u00a06.23\u00a0kcal/mol between GE005358 and the atrazine ligand and -\u00a06.66\u00a0kcal/mol between GE002487 and the nicosulfuron ligand."
+  },
+  {
+    "pmid": "38842055",
+    "title": "ATG10S promotes IFNL1 expression and autophagic degradation of multiple viral proteins mediated by IFNL1.",
+    "authors": [
+      "Zhang MQ",
+      "Li JR",
+      "Yang L",
+      "Peng ZG",
+      "Wu S",
+      "Zhang JP"
+    ],
+    "journal": "Autophagy",
+    "pubdate": "2024 Oct",
+    "doi": "10.1080/15548627.2024.2361580",
+    "abstract": "ATG10S is a newly discovered subtype of the autophagy protein ATG10. It promotes complete macroautophagy/autophagy, degrades multiple viral proteins, and increases the expression of type III interferons. Here, we aimed to investigate the mechanism of ATG10S cooperation with IFNL1 to degrade viral proteins from different viruses. Using western blot, immunoprecipitation (IP), tandem sensor RFP-GFP-LC3B and in situ proximity ligation assays, we showed that exogenous recombinant ATG10S protein (rHsATG10S) could enter into cells through clathrin, and ATG10S combined with ATG7 with IFNL1 assistance to facilitate ATG12-ATG5 conjugation, thereby contributing to the autophagosome formation in multiple cell lines containing different virions or viral proteins. The results of DNA IP and luciferase assays also showed that ATG10S was able to directly bind to a core motif (CAAGGG) within a binding site of transcription factor ZNF460 on the IFNL1 promoter, by which IFNL1 transcription was activated. These results clarified that ATG10S promoted autophagosome formation with the assistance of IFNL1 to ensure autophagy flux and autophagic degradation of multiple viral proteins and that ATG10S could also act as a novel transcription factor to promote IFNL1 gene expression. Importantly, this study further explored the antiviral mechanism of ATG10S interaction with type III interferon and provided a theoretical basis for the development of ATG10S into a new broad-spectrum antiviral protein drug.Abbreviation: ATG: autophagy related; ATG10S: the shorter isoform of autophagy-related 10; CC50: half cytotoxicity concentration; CCV: clathrin-coated transport vesicle; CLTC: clathrin heavy chain; CM: core motif; co-IP: co-immunoprecipitation; CPZ: chlorpromazine; ER: endoplasmic reticulum; HCV: hepatitis C virus; HBV: hepatitis B virus; HsCoV-OC43: Human coronavirus OC43; IFN: interferon; PLA: proximity ligation assay; rHsATG10S: recombinant human ATG10S protein; RLU: relative light unit; SQSTM1: sequestosome 1; ZNF: zinc finger protein."
+  },
+  {
+    "pmid": "39245322",
+    "title": "Hints from nature for a PHA circular economy: Carbon synthesis and sharing by Pseudomonas solani GK13.",
+    "authors": [
+      "Jim\u00e9nez JD",
+      "Godoy MS",
+      "Del Cerro C",
+      "Prieto MA"
+    ],
+    "journal": "New biotechnology",
+    "pubdate": "2024 Dec 25",
+    "doi": "10.1016/j.nbt.2024.09.002",
+    "abstract": "Polyhydroxyalkanoates (PHAs) are a well-known group of biodegradable and biocompatible bioplastics that are synthesised and stored by microorganisms as carbon and energy reservoirs. Extracellular PHA depolymerases (ePhaZs), secreted by a limited range of microorganisms, are the main hydrolytic enzymes responsible for their environmental degradation. Pseudomonas sp. GK13, initially identified as P. fluorescens GK13, produces PHA and a prototypic ePhaZ that specifically degrades mcl-PHA. In this study, a comprehensive characterization of strain GK13 was performed. The whole genomic sequence of GK13 was consolidated into one complete chromosome, leading to its reclassification as P. solani GK13. We conducted a detailed in silico examination of the bacteria genomic sequence, specifically targeting PHA metabolic functions. From the different growth conditions explored, PHA accumulation occurred only under carbon/nitrogen (C/N) imbalance, whereas ePhaZ production was induced even at balanced C/N ratios in mineral media. We extend our study to other bacteria belonging to the Pseudomonas genus revealing that the ePhaZ production capacity is closely associated with mcl-PHA synthesis capacity, as also suggested by metagenomic samples. This finding suggests that these types of microorganisms could contribute to the carbon economy of the microbial community, by storing PHA in carbon-rich times, and sharing it with the rest of the population during times of carbon scarcity through PHA hydrolysis. The conclusion pointed that carbon cycle metabolism performed by P. solani GK13 may contribute to the environmental circular economy at a microscopic scale."
+  },
+  {
+    "pmid": "39298590",
+    "title": "Targeting cancer with small-molecule pan-KRAS degraders.",
+    "authors": [
+      "Popow J",
+      "Farnaby W",
+      "Gollner A",
+      "Kofink C",
+      "Fischer G",
+      "Wurm M",
+      "Zollman D",
+      "Wijaya A",
+      "Mischerikow N",
+      "Hasenoehrl C",
+      "Prokofeva P",
+      "Arnhof H",
+      "Arce-Solano S",
+      "Bell S",
+      "Boeck G",
+      "Diers E",
+      "Frost AB",
+      "Goodwin-Tindall J",
+      "Karolyi-Oezguer J",
+      "Khan S",
+      "Klawatsch T",
+      "Koegl M",
+      "Kousek R",
+      "Kratochvil B",
+      "Kropatsch K",
+      "Lauber AA",
+      "McLennan R",
+      "Olt S",
+      "Peter D",
+      "Petermann O",
+      "Roessler V",
+      "Stolt-Bergner P",
+      "Strack P",
+      "Strauss E",
+      "Trainor N",
+      "Vetma V",
+      "Whitworth C",
+      "Zhong S",
+      "Quant J",
+      "Weinstabl H",
+      "Kuster B",
+      "Ettmayer P",
+      "Ciulli A"
+    ],
+    "journal": "Science (New York, N.Y.)",
+    "pubdate": "2024 Sep 20",
+    "doi": "10.1126/science.adm8684",
+    "abstract": "Mutations in the Kirsten rat sarcoma viral oncogene homolog (KRAS) protein are highly prevalent in cancer. However, small-molecule concepts that address oncogenic KRAS alleles remain elusive beyond replacing glycine at position 12 with cysteine (G12C), which is clinically drugged through covalent inhibitors. Guided by biophysical and structural studies of ternary complexes, we designed a heterobifunctional small molecule that potently degrades 13 out of 17 of the most prevalent oncogenic KRAS alleles. Compared with inhibition, KRAS degradation results in more profound and sustained pathway modulation across a broad range of KRAS mutant cell lines, killing cancer cells while sparing models without genetic KRAS aberrations. Pharmacological degradation of oncogenic KRAS was tolerated and led to tumor regression in vivo. Together, these findings unveil a new path toward addressing KRAS-driven cancers with small-molecule degraders."
+  },
+  {
+    "pmid": "39675719",
+    "title": "Prohibitin 1 tethers lipid membranes and regulates OPA1-mediated membrane fusion.",
+    "authors": [
+      "Ban T",
+      "Kuroda K",
+      "Nishigori M",
+      "Yamashita K",
+      "Ohta K",
+      "Koshiba T"
+    ],
+    "journal": "The Journal of biological chemistry",
+    "pubdate": "2025 Jan",
+    "doi": "10.1016/j.jbc.2024.108076",
+    "abstract": "Prohibitins (PHBs) are ubiquitously expressed proteins in the mitochondrial inner membrane (MIM) that provide membrane scaffolds for both mitochondrial proteins and phospholipids. Eukaryotic PHB complexes contain two highly homologous PHB subunits, PHB1 and PHB2, which are involved in various cellular processes, including metabolic control through the regulation of mitochondrial dynamics and integrity. Their mechanistic actions at the molecular level, however, particularly those of PHB1, remain poorly understood. To gain insight into the mechanistic actions of PHB1, we established an overexpression system for the full-length recombinant protein using silkworm larvae and characterized its biophysical properties in\u00a0vitro. Using recombinant PHB1 proteoliposomes reconstituted into MIM-mimicking phospholipids, we found that PHB1 forms an oligomer via its carboxy-terminal coiled-coil region. A proline substitution into the PHB1 coiled-coil collapsed its well-ordered oligomeric state, and its destabilization correlated with mitochondrial morphologic defects. Negative-staining electron microscopy revealed that homotypic PHB1-PHB1 interactions via the coiled-coil also induced liposome tethering with remodeling of the lipid membrane structure. We clarified that PHB1 promotes membrane fusion mediated by optic atrophy 1 (OPA1), a key regulator of MIM fusion. Additionally, the presence of PHB1 reduces the dependency of lipids and OPA1 for completing the fusion process. Our in\u00a0vitro study provides structural insight into how the mitochondrial scaffold plays a crucial role in regulating mitochondrial dynamics. Modulating the structure and/or function of PHB1 may offer new therapeutic potential, not only for mitochondrial dysfunction but also for other cell-related disorders."
+  },
+  {
+    "pmid": "40981414",
+    "title": "A systems-level insight into PHB-driven metabolic adaptation orchestrated by the PHB-binding transcriptional regulator AniA (PhaR).",
+    "authors": [
+      "Lagares A",
+      "Krol E",
+      "J\u00fchling T",
+      "Glatter T",
+      "Becker A"
+    ],
+    "journal": "mSystems",
+    "pubdate": "2025 Oct 22",
+    "doi": "10.1128/msystems.00760-25",
+    "abstract": "Poly(3-hydroxybutyrate) (PHB) is a carbon and energy storage polymer, whose accumulation under nutrient imbalances with excess carbon is common in bacteria. PhaR is a conserved transcriptional regulator that associates with PHB granules in several species. Although its role in modulating PHB storage and metabolism has been extensively studied across the bacterial phylogeny, a systems-level view of PhaR's dual function as a metabolic sensor and regulator is lacking. Here, we integrated co-expression network analysis with proteome profiling across multiple mutant backgrounds (lack of PhaR [AniA] and/or PHB synthesis) in the free-living state of the PHB-accumulating \u03b1-proteobacterial root nodule symbiont Sinorhizobium meliloti. This analysis was enriched by identifying direct regulatory targets of PhaR through a regulon-centric computational multistep search for DNA-binding site motifs combined with PhaR-DNA-binding and promoter-reporter assays. We confirmed that the model of accumulated PHB sequestering PhaR, and thereby relieving phasin and PHB depolymerase gene repression to control cellular PHB levels, also applies to S. meliloti and showed that PhaR-mediated regulation also occurs in the symbiotic state. Our integrated analyses of the impact of PHB-mediated PhaR titration on cellular functions revealed exopolysaccharide production as well as central carbon metabolism (pdh and bkd), gluconeogenesis (ppdK and pyc), entry into the TCA cycle (gltA), and the initial steps of the Entner-Doudoroff (ED) pathway (zwf, pgl, and edd) as major regulatory targets, along with target genes of yet unknown function. Our findings highlight a pivotal role for PhaR in orchestrating carbon metabolism.IMPORTANCEPoly(3-hydroxybutyrate) (PHB) is a carbon and energy storage polymer typically associated with bacterial survival under nutrient-limited conditions. Its accumulation reflects the cellular metabolic balance, and the transcriptional regulator PhaR has been shown to bind PHB and control the expression of genes involved in its metabolism. At the same time, PhaR has been implicated in broader regulatory roles affecting global gene expression, although the connection between this function and its ability to sense PHB has remained unresolved. In this study, we used the model legume symbiont Sinorhizobium meliloti to bridge this gap. We demonstrated that PhaR modulates global gene expression in response to the metabolic state signaled by PHB accumulation. Our findings highlight PHB not only as a storage compound, but also as a key integrator of metabolic status that links nutrient availability to coordinated transcriptional responses."
+  },
+  {
+    "pmid": "41166656",
+    "title": "Identification of a Highly Cooperative PROTAC Degrader Targeting GTP-Loaded KRAS(On) Alleles.",
+    "authors": [
+      "Vetma V",
+      "Puoti I",
+      "Karolak NK",
+      "Chakraborti S",
+      "Diers E",
+      "Girardi E",
+      "Khan S",
+      "Kidd G",
+      "Kropatsch KG",
+      "Mclennan R",
+      "O'Connor S",
+      "Samwer M",
+      "Trainor N",
+      "Whitworth C",
+      "Wijaya AJ",
+      "Wong JYF",
+      "Zollman D",
+      "Farnaby W",
+      "Popow J",
+      "Ciulli A",
+      "Ettmayer P",
+      "McAulay K"
+    ],
+    "journal": "Journal of the American Chemical Society",
+    "pubdate": "2025 Nov 12",
+    "doi": "10.1021/jacs.5c10354",
+    "abstract": "Kirsten rat sarcoma viral oncogene homologue (KRAS) is a frequently mutated oncogene in multiple types of cancer and is a high priority target for oncology drug development. There are many different KRAS mutations, including mutations that favor the GTP-loaded hydrolysis-incompetent \"active\" state of KRAS, KRAS(on), that can lead to tumorigenesis. However, small molecule interventions thus far have predominantly targeted single mutations of \"inactive\" GDP-loaded KRAS, KRAS(off), such as KRASG12C. Here, we address this gap through the development of heterobifunctional VHL-based PROTACs capable of engaging and degrading KRAS(on), thus addressing a wider range of KRAS mutations. By studying ternary complex affinity, stability, and binding modes using SPR and X-ray cocrystal structures, we identified PROTACs that exhibit high positive cooperativity in forming ternary complexes with VHL and GCP-loaded KRAS as representative of KRAS(on) variants. Degrader activity profiling in relevant cancer cells supported the discovery of ACBI4, a PROTAC which forms a highly stable and cooperative ternary complex between VHL and GTP-bound KRAS and which potently degrades KRASG12R, leading to antiproliferative effect in KRAS mutant-driven cancer cells. ACBI4 provides a new chemical tool for studying the impact of degrading KRAS(on) mutants, which is not possible with current pan-KRAS inhibitors or degraders."
+  },
+  {
+    "pmid": "42330901",
+    "title": "Unveiling plastic biodegradation pathways through ",
+    "authors": [
+      "Barbe V",
+      "Saint-Picq C",
+      "Odobel C",
+      "Hingant M",
+      "Pujo-Pay M",
+      "Cruaud C",
+      "Petit JL",
+      "Fischer C",
+      "Boulard Y",
+      "C\u00e9bron A",
+      "Ter Halle A",
+      "Eyheraguibel B",
+      "Lemechko P",
+      "Bruzaud S",
+      "Ghiglione JF"
+    ],
+    "journal": "Journal of hazardous materials",
+    "pubdate": "2026 Aug 01",
+    "doi": "10.1016/j.jhazmat.2026.142755",
+    "abstract": "Polyhydroxyalkanoates (PHAs) are promising biobased and biodegradable alternatives to conventional plastics, yet their degradation mechanisms and the diversity of microorganisms involved remain poorly characterized in marine ecosystems. Here, we used 13C-labeled poly(3-hydroxybutyrate) (PHB) and combined DNA-stable isotope probing (DNA-SIP) with metagenomic to identify and functionally characterize active PHB-degrading bacteria in seawater. We identified three metagenome-assembled genomes (MAGs) affiliated with the genus Agarilytica that exhibited an exceptional expansion of preficted extracellular short-chain-length PHA depolymerase genes (ephaZscl) with up to 14 copies per genome, far exceeding the one-to-two copies typically reported. Comparative genomic and structural analyses revealed gene duplication and fusion events, given rise to tandem or chimeric depolymerases that may enhance catalytic diversity and substrate accessibility. Three-dimensional structural modeling confirmed that these fusion proteins retained functional catalytic domains with potential cooperative or independent activity. Such genomic redundancy and structural diversification likely confer an adaptive advantage for PHB biodegradation in marine environment. Collectively, our findings provide new insights into the ecological and evolutionary strategies of marine PHB degraders and highlight the power of DNA-SIP metagenomic for elucidating active plastic biodegradation pathways under natural conditions."
+  },
+  {
+    "pmid": "8246842",
+    "title": "Molecular biology of the lignin-degrading basidiomycete Phanerochaete chrysosporium.",
+    "authors": [
+      "Gold MH",
+      "Alic M"
+    ],
+    "journal": "Microbiological reviews",
+    "pubdate": "1993 Sep",
+    "doi": null,
+    "abstract": "The white rot basidiomycete Phanerochaete chrysosporium completely degrades lignin and a variety of aromatic pollutants during the secondary metabolic phase of growth. Two families of secreted heme enzymes, lignin peroxidase (LiP) and manganese peroxidase (MnP), are major components of the extracellular lignin degradative system of this organism. MnP and LiP both are encoded by families of genes, and the lip genes appear to be clustered. The lip genes contain eight or nine short introns; the mnp genes contain six or seven short introns. The sequences surrounding active-site residues are conserved among LiP, MnP, cytochrome c peroxidase, and plant peroxidases. The eight LiP cysteine residues align with 8 of the 10 cysteines in MnP. LiPs are synthesized as preproenzymes with a 21-amino-acid signal sequence followed by a 6- or 7-amino-acid propeptide. MnPs have a 21- or 24-amino-acid signal sequence but apparently lack a propeptide. Both LiP and MnP are regulated at the mRNA level by nitrogen, and the various isozymes may be differentially regulated by carbon and nitrogen. MnP also is regulated at the level of gene transcription by Mn(II), the substrate for the enzyme, and by heat shock. The promoter regions of mnp genes contain multiple heat shock elements as well as sequences that are identical to the consensus metal regulatory elements found in mammalian metallothionein genes. DNA transformation systems have been developed for P. chrysosporium and are being used for studies on gene regulation and for gene replacement experiments."
+  }
+]

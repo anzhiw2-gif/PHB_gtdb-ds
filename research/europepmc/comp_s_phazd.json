@@ -1,0 +1,152 @@
+{
+  "hitCount": 1,
+  "nextCursorMark": "",
+  "results": [
+    {
+      "id": "22537946",
+      "source": "MED",
+      "pmid": "22537946",
+      "pmcid": "PMC3430594",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC3430594"
+        ]
+      },
+      "doi": "10.1186/2191-0855-2-26",
+      "title": "Examination of PHB Depolymerases in Ralstonia eutropha: Further Elucidation of the Roles of Enzymes in PHB Homeostasis.",
+      "authorString": "Brigham CJ, Reimer EN, Rha C, Sinskey AJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Brigham CJ",
+            "firstName": "Christopher J",
+            "lastName": "Brigham",
+            "initials": "CJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA. asinskey@mit.edu."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Reimer EN",
+            "firstName": "Esther N",
+            "lastName": "Reimer",
+            "initials": "EN"
+          },
+          {
+            "fullName": "Rha C",
+            "firstName": "Chokyun",
+            "lastName": "Rha",
+            "initials": "C"
+          },
+          {
+            "fullName": "Sinskey AJ",
+            "firstName": "Anthony J",
+            "lastName": "Sinskey",
+            "initials": "AJ"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "2",
+        "journalIssueId": 1921634,
+        "dateOfPublication": "2012 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2012,
+        "printPublicationDate": "2012-04-01",
+        "journal": {
+          "title": "AMB Express",
+          "medlineAbbreviation": "AMB Express",
+          "isoabbreviation": "AMB Express",
+          "nlmid": "101561785",
+          "essn": "2191-0855",
+          "issn": "2191-0855"
+        }
+      },
+      "pubYear": "2012",
+      "pageInfo": "26",
+      "abstractText": "Polyhydroxyalkanoates (PHA) are biodegradable polymers that are attractive materials for use in tissue engineering and medical device manufacturing. Ralstonia eutropha is regarded as the model organism for PHA biosynthesis. We examined the effects of PHA depolymerase (PhaZ) expression on PHA homeostasis in R. eutropha strains. In order to analyze the impact of PhaZs on R. eutropha granule architecture, we performed electron microscopy on several phaZ knockout strains and the wild type strain grown under PHA production conditions. Analysis of the acquired micrographs was based on stereology: the ratio of granule area and cell area was determined, along with total granule count per full-size cell image. Cells bearing a phaZ2 knockout mutation alone or in conjunction with a phaZ1 mutation were found to have a high granule volume per cell volume and a higher granule count compared to wild type. A phaZ quadruple knockout strain appeared to have a low granule volume per cell volume and a low granule count per cell. Cells bearing a phaZ3 knockout were found to have a higher granule count than the wild type, whereas granule volume per cell volume was similar. Accordingly, we hypothesize that PhaZs have not only an impact on PHA degradation but also on the 3-dimensional granule architecture. Based on our data, PhaZ2 is postulated to affect granule density. This work increased our knowledge about PHA depolymerases in R. eutropha, including enzymes that had previously been uncharacterized.",
+      "affiliation": "Department of Biology, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA. asinskey@mit.edu.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1186/2191-0855-2-26"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1186/2191-0855-2-26"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC3430594"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC3430594?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 23,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "dateOfCompletion": "2012-10-02",
+      "dateOfCreation": "2012-04-28",
+      "firstIndexDate": "2012-04-28",
+      "fullTextReceivedDate": "2025-02-02",
+      "dateOfRevision": "2024-04-18",
+      "electronicPublicationDate": "2012-04-26",
+      "firstPublicationDate": "2012-04-26"
+    }
+  ]
+}

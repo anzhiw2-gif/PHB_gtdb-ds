@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "count": 20,
+    "db_response_time_ms": 20,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where title/abstract has (GTDB and mining)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "GTDB",
+            "operator": "has"
+          },
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "mining",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=title_and_abstract.search:GTDB,title_and_abstract.search:mining&per_page=10&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4311662444",
+      "display_name": "Mining of novel secondary metabolite biosynthetic gene clusters from acid mine drainage",
+      "publication_year": 2022,
+      "cited_by_count": 12,
+      "doi": "https://doi.org/10.1038/s41597-022-01866-6"
+    },
+    {
+      "id": "https://openalex.org/W265347085",
+      "display_name": "CSS Ground-Truth Database: Version 1 Handbook.",
+      "publication_year": 1993,
+      "cited_by_count": 7,
+      "doi": "https://doi.org/10.21236/ada294690"
+    },
+    {
+      "id": "https://openalex.org/W7154732606",
+      "display_name": "Mining of FDRs-carrying microbes involved in aflatoxin B1 degradation",
+      "publication_year": 2026,
+      "cited_by_count": 2,
+      "doi": "https://doi.org/10.1016/j.foodchem.2026.149316"
+    },
+    {
+      "id": "https://openalex.org/W1535761290",
+      "display_name": "The application of database technologies to the study of terrorism and counter-terrorism : a post 9/11 analysis",
+      "publication_year": 2012,
+      "cited_by_count": 2,
+      "doi": null
+    },
+    {
+      "id": "https://openalex.org/W7111007187",
+      "display_name": "GENOMIC ANALYSIS OF THE STREPTOMYCES SP. LV42-5 ISOLATED FROM INDUSTRIAL MINE DUMPS IN SHEPTYTSKYI",
+      "publication_year": 2025,
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.64898/2025.12.04.691995"
+    },
+    {
+      "id": "https://openalex.org/W7160987659",
+      "display_name": "Supplementary dara for \"Genome-inspired cultivation of bacteria from deep-sea sponge Geodia barretti\"",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.5281/zenodo.20155383"
+    },
+    {
+      "id": "https://openalex.org/W7134980206",
+      "display_name": "Metagenomic mining of microorganisms for polyhydroxyalkanoate (PHA) biosynthetic genes from marine sample of the Western Pacific Ocean",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.1007/s44289-026-00132-6"
+    },
+    {
+      "id": "https://openalex.org/W7170609799",
+      "display_name": "Structure-guided extremophile genome mining expands the PETase landscape and reveals PET-hydrolysing true lipase lineages",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.5281/zenodo.21527156"
+    },
+    {
+      "id": "https://openalex.org/W7163348687",
+      "display_name": "Structure-guided extremophile genome mining expands the PETase landscape and reveals PET-degrading true lipase lineages",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.5281/zenodo.20524881"
+    },
+    {
+      "id": "https://openalex.org/W7201861848",
+      "display_name": "Computational Approaches to Bacterial Phylogeny and Evolution of Secondary Metabolites",
+      "publication_year": 2026,
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.15496/publikation-123447"
+    }
+  ],
+  "group_by": []
+}

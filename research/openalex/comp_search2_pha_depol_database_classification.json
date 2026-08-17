@@ -1,0 +1,1079 @@
+﻿{
+  "meta": {
+    "count": 313,
+    "db_response_time_ms": 28,
+    "page": 1,
+    "per_page": 25,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where title/abstract has (\n    PHA depolymerase database\n    or classification\n    or family\n  )",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "join": "or",
+            "filters": [
+              {
+                "column_id": "title_and_abstract.search",
+                "value": "PHA depolymerase database",
+                "operator": "has"
+              },
+              {
+                "column_id": "title_and_abstract.search",
+                "value": "classification",
+                "operator": "has"
+              },
+              {
+                "column_id": "title_and_abstract.search",
+                "value": "family",
+                "operator": "has"
+              }
+            ]
+          }
+        ]
+      },
+      "url": "/works?filter=title_and_abstract.search:PHA depolymerase database|classification|family&per_page=25&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2164479864",
+      "display_name": "Microbial Degradation of Polyhydroxyalkanoates",
+      "publication_year": 2002,
+      "cited_by_count": 692,
+      "doi": "https://doi.org/10.1146/annurev.micro.56.012302.160838",
+      "primary_location": {
+        "id": "doi:10.1146/annurev.micro.56.012302.160838",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1146/annurev.micro.56.012302.160838",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S82779230",
+          "display_name": "Annual Review of Microbiology",
+          "issn_l": "0066-4227",
+          "issn": [
+            "0066-4227",
+            "1545-3251"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320373",
+          "host_organization_name": "Annual Reviews",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320373"
+          ],
+          "host_organization_lineage_names": [
+            "Annual Reviews"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Annual Review of Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W1991263269",
+      "display_name": "Enzymatic Surface Hydrolysis of PET: Effect of Structural Diversity on Kinetic Properties of Cutinases from Thermobifida",
+      "publication_year": 2011,
+      "cited_by_count": 430,
+      "doi": "https://doi.org/10.1021/ma200949p",
+      "primary_location": {
+        "id": "doi:10.1021/ma200949p",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1021/ma200949p",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S177196338",
+          "display_name": "Macromolecules",
+          "issn_l": "0024-9297",
+          "issn": [
+            "0024-9297",
+            "1520-5835"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320006",
+          "host_organization_name": "American Chemical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320006"
+          ],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Macromolecules",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W1988790904",
+      "display_name": "Biodegradation of polyhydroxyalkanoic acids",
+      "publication_year": 1996,
+      "cited_by_count": 400,
+      "doi": "https://doi.org/10.1007/s002530050844",
+      "primary_location": {
+        "id": "doi:10.1007/s002530050844",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/s002530050844",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S70979998",
+          "display_name": "Applied Microbiology and Biotechnology",
+          "issn_l": "0175-7598",
+          "issn": [
+            "0175-7598",
+            "1432-0614"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied Microbiology and Biotechnology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2023631098",
+      "display_name": "Review Degradation of microbial polyesters",
+      "publication_year": 2004,
+      "cited_by_count": 339,
+      "doi": "https://doi.org/10.1023/b:bile.0000036599.15302.e5",
+      "primary_location": {
+        "id": "doi:10.1023/b:bile.0000036599.15302.e5",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1023/b:bile.0000036599.15302.e5",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S113993733",
+          "display_name": "Biotechnology Letters",
+          "issn_l": "0141-5492",
+          "issn": [
+            "0141-5492",
+            "1573-6776"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Biotechnology Letters",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2071102287",
+      "display_name": "Microbial degradation of polyurethane, polyester polyurethanes and polyether polyurethanes",
+      "publication_year": 1999,
+      "cited_by_count": 282,
+      "doi": "https://doi.org/10.1007/s002530051373",
+      "primary_location": {
+        "id": "doi:10.1007/s002530051373",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/s002530051373",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S70979998",
+          "display_name": "Applied Microbiology and Biotechnology",
+          "issn_l": "0175-7598",
+          "issn": [
+            "0175-7598",
+            "1432-0614"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied Microbiology and Biotechnology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2112426955",
+      "display_name": "Metabolism of poly(3-hydroxyalkanoates) (PHAs) by Pseudomonas oleovorans. Identification and sequences of genes and function of the encoded proteins in the synthesis and degradation of PHA",
+      "publication_year": 1991,
+      "cited_by_count": 273,
+      "doi": "https://doi.org/10.1016/s0021-9258(18)52227-4",
+      "primary_location": {
+        "id": "doi:10.1016/s0021-9258(18)52227-4",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/s0021-9258(18)52227-4",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S140251998",
+          "display_name": "Journal of Biological Chemistry",
+          "issn_l": "0021-9258",
+          "issn": [
+            "0021-9258",
+            "1067-8816",
+            "1083-351X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Biological Chemistry",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2151467400",
+      "display_name": "Considerations on the structure and biochemistry of bacterial polyhydroxyalkanoic acid inclusions",
+      "publication_year": 1995,
+      "cited_by_count": 272,
+      "doi": "https://doi.org/10.1139/m95-175",
+      "primary_location": {
+        "id": "doi:10.1139/m95-175",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1139/m95-175",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S182870142",
+          "display_name": "Canadian Journal of Microbiology",
+          "issn_l": "0008-4166",
+          "issn": [
+            "0008-4166",
+            "1480-3275"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310312929",
+          "host_organization_name": "Canadian Science Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310312929"
+          ],
+          "host_organization_lineage_names": [
+            "Canadian Science Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Canadian Journal of Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2099720039",
+      "display_name": "Ecological and Agricultural Significance of Bacterial Polyhydroxyalkanoates",
+      "publication_year": 2005,
+      "cited_by_count": 259,
+      "doi": "https://doi.org/10.1080/10408410590899228",
+      "primary_location": {
+        "id": "doi:10.1080/10408410590899228",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/10408410590899228",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S6081579",
+          "display_name": "Critical Reviews in Microbiology",
+          "issn_l": "1040-841X",
+          "issn": [
+            "1040-841X",
+            "1549-7828"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Critical Reviews in Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W1549936434",
+      "display_name": "A holistic view of polyhydroxyalkanoate metabolism in <i>Pseudomonas putida</i>",
+      "publication_year": 2014,
+      "cited_by_count": 232,
+      "doi": "https://doi.org/10.1111/1462-2920.12760",
+      "primary_location": {
+        "id": "doi:10.1111/1462-2920.12760",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1111/1462-2920.12760",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1462-2920.12760",
+        "source": {
+          "id": "https://openalex.org/S6919857",
+          "display_name": "Environmental Microbiology",
+          "issn_l": "1462-2912",
+          "issn": [
+            "1462-2912",
+            "1462-2920"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Environmental Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2012524424",
+      "display_name": "Engineering Halomonas TD01 for the low-cost production of polyhydroxyalkanoates",
+      "publication_year": 2014,
+      "cited_by_count": 229,
+      "doi": "https://doi.org/10.1016/j.ymben.2014.09.001",
+      "primary_location": {
+        "id": "doi:10.1016/j.ymben.2014.09.001",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.ymben.2014.09.001",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S173328182",
+          "display_name": "Metabolic Engineering",
+          "issn_l": "1096-7176",
+          "issn": [
+            "1096-7176",
+            "1096-7184"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Metabolic Engineering",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2103967550",
+      "display_name": "Structural Effects on the Biodegradation of Aliphatic Polyesters",
+      "publication_year": 1997,
+      "cited_by_count": 226,
+      "doi": "https://doi.org/10.1002/(sici)1099-1581(199704)8:4<203::aid-pat627>3.0.co;2-3",
+      "primary_location": {
+        "id": "doi:10.1002/(sici)1099-1581(199704)8:4<203::aid-pat627>3.0.co;2-3",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1002/(sici)1099-1581(199704)8:4<203::aid-pat627>3.0.co;2-3",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S40708307",
+          "display_name": "Polymers for Advanced Technologies",
+          "issn_l": "1042-7147",
+          "issn": [
+            "1042-7147",
+            "1099-1581"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Polymers for Advanced Technologies",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2087453257",
+      "display_name": "Poly(3-hydroxybutyrate) Granule-Associated Proteins:\u2009 Impacts on Poly(3-hydroxybutyrate) Synthesis and Degradation",
+      "publication_year": 2005,
+      "cited_by_count": 226,
+      "doi": "https://doi.org/10.1021/bm049401n",
+      "primary_location": {
+        "id": "doi:10.1021/bm049401n",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1021/bm049401n",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S11629336",
+          "display_name": "Biomacromolecules",
+          "issn_l": "1525-7797",
+          "issn": [
+            "1525-7797",
+            "1526-4602"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320006",
+          "host_organization_name": "American Chemical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320006"
+          ],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Biomacromolecules",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2322628901",
+      "display_name": "Pyrosequencing Reveals the Key Microorganisms Involved in Sludge Alkaline Fermentation for Efficient Short-Chain Fatty Acids Production",
+      "publication_year": 2013,
+      "cited_by_count": 220,
+      "doi": "https://doi.org/10.1021/es400210v",
+      "primary_location": {
+        "id": "doi:10.1021/es400210v",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1021/es400210v",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S13479253",
+          "display_name": "Environmental Science & Technology",
+          "issn_l": "0013-936X",
+          "issn": [
+            "0013-936X",
+            "1520-5851"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320006",
+          "host_organization_name": "American Chemical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320006"
+          ],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Environmental Science &amp; Technology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2984610069",
+      "display_name": "Biochemical properties and biotechnological applications of microbial enzymes involved in the degradation of polyester-type plastics",
+      "publication_year": 2019,
+      "cited_by_count": 220,
+      "doi": "https://doi.org/10.1016/j.bbapap.2019.140315",
+      "primary_location": {
+        "id": "doi:10.1016/j.bbapap.2019.140315",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.bbapap.2019.140315",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210222880",
+          "display_name": "Biochimica et Biophysica Acta (BBA) - Proteins and Proteomics",
+          "issn_l": "1570-9639",
+          "issn": [
+            "1570-9639",
+            "1878-1454"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Biochimica et Biophysica Acta (BBA) - Proteins and Proteomics",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W1592377749",
+      "display_name": "Cloning and Molecular Analysis of the Poly(3-hydroxybutyrate) and Poly(3-hydroxybutyrate-<i>co</i>-3-hydroxyalkanoate) Biosynthesis Genes in<i>Pseudomonas</i>sp. Strain 61-3",
+      "publication_year": 1998,
+      "cited_by_count": 214,
+      "doi": "https://doi.org/10.1128/jb.180.24.6459-6467.1998",
+      "primary_location": {
+        "id": "doi:10.1128/jb.180.24.6459-6467.1998",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1128/jb.180.24.6459-6467.1998",
+        "pdf_url": "https://jb.asm.org/content/jb/180/24/6459.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S133274750",
+          "display_name": "Journal of Bacteriology",
+          "issn_l": "0021-9193",
+          "issn": [
+            "0021-9193",
+            "1067-8832",
+            "1098-5530"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320263",
+          "host_organization_name": "American Society for Microbiology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320263"
+          ],
+          "host_organization_lineage_names": [
+            "American Society for Microbiology"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Bacteriology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2970658357",
+      "display_name": "Metabolic engineering of <i>Pseudomonas putida</i> for increased polyhydroxyalkanoate production from lignin",
+      "publication_year": 2019,
+      "cited_by_count": 210,
+      "doi": "https://doi.org/10.1111/1751-7915.13481",
+      "primary_location": {
+        "id": "doi:10.1111/1751-7915.13481",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1111/1751-7915.13481",
+        "pdf_url": "https://sfamjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1751-7915.13481",
+        "source": {
+          "id": "https://openalex.org/S4210238104",
+          "display_name": "Microbial Biotechnology",
+          "issn_l": "1751-7915",
+          "issn": [
+            "1751-7915",
+            "1751-7907"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Microbial Biotechnology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2069269321",
+      "display_name": "Development of Halomonas TD01 as a host for open production of chemicals",
+      "publication_year": 2014,
+      "cited_by_count": 201,
+      "doi": "https://doi.org/10.1016/j.ymben.2014.02.006",
+      "primary_location": {
+        "id": "doi:10.1016/j.ymben.2014.02.006",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.ymben.2014.02.006",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S173328182",
+          "display_name": "Metabolic Engineering",
+          "issn_l": "1096-7176",
+          "issn": [
+            "1096-7176",
+            "1096-7184"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Metabolic Engineering",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W1961349266",
+      "display_name": "Biosynthesis, modification, and biodegradation of bacterial medium-chain-length polyhydroxyalkanoates.",
+      "publication_year": 2007,
+      "cited_by_count": 198,
+      "doi": null,
+      "primary_location": {
+        "id": "pmid:17483792",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/17483792",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of microbiology (Seoul, Korea)",
+        "raw_type": null
+      }
+    },
+    {
+      "id": "https://openalex.org/W2026827392",
+      "display_name": "Degradation of poly(3-hydroxybutyrate), PHB, by bacteria and purification of a novel PHB depolymerase fromComamonas sp.",
+      "publication_year": 1993,
+      "cited_by_count": 188,
+      "doi": "https://doi.org/10.1007/bf01457653",
+      "primary_location": {
+        "id": "doi:10.1007/bf01457653",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/bf01457653",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S193665811",
+          "display_name": "Journal of Polymers and the Environment",
+          "issn_l": "1064-7546",
+          "issn": [
+            "1064-7546",
+            "1064-7564",
+            "1566-2543",
+            "1572-8900",
+            "1572-8919"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Environmental Polymer Degradation",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W1991881423",
+      "display_name": "Short-chain fatty acids and poly-\u03b2-hydroxyalkanoates: (New) Biocontrol agents for a sustainable animal production",
+      "publication_year": 2009,
+      "cited_by_count": 169,
+      "doi": "https://doi.org/10.1016/j.biotechadv.2009.04.026",
+      "primary_location": {
+        "id": "doi:10.1016/j.biotechadv.2009.04.026",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.biotechadv.2009.04.026",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S160877137",
+          "display_name": "Biotechnology Advances",
+          "issn_l": "0734-9750",
+          "issn": [
+            "0734-9750",
+            "1873-1899"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Biotechnology Advances",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2136125107",
+      "display_name": "Polyhydroxyalkanoate (PHA) homeostasis: the role of the PHA synthase",
+      "publication_year": 2003,
+      "cited_by_count": 168,
+      "doi": "https://doi.org/10.1039/b209687k",
+      "primary_location": {
+        "id": "doi:10.1039/b209687k",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1039/b209687k",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S18855311",
+          "display_name": "Natural Product Reports",
+          "issn_l": "0265-0568",
+          "issn": [
+            "0265-0568",
+            "1460-4752"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320556",
+          "host_organization_name": "Royal Society of Chemistry",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320556"
+          ],
+          "host_organization_lineage_names": [
+            "Royal Society of Chemistry"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Natural Product Reports",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2131164625",
+      "display_name": "The PHA Depolymerase Engineering Database: A systematic analysis tool for the diverse family of polyhydroxyalkanoate (PHA) depolymerases",
+      "publication_year": 2009,
+      "cited_by_count": 162,
+      "doi": "https://doi.org/10.1186/1471-2105-10-89",
+      "primary_location": {
+        "id": "doi:10.1186/1471-2105-10-89",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1186/1471-2105-10-89",
+        "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-10-89",
+        "source": {
+          "id": "https://openalex.org/S19032547",
+          "display_name": "BMC Bioinformatics",
+          "issn_l": "1471-2105",
+          "issn": [
+            "1471-2105"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320256",
+          "host_organization_name": "BioMed Central",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320256",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "BioMed Central",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "BMC Bioinformatics",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W1517697544",
+      "display_name": "Substrate specificities of bacterial polyhydroxyalkanoate depolymerases and lipases: bacterial lipases hydrolyze poly(omega-hydroxyalkanoates)",
+      "publication_year": 1995,
+      "cited_by_count": 156,
+      "doi": "https://doi.org/10.1128/aem.61.8.3113-3118.1995",
+      "primary_location": {
+        "id": "doi:10.1128/aem.61.8.3113-3118.1995",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1128/aem.61.8.3113-3118.1995",
+        "pdf_url": "https://aem.asm.org/content/aem/61/8/3113.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S158228368",
+          "display_name": "Applied and Environmental Microbiology",
+          "issn_l": "0099-2240",
+          "issn": [
+            "0099-2240",
+            "1070-6291",
+            "1098-5336"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320263",
+          "host_organization_name": "American Society for Microbiology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320263"
+          ],
+          "host_organization_lineage_names": [
+            "American Society for Microbiology"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied and Environmental Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W1774224550",
+      "display_name": "Degradation of poly(3-hydroxyoctanoic acid) [P(3HO)] by bacteria: purification and properties of a P(3HO) depolymerase from Pseudomonas fluorescens GK13",
+      "publication_year": 1993,
+      "cited_by_count": 155,
+      "doi": "https://doi.org/10.1128/aem.59.4.1220-1227.1993",
+      "primary_location": {
+        "id": "doi:10.1128/aem.59.4.1220-1227.1993",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1128/aem.59.4.1220-1227.1993",
+        "pdf_url": "https://aem.asm.org/content/aem/59/4/1220.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S158228368",
+          "display_name": "Applied and Environmental Microbiology",
+          "issn_l": "0099-2240",
+          "issn": [
+            "0099-2240",
+            "1070-6291",
+            "1098-5336"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320263",
+          "host_organization_name": "American Society for Microbiology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320263"
+          ],
+          "host_organization_lineage_names": [
+            "American Society for Microbiology"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied and Environmental Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2077037429",
+      "display_name": "A New Type of Thermoalkalophilic Hydrolase of Paucimonas lemoignei with High Specificity for Amorphous Polyesters of Short Chain-length Hydroxyalkanoic Acids",
+      "publication_year": 2001,
+      "cited_by_count": 147,
+      "doi": "https://doi.org/10.1074/jbc.m101106200",
+      "primary_location": {
+        "id": "doi:10.1074/jbc.m101106200",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1074/jbc.m101106200",
+        "pdf_url": "http://www.jbc.org/article/S0021925820866915/pdf",
+        "source": {
+          "id": "https://openalex.org/S140251998",
+          "display_name": "Journal of Biological Chemistry",
+          "issn_l": "0021-9258",
+          "issn": [
+            "0021-9258",
+            "1067-8816",
+            "1083-351X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Biological Chemistry",
+        "raw_type": "journal-article"
+      }
+    }
+  ],
+  "group_by": []
+}

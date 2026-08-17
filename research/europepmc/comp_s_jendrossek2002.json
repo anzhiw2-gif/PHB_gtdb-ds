@@ -1,0 +1,1474 @@
+{
+  "hitCount": 4,
+  "nextCursorMark": "",
+  "results": [
+    {
+      "id": "32191752",
+      "source": "MED",
+      "pmid": "32191752",
+      "pmcid": "PMC7082031",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC7082031"
+        ]
+      },
+      "doi": "10.1371/journal.pone.0230443",
+      "title": "Response surface method for polyhydroxybutyrate (PHB) bioplastic accumulation in Bacillus drentensis BP17 using pineapple peel.",
+      "authorString": "Penkhrue W, Jendrossek D, Khanongnuch C, Pathom-Aree W, Aizawa T, Behrens RL, Lumyong S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Penkhrue W",
+            "firstName": "Watsana",
+            "lastName": "Penkhrue",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Center of Excellence in Microbial Diversity and Sustainable Utilization, Department of Biology, Faculty of Science, Chiang Mai University, Chiang Mai, Thailand."
+                },
+                {
+                  "affiliation": "School of Preclinic, Institute of Science, Suranaree University of Technology, Nakhon Ratchasima, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jendrossek D",
+            "firstName": "Dieter",
+            "lastName": "Jendrossek",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3391-0425"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Microbiology, University of Stuttgart, Stuttgart, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Khanongnuch C",
+            "firstName": "Chartchai",
+            "lastName": "Khanongnuch",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biotechnology, Faculty of Agro-Industry, Chiang Mai University, Chiang Mai, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pathom-Aree W",
+            "firstName": "Wasu",
+            "lastName": "Pathom-Aree",
+            "initials": "W",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0299-3731"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Center of Excellence in Microbial Diversity and Sustainable Utilization, Department of Biology, Faculty of Science, Chiang Mai University, Chiang Mai, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aizawa T",
+            "firstName": "Tomoyasu",
+            "lastName": "Aizawa",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9134-7576"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Advanced Life Science, Hokkaido University, Sapporo, Japan."
+                },
+                {
+                  "affiliation": "Global Institution for Collaborative Research and Education, Hokkaido University, Sapporo, Japan."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Behrens RL",
+            "firstName": "Rachel L",
+            "lastName": "Behrens",
+            "initials": "RL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Polymer Facility Technical Director, UCSB, MRL, Santa Barbara, CA, United States of America."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lumyong S",
+            "firstName": "S",
+            "lastName": "Lumyong",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6485-414X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Center of Excellence in Microbial Diversity and Sustainable Utilization, Department of Biology, Faculty of Science, Chiang Mai University, Chiang Mai, Thailand."
+                },
+                {
+                  "affiliation": "Academy of Science, The Royal Society of Thailand, Bangkok, Thailand."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9134-7576"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6485-414X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0299-3731"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3391-0425"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "3",
+        "volume": "15",
+        "journalIssueId": 2918449,
+        "dateOfPublication": "2020 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2020,
+        "printPublicationDate": "2020-01-01",
+        "journal": {
+          "title": "PloS one",
+          "medlineAbbreviation": "PLoS One",
+          "isoabbreviation": "PLoS One",
+          "nlmid": "101285081",
+          "essn": "1932-6203",
+          "issn": "1932-6203"
+        }
+      },
+      "pubYear": "2020",
+      "pageInfo": "e0230443",
+      "abstractText": "Polyhydroxybutyrate (PHB) is a biodegradable biopolymer which is useful for various applications including packing, medical and coating materials. An endospore-forming bacterium (strain BP17) was isolated from composted soil and evaluated for PHB production. Strain BP17, taxonomically identified as Bacillus drentensis, showed enhanced PHB accumulation and was selected for further studies. To achieve maximum PHB production, the culture conditions for B. drentensis BP17 were optimized through response surface methodology (RSM) employing central composite rotatable design (CCRD). The final optimum fermentation conditions included: pineapple peel solution, 11.5% (v/v); tryptic soy broth (TSB), 60 g/L; pH, 6.0; inoculum size, 10% (v/v) and temperature, 28\u00b0C for 36 h. This optimization yielded 5.55 g/L of PHB compared to the non-optimized condition (0.17 g/L). PHB accumulated by B. drentensis BP17 had a polydispersity value of 1.59 and an average molecular weight of 1.15x105 Da. Thermal analyses revealed that PHB existed as a thermally stable semi-crystalline polymer, exhibiting a thermal degradation temperature of 228\u00b0C, a melting temperature of 172\u00b0C and an apparent melting enthalpy of fusion of 83.69 J/g. It is evident that B. drentensis strain BP17 is a promising bacterium candidate for PHB production using agricultural waste, such as pineapple peel as a low-cost alternative carbon source for PHB production.",
+      "affiliation": "Research Center of Excellence in Microbial Diversity and Sustainable Utilization, Department of Biology, Faculty of Science, Chiang Mai University, Chiang Mai, Thailand.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "DMR 1720256",
+            "agency": "MRSEC Program of the NSF",
+            "orderIn": 0
+          },
+          {
+            "grantId": "PHD/0142/2553",
+            "agency": "Royal Golden Jubilee Ph. D. Program",
+            "orderIn": 0
+          },
+          {
+            "grantId": "BDC-PG2-159012",
+            "agency": "Center of Excellence on Biodiversity",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Bacillus",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CY",
+                  "qualifierName": "cytology",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                },
+                {
+                  "abbreviation": "UL",
+                  "qualifierName": "ultrastructure",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Ananas",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hydroxybutyrates",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plastics",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "RNA, Ribosomal, 16S",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Analysis of Variance"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Waste Products"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phylogeny"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Transition Temperature"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Time Factors"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Proton Magnetic Resonance Spectroscopy"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Plastics",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Hydroxybutyrates",
+            "registryNumber": "0"
+          },
+          {
+            "name": "RNA, Ribosomal, 16S",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Waste Products",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1371/journal.pone.0230443"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC7082031"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC7082031?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 41,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc0",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "dateOfCompletion": "2020-06-23",
+      "dateOfCreation": "2020-03-20",
+      "firstIndexDate": "2020-03-20",
+      "fullTextReceivedDate": "2025-02-05",
+      "dateOfRevision": "2024-03-28",
+      "electronicPublicationDate": "2020-03-19",
+      "firstPublicationDate": "2020-03-19"
+    },
+    {
+      "id": "29851965",
+      "source": "MED",
+      "pmid": "29851965",
+      "pmcid": "PMC5979037",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5979037"
+        ]
+      },
+      "doi": "10.1371/journal.pone.0197448",
+      "title": "Metabolic and taxonomic insights into the Gram-negative natural rubber degrading bacterium Steroidobacter cummioxidans sp. nov., strain 35Y.",
+      "authorString": "Sharma V, Siedenburg G, Birke J, Mobeen F, Jendrossek D, Prakash T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sharma V",
+            "firstName": "Vikas",
+            "lastName": "Sharma",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1095-4030"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology (IIT) Mandi, Mandi, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Siedenburg G",
+            "firstName": "Gabriele",
+            "lastName": "Siedenburg",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Microbiology, University of Stuttgart, Stuttgart, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Birke J",
+            "firstName": "Jakob",
+            "lastName": "Birke",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Microbiology, University of Stuttgart, Stuttgart, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mobeen F",
+            "firstName": "Fauzul",
+            "lastName": "Mobeen",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology (IIT) Mandi, Mandi, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jendrossek D",
+            "firstName": "Dieter",
+            "lastName": "Jendrossek",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3391-0425"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Microbiology, University of Stuttgart, Stuttgart, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Prakash T",
+            "firstName": "Tulika",
+            "lastName": "Prakash",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9270-8775"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology (IIT) Mandi, Mandi, India."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9270-8775"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1095-4030"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3391-0425"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data",
+          "related_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "5",
+        "volume": "13",
+        "journalIssueId": 2678126,
+        "dateOfPublication": "2018 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2018,
+        "printPublicationDate": "2018-01-01",
+        "journal": {
+          "title": "PloS one",
+          "medlineAbbreviation": "PLoS One",
+          "isoabbreviation": "PLoS One",
+          "nlmid": "101285081",
+          "essn": "1932-6203",
+          "issn": "1932-6203"
+        }
+      },
+      "pubYear": "2018",
+      "pageInfo": "e0197448",
+      "abstractText": "The pathway of rubber (poly [cis-1,4-isoprene]) catabolism is well documented for Gram-positive rubber degraders but only little information exists for Gram-negative species. The first documented potent rubber degrading Gram-negative strain is Xanthomonas sp. strain 35Y that uses extracellular rubber oxygenases for the initial cleavage of the polyisoprene molecule. However, neither the exact phylogenetic position of Xanthomonas sp. strain 35Y nor the catabolic pathway of the primary polyisoprene cleavage products have been investigated. In this contribution, we started to address both these issues by a comprehensive taxonomic characterization and by the analysis of the draft genome sequence of strain 35Y. Evaluation of the 16S rRNA gene sequence pointed to a borderline taxonomic position of strain 35Y as a novel species of the genus Steroidobacter. Further, substantial differences in the genotypic properties of strain 35Y and the members of the genus Steroidobacter, including average nucleotide identity (ANI) and in silico DNA-DNA hybridization (DDH), resolved the taxonomic position of strain 35Y and suggested its positioning as a novel species of the genus Steroidobacter. This was further confirmed by comparative analysis of physiological and biochemical features of strain 35Y with other members of the genus Steroidobacter. Thus, we conclude that strain 35Y represents a novel species of the genus Steroidobacter, for which we propose the designation Steroidobacter cummioxidans sp. nov., strain 35YT. A comprehensive analysis of the draft genome of S. cummioxidans strain 35Y revealed similarities but also substantial differences to rubber degrading Gram-positive counterparts. In particular, the putative transporters for the uptake of polyisoprene cleavage products differ from Gram-positive rubber degrading species. The draft genome sequence of S. cummioxidans strain 35Y will be useful for researchers to experimentally verify the predicted similarities and differences in the pathways of polyisoprene catabolism in Gram-positive and Gram-negative rubber degrading species.",
+      "affiliation": "School of Basic Sciences, Indian Institute of Technology (IIT) Mandi, Mandi, India.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "Je 152/17-1",
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "orderIn": 0
+          },
+          {
+            "agency": "Ministry of Human Resource Development",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gram-Negative Bacteria",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CL",
+                  "qualifierName": "classification",
+                  "majorTopic_YN": "Y"
+                },
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gammaproteobacteria",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CL",
+                  "qualifierName": "classification",
+                  "majorTopic_YN": "Y"
+                },
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Pentanes"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Butadienes"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hemiterpenes"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Rubber",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Oxygenases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "RNA, Ribosomal, 16S",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phylogeny"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Base Sequence"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Oxidation-Reduction"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Genome, Bacterial"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Multigene Family"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biodegradation, Environmental"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biosynthetic Pathways"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Secondary Metabolism"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Rubber",
+            "registryNumber": "9006-04-6"
+          },
+          {
+            "name": "Butadienes",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Pentanes",
+            "registryNumber": "0"
+          },
+          {
+            "name": "RNA, Ribosomal, 16S",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Hemiterpenes",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Oxygenases",
+            "registryNumber": "EC 1.13.-"
+          },
+          {
+            "name": "isoprene",
+            "registryNumber": "0A62964IBU"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1371/journal.pone.0197448"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5979037"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5979037?pdf=render"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "id": "29985947",
+            "source": "MED",
+            "reference": "PLoS One. 2018 Jul 9;13(7):e0200399. doi: 10.1371/journal.pone.0200399",
+            "type": "Erratum in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 28,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "refseq"
+        ]
+      },
+      "dateOfCompletion": "2018-11-27",
+      "dateOfCreation": "2018-06-01",
+      "firstIndexDate": "2018-06-01",
+      "fullTextReceivedDate": "2025-02-05",
+      "dateOfRevision": "2024-03-26",
+      "electronicPublicationDate": "2018-05-31",
+      "firstPublicationDate": "2018-05-31"
+    },
+    {
+      "id": "27215318",
+      "source": "MED",
+      "pmid": "27215318",
+      "pmcid": "PMC4877957",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4877957"
+        ]
+      },
+      "doi": "10.1186/s12866-016-0703-x",
+      "title": "Biochemical and spectroscopic characterization of purified Latex Clearing Protein (Lcp) from newly isolated rubber degrading Rhodococcus rhodochrous strain RPK1 reveals novel properties of Lcp.",
+      "authorString": "Watcharakul S, R\u00f6ther W, Birke J, Umsakul K, Hodgson B, Jendrossek D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Watcharakul S",
+            "firstName": "Sirimaporn",
+            "lastName": "Watcharakul",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Microbiology, University of Stuttgart, Allmandring 31, 70569, Stuttgart, Germany."
+                },
+                {
+                  "affiliation": "Prince of Songkla University, Songkla, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "R\u00f6ther W",
+            "firstName": "Wolf",
+            "lastName": "R\u00f6ther",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Microbiology, University of Stuttgart, Allmandring 31, 70569, Stuttgart, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Birke J",
+            "firstName": "Jakob",
+            "lastName": "Birke",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Microbiology, University of Stuttgart, Allmandring 31, 70569, Stuttgart, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Umsakul K",
+            "firstName": "Kamontam",
+            "lastName": "Umsakul",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Prince of Songkla University, Songkla, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hodgson B",
+            "firstName": "Brian",
+            "lastName": "Hodgson",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Prince of Songkla University, Songkla, Thailand."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jendrossek D",
+            "firstName": "Dieter",
+            "lastName": "Jendrossek",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3391-0425"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Microbiology, University of Stuttgart, Allmandring 31, 70569, Stuttgart, Germany. dieter.jendrossek@imb.uni-stuttgart.de."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3391-0425"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "16",
+        "journalIssueId": 2477621,
+        "dateOfPublication": "2016 May",
+        "monthOfPublication": 5,
+        "yearOfPublication": 2016,
+        "printPublicationDate": "2016-05-01",
+        "journal": {
+          "title": "BMC microbiology",
+          "medlineAbbreviation": "BMC Microbiol",
+          "isoabbreviation": "BMC Microbiol",
+          "nlmid": "100966981",
+          "essn": "1471-2180",
+          "issn": "1471-2180"
+        }
+      },
+      "pubYear": "2016",
+      "pageInfo": "92",
+      "abstractText": "<h4>Background</h4>Biodegradation of rubber (polyisoprene) is initiated by oxidative cleavage of the polyisoprene backbone and is performed either by an extracellular rubber oxygenase (RoxA) from Gram-negative rubber degrading bacteria or by a latex clearing protein (Lcp) secreted by Gram-positive rubber degrading bacteria. Only little is known on the biochemistry of polyisoprene cleavage by Lcp and on the types and functions of the involved cofactors.<h4>Results</h4>A rubber-degrading bacterium was isolated from the effluent of a rubber-processing factory and was taxonomically identified as a Rhodococcus rhodochrous species. A gene of R. rhodochrous RPK1 that coded for a polyisoprene-cleaving latex clearing protein (lcp Rr ) was identified, cloned, expressed in Escherichia coli and purified. Purified LcpRr had a specific activity of 3.1 U/mg at 30 \u00b0C and degraded poly(1,4-cis-isoprene) to a mixture of oligoisoprene molecules with terminal keto and aldehyde groups. The pH optimum of LcpRr was higher (pH 8) than for other rubber-cleaving enzymes (\u2248 pH 7). UVvis spectroscopic analysis of LcpRr revealed a cytochrome-specific absorption spectrum with an additional feature at long wavelengths that has not been observed for any other rubber-cleaving enzyme. The presence of one b-type haem in LcpRr as a co-factor was confirmed by (i) metal analysis, (ii) solvent extraction, (iii) bipyridyl assay and (iv) detection of haem-b specific m/z values via mass-spectrometry.<h4>Conclusions</h4>Our data point to substantial differences in the active sites of Lcp proteins obtained from different rubber degrading bacteria.",
+      "affiliation": "Institute of Microbiology, University of Stuttgart, Allmandring 31, 70569, Stuttgart, Germany.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Strategic Scholarships Fellowships Frontier Research Networks, Thailand",
+            "orderIn": 0
+          },
+          {
+            "grantId": "Je 152",
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Rhodococcus",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CL",
+                  "qualifierName": "classification",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "GD",
+                  "qualifierName": "growth & development",
+                  "majorTopic_YN": "Y"
+                },
+                {
+                  "abbreviation": "IP",
+                  "qualifierName": "isolation & purification",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Rubber",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Bacterial Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "Y"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                },
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Industrial Waste"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cloning, Molecular"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Industrial Microbiology"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Catalytic Domain"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Mass Spectrometry"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biodegradation, Environmental"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Biodegradation",
+          "Rhodococcus",
+          "Dioxygenase",
+          "Latex Clearing Protein (Lcp)",
+          "Rubber Oxygenase"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Rubber",
+            "registryNumber": "9006-04-6"
+          },
+          {
+            "name": "Bacterial Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Industrial Waste",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1186/s12866-016-0703-x"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4877957"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4877957?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 38,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "dateOfCompletion": "2016-12-13",
+      "dateOfCreation": "2016-05-25",
+      "firstIndexDate": "2016-05-25",
+      "fullTextReceivedDate": "2020-07-12",
+      "dateOfRevision": "2018-11-13",
+      "electronicPublicationDate": "2016-05-23",
+      "firstPublicationDate": "2016-05-23"
+    },
+    {
+      "id": "23157596",
+      "source": "MED",
+      "pmid": "23157596",
+      "pmcid": "PMC3556143",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC3556143"
+        ]
+      },
+      "doi": "10.1186/1471-2180-12-262",
+      "title": "PHB granules are attached to the nucleoid via PhaM in Ralstonia eutropha.",
+      "authorString": "Wahl A, Schuth N, Pfeiffer D, Nussberger S, Jendrossek D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wahl A",
+            "firstName": "Andreas",
+            "lastName": "Wahl",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Microbiology, University of Stuttgart, Allmandring 31, Stuttgart 70550, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schuth N",
+            "firstName": "Nora",
+            "lastName": "Schuth",
+            "initials": "N"
+          },
+          {
+            "fullName": "Pfeiffer D",
+            "firstName": "Daniel",
+            "lastName": "Pfeiffer",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1401-533X"
+            }
+          },
+          {
+            "fullName": "Nussberger S",
+            "firstName": "Stephan",
+            "lastName": "Nussberger",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3619-4452"
+            }
+          },
+          {
+            "fullName": "Jendrossek D",
+            "firstName": "Dieter",
+            "lastName": "Jendrossek",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3391-0425"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1401-533X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3391-0425"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3619-4452"
+          }
+        ]
+      },
+      "journalInfo": {
+        "volume": "12",
+        "journalIssueId": 2471653,
+        "dateOfPublication": "2012 Nov",
+        "monthOfPublication": 11,
+        "yearOfPublication": 2012,
+        "printPublicationDate": "2012-11-01",
+        "journal": {
+          "title": "BMC microbiology",
+          "medlineAbbreviation": "BMC Microbiol",
+          "isoabbreviation": "BMC Microbiol",
+          "nlmid": "100966981",
+          "essn": "1471-2180",
+          "issn": "1471-2180"
+        }
+      },
+      "pubYear": "2012",
+      "pageInfo": "262",
+      "abstractText": "<h4>Background</h4>Poly(3-hydroxybutyrate) (PHB) granules are important storage compounds of carbon and energy in many prokaryotes which allow survival of the cells in the absence of suitable carbon sources. Formation and subcellular localization of PHB granules was previously assumed to occur randomly in the cytoplasm of PHB accumulating bacteria. However, contradictionary results on subcellular localization of PHB granules in Ralstonia eutropha were published, recently.<h4>Results</h4>Here, we provide evidence by transmission electron microscopy that PHB granules are localized in close contact to the nucleoid region in R. eutropha during growth on nutrient broth. Binding of PHB granules to the nucleoid is mediated by PhaM, a PHB granule associated protein with phasin-like properties that is also able to bind to DNA and to phasin PhaP5. Over-expression of PhaM resulted in formation of many small PHB granules that were always attached to the nucleoid region. In contrast, PHB granules of \u2206phaM strains became very large and distribution of granules to daughter cells was impaired. Association of PHB granules to the nucleoid region was prevented by over-expression of PhaP5 and clusters of several PHB granules were mainly localized near the cell poles.<h4>Conclusion</h4>Subcellular localization of PHB granules is controlled in R. eutropha and depends on the presence and concentrations of at least two PHB granule associated proteins, PhaM and PhaP5.",
+      "affiliation": "Institute of Microbiology, University of Stuttgart, Allmandring 31, Stuttgart 70550, Germany.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Chromosomes, Bacterial",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hydroxybutyrates",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Polyesters",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Bacterial Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "DNA-Binding Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Microscopy, Electron, Transmission"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gene Deletion"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cupriavidus necator",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                },
+                {
+                  "abbreviation": "UL",
+                  "qualifierName": "ultrastructure",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Polyhydroxybutyrates"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "poly-beta-hydroxybutyrate",
+            "registryNumber": "26063-00-3"
+          },
+          {
+            "name": "Hydroxybutyrates",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Bacterial Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Polyesters",
+            "registryNumber": "0"
+          },
+          {
+            "name": "DNA-Binding Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Polyhydroxybutyrates",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1186/1471-2180-12-262"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC3556143"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC3556143?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 62,
+      "hasData": "N",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2013-06-10",
+      "dateOfCreation": "2012-11-20",
+      "firstIndexDate": "2012-11-21",
+      "fullTextReceivedDate": "2020-07-09",
+      "dateOfRevision": "2026-01-28",
+      "electronicPublicationDate": "2012-11-16",
+      "firstPublicationDate": "2012-11-16"
+    }
+  ]
+}

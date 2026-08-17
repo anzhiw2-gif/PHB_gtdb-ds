@@ -1,0 +1,1203 @@
+﻿{
+  "id": "https://openalex.org/W1783521931",
+  "display_name": "Biochemical and molecular characterization of the Pseudomonas lemoignei polyhydroxyalkanoate depolymerase system",
+  "publication_year": 1995,
+  "cited_by_count": 140,
+  "doi": "https://doi.org/10.1128/jb.177.3.596-607.1995",
+  "primary_location": {
+    "id": "doi:10.1128/jb.177.3.596-607.1995",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1128/jb.177.3.596-607.1995",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S133274750",
+      "display_name": "Journal of Bacteriology",
+      "issn_l": "0021-9193",
+      "issn": [
+        "0021-9193",
+        "1067-8832",
+        "1098-5530"
+      ],
+      "is_oa": false,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320263",
+      "host_organization_name": "American Society for Microbiology",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320263"
+      ],
+      "host_organization_lineage_names": [
+        "American Society for Microbiology"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Bacteriology",
+    "raw_type": "journal-article"
+  },
+  "abstract_inverted_index": {
+    "Pseudomonas": [
+      0,
+      232
+    ],
+    "lemoignei": [
+      1,
+      222,
+      456
+    ],
+    "has": [
+      2
+    ],
+    "five": [
+      3,
+      35,
+      217,
+      527
+    ],
+    "different": [
+      4
+    ],
+    "polyhydroxyalkanoate": [
+      5
+    ],
+    "(PHA)": [
+      6
+    ],
+    "depolymerase": [
+      7,
+      29,
+      69,
+      131,
+      141,
+      205,
+      533
+    ],
+    "genes": [
+      8,
+      36
+    ],
+    "(phaZ1": [
+      9,
+      37
+    ],
+    "to": [
+      10,
+      38,
+      98,
+      114,
+      185,
+      238,
+      240,
+      314,
+      417,
+      430,
+      516,
+      539
+    ],
+    "phaZ5),": [
+      11
+    ],
+    "which": [
+      12,
+      106,
+      274
+    ],
+    "encode": [
+      13
+    ],
+    "the": [
+      14,
+      34,
+      127,
+      147,
+      186,
+      200,
+      216,
+      225,
+      277,
+      284,
+      297,
+      305,
+      328,
+      333,
+      348,
+      361,
+      380,
+      386,
+      402,
+      408,
+      462,
+      466,
+      472,
+      485,
+      488,
+      512,
+      531,
+      546,
+      565
+    ],
+    "extracellularly": [
+      15
+    ],
+    "localized": [
+      16
+    ],
+    "poly(3-hydroxybutyrate)": [
+      17
+    ],
+    "(PHB)": [
+      18
+    ],
+    "depolymerases": [
+      19,
+      219,
+      227,
+      335,
+      368,
+      388,
+      410,
+      493,
+      513
+    ],
+    "C,": [
+      20
+    ],
+    "B,": [
+      21
+    ],
+    "and": [
+      22,
+      27,
+      43,
+      57,
+      96,
+      125,
+      146,
+      161,
+      223,
+      231,
+      243,
+      290,
+      292,
+      324,
+      332,
+      339,
+      392,
+      395,
+      399,
+      401,
+      412,
+      421,
+      439,
+      450,
+      457,
+      478,
+      487,
+      501,
+      506,
+      537,
+      542,
+      561
+    ],
+    "D,": [
+      23
+    ],
+    "poly(3-hydroxyvalerate)": [
+      24
+    ],
+    "(PHV)": [
+      25
+    ],
+    "depolymerase,": [
+      26
+    ],
+    "PHB": [
+      28,
+      130,
+      226,
+      334,
+      381,
+      387,
+      434,
+      495,
+      551
+    ],
+    "A,": [
+      30
+    ],
+    "respectively.": [
+      31
+    ],
+    "Four": [
+      32
+    ],
+    "of": [
+      33,
+      45,
+      77,
+      89,
+      117,
+      129,
+      150,
+      175,
+      192,
+      202,
+      212,
+      215,
+      220,
+      224,
+      228,
+      236,
+      256,
+      276,
+      280,
+      300,
+      304,
+      327,
+      336,
+      353,
+      360,
+      373,
+      389,
+      425,
+      465,
+      511,
+      522,
+      545,
+      567
+    ],
+    "phaZ4)": [
+      39
+    ],
+    "have": [
+      40,
+      252
+    ],
+    "been": [
+      41
+    ],
+    "cloned,": [
+      42
+    ],
+    "one": [
+      44
+    ],
+    "them": [
+      46
+    ],
+    "(phaZ1)": [
+      47
+    ],
+    "was": [
+      48,
+      72,
+      94,
+      144,
+      155,
+      197,
+      415,
+      514,
+      549,
+      553,
+      562
+    ],
+    "studied": [
+      49
+    ],
+    "in": [
+      50,
+      320,
+      366,
+      385,
+      396,
+      407,
+      468,
+      475
+    ],
+    "detail": [
+      51
+    ],
+    "earlier": [
+      52
+    ],
+    "(D.": [
+      53
+    ],
+    "Jendrossek,": [
+      54
+    ],
+    "B.": [
+      55
+    ],
+    "M\u00fcller,": [
+      56
+    ],
+    "H.": [
+      58
+    ],
+    "G.": [
+      59
+    ],
+    "Schlegel,": [
+      60
+    ],
+    "Eur.": [
+      61
+    ],
+    "J.": [
+      62
+    ],
+    "Biochem.": [
+      63
+    ],
+    "218:701-710,": [
+      64
+    ],
+    "1993).": [
+      65
+    ],
+    "The": [
+      66,
+      86,
+      139,
+      170,
+      258,
+      358
+    ],
+    "fifth": [
+      67
+    ],
+    "PHA": [
+      68,
+      218,
+      367,
+      492,
+      520
+    ],
+    "gene": [
+      70,
+      142
+    ],
+    "(phaZ5)": [
+      71
+    ],
+    "identified": [
+      73,
+      198
+    ],
+    "by": [
+      74,
+      264,
+      564
+    ],
+    "colony": [
+      75
+    ],
+    "hybridization": [
+      76
+    ],
+    "recombinant": [
+      78,
+      459,
+      489,
+      547
+    ],
+    "Escherichia": [
+      79
+    ],
+    "coli": [
+      80,
+      470
+    ],
+    "clones": [
+      81
+    ],
+    "with": [
+      82,
+      111,
+      432,
+      524
+    ],
+    "a": [
+      83,
+      90,
+      109,
+      151,
+      203,
+      244,
+      287,
+      293,
+      436
+    ],
+    "phaZ5-specific": [
+      84
+    ],
+    "oligonucleotide.": [
+      85
+    ],
+    "nucleotide": [
+      87,
+      148
+    ],
+    "sequence": [
+      88,
+      149,
+      174,
+      279,
+      346
+    ],
+    "3,704-bp": [
+      91
+    ],
+    "EcoRI": [
+      92
+    ],
+    "fragment": [
+      93,
+      154
+    ],
+    "determined": [
+      95,
+      483
+    ],
+    "found": [
+      97,
+      538
+    ],
+    "contain": [
+      99,
+      342,
+      540
+    ],
+    "two": [
+      100
+    ],
+    "large": [
+      101,
+      158
+    ],
+    "open": [
+      102
+    ],
+    "reading": [
+      103
+    ],
+    "frames": [
+      104
+    ],
+    "(ORFs)": [
+      105
+    ],
+    "coded": [
+      107
+    ],
+    "for": [
+      108,
+      126,
+      484
+    ],
+    "polypeptide": [
+      110
+    ],
+    "significant": [
+      112,
+      183
+    ],
+    "similarities": [
+      113,
+      184
+    ],
+    "glycerol-3-phosphate": [
+      115
+    ],
+    "dehydrogenases": [
+      116
+    ],
+    "various": [
+      118
+    ],
+    "sources": [
+      119
+    ],
+    "(313": [
+      120
+    ],
+    "amino": [
+      121,
+      135,
+      172,
+      178,
+      188,
+      207,
+      267
+    ],
+    "acids;": [
+      122,
+      136,
+      179,
+      208
+    ],
+    "M(r),": [
+      123,
+      137,
+      180,
+      209
+    ],
+    "32,193)": [
+      124
+    ],
+    "precursor": [
+      128,
+      201
+    ],
+    "A": [
+      132
+    ],
+    "(PhaZ5;": [
+      133
+    ],
+    "433": [
+      134
+    ],
+    "44,906).": [
+      138
+    ],
+    "PHV": [
+      140,
+      204,
+      403
+    ],
+    "(phaZ4)": [
+      143
+    ],
+    "subcloned,": [
+      145
+    ],
+    "3,109-bp": [
+      152
+    ],
+    "BamHI": [
+      153
+    ],
+    "determined.": [
+      156
+    ],
+    "Two": [
+      157,
+      371
+    ],
+    "ORFs": [
+      159
+    ],
+    "(ORF3": [
+      160
+    ],
+    "ORF4)": [
+      162
+    ],
+    "that": [
+      163,
+      269
+    ],
+    "represent": [
+      164,
+      377
+    ],
+    "putative": [
+      165,
+      271
+    ],
+    "coding": [
+      166
+    ],
+    "regions": [
+      167
+    ],
+    "were": [
+      168,
+      428,
+      452,
+      471,
+      482,
+      535
+    ],
+    "identified.": [
+      169
+    ],
+    "deduced": [
+      171
+    ],
+    "acid": [
+      173,
+      189
+    ],
+    "ORF3": [
+      176
+    ],
+    "(134": [
+      177
+    ],
+    "14,686)": [
+      181
+    ],
+    "revealed": [
+      182,
+      234
+    ],
+    "branched-chain": [
+      187
+    ],
+    "aminotransferase": [
+      190
+    ],
+    "(IlfE)": [
+      191
+    ],
+    "enterobacteria.": [
+      193
+    ],
+    "ORF4": [
+      194
+    ],
+    "(1,712": [
+      195
+    ],
+    "bp)": [
+      196
+    ],
+    "as": [
+      199,
+      435,
+      474,
+      559
+    ],
+    "(567": [
+      206
+    ],
+    "59,947).": [
+      210
+    ],
+    "Analysis": [
+      211
+    ],
+    "primary": [
+      213
+    ],
+    "structures": [
+      214
+    ],
+    "P.": [
+      221,
+      340,
+      393,
+      455,
+      476
+    ],
+    "Alcaligenes": [
+      229
+    ],
+    "faecalis": [
+      230,
+      338,
+      391
+    ],
+    "pickettii": [
+      233,
+      341,
+      394
+    ],
+    "homologies": [
+      235
+    ],
+    "25": [
+      237
+    ],
+    "83%": [
+      239
+    ],
+    "each": [
+      241
+    ],
+    "other": [
+      242
+    ],
+    "domain": [
+      245,
+      307
+    ],
+    "structure:": [
+      246
+    ],
+    "at": [
+      247,
+      496
+    ],
+    "their": [
+      248
+    ],
+    "N": [
+      249
+    ],
+    "termini,": [
+      250
+    ],
+    "they": [
+      251
+    ],
+    "typical": [
+      253
+    ],
+    "signal": [
+      254
+    ],
+    "peptides": [
+      255
+    ],
+    "exoenzymes.": [
+      257
+    ],
+    "adjacent": [
+      259
+    ],
+    "catalytic": [
+      260,
+      272,
+      306
+    ],
+    "domains": [
+      261
+    ],
+    "are": [
+      262
+    ],
+    "characterized": [
+      263
+    ],
+    "several": [
+      265
+    ],
+    "conserved": [
+      266,
+      288,
+      294
+    ],
+    "acids": [
+      268
+    ],
+    "constitute": [
+      270
+    ],
+    "triads": [
+      273
+    ],
+    "consist": [
+      275
+    ],
+    "consensus": [
+      278
+    ],
+    "serine-dependent": [
+      281
+    ],
+    "hydrolases": [
+      282
+    ],
+    "including": [
+      283
+    ],
+    "pentapeptide": [
+      285
+    ],
+    "G-X-S-X-G,": [
+      286
+    ],
+    "histidine": [
+      289
+    ],
+    "aspartate,": [
+      291
+    ],
+    "region": [
+      295,
+      312,
+      330
+    ],
+    "resembling": [
+      296,
+      347
+    ],
+    "oxyanion": [
+      298
+    ],
+    "hole": [
+      299
+    ],
+    "lipases.": [
+      301
+    ],
+    "C": [
+      302
+    ],
+    "terminal": [
+      303
+    ],
+    "an": [
+      308,
+      343
+    ],
+    "approximately": [
+      309,
+      344
+    ],
+    "40-amino-acid-long": [
+      310
+    ],
+    "threonine-rich": [
+      311,
+      329
+    ],
+    "(22": [
+      313
+    ],
+    "27": [
+      315
+    ],
+    "threonine": [
+      316
+    ],
+    "residues)": [
+      317
+    ],
+    "is": [
+      318,
+      383,
+      405
+    ],
+    "present": [
+      319,
+      384,
+      406
+    ],
+    "PhaZ1,": [
+      321,
+      447
+    ],
+    "PhaZ2,": [
+      322,
+      397,
+      448
+    ],
+    "PhaZ3,": [
+      323,
+      398
+    ],
+    "PhaZ5.": [
+      325
+    ],
+    "Instead": [
+      326
+    ],
+    "PhaZ4": [
+      331,
+      502,
+      507
+    ],
+    "A.": [
+      337,
+      390,
+      418
+    ],
+    "90-amino-acid-long": [
+      345
+    ],
+    "fibronectin": [
+      349,
+      362
+    ],
+    "type": [
+      350,
+      363,
+      382,
+      404
+    ],
+    "III": [
+      351,
+      364
+    ],
+    "module": [
+      352,
+      365
+    ],
+    "eucaryotic": [
+      354
+    ],
+    "extracellular": [
+      355,
+      433
+    ],
+    "matrix": [
+      356
+    ],
+    "proteins.": [
+      357,
+      490
+    ],
+    "function": [
+      359
+    ],
+    "remains": [
+      369
+    ],
+    "obscure.": [
+      370
+    ],
+    "types": [
+      372
+    ],
+    "C-terminal": [
+      374
+    ],
+    "sequences": [
+      375
+    ],
+    "apparently": [
+      376
+    ],
+    "substrate-binding": [
+      378
+    ],
+    "sites;": [
+      379
+    ],
+    "PhaZ5": [
+      400,
+      451
+    ],
+    "PHV-hydrolyzing": [
+      409
+    ],
+    "(PhaZ4": [
+      411
+    ],
+    "PhaZ1).": [
+      413
+    ],
+    "phaZ1": [
+      414
+    ],
+    "transferred": [
+      416
+    ],
+    "eutrophus": [
+      419
+    ],
+    "H16": [
+      420
+    ],
+    "JMP222.": [
+      422
+    ],
+    "All": [
+      423,
+      491
+    ],
+    "transconjugants": [
+      424
+    ],
+    "both": [
+      426
+    ],
+    "strains": [
+      427
+    ],
+    "able": [
+      429,
+      515
+    ],
+    "grow": [
+      431
+    ],
+    "carbon": [
+      437,
+      528
+    ],
+    "source": [
+      438
+    ],
+    "produced": [
+      440
+    ],
+    "translucent": [
+      441
+    ],
+    "halos": [
+      442
+    ],
+    "on": [
+      443,
+      555
+    ],
+    "PHB-containing": [
+      444
+    ],
+    "solid": [
+      445
+    ],
+    "media.": [
+      446
+    ],
+    "PhaZ4,": [
+      449
+    ],
+    "purified": [
+      453
+    ],
+    "from": [
+      454,
+      458
+    ],
+    "E.": [
+      460,
+      469
+    ],
+    "coli;": [
+      461
+    ],
+    "processing": [
+      463
+    ],
+    "sites": [
+      464
+    ],
+    "precursors": [
+      467
+    ],
+    "same": [
+      473
+    ],
+    "lemoignei,": [
+      477
+    ],
+    "similar": [
+      479
+    ],
+    "substrate": [
+      480
+    ],
+    "specificities": [
+      481
+    ],
+    "wild-type": [
+      486,
+      532
+    ],
+    "hydrolyzed": [
+      494,
+      508
+    ],
+    "high": [
+      497
+    ],
+    "specific": [
+      498
+    ],
+    "activities.": [
+      499
+    ],
+    "PhaZ1": [
+      500
+    ],
+    "additionally": [
+      503
+    ],
+    "cleaved": [
+      504
+    ],
+    "PHV,": [
+      505
+    ],
+    "poly(4-hydroxybutyrate).": [
+      509
+    ],
+    "None": [
+      510
+    ],
+    "hydrolyze": [
+      517
+    ],
+    "polyactide": [
+      518
+    ],
+    "or": [
+      519
+    ],
+    "consisting": [
+      521
+    ],
+    "monomers": [
+      523
+    ],
+    "more": [
+      525
+    ],
+    "than": [
+      526
+    ],
+    "atoms.": [
+      529
+    ],
+    "While": [
+      530
+    ],
+    "proteins": [
+      534,
+      548
+    ],
+    "glycosylated": [
+      536
+    ],
+    "glucose": [
+      541
+    ],
+    "N-acetylglucosamine,": [
+      543
+    ],
+    "none": [
+      544
+    ],
+    "glycosylated.": [
+      550
+    ],
+    "hydrolysis": [
+      552
+    ],
+    "dependent": [
+      554
+    ],
+    "divalent": [
+      556
+    ],
+    "cations": [
+      557
+    ],
+    "such": [
+      558
+    ],
+    "Ca2+": [
+      560
+    ],
+    "inhibited": [
+      563
+    ],
+    "presence": [
+      566
+    ],
+    "EDTA.": [
+      568
+    ]
+  }
+}

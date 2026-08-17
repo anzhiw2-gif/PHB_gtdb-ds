@@ -1,0 +1,97 @@
+﻿{
+  "meta": {
+    "count": 13033,
+    "db_response_time_ms": 103,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where full text has (PHA degradation genes genome)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "PHA degradation genes genome",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:PHA degradation genes genome&per_page=10&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2170852633",
+      "display_name": "Biological properties of extracellular vesicles and their physiological functions",
+      "publication_year": 2015,
+      "cited_by_count": 6055,
+      "doi": "https://doi.org/10.3402/jev.v4.27066"
+    },
+    {
+      "id": "https://openalex.org/W2014887370",
+      "display_name": "Insulin signalling and the regulation of glucose and lipid metabolism",
+      "publication_year": 2001,
+      "cited_by_count": 5318,
+      "doi": "https://doi.org/10.1038/414799a"
+    },
+    {
+      "id": "https://openalex.org/W2129232972",
+      "display_name": "Biological roles of oligosaccharides: all of the theories are correct",
+      "publication_year": 1993,
+      "cited_by_count": 5195,
+      "doi": "https://doi.org/10.1093/glycob/3.2.97"
+    },
+    {
+      "id": "https://openalex.org/W2796067155",
+      "display_name": "Diagnosis, Staging, and Management of Hepatocellular Carcinoma: 2018 Practice Guidance by the American Association for the Study of Liver Diseases",
+      "publication_year": 2018,
+      "cited_by_count": 4654,
+      "doi": "https://doi.org/10.1002/hep.29913"
+    },
+    {
+      "id": "https://openalex.org/W2129585918",
+      "display_name": "Upstream and downstream of mTOR",
+      "publication_year": 2004,
+      "cited_by_count": 4218,
+      "doi": "https://doi.org/10.1101/gad.1212704"
+    },
+    {
+      "id": "https://openalex.org/W1568529372",
+      "display_name": "Reactive oxygen intermediates as apparently widely used messengers in the activation of the NF\u2010kappa B transcription factor and HIV\u20101.",
+      "publication_year": 1991,
+      "cited_by_count": 3824,
+      "doi": "https://doi.org/10.1002/j.1460-2075.1991.tb07761.x"
+    },
+    {
+      "id": "https://openalex.org/W2340338776",
+      "display_name": "Role of Nrf2/HO-1 system in development, oxidative stress response and diseases: an evolutionarily conserved mechanism",
+      "publication_year": 2016,
+      "cited_by_count": 2674,
+      "doi": "https://doi.org/10.1007/s00018-016-2223-0"
+    },
+    {
+      "id": "https://openalex.org/W2151028908",
+      "display_name": "Cancer is a Preventable Disease that Requires Major Lifestyle Changes",
+      "publication_year": 2008,
+      "cited_by_count": 2619,
+      "doi": "https://doi.org/10.1007/s11095-008-9661-9"
+    },
+    {
+      "id": "https://openalex.org/W2782590469",
+      "display_name": "Chemicals from lignin: an interplay of lignocellulose fractionation, depolymerisation, and upgrading",
+      "publication_year": 2018,
+      "cited_by_count": 2545,
+      "doi": "https://doi.org/10.1039/c7cs00566k"
+    },
+    {
+      "id": "https://openalex.org/W2155214429",
+      "display_name": "Role of platelet-derived growth factors in physiology and medicine",
+      "publication_year": 2008,
+      "cited_by_count": 2457,
+      "doi": "https://doi.org/10.1101/gad.1653708"
+    }
+  ],
+  "group_by": []
+}

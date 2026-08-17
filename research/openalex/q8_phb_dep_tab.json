@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "count": 499,
+    "db_response_time_ms": 21,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where title/abstract has (PHB depolymerase)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "PHB depolymerase",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=title_and_abstract.search:PHB depolymerase&per_page=10&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W1815987069",
+      "display_name": "The Role and Regulation of Energy Reserve Polymers in Micro-organisms",
+      "publication_year": 1973,
+      "cited_by_count": 864,
+      "doi": "https://doi.org/10.1016/s0065-2911(08)60088-0"
+    },
+    {
+      "id": "https://openalex.org/W2164479864",
+      "display_name": "Microbial Degradation of Polyhydroxyalkanoates",
+      "publication_year": 2002,
+      "cited_by_count": 692,
+      "doi": "https://doi.org/10.1146/annurev.micro.56.012302.160838"
+    },
+    {
+      "id": "https://openalex.org/W2023631098",
+      "display_name": "Review Degradation of microbial polyesters",
+      "publication_year": 2004,
+      "cited_by_count": 339,
+      "doi": "https://doi.org/10.1023/b:bile.0000036599.15302.e5"
+    },
+    {
+      "id": "https://openalex.org/W2066180717",
+      "display_name": "Microbial synthesis and properties of poly(3-hydroxybutyrate-co-4-hydroxybutyrate) in Comamonas acidovorans",
+      "publication_year": 1994,
+      "cited_by_count": 238,
+      "doi": "https://doi.org/10.1016/0141-8130(94)90022-1"
+    },
+    {
+      "id": "https://openalex.org/W1899396383",
+      "display_name": "Enzymatic degradation of microbial poly(3\u2010hydroxybutyrate) films",
+      "publication_year": 1992,
+      "cited_by_count": 232,
+      "doi": "https://doi.org/10.1002/macp.1992.021930105"
+    },
+    {
+      "id": "https://openalex.org/W2012524424",
+      "display_name": "Engineering Halomonas TD01 for the low-cost production of polyhydroxyalkanoates",
+      "publication_year": 2014,
+      "cited_by_count": 229,
+      "doi": "https://doi.org/10.1016/j.ymben.2014.09.001"
+    },
+    {
+      "id": "https://openalex.org/W2955133522",
+      "display_name": "Shotgun Metagenomics Reveals the Benthic Microbial Community Response to Plastic and Bioplastic in a Coastal Marine Environment",
+      "publication_year": 2019,
+      "cited_by_count": 215,
+      "doi": "https://doi.org/10.3389/fmicb.2019.01252"
+    },
+    {
+      "id": "https://openalex.org/W1592377749",
+      "display_name": "Cloning and Molecular Analysis of the Poly(3-hydroxybutyrate) and Poly(3-hydroxybutyrate-<i>co</i>-3-hydroxyalkanoate) Biosynthesis Genes in<i>Pseudomonas</i>sp. Strain 61-3",
+      "publication_year": 1998,
+      "cited_by_count": 214,
+      "doi": "https://doi.org/10.1128/jb.180.24.6459-6467.1998"
+    },
+    {
+      "id": "https://openalex.org/W2069269321",
+      "display_name": "Development of Halomonas TD01 as a host for open production of chemicals",
+      "publication_year": 2014,
+      "cited_by_count": 201,
+      "doi": "https://doi.org/10.1016/j.ymben.2014.02.006"
+    },
+    {
+      "id": "https://openalex.org/W2036757268",
+      "display_name": "Microbial Synthesis and Properties of Poly(3-hydroxybutyrate-co-4-hydroxybutyrate)",
+      "publication_year": 1996,
+      "cited_by_count": 200,
+      "doi": "https://doi.org/10.1002/(sici)1097-0126(199603)39:3<169::aid-pi453>3.0.co;2-z"
+    }
+  ],
+  "group_by": []
+}

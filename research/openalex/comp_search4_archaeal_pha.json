@@ -1,0 +1,1047 @@
+﻿{
+  "meta": {
+    "count": 46,
+    "db_response_time_ms": 22,
+    "page": 1,
+    "per_page": 25,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where title/abstract has (archaeal polyhydroxyalkanoate)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "archaeal polyhydroxyalkanoate",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=title_and_abstract.search:archaeal polyhydroxyalkanoate&per_page=25&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W1590141371",
+      "display_name": "The genome of the ammonia\u2010oxidizing <i> <scp>C</scp> andidatus </i> <scp>N</scp> itrososphaera gargensis: insights into metabolic versatility and environmental adaptations",
+      "publication_year": 2012,
+      "cited_by_count": 354,
+      "doi": "https://doi.org/10.1111/j.1462-2920.2012.02893.x",
+      "primary_location": {
+        "id": "doi:10.1111/j.1462-2920.2012.02893.x",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1111/j.1462-2920.2012.02893.x",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S6919857",
+          "display_name": "Environmental Microbiology",
+          "issn_l": "1462-2912",
+          "issn": [
+            "1462-2912",
+            "1462-2920"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Environmental Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2160571689",
+      "display_name": "Synthesis, Production, and Biotechnological Applications of Exopolysaccharides and Polyhydroxyalkanoates by Archaea",
+      "publication_year": 2011,
+      "cited_by_count": 311,
+      "doi": "https://doi.org/10.1155/2011/693253",
+      "primary_location": {
+        "id": "doi:10.1155/2011/693253",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1155/2011/693253",
+        "pdf_url": "https://downloads.hindawi.com/journals/archaea/2011/693253.pdf",
+        "source": {
+          "id": "https://openalex.org/S52644319",
+          "display_name": "Archaea",
+          "issn_l": "1472-3646",
+          "issn": [
+            "1472-3646",
+            "1472-3654"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319869",
+          "host_organization_name": "Hindawi Publishing Corporation",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319869"
+          ],
+          "host_organization_lineage_names": [
+            "Hindawi Publishing Corporation"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Archaea",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2164780455",
+      "display_name": "Archaeal Production of Polyhydroxyalkanoate (PHA) Co- and Terpolyesters from Biodiesel Industry-Derived By-Products",
+      "publication_year": 2013,
+      "cited_by_count": 208,
+      "doi": "https://doi.org/10.1155/2013/129268",
+      "primary_location": {
+        "id": "doi:10.1155/2013/129268",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1155/2013/129268",
+        "pdf_url": "https://downloads.hindawi.com/journals/archaea/2013/129268.pdf",
+        "source": {
+          "id": "https://openalex.org/S52644319",
+          "display_name": "Archaea",
+          "issn_l": "1472-3646",
+          "issn": [
+            "1472-3646",
+            "1472-3654"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319869",
+          "host_organization_name": "Hindawi Publishing Corporation",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319869"
+          ],
+          "host_organization_lineage_names": [
+            "Hindawi Publishing Corporation"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Archaea",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W4210720387",
+      "display_name": "Archaea Biotechnology",
+      "publication_year": 2020,
+      "cited_by_count": 155,
+      "doi": "https://doi.org/10.1016/j.biotechadv.2020.107668",
+      "primary_location": {
+        "id": "doi:10.1016/j.biotechadv.2020.107668",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.biotechadv.2020.107668",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0734975020301701/pdf",
+        "source": {
+          "id": "https://openalex.org/S160877137",
+          "display_name": "Biotechnology Advances",
+          "issn_l": "0734-9750",
+          "issn": [
+            "0734-9750",
+            "1873-1899"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Biotechnology Advances",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2822894270",
+      "display_name": "Disentangling the drivers of functional complexity at the metagenomic level in Shark Bay microbial mat microbiomes",
+      "publication_year": 2018,
+      "cited_by_count": 117,
+      "doi": "https://doi.org/10.1038/s41396-018-0208-8",
+      "primary_location": {
+        "id": "doi:10.1038/s41396-018-0208-8",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41396-018-0208-8",
+        "pdf_url": "https://www.nature.com/articles/s41396-018-0208-8.pdf",
+        "source": {
+          "id": "https://openalex.org/S149218730",
+          "display_name": "The ISME Journal",
+          "issn_l": "1751-7362",
+          "issn": [
+            "1751-7362",
+            "1751-7370"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319965",
+          "host_organization_name": "Springer Nature",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The ISME Journal",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2618045732",
+      "display_name": "Utilization of Sugarcane Bagasse by Halogeometricum borinquense Strain E3 for Biosynthesis of Poly(3-hydroxybutyrate-co-3-hydroxyvalerate)",
+      "publication_year": 2017,
+      "cited_by_count": 108,
+      "doi": "https://doi.org/10.3390/bioengineering4020050",
+      "primary_location": {
+        "id": "doi:10.3390/bioengineering4020050",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/bioengineering4020050",
+        "pdf_url": "https://www.mdpi.com/2306-5354/4/2/50/pdf?version=1495692605",
+        "source": {
+          "id": "https://openalex.org/S4210179121",
+          "display_name": "Bioengineering",
+          "issn_l": "2306-5354",
+          "issn": [
+            "2306-5354"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Bioengineering",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2972892325",
+      "display_name": "Recent Advances in the Use of Polyhydroyalkanoates in Biomedicine",
+      "publication_year": 2019,
+      "cited_by_count": 95,
+      "doi": "https://doi.org/10.3390/bioengineering6030082",
+      "primary_location": {
+        "id": "doi:10.3390/bioengineering6030082",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/bioengineering6030082",
+        "pdf_url": "https://www.mdpi.com/2306-5354/6/3/82/pdf?version=1568277300",
+        "source": {
+          "id": "https://openalex.org/S4210179121",
+          "display_name": "Bioengineering",
+          "issn_l": "2306-5354",
+          "issn": [
+            "2306-5354"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Bioengineering",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2790748531",
+      "display_name": "Archaeal acetoacetyl-CoA thiolase/HMG-CoA synthase complex channels the intermediate via a fused CoA-binding site",
+      "publication_year": 2018,
+      "cited_by_count": 69,
+      "doi": "https://doi.org/10.1073/pnas.1718649115",
+      "primary_location": {
+        "id": "doi:10.1073/pnas.1718649115",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1073/pnas.1718649115",
+        "pdf_url": "https://www.pnas.org/content/pnas/115/13/3380.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S125754415",
+          "display_name": "Proceedings of the National Academy of Sciences",
+          "issn_l": "0027-8424",
+          "issn": [
+            "0027-8424",
+            "1091-6490"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320052",
+          "host_organization_name": "National Academy of Sciences",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320052"
+          ],
+          "host_organization_lineage_names": [
+            "National Academy of Sciences"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the National Academy of Sciences",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2068439255",
+      "display_name": "Preparation of poly(3-hydroxybutyrate-co-hydroxyvalerate) films from halophilic archaea and their potential use in drug delivery",
+      "publication_year": 2015,
+      "cited_by_count": 57,
+      "doi": "https://doi.org/10.1007/s00792-015-0735-4",
+      "primary_location": {
+        "id": "doi:10.1007/s00792-015-0735-4",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/s00792-015-0735-4",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S195642041",
+          "display_name": "Extremophiles",
+          "issn_l": "1431-0651",
+          "issn": [
+            "1431-0651",
+            "1433-4909"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Extremophiles",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2912843307",
+      "display_name": "Bioinformatics Analysis of Metabolism Pathways of Archaeal Energy Reserves",
+      "publication_year": 2019,
+      "cited_by_count": 54,
+      "doi": "https://doi.org/10.1038/s41598-018-37768-0",
+      "primary_location": {
+        "id": "doi:10.1038/s41598-018-37768-0",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41598-018-37768-0",
+        "pdf_url": "https://www.nature.com/articles/s41598-018-37768-0.pdf",
+        "source": {
+          "id": "https://openalex.org/S196734849",
+          "display_name": "Scientific Reports",
+          "issn_l": "2045-2322",
+          "issn": [
+            "2045-2322"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Scientific Reports",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2897771514",
+      "display_name": "Inhibition of Rumen Methanogens by a Novel Archaeal Lytic Enzyme Displayed on Tailored Bionanoparticles",
+      "publication_year": 2018,
+      "cited_by_count": 47,
+      "doi": "https://doi.org/10.3389/fmicb.2018.02378",
+      "primary_location": {
+        "id": "doi:10.3389/fmicb.2018.02378",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/fmicb.2018.02378",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fmicb.2018.02378/pdf",
+        "source": {
+          "id": "https://openalex.org/S2484704948",
+          "display_name": "Frontiers in Microbiology",
+          "issn_l": "1664-302X",
+          "issn": [
+            "1664-302X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2761348445",
+      "display_name": "Production enhancement and characterization of the polyhydroxyalkanoate produced by Natrinema ajinwuensis (as synonym) \u2261 Natrinema altunense strain RM-G10",
+      "publication_year": 2017,
+      "cited_by_count": 41,
+      "doi": "https://doi.org/10.1016/j.ijbiomac.2017.10.009",
+      "primary_location": {
+        "id": "doi:10.1016/j.ijbiomac.2017.10.009",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.ijbiomac.2017.10.009",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S83853393",
+          "display_name": "International Journal of Biological Macromolecules",
+          "issn_l": "0141-8130",
+          "issn": [
+            "0141-8130",
+            "1879-0003"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Biological Macromolecules",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2004884118",
+      "display_name": "Accumulation of polyhydroxyalkanoates by halophilic archaea isolated from traditional solar salterns of India",
+      "publication_year": 2013,
+      "cited_by_count": 38,
+      "doi": "https://doi.org/10.1007/s00792-013-0561-5",
+      "primary_location": {
+        "id": "doi:10.1007/s00792-013-0561-5",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/s00792-013-0561-5",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S195642041",
+          "display_name": "Extremophiles",
+          "issn_l": "1431-0651",
+          "issn": [
+            "1431-0651",
+            "1433-4909"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Extremophiles",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2024577014",
+      "display_name": "Seizure associated with acute hepatitis E",
+      "publication_year": 2001,
+      "cited_by_count": 38,
+      "doi": "https://doi.org/10.1212/wnl.57.10.1935",
+      "primary_location": {
+        "id": "doi:10.1212/wnl.57.10.1935",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1212/wnl.57.10.1935",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S79704628",
+          "display_name": "Neurology",
+          "issn_l": "0028-3878",
+          "issn": [
+            "0028-3878",
+            "1526-632X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310315671",
+          "host_organization_name": "Lippincott Williams & Wilkins",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315671",
+            "https://openalex.org/P4310318547"
+          ],
+          "host_organization_lineage_names": [
+            "Lippincott Williams & Wilkins",
+            "Wolters Kluwer"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Neurology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W3000107042",
+      "display_name": "Production of Polyhydroxyalkanoates by Two Halophilic Archaeal Isolates from Chott El Jerid Using Inexpensive Carbon Sources",
+      "publication_year": 2020,
+      "cited_by_count": 32,
+      "doi": "https://doi.org/10.3390/biom10010109",
+      "primary_location": {
+        "id": "doi:10.3390/biom10010109",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/biom10010109",
+        "pdf_url": "https://www.mdpi.com/2218-273X/10/1/109/pdf?version=1579593828",
+        "source": {
+          "id": "https://openalex.org/S4210236520",
+          "display_name": "Biomolecules",
+          "issn_l": "2218-273X",
+          "issn": [
+            "2218-273X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Biomolecules",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W4200429504",
+      "display_name": "Classification and Identification of Archaea Using Single-Cell Raman Ejection and Artificial Intelligence: Implications for Investigating Uncultivated Microorganisms",
+      "publication_year": 2021,
+      "cited_by_count": 29,
+      "doi": "https://doi.org/10.1021/acs.analchem.1c03495",
+      "primary_location": {
+        "id": "doi:10.1021/acs.analchem.1c03495",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1021/acs.analchem.1c03495",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S191963794",
+          "display_name": "Analytical Chemistry",
+          "issn_l": "0003-2700",
+          "issn": [
+            "0003-2700",
+            "1520-6882"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320006",
+          "host_organization_name": "American Chemical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320006"
+          ],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Analytical Chemistry",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W4200063439",
+      "display_name": "Metagenomic insights into Himalayan glacial and kettle lake sediments revealed microbial community structure, function, and stress adaptation strategies",
+      "publication_year": 2021,
+      "cited_by_count": 27,
+      "doi": "https://doi.org/10.1007/s00792-021-01252-x",
+      "primary_location": {
+        "id": "doi:10.1007/s00792-021-01252-x",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/s00792-021-01252-x",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S195642041",
+          "display_name": "Extremophiles",
+          "issn_l": "1431-0651",
+          "issn": [
+            "1431-0651",
+            "1433-4909"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Extremophiles",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W3210868874",
+      "display_name": "Halophyte biorefinery for polyhydroxyalkanoates production from Ulva sp. Hydrolysate with Haloferax mediterranei in pneumatically agitated bioreactors and ultrasound harvesting",
+      "publication_year": 2021,
+      "cited_by_count": 26,
+      "doi": "https://doi.org/10.1016/j.biortech.2021.125964",
+      "primary_location": {
+        "id": "doi:10.1016/j.biortech.2021.125964",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.biortech.2021.125964",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S21442059",
+          "display_name": "Bioresource Technology",
+          "issn_l": "0960-8524",
+          "issn": [
+            "0960-8524",
+            "1873-2976"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Bioresource Technology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2087262096",
+      "display_name": "Genomics of biological wastewater treatment",
+      "publication_year": 2008,
+      "cited_by_count": 25,
+      "doi": "https://doi.org/10.1111/j.1751-7915.2008.00059.x",
+      "primary_location": {
+        "id": "doi:10.1111/j.1751-7915.2008.00059.x",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1111/j.1751-7915.2008.00059.x",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1751-7915.2008.00059.x",
+        "source": {
+          "id": "https://openalex.org/S4210238104",
+          "display_name": "Microbial Biotechnology",
+          "issn_l": "1751-7915",
+          "issn": [
+            "1751-7915",
+            "1751-7907"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Microbial Biotechnology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2000098683",
+      "display_name": "Properties of Halococcus salifodinae, an Isolate from Permian Rock Salt Deposits, Compared with Halococci from Surface Waters",
+      "publication_year": 2013,
+      "cited_by_count": 22,
+      "doi": "https://doi.org/10.3390/life3010244",
+      "primary_location": {
+        "id": "doi:10.3390/life3010244",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/life3010244",
+        "pdf_url": "https://www.mdpi.com/2075-1729/3/1/244/pdf?version=1362058738",
+        "source": {
+          "id": "https://openalex.org/S4210200765",
+          "display_name": "Life",
+          "issn_l": "2075-1729",
+          "issn": [
+            "2075-1729"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Life",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W1761572411",
+      "display_name": "Bacterial and Archaeal Inclusions",
+      "publication_year": 2011,
+      "cited_by_count": 21,
+      "doi": "https://doi.org/10.1002/9780470015902.a0000302.pub3",
+      "primary_location": {
+        "id": "doi:10.1002/9780470015902.a0000302.pub3",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1002/9780470015902.a0000302.pub3",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4363604175",
+          "display_name": "Encyclopedia of Life Sciences",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Encyclopedia of Life Sciences",
+        "raw_type": "other"
+      }
+    },
+    {
+      "id": "https://openalex.org/W4306937836",
+      "display_name": "Initial pH Conditions Shape the Microbial Community Structure of Sewage Sludge in Batch Fermentations for the Improvement of Volatile Fatty Acid Production",
+      "publication_year": 2022,
+      "cited_by_count": 20,
+      "doi": "https://doi.org/10.3390/microorganisms10102073",
+      "primary_location": {
+        "id": "doi:10.3390/microorganisms10102073",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/microorganisms10102073",
+        "pdf_url": "https://www.mdpi.com/2076-2607/10/10/2073/pdf?version=1666258795",
+        "source": {
+          "id": "https://openalex.org/S4210222090",
+          "display_name": "Microorganisms",
+          "issn_l": "2076-2607",
+          "issn": [
+            "2076-2607"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Microorganisms",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W3206584318",
+      "display_name": "Genomic Insights Into the Archaea Inhabiting an Australian Radioactive Legacy Site",
+      "publication_year": 2021,
+      "cited_by_count": 15,
+      "doi": "https://doi.org/10.3389/fmicb.2021.732575",
+      "primary_location": {
+        "id": "doi:10.3389/fmicb.2021.732575",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/fmicb.2021.732575",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fmicb.2021.732575/pdf",
+        "source": {
+          "id": "https://openalex.org/S2484704948",
+          "display_name": "Frontiers in Microbiology",
+          "issn_l": "1664-302X",
+          "issn": [
+            "1664-302X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2921170485",
+      "display_name": "Proteogenomic Refinement of the <i>Neomegalonema perideroedes</i> <sup>T</sup> Genome Annotation",
+      "publication_year": 2019,
+      "cited_by_count": 10,
+      "doi": "https://doi.org/10.1002/pmic.201800330",
+      "primary_location": {
+        "id": "doi:10.1002/pmic.201800330",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1002/pmic.201800330",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S182655450",
+          "display_name": "PROTEOMICS",
+          "issn_l": "1615-9853",
+          "issn": [
+            "1615-9853",
+            "1615-9861"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "PROTEOMICS",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2954208825",
+      "display_name": "Polyhydroxyalkanoates (PHA) genes Database",
+      "publication_year": 2019,
+      "cited_by_count": 9,
+      "doi": "https://doi.org/10.6026/97320630015036",
+      "primary_location": {
+        "id": "doi:10.6026/97320630015036",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.6026/97320630015036",
+        "pdf_url": "http://www.bioinformation.net/015/97320630015036.pdf",
+        "source": {
+          "id": "https://openalex.org/S2755911950",
+          "display_name": "Bioinformation",
+          "issn_l": "0973-2063",
+          "issn": [
+            "0973-2063",
+            "0973-8894"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4328143488",
+          "host_organization_name": "Biomedical Informatics",
+          "host_organization_lineage": [
+            "https://openalex.org/P4328143488"
+          ],
+          "host_organization_lineage_names": [
+            "Biomedical Informatics"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Bioinformation",
+        "raw_type": "journal-article"
+      }
+    }
+  ],
+  "group_by": []
+}

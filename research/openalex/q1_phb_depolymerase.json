@@ -1,0 +1,97 @@
+﻿{
+  "meta": {
+    "count": 1279,
+    "db_response_time_ms": 35,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where full text has (polyhydroxybutyrate depolymerase)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "polyhydroxybutyrate depolymerase",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:polyhydroxybutyrate depolymerase&per_page=10&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2007066242",
+      "display_name": "Polyethylene and biodegradable mulches for agricultural applications: a review",
+      "publication_year": 2012,
+      "cited_by_count": 1322,
+      "doi": "https://doi.org/10.1007/s13593-011-0068-3"
+    },
+    {
+      "id": "https://openalex.org/W2077606207",
+      "display_name": "Polyhydroxyalkanoate (PHA): Review of synthesis, characteristics, processing and potential applications in packaging",
+      "publication_year": 2014,
+      "cited_by_count": 923,
+      "doi": "https://doi.org/10.3144/expresspolymlett.2014.82"
+    },
+    {
+      "id": "https://openalex.org/W2599977611",
+      "display_name": "Review on the current status of polymer degradation: a microbial approach",
+      "publication_year": 2017,
+      "cited_by_count": 814,
+      "doi": "https://doi.org/10.1186/s40643-017-0145-9"
+    },
+    {
+      "id": "https://openalex.org/W3161121665",
+      "display_name": "Poly(lactic acid) (PLA) and polyhydroxyalkanoates (PHAs), green alternatives to petroleum-based plastics: a review",
+      "publication_year": 2021,
+      "cited_by_count": 807,
+      "doi": "https://doi.org/10.1039/d1ra02390j"
+    },
+    {
+      "id": "https://openalex.org/W2624367749",
+      "display_name": "Recent Advances and Challenges towards Sustainable Polyhydroxyalkanoate (PHA) Production",
+      "publication_year": 2017,
+      "cited_by_count": 774,
+      "doi": "https://doi.org/10.3390/bioengineering4020055"
+    },
+    {
+      "id": "https://openalex.org/W2125645956",
+      "display_name": "Genome sequence of the bioplastic-producing \u201cKnallgas\u201d bacterium Ralstonia eutropha H16",
+      "publication_year": 2006,
+      "cited_by_count": 669,
+      "doi": "https://doi.org/10.1038/nbt1244"
+    },
+    {
+      "id": "https://openalex.org/W2595116276",
+      "display_name": "Lifetime prediction of biodegradable polymers",
+      "publication_year": 2017,
+      "cited_by_count": 647,
+      "doi": "https://doi.org/10.1016/j.progpolymsci.2017.02.004"
+    },
+    {
+      "id": "https://openalex.org/W2572962383",
+      "display_name": "Abiotic and biotic environmental degradation of the bioplastic polymer poly(lactic acid): A review",
+      "publication_year": 2017,
+      "cited_by_count": 621,
+      "doi": "https://doi.org/10.1016/j.polymdegradstab.2017.01.009"
+    },
+    {
+      "id": "https://openalex.org/W2869876473",
+      "display_name": "Degradation of plastics and plastic-degrading bacteria in cold marine habitats",
+      "publication_year": 2018,
+      "cited_by_count": 611,
+      "doi": "https://doi.org/10.1007/s00253-018-9195-y"
+    },
+    {
+      "id": "https://openalex.org/W3109239857",
+      "display_name": "Production of Polyhydroxybutyrate (PHB) and Factors Impacting Its Chemical and Mechanical Characteristics",
+      "publication_year": 2020,
+      "cited_by_count": 567,
+      "doi": "https://doi.org/10.3390/polym12122908"
+    }
+  ],
+  "group_by": []
+}

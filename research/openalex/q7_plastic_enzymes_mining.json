@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "count": 35,
+    "db_response_time_ms": 36,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where title/abstract has (genome mining and plastic degrading enzymes)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "genome mining",
+            "operator": "has"
+          },
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "plastic degrading enzymes",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=title_and_abstract.search:genome mining,title_and_abstract.search:plastic degrading enzymes&per_page=10&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4401180763",
+      "display_name": "Logan: Planetary-Scale Genome Assembly Surveys Life\u2019s Diversity",
+      "publication_year": 2024,
+      "cited_by_count": 73,
+      "doi": "https://doi.org/10.1101/2024.07.30.605881"
+    },
+    {
+      "id": "https://openalex.org/W4283656418",
+      "display_name": "Preliminary investigation of microorganisms potentially involved in microplastics degradation using an integrated metagenomic and biochemical approach",
+      "publication_year": 2022,
+      "cited_by_count": 60,
+      "doi": "https://doi.org/10.1016/j.scitotenv.2022.157017"
+    },
+    {
+      "id": "https://openalex.org/W2752373339",
+      "display_name": "Orthodox Seeds and Resurrection Plants: Two of a Kind?",
+      "publication_year": 2017,
+      "cited_by_count": 58,
+      "doi": "https://doi.org/10.1104/pp.17.00760"
+    },
+    {
+      "id": "https://openalex.org/W4223437726",
+      "display_name": "Identification of BgP, a Cutinase-Like Polyesterase From a Deep-Sea Sponge-Derived Actinobacterium",
+      "publication_year": 2022,
+      "cited_by_count": 23,
+      "doi": "https://doi.org/10.3389/fmicb.2022.888343"
+    },
+    {
+      "id": "https://openalex.org/W4403667508",
+      "display_name": "Targeted Genome Mining Facilitates the Discovery of a Promiscuous, Hyperthermostable Amidase from <i>Thermovenabulum Gondwanense</i> with Notable Nylon\u2010Degrading Capacity",
+      "publication_year": 2024,
+      "cited_by_count": 21,
+      "doi": "https://doi.org/10.1002/anie.202414842"
+    },
+    {
+      "id": "https://openalex.org/W4280488252",
+      "display_name": "Metagenomic Mining for Esterases in the Microbial Community of Los Rueldos Acid Mine Drainage Formation",
+      "publication_year": 2022,
+      "cited_by_count": 18,
+      "doi": "https://doi.org/10.3389/fmicb.2022.868839"
+    },
+    {
+      "id": "https://openalex.org/W4387300194",
+      "display_name": "Polystyrene-colonizing bacteria are enriched for long-chain alkane degradation pathways",
+      "publication_year": 2023,
+      "cited_by_count": 11,
+      "doi": "https://doi.org/10.1371/journal.pone.0292137"
+    },
+    {
+      "id": "https://openalex.org/W4311322385",
+      "display_name": "The complete genome sequence of Pseudomonas chengduensis BC1815 for genome mining of PET degrading enzymes",
+      "publication_year": 2022,
+      "cited_by_count": 9,
+      "doi": "https://doi.org/10.1016/j.margen.2022.101008"
+    },
+    {
+      "id": "https://openalex.org/W4409588635",
+      "display_name": "Biodegradation pathways of phthalate esters by Mycolicibacterium parafortuitum J101 and its ability to enhance bioremediation",
+      "publication_year": 2025,
+      "cited_by_count": 8,
+      "doi": "https://doi.org/10.1016/j.ibiod.2025.106085"
+    },
+    {
+      "id": "https://openalex.org/W4411813585",
+      "display_name": "Degradation of biomaterials by Streptomyces microflavus DG19: depolymerization activity, genome mining, and soil burial assessment",
+      "publication_year": 2025,
+      "cited_by_count": 2,
+      "doi": "https://doi.org/10.1186/s44314-025-00024-7"
+    }
+  ],
+  "group_by": []
+}

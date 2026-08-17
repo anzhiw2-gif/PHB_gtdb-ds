@@ -1,0 +1,407 @@
+﻿[
+    {
+        "pmid":  "12213937",
+        "title":  "Microbial degradation of polyhydroxyalkanoates.",
+        "authors":  [
+                        "Jendrossek D",
+                        "Handrick R"
+                    ],
+        "journal":  "Annual review of microbiology",
+        "pubdate":  "2002",
+        "doi":  null,
+        "abstract":  "Polyesters such as poly(3-hydroxybutyrate) (PHB) or other polyhydroxyalkanoates (PHA) have attracted commercial and academic interest as new biodegradable materials. The ability to degrade PHA is widely distributed among bacteria and fungi and depends on the secretion of specific extracellular PHA depolymerases (e-PHA depolymerases), which are carboxyesterases (EC 3.1.1.75 and EC 3.1.1.76), and on the physical state of the polymer (amorphous or crystalline). This contribution provides a summary of the biochemical and molecular biological characteristics of e-PHA depolymerases and focuses on the intracellular mobilization of storage PHA by intracellular PHA depolymerases (i-PHA depolymerases) of PHA-accumulating bacteria. The importance of different assay systems for PHA depolymerase activity is also discussed."
+    },
+    {
+        "pmid":  "9008883",
+        "title":  "Biodegradation of polyhydroxyalkanoic acids.",
+        "authors":  [
+                        "Jendrossek D",
+                        "Schirmer A",
+                        "Schlegel HG"
+                    ],
+        "journal":  "Applied microbiology and biotechnology",
+        "pubdate":  "1996 Dec",
+        "doi":  null,
+        "abstract":  "Stimulated by the commercial availability of bacteriologically produced polyesters such as poly[(R)-3-hydroxybutyric acid], and encouraged by the discovery of new constituents of polyhydroxyalkanoic acids (PHA), a considerable body of knowledge on the metabolism of PHA in microorganisms has accumulated. The objective of this essay is to give an overview on the biodegradation of PHA. The following topics are discussed: (i) general considerations of PHA degradation, (ii) methods for identification and isolation of PHA-degrading microorganisms, (iii) characterization of PHA-degrading microorganisms, (iv) biochemical properties of PHA depolymerases, (v) mechanisms of PHA hydrolysis, (vi) regulation of PHA depolymerase synthesis, (vii) molecular biology of PHA depolymerases, (viii) influence of the physicochemical properties of PHA on its biodegradability, (ix) degradation of polyesters related to PHA, (x) biotechnological aspects of PHA and PHA depolymerases."
+    },
+    {
+        "pmid":  "9921137",
+        "title":  "Polyhydroxybutyrate: plastic made and degraded by microorganisms.",
+        "authors":  [
+                        "Hankermeyer CR",
+                        "Tjeerdema RS"
+                    ],
+        "journal":  "Reviews of environmental contamination and toxicology",
+        "pubdate":  "1999",
+        "doi":  null,
+        "abstract":  "Polyhydroxybutyrate (PHB) offers many advantages over traditional petrochemically derived plastics. In addition to its complete biodegradability, PHB is formed from renewable resources. It possesses better physical properties than polypropylene for food packaging applications and is completely nontoxic. The poor low-impact strength of PHB is solved by incorporation of hydroxyvalerate monomers into the polymer to produce polyhydroxybutyrate-co-valerate (PHBV), which is commercially marketed under the trade name Biopol. Like PHB, PHBV completely degrades into carbon dioxide and water under aerobic conditions. Microbial synthesis of PHB is the best method for industrial production because it ensures the proper stereochemistry for biodegradation. Microorganisms synthesize and store PHB under nutrient-limited conditions and degrade and metabolize it when the limitation is removed. Current production employs Alcaligenes eutrophus because it grows efficiently on glucose as a carbon source, accumulates PHB up to 80% of its dry weight, and is able to synthesize PHBV when propionic acid is added to the feedstock. PHBV is currently 16 times the price of polypropylene. However, the development of transgenic PHA-producing organisms is expected to greatly reduce its cost. Benefits of using transgenic systems include lack of a depolymerase system, ability to use faster-growing organisms, production of highly purified polymers, and ability to utilize inexpensive carbon sources. Because transgenic plants may someday result in the evolution of plastic crops that could lower the price of PHA to a competitive level, future research will surely focus on such recombinant DNA techniques."
+    },
+    {
+        "pmid":  "29951858",
+        "title":  "Polyhydroxybutyrate (PHB) biodegradation using bacterial strains with demonstrated and predicted PHB depolymerase activity.",
+        "authors":  [
+                        "Martínez-Tobón DI",
+                        "Gul M",
+                        "Elias AL",
+                        "Sauvageau D"
+                    ],
+        "journal":  "Applied microbiology and biotechnology",
+        "pubdate":  "2018 Sep",
+        "doi":  "10.1007/s00253-018-9153-8",
+        "abstract":  "The biodegradation of polyhydroxybutyrate (PHB) has been broadly investigated, but studies typically focus on a single strain or enzyme and little attention has been paid to comparing the interaction of different PHB depolymerase (PhaZ)-producing strains with this biopolymer. In this work, we selected nine bacterial strains-five with demonstrated and four with predicted PhaZ activity-to compare their effectiveness at degrading PHB film provided as sole carbon source. Each of the strains with demonstrated activity were able to use the PHB film (maximum mass losses ranging from 12% after 2 days for Paucimonas lemoignei to 90% after 4 days for Cupriavidus sp.), and to a lower extent Marinobacter algicola DG893 (with a predicted PhaZ) achieved PHB film mass loss of 11% after 2 weeks of exposure. Among the strains with proven PhaZ activity, Ralstonia sp. showed the highest specific activity since less biomass was required to degrade the polymer in comparison to the other strains. In the case of Ralstonia sp., PHB continued to be degraded at pH values as low as pH 3.3-3.7. In addition, analysis of the extracellular fractions of the strains with demonstrated activity showed that Comamonas testosteroni, Cupriavidus sp., and Ralstonia sp. readily degraded both PHB film and PHB particles in agar suspensions. This study highlights that whole cell cultures and enzymatic (extracellular) fractions display different levels of activity, an important factor in the development of PHB-based applications and in understanding the fate of PHB and other PHAs released in the environment. Furthermore, predictions of PhaZ functionality from genome sequencing analyses remain to be validated by experimental results; PHB-degrading ability could not be proven for three of four investigated species predicted by the polyhydroxyalkanoates (PHA) depolymerase engineering database."
+    },
+    {
+        "pmid":  "32369496",
+        "title":  "Identification and characterization of a novel extracellular polyhydroxyalkanoate depolymerase in the complete genome sequence of Undibacterium sp. KW1 and YM2 strains.",
+        "authors":  [
+                        "Morohoshi T",
+                        "Oi T",
+                        "Suzuki T",
+                        "Sato S"
+                    ],
+        "journal":  "PloS one",
+        "pubdate":  "2020",
+        "doi":  "10.1371/journal.pone.0232698",
+        "abstract":  "Polyhydroxyalkanoate (PHA) is a biodegradable polymer that is synthesized by a wide range of microorganisms. One of the derivatives of PHA, poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) (PHBH) has flexible material properties and low melting temperature. We have previously demonstrated that PHBH is degradable in a freshwater environment via the formation of biofilm on the surface of the PHBH film. Undibacterium sp. KW1 and YM2, which were isolated from the biofilm present on the PHBH film in the freshwater sample, were shown to have PHBH-degrading activity. In this study, the complete genome sequence of KW1 and YM2 revealed that the extracellular PHA depolymerase gene, designated as phaZUD, was present in their chromosomes. Sequence analysis revealed that PhaZUD contained four domains: a signal peptide, catalytic domain, linker domain, and substrate-binding domain. Escherichia coli harboring a PhaZUD-expressing plasmid showed PHBH-degrading activity in LB medium containing 1 wt% PHBH powder. The recombinant His-tagged PhaZUD from KW1 and YM2 was purified from the culture supernatant and shown to have PHBH-degrading activity at the optimum temperature of 35 and 40°C, respectively. When the degradation product in the PHBH solution was treated with PhaZUD and assayed by LC-TOF-MS, we detected various oligomer structures, but no more than pentamers, which consist of 3-hydroxybutyrate and 3-hydroxyhexanoate. These results demonstrated that PhaZUD may have an endo-type extracellular PHA depolymerase activity."
+    },
+    {
+        "pmid":  "40500476",
+        "title":  "Identification of an Extracellular Poly(3-hydroxybutyrate) Depolymerase in the Genus Alteromonas and Its Phylogenetic Distribution Among Alteromonas Species.",
+        "authors":  [
+                        "Iseki K",
+                        "Hachisuka SI",
+                        "Kikukawa H",
+                        "Tsuge T",
+                        "Matsumoto K"
+                    ],
+        "journal":  "Marine biotechnology (New York, N.Y.)",
+        "pubdate":  "2025 Jun 11",
+        "doi":  "10.1007/s10126-025-10477-2",
+        "abstract":  "Poly(3-hydroxybutyrate), P(3HB), is an aliphatic polyester that is susceptible to biodegradation even in marine environments. The high biodegradability of P(3HB) can be attributed to the presence in the environment of extracellular P(3HB) depolymerase (PhaZ), the initial enzyme involved in P(3HB) degradation. In this study, we aimed to identify the gene encoding PhaZ in the marine P(3HB)-degrading bacterium Alteromonas sp. D210916BOD_24, which was previously isolated. First, we conducted genome analysis of the strain, revealing that the strain possesses a PhaZ homolog. It possesses a catalytic domain with a lipase box near the center, a substrate-binding domain comprising two regions, and a fibronectin type III linker domain, which fit the marine bacterial domain pattern. Disruption of the PhaZ homolog gene caused the strain to lose its P(3HB) degradation ability. The recombinant PhaZ homolog protein exhibited significant activity toward P(3HB). The results indicated that the PhaZ homolog indeed functions as PhaZ in Alteromonas sp. D210916BOD_24. Furthermore, we focused on the distribution and genomic placement of PhaZ homolog genes. The PhaZ homolog was present in 4/20 Alteromonas strains examined, with Alteromonas sp. D210916BOD_24 showing substantial divergence from the other three strains in the 16S rDNA-based phylogenetic tree. The gene arrangement around the PhaZ homolog gene was clearly different between Alteromonas sp. D210916BOD_24 and the others. Additionally, large-scale gene locations and orientations exhibited considerable differences. These findings suggest that the horizontal transfer of PhaZ homolog genes occurred after a certain degree of species division."
+    },
+    {
+        "pmid":  "36125959",
+        "title":  "",
+        "authors":  [
+                        "Leadbeater DR",
+                        "Bruce NC",
+                        "Tonon T"
+                    ],
+        "journal":  "Microbial genomics",
+        "pubdate":  "2022 Sep",
+        "doi":  "10.1099/mgen.0.000866",
+        "abstract":  "There is an urgent need to replace petroleum-based plastic with bio-based and biodegradable alternatives. Polyhydroxyalkanoates (PHAs) are attractive prospective replacements that exhibit desirable mechanical properties and are recyclable and biodegradable in terrestrial and marine environments. However, the production costs today still limit the economic sustainability of the PHA industry. Seaweed cultivation represents an opportunity for carbon capture, while also supplying a sustainable photosynthetic feedstock for PHA production. We mined existing gene and protein databases to identify bacteria able to grow and produce PHAs using seaweed-derived carbohydrates as substrates. There were no significant relationships between the genes involved in the deconstruction of algae polysaccharides and PHA production, with poor to negative correlations and diffused clustering suggesting evolutionary compartmentalism. We identified 2 987 bacterial candidates spanning 40 taxonomic families predominantly within Alphaproteobacteria, Gammaproteobacteria and Burkholderiales with enriched seaweed-degrading capacity that also harbour PHA synthesis potential. These included highly promising candidates with specialist and generalist specificities, including Alteromonas, Aquisphaera, Azotobacter, Bacillus, Caulobacter, Cellvibrionaceae, Duganella, Janthinobacterium, Massilia, Oxalobacteraceae, Parvularcula, Pirellulaceae, Pseudomonas, Rhizobacter, Rhodanobacter, Simiduia, Sphingobium, Sphingomonadaceae, Sphingomonas, Stieleria, Vibrio and Xanthomonas. In this enriched subset, the family-level densities of genes targeting green macroalgae polysaccharides were considerably higher (n=231.6±68.5) than enzymes targeting brown (n=65.34±13.12) and red (n=30.5±10.72) polysaccharides. Within these organisms, an abundance of FabG genes was observed, suggesting that the fatty acid de novo synthesis pathway supplies (R)-3-hydroxyacyl-CoA or 3-hydroxybutyryl-CoA from core metabolic processes and is the predominant mechanism of PHA production in these organisms. Our results facilitate extending seaweed biomass valorization in the context of consolidated biorefining for the production of bioplastics."
+    },
+    {
+        "pmid":  "38278791",
+        "title":  "Microbial decomposition of biodegradable plastics on the deep-sea floor.",
+        "authors":  [
+                        "Omura T",
+                        "Isobe N",
+                        "Miura T",
+                        "Ishii S",
+                        "Mori M",
+                        "Ishitani Y",
+                        "Kimura S",
+                        "Hidaka K",
+                        "Komiyama K",
+                        "Suzuki M",
+                        "Kasuya KI",
+                        "Nomaki H",
+                        "Nakajima R",
+                        "Tsuchiya M",
+                        "Kawagucci S",
+                        "Mori H",
+                        "Nakayama A",
+                        "Kunioka M",
+                        "Kamino K",
+                        "Iwata T"
+                    ],
+        "journal":  "Nature communications",
+        "pubdate":  "2024 Jan 26",
+        "doi":  "10.1038/s41467-023-44368-8",
+        "abstract":  "Microbes can decompose biodegradable plastics on land, rivers and seashore. However, it is unclear whether deep-sea microbes can degrade biodegradable plastics in the extreme environmental conditions of the seafloor. Here, we report microbial decomposition of representative biodegradable plastics (polyhydroxyalkanoates, biodegradable polyesters, and polysaccharide esters) at diverse deep-sea floor locations ranging in depth from 757 to 5552 m. The degradation of samples was evaluated in terms of weight loss, reduction in material thickness, and surface morphological changes. Poly(L-lactic acid) did not degrade at either shore or deep-sea sites, while other biodegradable polyesters, polyhydroxyalkanoates, and polysaccharide esters were degraded. The rate of degradation slowed with water depth. We analysed the plastic-associated microbial communities by 16S rRNA gene amplicon sequencing and metagenomics. Several dominant microorganisms carried genes potentially encoding plastic-degrading enzymes such as polyhydroxyalkanoate depolymerases and cutinases/polyesterases. Analysis of available metagenomic datasets indicated that these microorganisms are present in other deep-sea locations. Our results confirm that biodegradable plastics can be degraded by the action of microorganisms on the deep-sea floor, although with much less efficiency than in coastal settings."
+    },
+    {
+        "pmid":  "34160268",
+        "title":  "Sea-Ice Bacteria ",
+        "authors":  [
+                        "Eronen-Rasimus E",
+                        "Hultman J",
+                        "Hai T",
+                        "Pessi IS",
+                        "Collins E",
+                        "Wright S",
+                        "Laine P",
+                        "Viitamäki S",
+                        "Lyra C",
+                        "Thomas DN",
+                        "Golyshin PN",
+                        "Luhtanen AM",
+                        "Kuosa H",
+                        "Kaartokallio H"
+                    ],
+        "journal":  "Applied and environmental microbiology",
+        "pubdate":  "2021 Aug 11",
+        "doi":  "10.1128/AEM.00929-21",
+        "abstract":  "Poly-3-hydroxyalkanoic acids (PHAs) are bacterial storage polymers commonly used in bioplastic production. Halophilic bacteria are industrially interesting organisms, as their salinity tolerance and psychrophilic nature lowers sterility requirements and subsequent production costs. We investigated PHA synthesis in two bacterial strains, Halomonas sp. 363 and Paracoccus sp. 392, isolated from Southern Ocean sea ice and elucidated the related PHA biopolymer accumulation and composition with various approaches, such as transcriptomics, microscopy, and chromatography. We show that both bacterial strains produce PHAs at 4°C when the availability of nitrogen and/or oxygen limited growth. The genome of Halomonas sp. 363 carries three phaC synthase genes and transcribes genes along three PHA pathways (I to III), whereas Paracoccus sp. 392 carries only one phaC gene and transcribes genes along one pathway (I). Thus, Halomonas sp. 363 has a versatile repertoire of phaC genes and pathways enabling production of both short- and medium-chain-length PHA products. IMPORTANCE Plastic pollution is one of the most topical threats to the health of the oceans and seas. One recognized way to alleviate the problem is to use degradable bioplastic materials in high-risk applications. PHA is a promising bioplastic material as it is nontoxic and fully produced and degraded by bacteria. Sea ice is an interesting environment for prospecting novel PHA-producing organisms, since traits advantageous to lower production costs, such as tolerance for high salinities and low temperatures, are common. We show that two sea-ice bacteria, Halomonas sp. 363 and Paracoccus sp. 392, are able to produce various types of PHA from inexpensive carbon sources. Halomonas sp. 363 is an especially interesting PHA-producing organism, since it has three different synthesis pathways to produce both short- and medium-chain-length PHAs."
+    },
+    {
+        "pmid":  "40320445",
+        "title":  "Isolation of marine bacteria with potential for polyhydroxyalkanoate degradation and optimization for enzyme production.",
+        "authors":  [
+                        "Boondaeng A",
+                        "Trakunjae C",
+                        "Vaithanomsat P",
+                        "Niyomvong N"
+                    ],
+        "journal":  "Scientific reports",
+        "pubdate":  "2025 May 04",
+        "doi":  "10.1038/s41598-025-99034-4",
+        "abstract":  "Plastic materials are widely used because of their strength, light weight, durability, and environmental resistance. However, their decomposition rates are significantly slower than their typical lifespans. The rapid and continuous increase in plastic consumption has caused severe environmental impacts due to the accumulation of plastic waste. We identified potential polyhydroxyalkanoate (PHA)-degrading bacteria from marine environments capable of producing extracellular PHA depolymerases crucial for biodegrading PHAs. Marine debris was collected to screen poly [(R)-3-hydroxybutyric acid] (P(3HB))-degrading bacteria. Six isolates showed the ability to produce clear zones surrounding their colonies by degrading the bioplastic P(3HB). The isolate SS1-2, exhibiting the greatest degradation index of 1.44, was chosen for optimization through the statistical technique. The results indicated that NH4Cl was the best nitrogen source for enzyme production, and the response surface methodology (RSM) suggested that the greatest P(3HB) depolymerase production could be achieved when the concentrations of substrate loading and NH4Cl both set at 0.5%. Analysis of the 16S rRNA sequence of isolate SS1-2 revealed similarity to Pseudooceanicola antarcticus CGMCC 1.12662 (97.81% similarity). The findings of this study indicate the potential for further exploitation of this depolymerase in enzyme kinetics studies and its application in PHA degradation experiments."
+    },
+    {
+        "pmid":  "16405909",
+        "title":  "The crystal structure of polyhydroxybutyrate depolymerase from Penicillium funiculosum provides insights into the recognition and degradation of biopolyesters.",
+        "authors":  [
+                        "Hisano T",
+                        "Kasuya K",
+                        "Tezuka Y",
+                        "Ishii N",
+                        "Kobayashi T",
+                        "Shiraki M",
+                        "Oroudjev E",
+                        "Hansma H",
+                        "Iwata T",
+                        "Doi Y",
+                        "Saito T",
+                        "Miki K"
+                    ],
+        "journal":  "Journal of molecular biology",
+        "pubdate":  "2006 Mar 03",
+        "doi":  null,
+        "abstract":  "Polyhydroxybutyrate is a microbial polyester that can be produced from renewable resources, and is degraded by the enzyme polyhydroxybutyrate depolymerase. The crystal structures of polyhydroxybutyrate depolymerase from Penicillium funiculosum and its S39 A mutant complexed with the methyl ester of a trimer substrate of (R)-3-hydroxybutyrate have been determined at resolutions of 1.71 A and 1.66 A, respectively. The enzyme is comprised of a single domain, which represents a circularly permuted variant of the alpha/beta hydrolase fold. The catalytic residues Ser39, Asp121, and His155 are located at topologically conserved positions. The main chain amide groups of Ser40 and Cys250 form an oxyanion hole. A crevice is formed on the surface of the enzyme, to which a single polymer chain can be bound by predominantly hydrophobic interactions with several hydrophobic residues. The structure of the S39A mutant-trimeric substrate complex reveals that Trp307 is responsible for the recognition of the ester group adjacent to the scissile group. It is also revealed that the substrate-binding site includes at least three, and possibly four, subsites for binding monomer units of polyester substrates. Thirteen hydrophobic residues, which are exposed to solvent, are aligned around the mouth of the crevice, forming a putative adsorption site for the polymer surface. These residues may contribute to the sufficient binding affinity of the enzyme for PHB granules without a distinct substrate-binding domain."
+    },
+    {
+        "pmid":  "9406404",
+        "title":  "Biochemical and molecular characterization of the polyhydroxybutyrate depolymerase of Comamonas acidovorans YM1609, isolated from freshwater.",
+        "authors":  [
+                        "Kasuya K",
+                        "Inoue Y",
+                        "Tanaka T",
+                        "Akehata T",
+                        "Iwata T",
+                        "Fukui T",
+                        "Doi Y"
+                    ],
+        "journal":  "Applied and environmental microbiology",
+        "pubdate":  "1997 Dec",
+        "doi":  null,
+        "abstract":  "Comamonas acidovorans YM1609 secreted a polyhydroxybutyrate (PHB) depolymerase into the culture supernatant when it was cultivated on poly(3-hydroxybutyrate) [P(3HB)] or poly(3-hydroxybutyrate-co-3-hydroxyvalerate) [P(3HB-co-3HV)] as the sole carbon source. The PHB depolymerase was purified from culture supernatant of C. acidovorans by two chromatographic methods, and its molecular mass was determined as 45,000 Da by polyacrylamide gel electrophoresis in the presence of sodium dodecyl sulfate. The enzyme was stable at temperatures below 37 degrees C and at pH values of 6 to 10, and its activity was inhibited by diisopropyl fluorophosphonate. The liquid chromatography analysis of water-soluble products revealed that the primary product of enzymatic hydrolysis of P(3HB) was a dimer of 3-hydroxybutyric acid. Kinetics of enzymatic hydrolysis of P(3HB) film were studied. In addition, a gene encoding the PHB depolymerase was cloned from the C. acidovorans genomic library. The nucleotide sequence of this gene was found to encode a protein of 494 amino acids (M(r), 51,018 Da). Furthermore, by analysis of the N-terminal amino acid sequence of the purified enzyme, the molecular mass of the mature enzyme was calculated to be 48,628 Da. Analysis of the deduced amino acid sequence suggested a domain structure of the protein containing a catalytic domain, fibronectin type III module as linker, and a putative substrate-binding domain. Electron microscopic visualization of the mixture of P(3HB) single crystals and a fusion protein of putative substrate-binding domain with glutathione S-transferase demonstrated that the fusion protein adsorbed strongly and homogeneously to the surfaces of P(3HB) single crystals."
+    },
+    {
+        "pmid":  "24907326",
+        "title":  "To be or not to be a poly(3-hydroxybutyrate) (PHB) depolymerase: PhaZd1 (PhaZ6) and PhaZd2 (PhaZ7) of Ralstonia eutropha, highly active PHB depolymerases with no detectable role in mobilization of accumulated PHB.",
+        "authors":  [
+                        "Sznajder A",
+                        "Jendrossek D"
+                    ],
+        "journal":  "Applied and environmental microbiology",
+        "pubdate":  "2014 Aug",
+        "doi":  "10.1128/AEM.01056-14",
+        "abstract":  "The putative physiological functions of two related intracellular poly(3-hydroxybutyrate) (PHB) depolymerases, PhaZd1 and PhaZd2, of Ralstonia eutropha H16 were investigated. Purified PhaZd1 and PhaZd2 were active with native PHB granules in vitro. Partial removal of the proteinaceous surface layer of native PHB granules by trypsin treatment or the use of PHB granules isolated from ΔphaP1 or ΔphaP1-phaP5 mutant strains resulted in increased specific PHB depolymerase activity, especially for PhaZd2. Constitutive expression of PhaZd1 or PhaZd2 reduced or even prevented the accumulation of PHB under PHB-permissive conditions in vivo. Expression of translational fusions of enhanced yellow fluorescent protein (EYFP) with PhaZd1 and PhaZd2 in which the active-site serines (S190 and Ser193) were replaced with alanine resulted in the colocalization of only PhaZd1 fusions with PHB granules. C-terminal fusions of inactive PhaZd2(S193A) with EYFP revealed the presence of spindle-like structures, and no colocalization with PHB granules was observed. Chromosomal deletion of phaZd1, phaZd2, or both depolymerase genes had no significant effect on PHB accumulation and mobilization during growth in nutrient broth (NB) or NB-gluconate medium. Moreover, neither proteome analysis of purified native PHB granules nor lacZ fusion studies gave any indication that PhaZd1 or PhaZd2 was detectably present in the PHB granule fraction or expressed at all during growth on NB-gluconate medium. In conclusion, PhaZd1 and PhaZd2 are two PHB depolymerases with a high capacity to degrade PHB when artificially expressed but are apparently not involved in PHB mobilization in the wild type. The true in vivo functions of PhaZd1 and PhaZd2 remain obscure."
+    },
+    {
+        "pmid":  "29678915",
+        "title":  "Poly(3-Hydroxybutyrate) (PHB) Polymerase PhaC1 and PHB Depolymerase PhaZa1 of Ralstonia eutropha Are Phosphorylated ",
+        "authors":  [
+                        "Juengert JR",
+                        "Patterson C",
+                        "Jendrossek D"
+                    ],
+        "journal":  "Applied and environmental microbiology",
+        "pubdate":  "2018 Jul 01",
+        "doi":  "10.1128/AEM.00604-18",
+        "abstract":  "In this study, we screened poly(3-hydroxybutyrate) (PHB) synthase PhaC1 and PHB depolymerase PhaZa1 of Ralstonia eutropha for the presence of phosphorylated residues during the PHB accumulation and PHB degradation phases. Thr373 of PHB synthase PhaC1 was phosphorylated during the stationary growth phase but was not modified during the exponential and PHB accumulation phases. Ser35 of PHB depolymerase PhaZa1 was identified in the phosphorylated form during both the exponential and stationary growth phases. Additional phosphosites were identified for both proteins in sample-dependent forms. Site-directed mutagenesis of the codon for Thr373 and other phosphosites of PhaC1 revealed a strong negative impact on PHB synthase activity. Modifications of Thr26 and Ser35 of PhaZa1 reduced the ability of R. eutropha to mobilize PHB in the stationary growth phase. Our results show that phosphorylation of PhaC1 and PhaZa1 can be important for the modulation of the activities of PHB synthase and PHB depolymerase.IMPORTANCE Poly(3-hydroxybutyrate) (PHB) and related polyhydroxyalkanoates (PHAs) are important intracellular carbon and energy storage compounds in many prokaryotes. The accumulation of PHB or PHAs increases the fitness of cells during periods of starvation and under other stress conditions. The simultaneous presence of PHB synthase (PhaC1) and PHB depolymerase (PhaZa1) on synthesized PHB granules in Ralstonia eutropha (alternative designation, Cupriavidus necator) was previously shown in several laboratories. These findings imply that the activities of PHB synthase and PHB depolymerase should be regulated to avoid a futile cycle of simultaneous synthesis and degradation of PHB. Here, we addressed this question by identifying the phosphorylation sites on PhaC1 and PhaZa1 and by site-directed mutagenesis of the identified residues. Furthermore, we conducted in vitro and in vivo analyses of PHB synthase activity and PHB contents."
+    },
+    {
+        "pmid":  "16936025",
+        "title":  "Identification and characterization of the Bacillus thuringiensis phaZ gene, encoding new intracellular poly-3-hydroxybutyrate depolymerase.",
+        "authors":  [
+                        "Tseng CL",
+                        "Chen HJ",
+                        "Shaw GC"
+                    ],
+        "journal":  "Journal of bacteriology",
+        "pubdate":  "2006 Nov",
+        "doi":  null,
+        "abstract":  "A gene that codes for a novel intracellular poly-3-hydroxybutyrate (PHB) depolymerase has now been identified in the genome of Bacillus thuringiensis subsp. israelensis ATCC 35646. This gene, previously annotated as a hypothetical 3-oxoadipate enol-lactonase (PcaD) gene and now designated phaZ, encodes a protein that shows no significant similarity with any known PHB depolymerase. Purified His-tagged PhaZ could efficiently degrade trypsin-activated native PHB granules as well as artificial amorphous PHB granules and release 3-hydroxybutyrate monomer as a hydrolytic product, but it could not hydrolyze denatured semicrystalline PHB. In contrast, purified His-tagged PcaD of Pseudomonas putida was unable to degrade trypsin-activated native PHB granules and artificial amorphous PHB granules. The B. thuringiensis PhaZ was inactive against p-nitrophenylpalmitate, tributyrin, and triolein. Sonication supernatants of the wild-type B. thuringiensis cells exhibited a PHB-hydrolyzing activity in vitro, whereas those prepared from a phaZ mutant lost this activity. The phaZ mutant showed a higher PHB content than the wild type at late stationary phase of growth in a nutrient-rich medium, indicating that this PhaZ can function as a PHB depolymerase in vivo. PhaZ contains a lipase box-like sequence (G-W-S(102)-M-G) but lacks a signal peptide. A purified His-tagged S102A variant had lost the PHB-hydrolyzing activity. Taken together, these results indicate that B. thuringiensis harbors a new type of intracellular PHB depolymerase."
+    },
+    {
+        "pmid":  "20346169",
+        "title":  "Identification and characterization of the intracellular poly-3-hydroxybutyrate depolymerase enzyme PhaZ of Sinorhizobium meliloti.",
+        "authors":  [
+                        "Trainer MA",
+                        "Capstick D",
+                        "Zachertowska A",
+                        "Lam KN",
+                        "Clark SR",
+                        "Charles TC"
+                    ],
+        "journal":  "BMC microbiology",
+        "pubdate":  "2010 Mar 27",
+        "doi":  "10.1186/1471-2180-10-92",
+        "abstract":  "BACKGROUND: S. meliloti forms indeterminate nodules on the roots of its host plant alfalfa (Medicago sativa). Bacteroids of indeterminate nodules are terminally differentiated and, unlike their non-terminally differentiated counterparts in determinate nodules, do not accumulate large quantities of Poly-3-hydroxybutyrate (PHB) during symbiosis. PhaZ is in intracellular PHB depolymerase; it represents the first enzyme in the degradative arm of the PHB cycle in S. meliloti and is the only enzyme in this half of the PHB cycle that remains uncharacterized.\nRESULTS: The S. meliloti phaZ gene was identified by in silico analysis, the ORF was cloned, and a S. meliloti phaZ mutant was constructed. This mutant exhibited increased PHB accumulation during free-living growth, even when grown under non-PHB-inducing conditions. The phaZ mutant demonstrated no reduction in symbiotic capacity; interestingly, analysis of the bacteroids showed that this mutant also accumulated PHB during symbiosis. This mutant also exhibited a decreased capacity to tolerate long-term carbon starvation, comparable to that of other PHB cycle mutants. In contrast to other PHB cycle mutants, the S. meliloti phaZ mutant did not exhibit any decrease in rhizosphere competitiveness; however, this mutant did exhibit a significant increase in succinoglycan biosynthesis.\nCONCLUSIONS: S. meliloti bacteroids retain the capacity to synthesize PHB during symbiosis; interestingly, accumulation does not occur at the expense of symbiotic performance. phaZ mutants are not compromised in their capacity to compete for nodulation in the rhizosphere, perhaps due to increased succinoglycan production resulting from upregulation of the succinoglycan biosynthetic pathway. The reduced survival capacity of free-living cells unable to access their accumulated stores of PHB suggests that PHB is a crucial metabolite under adverse conditions."
+    },
+    {
+        "pmid":  "12898135",
+        "title":  "Poly beta-hydroxybutyrate depolymerase (PhaZ) in Azospirillum brasilense and characterization of a phaZ mutant.",
+        "authors":  [
+                        "Kadouri D",
+                        "Jurkevitch E",
+                        "Okon Y"
+                    ],
+        "journal":  "Archives of microbiology",
+        "pubdate":  "2003 Nov",
+        "doi":  null,
+        "abstract":  "Like many other prokaryotes, rhizobacteria of the genus Azospirillum produce high levels of poly-beta-hydroxybutyrate (PHB) under sub-optimal growth conditions. Utilization of PHB by bacteria under stress has been proposed as a mechanism that favors their compatible establishment in competitive environments. PHB depolymerase (PhaZ) is an essential enzyme in PHB degradation. The phaZ gene was identified in Azospirillum brasilense, cloned, sequenced, and shown to be located on the chromosome. Insertion of a kanamycin-resistant cassette within phaZ of A. brasilense resulted in a phaZ mutant that was unable to degrade PHB; however, carbon source utilization was similar in both the wild-type and the mutant strain. The ability of the wild-type to endure starvation conditions, ultraviolet irradiation, heat, and osmotic shock, and to grow in the presence of hydrogen peroxide was higher than that of the mutant strain. By contrast, the ability of the phaZ mutant strain to endure desiccation was higher than that of the wild-type strain. No differences between the strains were seen in their ability to endure sonication, or to survive in carrier materials used for soil inoculants. In addition, motility was the same between the two strains, whereas cell aggregation and exopolysaccharide production were higher in the wild-type than in the phaZ mutant strain."
+    },
+    {
+        "pmid":  "19788655",
+        "title":  "The turnover of medium-chain-length polyhydroxyalkanoates in Pseudomonas putida KT2442 and the fundamental role of PhaZ depolymerase for the metabolic balance.",
+        "authors":  [
+                        "de Eugenio LI",
+                        "Escapa IF",
+                        "Morales V",
+                        "Dinjaski N",
+                        "Galán B",
+                        "García JL",
+                        "Prieto MA"
+                    ],
+        "journal":  "Environmental microbiology",
+        "pubdate":  "2010 Jan",
+        "doi":  "10.1111/j.1462-2920.2009.02061.x",
+        "abstract":  "Polyhydroxyalkanoates (PHAs) are biodegradable polymers produced by a wide range of bacteria, including Pseudomonads. These polymers are accumulated in the cytoplasm as carbon and energy storage materials when culture conditions are unbalanced and hence, they have been classically considered to act as sinks for carbon and reducing equivalents when nutrients are limited. Bacteria facing carbon excess and nutrient limitation store the extra carbon as PHAs through the PHA polymerase (PhaC). Thereafter, under starvation conditions, PHA depolymerase (PhaZ) degrades PHA and releases R-hydroxyalkanoic acids, which can be used as carbon and energy sources. To study the influence of a deficient PHA metabolism in the growth of Pseudomonas putida KT2442 we have constructed two mutant strains defective in PHA polymerase (phaC1)- and PHA depolymerase (phaZ)-coding genes respectively. By using these mutants we have demonstrated that PHAs play a fundamental role in balancing the stored carbon/biomass/number of cells as function of carbon availability, suggesting that PHA metabolism allows P. putida to adapt the carbon flux of hydroxyacyl-CoAs to cellular demand. Furthermore, we have established that the coordination of PHA synthesis and mobilization pathways configures a functional PHA turnover cycle in P. putida KT2442. Finally, a new strain able to secrete enantiomerically pure R-hydroxyalkanoic acids to the culture medium during cell growth has been engineering by redirecting the PHA cycle to biopolymer hydrolysis."
+    },
+    {
+        "pmid":  "17170116",
+        "title":  "Biochemical evidence that phaZ gene encodes a specific intracellular medium chain length polyhydroxyalkanoate depolymerase in Pseudomonas putida KT2442: characterization of a paradigmatic enzyme.",
+        "authors":  [
+                        "de Eugenio LI",
+                        "Garci A P",
+                        "Luengo JM",
+                        "Sanz JSM",
+                        "Roma N JS",
+                        "Garci A JL",
+                        "Prieto MAA"
+                    ],
+        "journal":  "The Journal of biological chemistry",
+        "pubdate":  "2007 Feb 16",
+        "doi":  "10.1074/jbc.M608119200",
+        "abstract":  "Polyhydroxyalkanoates (PHAs) can be catabolized by many microorganisms using intra- or extracellular PHA depolymerases. Most of our current knowledge of these intracellular enzyme-coding genes comes from the analysis of short chain length PHA depolymerases, whereas medium chain length PHA (mcl-PHA) intracellular depolymerization systems still remained to be characterized. The phaZ gene of some Pseudomonas putida strains has been identified only by mutagenesis and complementation techniques as putative intracellular mcl-PHA depolymerase. However, none of their corresponding encoded PhaZ enzymes have been characterized in depth. In this study the PhaZ depolymerase from P. putida KT2442 has been purified and biochemically characterized after its overexpression in Escherichia coli. To facilitate these studies we have developed a new and very sensitive radioactive method for detecting PHA hydrolysis in vitro. We have demonstrated that PhaZ is an intracellular depolymerase that is located in PHA granules and that hydrolyzes specifically mcl-PHAs containing aliphatic and aromatic monomers. The enzyme behaves as a serine hydrolase that is inhibited by phenylmethylsulfonyl fluoride. We have modeled the three-dimensional structure of PhaZ complexed with a 3-hydroxyoctanoate dimer. Using this model, we found that the enzyme appears to be built up from a corealpha/beta hydrolase-type domain capped with a lid structure with an active site containing a catalytic triad buried near the connection between domains. All these data constitute the first biochemical characterization of PhaZ and allow us to propose this enzyme as the paradigmatic representative of intracellular endo/exo-mcl-PHA depolymerases."
+    },
+    {
+        "pmid":  "19214501",
+        "title":  "An extracellular polyhydroxybutyrate depolymerase in Thermus thermophilus HB8.",
+        "authors":  [
+                        "Papaneophytou CP",
+                        "Pantazaki AA",
+                        "Kyriakidis DA"
+                    ],
+        "journal":  "Applied microbiology and biotechnology",
+        "pubdate":  "2009 Jun",
+        "doi":  "10.1007/s00253-008-1842-2",
+        "abstract":  "The thermophilic bacterium Thermus thermophilus HB8 has been characterized as a polyhydroxybutyrate (PHB)-degrading microorganism since it grows efficiently and forms clear zones on agar plates containing PHB as sole carbon source. T. thermophilus extracellular PHB depolymerase was purified to homogeneity using an affinity chromatography protocol. The purified enzyme was estimated to have an apparent molecular mass of 42 kDa. The extracellular PHB depolymerase gene was identified as the TTHA0199 gene product of T. thermophilus HB8. The amino acid sequence of the TTHA0199 gene product shared significant homologies to other carboxylesterases. A catalytic triad was identified consisting of S(183), E(310), and H(405). A pentapeptide sequence (GX(1)SX(2)G) exists within the molecule, characteristic for PHB depolymerases (lipase box) and for other serine hydrolases. Purified extracellular PHB depolymerase was stable at high temperatures with an optimum activity at pH 8.0. The apparent Km value of the purified enzyme for PHB was 53 microg/ml. As the main product of the enzymic hydrolysis of PHB, the monomer 3-hydroxybutyrate was identified, suggesting that the enzyme acts principally as an exo-type hydrolase."
+    },
+    {
+        "pmid":  "15489436",
+        "title":  "The \"intracellular\" poly(3-hydroxybutyrate) (PHB) depolymerase of Rhodospirillum rubrum is a periplasm-located protein with specificity for native PHB and with structural similarity to extracellular PHB depolymerases.",
+        "authors":  [
+                        "Handrick R",
+                        "Reinhardt S",
+                        "Kimmig P",
+                        "Jendrossek D"
+                    ],
+        "journal":  "Journal of bacteriology",
+        "pubdate":  "2004 Nov",
+        "doi":  null,
+        "abstract":  "Rhodospirillum rubrum possesses a putative intracellular poly(3-hydroxybutyrate) (PHB) depolymerase system consisting of a soluble PHB depolymerase, a heat-stable activator, and a 3-hydroxybutyrate dimer hydrolase (J. M. Merrick and M. Doudoroff, J. Bacteriol. 88:60-71, 1964). In this study we reinvestigated the soluble R. rubrum PHB depolymerase (PhaZ1). It turned out that PhaZ1 is a novel type of PHB depolymerase with unique properties. Purified PhaZ1 was specific for amorphous short-chain-length polyhydroxyalkanoates (PHA) such as native PHB, artificial PHB, and oligomer esters of (R)-3-hydroxybutyrate with 3 or more 3-hydroxybutyrate units. Atactic PHB, (S)-3-hydroxybutyrate oligomers, medium-chain-length PHA, and lipase substrates (triolein, tributyrin) were not hydrolyzed. The PHB depolymerase structural gene (phaZ1) was cloned. Its deduced amino acid sequence (37,704 Da) had no significant similarity to those of intracellular PHB depolymerases of Wautersia eutropha or of other PHB-accumulating bacteria. PhaZ1 was found to have strong amino acid homology with type-II catalytic domains of extracellular PHB depolymerases, and Ser(42), Asp(138), and His(178) were identified as catalytic-triad amino acids, with Ser(42) as the putative active site. Surprisingly, the first 23 amino acids of the PHB depolymerase previously assumed to be intracellular revealed features of classical signal peptides, and Edman sequencing of purified PhaZ1 confirmed the functionality of the predicted cleavage site. Extracellular PHB depolymerase activity was absent, and analysis of cell fractions unequivocally showed that PhaZ1 is a periplasm-located enzyme. The previously assumed intracellular activator/depolymerase system is unlikely to have a physiological function in PHB mobilization in vivo. A second gene, encoding the putative true intracellular PHB depolymerase (PhaZ2), was identified in the genome sequence of R. rubrum."
+    },
+    {
+        "pmid":  "23951224",
+        "title":  "Novel extracellular PHB depolymerase from Streptomyces ascomycinicus: PHB copolymers degradation in acidic conditions.",
+        "authors":  [
+                        "García-Hidalgo J",
+                        "Hormigo D",
+                        "Arroyo M",
+                        "de la Mata I"
+                    ],
+        "journal":  "PloS one",
+        "pubdate":  "2013",
+        "doi":  "10.1371/journal.pone.0071699",
+        "abstract":  "The ascomycin-producer strain Streptomyces ascomycinicus has been proven to be an extracellular poly(R)-3-hydroxybutyrate (PHB) degrader. The fkbU gene, encoding a PHB depolymerase (PhaZ Sa ), has been cloned in E. coli and Rhodococcus sp. T104 strains for gene expression. Gram-positive host Rhodococcus sp. T104 was able to produce and secrete to the extracellular medium an active protein form. PhaZ Sa was purified by two hydrophobic interaction chromatographic steps, and afterwards was biochemically as well as structurally characterized. The enzyme was found to be a monomer with a molecular mass of 48.4 kDa, and displayed highest activity at 45°C and pH 6, thus being the first PHB depolymerase from a gram-positive bacterium presenting an acidic pH optimum. The PHB depolymerase activity of PhaZ Sa was increased in the presence of divalent cations due to non-essential activation, and also in the presence of methyl-β-cyclodextrin and PEG 3350. Protein structure was analyzed, revealing a globular shape with an alpha-beta hydrolase fold. The amino acids comprising the catalytic triad, Ser(131)-Asp(209)-His(269), were identified by multiple sequence alignment, chemical modification of amino acids and site-directed mutagenesis. These structural results supported the proposal of a three-dimensional model for this depolymerase. PhaZ Sa was able to degrade PHB, but also demonstrated its ability to degrade films made of PHB, PHBV copolymers and a blend of PHB and starch (7∶3 proportion wt/wt). The features shown by PhaZ Sa make it an interesting candidate for industrial applications involving PHB degradation."
+    },
+    {
+        "pmid":  "41151231",
+        "title":  "Overexpression, biochemical characterization, and structural modeling of polyhydroxybutyrate depolymerase from Nocardiopsis dassonvillei.",
+        "authors":  [
+                        "Anjulal H",
+                        "Saha A",
+                        "Barvkar VT",
+                        "Pawar K",
+                        "Joshi M",
+                        "Zinjarde SS"
+                    ],
+        "journal":  "Enzyme and microbial technology",
+        "pubdate":  "2026 Feb",
+        "doi":  "10.1016/j.enzmictec.2025.110767",
+        "abstract":  "The ability of Nocardiopsis dassonvillei NCIM 5124 to synthesize polyhydroxybutyrate depolymerase (PHBD) was recently reported. In this investigation, in vitro codon optimized gene synthesis, overexpression, and biochemical characterization of this enzyme along with molecular docking studies are presented. The sequence of the PHBD was inserted in pET-28a(+) along with the PelB_Signal and His6 tag to generate the recombinant vector pET-Nd-pelB_PHBD. The transformed Escherichia coli BL21(DE3) could produce active PHBD. This enzyme was purified using Ni-NTA affinity chromatography, producing a product with a molecular weight of roughly 50 kDa. The optimum temperature and pH of the recombinant enzyme were 35°C and 8.0, respectively. Triton X100 and Tween 20 inhibited the enzyme activity by 90 %, indicating the role of hydrophobic residues in the active site of the enzyme, as also noted during docking studies. On the basis of the Michaelis-Menten equation, apparent Km and Vmax of recombinant PHBD were found to be 1.782 mg/mL and 4.79 U/mL/min, respectively. Molecular docking studies indicated that the hydrophobic amino acids Cys 39, Ala 40, Cys 77, Phe 158, Met 161, Val 201, Ala 272, and Tyr 273 present in the catalytic site were providing the necessary hydrophobic environment for binding of the ligand. The purified enzyme could also degrade films of PHB and poly (3-hydroxybutyrate-co-3-hydroxyvalerate-co-3-hydroxyhexanoate (PHBVH). As far as we are aware, this is the first report on the overexpression of PHBD from Nocardiopsis sp."
+    },
+    {
+        "pmid":  "34342882",
+        "title":  "PHA granule formation and degradation by Cupriavidus necator under different nutritional conditions.",
+        "authors":  [
+                        "Nygaard D",
+                        "Yashchuk O",
+                        "Hermida ÉB"
+                    ],
+        "journal":  "Journal of basic microbiology",
+        "pubdate":  "2021 Sep",
+        "doi":  "10.1002/jobm.202100184",
+        "abstract":  "Polyhydroxyalkanoates (PHA) are polymers produced by microorganisms with increasing commercialization potential; Cupriavidus necator has been the model microorganism to research PHA production. Despite many contributions concerning the formation and degradation of PHA granules, as well as the morphological changes in cells, these phenomena have not been univocally explained yet. Thus, this study aims to integrate the microscopic and analytical analysis to characterize changes in bacterial cell/PHA granules morphology, PHA content, and yield coefficients under different cultivation strategies of C. necator ATCC 17697. The cell size and morphology, granule size and amount, residual biomass, and PHA concentration along the fermentation and degradation depend greatly on nutritional conditions and cultivation time of C. necator. It was proposed to calculate a yield coefficient for the residual biomass production in the PHA utilization stage, related to the bacteria\u0027s ability to survive without a carbon source in the culture medium by utilizing the accumulated PHA previously. Maximum granule length reached 1.07 µm after 72 h of PHA accumulation stage under optimum nutritional conditions. This value is twice the values previously reported for C. necator. It is important since the larger PHA granules facilitate the recovery of PHA and different application development."
+    },
+    {
+        "pmid":  "38969063",
+        "title":  "Elucidating regulation of polyhydroxyalkanoate metabolism in Ralstonia eutropha: Identification of transcriptional regulators from phasin and depolymerase genes.",
+        "authors":  [
+                        "Santolin L",
+                        "Eichenroth RSJ",
+                        "Cornehl P",
+                        "Wortmann H",
+                        "Forbrig C",
+                        "Schulze A",
+                        "Haq IU",
+                        "Brantl S",
+                        "Rappsilber J",
+                        "Riedel SL",
+                        "Neubauer P",
+                        "Gimpel M"
+                    ],
+        "journal":  "The Journal of biological chemistry",
+        "pubdate":  "2024 Aug",
+        "doi":  "10.1016/j.jbc.2024.107523",
+        "abstract":  "Despite the ever-growing research interest in polyhydroxyalkanoates (PHAs) as green plastic alternatives, our understanding of the regulatory mechanisms governing PHA synthesis, storage, and degradation in the model organism Ralstonia eutropha remains limited. Given its importance for central carbon metabolism, PHA homeostasis is probably controlled by a complex network of transcriptional regulators. Understanding this fine-tuning is the key for developing improved PHA production strains thereby boosting the application of PHAs. We conducted promoter pull-down assays with crude protein extracts from R. eutropha Re2058/pCB113, followed by liquid chromatography with tandem mass spectrometry, to identify putative transcriptional regulators involved in the expression control of PHA metabolism, specifically targeting phasin phaP1 and depolymerase phaZ3 and phaZ5 genes. The impact on promoter activity was studied in vivo using β-galactosidase assays and the most promising candidates were heterologously produced in Escherichia coli, and their interaction with the promoters investigated in vitro by electrophoretic mobility shift assays. We could show that R. eutropha DNA-binding xenobiotic response element-family-like protein H16_B1672, specifically binds the phaP1 promoter in vitro with a KD of 175 nM and represses gene expression from this promoter in vivo. Protein H16_B1672 also showed interaction with both depolymerase promoters in vivo and in vitro suggesting a broader role in the regulation of PHA metabolism. Furthermore, in vivo assays revealed that the H-NS-like DNA-binding protein H16_B0227 and the peptidyl-prolyl cis-trans isomerase PpiB, strongly repress gene expression from PphaP1 and PphaZ3, respectively. In summary, this study provides new insights into the regulation of PHA metabolism in R. eutropha, uncovering specific interactions of novel transcriptional regulators."
+    },
+    {
+        "pmid":  "26409775",
+        "title":  "The \u0027PHAome\u0027.",
+        "authors":  [
+                        "Chen GQ",
+                        "Hajnal I"
+                    ],
+        "journal":  "Trends in biotechnology",
+        "pubdate":  "2015 Oct",
+        "doi":  "10.1016/j.tibtech.2015.07.006",
+        "abstract":  "Polyhydroxyalkanoates (PHAs) are a family of polyesters synthesized by bacteria. Similarly to the genome, transcriptome, and proteome (the entire array of nucleic acids and proteins present in a cell or population of cells at a given time), the PHA spectrum exhibits diverse and dynamic modifications - the \u0027PHAome\u0027 - reflecting not only by the diversity of monomers, homopolymers, random and block copolymers, functional and graft polymers, molecular weights, and combinations of the above, but also the ranges of PHAs with various molecular weights and monomer ratios that are present at a particular timepoint in a bacterial cell. Echoing the Materials Genome Initiative (MGI) launched in 2011 to develop an infrastructure to accelerate advanced materials discovery and deployment, understanding the PHAome and ensuring an ample supply of PHAs based on it will promote the discovery of new properties and applications of this family of advanced materials."
+    }
+]

@@ -1,0 +1,3476 @@
+{
+  "hitCount": 16,
+  "nextCursorMark": "AoIIP9MnpCgyOTE2NTIyOA==",
+  "results": [
+    {
+      "id": "38814058",
+      "source": "MED",
+      "pmid": "38814058",
+      "pmcid": "PMC11218638",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC11218638"
+        ]
+      },
+      "doi": "10.1128/aem.00571-24",
+      "title": "Transcriptomic profiling of haloarchaeal denitrification through RNA-Seq analysis.",
+      "authorString": "Miralles-Robledillo JM, Mart\u00ednez-Espinosa RM, Pire C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Miralles-Robledillo JM",
+            "firstName": "Jose Mar\u00eda",
+            "lastName": "Miralles-Robledillo",
+            "initials": "JM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0471-373X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biochemistry, Molecular Biology, Edaphology and Agricultural Chemistry Department, Faculty of Sciences, Universitat d'Alacant, Alicante, Spain."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mart\u00ednez-Espinosa RM",
+            "firstName": "Rosa Mar\u00eda",
+            "lastName": "Mart\u00ednez-Espinosa",
+            "initials": "RM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2679-135X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biochemistry, Molecular Biology, Edaphology and Agricultural Chemistry Department, Faculty of Sciences, Universitat d'Alacant, Alicante, Spain."
+                },
+                {
+                  "affiliation": "Multidisciplinary Institute for Environmental Studies \"Ram\u00f3n Margalef\", University of Alicante, Alicante, Spain."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pire C",
+            "firstName": "Carmen",
+            "lastName": "Pire",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8956-4851"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biochemistry, Molecular Biology, Edaphology and Agricultural Chemistry Department, Faculty of Sciences, Universitat d'Alacant, Alicante, Spain."
+                },
+                {
+                  "affiliation": "Multidisciplinary Institute for Environmental Studies \"Ram\u00f3n Margalef\", University of Alicante, Alicante, Spain."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8956-4851"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0471-373X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2679-135X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data",
+          "related_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "6",
+        "volume": "90",
+        "journalIssueId": 3787678,
+        "dateOfPublication": "2024 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2024,
+        "printPublicationDate": "2024-06-01",
+        "journal": {
+          "title": "Applied and environmental microbiology",
+          "medlineAbbreviation": "Appl Environ Microbiol",
+          "isoabbreviation": "Appl Environ Microbiol",
+          "nlmid": "7605801",
+          "essn": "1098-5336",
+          "issn": "0099-2240"
+        }
+      },
+      "pubYear": "2024",
+      "pageInfo": "e0057124",
+      "abstractText": "Denitrification, a crucial biochemical pathway prevalent among haloarchaea in hypersaline ecosystems, has garnered considerable attention in recent years due to its ecological implications. Nevertheless, the underlying molecular mechanisms and genetic regulation governing this respiration/detoxification process in haloarchaea remain largely unexplored. In this study, RNA-sequencing was used to compare the transcriptomes of the haloarchaeon <i>Haloferax mediterranei</i> under oxic and denitrifying conditions, shedding light on the intricate metabolic alterations occurring within the cell, such as the accurate control of the metal homeostasis. Furthermore, the investigation identifies several genes encoding transcriptional regulators and potential accessory proteins with putative roles in denitrification. Among these are bacterioopsin-like transcriptional activators, proteins harboring a domain of unknown function (DUF2249), and cyanoglobin. In addition, the study delves into the genetic regulation of denitrification, finding a regulatory motif within promoter regions that activates numerous denitrification-related genes. This research serves as a starting point for future molecular biology studies in haloarchaea, offering a promising avenue to unravel the intricate mechanisms governing haloarchaeal denitrification, a pathway of paramount ecological importance.IMPORTANCEDenitrification, a fundamental process within the nitrogen cycle, has been subject to extensive investigation due to its close association with anthropogenic activities, and its contribution to the global warming issue, mainly through the release of N<sub>2</sub>O emissions. Although our comprehension of denitrification and its implications is generally well established, most studies have been conducted in non-extreme environments with mesophilic microorganisms. Consequently, there is a significant knowledge gap concerning extremophilic denitrifiers, particularly those inhabiting hypersaline environments. The significance of this research was to delve into the process of haloarchaeal denitrification, utilizing the complete denitrifier haloarchaeon <i>Haloferax mediterranei</i> as a model organism. This research led to the analysis of the metabolic state of this microorganism under denitrifying conditions and the identification of regulatory signals and genes encoding proteins potentially involved in this pathway, serving as a valuable resource for future molecular studies.",
+      "affiliation": "Biochemistry, Molecular Biology, Edaphology and Agricultural Chemistry Department, Faculty of Sciences, Universitat d'Alacant, Alicante, Spain.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "PROMETEO/2021/055",
+            "agency": "GVA | Conselleria de Innovaci\u00f3n, Universidades, Ciencia y Sociedad Digital, Generalitat Valenciana",
+            "orderIn": 0
+          },
+          {
+            "grantId": "VIGROB-309",
+            "agency": "Universidad de Alicante",
+            "orderIn": 0
+          },
+          {
+            "grantId": "VIGROB-309",
+            "agency": "Universidad de Alicante (Universitat d'Alacant)",
+            "orderIn": 0
+          },
+          {
+            "grantId": "PROMETEO/2021/055",
+            "agency": "GVA | Conselleria de Innovaci\u00f3n, Universidades, Ciencia y Sociedad Digital, Generalitat Valenciana (CIUCSD)",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Haloferax mediterranei",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Archaeal Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Gene Expression Profiling"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gene Expression Regulation, Archaeal"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Denitrification",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Transcriptome"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "RNA-Seq"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Denitrification",
+          "Transcriptional regulation",
+          "Transcriptomics",
+          "Haloarchaea",
+          "Haloferax Mediterranei"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Archaeal Proteins",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1128/aem.00571-24"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11218638"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11218638?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 4,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2024-06-18",
+      "dateOfCreation": "2024-05-30",
+      "firstIndexDate": "2024-05-31",
+      "fullTextReceivedDate": "2025-02-03",
+      "dateOfRevision": "2024-09-24",
+      "electronicPublicationDate": "2024-05-30",
+      "firstPublicationDate": "2024-05-30"
+    },
+    {
+      "id": "38969063",
+      "source": "MED",
+      "pmid": "38969063",
+      "pmcid": "PMC11332829",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC11332829"
+        ]
+      },
+      "doi": "10.1016/j.jbc.2024.107523",
+      "title": "Elucidating regulation of polyhydroxyalkanoate metabolism in Ralstonia eutropha: Identification of transcriptional regulators from phasin and depolymerase genes.",
+      "authorString": "Santolin L, Eichenroth RSJ, Cornehl P, Wortmann H, Forbrig C, Schulze A, Haq IU, Brantl S, Rappsilber J, Riedel SL, Neubauer P, Gimpel M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Santolin L",
+            "firstName": "Lara",
+            "lastName": "Santolin",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1056-1357"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Technische Universit\u00e4t Berlin, Chair of Bioprocess Engineering, Berlin, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Eichenroth RSJ",
+            "firstName": "Rosalie Sandra Josianne",
+            "lastName": "Eichenroth",
+            "initials": "RSJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Technische Universit\u00e4t Berlin, Chair of Bioprocess Engineering, Berlin, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cornehl P",
+            "firstName": "Paul",
+            "lastName": "Cornehl",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Technische Universit\u00e4t Berlin, Chair of Bioprocess Engineering, Berlin, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wortmann H",
+            "firstName": "Henrike",
+            "lastName": "Wortmann",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Technische Universit\u00e4t Berlin, Chair of Bioprocess Engineering, Berlin, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Forbrig C",
+            "firstName": "Christian",
+            "lastName": "Forbrig",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Technische Universit\u00e4t Berlin, Chair of Bioanalytics, Berlin, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schulze A",
+            "firstName": "Anne",
+            "lastName": "Schulze",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Technische Universit\u00e4t Berlin, Chair of Bioanalytics, Berlin, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Haq IU",
+            "firstName": "Inam Ul",
+            "lastName": "Haq",
+            "initials": "IU",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Matthias-Schleiden-Institut f\u00fcr Genetik, Bioinformatik und Molekulare Botanik, AG Bakteriengenetik, Friedrich-Schiller-Universit\u00e4t Jena, Jena, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brantl S",
+            "firstName": "Sabine",
+            "lastName": "Brantl",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Matthias-Schleiden-Institut f\u00fcr Genetik, Bioinformatik und Molekulare Botanik, AG Bakteriengenetik, Friedrich-Schiller-Universit\u00e4t Jena, Jena, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rappsilber J",
+            "firstName": "Juri",
+            "lastName": "Rappsilber",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Technische Universit\u00e4t Berlin, Chair of Bioanalytics, Berlin, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Riedel SL",
+            "firstName": "Sebastian Lothar",
+            "lastName": "Riedel",
+            "initials": "SL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Technische Universit\u00e4t Berlin, Chair of Bioprocess Engineering, Berlin, Germany; Berliner Hochschule f\u00fcr Technik, Environmental and Bioprocess Engineering Laboratory, Berlin, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Neubauer P",
+            "firstName": "Peter",
+            "lastName": "Neubauer",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1214-9713"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Technische Universit\u00e4t Berlin, Chair of Bioprocess Engineering, Berlin, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gimpel M",
+            "firstName": "Matthias",
+            "lastName": "Gimpel",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Technische Universit\u00e4t Berlin, Chair of Bioprocess Engineering, Berlin, Germany. Electronic address: matthias.gimpel@tu-berlin.de."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1214-9713"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1056-1357"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data",
+          "related_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "8",
+        "volume": "300",
+        "journalIssueId": 3808477,
+        "dateOfPublication": "2024 Aug",
+        "monthOfPublication": 8,
+        "yearOfPublication": 2024,
+        "printPublicationDate": "2024-08-01",
+        "journal": {
+          "title": "The Journal of biological chemistry",
+          "medlineAbbreviation": "J Biol Chem",
+          "isoabbreviation": "J Biol Chem",
+          "nlmid": "2985121R",
+          "essn": "1083-351X",
+          "issn": "0021-9258"
+        }
+      },
+      "pubYear": "2024",
+      "pageInfo": "107523",
+      "abstractText": "Despite the ever-growing research interest in polyhydroxyalkanoates (PHAs) as green plastic alternatives, our understanding of the regulatory mechanisms governing PHA synthesis, storage, and degradation in the model organism Ralstonia eutropha remains limited. Given its importance for central carbon metabolism, PHA homeostasis is probably controlled by a complex network of transcriptional regulators. Understanding this fine-tuning is the key for developing improved PHA production strains thereby boosting the application of PHAs. We conducted promoter pull-down assays with crude protein extracts from R.\u00a0eutropha Re2058/pCB113, followed by liquid chromatography with tandem mass spectrometry, to identify putative transcriptional regulators involved in the expression control of PHA metabolism, specifically targeting phasin phaP1 and depolymerase phaZ3 and phaZ5 genes. The impact on promoter activity was studied in\u00a0vivo using \u03b2-galactosidase assays and the most promising candidates were heterologously produced in Escherichia coli, and their interaction with the promoters investigated in\u00a0vitro by electrophoretic mobility shift assays. We could show that R.\u00a0eutropha DNA-binding xenobiotic response element-family-like protein H16_B1672, specifically binds the phaP1 promoter in\u00a0vitro with a K<sub>D</sub> of 175\u00a0nM and represses gene expression from this promoter in\u00a0vivo. Protein H16_B1672 also showed interaction with both depolymerase promoters in\u00a0vivo and in\u00a0vitro suggesting a broader role in the regulation of PHA metabolism. Furthermore, in\u00a0vivo assays revealed that the H-NS-like DNA-binding protein H16_B0227 and the peptidyl-prolyl cis-trans isomerase PpiB, strongly repress gene expression from PphaP1 and PphaZ3, respectively. In summary, this study provides new insights into the regulation of PHA metabolism in R.\u00a0eutropha, uncovering specific interactions of novel transcriptional regulators.",
+      "affiliation": "Technische Universit\u00e4t Berlin, Chair of Bioprocess Engineering, Berlin, Germany.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Federal Ministry of Education and Research Berlin Office",
+            "orderIn": 0
+          },
+          {
+            "grantId": "BR1552/14-1",
+            "agency": "Bundesministerium f\u00fcr Bildung und Forschung",
+            "orderIn": 0
+          },
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "orderIn": 0
+          },
+          {
+            "grantId": "031B0833A",
+            "agency": "Bundesministerium f\u00fcr Bildung und Forschung",
+            "orderIn": 0
+          },
+          {
+            "agency": "Massachusetts Institute of Technology",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Carboxylic Ester Hydrolases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Bacterial Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plant Lectins"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Transcription Factors",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Gene Expression Regulation, Bacterial"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Cupriavidus necator",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Polyhydroxyalkanoates",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "BI",
+                  "qualifierName": "biosynthesis",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Promoter Regions, Genetic"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Gene regulation",
+          "Transcription factors",
+          "Ralstonia eutropha",
+          "Polyhydroxyalkanoates",
+          "Phasins",
+          "Depolymerases"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "phasin",
+            "registryNumber": "1392-87-6"
+          },
+          {
+            "name": "poly(3-hydroxyalkanoic acid) depolymerase",
+            "registryNumber": "EC 3.1.1.-"
+          },
+          {
+            "name": "Plant Lectins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Bacterial Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Transcription Factors",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Carboxylic Ester Hydrolases",
+            "registryNumber": "EC 3.1.1.-"
+          },
+          {
+            "name": "Polyhydroxyalkanoates",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/j.jbc.2024.107523"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11332829"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11332829?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 2,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "PRIDE"
+        ]
+      },
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "pxd"
+        ]
+      },
+      "dateOfCompletion": "2024-09-04",
+      "dateOfCreation": "2024-07-05",
+      "firstIndexDate": "2024-07-07",
+      "fullTextReceivedDate": "2024-08-23",
+      "dateOfRevision": "2025-06-12",
+      "electronicPublicationDate": "2024-07-04",
+      "firstPublicationDate": "2024-07-04"
+    },
+    {
+      "id": "PMC11205408",
+      "source": "PMC",
+      "pmcid": "PMC11205408",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC11205408"
+        ]
+      },
+      "title": "Bioplastic Production from Agri-Food Waste through the Use of Haloferax mediterranei: A Comprehensive Initial Overview",
+      "authorString": "Longo A, Fanelli F, Villano M, Montemurro M, Rizzello C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Longo A",
+            "firstName": "Angela",
+            "lastName": "Longo",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Environmental Biology, Sapienza University of Rome, 00185 Rome, Italy; (A.L.); (C.G.R.)"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fanelli F",
+            "firstName": "Francesca",
+            "lastName": "Fanelli",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Sciences of Food Production (CNR-ISPA), National Research Council of Italy, 70126 Bari, Italy;"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Villano M",
+            "firstName": "Marianna",
+            "lastName": "Villano",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Sapienza University of Rome, 00185 Rome, Italy;"
+                },
+                {
+                  "affiliation": "Research Center for Applied Sciences to the Safeguard of Environment and Cultural Heritage (CIABC), Sapienza University of Rome, 00185 Rome, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Montemurro M",
+            "firstName": "Marco",
+            "lastName": "Montemurro",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Sciences of Food Production (CNR-ISPA), National Research Council of Italy, 70126 Bari, Italy;"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rizzello C",
+            "firstName": "Carlo Giuseppe",
+            "lastName": "Rizzello",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Environmental Biology, Sapienza University of Rome, 00185 Rome, Italy; (A.L.); (C.G.R.)"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "6",
+        "volume": "12",
+        "journalIssueId": 3790813,
+        "dateOfPublication": "2024 May",
+        "monthOfPublication": 5,
+        "yearOfPublication": 2024,
+        "printPublicationDate": "2024-05-01",
+        "journal": {
+          "title": "Microorganisms",
+          "medlineAbbreviation": "Microorganisms",
+          "isoabbreviation": "Microorganisms",
+          "nlmid": "101625893",
+          "essn": "2076-2607",
+          "issn": "2076-2607"
+        }
+      },
+      "pubYear": "2024",
+      "language": "eng",
+      "pubModel": "Undetermined",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "PIANO NAZIONALE DI RIPRESA E RESILIENZA (PNRR)\u2014MISSIONE 4 COMPONENTE 2, INVESTIMENTO 1.4\u2014D.D. 1032 17/06/2022, CN00000022",
+            "agency": "European Union Next-GenerationEU",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Bioreactor",
+          "Bioplastics",
+          "Polyhydroxyalkanoates",
+          "Haloferax Mediterranei",
+          "Agri-food Waste"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "PubMedCentral",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11205408/?tool=EBI"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "PubMedCentral",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11205408/pdf/?tool=EBI"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11205408"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11205408?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 0,
+      "hasData": "N",
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-06-28",
+      "firstIndexDate": "2024-06-28",
+      "fullTextReceivedDate": "2024-06-28",
+      "dateOfRevision": "2024-06-29",
+      "electronicPublicationDate": "2024-05-21",
+      "firstPublicationDate": "2024-05-21"
+    },
+    {
+      "id": "40219244",
+      "source": "MED",
+      "pmid": "40219244",
+      "pmcid": "PMC11991626",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC11991626"
+        ]
+      },
+      "doi": "10.3390/polym17070853",
+      "title": "Toward Sustainable Polyhydroxyalkanoates: A Next-Gen Biotechnology Approach.",
+      "authorString": "Kalia VC, Singh RV, Gong C, Lee JK.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kalia VC",
+            "firstName": "Vipin Chandra",
+            "lastName": "Kalia",
+            "initials": "VC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7892-2601"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical Engineering, Konkuk University, 120 Neungdong-ro, Gwangjin-gu, Seoul 05029, Republic of Korea."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Singh RV",
+            "firstName": "Rahul Vikram",
+            "lastName": "Singh",
+            "initials": "RV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5724-719X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical Engineering, Konkuk University, 120 Neungdong-ro, Gwangjin-gu, Seoul 05029, Republic of Korea."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gong C",
+            "firstName": "Chunjie",
+            "lastName": "Gong",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2198-6342"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cooperative Innovation Center of Industrial Fermentation (Ministry of Education & Hubei Province), Key Laboratory of Fermentation Engineering (Ministry of Education), National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan 430068, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lee JK",
+            "firstName": "Jung-Kul",
+            "lastName": "Lee",
+            "initials": "JK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7384-5301"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical Engineering, Konkuk University, 120 Neungdong-ro, Gwangjin-gu, Seoul 05029, Republic of Korea."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7384-5301"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7892-2601"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5724-719X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2198-6342"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "7",
+        "volume": "17",
+        "journalIssueId": 3929104,
+        "dateOfPublication": "2025 Mar",
+        "monthOfPublication": 3,
+        "yearOfPublication": 2025,
+        "printPublicationDate": "2025-03-01",
+        "journal": {
+          "title": "Polymers",
+          "medlineAbbreviation": "Polymers (Basel)",
+          "isoabbreviation": "Polymers (Basel)",
+          "nlmid": "101545357",
+          "essn": "2073-4360",
+          "issn": "2073-4360"
+        }
+      },
+      "pubYear": "2025",
+      "pageInfo": "853",
+      "abstractText": "Polyhydroxyalkanoates (PHAs) are biodegradable biopolymers synthesized by microorganisms and serve as sustainable alternatives to petroleum-based plastics. While traditional PHA production relies on refined carbon sources and pure cultures, high costs and scalability challenges limit commercial viability. Extremophiles, particularly halophiles, have emerged as promising candidates for cost-effective, large-scale production of PHAs. Their ability to thrive in extreme environments reduces contamination risks, minimizes the need for sterilization, and lowers operational costs. Advancements in metabolic engineering, synthetic biology, and CRISPR-based genome editing have enhanced PHA yields by optimizing metabolic flux and cell morphology. Additionally, utilizing alternative feedstocks such as biowaste, syngas, methane, and CO\u2082 improves economic feasibility. Next-generation industrial biotechnology integrates extremophilic microbes with AI-driven fermentation and eco-friendly downstream processing to enhance scalability. Industrial-scale production of PHAs using <i>Halomonas</i> spp. and other extremophiles demonstrates significant progress toward commercialization, paving the way for sustainable biopolymer applications in reducing plastic pollution.",
+      "affiliation": "Department of Chemical Engineering, Konkuk University, 120 Neungdong-ro, Gwangjin-gu, Seoul 05029, Republic of Korea.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "2022M3A9I3082366",
+            "agency": "National Research Foundation of Korea",
+            "orderIn": 0
+          },
+          {
+            "grantId": "2022M3A9I5015091",
+            "agency": "Ministry of Science, ICT, and Future Planning",
+            "orderIn": 0
+          },
+          {
+            "grantId": "RS-2024-00440681",
+            "agency": "National Research Foundation of Korea",
+            "orderIn": 0
+          },
+          {
+            "grantId": "2022M3A9I3082366",
+            "agency": "Basic Science Research Program through the National Research Foundation of Korea (NRF)",
+            "orderIn": 0
+          },
+          {
+            "grantId": "RS-2024-00351665",
+            "agency": "National Research Foundation of Korea",
+            "orderIn": 0
+          },
+          {
+            "grantId": "RS-2024-00440681",
+            "agency": "Ministry of Science, ICT, and Future Planning",
+            "orderIn": 0
+          },
+          {
+            "grantId": "2022M3A9I5015091",
+            "agency": "National Research Foundation of Korea",
+            "orderIn": 0
+          },
+          {
+            "grantId": "RS-2024-00351665",
+            "agency": "Basic Science Research Program through the National Research Foundation of Korea (NRF)",
+            "orderIn": 0
+          },
+          {
+            "grantId": "RS-2024-00440681",
+            "agency": "Basic Science Research Program through the National Research Foundation of Korea (NRF)",
+            "orderIn": 0
+          },
+          {
+            "grantId": "2022M3A9I3082366",
+            "agency": "Ministry of Science, ICT, and Future Planning",
+            "orderIn": 0
+          },
+          {
+            "grantId": "2022M3A9I5015091",
+            "agency": "Basic Science Research Program through the National Research Foundation of Korea (NRF)",
+            "orderIn": 0
+          },
+          {
+            "grantId": "RS-2024-00351665",
+            "agency": "Ministry of Science, ICT, and Future Planning",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "green technology",
+          "industrial biotechnology",
+          "polymers",
+          "Extremophiles",
+          "Polyhydroxyalkanoates",
+          "Environmental Sustainability",
+          "Industrial Waste Valorization"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3390/polym17070853"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11991626"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC11991626?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 7,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-04-12",
+      "firstIndexDate": "2025-04-13",
+      "fullTextReceivedDate": "2025-12-03",
+      "dateOfRevision": "2025-04-14",
+      "electronicPublicationDate": "2025-03-22",
+      "firstPublicationDate": "2025-03-22"
+    },
+    {
+      "id": "38540940",
+      "source": "MED",
+      "pmid": "38540940",
+      "pmcid": "PMC10970112",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC10970112"
+        ]
+      },
+      "doi": "10.3390/foods13060950",
+      "title": "Production of Polyhydroxyalkanoates for Biodegradable Food Packaging Applications Using <i>Haloferax mediterranei</i> and Agrifood Wastes.",
+      "authorString": "Atar\u00e9s L, Chiralt A, Gonz\u00e1lez-Mart\u00ednez C, Vargas M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Atar\u00e9s L",
+            "firstName": "Lorena",
+            "lastName": "Atar\u00e9s",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Instituto de Ingenier\u00eda de Alimentos-FoodUPV, Universtitat Polit\u00e8cnica de Val\u00e8ncia, 46022 Valencia, Spain."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chiralt A",
+            "firstName": "Amparo",
+            "lastName": "Chiralt",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Instituto de Ingenier\u00eda de Alimentos-FoodUPV, Universtitat Polit\u00e8cnica de Val\u00e8ncia, 46022 Valencia, Spain."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gonz\u00e1lez-Mart\u00ednez C",
+            "firstName": "Chelo",
+            "lastName": "Gonz\u00e1lez-Mart\u00ednez",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9993-8303"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Instituto de Ingenier\u00eda de Alimentos-FoodUPV, Universtitat Polit\u00e8cnica de Val\u00e8ncia, 46022 Valencia, Spain."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vargas M",
+            "firstName": "Maria",
+            "lastName": "Vargas",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6024-0952"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Instituto de Ingenier\u00eda de Alimentos-FoodUPV, Universtitat Polit\u00e8cnica de Val\u00e8ncia, 46022 Valencia, Spain."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6024-0952"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9993-8303"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "6",
+        "volume": "13",
+        "journalIssueId": 3746226,
+        "dateOfPublication": "2024 Mar",
+        "monthOfPublication": 3,
+        "yearOfPublication": 2024,
+        "printPublicationDate": "2024-03-01",
+        "journal": {
+          "title": "Foods (Basel, Switzerland)",
+          "medlineAbbreviation": "Foods",
+          "isoabbreviation": "Foods",
+          "nlmid": "101670569",
+          "essn": "2304-8158",
+          "issn": "2304-8158"
+        }
+      },
+      "pubYear": "2024",
+      "pageInfo": "950",
+      "abstractText": "Polyhydroxyalkanoates (PHAs) are high-value biodegradable polyesters with thermoplastic properties used in the manufacturing of different products such as packaging films. PHAs have gained much attention from researchers and industry because of their biobased nature and appropriate features, similar to conventional synthetic plastics. This review aims to discuss some of the recent solutions to challenges associated with PHA production. The implementation of a cost-effective process is presented by following different strategies, such as the use of inexpensive carbon sources, the selection of high-producing microorganisms, and the functionalization of the final materials to make them suitable for food packaging applications, among others. Research efforts are needed to improve the economic viability of PHA production at a large scale. <i>Haloferax mediterranei</i> is a promising producer of PHAs due to its ability to grow in non-sterile conditions and the possibility of using seawater to prepare the growth medium. Additionally, downstream processing for PHA extraction can be simplified by treating the <i>H. mediterranei</i> cells with pure water. Further research should focus on the optimization of the recycling conditions for the effluents and on the economic viability of the side streams reutilization and desalinization as an integrated part of PHA biotechnological production.",
+      "affiliation": "Instituto de Ingenier\u00eda de Alimentos-FoodUPV, Universtitat Polit\u00e8cnica de Val\u00e8ncia, 46022 Valencia, Spain.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "ID2022-140444OB-I00",
+            "agency": "Agencia Estatal de Investigaci\u00f3n of Spain",
+            "orderIn": 0
+          },
+          {
+            "grantId": "ID2022-140444OB-I00",
+            "agency": "Generalitat Valenciana",
+            "orderIn": 0
+          },
+          {
+            "grantId": "CIPROM/2021/071",
+            "agency": "Agencia Estatal de Investigaci\u00f3n of Spain",
+            "orderIn": 0
+          },
+          {
+            "grantId": "CIPROM/2021/071",
+            "agency": "Generalitat Valenciana",
+            "orderIn": 0
+          },
+          {
+            "grantId": "ID2022-140444OB-I00",
+            "agency": "Agencia Estatal de Investigaci\u00f3n",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Polyhydroxyalkanoate",
+          "Biodegradable Polymers",
+          "Food Packaging",
+          "Haloferax Mediterranei",
+          "Waste Valorization"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.mdpi.com/2304-8158/13/6/950/pdf?version=1711010746"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3390/foods13060950"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC10970112"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC10970112?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 24,
+      "hasData": "N",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-03-28",
+      "firstIndexDate": "2024-03-28",
+      "fullTextReceivedDate": "2024-03-30",
+      "dateOfRevision": "2024-03-30",
+      "electronicPublicationDate": "2024-03-20",
+      "firstPublicationDate": "2024-03-20"
+    },
+    {
+      "id": "32264891",
+      "source": "MED",
+      "pmid": "32264891",
+      "pmcid": "PMC7137286",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC7137286"
+        ]
+      },
+      "doi": "10.1186/s12934-020-01342-z",
+      "title": "Current developments on polyhydroxyalkanoates synthesis by using halophiles as a promising cell factory.",
+      "authorString": "Mitra R, Xu T, Xiang H, Han J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mitra R",
+            "firstName": "Ruchira",
+            "lastName": "Mitra",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8481-958X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, 100101, People's Republic of China."
+                },
+                {
+                  "affiliation": "International College, University of Chinese Academy of Sciences, Beijing, 100049, People's Republic of China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xu T",
+            "firstName": "Tong",
+            "lastName": "Xu",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8055-1448"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, 100101, People's Republic of China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xiang H",
+            "firstName": "Hua",
+            "lastName": "Xiang",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, 100101, People's Republic of China. xiangh@im.ac.cn."
+                },
+                {
+                  "affiliation": "College of Life Science, University of Chinese Academy of Sciences, Beijing, 100049, People's Republic of China. xiangh@im.ac.cn."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Han J",
+            "firstName": "Jing",
+            "lastName": "Han",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9207-0238"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, 100101, People's Republic of China. hanjing@im.ac.cn."
+                },
+                {
+                  "affiliation": "College of Life Science, University of Chinese Academy of Sciences, Beijing, 100049, People's Republic of China. hanjing@im.ac.cn."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8481-958X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8055-1448"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9207-0238"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "19",
+        "journalIssueId": 2932588,
+        "dateOfPublication": "2020 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2020,
+        "printPublicationDate": "2020-04-01",
+        "journal": {
+          "title": "Microbial cell factories",
+          "medlineAbbreviation": "Microb Cell Fact",
+          "isoabbreviation": "Microb Cell Fact",
+          "nlmid": "101139812",
+          "essn": "1475-2859",
+          "issn": "1475-2859"
+        }
+      },
+      "pubYear": "2020",
+      "pageInfo": "86",
+      "abstractText": "Plastic pollution is a severe threat to our environment which necessitates implementation of bioplastics to realize sustainable development for a green world. Polyhydroxyalkanoates (PHA) represent one of the potential candidates for these bioplastics. However, a major challenge faced by PHA is the high production cost which limits its commercial application. Halophiles are considered to be a promising cell factory for PHA synthesis due to its several unique characteristics including high salinity requirement preventing microbial contamination, high intracellular osmotic pressure allowing easy cell lysis for PHA recovery, and capability to utilize wide spectrum of low-cost substrates. Optimization of fermentation parameters has made it plausible to achieve large-scale production at low cost by using halophiles. Further deeper insights into halophiles have revealed the existence of diversified and even novel PHA synthetic pathways within different halophilic species that greatly affects PHA type. Thus, precise metabolic engineering of halophiles with the help of advanced tools and strategies have led to more efficient microbial cell factory for PHA production. This review is an endeavour to summarize the various research achievements in these areas which will help the readers to understand the current developments as well as the future efforts in PHA research.",
+      "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, 100101, People's Republic of China.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "2018YFA0900200",
+            "agency": "National Key Research and Development Program",
+            "orderIn": 0
+          },
+          {
+            "grantId": "31970031",
+            "agency": "National Natural Science Foundation of China",
+            "orderIn": 0
+          },
+          {
+            "grantId": "91751201",
+            "agency": "National Natural Science Foundation of China",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Polyhydroxyalkanoates",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "BI",
+                  "qualifierName": "biosynthesis",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Metabolic Engineering",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "MT",
+                  "qualifierName": "methods",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Cost reduction",
+          "metabolic engineering",
+          "Halophiles",
+          "Polyhydroxyalkanoates",
+          "Production Improvement",
+          "Novel Pha Biosynthesis"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Polyhydroxyalkanoates",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1186/s12934-020-01342-z"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC7137286"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC7137286?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 126,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2020-10-15",
+      "dateOfCreation": "2020-04-09",
+      "firstIndexDate": "2020-04-09",
+      "fullTextReceivedDate": "2025-02-05",
+      "dateOfRevision": "2020-10-15",
+      "electronicPublicationDate": "2020-04-07",
+      "firstPublicationDate": "2020-04-07"
+    },
+    {
+      "id": "41516796",
+      "source": "MED",
+      "pmid": "41516796",
+      "pmcid": "PMC12787731",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12787731"
+        ]
+      },
+      "doi": "10.3390/polym18010011",
+      "title": "Thermal, Mechanical, and Barrier Properties of PHBV Nanocomposites via TiO&lt;sub&gt;2&lt;/sub&gt; Incorporation for Sustainable Food Packaging.",
+      "authorString": "Grgurevi\u0107 K, Nikoli\u0107 MM, Ku\u010di\u0107 Grgi\u0107 D, Bulatovi\u0107 VO.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Grgurevi\u0107 K",
+            "firstName": "Karlo",
+            "lastName": "Grgurevi\u0107",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Chemical Engineering and Technology, University of Zagreb, Trg Marka Maruli\u0107a 19, 10000 Zagreb, Croatia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nikoli\u0107 MM",
+            "firstName": "Martina Milolo\u017ea",
+            "lastName": "Nikoli\u0107",
+            "initials": "MM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Chemical Engineering and Technology, University of Zagreb, Trg Marka Maruli\u0107a 19, 10000 Zagreb, Croatia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ku\u010di\u0107 Grgi\u0107 D",
+            "firstName": "Dajana",
+            "lastName": "Ku\u010di\u0107 Grgi\u0107",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8427-6482"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Chemical Engineering and Technology, University of Zagreb, Trg Marka Maruli\u0107a 19, 10000 Zagreb, Croatia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bulatovi\u0107 VO",
+            "firstName": "Vesna Oceli\u0107",
+            "lastName": "Bulatovi\u0107",
+            "initials": "VO",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1604-090X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Chemical Engineering and Technology, University of Zagreb, Trg Marka Maruli\u0107a 19, 10000 Zagreb, Croatia."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8427-6482"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1604-090X"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "18",
+        "journalIssueId": 4089944,
+        "dateOfPublication": "2025 Dec",
+        "monthOfPublication": 12,
+        "yearOfPublication": 2025,
+        "printPublicationDate": "2025-12-01",
+        "journal": {
+          "title": "Polymers",
+          "medlineAbbreviation": "Polymers (Basel)",
+          "isoabbreviation": "Polymers (Basel)",
+          "nlmid": "101545357",
+          "essn": "2073-4360",
+          "issn": "2073-4360"
+        }
+      },
+      "pubYear": "2025",
+      "pageInfo": "11",
+      "abstractText": "Poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (PHBV) is a biodegradable polyester considered for food packaging, though its mechanical and barrier limitations pose challenges. This study assessed PHBV/TiO<sub>2</sub> nanocomposites for packaging applications. Differential scanning calorimetry revealed reduced crystallinity and lower melting points with an increase in TiO<sub>2</sub> content. Thermal stability improved at 1% and 3% TiO<sub>2</sub>, raising onset temperatures to 283 \u00b0C and 284 \u00b0C, respectively. Scanning electron microscopy and FTIR confirmed uniform nanoparticle dispersion without agglomeration. Tensile tests showed decreasing strength and modulus from 1% to 7% TiO<sub>2</sub>, with peak elongation at 3%, whereas viscosity behavior declined with higher nanoparticle loading. Low portions of nanoparticles (1% and 3%) induced the improvement in barrier properties against oxygen and water vapor. The highest biodegradation rate occurred at 7% TiO<sub>2</sub>. Overall, the nanocomposites' properties tend to deteriorate with the addition of higher portions of TiO<sub>2</sub>. Thus, despite some improvements, the nanocomposites did not deliver consistent, multi-property enhancements to justify use in food packaging. Key metrics like sealability and appearance were not evaluated. Future research should explore surface-treated TiO<sub>2</sub>, alternative fillers, compatibilizers, and optimized processing, alongside standardized safety assessments for food-contact applications.",
+      "affiliation": "Faculty of Chemical Engineering and Technology, University of Zagreb, Trg Marka Maruli\u0107a 19, 10000 Zagreb, Croatia.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "NPOO.C3.2.R3-Il.04.0059",
+            "agency": "National Recovery and Resilience Plan",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Morphology",
+          "Thermal",
+          "Titanium dioxide",
+          "Poly(3-hydroxybutyrate-co-3-hydroxyvalerate)",
+          "Mechanical",
+          "Barrier Properties",
+          "Nanocomposite Films"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3390/polym18010011"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12787731"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC12787731?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 0,
+      "hasData": "N",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "N",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-01-10",
+      "dateOfCreation": "2026-01-10",
+      "firstIndexDate": "2026-01-13",
+      "fullTextReceivedDate": "2026-01-12",
+      "dateOfRevision": "2026-01-14",
+      "electronicPublicationDate": "2025-12-19",
+      "firstPublicationDate": "2025-12-19"
+    },
+    {
+      "id": "34473895",
+      "source": "MED",
+      "pmid": "34473895",
+      "pmcid": "PMC9049629",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC9049629"
+        ]
+      },
+      "doi": "10.1111/1751-7915.13915",
+      "title": "An updated overview on the regulatory circuits of polyhydroxyalkanoates synthesis.",
+      "authorString": "Mitra R, Xu T, Chen GQ, Xiang H, Han J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mitra R",
+            "firstName": "Ruchira",
+            "lastName": "Mitra",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8481-958X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, 100101, China."
+                },
+                {
+                  "affiliation": "International College, University of Chinese Academy of Sciences, Beijing, 100049, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xu T",
+            "firstName": "Tong",
+            "lastName": "Xu",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8055-1448"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, 100101, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chen GQ",
+            "firstName": "Guo-Qiang",
+            "lastName": "Chen",
+            "initials": "GQ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Synthetic and Systems Biology, School of Life Sciences, Tsinghua University, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xiang H",
+            "firstName": "Hua",
+            "lastName": "Xiang",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, 100101, China."
+                },
+                {
+                  "affiliation": "College of Life Science, University of Chinese Academy of Sciences, Beijing, 100049, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Han J",
+            "firstName": "Jing",
+            "lastName": "Han",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9207-0238"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, 100101, China."
+                },
+                {
+                  "affiliation": "College of Life Science, University of Chinese Academy of Sciences, Beijing, 100049, China."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8481-958X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8055-1448"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9207-0238"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0369-1225"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "5",
+        "volume": "15",
+        "journalIssueId": 3349236,
+        "dateOfPublication": "2022 May",
+        "monthOfPublication": 5,
+        "yearOfPublication": 2022,
+        "printPublicationDate": "2022-05-01",
+        "journal": {
+          "title": "Microbial biotechnology",
+          "medlineAbbreviation": "Microb Biotechnol",
+          "isoabbreviation": "Microb Biotechnol",
+          "nlmid": "101316335",
+          "essn": "1751-7915",
+          "issn": "1751-7915"
+        }
+      },
+      "pubYear": "2022",
+      "pageInfo": "1446-1470",
+      "abstractText": "Polyhydroxyalkanoates (PHA) are a promising and sustainable alternative to the petroleum-based synthetic plastics. Regulation of PHA synthesis is receiving considerable importance as engineering the regulatory factors might help developing strains with improved PHA-producing abilities. PHA synthesis is dedicatedly regulated by a number of regulatory networks. They tightly control the PHA content, granule size and their distribution in cells. Most PHA-accumulating microorganisms have multiple regulatory networks that impart a combined effect on PHA metabolism. Among them, several factors ranging from global to specific regulators, have been identified and characterized till now. This review is an attempt to categorically summarize the diverse regulatory circuits that operate in some important PHA-producing microorganisms. However, in several organisms, the detailed mechanisms involved in the regulation of PHA synthesis is not well-explored and hence further research is needed. The information presented in this review might help researcher to identify the prevailing research gaps in PHA regulation.",
+      "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, 100101, China.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "31970031",
+            "agency": "National Natural Science Foundation of China",
+            "orderIn": 0
+          },
+          {
+            "grantId": "91751201",
+            "agency": "National Natural Science Foundation of China",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plastics"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Petroleum"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Polyhydroxyalkanoates",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Plastics",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Petroleum",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Polyhydroxyalkanoates",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1111/1751-7915.13915"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1111/1751-7915.13915"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC9049629"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC9049629?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 67,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2022-05-02",
+      "dateOfCreation": "2021-09-02",
+      "firstIndexDate": "2021-09-03",
+      "fullTextReceivedDate": "2022-05-04",
+      "dateOfRevision": "2022-07-16",
+      "electronicPublicationDate": "2021-09-02",
+      "firstPublicationDate": "2021-09-02"
+    },
+    {
+      "id": "27052994",
+      "source": "MED",
+      "pmid": "27052994",
+      "pmcid": "PMC4823750",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4823750"
+        ]
+      },
+      "doi": "10.1038/srep24015",
+      "title": "Enoyl-CoA hydratase mediates polyhydroxyalkanoate mobilization in Haloferax mediterranei.",
+      "authorString": "Liu G, Cai S, Hou J, Zhao D, Han J, Zhou J, Xiang H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Liu G",
+            "firstName": "Guiming",
+            "lastName": "Liu",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China."
+                },
+                {
+                  "affiliation": "CAS Key Laboratory of Microbial Physiological and Metabolic Engineering, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China."
+                },
+                {
+                  "affiliation": "University of Chinese Academy of Sciences, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cai S",
+            "firstName": "Shuangfeng",
+            "lastName": "Cai",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hou J",
+            "firstName": "Jing",
+            "lastName": "Hou",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhao D",
+            "firstName": "Dahe",
+            "lastName": "Zhao",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China."
+                },
+                {
+                  "affiliation": "University of Chinese Academy of Sciences, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Han J",
+            "firstName": "Jing",
+            "lastName": "Han",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhou J",
+            "firstName": "Jian",
+            "lastName": "Zhou",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xiang H",
+            "firstName": "Hua",
+            "lastName": "Xiang",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0369-1225"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "6",
+        "journalIssueId": 2460839,
+        "dateOfPublication": "2016 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2016,
+        "printPublicationDate": "2016-04-01",
+        "journal": {
+          "title": "Scientific reports",
+          "medlineAbbreviation": "Sci Rep",
+          "isoabbreviation": "Sci Rep",
+          "nlmid": "101563288",
+          "essn": "2045-2322",
+          "issn": "2045-2322"
+        }
+      },
+      "pubYear": "2016",
+      "pageInfo": "24015",
+      "abstractText": "Although polyhydroxyalkanoate (PHA) accumulation and mobilization are one of the most general mechanisms for haloarchaea to adapt to the hypersaline environments with changeable carbon sources, the PHA mobilization pathways are still not clear for any haloarchaea. In this study, the functions of five putative (R)-specific enoyl-CoA hydratases (R-ECHs) in Haloferax mediterranei, named PhaJ1 to PhaJ5, respectively, were thoroughly investigated. Through gene deletion and complementation, we demonstrated that only certain of these ECHs had a slight contribution to poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (PHBV) biosynthesis. But significantly, PhaJ1, the only R-ECH that is associated with PHA granules, was shown to be involved in PHA mobilization in this haloarchaeon. PhaJ1 catalyzes the dehydration of (R)-3-hydroxyacyl-CoA, the common product of PHA degradation, to enoyl-CoA, the intermediate of the \u03b2-oxidation cycle, thus could link PHA mobilization to \u03b2-oxidation pathway in H. mediterranei. This linkage was further indicated from the up-regulation of the key genes of \u03b2-oxidation under the PHA mobilization condition, as well as the obvious inhibition of PHA degradation upon inhibition of the \u03b2-oxidation pathway. Interestingly, 96% of phaJ-containing haloarchaeal species possess both phaC (encoding PHA synthase) and the full set genes of \u03b2-oxidation, implying that the mobilization of carbon storage in PHA through the \u03b2-oxidation cycle would be general in haloarchaea.",
+      "affiliation": "State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Haloferax mediterranei",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "EN",
+                  "qualifierName": "enzymology",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Pentanoic Acids",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Acyl Coenzyme A",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Isoenzymes",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Enoyl-CoA Hydratase",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CL",
+                  "qualifierName": "classification",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Archaeal Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Chromatography, High Pressure Liquid"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Reverse Transcriptase Polymerase Chain Reaction"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phylogeny"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gene Expression Regulation, Archaeal"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gene Expression Regulation, Enzymologic"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gene Deletion"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Amino Acid Sequence"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Sequence Homology, Amino Acid"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Oxidation-Reduction"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Mutation"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Polyhydroxyalkanoates",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "crotonyl-coenzyme A",
+            "registryNumber": "992-67-6"
+          },
+          {
+            "name": "Isoenzymes",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Acyl Coenzyme A",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Pentanoic Acids",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Enoyl-CoA Hydratase",
+            "registryNumber": "EC 4.2.1.17"
+          },
+          {
+            "name": "Archaeal Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Polyhydroxyalkanoates",
+            "registryNumber": "0"
+          },
+          {
+            "name": "n-pentanoic acid",
+            "registryNumber": "GZK92PJM7B"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1038/srep24015"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4823750"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4823750?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 23,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2017-02-27",
+      "dateOfCreation": "2016-04-08",
+      "firstIndexDate": "2016-04-07",
+      "fullTextReceivedDate": "2020-07-11",
+      "dateOfRevision": "2018-11-13",
+      "electronicPublicationDate": "2016-04-07",
+      "firstPublicationDate": "2016-04-07"
+    },
+    {
+      "id": "34204835",
+      "source": "MED",
+      "pmid": "34204835",
+      "pmcid": "PMC8231600",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8231600"
+        ]
+      },
+      "doi": "10.3390/microorganisms9061290",
+      "title": "Genome-Wide Metabolic Reconstruction of the Synthesis of Polyhydroxyalkanoates from Sugars and Fatty Acids by <i>Burkholderia</i> Sensu Lato Species.",
+      "authorString": "Alvarez-Santullano N, Villegas P, Mardones MS, Dur\u00e1n RE, Donoso R, Gonz\u00e1lez A, Sanhueza C, Navia R, Acevedo F, P\u00e9rez-Pantoja D, Seeger M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Alvarez-Santullano N",
+            "firstName": "Natalia",
+            "lastName": "Alvarez-Santullano",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratorio de Microbiolog\u00eda Molecular y Biotecnolog\u00eda Ambiental, Departamento de Qu\u00edmica & Centro de Biotecnolog\u00eda Daniel Alkalay Lowitt, Universidad T\u00e9cnica Federico Santa Mar\u00eda, Avenida Espa\u00f1a 1680, 2390123 Valpara\u00edso, Chile."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Villegas P",
+            "firstName": "Pamela",
+            "lastName": "Villegas",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Programa Institucional de Fomento a la Investigaci\u00f3n, Desarrollo e Innovaci\u00f3n (PIDi), Universidad Tecnol\u00f3gica Metropolitana, 8330378 Santiago, Chile."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mardones MS",
+            "firstName": "Mario Sep\u00falveda",
+            "lastName": "Mardones",
+            "initials": "MS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratorio de Microbiolog\u00eda Molecular y Biotecnolog\u00eda Ambiental, Departamento de Qu\u00edmica & Centro de Biotecnolog\u00eda Daniel Alkalay Lowitt, Universidad T\u00e9cnica Federico Santa Mar\u00eda, Avenida Espa\u00f1a 1680, 2390123 Valpara\u00edso, Chile."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dur\u00e1n RE",
+            "firstName": "Roberto E",
+            "lastName": "Dur\u00e1n",
+            "initials": "RE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0077-9483"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratorio de Microbiolog\u00eda Molecular y Biotecnolog\u00eda Ambiental, Departamento de Qu\u00edmica & Centro de Biotecnolog\u00eda Daniel Alkalay Lowitt, Universidad T\u00e9cnica Federico Santa Mar\u00eda, Avenida Espa\u00f1a 1680, 2390123 Valpara\u00edso, Chile."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Donoso R",
+            "firstName": "Ra\u00fal",
+            "lastName": "Donoso",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2566-0561"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Programa Institucional de Fomento a la Investigaci\u00f3n, Desarrollo e Innovaci\u00f3n (PIDi), Universidad Tecnol\u00f3gica Metropolitana, 8330378 Santiago, Chile."
+                },
+                {
+                  "affiliation": "Center of Applied Ecology and Sustainability (CAPES), 8330378 Santiago, Chile."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gonz\u00e1lez A",
+            "firstName": "Angela",
+            "lastName": "Gonz\u00e1lez",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratorio de Microbiolog\u00eda Molecular y Biotecnolog\u00eda Ambiental, Departamento de Qu\u00edmica & Centro de Biotecnolog\u00eda Daniel Alkalay Lowitt, Universidad T\u00e9cnica Federico Santa Mar\u00eda, Avenida Espa\u00f1a 1680, 2390123 Valpara\u00edso, Chile."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sanhueza C",
+            "firstName": "Claudia",
+            "lastName": "Sanhueza",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Scientific and Technological Bioresource Nucleus (BIOREN), Universidad de La Frontera, Casilla 54-D, 48811230 Temuco, Chile."
+                },
+                {
+                  "affiliation": "Center of Excellence in Translational Medicine (CEMT), Department of Basic Sciences, Faculty of Medicine, Universidad de La Frontera, Casilla 54-D, 48811230 Temuco, Chile."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Navia R",
+            "firstName": "Rodrigo",
+            "lastName": "Navia",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Scientific and Technological Bioresource Nucleus (BIOREN), Universidad de La Frontera, Casilla 54-D, 48811230 Temuco, Chile."
+                },
+                {
+                  "affiliation": "Department of Chemical Engineering & Centre for Biotechnology and Bioengineering (CeBiB), Faculty of Engineering and Sciences, Universidad de La Frontera, Casilla 54-D, 48811230 Temuco, Chile."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Acevedo F",
+            "firstName": "Francisca",
+            "lastName": "Acevedo",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7060-0656"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Scientific and Technological Bioresource Nucleus (BIOREN), Universidad de La Frontera, Casilla 54-D, 48811230 Temuco, Chile."
+                },
+                {
+                  "affiliation": "Center of Excellence in Translational Medicine (CEMT), Department of Basic Sciences, Faculty of Medicine, Universidad de La Frontera, Casilla 54-D, 48811230 Temuco, Chile."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "P\u00e9rez-Pantoja D",
+            "firstName": "Danilo",
+            "lastName": "P\u00e9rez-Pantoja",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5720-2162"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Programa Institucional de Fomento a la Investigaci\u00f3n, Desarrollo e Innovaci\u00f3n (PIDi), Universidad Tecnol\u00f3gica Metropolitana, 8330378 Santiago, Chile."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Seeger M",
+            "firstName": "Michael",
+            "lastName": "Seeger",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3925-1996"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratorio de Microbiolog\u00eda Molecular y Biotecnolog\u00eda Ambiental, Departamento de Qu\u00edmica & Centro de Biotecnolog\u00eda Daniel Alkalay Lowitt, Universidad T\u00e9cnica Federico Santa Mar\u00eda, Avenida Espa\u00f1a 1680, 2390123 Valpara\u00edso, Chile."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5558-5032"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5720-2162"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2566-0561"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3925-1996"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5117-0339"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7060-0656"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0077-9483"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "6",
+        "volume": "9",
+        "journalIssueId": 3192318,
+        "dateOfPublication": "2021 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2021,
+        "printPublicationDate": "2021-06-01",
+        "journal": {
+          "title": "Microorganisms",
+          "medlineAbbreviation": "Microorganisms",
+          "isoabbreviation": "Microorganisms",
+          "nlmid": "101625893",
+          "essn": "2076-2607",
+          "issn": "2076-2607"
+        }
+      },
+      "pubYear": "2021",
+      "pageInfo": "1290",
+      "abstractText": "<i>Burkholderia</i> sensu lato (s.l.) species have a versatile metabolism. The aims of this review are the genomic reconstruction of the metabolic pathways involved in the synthesis of polyhydroxyalkanoates (PHAs) by <i>Burkholderia</i> s.l. genera, and the characterization of the PHA synthases and the <i>pha</i> genes organization. The reports of the PHA synthesis from different substrates by <i>Burkholderia</i> s.l. strains were reviewed. Genome-guided metabolic reconstruction involving the conversion of sugars and fatty acids into PHAs by 37 <i>Burkholderia</i> s.l. species was performed. Sugars are metabolized via the Entner-Doudoroff (ED), pentose-phosphate (PP), and lower Embden-Meyerhoff-Parnas (EMP) pathways, which produce reducing power through NAD(P)H synthesis and PHA precursors. Fatty acid substrates are metabolized via <i>\u03b2</i>-oxidation and de novo synthesis of fatty acids into PHAs. The analysis of 194 <i>Burkholderia</i> s.l. genomes revealed that all strains have the <i>phaC</i>, <i>phaA,</i> and <i>phaB</i> genes for PHA synthesis, wherein the <i>phaC</i> gene is generally present in \u22652 copies. PHA synthases were classified into four phylogenetic groups belonging to class I II and III PHA synthases and one outlier group. The reconstruction of PHAs synthesis revealed a high level of gene redundancy probably reflecting complex regulatory layers that provide fine tuning according to diverse substrates and physiological conditions.",
+      "affiliation": "Laboratorio de Microbiolog\u00eda Molecular y Biotecnolog\u00eda Ambiental, Departamento de Qu\u00edmica & Centro de Biotecnolog\u00eda Daniel Alkalay Lowitt, Universidad T\u00e9cnica Federico Santa Mar\u00eda, Avenida Espa\u00f1a 1680, 2390123 Valpara\u00edso, Chile.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "grantId": "2019",
+            "agency": "ILS Chile",
+            "orderIn": 0
+          },
+          {
+            "grantId": "ACT172128 Chile",
+            "agency": "ANID PIA RING",
+            "orderIn": 0
+          },
+          {
+            "grantId": "Fondecyt 1200756",
+            "agency": "Fondo Nacional de Desarrollo Cient\u00edfico y Tecnol\u00f3gico",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Comparative genomics",
+          "Burkholderia",
+          "PHA synthase",
+          "Polyhydroxyalkanoate",
+          "Paraburkholderia",
+          "Caballeronia",
+          "Robbsia",
+          "Trinickia",
+          "Pha Metabolism",
+          "Micetohabitans"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3390/microorganisms9061290"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8231600"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8231600?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 27,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gca",
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2021-07-02",
+      "firstIndexDate": "2021-07-03",
+      "fullTextReceivedDate": "2025-02-05",
+      "dateOfRevision": "2021-07-14",
+      "electronicPublicationDate": "2021-06-12",
+      "firstPublicationDate": "2021-06-12"
+    },
+    {
+      "id": "34200447",
+      "source": "MED",
+      "pmid": "34200447",
+      "pmcid": "PMC8201374",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8201374"
+        ]
+      },
+      "doi": "10.3390/molecules26113463",
+      "title": "Emergent Approaches to Efficient and Sustainable Polyhydroxyalkanoate Production.",
+      "authorString": "Bedade DK, Edson CB, Gross RA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bedade DK",
+            "firstName": "Dattatray K",
+            "lastName": "Bedade",
+            "initials": "DK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2718-4554"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Biotechnology and Interdisciplinary Studies, Rensselaer Polytechnic Institute, 110 8th Street, Troy, NY 12180, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Edson CB",
+            "firstName": "Cody B",
+            "lastName": "Edson",
+            "initials": "CB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2588-8395"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "New York State Center for Polymer Synthesis, Department of Chemistry and Chemical Biology, Rensselaer Polytechnic Institute, 110 8th Street, Troy, NY 12180, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gross RA",
+            "firstName": "Richard A",
+            "lastName": "Gross",
+            "initials": "RA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5050-3162"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Biotechnology and Interdisciplinary Studies, Rensselaer Polytechnic Institute, 110 8th Street, Troy, NY 12180, USA."
+                },
+                {
+                  "affiliation": "New York State Center for Polymer Synthesis, Department of Chemistry and Chemical Biology, Rensselaer Polytechnic Institute, 110 8th Street, Troy, NY 12180, USA."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2718-4554"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5050-3162"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2588-8395"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "11",
+        "volume": "26",
+        "journalIssueId": 3186963,
+        "dateOfPublication": "2021 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2021,
+        "printPublicationDate": "2021-06-01",
+        "journal": {
+          "title": "Molecules (Basel, Switzerland)",
+          "medlineAbbreviation": "Molecules",
+          "isoabbreviation": "Molecules",
+          "nlmid": "100964009",
+          "essn": "1420-3049",
+          "issn": "1420-3049"
+        }
+      },
+      "pubYear": "2021",
+      "pageInfo": "3463",
+      "abstractText": "Petroleum-derived plastics dominate currently used plastic materials. These plastics are derived from finite fossil carbon sources and were not designed for recycling or biodegradation. With the ever-increasing quantities of plastic wastes entering landfills and polluting our environment, there is an urgent need for fundamental change. One component to that change is developing cost-effective plastics derived from readily renewable resources that offer chemical or biological recycling and can be designed to have properties that not only allow the replacement of current plastics but also offer new application opportunities. Polyhydroxyalkanoates (PHAs) remain a promising candidate for commodity bioplastic production, despite the many decades of efforts by academicians and industrial scientists that have not yet achieved that goal. This article focuses on defining obstacles and solutions to overcome cost-performance metrics that are not sufficiently competitive with current commodity thermoplastics. To that end, this review describes various process innovations that build on fed-batch and semi-continuous modes of operation as well as methods that lead to high cell density cultivations. Also, we discuss work to move from costly to lower cost substrates such as lignocellulose-derived hydrolysates, metabolic engineering of organisms that provide higher substrate conversion rates, the potential of halophiles to provide low-cost platforms in non-sterile environments for PHA formation, and work that uses mixed culture strategies to overcome obstacles of using waste substrates. We also describe historical problems and potential solutions to downstream processing for PHA isolation that, along with feedstock costs, have been an Achilles heel towards the realization of cost-efficient processes. Finally, future directions for efficient PHA production and relevant structural variations are discussed.",
+      "affiliation": "Center for Biotechnology and Interdisciplinary Studies, Rensselaer Polytechnic Institute, 110 8th Street, Troy, NY 12180, USA.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "PHA",
+          "Productivity",
+          "Production",
+          "Polyhydroxyalkanoate",
+          "Downstream Processing",
+          "High Cell Density Cultivations"
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3390/molecules26113463"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8201374"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8201374?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 34,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2021-07-06",
+      "dateOfCreation": "2021-07-02",
+      "firstIndexDate": "2021-07-03",
+      "fullTextReceivedDate": "2025-02-04",
+      "dateOfRevision": "2023-11-07",
+      "electronicPublicationDate": "2021-06-07",
+      "firstPublicationDate": "2021-06-07"
+    },
+    {
+      "id": "22040376",
+      "source": "MED",
+      "pmid": "22040376",
+      "pmcid": "PMC3227634",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC3227634"
+        ]
+      },
+      "doi": "10.1186/1475-2859-10-88",
+      "title": "Comparative genomics study of polyhydroxyalkanoates (PHA) and ectoine relevant genes from Halomonas sp. TD01 revealed extensive horizontal gene transfer events and co-evolutionary relationships.",
+      "authorString": "Cai L, Tan D, Aibaidula G, Dong XR, Chen JC, Tian WD, Chen GQ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Cai L",
+            "firstName": "Lei",
+            "lastName": "Cai",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences and Biotechnology, MOE Key Lab, Bioinformatics (& System Biology), Tsinghua University-Peking University Joint Center for Life Sciences, School of Life Sciences, Tsinghua University, Beijing 100084, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tan D",
+            "firstName": "Dan",
+            "lastName": "Tan",
+            "initials": "D"
+          },
+          {
+            "fullName": "Aibaidula G",
+            "firstName": "Gulsimay",
+            "lastName": "Aibaidula",
+            "initials": "G"
+          },
+          {
+            "fullName": "Dong XR",
+            "firstName": "Xin-Ran",
+            "lastName": "Dong",
+            "initials": "XR"
+          },
+          {
+            "fullName": "Chen JC",
+            "firstName": "Jin-Chun",
+            "lastName": "Chen",
+            "initials": "JC"
+          },
+          {
+            "fullName": "Tian WD",
+            "firstName": "Wei-Dong",
+            "lastName": "Tian",
+            "initials": "WD"
+          },
+          {
+            "fullName": "Chen GQ",
+            "firstName": "Guo-Qiang",
+            "lastName": "Chen",
+            "initials": "GQ"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data",
+          "related_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "10",
+        "journalIssueId": 2480648,
+        "dateOfPublication": "2011 Nov",
+        "monthOfPublication": 11,
+        "yearOfPublication": 2011,
+        "printPublicationDate": "2011-11-01",
+        "journal": {
+          "title": "Microbial cell factories",
+          "medlineAbbreviation": "Microb Cell Fact",
+          "isoabbreviation": "Microb Cell Fact",
+          "nlmid": "101139812",
+          "essn": "1475-2859",
+          "issn": "1475-2859"
+        }
+      },
+      "pubYear": "2011",
+      "pageInfo": "88",
+      "abstractText": "<h4>Background</h4>Halophilic bacteria have shown their significance in industrial production of polyhydroxyalkanoates (PHA) and are gaining more attention for genetic engineering modification. Yet, little information on the genomics and PHA related genes from halophilic bacteria have been disclosed so far.<h4>Results</h4>The draft genome of moderately halophilic bacterium, Halomonas sp. TD01, a strain of great potential for industrial production of short-chain-length polyhydroxyalkanoates (PHA), was analyzed through computational methods to reveal the osmoregulation mechanism and the evolutionary relationship of the enzymes relevant to PHA and ectoine syntheses. Genes involved in the metabolism of PHA and osmolytes were annotated and studied in silico. Although PHA synthase, depolymerase, regulator/repressor and phasin were all involved in PHA metabolic pathways, they demonstrated different horizontal gene transfer (HGT) events between the genomes of different strains. In contrast, co-occurrence of ectoine genes in the same genome was more frequently observed, and ectoine genes were more likely under coincidental horizontal gene transfer than PHA related genes. In addition, the adjacent organization of the homologues of PHA synthase phaC1 and PHA granule binding protein phaP was conserved in the strain TD01, which was also observed in some halophiles and non-halophiles exclusively from \u03b3-proteobacteria. In contrast to haloarchaea, the proteome of Halomonas sp. TD01 did not show obvious inclination towards acidity relative to non-halophilic Escherichia coli MG1655, which signified that Halomonas sp. TD01 preferred the accumulation of organic osmolytes to ions in order to balance the intracellular osmotic pressure with the environment.<h4>Conclusions</h4>The accessibility of genome information would facilitate research on the genetic engineering of halophilic bacteria including Halomonas sp. TD01.",
+      "affiliation": "Department of Biological Sciences and Biotechnology, MOE Key Lab, Bioinformatics (& System Biology), Tsinghua University-Peking University Joint Center for Life Sciences, School of Life Sciences, Tsinghua University, Beijing 100084, China.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Comparative Study",
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Halomonas",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "CL",
+                  "qualifierName": "classification",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "Y"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Amino Acids, Diamino",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Bacterial Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics",
+                  "majorTopic_YN": "Y"
+                },
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "N"
+                },
+                {
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry",
+                  "majorTopic_YN": "N"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Sequence Alignment"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Genomics"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Evolution, Molecular"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phylogeny"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Gene Transfer, Horizontal"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Amino Acid Sequence"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Molecular Sequence Data"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Polyhydroxyalkanoates",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism",
+                  "majorTopic_YN": "Y"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Bacterial Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Amino Acids, Diamino",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Polyhydroxyalkanoates",
+            "registryNumber": "0"
+          },
+          {
+            "name": "ectoine",
+            "registryNumber": "7GXZ3858RY"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1186/1475-2859-10-88"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC3227634"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC3227634?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "citedByCount": 62,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasLabsLinks": "Y",
+      "license": "cc by",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "dateOfCompletion": "2012-03-09",
+      "dateOfCreation": "2011-11-02",
+      "firstIndexDate": "2011-11-02",
+      "fullTextReceivedDate": "2020-07-11",
+      "dateOfRevision": "2021-10-20",
+      "electronicPublicationDate": "2011-11-01",
+      "firstPublicationDate": "2011-11-01"
+    }
+  ]
+}

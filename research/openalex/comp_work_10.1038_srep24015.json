@@ -1,0 +1,511 @@
+﻿{
+  "id": "https://openalex.org/W2319658753",
+  "display_name": "Enoyl-CoA hydratase mediates polyhydroxyalkanoate mobilization in Haloferax mediterranei",
+  "publication_year": 2016,
+  "cited_by_count": 31,
+  "doi": "https://doi.org/10.1038/srep24015",
+  "primary_location": {
+    "id": "doi:10.1038/srep24015",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/srep24015",
+    "pdf_url": "https://www.nature.com/articles/srep24015.pdf",
+    "source": {
+      "id": "https://openalex.org/S196734849",
+      "display_name": "Scientific Reports",
+      "issn_l": "2045-2322",
+      "issn": [
+        "2045-2322"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Scientific Reports",
+    "raw_type": "journal-article"
+  },
+  "abstract_inverted_index": {
+    "Although": [
+      0
+    ],
+    "polyhydroxyalkanoate": [
+      1
+    ],
+    "(PHA)": [
+      2
+    ],
+    "accumulation": [
+      3
+    ],
+    "and": [
+      4,
+      62,
+      180
+    ],
+    "mobilization": [
+      5,
+      27,
+      99,
+      127,
+      151,
+      190
+    ],
+    "are": [
+      6,
+      29
+    ],
+    "one": [
+      7
+    ],
+    "of": [
+      8,
+      41,
+      69,
+      107,
+      112,
+      119,
+      142,
+      146,
+      159,
+      164,
+      170,
+      185,
+      191
+    ],
+    "the": [
+      9,
+      18,
+      25,
+      39,
+      83,
+      105,
+      109,
+      117,
+      120,
+      140,
+      143,
+      149,
+      156,
+      165,
+      181,
+      189,
+      197
+    ],
+    "most": [
+      10
+    ],
+    "general": [
+      11,
+      202
+    ],
+    "mechanisms": [
+      12
+    ],
+    "for": [
+      13,
+      33
+    ],
+    "haloarchaea": [
+      14
+    ],
+    "to": [
+      15,
+      17,
+      53,
+      76,
+      94,
+      115,
+      128
+    ],
+    "adapt": [
+      16
+    ],
+    "hypersaline": [
+      19
+    ],
+    "environments": [
+      20
+    ],
+    "with": [
+      21,
+      89
+    ],
+    "changeable": [
+      22
+    ],
+    "carbon": [
+      23,
+      192
+    ],
+    "sources,": [
+      24
+    ],
+    "PHA": [
+      26,
+      90,
+      98,
+      113,
+      126,
+      150,
+      160,
+      178,
+      195
+    ],
+    "pathways": [
+      28
+    ],
+    "still": [
+      30
+    ],
+    "not": [
+      31
+    ],
+    "clear": [
+      32
+    ],
+    "any": [
+      34
+    ],
+    "haloarchaea.": [
+      35,
+      204
+    ],
+    "In": [
+      36
+    ],
+    "this": [
+      37,
+      101
+    ],
+    "study,": [
+      38
+    ],
+    "functions": [
+      40
+    ],
+    "five": [
+      42
+    ],
+    "putative": [
+      43
+    ],
+    "(R)-specific": [
+      44
+    ],
+    "enoyl-CoA": [
+      45
+    ],
+    "hydratases": [
+      46
+    ],
+    "(R-ECHs)": [
+      47
+    ],
+    "in": [
+      48,
+      97,
+      100,
+      131,
+      194,
+      203
+    ],
+    "Haloferax": [
+      49
+    ],
+    "mediterranei,": [
+      50
+    ],
+    "named": [
+      51
+    ],
+    "PhaJ1": [
+      52,
+      103
+    ],
+    "PhaJ5,": [
+      54
+    ],
+    "respectively,": [
+      55
+    ],
+    "were": [
+      56
+    ],
+    "thoroughly": [
+      57
+    ],
+    "investigated.": [
+      58
+    ],
+    "Through": [
+      59
+    ],
+    "gene": [
+      60
+    ],
+    "deletion": [
+      61
+    ],
+    "complementation,": [
+      63
+    ],
+    "we": [
+      64
+    ],
+    "demonstrated": [
+      65
+    ],
+    "that": [
+      66,
+      86,
+      188
+    ],
+    "only": [
+      67,
+      84
+    ],
+    "certain": [
+      68
+    ],
+    "these": [
+      70
+    ],
+    "ECHs": [
+      71
+    ],
+    "had": [
+      72
+    ],
+    "a": [
+      73
+    ],
+    "slight": [
+      74
+    ],
+    "contribution": [
+      75
+    ],
+    "poly(3-hydroxybutyrate-co-3-hydroxyvalerate)": [
+      77
+    ],
+    "(PHBV)": [
+      78
+    ],
+    "biosynthesis.": [
+      79
+    ],
+    "But": [
+      80
+    ],
+    "significantly,": [
+      81
+    ],
+    "PhaJ1,": [
+      82
+    ],
+    "R-ECH": [
+      85
+    ],
+    "is": [
+      87
+    ],
+    "associated": [
+      88
+    ],
+    "granules,": [
+      91
+    ],
+    "was": [
+      92,
+      136
+    ],
+    "shown": [
+      93
+    ],
+    "be": [
+      95,
+      201
+    ],
+    "involved": [
+      96
+    ],
+    "haloarchaeon.": [
+      102
+    ],
+    "catalyzes": [
+      104
+    ],
+    "dehydration": [
+      106
+    ],
+    "(R)-3-hydroxyacyl-CoA,": [
+      108
+    ],
+    "common": [
+      110
+    ],
+    "product": [
+      111
+    ],
+    "degradation,": [
+      114
+    ],
+    "enoyl-CoA,": [
+      116
+    ],
+    "intermediate": [
+      118
+    ],
+    "\u03b2-oxidation": [
+      121,
+      129,
+      147,
+      166,
+      198
+    ],
+    "cycle,": [
+      122
+    ],
+    "thus": [
+      123
+    ],
+    "could": [
+      124
+    ],
+    "link": [
+      125
+    ],
+    "pathway": [
+      130
+    ],
+    "H.": [
+      132
+    ],
+    "mediterranei.": [
+      133
+    ],
+    "This": [
+      134
+    ],
+    "linkage": [
+      135
+    ],
+    "further": [
+      137
+    ],
+    "indicated": [
+      138
+    ],
+    "from": [
+      139
+    ],
+    "up-regulation": [
+      141
+    ],
+    "key": [
+      144
+    ],
+    "genes": [
+      145,
+      184
+    ],
+    "under": [
+      148
+    ],
+    "condition,": [
+      152
+    ],
+    "as": [
+      153,
+      155
+    ],
+    "well": [
+      154
+    ],
+    "obvious": [
+      157
+    ],
+    "inhibition": [
+      158,
+      163
+    ],
+    "degradation": [
+      161
+    ],
+    "upon": [
+      162
+    ],
+    "pathway.": [
+      167
+    ],
+    "Interestingly,": [
+      168
+    ],
+    "96%": [
+      169
+    ],
+    "phaJ-containing": [
+      171
+    ],
+    "haloarchaeal": [
+      172
+    ],
+    "species": [
+      173
+    ],
+    "possess": [
+      174
+    ],
+    "both": [
+      175
+    ],
+    "phaC": [
+      176
+    ],
+    "(encoding": [
+      177
+    ],
+    "synthase)": [
+      179
+    ],
+    "full": [
+      182
+    ],
+    "set": [
+      183
+    ],
+    "\u03b2-oxidation,": [
+      186
+    ],
+    "implying": [
+      187
+    ],
+    "storage": [
+      193
+    ],
+    "through": [
+      196
+    ],
+    "cycle": [
+      199
+    ],
+    "would": [
+      200
+    ]
+  }
+}

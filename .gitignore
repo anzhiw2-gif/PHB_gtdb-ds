@@ -1,0 +1,37 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# ===== uv / 包管理器缓存 =====
+.uv-cache/
+uv.lock
+
+# ===== 工具使用条款通知（非项目内容） =====
+.licenses/
+
+# ===== GTDB 原始数据与大中间产物（服务器侧，不入 git） =====
+# data/ 含蛋白预测、hmmsearch 命中（676 万行 hits_all.tsv）、tier 序列等大文件
+data/
+*.fna.gz
+*.faa.gz
+*.tar.gz
+*.gz
+
+# ===== HPC 运行产物 =====
+results/logs/
+results/trees/          # 完整系统发育树较大，单独同步或走 release/LFS
+*.log
+*.tmp
+
+# ===== OS / 编辑器 =====
+Thumbs.db
+.DS_Store
+*.swp
+.idea/
+.vscode/

@@ -1,0 +1,472 @@
+[
+  {
+    "pmid": "24271169",
+    "title": "3-Hydroxybutyrate oligomer hydrolase and 3-hydroxybutyrate dehydrogenase participate in intracellular polyhydroxybutyrate and polyhydroxyvalerate degradation in Paracoccus denitrificans.",
+    "authors": [
+      "Lu J",
+      "Takahashi A",
+      "Ueda S"
+    ],
+    "journal": "Applied and environmental microbiology",
+    "pubdate": "2014 Feb",
+    "doi": "10.1128/AEM.03396-13",
+    "abstract": "Genes encoding 3-hydroxybutyrate oligomer hydrolase (PhaZc) and 3-hydroxybutyrate dehydrogenase (Hbd) were isolated from Paracoccus denitrificans. PhaZc and Hbd were overproduced as His-tagged proteins in Escherichia coli and purified by affinity and gel filtration chromatography. Purified His-tagged proteins had molecular masses of 31 kDa and 120 kDa (a tetramer of 29-kDa subunits). The His-tagged PhaZc hydrolyzed not only 3-hydroxybutyrate oligomers but also 3-hydroxyvalerate oligomers. The His-tagged Hbd catalyzed the dehydrogenation of 3-hydroxyvalerate as well as 3-hydroxybutyrate. When both enzymes were included in the same enzymatic reaction system with 3-hydroxyvalerate dimer, sequential reactions occurred, suggesting that PhaZc and Hbd play an important role in the intracellular degradation of poly(3-hydroxyvalerate). When the phaZc gene was disrupted in P. denitrificans by insertional inactivation, the mutant strain lost PhaZc activity. When the phaZc-disrupted P. denitrificans was complemented with phaZc, PhaZc activity was restored. These results suggest that P. denitrificans carries a single phaZc gene. Disruption of the phaZc gene in P. denitrificans affected the degradation rate of PHA."
+  },
+  {
+    "pmid": "16030206",
+    "title": "Novel intracellular 3-hydroxybutyrate-oligomer hydrolase in Wautersia eutropha H16.",
+    "authors": [
+      "Kobayashi T",
+      "Uchino K",
+      "Abe T",
+      "Yamazaki Y",
+      "Saito T"
+    ],
+    "journal": "Journal of bacteriology",
+    "pubdate": "2005 Aug",
+    "doi": null,
+    "abstract": "Wautersia eutropha H16 (formerly Ralstonia eutropha) mobilizes intracellularly accumulated poly(3-hydroxybutyrate) (PHB) with intracellular poly(3-hydroxybutyrate) depolymerases. In this study, a novel intracellular 3-hydroxybutyrate-oligomer hydrolase (PhaZc) gene was cloned and overexpressed in Escherichia coli. Then PhaZc was purified and characterized. Immunoblot analysis with polyclonal antiserum against PhaZc revealed that most PhaZc is present in the cytosolic fraction and a small amount is present in the poly(3-hydroxybutyrate) inclusion bodies of W. eutropha. PhaZc degraded various 3-hydroxybutyrate oligomers at a high specific activity and artificial amorphous poly(3-hydroxybutyrate) at a lower specific activity. Native PHB granules and semicrystalline PHB were not degraded by PhaZc. A PhaZ deletion mutation enhanced the deposition of PHB in the logarithmic phase in nutrient-rich medium. PhaZc differs from the hydrolases of W. eutropha previously reported and is a novel type of intracellular 3-hydroxybutyrate-oligomer hydrolase, and it participates in the mobilization of PHB along with other hydrolases."
+  },
+  {
+    "pmid": "15170237",
+    "title": "Roles of poly(3-hydroxybutyrate) depolymerase and 3HB-oligomer hydrolase in bacterial PHB metabolism.",
+    "authors": [
+      "Sugiyama A",
+      "Kobayashi T",
+      "Shiraki M",
+      "Saito T"
+    ],
+    "journal": "Current microbiology",
+    "pubdate": "2004 Jun",
+    "doi": null,
+    "abstract": "Many poly-3-hydroxybutyrate (PHB)-degrading enzymes have been studied. But biological roles of 3HB-oligomer hydrolases (3HBOHs) and how PHB depolymerases (PHBDPs) and 3HBOHs cooperate in PHB metabolism are not fully elucidated. In this study, several PHBDPs and 3HBOHs from three types of bacteria were purified, and their substrate specificity, kinetic properties, and degradation products were investigated. From the results, PHBDP and 3HBOH seemed to play a role in PHB metabolism in three types of bacteria, as follows: (A) In Ralstonia pickettii T1, an extracellular PHBDP degrades extracellular PHB to various-sized 3HB-oligomers, which an extracellular 3HBOH hydrolyzes to 3HB-monomers. (B) In Acidovorax sp. SA1, an extracellular PHBDP hydrolyzes extracellular PHB to small 3HB-oligomers (dimer and trimer), which an intracellular 3HBOH efficiently degrades to 3HB in the cell. (C) In Ralstonia eutropha H16, an intracellular 3HBOH helps in the degradation of intracellular PHB inclusions by PHBDP."
+  },
+  {
+    "pmid": "1476778",
+    "title": "Intracellular degradation of poly(3-hydroxybutyrate) granules of Zoogloea ramigera I-16-M.",
+    "authors": [
+      "Saito T",
+      "Saegusa H",
+      "Miyata Y",
+      "Fukui T"
+    ],
+    "journal": "FEMS microbiology reviews",
+    "pubdate": "1992 Dec",
+    "doi": null,
+    "abstract": "Intracellular degradation of poly(3-hydroxybutyrate) (PHB) in bacteria is not yet clear. The properties of the autodigestion of native PHB granules from Zoogloea ramigera I-16-M were examined. The release of D(-)-3-hydroxybutyrate was observed only at pH values higher than about 8.5 and at relatively high ionic strength (optimal concentration 200 mM NaCl). Triton X-100 and diisopropylfluorophosphate inhibited this reaction. Addition of the supernatant fraction of Z. ramigera did not increase the release of D(-)-3-hydroxybutyrate from the native PHB granules. On the other hand, using the protease-treated PHB granules from Alcaligenes eutrophus as a substrate, PHB depolymerase activity was detected in the supernatant fraction of Z. ramigera cells. The soluble PHB depolymerase showed similar properties to the enzyme in the PHB granules. Since PHB depolymerase activity was found in fractions containing D(-)-3-hydroxybutyrate oligomer hydrolase activity, which were separated by DEAE-Toyopearl or by Sephacryl S-100, it is possible that the intracellular PHB depolymerase is identical to the oligomer hydrolase which has been purified already."
+  },
+  {
+    "pmid": "11814660",
+    "title": "Purification and properties of D-(-)-3-hydroxybutyrate oligomer hydrolase of Paracoccus denitrificans.",
+    "authors": [
+      "Ueda S",
+      "Sano K",
+      "Gao D",
+      "Tomihari N",
+      "Yamane T",
+      "Endo I"
+    ],
+    "journal": "FEMS microbiology letters",
+    "pubdate": "2002 Jan 10",
+    "doi": null,
+    "abstract": "D-(-)-3-Hydroxybutyrate (3HB) oligomer hydrolase was purified from Paracoccus denitrificans. The enzyme was a monomeric protein with an approximate molecular mass of 31 kDa. The isoelectric point of the enzyme was 5.2. Optimum temperature and pH were 35-40 degrees C and 8.0, respectively. The enzyme activity was not affected by sulfhydryl reagents but strongly inhibited by serine proteinase inhibitors. Both 3HB trimer and 3HB dimer were hydrolyzed by the enzyme, indicating that the enzyme is not 3HB dimer hydrolase but 3HB oligomer hydrolase. para-Nitrophenyl esters of short-chain fatty acids were also hydrolyzed by the enzyme. 3HB dimer was hydrolyzed somewhat faster than 3HB trimer. The level of the enzyme activity was almost constant, irrespective of carbon sources for the bacterial growth and of the cultivation conditions."
+  },
+  {
+    "pmid": "10416666",
+    "title": "Structural effects on enzymatic degradabilities for poly[(R)-3-hydroxybutyric acid] and its copolymers.",
+    "authors": [
+      "Abe H",
+      "Doi Y"
+    ],
+    "journal": "International journal of biological macromolecules",
+    "pubdate": "1999",
+    "doi": null,
+    "abstract": "Poly[(R)-3-hydroxybutyric acid] and its copolymers were prepared by biosynthetic and chemosynthetic methods. The films of polyesters were prepared by both the solution-cast and melt-crystallized techniques. The enzymatic degradation of polyester films was carried out at 37 degrees C in an aqueous solution (pH 7.4) of PHB depolymerase from Alcaligenes faecalis. The rate of enzymatic erosion on the solution-cast films increased markedly with an increase in the fraction of second monomer units up to 10-20 mol% to reach a maximum value followed by a decrease in the erosion rate. Analysis of the water-soluble products liberated during the enzymatic degradation of polyester films showed the formation of a mixture of monomers and oligomers of (R)-3HB and hydroxyalkanoic acids units, suggesting that the active site of PHB depolymerase recognizes at least three monomeric units as substrate for the hydrolysis of ester bonds in a polymer chain. The rate of enzymatic erosion of melt-crystallized polyester films decreased with an increase in crystallinity. PHB depolymerase predominantly hydrolyzed the polymer chains in the amorphous phase and subsequently eroded crystalline phase. In addition, the enzymatic degradation of crystalline phase by PHB depolymerase progressed from the edges of crystalline lamellar stacks. The enzymatic erosion rate of crystalline phase in polyester films decreased with an increase in the lamellar thickness."
+  },
+  {
+    "pmid": "12775684",
+    "title": "Purification and properties of an intracellular 3-hydroxybutyrate-oligomer hydrolase (PhaZ2) in Ralstonia eutropha H16 and its identification as a novel intracellular poly(3-hydroxybutyrate) depolymerase.",
+    "authors": [
+      "Kobayashi T",
+      "Shiraki M",
+      "Abe T",
+      "Sugiyama A",
+      "Saito T"
+    ],
+    "journal": "Journal of bacteriology",
+    "pubdate": "2003 Jun",
+    "doi": null,
+    "abstract": "An intracellular 3-hydroxybutyrate (3HB)-oligomer hydrolase (PhaZ2(Reu)) of Ralstonia eutropha was purified from Escherichia coli harboring a plasmid containing phaZ2(Reu). The purified enzyme hydrolyzed linear and cyclic 3HB-oligomers. Although it did not degrade crystalline poly(3-hydroxybutyrate) (PHB), the purified enzyme degraded artificial amorphous PHB at a rate similar to that of the previously identified intracellular PHB (iPHB) depolymerase (PhaZ1(Reu)). The enzyme appeared to be an endo-type hydrolase, since it actively hydrolyzed cyclic 3HB-oligomers. However, it degraded various linear 3HB-oligomers and amorphous PHB in the fashion of an exo-type hydrolase, releasing one monomer unit at a time. PhaZ2 was found to bind to PHB inclusion bodies and as a soluble enzyme to cell-free supernatant fractions in R. eutropha; in contrast, PhaZ1 bound exclusively to the inclusion bodies. When R. eutropha H16 was cultivated in a nutrient-rich medium, the transient deposition of PHB was observed: the content of PHB was maximized in the log growth phase (12 h, ca. 14% PHB of dry cell weight) and decreased to a very low level in the stationary phase (ca. 1% of dry cell weight). In each phaZ1-null mutant and phaZ2-null mutant, the PHB content in the cell increased to ca. 5% in the stationary phase. A double mutant lacking both phaZ1 and phaZ2 showed increased PHB content in the log phase (ca. 20%) and also an elevated PHB level (ca. 8%) in the stationary phase. These results indicate that PhaZ2 is a novel iPHB depolymerase, which participates in the mobilization of PHB in R. eutropha along with PhaZ1."
+  },
+  {
+    "pmid": "8981982",
+    "title": "Purification of an extracellular D-(-)-3-hydroxybutyrate oligomer hydrolase from Pseudomonas sp. strain A1 and cloning and sequencing of its gene.",
+    "authors": [
+      "Zhang K",
+      "Shiraki M",
+      "Saito T"
+    ],
+    "journal": "Journal of bacteriology",
+    "pubdate": "1997 Jan",
+    "doi": null,
+    "abstract": "An extracellular D-(-)-3-hydroxybutyrate oligomer hydrolase was purified from a poly(3-hydroxybutyrate)-degrading bacterium, Pseudomonas sp. strain A1. The purified enzyme hydrolyzed the D-(-)-3-hydroxybutyrate dimer and trimer at similar rates. The enzyme activity was inhibited by a low concentration of diisopropylfluorophosphate. The molecular weight of the hydrolase was estimated to be about 70,000 by sodium dodecyl sulfate-polyacrylamide gel electrophoresis. A 10-kbp DNA fragment of A1 was detected by hybridization with the gene (2 kbp) of an extracellular poly(3-hydroxybutyrate) depolymerase from Alcaligenes faecalis. Subsequent subcloning showed that a SmaI-KpnI fragment (2.8 kbp) was responsible for expression of the hydrolase in Escherichia coli and an in vitro transcription-translation system. The expressed protein detected by immunostaining had the same molecular weight as the purified enzyme from A1. The protein band detected in the in vitro transcription-translation system had a molecular size of 72 kDa. The nucleotide sequence of the SmaI-KpnI fragment was determined, and one open reading frame (2,112 nucleotides) was found. It specifies a protein with a deduced molecular weight of 72,876 (704 amino acids). In this sequence, the consensus sequence of serine-dependent hydrolysis, G-X-S-X-G, did not exist."
+  },
+  {
+    "pmid": "17543408",
+    "title": "Enzymatic synthesis of poly(hydroxyalkanoates) in ionic liquids.",
+    "authors": [
+      "Gorke JT",
+      "Okrasa K",
+      "Louwagie A",
+      "Kazlauskas RJ",
+      "Srienc F"
+    ],
+    "journal": "Journal of biotechnology",
+    "pubdate": "2007 Nov 01",
+    "doi": null,
+    "abstract": "Ring-opening polymerization of five lactones catalyzed by Candida antarctica lipase B in ionic liquids yielded poly(hydroxyalkanoates) of moderate molecular weights up to Mn=13,000. In the ionic liquid 1-butyl-3-methylimidazolium bis(trifluoromethane)-sulfonimide and with a low weight ratio of enzyme to lactone (1:100) we obtained polymers from beta-propiolactone, delta-valerolactone, and epsilon-caprolactone with degrees of polymerization as high as 170, 25, and 85, respectively; oligomers from beta-butyrolactone and gamma-butyrolactone with degrees of polymerization of 5; and a copolymer of beta-propiolactone and beta-butyrolactone with a degree of polymerization of 180. Water-immiscible ionic liquids were superior to water-miscible ionic liquids. Reducing the water content of the enzyme improved the degree of polymerization by as much as 50% for beta-propiolactone and epsilon-caprolactone."
+  },
+  {
+    "pmid": "35628419",
+    "title": "Microbial Consortia and Mixed Plastic Waste: Pangenomic Analysis Reveals Potential for Degradation of Multiple Plastic Types via Previously Identified PET Degrading Bacteria.",
+    "authors": [
+      "Edwards S",
+      "Le\u00f3n-Zayas R",
+      "Ditter R",
+      "Laster H",
+      "Sheehan G",
+      "Anderson O",
+      "Beattie T",
+      "Mellies JL"
+    ],
+    "journal": "International journal of molecular sciences",
+    "pubdate": "2022 May 17",
+    "doi": "10.3390/ijms23105612",
+    "abstract": "The global utilization of single-use, non-biodegradable plastics, such as bottles made of polyethylene terephthalate (PET), has contributed to catastrophic levels of plastic pollution. Fortunately, microbial communities are adapting to assimilate plastic waste. Previously, our work showed a full consortium of five bacteria capable of synergistically degrading PET. Using omics approaches, we identified the key genes implicated in PET degradation within the consortium's pangenome and transcriptome. This analysis led to the discovery of a novel PETase, EstB, which has been observed to hydrolyze the oligomer BHET and the polymer PET. Besides the genes implicated in PET degradation, many other biodegradation genes were discovered. Over 200 plastic and plasticizer degradation-related genes were discovered through the Plastic Microbial Biodegradation Database (PMBD). Diverse carbon source utilization was observed by a microbial community-based assay, which, paired with an abundant number of plastic- and plasticizer-degrading enzymes, indicates a promising possibility for mixed plastic degradation. Using RNAseq differential analysis, several genes were predicted to be involved in PET degradation, including aldehyde dehydrogenases and several classes of hydrolases. Active transcription of PET monomer metabolism was also observed, including the generation of polyhydroxyalkanoate (PHA)/polyhydroxybutyrate (PHB) biopolymers. These results present an exciting opportunity for the bio-recycling of mixed plastic waste with upcycling potential."
+  },
+  {
+    "pmid": "27386248",
+    "title": "Biodegradation of different formulations of polyhydroxybutyrate films in soil.",
+    "authors": [
+      "Altaee N",
+      "El-Hiti GA",
+      "Fahdil A",
+      "Sudesh K",
+      "Yousif E"
+    ],
+    "journal": "SpringerPlus",
+    "pubdate": "2016",
+    "doi": "10.1186/s40064-016-2480-2",
+    "abstract": "BACKGROUND: Petroleum polymers contribute to non-degradable waste materials and it would therefore be desirable to produce ecofriendly degradable materials. Biodegradation of polyhydroxybutyrate (PHB) in the presence of oligomer hydrolase and PHB depolymerase gave 3-hydroxybutyric acid which could be oxidized to acetyl acetate. Several bacteria and fungi can degrade PHB in the soil.\nRESULTS: Biodegradation of PHB showed a significant decrease in the molecular weight (Mw), number-average molecular weight (Mn) and the dispersity (Mw/Mn) for all the film formulations. Nanofibers of PHB and its composites showed faster degradation compared to other films and displayed complete degradation after 3\u00a0weeks. The SEM micrographs showed various surface morphology changes including alterations in appearance of pores, cavity, grooves, incisions, slots and pointers. Such changes were due to the growth of microorganisms that secreted PHB depolymerase enzyme which lead to the biopolymer films degradation. However, PHB nanofibers and its composites films in the presence of TiO2 demonstrated more surface changes with rupture of most nanofibers in which there was a drop in fibres diameter.\nCONCLUSIONS: The degradation of biopolymers help to overcome some of the pollution problems associated with the use of petroleum polymers. PHB nanofiber and its TiO2 composite were degraded faster compared to other PHB film types due to their three dimensional and high surface area structures. The presence of TiO2 nanoparticles in the composite films slowdown the degradation process compared to PHB films. Additionally, the PHB and its composite films that were prepared from UV treated PHB films led to acceleration of the degradation.Graphical abstractBiodegradation of polyhydroxybutyrate films in soil."
+  },
+  {
+    "pmid": "16957234",
+    "title": "Assay of poly(3-hydroxybutyrate) depolymerase activity and product determination.",
+    "authors": [
+      "Gebauer B",
+      "Jendrossek D"
+    ],
+    "journal": "Applied and environmental microbiology",
+    "pubdate": "2006 Sep",
+    "doi": null,
+    "abstract": "Two methods for accurate poly(3-hydroxybutyrate) (PHB) depolymerase activity determination and quantitative and qualitative hydrolysis product determination are described. The first method is based on online determination of NaOH consumption rates necessary to neutralize 3-hydroxybutyric acid (3HB) and/or 3HB oligomers produced during the hydrolysis reaction and requires a pH-stat apparatus equipped with a software-controlled microliter pump for rapid and accurate titration. The method is universally suitable for hydrolysis of any type of polyhydroxyalkanoate or other molecules with hydrolyzable ester bonds, allows the determination of hydrolysis rates of as low as 1 nmol/min, and has a dynamic capacity of at least 6 orders of magnitude. By applying this method, specific hydrolysis rates of native PHB granules isolated from Ralstonia eutropha H16 were determined for the first time. The second method was developed for hydrolysis product identification and is based on the derivatization of 3HB oligomers into bromophenacyl derivates and separation by high-performance liquid chromatography. The method allows the separation and quantification of 3HB and 3HB oligomers up to the octamer. The two methods were applied to investigate the hydrolysis of different types of PHB by selected PHB depolymerases."
+  },
+  {
+    "pmid": "15901707",
+    "title": "Analysis of transient polyhydroxybutyrate production in Wautersia eutropha H16 by quantitative Western analysis and transmission electron microscopy.",
+    "authors": [
+      "Tian J",
+      "He A",
+      "Lawrence AG",
+      "Liu P",
+      "Watson N",
+      "Sinskey AJ",
+      "Stubbe J"
+    ],
+    "journal": "Journal of bacteriology",
+    "pubdate": "2005 Jun",
+    "doi": null,
+    "abstract": "Polyhydroxybutyrates (PHBs) are polyoxoesters generated from (R)3-hydroxybutyryl coenzyme A by PHB synthase. During the polymerization reaction, the polymers undergo a phase transition and generate granules. Wautersia eutropha can transiently accumulate PHB when it is grown in a nutrient-rich medium (up to 23% of the cell dry weight in dextrose-free tryptic soy broth [TSB]). PHB homeostasis under these growth conditions was examined by quantitative Western analysis to monitor the proteins present, their levels, and changes in their levels over a 48-h growth period. The proteins examined include PhaC (the synthase), PhaP (a phasin), PhaR (a transcription factor), and PhaZ1(a), PhaZ1(b), and PhaZ1(c) (putative intracellular depolymerases), as well as PhaZ2 (a hydroxybutyrate oligomer hydrolase). The results show that PhaC and PhaZ1(a) were present simultaneously. No PhaZ1(b) or PhaZ1(c) was detected at any time throughout growth. PhaZ2 was observed and exhibited an expression pattern different from that of PhaZ1(a). The levels of PhaP changed dramatically and corresponded kinetically to the levels of PHB. Transmission electron microscopy (TEM) provided the dimensions of the average cell and the average granule at 4 h and 24 h of growth (J. Tian, A. J. Sinskey, and J. Stubbe, J. Bacteriol. 187:3814-3824, 2005). This information allowed us to calculate the amount of each protein and number of granules per cell and the granule surface coverage by proteins. The molecular mass of PHB (10(6) Da) was determined by dynamic light scattering at 4 h, the time of maximum PHB accumulation. At this time, the surface area of the granules was maximally covered with PhaP (27 to 54%), and there were one or two PhaP molecules/PHB chain. The ratio of PHB chains to PhaC was approximately 60, which required reinitiation of polymer formation on PhaC. The TEM studies of wild-type and deltaphaR strains in TSB provided further support for an alternative mechanism of granule formation."
+  },
+  {
+    "pmid": "25548058",
+    "title": "Comparative proteome analysis reveals four novel polyhydroxybutyrate (PHB) granule-associated proteins in Ralstonia eutropha H16.",
+    "authors": [
+      "Sznajder A",
+      "Pfeiffer D",
+      "Jendrossek D"
+    ],
+    "journal": "Applied and environmental microbiology",
+    "pubdate": "2015 Mar",
+    "doi": "10.1128/AEM.03791-14",
+    "abstract": "Identification of proteins that were present in a polyhydroxybutyrate (PHB) granule fraction isolated from Ralstonia eutropha but absent in the soluble, membrane, and membrane-associated fractions revealed the presence of only 12 polypeptides with PHB-specific locations plus 4 previously known PHB-associated proteins with multiple locations. None of the previously postulated PHB depolymerase isoenzymes (PhaZa2 to PhaZa5, PhaZd1, and PhaZd2) and none of the two known 3-hydroxybutyrate oligomer hydrolases (PhaZb and PhaZc) were significantly present in isolated PHB granules. Four polypeptides were found that had not yet been identified in PHB granules. Three of the novel proteins are putative \u03b1/\u03b2-hydrolases, and two of those (A0671 and B1632) have a PHB synthase/depolymerase signature. The third novel protein (A0225) is a patatin-like phospholipase, a type of enzyme that has not been described for PHB granules of any PHB-accumulating species. No function has been ascribed to the fourth protein (A2001), but its encoding gene forms an operon with phaB2 (acetoacetyl-coenzyme A [CoA] reductase) and phaC2 (PHB synthase), and this is in line with a putative function in PHB metabolism. The localization of the four new proteins at the PHB granule surface was confirmed in vivo by fluorescence microscopy of constructed fusion proteins with enhanced yellow fluorescent protein (eYFP). Deletion of A0671 and B1632 had a minor but detectable effect on the PHB mobilization ability in the stationary growth phase of nutrient broth (NB)-gluconate cells, confirming the functional involvement of both proteins in PHB metabolism."
+  },
+  {
+    "pmid": "7606662",
+    "title": "Biodegradation of cyclic and substituted linear oligomers of poly(3-hydroxybutyrate).",
+    "authors": [
+      "Brandl H",
+      "Aeberli B",
+      "Bachofen R",
+      "Schwegler I",
+      "Muller HM",
+      "Burger MH",
+      "Hoffmann T",
+      "Lengweiler UD",
+      "Seebach D"
+    ],
+    "journal": "Canadian journal of microbiology",
+    "pubdate": "1995",
+    "doi": null,
+    "abstract": "Cyclic oligo(3-hydroxybutyrate), oligo(3-HB), was synthesized and purified, resulting in oligolides that contained three to seven (R)-3-hydroxybutyrate units (triolides up to heptolides). In addition, linear 3-HB octamers obtained as either tert-butyl or methyl esters were substituted with different end groups at the hydroxy end. The hydroxy terminus was replaced by either a benzyloxy, trifluoroacetoxy, crotonyloxy (S)-3-hydroxybutyryloxy, or fluorenylmethylcarbonyloxy (FMOC) group. P(3-HB) hairpin loops occurred on the surface of certain regions of the polymer, especially of lamellar crystallites. Cyclic 3-HB oligomers provide a model system for these loops. It is assumed that they provide attachment points for the depolymerizing enzymes. All of the (R)-oligolides tested were degraded except the (R)-triolide. Triolides were not degraded, suggesting that enzymatic attack was prevented presumably by steric hindrance on the rigid ring system. Unsubstituted linear octamers were degraded. Biodegradation was prevented when the hydroxy terminus was protected by the FMOC group, but was not dependent on a free hydroxy terminal group; all other protecting groups did not prevent degradation. Substitution of the carboxy end of a methyl or tert-butyl ester group did not influence biodegradation."
+  },
+  {
+    "pmid": "15988790",
+    "title": "Enzymatic transformation of bacterial polyhydroxyalkanoates into repolymerizable oligomers directed towards chemical recycling.",
+    "authors": [
+      "Kaihara S",
+      "Osanai Y",
+      "Nishikawa K",
+      "Toshima K",
+      "Doi Y",
+      "Matsumura S"
+    ],
+    "journal": "Macromolecular bioscience",
+    "pubdate": "2005 Jul 14",
+    "doi": null,
+    "abstract": "The enzymatic transformation into an oligomer was carried out with the objective of developing the chemical recycling of bacterial polyesters. Poly(R-3-hydroxyalkanoate)s (PHAs), such as poly[(R-3-hydroxybutyrate)-co-12%(R-3-hydroxyhexanoate)] and poly[(R-3-hydroxybutyrate)-co-12%(R-3-hydroxyvalerate)], were degraded by granulated Candida antarctica lipase B immobilized on hydrophilic silica (lipase GCA) in a diluted organic solvent at 70 degrees C. The degradation products were cyclic oligomers having a molecular weight of a few hundreds. The obtained cyclic oligomer was readily repolymerized by the same lipase (lipase GCA) to produce the corresponding polyester in a concentrated solution. The cyclic oligomer was copolymerized with epsilon-caprolactone using lipase to produce the corresponding terpolymers having an Mw of 21,000. This is the first example of the enzymatic chemical recycling of bacterial PHAs using lipase. Poly(R-3-hydroxybutyrate) [P(3HB)] was also degraded into the linear-type R-3HB monomer to trimer by P(3HB)-depolymerase (PHBDP) in phosphate buffer at 37 degrees C. The degradation using PHBDP required a longer reaction time compared with the lipase-catalyzed degradation in organic solvent. The monomer composition of the oligomer depended on the origin of the PHBDP. The R-3HB monomer was predominately produced by PHBDP from Pseudomonas stutzeri, while the R-3HB dimer was produced by PHBDP from Alcaligenes faecalis T1. Repolymerization of these oligomers by lipase in concentrated organic solvent produced a relatively low-molecular-weight P(3HB) (e.g., Mw=2,000). Degradation of P(3HB) by lipase in organic solvent into repolymerizable cyclic oligomer and degradation of P(3HB) by PHBDP in buffer into hydroxy acid type R-3HB dimer."
+  },
+  {
+    "pmid": "15340783",
+    "title": "Studies on the biodegradability of polythioester copolymers and homopolymers by polyhydroxyalkanoate (PHA)-degrading bacteria and PHA depolymerases.",
+    "authors": [
+      "Elbanna K",
+      "L\u00fctke-Eversloh T",
+      "Jendrossek D",
+      "Luftmann H",
+      "Steinb\u00fcchel A"
+    ],
+    "journal": "Archives of microbiology",
+    "pubdate": "2004 Oct",
+    "doi": null,
+    "abstract": "The biodegradability of microbial polythioesters (PTEs), a novel class of biopolymers which were discovered recently and can be produced by polyhydroxyalkanoate (PHA)-accumulating bacteria, was studied. Using poly(3-hydroxybutyrate- co-3-mercaptopropionate) [poly(3HB- co-3MP)] as sole carbon source for screening, 22 new bacterial strains were isolated and characterized. Interestingly, none of the PHA-degrading bacteria was able to utilize the homopolymer poly(3MP) as a carbon source for growth or to form clear zones on poly(3MP)-containing agar plates. The extracellular PHA depolymerases from two strains ( Schlegelella thermodepolymerans, Pseudomonas indica K2) were purified to electrophoretic homogeneity and biochemically characterized. The PHA depolymerase of S. thermodepolymerans exhibited a temperate optimum of about 75 degrees C to 80 degrees C and was stable at 70 degrees C for more than 24 h. Regarding the substrate specificities of the PHA depolymerase of S. thermodepolymerans, enzyme activities decreased significantly with increasing 3MP content of the copolymer substrates. Interestingly, no activity could be detected with homoPTEs consisting only of 3MP or of 3-mercaptobutyrate. Similar results were obtained with the PHA depolymerases PhaZ2, PhaZ5 and PhaZ7 of Paucimonas lemoignei which were also investigated. The PHA depolymerase of Ps. indica K2 did not cleave any of the investigated polymers containing 3MP. Gas chromatography, infrared and (1)H-NMR spectrometry and matrix-assisted laser desorption/ionization time-of-flight analysis revealed that 3MPs containing oligomers were enriched in the water-insoluble fraction remaining after partial digestion of poly(3HB- co-3MP) by purified poly(3HB) depolymerase of S. thermodepolymerans. In contrast, 3HB was enriched in the water-soluble fraction, which also contained 3HB- co-3MP dimer obtained by partial digestion of this copolymer by the enzyme. This study clearly indicates that PHA depolymerases are specific for oxoester linkages of PHAs and that the thioester bonds of PTEs cannot be cleaved by this type of enzyme."
+  },
+  {
+    "pmid": "22706067",
+    "title": "Identification and biochemical evidence of a medium-chain-length polyhydroxyalkanoate depolymerase in the Bdellovibrio bacteriovorus predatory hydrolytic arsenal.",
+    "authors": [
+      "Mart\u00ednez V",
+      "de la Pe\u00f1a F",
+      "Garc\u00eda-Hidalgo J",
+      "de la Mata I",
+      "Garc\u00eda JL",
+      "Prieto MA"
+    ],
+    "journal": "Applied and environmental microbiology",
+    "pubdate": "2012 Sep",
+    "doi": "10.1128/AEM.01099-12",
+    "abstract": "The obligate predator Bdellovibrio bacteriovorus HD100 shows a large set of proteases and other hydrolases as part of its hydrolytic arsenal needed for its predatory life cycle. We present genetic and biochemical evidence that open reading frame (ORF) Bd3709 of B. bacteriovorus HD100 encodes a novel medium-chain-length polyhydroxyalkanoate (mcl-PHA) depolymerase (PhaZ(Bd)). The primary structure of PhaZ(Bd) suggests that this enzyme belongs to the \u03b1/\u03b2-hydrolase fold family and has a typical serine hydrolase catalytic triad (serine-histidine-aspartic acid) in agreement with other PHA depolymerases and lipases. PhaZ(Bd) has been extracellularly produced using different hypersecretor Tol-pal mutants of Escherichia coli and Pseudomonas putida as recombinant hosts. The recombinant PhaZ(Bd) has been characterized, and its biochemical properties have been compared to those of other PHA depolymerases. The enzyme behaves as a serine hydrolase that is inhibited by phenylmethylsulfonyl fluoride. It is also affected by the reducing agent dithiothreitol and nonionic detergents like Tween 80. PhaZ(Bd) is an endoexohydrolase that cleaves both large and small PHA molecules, producing mainly dimers but also monomers and trimers. The enzyme specifically degrades mcl-PHA and is inactive toward short-chain-length polyhydroxyalkanoates (scl-PHA) like polyhydroxybutyrate (PHB). These studies shed light on the potentiality of these predators as sources of new biocatalysts, such as an mcl-PHA depolymerase, for the production of enantiopure hydroxyalkanoic acids and oligomers as building blocks for the synthesis of biobased polymers."
+  },
+  {
+    "pmid": "3942778",
+    "title": "Degradation of poly(3-hydroxybutyrate) by poly(3-hydroxybutyrate) depolymerase from Alcaligenes faecalis T1.",
+    "authors": [
+      "Shirakura Y",
+      "Fukui T",
+      "Saito T",
+      "Okamoto Y",
+      "Narikawa T",
+      "Koide K",
+      "Tomita K",
+      "Takemasa T",
+      "Masamune S"
+    ],
+    "journal": "Biochimica et biophysica acta",
+    "pubdate": "1986 Jan 15",
+    "doi": null,
+    "abstract": "The extracellular poly(3-hydroxybutyrate) depolymerase purified from Alcaligenes faecalis T1 has two disulfide bonds, one of which appears to be necessary for the full enzyme activity. This depolymerase hydrolyzed not only hydrophobic poly(3-hydroxybutyrate) but also water-soluble trimer and larger oligomers of D-(-)-3-hydroxybutyrate, regardless of their solubilities in water. Kinetic analyses with oligomers of various sizes indicated that the substrate cleaving site of the enzyme consisted of four subsites with individual affinities for monomer units of the substrate. Analyses of the hydrolytic products of oligomers, which had labeled D-(-)-3-hydroxybutyrate at the hydroxy terminus, showed that the enzyme cleaved only the second ester linkage from the hydroxy terminus of the trimer and tetramer, and acted as an endo-type hydrolase toward the pentamer and higher oligomers. The enzyme appeared to have a hydrophobic site which interacted with poly(3-hydroxybutyrate) and determined the affinity of the enzyme toward the hydrophobic substrate."
+  },
+  {
+    "pmid": "42496064",
+    "title": "Continuous and Divergent Biotransformation of \u03b2-Ketoesters Into Enantiomerically Pure \u03b2-Hydroxyacids or Their Oligomers Through a Telescoped Multienzyme Cascade.",
+    "authors": [
+      "Pota G",
+      "Andr\u00e9s-Sanz D",
+      "Maiz-Iginitz A",
+      "Armend\u00e1riz-Ruiz MA",
+      "Sardon H",
+      "Vitiello G",
+      "Califano V",
+      "Costantini A",
+      "L\u00f3pez-Gallego F"
+    ],
+    "journal": "Chembiochem : a European journal of chemical biology",
+    "pubdate": "2026 Jul 29",
+    "doi": "10.1002/cbic.70474",
+    "abstract": "Efficient, selective, and sustainable synthetic platforms are increasingly important in modern chemical manufacturing, yet chemical flexibility often remains limited. In this study, we develop a modular biocatalytic system for the divergent and continuous transformation of ethyl acetoacetate (EAA) into either enantiomerically pure (R)-3-hydroxybutyric acid ((R)-3HBA) or oligomers of (R)-poly(3-hydroxybutyrate) (PHB). The cascade combines two telescoped packed-bed reactors containing an immobilized, self-sufficient Lactobacillus kefir ketoreductase (LkKRED) and commercial immobilized Candida antarctica lipase B (N435). By simply tuning the reaction conditions, the system selectively directs the substrate toward either product. Under aqueous conditions, it achieves quantitative conversion to (R)-3HBA with >99% enantiomeric excess and maintains excellent stability over 7 days of continuous operation. It also reaches a maximum space-time yield of 105\u2009g\u2009L-1\u2009h-1, which is 33 times higher than the volumetric productivity of the sequential two-pot process. Under anhydrous conditions, the same setup promotes polycondensation into PHB oligomers, as confirmed by matrix-assisted laser desorption/ionization time-of-flight analysis. Overall, this platform combines productivity, stereoselectivity, and flexibility for the integrated synthesis of chiral building blocks or oligomers."
+  },
+  {
+    "pmid": "6626560",
+    "title": "An extracellular D(-)-3-hydroxybutyrate oligomer hydrolase from Alcaligenes faecalis.",
+    "authors": [
+      "Shirakura Y",
+      "Fukui T",
+      "Tanio T",
+      "Nakayama K",
+      "Matsuno R",
+      "Tomita K"
+    ],
+    "journal": "Biochimica et biophysica acta",
+    "pubdate": "1983 Oct 28",
+    "doi": null,
+    "abstract": "A strain of Alcaligenes faecalis secretes an extracellular D(-)-3-hydroxybutyrate oligomer hydrolase, in addition to poly(3-hydroxybutyrate) depolymerase, when it is grown in a medium containing poly(3-hydroxybutyrate) as the sole carbon source. The oligomer hydrolase (EC 3.1.1.22), which has been purified to electrophoretic homogeneity, has a molecular weight of 68 000, as estimated by Sephadex G-100 gel filtration, and of 74 000, by polyacrylamide gel electrophoresis in the presence of sodium dodecyl sulfate. The isoelectric point of the enzyme is approx. 6.0 and the pH optimum for the enzyme reaction is 8.5. The purified oligomer hydrolase has high affinity for oligomeric esters (apparent Km for the D(-)-3-hydroxybutyrate dimer = 32.8 microM; for the dodecamer = 1.3 microM), but does not attack poly(3-hydroxybutyrate) (average molecular weight, 32 500) at all. Analysis of hydrolysates of the oligomeric esters suggests that the enzyme hydrolyzes these substrates from the carboxyl terminus, releasing D(-)-3-hydroxybutyrate units one by one."
+  },
+  {
+    "pmid": "7285912",
+    "title": "Purification and properties of D(-)-3-hydroxybutyrate-dimer hydrolase from Zoogloea ramigera I-16-M.",
+    "authors": [
+      "Tanaka Y",
+      "Saito T",
+      "Fukui T",
+      "Tanio T",
+      "Tomita K"
+    ],
+    "journal": "European journal of biochemistry",
+    "pubdate": "1981 Aug",
+    "doi": null,
+    "abstract": "D(-)-3-Hydroxybutyrate-dimer hydrolase from Zoogloea ramigera I-16-M was purified 7000-fold to electrophoretic homogeneity. The molecular weight of the purified enzyme was 28 000 as determined by Sephadex G-100 gel filtration, and 30 000 as estimated by polyacrylamide gel electrophoresis in the presence of sodium dodecyl sulfate. The isoelectric point was at pH 5.7. The pH optimum for the enzyme reaction was 8.0. The dimer hydrolase was stereospecific for D(-)-3-[D(-)-3-hydroxybutyryloxy]butyric acid (DD-dimer) but also hydrolyzed D(-)-3-[L(+)-3-hydroxybutyryloxy]butyric acid (DL-dimmer) and L(+)-3-[D(-)-3-hydroxybutyryloxy]butyric acid (LD-dimer) at reduced rates. However, the enzyme did not attack L(+)-3-[L(+)-3-hydroxybutyryloxy]butyric acid (LL-dimer) at all. In addition, the purified hydrolase hydrolyzed several oligomeric esters of D(-)-3-hydroxybutyric acid (DDD-dimer, DDDD-tetramer and DDDDD-pentamer) faster than DD-dimer. Time course experiments with these oligomers and analysis of hydrolytic products of DDD-tetramer methyl ester with the hydrolase indicated that the enzyme attached these substrates from the free hydroxyl terminus releasing monomer units one at a time."
+  },
+  {
+    "pmid": "16233278",
+    "title": "Cloning of an intracellular D(-)-3-hydroxybutyrate-oligomer hydrolase gene from Ralstonia eutropha H16 and identification of the active site serine residue by site-directed mutagenesis.",
+    "authors": [
+      "Saegusa H",
+      "Shiraki M",
+      "Saito T"
+    ],
+    "journal": "Journal of bioscience and bioengineering",
+    "pubdate": "2002",
+    "doi": null,
+    "abstract": "An intracellular D(-)-3-hydroxybutyrate (3HB)-oligomer hydrolase gene from Ralstonia eutropha (formerly Alcaligenes eutrophus) H16 was cloned, sequenced, and characterized. As a hybridization probe to screen restriction digests of chromosomal DNA, an extracellular 3HB-oligomer hydrolase gene from Ralstonia pickettii strain (formerly Pseudomonas sp. strain) A1 was used. A specific hybridization signal was obtained and a 6.5-kbp SmaI fragment was cloned in an Escherichia coli phagemid vector. The crude extract from E. coli with this plasmid showed 3HB-trimer hydrolase activity. The subcloned 3.2-kbp fragment still showed 3HB-trimer hydrolase activity in E. coli and expressed an approximately 78-kDa protein in an in vitro transcription-translation system. Nucleotide sequence analysis of the 3.2-kbp fragment showed an open reading frame that encodes a polypeptide with a deduced molecular weight of 78,510. The putative amino acid sequence showed 54% identity with that of the oligomer hydrolase from R. pickettii A1. By site-directed mutagenesis, a novel amino acid sequence (S-V-S*-N-G) containing an essential serine residue in the catalytic center of the enzyme was determined. The gene product was found in PHB-rich cells of R. eutropha by immunodetection. The expressed 3HB-oligomer hydrolase localized both in the supernatant fraction and the PHB granules of the cells."
+  },
+  {
+    "pmid": "17964488",
+    "title": "Purification and molecular cloning of an intracellular 3-hydroxybutyrate-oligomer hydrolase from Paucimonas lemoignei.",
+    "authors": [
+      "Uchino K",
+      "Katsumata Y",
+      "Takeda T",
+      "Arai H",
+      "Shiraki M",
+      "Saito T"
+    ],
+    "journal": "Journal of bioscience and bioengineering",
+    "pubdate": "2007 Sep",
+    "doi": null,
+    "abstract": "An intracellular 3-hydroxybutyrate-oligomer hydrolase was purified from a poly(3-hydroxybutyrate)-degrading bacterium, Paucimonas lemoignei. It hydrolyzed the 3-hydroxybutyrate dimer with the highest specific activity of any of the enzymes reported so far. The gene was cloned and sequenced. The deduced amino acid sequence showed that the enzyme is a homolog of the PhaZc of Ralstonia eutropha H16."
+  },
+  {
+    "pmid": "12070691",
+    "title": "Cloning and sequencing of an intracellular D(-)-3-hydroxybutyrate oligomer hydrolase from Acidovorax sp. strain SA1 and purification of the enzyme.",
+    "authors": [
+      "Sugiyama A",
+      "Shiraki M",
+      "Kobayashi T",
+      "Morikawa G",
+      "Yamamoto M",
+      "Yamaoka M",
+      "Saito T"
+    ],
+    "journal": "Current microbiology",
+    "pubdate": "2002 Aug",
+    "doi": null,
+    "abstract": "The gene of an intracellular D(-)-3-hydroxybutyrate oligomer hydrolase (i3HBOH) was cloned and sequenced from a poly(3-hydroxybutyrate) (PHB)-degrading bacterium, Acidovorax sp. strain SA1. The i3HBOH gene has 876 nucleotides corresponding to the deduced sequence of 292 amino acids. In this amino acid sequence, the general lipase box sequence (G-X(1)-S-X(2)-G) was found, whose serine residue was determined to the active sites serine by site-directed mutagenesis. An i3HBOH was purified to electrophoretical homogeneity from SA1. The molecular mass of the purified enzyme was estimated to be 32 kDa by SDS-PAGE. The N-terminal amino acid sequence of the purified enzyme corresponded to the deduced N-terminal amino acid sequence in the cloned i3HBOH gene. This is the first cloning and sequencing of an intracellular D(-)-3-hydroxybutyrate oligomer hydrolase gene to date."
+  },
+  {
+    "pmid": "27059479",
+    "title": "A study on the relation between poly(3-hydroxybutyrate) depolymerases or oligomer hydrolases and molecular weight of polyhydroxyalkanoates accumulating in Cupriavidus necator H16.",
+    "authors": [
+      "Arikawa H",
+      "Sato S",
+      "Fujiki T",
+      "Matsumoto K"
+    ],
+    "journal": "Journal of biotechnology",
+    "pubdate": "2016 Jun 10",
+    "doi": "10.1016/j.jbiotec.2016.04.004",
+    "abstract": "Cupriavidus necator H16 has nine genes of poly(3-hydroxybutyrate) (PHB) depolymerases or oligomer hydrolases (intracellular PHB mobilization enzymes). In this study, we evaluated the relation between these genes and the accumulation, consumption, and molecular weight of polyhydroxyalkanoates (PHAs) accumulating in strain H16 and in a recombinant C. necator strain, KNK-005, which harbors an NSDG mutant of the PHA synthase gene (phaCAc) from Aeromonas caviae. PhaZ6 had a significant influence on the molecular weight of PHA when palm kernel oil was used as a carbon source. The 005dZ6 strain (\u0394phaZ6 mutant of KNK-005) could produce ultra-high-molecular-weight poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) (PHBHHx) with weight-average molecular weight (Mw) >3.0\u00d710(6) (approximately double that of KNK-005). Under PHA consumption conditions, deletion of phaZ1 and phaZ2 had a significant and slight attenuating effect, respectively, on the reduction in PHA content of KNK-005 cells. Regardless of the PHA consumption, its Mw did not decrease. Thus, 005dZ126 (the \u0394phaZ1\u0394phaZ2\u0394phaZ6 triple mutant of KNK-005) is a promising strain capable of producing PHBHHx of ultra-high-molecular-weight and barely degrades PHBHHx enzymatically intracellularly. This is the first report examining the relation between intracellular PHB mobilization enzymes and molecular weight of PHAs accumulating in C. necator H16 and the derivatives."
+  },
+  {
+    "pmid": "40562145",
+    "title": "Environmentally friendly upcycling of PHA-based copolymers.",
+    "authors": [
+      "Damonte G",
+      "Cozzani M",
+      "Ozenda M",
+      "Siracusa C",
+      "Calandri MJ",
+      "Pellis A",
+      "Guebitz GM",
+      "Monticelli O"
+    ],
+    "journal": "International journal of biological macromolecules",
+    "pubdate": "2025 Aug",
+    "doi": "10.1016/j.ijbiomac.2025.145457",
+    "abstract": "This work focuses on two fundamental aspects that make the use of plastics and, more recently, bioplastics sustainable and cyclical, namely their recycling and the valorization of the products resulting from this process. Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) (PHBH) was considered as substrate. A solventless partial chemical decomposition with concomitant branching was developed based on the use of reagents from renewable sources, namely pentaerythritol as polyalcohol and zinc stearate as catalyst. 1H NMR, IR, and DSC measurements showed the formation of oligomers having a branched structure whose molecular weights and glass transition temperatures decreased with the increasing of the polyalcohol content in the reaction mixture. The oligomers were used as additives in the development of porous films based on the starting high molecular weight PHBH, exploiting a Non-Solvent Induced Phase Separation (NIPS) method using Cyrene\u00ae, a green solvent derived from cellulose. The ability of the films to retain a dye and the metal precursor palladium chloride was studied. In the latter case, the catalytic activity of the system consisting of Pd clusters formed on the porous substrate after the metal precursor reduction was demonstrated. Finally, the enzymatic hydrolysis of the films was evaluated using Humicola insolens Cutinase (HiC) at different concentrations and in different media."
+  },
+  {
+    "pmid": "18340545",
+    "title": "Secretion pathway for the poly(3-hydroxybutyrate) depolymerase in Ralstonia pickettii T1.",
+    "authors": [
+      "Sugimoto A",
+      "Shiraki M",
+      "Hatakeyama S",
+      "Saito T"
+    ],
+    "journal": "Antonie van Leeuwenhoek",
+    "pubdate": "2008 Aug",
+    "doi": "10.1007/s10482-008-9235-1",
+    "abstract": "The extracellular poly(3-hydroxybutyrate) depolymerase from Ralstonia pickettii T1 has been purified, its function and character investigated in detail, and its gene cloned and sequenced. However, the mechanism by which this enzyme is secreted has not been elucidated. A mutant unable to degrade poly(3-hydroxybutyrate), N17, was obtained with the random insertion of a mini-transposon, Tn5. Western analysis using antiserum against the poly(3-hydroxybutyrate) depolymerase of Ralstonia pickettii T1, revealed that N17 accumulated the poly(3-hydroxybutyrate) depolymerase in the periplasm and cytoplasm, and did not secrete the enzyme into the external medium. It was also found that 3-hydroxybutyrate-oligomer hydrolase was secreted but inactive. The disrupted gene in N17, depO, was analyzed by Southern hybridization and its nucleotide sequence was determined. One complete open reading frame was found in the cloned 2.3-kbp DNA fragment. From a BLAST search, this gene product was found to be homologous to PulO of Ralstonia eutropha JMP134 (60% identity) and XcpA of Pseudomonas aeruginosa (60% identity). These proteins are prepilin peptidase/N-metyltransferases, a component of the Type II secretion pathway. DepO also had the four cysteines highly conserved in most prepilin peptidases at the same positions. The transcript of depO was examined by Northern hybridization using depO as a probe. In the total RNA of Ralstonia pickettii T1 in the early stationary phase, a band at 2.6-kb was detected, suggesting depO to be a functional gene. In this study, it was found that poly(3-hydroxybutyrate) depolymerase was secreted by the Type II pathway."
+  },
+  {
+    "pmid": "15489436",
+    "title": "The \"intracellular\" poly(3-hydroxybutyrate) (PHB) depolymerase of Rhodospirillum rubrum is a periplasm-located protein with specificity for native PHB and with structural similarity to extracellular PHB depolymerases.",
+    "authors": [
+      "Handrick R",
+      "Reinhardt S",
+      "Kimmig P",
+      "Jendrossek D"
+    ],
+    "journal": "Journal of bacteriology",
+    "pubdate": "2004 Nov",
+    "doi": null,
+    "abstract": "Rhodospirillum rubrum possesses a putative intracellular poly(3-hydroxybutyrate) (PHB) depolymerase system consisting of a soluble PHB depolymerase, a heat-stable activator, and a 3-hydroxybutyrate dimer hydrolase (J. M. Merrick and M. Doudoroff, J. Bacteriol. 88:60-71, 1964). In this study we reinvestigated the soluble R. rubrum PHB depolymerase (PhaZ1). It turned out that PhaZ1 is a novel type of PHB depolymerase with unique properties. Purified PhaZ1 was specific for amorphous short-chain-length polyhydroxyalkanoates (PHA) such as native PHB, artificial PHB, and oligomer esters of (R)-3-hydroxybutyrate with 3 or more 3-hydroxybutyrate units. Atactic PHB, (S)-3-hydroxybutyrate oligomers, medium-chain-length PHA, and lipase substrates (triolein, tributyrin) were not hydrolyzed. The PHB depolymerase structural gene (phaZ1) was cloned. Its deduced amino acid sequence (37,704 Da) had no significant similarity to those of intracellular PHB depolymerases of Wautersia eutropha or of other PHB-accumulating bacteria. PhaZ1 was found to have strong amino acid homology with type-II catalytic domains of extracellular PHB depolymerases, and Ser(42), Asp(138), and His(178) were identified as catalytic-triad amino acids, with Ser(42) as the putative active site. Surprisingly, the first 23 amino acids of the PHB depolymerase previously assumed to be intracellular revealed features of classical signal peptides, and Edman sequencing of purified PhaZ1 confirmed the functionality of the predicted cleavage site. Extracellular PHB depolymerase activity was absent, and analysis of cell fractions unequivocally showed that PhaZ1 is a periplasm-located enzyme. The previously assumed intracellular activator/depolymerase system is unlikely to have a physiological function in PHB mobilization in vivo. A second gene, encoding the putative true intracellular PHB depolymerase (PhaZ2), was identified in the genome sequence of R. rubrum."
+  },
+  {
+    "pmid": "11710184",
+    "title": "Enzymatic hydrolysis of oligomeric models of poly-3-hydroxybutyrate.",
+    "authors": [
+      "Scherer TM",
+      "Fuller RC",
+      "Goodwin S",
+      "Lenz RW"
+    ],
+    "journal": "Biomacromolecules",
+    "pubdate": "2000",
+    "doi": null,
+    "abstract": "The mechanism of the enzymatic degradation of poly([R]-3-hydroxybutyrate) (PHB) was investigated by using well-defined model substrates, including both linear and cyclic [R]-3-hydroxybutyrate (3HB) and [R]-3-hydroxyvalerate (3HV) oligomers, with two different PHB depolymerases. The linear and cyclic oligomers containing from 2 to 10 repeating units were hydrolyzed in solutions of the depolymerase isolated from Aspergillus fumigatus and Alcaligenes faecalis, and the rates of hydrolysis and types of products formed were characterized. Both of the depolymerases catalyzed the hydrolysis of the cyclic oligomers (macrolides) which contained more than three 3HB and 3HV repeating units. The degradation reactions of the linear and cyclic 3HB oligomers with the A. fumigatus depolymerase gave similar ratios of monomer-to-dimer products, but PHB itself formed mostly monomer on hydrolysis, indicating that the enzymatic hydrolysis reactions occurred by different mechanisms for these different types of substrates. The results of this study conclusively show that at least the endo mode of polymer hydrolysis occurs with the two enzymes studied, while the A. fumigatus depolymerase was found to utilize both endo and exo modes of hydrolysis to efficiently degrade PHB and 3HB oligomers."
+  },
+  {
+    "pmid": "24146107",
+    "title": "Transcriptional repression of the poly(3-hydroxybutyrate) depolymerase in Ralstonia pickettii T1 by a tetR-like gene.",
+    "authors": [
+      "Shiraki M",
+      "Okura H",
+      "Saito T"
+    ],
+    "journal": "Antonie van Leeuwenhoek",
+    "pubdate": "2014 Jan",
+    "doi": "10.1007/s10482-013-0056-5",
+    "abstract": "Ralstonia pickettii T1 secretes a poly(3-hydroxybutyrate) (PHB) depolymerase (PhaZ) and a 3-hydroxybutyrate (3HB)-oligomer hydrolase, and extracellularly degrades PHB to produce 3HB. However, it is not clear how the expression of phaZ is regulated. In this study, the mechanism by which phaZ expression is controlled in R. pickettii T1 was examined using a mutant made by the random insertion of a transposon, Tn5. The mutant produced a larger amount of PhaZ than the wild type in nutrient broth or a minimal salt (SM) medium supplemented with succinate. However, there was essentially no difference in the activity or amount of PhaZ in the culture supernatant between the wild type and mutant when the two were grown on 3HB. The gene disrupted by the insertion of Tn5 (epdR) was cloned and its nucleotide sequence was determined. In a BLAST search, epdR showed a high degree of similarity to genes for TetR transcriptional regulators of several bacteria. The introduction of epdR into the wild type and mutant grown on the three media described above decreased the amount of PhaZ. These results indicated EpdR to be involved in the repression of phaZ in R. pickettii T1. A quantitative RT-PCR analysis indicated that mRNA levels corresponded with the activity detected and the amounts of PhaZ in the wild type and mutant. Furthermore, the amount of epdR transcript was inversely proportional to the amount of phaZ transcript. In addition, the existence of a positive element acting on phaZ expression was suggested, because in the mutant lacking EpdR, the amount of phaZ transcript varied in cells grown in SM-3HB, SM-succinate or nutrient broth. Based on the above results, a model for the regulation of PhaZ expression in R. pickettii T1 is proposed."
+  }
+]

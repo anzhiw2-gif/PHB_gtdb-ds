@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "count": 494,
+    "db_response_time_ms": 30,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where title/abstract has (standardized bacterial taxonomy)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "standardized bacterial taxonomy",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=title_and_abstract.search:standardized bacterial taxonomy&per_page=5&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2889019390",
+      "display_name": "A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life",
+      "publication_year": 2018,
+      "cited_by_count": 3964,
+      "doi": "https://doi.org/10.1038/nbt.4229"
+    },
+    {
+      "id": "https://openalex.org/W2766358903",
+      "display_name": "A communal catalogue reveals Earth\u2019s multiscale microbial diversity",
+      "publication_year": 2017,
+      "cited_by_count": 2944,
+      "doi": "https://doi.org/10.1038/nature24621"
+    },
+    {
+      "id": "https://openalex.org/W2102274379",
+      "display_name": "Polyphasic taxonomy, a consensus approach to bacterial systematics",
+      "publication_year": 1996,
+      "cited_by_count": 1524,
+      "doi": "https://doi.org/10.1128/mr.60.2.407-438.1996"
+    },
+    {
+      "id": "https://openalex.org/W3209528471",
+      "display_name": "Bakta: rapid and standardized annotation of bacterial genomes via alignment-free sequence identification",
+      "publication_year": 2021,
+      "cited_by_count": 1448,
+      "doi": "https://doi.org/10.1099/mgen.0.000685"
+    },
+    {
+      "id": "https://openalex.org/W2115445096",
+      "display_name": "Applications of MALDI-TOF mass spectrometry in clinical diagnostic microbiology",
+      "publication_year": 2011,
+      "cited_by_count": 975,
+      "doi": "https://doi.org/10.1111/j.1574-6976.2011.00298.x"
+    }
+  ],
+  "group_by": []
+}

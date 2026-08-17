@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "count": 6,
+    "db_response_time_ms": 19,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where title/abstract has (\n    database\n    and depolymerase\n    and polyhydroxyalkanoate\n  )",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "database",
+            "operator": "has"
+          },
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "depolymerase",
+            "operator": "has"
+          },
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "polyhydroxyalkanoate",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=title_and_abstract.search:database,title_and_abstract.search:depolymerase,title_and_abstract.search:polyhydroxyalkanoate&per_page=10&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2131164625",
+      "display_name": "The PHA Depolymerase Engineering Database: A systematic analysis tool for the diverse family of polyhydroxyalkanoate (PHA) depolymerases",
+      "publication_year": 2009,
+      "cited_by_count": 162,
+      "doi": "https://doi.org/10.1186/1471-2105-10-89"
+    },
+    {
+      "id": "https://openalex.org/W2809748194",
+      "display_name": "Polyhydroxybutyrate (PHB) biodegradation using bacterial strains with demonstrated and predicted PHB depolymerase activity",
+      "publication_year": 2018,
+      "cited_by_count": 78,
+      "doi": "https://doi.org/10.1007/s00253-018-9153-8"
+    },
+    {
+      "id": "https://openalex.org/W2151417334",
+      "display_name": "The gene pvaB encodes oxidized polyvinyl alcohol hydrolase of Pseudomonas sp. strain VM15C and forms an operon with the polyvinyl alcohol dehydrogenase gene pvaA The DDBJ accession number for the sequence reported in this paper is AB008494.",
+      "publication_year": 2000,
+      "cited_by_count": 47,
+      "doi": "https://doi.org/10.1099/00221287-146-3-649"
+    },
+    {
+      "id": "https://openalex.org/W2026010604",
+      "display_name": "Biochemical characterization of a new type of intracellular PHB depolymerase from Rhodospirillum rubrum with high hydrolytic activity on native PHB granules",
+      "publication_year": 2011,
+      "cited_by_count": 27,
+      "doi": "https://doi.org/10.1007/s00253-011-3096-7"
+    },
+    {
+      "id": "https://openalex.org/W4394873638",
+      "display_name": "Metagenomic investigations into the microbial consortia, degradation pathways, and enzyme systems involved in the biodegradation of plastics in a tropical lentic pond sediment",
+      "publication_year": 2024,
+      "cited_by_count": 26,
+      "doi": "https://doi.org/10.1007/s11274-024-03972-6"
+    },
+    {
+      "id": "https://openalex.org/W4417293330",
+      "display_name": "The plastic-degrading capabilities of Pseudomonas aeruginosa",
+      "publication_year": 2025,
+      "cited_by_count": 3,
+      "doi": "https://doi.org/10.1186/s44314-025-00033-6"
+    }
+  ],
+  "group_by": []
+}

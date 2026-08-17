@@ -1,0 +1,331 @@
+# Gene expression analysis reveals distinct PHB depolymerization mechanisms and broader involvement of the PHB cycle in Rhodospirillum rubrum growing on acetate and fructose
+
+## Abstract
+
+BackgroundRhodospirillum rubrum owns a dynamic poly(3-hydroxybutyrate) (PHB) cycle: During growth PHB is accumulated and subsequently degraded under carbon starvation. Interestingly, this cycle is typically found for acetate grown R. rubrum but not for fructose grown cells, where no PHB accumulation has been observed. This study aimed to determine whether expression of PHB cycle genes correlates with the phases of PHB accumulation and degradation on acetate in comparison to absence of PHB synthesis during growth on fructose and ΔphaC1ΔphaC2 mutant unable to polymerize PHB on acetate.ResultsSurprisingly, transcriptomic analyses of the wild-type strain demonstrated that PHB cycle genes were not only expressed during growth on acetate but also for growth on fructose, regardless of PHB content. Substrate-specific expression patterns were identified: The PHB depolymerase gene phaZ1 was predominantly expressed on acetate, while phaZ2 and the depolymerase regulator apdA were upregulated on fructose. Interestingly, phaC3 and phaZ3 showed distinct expression patterns compared with other PHB cycle genes, particularly in mutant strains. Despite the absence of PHB granules in the ΔphaC1ΔphaC2 strain, several PHB cycle genes remained expressed, and volatile fatty acid assimilation pathways were transcriptionally impacted.ConclusionsThese findings highlight the complexity of the PHB cycle and suggest that PHB participates in other physiological processes, such as substrate assimilation, potentially via regulatory actions of PHB granule bound regulator PhaR.Supplementary InformationThe online version contains supplementary material available at 10.1186/s12934-026-02946-7.
+
+
+## Background
+
+
+Rhodospirillum rubrum is a metabolically versatile purple non-sulfur bacterium often used as a model for studying poly(3-hydroxybutyrate) (PHB) metabolism [1]. PHB is a polyester member of the polyhydroxyalkanoate (PHA) family, which are synthesized by various microorganisms as carbon and energy storage compound [1].
+
+In R. rubrum, PHB accumulation has been investigated under photoheterotrophic [2, 3], chemoheterotrophic [4, 5] and mixotrophic (using CO as energy source [6, 7]) growth conditions. PHB is usually produced from acetyl-CoA via the sequential action of β-ketothiolase (PhaA), acetoacetyl-CoA reductase (PhaB), and PHB synthases (PhaC1, PhaC2, PhaC3) [8]. In R. rubrum, PhaC2 is the dominant PHB synthase, PhaC3 plays a minor role, and complete loss of PHB polymerization occurs only upon double deletion of phaC1 and phaC2 [8]. PHB biosynthesis was initially described as a five-step process involving (S)-3-hydroxybutyryl-CoA, which is converted to crotonyl-CoA and subsequently transformed by PhaJ into (R)-3-hydroxybutyryl-CoA. Of these, PhaB has been shown to be a key enzyme, and PhaJ appears to have a limited impact [9].
+
+PHB is accumulated intracellularly as an inclusion body. While early work in R. rubrum proposed a “budding model” for PHB granule formation [10], recent studies favor a “scaffold model” in which granules form at the nucleoid [11–13] and are surrounded by a complex of PHA granule-associated proteins (PGAPs) [14]. These structures, often referred to as carbonosomes, consist of PHB cores surrounded by proteins such as PhaC, PhaZ (depolymerase), and phasins (PhaP) [15]. Phasins are multifunctional, influencing granule size, number, stability, PHB accumulation, degradation and potentially acting as chaperones [16–19]. Their expression is thought to be coordinated with the intracellular PHB level [20], via PhaR [21]. The latter is a conserved and well-studied transcription factor also able to bind to PHB, acting as a regulator in PHB metabolism, as well as in other physiological aspects, essentially linking PHB regulation with overall metabolism [22, 23]. Indeed, PHB metabolism has recently been shown to have broad implications for R. rubrum cell physiology (e.g., cell motility and pigment synthesis) [24].
+
+Simultaneous synthesis and degradation of PHB at the granule surface create a PHB cycle, often described as futile as its functional significance is not fully understood [25, 26]. This cycle was, in particular, observed in R. rubrum growing on butyrate and acetate [4, 27]. PHB degradation is catalyzed by PHB depolymerases (PhaZ), hydrolysing the polymer back to 3HB under external carbon-limiting conditions [28]. In R. rubrum, three depolymerases have been identified: PhaZ1 (periplasmic) [29], PhaZ2 (cytoplasmic), and PhaZ3 (also cytoplasmic but likely inactive in vivo) [30]. PhaZ2 is considered the main intracellular depolymerase, while PhaZ1’s role remains unclear due to its periplasmic location. ApdA (Activator of Polymer Degradation) is another key protein involved in granule mobilization, sharing features with phasins and acting as a crucial factor for PhaZ activity [31].
+
+In R. rubrum PHB accumulation has been observed to be growth-associated during cultivation on acetate [4], and notably, the first two steps of PHB biosynthesis (phaA, phaB) are shared with the ethylmalonyl-CoA (EMC) pathway, which is necessary for acetate assimilation [4, 32]. In contrast, PHB is not typically produced during dark aerobic chemoheterotrophic growth on fructose unless combined with nitrogen or oxygen limitation [5, 33, 34]. This makes acetate and fructose ideal contrasting substrates for investigating how the PHB cycle is transcriptionally regulated.
+
+To date, one transcriptomic study has been performed on the complete PHB cycle, investigating both accumulation and degradation in the same batch culture for Cupriavidus necator [35]. In contrast, other studies in R. rubrum have primarily explored how different culture conditions affect specific aspects of the PHB cycle, using transcriptomic [24, 36], metabolomic [7], and proteomic [32, 37, 38] approaches. However, none have comprehensively analyzed how all PHB cycle components change between net accumulation and net degradation within the same culture. In addition, the PHB cycle under aerobic chemoheterotrophic cultures in darkness remains understudied, especially the growth associated PHB accumulation observed with acetate. Likewise, the PHB cycle gene expression under non-accumulating conditions (e.g., growth on fructose) and in the ΔphaC1ΔphaC2 mutant strain, which is unable to form PHB granules, is unknown.
+
+To date, it is not known whether expression of PHB cycle genes in R. rubrum directly correlates with net PHB accumulation, degradation, or absence of PHB across different growth phases and carbon sources. Under dark aerobic chemoheterotrophic conditions, we hypothesized that PHB cycle genes were expressed not only during PHB accumulation, but also under non-accumulating conditions, such as growth on fructose or in the ΔphaC1ΔphaC2 mutant. Using these contrasting conditions, we aimed to clarify the roles and coordination of PHB cycle genes and to determine whether the absence of granule formation influences broader aspects of cell physiology and central metabolism, particularly during acetate assimilation. In this paper, we show that PHB cycle genes display distinct expression patterns across substrates and genotypes, providing new insights into how PHB metabolism is integrated in the central carbon pathways of R. rubrum.
+
+
+## Methods
+
+
+
+## Microbial strain, cultivation medium and growth conditions
+
+
+Rhodospirillum rubrum S1 (DSM 467T) and Rhodospirillum rubrum S1 ΔphaC1ΔphaC2 were cultivated in all experiments as previously described in Jureckova et al. [24]. The double mutant R. rubrum ΔphaC1ΔphaC2 knock-out (KO) strain was kindly provided by Prof. Kevin E. O΄Connor and Prof. Tanja Narancic (University College Dublin, Ireland).
+
+Briefly, liquid cultures were grown in modified RRNCO medium [39] as described previously by Karmann et al. [40] with either 18 mM of fructose or 55 mM of acetate as carbon source, resulting in equimolar initial carbon concentration. For clarity, cultures grown on fructose are referred to as FY and those grown on acetate as AY throughout this study. As additional modifications of the medium, NiSO4 was replaced by NiCl2 at the same Ni concentration, and a 95.5 mM potassium phosphate buffer (K2HPO4/KH2PO4, pH = 7) was added. Liquid cultures were inoculated at an optical density at 660 nm (OD660) of 0.1 in shake flask without baffles. Precultures, inoculated from R. rubrum cultured on LB agar plates, were grown on LB medium in shake flasks. Each condition presented in this study was performed in triplicate, the average of which is displayed with standard deviation as error bars.
+
+
+## Analytical procedures
+
+
+Cultivations were monitored by following OD660, with values maintained within the linear signal range of 0.1–0.7 by diluting with sterile 0.9% NaCl in demineralized water (w/w). At each sampling point, culture broth was centrifuged to separate cells and supernatant. The supernatant was used for monitoring the substrate concentration, while the pellet was washed and used for cell dry weight (CDW) and PHA quantification.
+
+
+## Gravimetric analysis of the cell dry weight (CDW)
+
+
+Triplicates of 5 or 10 mL culture samples were centrifuged (5000 g, 20 °C, 5 min), washed with the equivalent volume of deionized water, and dried at 70 °C for 24 h. Tubes were cooled to room temperature and CDW was calculated by subtracting the tare weight.
+
+For the WT FY condition, triplicates of 3 to 4 mL of culture broth were filtered (GN-6 Metricel®, 0.45 µm, 47 mm, Cytiva, U.K.) and washed once with the equivalent volume of deionized water. Filters were dried at 100 °C for 24 h, cooled to room temperature in a desiccator, and CDW was calculated as given in Eq. 1 by subtracting the tare weight and the medium:1\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \begin{array}{*{20}c} \begin{gathered} CDW \hfill \\ = \left[ {\left( {W1_{{filter + biomass}} - W1_{{filter}} } \right) - \left( {W2_{{filter + medium}} - W2_{{filter}} } \right)} \right] \cdot D \hfill \\ \end{gathered} \\ \end{array} $$\end{document}where W1filter+biomass and W1filter are the weights of filter #1 after and before filtration of the culture sample, respectively; W2filter+medium and W2filter are the weights of filter #2 after and before filtration of a medium sample with the same volume as the culture sample; and D is the dilution factor.
+
+
+## PHA content in bacterial cultures
+
+
+The previously obtained dry biomass was subsequently used for PHA content quantification and PHA composition determination using gas chromatography (Trace 1300, Thermo Scientific, column: DB-WAX 30 m by 0.25 mm) with flame-ionization detector (GC-FID) as reported previously [43].
+
+For the WT FY condition, cultivation samples were centrifuged (10,509 g, 4 °C, 5 min), washed once with a solution of 0.9% NaCl and then stored at − 80 °C. After freeze-drying, the dried biomass was subjected to a chemical treatment for PHA extraction and methanolysis using dichloromethane [41] (containing 2-ethyl-2-hydroxybutyric acid as an internal standard) and a mixture of methanol containing 15% (v/v) of concentrated H2SO4. The reaction was carried out at 100 °C for 2.5 h and the organic layer was subsequently washed twice with a solution of saturated NaCl. Finally, PHBV quantification was performed via GC analysis (Agilent 8890 GC System, CA, U.S.A.) equipped with an Optima WAX column (Agilent, 30 m, 0.25 mm, film thickness 0.25 μm). A volume of 1 μL was injected at 250 °C at a split ratio of 1:10. The temperature was increased from 70 to 240 °C at a rate of 10 °C min− 1 for 20 min. A flame ionization detector at 285 °C was used for detection.
+
+
+## Substrate concentration monitoring
+
+
+Fructose concentration was quantified using a Shimadzu HPLC LC 10 System (Shimadzu, Japan) equipped with a refractive index detector. The separation conditions were set as follows: The mobile phase consisted of a mixture of acetonitrile and water at a ratio of 80:20 (v/v). Isocratic separation was performed at 40  °C with detection at 30  °C, and at a flow rate of 1.2 mL min−1. For the chromatographic separation, Zorbax NH₂ column (Agilent, U.S.A.) with a particle size of 5 µm and dimensions of 4.6 × 250 mm was used.
+
+Samples were neutralized and filtered through nylon syringe filters with a pore size of 0.45  µm. For quantitative and qualitative determination of the analyte, standards of fructose in distilled water were used.
+
+Acetate concentration of the culture supernatant was determined using an ion chromatograph Metrohm 850 IC (Switzerland) equipped with a conductivity detector and a Metrosep Organic Acids 250/7.8 column (Metrohm). Sample handling was automated using a Professional Sample Processor 858 (Metrohm). The column was thermostated at 30  °C. The mobile phase consisted of 0.5  mM perchloric acid (HClO₄) in deionized water, with a flow rate set at 0.6 mL min−1. Sample injection volume was 20  µL. A 10  mM lithium chloride (LiCl) suppressor was used. Stock solutions of acetate were prepared and used to establish a calibration curve. These stock solutions, along with the actual samples, were analyzed using ion chromatography (Microbore, Metrohm) with conductivity detection. Data was processed and evaluated using the MagIC Net software (Metrohm).
+
+For fructose and the 3HB quantification in WT FY condition, concentrations in supernatant were determined by HPLC (1260 Infinity II, Agilent) equipped with a 300 mm × 7.8 mm ion exchange column (Aminex HPX-87H, 9 µm particle size; Bio-Rad Laboratories, CA, USA). An isocratic elution was performed with 5 mM H2SO4 at a flow rate of 0.6 ml min−1, and at 40 °C for 30 min. Detection was done via a refractive index detector.
+
+
+## Calculations
+
+
+During this study the maximum specific growth rate µmax (h−1) was determined in the exponential growth phase according to Eq. 2, using OD660 (−) measurements over time (t). Only data points corresponding to the exponential phase were considered for the calculation.2\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{array}{c}{\upmu }_{max}=\frac{\mathrm{ln}{{OD}_{660}}_{(\mathrm{t}2)}-\mathrm{ln}{{OD}_{660}}_{(\mathrm{t}1)}}{{t}_{2}-{t}_{1}}\end{array}$$\end{document}
+
+The biomass yield on substrate Yx/s (g g−1) was calculated as the ratio of biomass produced (Δx), measured as CDW in g L−1, to substrate consumed (Δs) in g L−1 (Eq. 3).3\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \begin{array}{*{20}c} {Y_{{x/s}} = \frac{{\Delta {\mathrm{x}}}}{{\Delta {\mathrm{s}}}}} \\ \end{array} $$\end{document}
+
+The biomass yield on carbon Yx/c (g g−1) represents the ratio of biomass formed per unit of carbon utilized (Δc), where Δc corresponds to the mass of carbon in consumed substrate. The maximum specific substrate uptake rate qc max was then determined using the ratio of μmax to the biomass yield Yx/c, as shown in Eq. 4.4\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{array}{c}{q}_{c max}=\frac{{\upmu }_{max}}{{Y}_{x/\mathrm{c}}}\end{array}$$\end{document}
+
+
+## Transmission electron microscopy
+
+
+Cultures of wild-type Rhodospirillum rubrum grown on fructose and acetate were processed using a high-pressure freezing workflow. Cell suspensions were spread on the 200-µm cavity of 3-mm Au/Cu carriers type A, previously coated with a 1% (w/v) lecithin solution in chloroform, and covered with the flat side of type B carriers. Samples were rapidly vitrified in the EM ICE high-pressure freezer (Leica Microsystems, Austria). Frozen carriers were transferred under liquid nitrogen into a freeze-substitution unit (EM AFS2, Leica Microsystems). Freeze substitution was carried out in acetone containing 1.5% (w/v) OsO4 following the protocol reported in [42]. After substitution, samples were infiltrated with epoxy resin (Epoxy Embedding Medium kit, Sigma Aldrich, Germany) and polymerized at 62 °C for 48 h. The embedded material was sectioned into ~ 75-nm ultrathin sections using a 45° diamond knife (DiATOME, Switzerland) on an ultramicrotome (EM UC7, Leica Microsystems). Ultrathin sections were examined in a low-voltage transmission electron microscope LVEM 25 (Delong Instruments, Czech Republic) operated at 25 kV, where sufficient image contrast was achieved without the need for post-staining [43].
+
+
+## Transcriptome analysis
+
+
+To capture the transcriptome of R. rubrum under each condition, on top of the performance measurements, we selected key cultivation time points for transcriptomic analysis based on preliminary experiments. These time points corresponded to distinct phases of growth and PHB metabolism (Table 1 and Supplementary Material 1: Fig. S1), enabling a meaningful comparison between gene expression and phenotype. As the KO strain presented limited growth on acetate, only two time points could be analysed.Table 1Sample characteristics and code names that were designed based on the strain, substrate nature and time pointsStrainSubstrateSampling time [h]Code nameWild-typeAcetate30.5WT AY T10.6WT AY T250.9WT AY T3Fructose40.7WT FY T157.5WT FY T265.1WT FY T3ΔphaC1ΔphaC2Acetate54.6KO AY T177.8KO AY T2Fructose53.9KO FY T178.1KO FY T288.3KO FY T3
+
+Sample characteristics and code names that were designed based on the strain, substrate nature and time points
+
+As in Jureckova et al. (2024) described, the RNA-Seq data consisted of 33 samples as each cultivation condition was covered by three biological replicates [24]. Raw data was stored in NCBI SRA database under accession number SRP494085. Data were pre-processed by Trimmomatic [44] (v0.39) to trim adapter sequences and low-quality bases and possible rRNA contaminations were removed by SortMeRNA [45] (v4.3.4) with its default and SILVA databases [46]. Clean reads were mapped to WT genome of R. rubrum DSM 467T (available in GenBank database under CP077803.1 for chromosome and CP077804.1 for plasmid) by STAR [47] (v2.7.10a) and deduplicated by UMI-tools [48] (v1.1.4).
+
+R/Bioconductor package Rsubread (v2.16.1) was used to count mapped reads with featureCounts function [49]. Resulting count table was used to calculate reads per kilobase per million (RPKM) values and to perform differential expression analysis (DEA) by DESeq2 (v1.42.1) R/Bioconductor package [50]. Normalized count tables were generated using the DESeq2 normalization function. Gene expression profiles were then visualized in R (gplots (v3.1.3.1), RColorBrewer(v1.1-3), magick(v2.8.4), and openxlsx (v4.2.6.1) packages) as heatmaps of Z-scores, where Z-scores were calculated for each gene using the row-wise mean and standard deviation of normalized counts.
+
+All analyzed genes were identified based on their locus tags from annotated genome of WT, and a comparative table (Supplementary Material 1: Table S1) present our annotations with those from another published genome R. rubrum ATCC 11170 (RefSeq accession number NC_007643.1 for chromosome and NC_007641.1 for plasmid). The comparison was performed using NCBI BLAST + [51] (v2.15.0).
+
+To further contextualize gene regulation, we used the Operon Mapper web server (https://biocomputo.ibt.unam.mx/operon_mapper/) [52] to predict operon structures specific to our R. rubrum S1 (DSM 467T) strain.
+
+
+## Results
+
+
+To investigate how the expression of PHB cycle genes relates to PHB accumulation and overall cell physiology in R. rubrum, we first characterized the growth performance of the wild-type (WT) and ΔphaC1ΔphaC2 knockout (KO) strains under dark aerobic chemoheterotrophic conditions.
+
+
+## Culture performance overview
+
+
+
+## Cultivation patterns
+
+
+Both WT and ΔphaC1ΔphaC2 KO R. rubrum strains were cultivated on acetate and fructose in triplicate, Fig. 1 illustrates the average. Figure 1A represents the cultivation of both strains on acetate and Fig. 1B on fructose. Cells grew the fastest and reached a final concentration of 1.71 g L−1 (µmax = 0.076 h−1) at the end of the culture for acetate. Interestingly, the KO strain showed an impaired growth on acetate reaching 0.94 g L−1 (µmax = 0.022 h−1). On fructose WT cells grew to 2.70 g L−1 (µmax = 0.067 h−1) based on measurements from the culture used for transcriptomic sampling. A parallel side culture was also conducted to further characterize growth dynamics under this condition. Interestingly, on this substrate the deletion impact on growth performance was more nuanced as KO cells reached 4.72 g L−1 of biomass (µmax = 0.036 h−1).Fig. 1Shake flask culture of WT and KO R. rubrum strains on acetate (A) and fructose (B). For condition WT FY, an additional side culture was used to follow growth
+
+Shake flask culture of WT and KO R. rubrum strains on acetate (A) and fructose (B). For condition WT FY, an additional side culture was used to follow growth
+
+Uptake rate was greatly impaired for the KO cells on acetate (drop from qc = 0.055 g g−1 h−1 to qc = 0.022 g g−1 h−1) but less for fructose (drop from qc = 0.029 g g−1 h−1 to qc = 0.017 g g−1 h−1). This drop of the uptake rate for acetate by the KO strain was observed elsewhere [4]. PHB content peaked during exponential growth (36% w/w), remained relatively stable at the end of this phase (34% w/w), and then sharply declined in stationary phase (7% w/w) (Fig. 1A). Residual PHB levels were measured in fructose grown cells at the end of exponential growth phase (4% w/w) and stationary phase (5% w/w). No PHB was measured for the KO strain on both substrates.
+
+
+## Morphological analysis
+
+
+In addition to tracking growth dynamics and identifying transcriptomic sampling points, we sought to visually confirm the presence and distribution of intracellular PHB granules. TEM images allowed us to assess cellular morphology under each condition, thereby offering a complementary perspective to the physiological and transcriptomic data.
+
+Figure 2 illustrates the morphology of WT cells at different cultivation time points when grown on acetate and fructose. PHB granules are clearly visible only in cultures grown on acetate, as large electron-transparent granules, whereas cultures grown on fructose exhibit almost no PHB granules. This observation is fully consistent with data obtained through GC analysis, which indicates that growth on fructose results in a PHB content of approximately 4% (w/w), while growth on acetate yields over 30% (w/w).Fig. 2TEM images of acetate and fructose cultures of WT strain at different time points (T1, T2, and T3 as indicated in Supplementary Material 1: Fig. S1), scale bar: 1 µm
+
+TEM images of acetate and fructose cultures of WT strain at different time points (T1, T2, and T3 as indicated in Supplementary Material 1: Fig. S1), scale bar: 1 µm
+
+In addition to PHB granules, the cells of R. rubrum contained chromatophores, which are visible on Fig. 2 as small intracellular structures with lower contrast compared to PHB granules. Chromatophores in R. rubrum serve as specialized intracellular membrane structures that play a crucial role in photosynthetic and metabolic processes. These organelles house the photosynthetic apparatus, including reaction centers and light-harvesting complexes, which are essential for capturing and converting solar energy into chemical energy through photophosphorylation [53]. Interestingly, chromatophores are more clearly visible in the PHB-poor culture grown on fructose than in the PHB-rich culture grown on acetate. This is most likely due to the high-contrast PHB granules overshadowing the less contrasting chromatophores in TEM images.
+
+
+## Gene selection
+
+
+While in our previous study [24] we performed mostly overall comparison between strains, substrates and time points using multivariable analysis methods, we focused herein our analysis on genes directly or indirectly involved in the PHB cycle based on the physiological data and transcriptome at sampling points. This selection included biosynthesis genes, depolymerases, regulators, phasins, and associated metabolic nodes including (S)-3HB-CoA.
+
+Operon predictions revealed that phaB (KUL73_01445), phaA (KUL73_01450), and phaC1 (KUL73_01455) are co-localized in a putative operon on a negative strand of DNA, flanked by phaR (KUL73_01460) on a positive strand. This phaC1AB operon organization is consistent with findings in other Gram-negative PHB-producing bacteria [54, 55]. Other genes involved in the PHB cycle, however, were found either individually or in operons with genes of unrelated functions.
+
+The PHB cycle assessed in this study is presented on Fig. 3 with the selected genes. The pathway includes both the classic PHB synthesis route involving (R)-3HB-CoA and the less frequently discussed (S)-3HB-CoA-based synthesis, originally reported by Moskowitz and Merrick (1969) [56]. We looked at the mobilization of PHB via 3HB dehydrogenase (3HB DH, KUL73_05510) and acetoacetyl-CoA synthase (AACoA synth, KUL73_19055).Fig. 3Simplified overview of PHB cycle presenting the genes specifically analysed in the present study. Inspired by [38]. “AACoA synth” stands for acetoacetyl-CoA synthase. “DH” stands for dehydrogenase
+
+Simplified overview of PHB cycle presenting the genes specifically analysed in the present study. Inspired by [38]. “AACoA synth” stands for acetoacetyl-CoA synthase. “DH” stands for dehydrogenase
+
+The key genes investigated are the biosynthetic genes phaA, phaB, phaC1, phaC2 (KUL73_12470), phaC3 (KUL73_09405), the regulatory genes phaR, phaP1 (KUL73_14520), phaP2 (KUL73_10915), the (S)-3HB-CoA-involved genes 3-hydroxybutyryl-CoA dehydrogenase (KUL73_15880), enoyl-CoA hydratase (KUL73_19590) and phaJ (KUL73_15290); the PHB degradation genes phaZ1 (KUL73_08210), phaZ2 (KUL73_17340), phaZ3 (KUL73_10180) and apdA (KUL73_16925); and the 3HB assimilation genes (3-hydroxybutyrate dehydrogenase, acetoacetate-CoA ligase).
+
+As mentioned previously, PhaR is believed to coordinate the PHB cycle gene expression and for the scope of this study, PhaR will be the primary regulatory element considered.
+
+Figure 4 illustrates cellular localization of selected PHB cycle proteins whose positions are not randomly distributed in cytoplasm, the remaining proteins were assumed to be cytoplasmic. It also highlights the dual role of PhaR as both a transcriptional regulator and a PHB granule-binding protein, as well as its genomic position flanking the phaC1AB operon. Together, this schematic provides a functional and spatial context for interpreting transcriptomic dynamics of the PHB cycle in R. rubrum.Fig. 4Simplified overview of the actors of the PHB cycle in vivo in R. rubrum
+
+Simplified overview of the actors of the PHB cycle in vivo in R. rubrum
+
+
+## Gene expression of PHB cycle
+
+
+To validate the relevance of our gene selection, we first studied acetate-grown wild-type cultures (condition WT AY), where PHB accumulation and degradation were clearly observed. These conditions served as positive control, displaying a clear transition from PHB accumulation, peaking at 36% (w/w) during exponential growth, to degradation, with levels dropping to 7% (w/w) in stationary phase (Fig. 1). This clear transition from accumulation to mobilization over time provided an ideal context for assessing the transcriptional dynamics of the PHB cycle genes.
+
+Figure 5 represents changes in gene expression using Z-score values in four time series corresponding to each culture condition (WT AY, WT FY, KO FY and KO AY). Z-scores were standardized values that indicate how much a gene’s expression point deviates from its average at a given time across the time series [57]. Gene expressions were compared by DEA [24] between T1 and T2, as well as T2 and T3. Statistically significant changes (adjusted p-value < 0.05, Benjamini–Hochberg correction) in the gene expression are indicated as up or down arrows between each compared time points.Fig. 5Heatmap based on Z-score of PHB cycle genes expression with DEA between all time points for all conditions (WT AY, WT FY, KO FY and KO AY). The DEA results are represented as up or down arrows
+
+Heatmap based on Z-score of PHB cycle genes expression with DEA between all time points for all conditions (WT AY, WT FY, KO FY and KO AY). The DEA results are represented as up or down arrows
+
+
+## PHB biosynthetic genes
+
+
+For the WT acetate time series, despite fluctuations in PHB content, the genes involved in PHB biosynthesis remained expressed during the culture period, even during stationary phase where strong polymer degradation was observed (Fig. 5). This suggests that transcriptional regulation of these genes does not strictly follow PHB accumulation trends. In contrast, phaA and phaB, among other genes, were strongly downregulated in the KO strain for both acetate and fructose, confirming that the PHB cycle was disrupted (see Supplementary Material 1: Figs. S2 and S3).
+
+
+## PHB regulatory and granule-associated genes
+
+
+The expression of the regulatory gene phaR showed an unexpected pattern. While phaR is generally thought to correlate with PHB content, which is confirmed by the comparisons between WT and KO strains (Supplementary Material 1: Figs S2 and S3), its expression in WT AY remained relatively constant despite a marked decrease in PHB content from 36 to 7% (w/w). In contrast, during fructose cultures, phaR expression increased in the stationary phase, where PHB content remained nearly constant (4–5% w/w) (Fig. 5). These findings suggest that phaR expression in R. rubrum may not be linearly linked to PHB content and may instead operate via a threshold mechanism, being activated above a certain PHB content (e.g., ≥ 7%) but not further upregulated beyond that point. This is consistent with findings by Narancic and coworkers (2016), who reported that levels of proteins involved in PHB metabolism remained constant throughout the cultivation on both malate and acetate, despite variable PHB content [4]. In addition, PhaR is believed to regulate the PHB operon (phaC1, phaA, phaB), phasins, and depolymerases [58], yet we did not observe such inhibition under the tested conditions, suggesting that additional regulations may be at play to control the PHB cycle.
+
+Phasin genes also revealed unexpected patterns. Only phaP1 expression showed a clear correlation with PHB content, being upregulated during accumulation and downregulated as degradation intensified in WT AY. This is consistent with the proposed role in granule stabilization of phasins. However, phaP2 did not show a clear association with PHB content (Fig. 5 and Supplementary Material 1: Fig. S2). Phasins are generally thought to alter the surface-to-volume ratio of PHB granules [59]. Interestingly overexpression of PhaP1 from C. necator in Rhodopseudomonas palustris (another purple nonsulfur bacterium similar to R. rubrum) resulted in higher abundance of granules with smaller size [60]. In our case, TEM images of acetate-grown cells showed large granules (Fig. 2), which coincides with lower phasin expression levels, supporting this inverse relationship. Interestingly, apdA was expressed in the KO AY conditions as much as in the WT AY (Supplementary Material 1: Fig. S2), and lower than in FY WT (Fig. 5 and Supplementary Material 1: Fig. S4), where low PHB quantities were measured. This suggests that ApdA could be produced in the PHB cycle under acetate metabolism, but at lower concentration in comparison with fructose metabolism. Together, these findings raise the possibility that phasin expression is not solely regulated by PHB content but may also depend on the nature of the carbon source, potentially reflecting substrate-specific regulation of PHB granule.
+
+Overall, this expression pattern of phasin genes is not in agreement with a previous proteomic study on R. rubrum showing that PhaP1, PhaP2, and ApdA were primarily detected in WT cells grown on acetate, and not in the ∆phaC1∆phaC2 strain, except for minor levels of ApdA (associated UniProt accession number cited in the study are Q2RQI, Q2RSI41 and Q2RP67 respectively) [20]. There could be two potential explanations for this difference. First, our analysis does not account for post-transcriptional regulation, which may explain differences between transcriptomic and proteomic data. Second, differences in experimental conditions may play a role. The previous study used a nitrogen-limited culture containing malate and acetate as carbon sources, corresponding to a final C/N molar ratio of approximately 38, potentially inducing additional stress responses. Furthermore, PHB content in our study reached 36% during exponential growth, which is higher than the ≈22% reported [20], and may influence the expression or localization of granule-associated proteins.
+
+
+## PHB depolymerization and mobilization genes
+
+
+Regarding PHB depolymerization, in the WT acetate time series expression of phaZ1 and phaZ2 was consistent with their roles in PHB degradation. Both genes were more highly expressed in WT strain than in KO strain (Supplementary Material 1: Fig. S2), supporting their involvement in PHB cycle.
+
+In addition, expression of PHB degradation genes showed dynamic regulation over time. The periplasmic depolymerase phaZ1 was more expressed during the polymer degradation phase, whereas expression of the main intracellular depolymerase gene phaZ2 and apdA did not increase (Fig. 5). This suggests that phaZ1 plays a predominant role in PHB mobilization under these conditions, a novel insight into spatial regulation of PHB cycle.
+
+Interestingly, genes responsible for 3HB assimilation were constitutively expressed, and their expression did not correlate with the rise in phaZ1 expression in the WT AY condition. 3HB was not detected in the culture supernatant, suggesting that it was not secreted and may have been rapidly or fully assimilated intracellularly.
+
+These observations suggest a substrate-specific depolymerization mechanism. Figure 5 show that phaZ1 is predominantly expressed under acetate conditions, while phaZ2 and apdA are upregulated during fructose cultivation (see also Supplementary Material 1: Fig. S4). These contrasting expression patterns, together with the cellular localization of each depolymerase (PhaZ1 in periplasm and PhaZ2 in cytoplasm, see Fig. 4) may explain the different PHB contents observed between both conditions.
+
+PhaZ2-based degradation is associated to the well-characterized model of intracellular depolymerization, where native PHB granules are coated with proteins, and ApdA activates granules to allow PhaZ2 access it for degradation [59]. However, it is surprising that this well-characterized system appears to be primarily active during growth on fructose, a condition in which PHB accumulation is minimal.
+
+In contrast, PhaZ1-based depolymerization remains less well understood. While our data show strong phaZ1 expression under acetate conditions during net PHB degradation (e.g., from 34 to 7% (w/w) PHB content), phaZ2 is still transcribed (albeit at lower levels than under fructose culture, see Supplementary Material 1: Fig. S2 and Fig. 4), suggesting that both depolymerases may be active at different extents. However, the low expression of apdA and phaP genes under acetate conditions (Fig. 5 and Supplementary Material 1: Fig. S2) complicates interpretation, as both PhaZ1 and PhaZ2 are known to exhibit reduced activity on inactivated granules lacking proper surface proteins [29, 61]. Nevertheless, apdA expression in WT acetate cultures (WT AY) is higher than in the fructose culture of the KO strain (Supplementary Material 1: Fig. S3), therefore some ApdA may still be produced when PHB granules are present. These potentially low but functionally relevant levels of ApdA could enable limited depolymerization through PhaZ2 and may represent a rate-limiting step in PHB degradation during acetate growth at T1 and T2, resulting in higher PHB levels compared to fructose.
+
+The role of PhaZ1 is further complicated by its periplasmic localization, raising questions about how it accesses cytoplasmic PHB granules. Our speculative hypothesis is that PhaZ1 targets membrane-associated PHB, rather than fully developed cytoplasmic granules. In a lipophilic membrane environment, PHB may remain in an amorphous state, without PGAPs at the interface with periplasm, potentially allowing PhaZ1 to degrade it (Fig. 6).Fig. 6Proposed model of PhaZ1-mediated degradation of membrane-associated PHB
+
+Proposed model of PhaZ1-mediated degradation of membrane-associated PHB
+
+Although the budding model of granule formation has been largely rejected in native PHB producers [13], low-molecular-weight PHB has been detected in cellular membranes of every living organism [62, 63]. Further investigation is required to clarify this possibility, particularly given the absence of PhaM (from C. necator) and PhaF (from P. putida) homologs in R. rubrum (confirmed by protein BLAST), which are necessary according to the scaffold model [11, 12, 64]. While the membrane itself may be sufficient to stabilize PHB granules in a lipophilic environment, additional membrane-associated proteins could plausibly modulate or regulate its spatial organization, even though no such factors have yet been identified in R. rubrum.
+
+To determine the validity of this proposed model, proteomic analyses quantifying PhaZ1, PhaZ2 and ApdA levels, as well as in vitro activity assays on native PHB, would be essential. Such studies could clarify whether acetate-grown cells rely on a membrane-associated degradation mechanism mediated by PhaZ1, or on a PhaZ2-based cytoplasmic degradation operating at lower expression levels than those observed under fructose conditions.
+
+
+## PHB biosynthetic genes involving (S)-3HB-CoA
+
+
+Based solely on the gene expression pattern, the classical biosynthetic genes phaA and phaB seem to play a more dominant role in PHB biosynthesis than the (S)-3HB-CoA formation genes. During growth on acetate, phaJ was not upregulated in the WT strain compared with the KO (Supplementary Material 1: Fig. S2), suggesting a limited contribution of this pathway to PHB accumulation under these conditions. Although as we are missing PhaJ activity, it is unclear whether phaJ upregulation in stationary phase favors PHB production or acetate assimilation at this stage. It was observed in another study that overexpression of phaJ by more than fivefold in R. rubrum only resulted in a modest increase in PHA of 1.3-fold [9], suggesting that this pathway is active but not the main contributor to PHB biosynthesis.
+
+Taken together, the data from AY WT cultures indicate that PHB cycle genes in R. rubrum are expressed throughout growth and that their expression patterns broadly correspond to transitions between net accumulation and net degradation, except some components such as phaC3 and phaZ3 are predominantly expressed in the KO strain, supporting a secondary role in the PHB cycle. A plausible explanation for the WT AY phenotypes could be that PHB accumulated early in growth due to a net polymerization process driven primarily by phaA, phaB, phaC1, and phaC2, orchestrated by phaR. This polymerization rate likely surpasses the depolymerization activity of PhaZ1 during early stages, which would make sense as PhaZ1 is located in the periplasm and should have a limited impact. Once the substrate is depleted, phaZ1 expression increases, shifting the balance toward a net polymer degradation.
+
+A study on C. necator further highlighted similar patterns in PHB cycle gene expression during both PHB accumulation and utilization phases [35]. Again, phaA, phaB, phaC, phaR, and phaZ1 were transcribed throughout cell growth, including production and degradation. Similarly, phasin gene transcript levels followed changes in PHB content.
+
+However, as observed here, transcription alone does not fully explain PHB dynamics. This highlights the importance of proteomic studies and determining enzyme activity to complement this study. Indeed, phosphorylation-dependent regulation of PhaC and PhaZ has been demonstrated in C. necator [65]. Such post-translational modification (PTM) could explain why transcript levels of phaA, phaB, phaC1, and phaC2 remain similar during both accumulation and degradation phases, suggesting that fine control of the PHB cycle may occur primarily at the enzyme activity level rather than through transcriptional regulation.
+
+
+## PHB cycle as an integral part of the central metabolism
+
+
+Compared to the AY WT condition, PHB cycle genes expression for the FY WT condition and the AY culture of the KO strain also point to other information suggesting that PHB cycle has a broader implication in cell metabolism, beyond being a storage mechanism.
+
+
+## Fructose metabolism: PHB cycle expression with limited phenotypic impact
+
+
+After characterizing expression dynamics under a robust PHB-producing condition (WT AY), we analyzed fructose-grown cultures (WT FY), which exhibited undetectable PHB at T1 and only residual accumulation at T2 (4% w/w) and T3 (5% w/w). Despite this low PHB content, many PHB cycle genes remained transcriptionally active throughout the time series (Fig. 5), indicating that PHB cycle gene expression is not restricted to conditions of net PHB accumulation or degradation.
+
+At T1, biosynthetic genes (phaA, phaB, phaC2) were already expressed at levels comparable to those observed in acetate-grown WT cells (Supplementary Material 1: Figure S4), whereas expression of depolymerization-associated genes remained relatively low, despite the absence of detectable PHB. Furthermore, as previously mentioned, no significant change in phaR expression was detected by DEA between WT AY and WT FY at any time point (Supplementary Material 1: Fig. S4), indicating that phaR is likely binding to PHB.
+
+As FY cultures progressed to T2 and T3, low but measurable PHB coincided with increased expression of phaZ2, apdA, and phasin genes (Fig. 5), which may be responsible for the limited PHB accumulation. Similar concurrent expression of synthesis and mobilization genes has been described in C. necator during batch cultivation [35]. However, phaA and phaB did not show a corresponding increase (Fig. 5). This raises the possibility that alternative enzymes contributing to (R)-3HB-CoA formation may support PHB synthesis from fructose. Further studies are needed to confirm this hypothesis and to identify the enzymes involved.
+
+Another intriguing observation is the expression of phasins. As soon as PHB becomes detectable, phasins are more highly expressed in fructose-grown cells than in acetate-grown cells, despite a lower absolute PHB content (Fig. 5 and Supplementary Material 1: Fig. S4). This suggests that phasins may be regulated not only by PHB quantity but also by nature of the substrate.
+
+It is important to note that during preliminary experiments, we observed that dissolved oxygen levels remained in the non-limiting range under all tested conditions (above 30%), but cultivation media pH was different between fructose- and acetate-grown cultures with fructose leading to acidification and acetate to basification over time (Supplementary Material 1: Figs. S5 and S6). To the best of our knowledge, no studies have reported extracellular pH-dependent regulation of PHB cycle gene expression in R. rubrum or other PHB producers. However, optimal medium pH values for PHA production have been described in various organisms, suggesting that pH can influence PHA accumulation performance. While we do not currently have evidence linking pH changes to the expression of phaZ1, phaZ2, or other PHB-related genes, further investigation under controlled pH conditions would be valuable to validate whether the observed transcriptional patterns are truly substrate-specific or influenced by pH dynamics.
+
+Taken together, these data suggest that the PHB cycle is surprisingly expressed in FY WT culture despite the poor PHB content. However, the transcriptomic profile of selected genes does not fully explain the PHB contents (Fig. 5 and Supplementary Material 1: Fig. S4). The latter could potentially be due to missing PHB cycle genes specific to fructose, or reflects limited metabolic flux toward PHB precursors, or regulation at the protein level (e.g., post-translational modification or allosteric control), rather than transcriptional regulation.
+
+To further apprehend the involvement of PHB cycle in fructose metabolism, we investigated the impact of disrupting PHB synthesis (ΔphaC1ΔphaC2). In contrast to the KO bacteria growing on acetate, which showed a pronounced growth defect, the deletion had a comparatively modest phenotypic impact on those growing on fructose, resulting in altered biomass yield as well as reduced uptake rate and μmax compared to WT cultures (Fig. 1).
+
+Nevertheless, deletions affected expression of most PHB cycle genes (Supplementary Material 1: Fig. S7). In stationary phase (T2–T3), phaR and phasin genes were downregulated in the KO strain compared with WT, consistent with the absence of PHB granules in mutant cells. Interestingly, genes involved in PHB biosynthesis other than polymerases were downregulated at T1 and upregulated at T2. As expected, unlike acetate, fructose is primarily assimilated via the Embden-Meyerhof-Parnas (EMP) pathway [66], thus, downregulation of phaA and phaB which are part of the EMC pathway necessary for acetate assimilation, does not impair growth or biomass yield on fructose. This reinforces the idea that acetate metabolism and PHB cycle are tightly linked.
+
+However, phaZ1 and phaZ2 remained similarly expressed in the KO strain, as did 3HB assimilation genes, suggesting that PHB mobilization machinery is maintained even in absence of PHB, possibly because it may not be regulated by PhaR.
+
+It can also be observed on Fig. 5 that an upregulation of phaP2 upon reaching the end of the exponential growth phase occurred, perhaps suggesting another function in metabolism, such as chaperone activity or involvement in general stress adaptation, as there are no granules to stabilize. Similarly, phaC3, phaZ2, phaZ3, apdA, and 3HB assimilation genes show an upregulation in stationary phase (Fig. 5), suggesting that PHB cycle is upregulated as a stress response in the stationary phase. This is in agreement with polymer degradation observed during famine phase in dual feast-famine regimes [67].
+
+Overall, these results indicate that PHB cycle is still expressed during fructose growth and may be linked with other physiological functions. The main difference with the AY condition explaining the reduced PHB content appears to be PHB degradation (Supplementary Material 1: Fig. S4). Furthermore, because fructose assimilation does not depend on EMC pathway, disruption of PHB synthesis had only a limited impact on growth.
+
+It should be noted that present observations in phenotype are not expected to be KO strain specific but linked generally to the loss of phaC1 and phaC2 genes. Genome similarity of WT and KO was evaluated in our previous study (Jureckova et al. 2024) [24]. Except for the loss of PHA synthases, only three additional point mutations were introduced in the genome, none of them affecting PHA metabolism related genes.
+
+
+## Acetate metabolism: phaC1 and phaC2 deletions impact VFA assimilatory pathways
+
+
+As introduced above, disruption of the PHB cycle in acetate-grown cells resulted in pronounced changes in both growth and gene expression. Specifically, the growth defect included maximum specific growth rate reduction, lower acetate uptake, and decrease of biomass yield (Fig. 1). This is consistent with the literature, where twofold reduction in acetate assimilation [4] was observed for the KO. Additionally, Jin and Nikolau (2012, 2014) and Klask et al. (2015) also observed an inverse relationship between PHB content and growth rate using the same R. rubrum S1 strains [8, 9, 68].
+
+These findings point to a central role of the PHB cycle in acetate metabolism. The Fig. 5 shows significant differences in PHB cycle gene expression between KO and WT strains on acetate, with most genes being downregulated; especially phaA and phaB genes were almost not expressed in the mutant (See also Supplementary Material 1: Figure S2). Lower levels of PhaA and higher levels of PhaB in the KO strain compared to the WT were also reported in a previous proteomic study [20]. These genes are involved in both shared steps between EMC pathway and PHB biosynthesis, and their downregulation likely reflects an inhibition of acetate assimilation. This is further supported by altered expression of the EMC, methylmalonyl-CoA (MMC), and TCA cycle genes (Fig. 7). Interestingly, we also see an upregulation of phaP2 (Supplementary Material 1: Fig. S2) which could potentially be expressed for the chaperone activity of phasin in stressful conditions [69].Fig. 7Heatmap representing the effect of the absence of PHB granules on ethylmalonyl-CoA pathway (EMC) and methylmalonyl-CoA (MMC) pathway in acetate grown cells
+
+Heatmap representing the effect of the absence of PHB granules on ethylmalonyl-CoA pathway (EMC) and methylmalonyl-CoA (MMC) pathway in acetate grown cells
+
+As expected, phaR expression was also affected by the deletion as PhaR could not bind to any PHB and would therefore self-inhibit. The absence of its expression in the KO strain could explain the broad metabolic disruptions observed. The methylotroph Methylobacterium extorquens AM1 is an appropriate candidate for comparison with R. rubrum as it also relies on the EMC pathway for assimilation of acetate, also due to the absence of isocitrate lyase. A deletion of the phaC showed growth defect and authors suggested that the mutant accumulates an inhibitory metabolite(s) or is missing a necessary intermediate(s) for growth [70]. In addition, the role of PhaR in this phenomenon was investigated and it was concluded that PhaR could act as a regulator for carbon flux, controlling the distribution of acetyl-CoA toward either the EMC pathway and PHB synthesis, or to the TCA cycle [71, 72]. Therefore, the absence of transcription of phaR could play a similar role in R. rubrum.
+
+Supporting that idea, in Cereibacter sphaeroides (previously named Rhodobacter sphaeroides), a close relative of R. rubrum also relying on the EMC pathway, PhaR has also been shown to play a key role in regulating carbon flow during acetate assimilation [72]. Deletion of phaC1, the main PHB synthase gene, resulted in impaired growth on acetate, suggesting that PHB accumulation is necessary under these conditions. However, when phaR was also deleted alongside phaC1, growth was restored despite the absence of PHB accumulation. Transcriptomic analyses revealed that phaR negatively regulates the EMC pathway, a major route for acetate assimilation in this organism. The loss of phaR derepressed this pathway, enabling normal growth despite absence of PHB accumulation. These findings suggest that PHB serves as a signaling molecule modulating PhaR activity, which in turn regulates gene expression related to central carbon metabolism [73].
+
+Additional investigations within our group also revealed that the KO strain exhibited growth defects on butyrate (Table 2 and Supplementary Material 1: Fig. S8), which also relies on the EMC pathway for assimilation. In contrast, the mutant showed no growth defect on valerate (Table 2 and Supplementary Material 1: Fig. S9), and even an improved growth on propionate (Table 2 and Supplementary Material 1: Fig. S10), both of which are believed to be metabolized through the MMC pathway. Valerate is first cleaved into acetyl-CoA and propionyl-CoA [3].Table 2Performance of the WT and KO strains on various VFAsSubstrateStrainOD660[−]CDW[g L−1]µmax[h−1]% PHAmax[g g−1]% 3HV[mol mol−1]PropionateWild-type0.1770.070.007N/AN/AΔphaC1ΔphaC22.6501.320.0900.000.00ButyrateWild-type5.1971.310.08944.400.19ΔphaC1ΔphaC20.9770.380.0270.000.00ValerateWild-type0.9470.360.0168.3797.44ΔphaC1ΔphaC23.1831.470.0610.000.00AcetateWild-type5.3291.710.07634.00N/AΔphaC1ΔphaC23.2180.940.0220.000.00Maximum OD660 and CDW values represented
+
+Performance of the WT and KO strains on various VFAs
+
+Maximum OD660 and CDW values represented
+
+During growth on butyrate, the WT strain produced 44% (w/w) of mostly PHB at 48 h, while 8.4% (w/w) of mostly 3HV (97.44% mol/mol) was measured for the valerate culture at 94.5 h. The KO strain did not accumulate any PHBV as expected.
+
+We also tested the effect of bicarbonate supplementation, often used to help the cells maintain redox homeostasis via CO₂ fixation [37]. However, the addition of 40 mM bicarbonate did not restore growth of the KO strain nor improve growth of the WT strain (data not shown), suggesting that the observed growth deficiency is not primarily due to redox imbalance.
+
+Interestingly, genes associated with the MMC pathway were upregulated in the KO strain (Fig. 7), possibly due to derepression from PhaR.
+
+This is consistent with the fact that the KO strain grew more efficiently on propionate than the WT. These distinct phenotypes grown on various volatile fatty acids (VFAs) further support the hypothesis that PhaR plays a regulatory role in controlling both EMC and MMC pathways, modulating carbon flux in response to the PHB cycle status.
+
+Taken together, these observations point to a broader implication of the PHB cycle in the cell metabolism, not limited to a storage mechanism. Further research is needed to determine whether PhaR mediates this carbon flux partitioning, as seen in M. extorquens and C. sphaeroides, using transcriptomic analysis, a ∆phaR strain and a ∆phaC1∆phaC2∆phaR strain of R. rubrum.
+
+
+## Conclusions
+
+
+This study provides new insights into PHB cycle regulation in R. rubrum under aerobic chemoheterotrophic growth. By comparing WT and KO strains grown on acetate and fructose, differences in both PHB content and gene expression were observed. As expected, acetate-grown WT cells accumulated high levels of PHB, while fructose-grown cells exhibited only residual levels. Surprisingly, the transcriptomic analysis showed that PHB cycle associated genes were expressed to a comparable extent under both conditions. This was also true for phaR, regardless of PHB content. Substrate-specific depolymerization mechanisms were identified: phaZ1 was mainly expressed under acetate conditions, despite its periplasmic location, while only phaZ2 and apdA were upregulated in presence of fructose. The secondary roles of phaZ3 and phaC3 in the PHB cycle were also observed by their distinct expression patterns compared to other PHB cycle genes, particularly in KO strains. Even in the absence of PHB granules, as seen in ΔphaC1ΔphaC2 strain, some PHB cycle genes remained expressed, and some physiological aspects were impacted by the deletion. The assimilation of volatile fatty acid was especially impacted and confirmed by different expressions of the EMC or MMC pathway.
+
+Together, these findings give a deeper understanding of the complexity of PHB metabolism and reinforce the idea that the PHB cycle is not only a carbon storage mechanism, but it plays a bigger role in the global cell metabolism. Furthermore, it potentially could be acting as a signaling molecule influencing other parts of the metabolism via PhaR. Future work integrating proteomics, metabolomics, and regulatory mapping for PhaR targets will be essential to fully understand how the PHB cycle interacts with cell metabolism and responds to environmental changes.
+
+
+## Supplementary Information
+
+
+Supplementary Material 1.
+
+Supplementary Material 1.

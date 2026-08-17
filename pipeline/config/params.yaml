@@ -1,0 +1,70 @@
+# PHB_gtdb-ds 分析参数配置
+# 服务器: T141 (10.16.1.141), 工作区: /home/data/haoyu/PHB_gtdb-ds
+# 环境: conda activate phb_gtdb
+
+# ============ 数据源（只读） ============
+gtdb:
+  root: "~/GTDB/gtdb_genomes_reps_r232/database"   # 基因组（.fna.gz, 199,923 个）
+  metadata: "~/GTDB/metadata/bac120_metadata_r232.tsv.gz"
+  taxonomy: "~/GTDB/taxonomy/bac120_taxonomy_r232.tsv"
+  tree: "~/GTDB/GTDB_tree/bac120_r232.tree"
+  release: "R232"
+
+# ============ 种子与 HMM ============
+seeds:
+  all: "data/seeds/seeds_curated.faa"      # curated 78 条（实验表征，见 seeds_manifest.tsv）
+  families_dir: "data/seeds/families"
+hmms:
+  dir: "data/hmms"
+  # 9 家族 = 核心解聚酶(5) + 背景代谢(1) + 辅助(3)；见 knowledge/family_classification.md §6.4
+  core_families: ["ePhaZ", "iPhaZ", "OH", "ArchPhaZ_patatin", "ArchPhaZ_hydrolase"]
+  background_families: ["BdhA"]
+  aux_families: ["PhaJ", "phasin", "PhaC"]
+  # ArchPhaZ_patatin（patatin 样 PhaZh1 型）：
+  #   HMM 取自 Pfam-A "Patatin"（PF01734 家族，hmmfetch 提取），
+  #   验证种子 M1XPT2 (Natronomonas) + I3RBH0 (=PhaZh1, Hfx mediterranei)
+  #   细菌 HMM 无法检出（见 02c 验证），须独立筛选；
+  #   细菌中的 patatin 命中多为磷脂酶，需 PHA 基因簇上下文二次验证
+
+# ============ 蛋白预测 ============
+prediction:
+  threads: 80
+  per_genome_out: "data/proteins/per_genome"
+  shards_out: "data/proteins/shards"
+  genomes_per_shard: 2000                 # -> 约 100 个 shard
+  mode: "meta"                            # pyrodigal -p meta
+
+# ============ 筛选 ============
+screening:
+  evalue: 1e-5
+  threads: 80
+  hits_all: "data/screen/hits_all.tsv"
+
+# ============ 命中处理 ============
+hit_processing:
+  max_eval: 1e-5
+  family_priority: ["ePhaZ", "iPhaZ", "OH", "BdhA", "ArchPhaZ_patatin", "ArchPhaZ_hydrolase", "PhaJ", "phasin", "PhaC"]
+  family_seqs: "data/screen/family_seqs"
+
+# ============ 验证 ============
+validation:
+  # ePhaZ/iPhaZ/OH: α/β 水解酶（催化三联体 + lipase box, 200-900aa）
+  # BdhA: 短链脱氢酶（NAD 结合基序 GXGXXG, 180-500aa）
+  # phasin: 颗粒蛋白（60-250aa）
+  run_signalp: 0                          # 1=启用 SignalP6（ePhaZ 分泌预测）
+
+# ============ 系统发育 ============
+phylogeny:
+  threads: 40
+  model: "LG+G4"
+  bootstrap: 1000
+  sample_above: 2000                      # 超 2000 序列先 c95 抽样
+
+# ============ 生态分布 ============
+distribution:
+  top_phyla: 25
+
+# ============ 基因簇 ============
+clusters:
+  flank_kb: 10
+  max_genomes: 2000

@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "count": 409,
+    "db_response_time_ms": 17,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where title/abstract has (Ideonella sakaiensis)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "Ideonella sakaiensis",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=title_and_abstract.search:Ideonella sakaiensis&per_page=5&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2294707565",
+      "display_name": "A bacterium that degrades and assimilates poly(ethylene terephthalate)",
+      "publication_year": 2016,
+      "cited_by_count": 3342,
+      "doi": "https://doi.org/10.1126/science.aad6359"
+    },
+    {
+      "id": "https://openalex.org/W2786189709",
+      "display_name": "Structural insight into molecular mechanism of poly(ethylene terephthalate) degradation",
+      "publication_year": 2018,
+      "cited_by_count": 814,
+      "doi": "https://doi.org/10.1038/s41467-018-02881-1"
+    },
+    {
+      "id": "https://openalex.org/W2939625186",
+      "display_name": "Biodegradation of PET: Current Status and Application Aspects",
+      "publication_year": 2019,
+      "cited_by_count": 655,
+      "doi": "https://doi.org/10.1021/acscatal.8b05171"
+    },
+    {
+      "id": "https://openalex.org/W3121331573",
+      "display_name": "Computational Redesign of a PETase for Plastic Biodegradation under Ambient Condition by the GRAPE Strategy",
+      "publication_year": 2021,
+      "cited_by_count": 602,
+      "doi": "https://doi.org/10.1021/acscatal.0c05126"
+    },
+    {
+      "id": "https://openalex.org/W2922444498",
+      "display_name": "Rational Protein Engineering of Thermo-Stable PETase from <i>Ideonella sakaiensis</i> for Highly Efficient PET Degradation",
+      "publication_year": 2019,
+      "cited_by_count": 585,
+      "doi": "https://doi.org/10.1021/acscatal.9b00568"
+    }
+  ],
+  "group_by": []
+}

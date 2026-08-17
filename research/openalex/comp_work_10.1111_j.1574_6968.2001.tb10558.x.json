@@ -1,0 +1,292 @@
+﻿{
+  "id": "https://openalex.org/W2118534257",
+  "display_name": "Identification of the intracellular polyhydroxyalkanoate depolymerase gene of<i>Paracoccus denitrificans</i>and some properties of the gene product",
+  "publication_year": 2001,
+  "cited_by_count": 73,
+  "doi": "https://doi.org/10.1111/j.1574-6968.2001.tb10558.x",
+  "primary_location": {
+    "id": "doi:10.1111/j.1574-6968.2001.tb10558.x",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1111/j.1574-6968.2001.tb10558.x",
+    "pdf_url": "https://academic.oup.com/femsle/article-pdf/196/2/159/19116300/196-2-159.pdf",
+    "source": {
+      "id": "https://openalex.org/S34954451",
+      "display_name": "FEMS Microbiology Letters",
+      "issn_l": "0378-1097",
+      "issn": [
+        "0378-1097",
+        "1574-6968"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311648",
+        "https://openalex.org/P4310311647"
+      ],
+      "host_organization_lineage_names": [
+        "Oxford University Press",
+        "University of Oxford"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "FEMS Microbiology Letters",
+    "raw_type": "journal-article"
+  },
+  "abstract_inverted_index": {
+    "Paracoccus": [
+      0
+    ],
+    "denitrificans": [
+      1
+    ],
+    "degraded": [
+      2,
+      38
+    ],
+    "poly(3-hydroxybutyrate)": [
+      3
+    ],
+    "(PHB)": [
+      4
+    ],
+    "in": [
+      5
+    ],
+    "the": [
+      6,
+      21,
+      64,
+      73,
+      85,
+      95
+    ],
+    "cells": [
+      7
+    ],
+    "under": [
+      8
+    ],
+    "carbon": [
+      9
+    ],
+    "source": [
+      10
+    ],
+    "starvation.": [
+      11
+    ],
+    "Intracellular": [
+      12
+    ],
+    "poly(3-hydroxyalkanoate)": [
+      13
+    ],
+    "(PHA)": [
+      14
+    ],
+    "depolymerase": [
+      15
+    ],
+    "gene": [
+      16,
+      24,
+      37
+    ],
+    "(phaZ)": [
+      17
+    ],
+    "was": [
+      18,
+      77,
+      91
+    ],
+    "identified": [
+      19
+    ],
+    "near": [
+      20
+    ],
+    "PHA": [
+      22
+    ],
+    "synthase": [
+      23
+    ],
+    "(phaC)": [
+      25
+    ],
+    "of": [
+      26,
+      31,
+      66,
+      72,
+      98
+    ],
+    "P.": [
+      27,
+      99
+    ],
+    "denitrificans.": [
+      28,
+      100
+    ],
+    "Cell": [
+      29
+    ],
+    "extract": [
+      30,
+      71,
+      97
+    ],
+    "Escherichia": [
+      32
+    ],
+    "coli": [
+      33,
+      76
+    ],
+    "carrying": [
+      34
+    ],
+    "lacZ--phaZ": [
+      35
+    ],
+    "fusion": [
+      36
+    ],
+    "protease-treated": [
+      39
+    ],
+    "PHB": [
+      40,
+      67,
+      82
+    ],
+    "granules.": [
+      41,
+      68
+    ],
+    "Reaction": [
+      42
+    ],
+    "products": [
+      43
+    ],
+    "were": [
+      44
+    ],
+    "thought": [
+      45
+    ],
+    "to": [
+      46
+    ],
+    "be": [
+      47
+    ],
+    "mainly": [
+      48
+    ],
+    "D(--)-3-hydroxybutyrate": [
+      49
+    ],
+    "(3HB)": [
+      50
+    ],
+    "dimer": [
+      51
+    ],
+    "and": [
+      52,
+      56
+    ],
+    "3HB": [
+      53
+    ],
+    "oligomer.": [
+      54
+    ],
+    "Diisopropylfluorophosphonate": [
+      55
+    ],
+    "Triton": [
+      57
+    ],
+    "X-100": [
+      58
+    ],
+    "exhibited": [
+      59
+    ],
+    "an": [
+      60
+    ],
+    "inhibitory": [
+      61,
+      86
+    ],
+    "effect": [
+      62,
+      87
+    ],
+    "on": [
+      63
+    ],
+    "degradation": [
+      65
+    ],
+    "When": [
+      69
+    ],
+    "cell": [
+      70,
+      96
+    ],
+    "recombinant": [
+      74
+    ],
+    "E.": [
+      75
+    ],
+    "used,": [
+      78
+    ],
+    "Mg(2+)": [
+      79,
+      89
+    ],
+    "ion": [
+      80,
+      90
+    ],
+    "inhibited": [
+      81
+    ],
+    "degradation.": [
+      83
+    ],
+    "However,": [
+      84
+    ],
+    "by": [
+      88
+    ],
+    "not": [
+      92
+    ],
+    "observed": [
+      93
+    ],
+    "using": [
+      94
+    ]
+  }
+}

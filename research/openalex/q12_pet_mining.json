@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "count": 21,
+    "db_response_time_ms": 33,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where title/abstract has (PET hydrolase and genome mining)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "PET hydrolase",
+            "operator": "has"
+          },
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "genome mining",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=title_and_abstract.search:PET hydrolase,title_and_abstract.search:genome mining&per_page=5&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2791560780",
+      "display_name": "New Insights into the Function and Global Distribution of Polyethylene Terephthalate (PET)-Degrading Bacteria and Enzymes in Marine and Terrestrial Metagenomes",
+      "publication_year": 2018,
+      "cited_by_count": 445,
+      "doi": "https://doi.org/10.1128/aem.02773-17"
+    },
+    {
+      "id": "https://openalex.org/W4391038040",
+      "display_name": "Complete degradation of PET waste using a thermophilic microbe-enzyme system",
+      "publication_year": 2024,
+      "cited_by_count": 28,
+      "doi": "https://doi.org/10.1016/j.ijbiomac.2024.129538"
+    },
+    {
+      "id": "https://openalex.org/W4223437726",
+      "display_name": "Identification of BgP, a Cutinase-Like Polyesterase From a Deep-Sea Sponge-Derived Actinobacterium",
+      "publication_year": 2022,
+      "cited_by_count": 23,
+      "doi": "https://doi.org/10.3389/fmicb.2022.888343"
+    },
+    {
+      "id": "https://openalex.org/W4311322385",
+      "display_name": "The complete genome sequence of Pseudomonas chengduensis BC1815 for genome mining of PET degrading enzymes",
+      "publication_year": 2022,
+      "cited_by_count": 9,
+      "doi": "https://doi.org/10.1016/j.margen.2022.101008"
+    },
+    {
+      "id": "https://openalex.org/W4408497919",
+      "display_name": "Replicating PET Hydrolytic Activity by Positioning Active Sites with Smaller Synthetic Protein Scaffolds",
+      "publication_year": 2025,
+      "cited_by_count": 8,
+      "doi": "https://doi.org/10.1002/advs.202500859"
+    }
+  ],
+  "group_by": []
+}

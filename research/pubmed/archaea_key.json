@@ -1,0 +1,70 @@
+[
+  {
+    "pmid": "25710370",
+    "title": "A patatin-like protein associated with the polyhydroxyalkanoate (PHA) granules of Haloferax mediterranei acts as an efficient depolymerase in the degradation of native PHA.",
+    "authors": [
+      "Liu G",
+      "Hou J",
+      "Cai S",
+      "Zhao D",
+      "Cai L",
+      "Han J",
+      "Zhou J",
+      "Xiang H"
+    ],
+    "journal": "Applied and environmental microbiology",
+    "pubdate": "2015 May 01",
+    "doi": "10.1128/AEM.04269-14",
+    "abstract": "The key enzymes and pathways involved in polyhydroxyalkanoate (PHA) biosynthesis in haloarchaea have been identified in recent years, but the haloarchaeal enzymes for PHA degradation remain unknown. In this study, a patatin-like PHA depolymerase, PhaZh1, was determined to be located on the PHA granules in the haloarchaeon Haloferax mediterranei. PhaZh1 hydrolyzed the native PHA (nPHA) [including native polyhydroxybutyrate (nPHB) and native poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (nPHBV) in this study] granules in vitro with 3-hydroxybutyrate (3HB) monomer as the primary product. The site-directed mutagenesis of PhaZh1 indicated that Gly16, Ser47 (in a classical lipase box, G-X-S47-X-G), and Asp195 of this depolymerase were essential for its activity in nPHA granule hydrolysis. Notably, phaZh1 and bdhA (encoding putative 3HB dehydrogenase) form a gene cluster (HFX_6463 to _6464) in H. mediterranei. The 3HB monomer generated from nPHA degradation by PhaZh1 could be further converted into acetoacetate by BdhA, indicating that PhaZh1-BdhA may constitute the first part of a PHA degradation pathway in vivo. Interestingly, although PhaZh1 showed efficient activity and was most likely the key enzyme in nPHA granule hydrolysis in vitro, the knockout of phaZh1 had no significant effect on the intracellular PHA mobilization, implying the existence of an alternative PHA mobilization pathway(s) that functions effectively within the cells of H. mediterranei. Therefore, identification of this patatin-like depolymerase of haloarchaea may provide a new strategy for producing the high-value-added chiral compound (R)-3HB and may also shed light on the PHA mobilization in haloarchaea."
+  },
+  {
+    "pmid": "27052994",
+    "title": "Enoyl-CoA hydratase mediates polyhydroxyalkanoate mobilization in Haloferax mediterranei.",
+    "authors": [
+      "Liu G",
+      "Cai S",
+      "Hou J",
+      "Zhao D",
+      "Han J",
+      "Zhou J",
+      "Xiang H"
+    ],
+    "journal": "Scientific reports",
+    "pubdate": "2016 Apr 07",
+    "doi": "10.1038/srep24015",
+    "abstract": "Although polyhydroxyalkanoate (PHA) accumulation and mobilization are one of the most general mechanisms for haloarchaea to adapt to the hypersaline environments with changeable carbon sources, the PHA mobilization pathways are still not clear for any haloarchaea. In this study, the functions of five putative (R)-specific enoyl-CoA hydratases (R-ECHs) in Haloferax mediterranei, named PhaJ1 to PhaJ5, respectively, were thoroughly investigated. Through gene deletion and complementation, we demonstrated that only certain of these ECHs had a slight contribution to poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (PHBV) biosynthesis. But significantly, PhaJ1, the only R-ECH that is associated with PHA granules, was shown to be involved in PHA mobilization in this haloarchaeon. PhaJ1 catalyzes the dehydration of (R)-3-hydroxyacyl-CoA, the common product of PHA degradation, to enoyl-CoA, the intermediate of the \u03b2-oxidation cycle, thus could link PHA mobilization to \u03b2-oxidation pathway in H. mediterranei. This linkage was further indicated from the up-regulation of the key genes of \u03b2-oxidation under the PHA mobilization condition, as well as the obvious inhibition of PHA degradation upon inhibition of the \u03b2-oxidation pathway. Interestingly, 96% of phaJ-containing haloarchaeal species possess both phaC (encoding PHA synthase) and the full set genes of \u03b2-oxidation, implying that the mobilization of carbon storage in PHA through the \u03b2-oxidation cycle would be general in haloarchaea."
+  },
+  {
+    "pmid": "27098259",
+    "title": "Environmental biodegradation of haloarchaea-produced poly(3-hydroxybutyrate-co-3-hydroxyvalerate) in activated sludge.",
+    "authors": [
+      "Liu XB",
+      "Wu LP",
+      "Hou J",
+      "Chen JY",
+      "Han J",
+      "Xiang H"
+    ],
+    "journal": "Applied microbiology and biotechnology",
+    "pubdate": "2016 Aug",
+    "doi": "10.1007/s00253-016-7528-2",
+    "abstract": "Novel poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (PHBHV) copolymers produced by haloarchaea are excellent candidate biomaterials. However, there is no report hitherto focusing on the biodegradation of PHBHV synthesized by haloarchaea. In this study, an environmental biodegradation of haloarchaea-produced PHBHV films, with 10~60\u00a0mol% 3-hydroxyvalerate (3HV) composition and different microchemical structures, was studied in nutrition-depleted activated sludge. The changes in mass, molar mass, chemical composition, thermal properties, and surface morphology were monitored. The mass and molar mass of each film decreased significantly, while the PHA monomer composition remained unchanged with time. Interestingly, the sample of random copolymer PHBHV-2 (R-PHBHV-2) (3HV, 30\u00a0mol%) had the lowest crystallinity and was degraded faster than R-PHBHV-3 containing the highest 3HV content or the higher-order copolymer PHBHV-1 (O-PHBHV-1) possessing the highest surface roughness. The order of biodegradation rate was in the opposite trend to the degree of crystallizability of the films. Meanwhile, thermal degradation temperature of most films decreased after biodegradation. Additionally, the surface erosion of films was confirmed by scanning electron microscopy. The dominant bacteria probably responsible for the degradation process were identified in the activated sludge. It was inferred that the degradation rate of haloarchaea-produced PHBHV films mainly depended on sample crystallinity, which was determined by monomer composition and microchemical structure and in turn strongly influenced surface morphology."
+  },
+  {
+    "pmid": "22247127",
+    "title": "Identification of the haloarchaeal phasin (PhaP) that functions in polyhydroxyalkanoate accumulation and granule formation in Haloferax mediterranei.",
+    "authors": [
+      "Cai S",
+      "Cai L",
+      "Liu H",
+      "Liu X",
+      "Han J",
+      "Zhou J",
+      "Xiang H"
+    ],
+    "journal": "Applied and environmental microbiology",
+    "pubdate": "2012 Mar",
+    "doi": "10.1128/AEM.07114-11",
+    "abstract": "The polyhydroxyalkanoate (PHA) granule-associated proteins (PGAPs) are important for PHA synthesis and granule formation, but currently little is known about the haloarchaeal PGAPs. This study focused on the identification and functional analysis of the PGAPs in the haloarchaeon Haloferax mediterranei. These PGAPs were visualized with two-dimensional gel electrophoresis (2-DE) and identified by matrix-assisted laser desorption ionization-tandem time of flight mass spectrometry (MALDI-TOF/TOF MS). The most abundant protein on the granules was identified as a hypothetical protein, designated PhaP. A genome-wide analysis revealed that the phaP gene is located upstream of the previously identified phaEC genes. Through an integrative approach of gene knockout/complementation and fermentation analyses, we demonstrated that this PhaP is involved in PHA accumulation. The \u0394phaP mutant was defective in both PHA biosynthesis and cell growth compared to the wild-type strain. Additionally, transmission electron microscopy results indicated that the number of PHA granules in the \u0394phaP mutant cells was significantly lower, and in most of the \u0394phaP cells only a single large granule was observed. These results demonstrated that the H. mediterranei PhaP was the predominant structure protein (phasin) on the PHA granules involved in PHA accumulation and granule formation. In addition, BLASTp and phylogenetic results indicate that this type of PhaP is exclusively conserved in haloarchaea, implying that it is a representative of the haloarchaeal type PHA phasin."
+  }
+]

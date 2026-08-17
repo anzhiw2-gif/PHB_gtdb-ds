@@ -1,0 +1,161 @@
+{
+  "hitCount": 1,
+  "nextCursorMark": "",
+  "results": [
+    {
+      "id": "34900132",
+      "source": "MED",
+      "pmid": "34900132",
+      "pmcid": "PMC8632723",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8632723"
+        ]
+      },
+      "doi": "10.1016/j.csbj.2021.11.023",
+      "title": "New approaches for the characterization of plastic-associated microbial communities and the discovery of plastic-degrading microorganisms and enzymes.",
+      "authorString": "Viljakainen VR, Hug LA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Viljakainen VR",
+            "firstName": "V R",
+            "lastName": "Viljakainen",
+            "initials": "VR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Waterloo, 200 University Ave W, Waterloo, ON N2L 3G1, Canada."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hug LA",
+            "firstName": "L A",
+            "lastName": "Hug",
+            "initials": "LA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Waterloo, 200 University Ave W, Waterloo, ON N2L 3G1, Canada."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "19",
+        "journalIssueId": 3076505,
+        "dateOfPublication": "2021 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2021,
+        "printPublicationDate": "2021-01-01",
+        "journal": {
+          "title": "Computational and structural biotechnology journal",
+          "medlineAbbreviation": "Comput Struct Biotechnol J",
+          "essn": "2001-0370",
+          "issn": "2001-0370",
+          "isoabbreviation": "Comput Struct Biotechnol J",
+          "nlmid": "101585369"
+        }
+      },
+      "pubYear": "2021",
+      "pageInfo": "6191-6200",
+      "abstractText": "Plastics in the environment represent new substrates for microbial colonization, and recent methodological advances allow for in-depth characterization of plastic-associated microbial communities (PAMCs). Over the past several decades, discovery of plastic degrading enzymes (PDEs) and plastic degrading microorganisms (PDMs) has been driven by efforts to understand microbially-mediated plastic degradation in the environment and to discover biocatalysts for plastic processing. In this review, we discuss the evolution of methodology in plastic microbiology and highlight major advancements in the field stemming from computational microbiology. Initial research relied largely on culture-based approaches like clear-zone assays to screen for PDMs and microscopy to characterize PAMCs. New computational tools and sequencing technologies are accelerating discoveries in the field through culture-independent and multi-omic approaches, rapidly generating targets for protein engineering and improving the potential for plastic-waste management.",
+      "affiliation": "University of Waterloo, 200 University Ave W, Waterloo, ON N2L 3G1, Canada.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Canada Research Chairs",
+            "orderIn": 0
+          },
+          {
+            "agency": "Natural Sciences and Engineering Research Council of Canada",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Multi-omics",
+          "Plastic Degradation",
+          "Plastisphere",
+          "Plastic Degrading Enzyme",
+          "Plastic Degrading Microbe"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/j.csbj.2021.11.023"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8632723"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8632723?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "citedByCount": 36,
+      "hasData": "Y",
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasLabsLinks": "Y",
+      "license": "cc by-nc-nd",
+      "hasEvaluations": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2021-12-13",
+      "firstIndexDate": "2021-12-24",
+      "fullTextReceivedDate": "2025-02-05",
+      "dateOfRevision": "2021-12-15",
+      "electronicPublicationDate": "2021-11-17",
+      "firstPublicationDate": "2021-11-17"
+    }
+  ]
+}

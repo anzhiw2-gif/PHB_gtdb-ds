@@ -1,0 +1,637 @@
+﻿{
+  "id": "https://openalex.org/W2113849438",
+  "display_name": "The \u201cIntracellular\u201d Poly(3-Hydroxybutyrate) (PHB) Depolymerase of <i>Rhodospirillum rubrum</i> Is a Periplasm-Located Protein with Specificity for Native PHB and with Structural Similarity to Extracellular PHB Depolymerases",
+  "publication_year": 2004,
+  "cited_by_count": 83,
+  "doi": "https://doi.org/10.1128/jb.186.21.7243-7253.2004",
+  "primary_location": {
+    "id": "doi:10.1128/jb.186.21.7243-7253.2004",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1128/jb.186.21.7243-7253.2004",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S133274750",
+      "display_name": "Journal of Bacteriology",
+      "issn_l": "0021-9193",
+      "issn": [
+        "0021-9193",
+        "1067-8832",
+        "1098-5530"
+      ],
+      "is_oa": false,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320263",
+      "host_organization_name": "American Society for Microbiology",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320263"
+      ],
+      "host_organization_lineage_names": [
+        "American Society for Microbiology"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Bacteriology",
+    "raw_type": "journal-article"
+  },
+  "abstract_inverted_index": {
+    "Rhodospirillum": [
+      0
+    ],
+    "rubrum": [
+      1,
+      42
+    ],
+    "possesses": [
+      2
+    ],
+    "a": [
+      3,
+      12,
+      16,
+      20,
+      52,
+      220,
+      233
+    ],
+    "putative": [
+      4,
+      166,
+      246
+    ],
+    "intracellular": [
+      5,
+      123,
+      183,
+      226,
+      248
+    ],
+    "poly(3-hydroxybutyrate)": [
+      6
+    ],
+    "(PHB)": [
+      7
+    ],
+    "depolymerase": [
+      8,
+      44,
+      57,
+      103,
+      178,
+      206,
+      250
+    ],
+    "system": [
+      9,
+      228
+    ],
+    "consisting": [
+      10
+    ],
+    "of": [
+      11,
+      55,
+      79,
+      122,
+      126,
+      130,
+      147,
+      175,
+      186,
+      193,
+      199,
+      212,
+      258
+    ],
+    "soluble": [
+      13,
+      40
+    ],
+    "PHB": [
+      14,
+      43,
+      56,
+      102,
+      124,
+      149,
+      177,
+      205,
+      237,
+      249
+    ],
+    "depolymerase,": [
+      15
+    ],
+    "heat-stable": [
+      17
+    ],
+    "activator,": [
+      18
+    ],
+    "and": [
+      19,
+      27,
+      76,
+      93,
+      151,
+      154,
+      190,
+      210
+    ],
+    "3-hydroxybutyrate": [
+      21,
+      85
+    ],
+    "dimer": [
+      22
+    ],
+    "hydrolase": [
+      23
+    ],
+    "(J.": [
+      24
+    ],
+    "M.": [
+      25,
+      28
+    ],
+    "Merrick": [
+      26
+    ],
+    "Doudoroff,": [
+      29
+    ],
+    "J.": [
+      30
+    ],
+    "Bacteriol.": [
+      31
+    ],
+    "88:60-71,": [
+      32
+    ],
+    "1964).": [
+      33
+    ],
+    "In": [
+      34
+    ],
+    "this": [
+      35
+    ],
+    "study": [
+      36
+    ],
+    "we": [
+      37
+    ],
+    "reinvestigated": [
+      38
+    ],
+    "the": [
+      39,
+      165,
+      170,
+      176,
+      197,
+      200,
+      245,
+      255
+    ],
+    "R.": [
+      41,
+      259
+    ],
+    "(PhaZ1).": [
+      45
+    ],
+    "It": [
+      46
+    ],
+    "turned": [
+      47
+    ],
+    "out": [
+      48
+    ],
+    "that": [
+      49,
+      217
+    ],
+    "PhaZ1": [
+      50,
+      62,
+      134,
+      195,
+      218
+    ],
+    "is": [
+      51,
+      219,
+      229
+    ],
+    "novel": [
+      53
+    ],
+    "type": [
+      54
+    ],
+    "with": [
+      58,
+      81,
+      143,
+      162
+    ],
+    "unique": [
+      59
+    ],
+    "properties.": [
+      60
+    ],
+    "Purified": [
+      61
+    ],
+    "was": [
+      63,
+      107,
+      135,
+      208,
+      252
+    ],
+    "specific": [
+      64
+    ],
+    "for": [
+      65
+    ],
+    "amorphous": [
+      66
+    ],
+    "short-chain-length": [
+      67
+    ],
+    "polyhydroxyalkanoates": [
+      68
+    ],
+    "(PHA)": [
+      69
+    ],
+    "such": [
+      70
+    ],
+    "as": [
+      71,
+      158,
+      164
+    ],
+    "native": [
+      72
+    ],
+    "PHB,": [
+      73,
+      75,
+      88
+    ],
+    "artificial": [
+      74
+    ],
+    "oligomer": [
+      77
+    ],
+    "esters": [
+      78
+    ],
+    "(R)-3-hydroxybutyrate": [
+      80
+    ],
+    "3": [
+      82
+    ],
+    "or": [
+      83,
+      129
+    ],
+    "more": [
+      84
+    ],
+    "units.": [
+      86
+    ],
+    "Atactic": [
+      87
+    ],
+    "(S)-3-hydroxybutyrate": [
+      89
+    ],
+    "oligomers,": [
+      90
+    ],
+    "medium-chain-length": [
+      91
+    ],
+    "PHA,": [
+      92
+    ],
+    "lipase": [
+      94
+    ],
+    "substrates": [
+      95
+    ],
+    "(triolein,": [
+      96
+    ],
+    "tributyrin)": [
+      97
+    ],
+    "were": [
+      98,
+      156
+    ],
+    "not": [
+      99
+    ],
+    "hydrolyzed.": [
+      100
+    ],
+    "The": [
+      101,
+      223
+    ],
+    "structural": [
+      104
+    ],
+    "gene": [
+      105
+    ],
+    "(phaZ1)": [
+      106
+    ],
+    "cloned.": [
+      108
+    ],
+    "Its": [
+      109
+    ],
+    "deduced": [
+      110
+    ],
+    "amino": [
+      111,
+      140,
+      160,
+      173
+    ],
+    "acid": [
+      112,
+      141
+    ],
+    "sequence": [
+      113,
+      257
+    ],
+    "(37,704": [
+      114
+    ],
+    "Da)": [
+      115
+    ],
+    "had": [
+      116
+    ],
+    "no": [
+      117
+    ],
+    "significant": [
+      118
+    ],
+    "similarity": [
+      119
+    ],
+    "to": [
+      120,
+      137,
+      181,
+      231
+    ],
+    "those": [
+      121
+    ],
+    "depolymerases": [
+      125
+    ],
+    "Wautersia": [
+      127
+    ],
+    "eutropha": [
+      128
+    ],
+    "other": [
+      131
+    ],
+    "PHB-accumulating": [
+      132
+    ],
+    "bacteria.": [
+      133
+    ],
+    "found": [
+      136
+    ],
+    "have": [
+      138,
+      232
+    ],
+    "strong": [
+      139
+    ],
+    "homology": [
+      142
+    ],
+    "type-II": [
+      144
+    ],
+    "catalytic": [
+      145
+    ],
+    "domains": [
+      146
+    ],
+    "extracellular": [
+      148
+    ],
+    "depolymerases,": [
+      150
+    ],
+    "Ser(42),": [
+      152
+    ],
+    "Asp(138),": [
+      153
+    ],
+    "His(178)": [
+      155
+    ],
+    "identified": [
+      157,
+      253
+    ],
+    "catalytic-triad": [
+      159
+    ],
+    "acids,": [
+      161
+    ],
+    "Ser(42)": [
+      163
+    ],
+    "active": [
+      167
+    ],
+    "site.": [
+      168,
+      203
+    ],
+    "Surprisingly,": [
+      169
+    ],
+    "first": [
+      171
+    ],
+    "23": [
+      172
+    ],
+    "acids": [
+      174
+    ],
+    "previously": [
+      179,
+      224
+    ],
+    "assumed": [
+      180,
+      225
+    ],
+    "be": [
+      182
+    ],
+    "revealed": [
+      184
+    ],
+    "features": [
+      185
+    ],
+    "classical": [
+      187
+    ],
+    "signal": [
+      188
+    ],
+    "peptides,": [
+      189
+    ],
+    "Edman": [
+      191
+    ],
+    "sequencing": [
+      192
+    ],
+    "purified": [
+      194
+    ],
+    "confirmed": [
+      196
+    ],
+    "functionality": [
+      198
+    ],
+    "predicted": [
+      201
+    ],
+    "cleavage": [
+      202
+    ],
+    "Extracellular": [
+      204
+    ],
+    "activity": [
+      207
+    ],
+    "absent,": [
+      209
+    ],
+    "analysis": [
+      211
+    ],
+    "cell": [
+      213
+    ],
+    "fractions": [
+      214
+    ],
+    "unequivocally": [
+      215
+    ],
+    "showed": [
+      216
+    ],
+    "periplasm-located": [
+      221
+    ],
+    "enzyme.": [
+      222
+    ],
+    "activator/depolymerase": [
+      227
+    ],
+    "unlikely": [
+      230
+    ],
+    "physiological": [
+      234
+    ],
+    "function": [
+      235
+    ],
+    "in": [
+      236,
+      239,
+      254
+    ],
+    "mobilization": [
+      238
+    ],
+    "vivo.": [
+      240
+    ],
+    "A": [
+      241
+    ],
+    "second": [
+      242
+    ],
+    "gene,": [
+      243
+    ],
+    "encoding": [
+      244
+    ],
+    "true": [
+      247
+    ],
+    "(PhaZ2),": [
+      251
+    ],
+    "genome": [
+      256
+    ],
+    "rubrum.": [
+      260
+    ]
+  }
+}

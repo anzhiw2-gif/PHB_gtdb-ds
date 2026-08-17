@@ -1,0 +1,102 @@
+﻿{
+  "meta": {
+    "count": 262,
+    "db_response_time_ms": 24,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where title/abstract has (depolymerase and polyhydroxyalkanoate)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "depolymerase",
+            "operator": "has"
+          },
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "polyhydroxyalkanoate",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=title_and_abstract.search:depolymerase,title_and_abstract.search:polyhydroxyalkanoate&per_page=10&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2164479864",
+      "display_name": "Microbial Degradation of Polyhydroxyalkanoates",
+      "publication_year": 2002,
+      "cited_by_count": 692,
+      "doi": "https://doi.org/10.1146/annurev.micro.56.012302.160838"
+    },
+    {
+      "id": "https://openalex.org/W2023631098",
+      "display_name": "Review Degradation of microbial polyesters",
+      "publication_year": 2004,
+      "cited_by_count": 339,
+      "doi": "https://doi.org/10.1023/b:bile.0000036599.15302.e5"
+    },
+    {
+      "id": "https://openalex.org/W2099720039",
+      "display_name": "Ecological and Agricultural Significance of Bacterial Polyhydroxyalkanoates",
+      "publication_year": 2005,
+      "cited_by_count": 259,
+      "doi": "https://doi.org/10.1080/10408410590899228"
+    },
+    {
+      "id": "https://openalex.org/W1549936434",
+      "display_name": "A holistic view of polyhydroxyalkanoate metabolism in <i>Pseudomonas putida</i>",
+      "publication_year": 2014,
+      "cited_by_count": 232,
+      "doi": "https://doi.org/10.1111/1462-2920.12760"
+    },
+    {
+      "id": "https://openalex.org/W2012524424",
+      "display_name": "Engineering Halomonas TD01 for the low-cost production of polyhydroxyalkanoates",
+      "publication_year": 2014,
+      "cited_by_count": 229,
+      "doi": "https://doi.org/10.1016/j.ymben.2014.09.001"
+    },
+    {
+      "id": "https://openalex.org/W2087453257",
+      "display_name": "Poly(3-hydroxybutyrate) Granule-Associated Proteins:\u2009 Impacts on Poly(3-hydroxybutyrate) Synthesis and Degradation",
+      "publication_year": 2005,
+      "cited_by_count": 226,
+      "doi": "https://doi.org/10.1021/bm049401n"
+    },
+    {
+      "id": "https://openalex.org/W2322628901",
+      "display_name": "Pyrosequencing Reveals the Key Microorganisms Involved in Sludge Alkaline Fermentation for Efficient Short-Chain Fatty Acids Production",
+      "publication_year": 2013,
+      "cited_by_count": 220,
+      "doi": "https://doi.org/10.1021/es400210v"
+    },
+    {
+      "id": "https://openalex.org/W1592377749",
+      "display_name": "Cloning and Molecular Analysis of the Poly(3-hydroxybutyrate) and Poly(3-hydroxybutyrate-<i>co</i>-3-hydroxyalkanoate) Biosynthesis Genes in<i>Pseudomonas</i>sp. Strain 61-3",
+      "publication_year": 1998,
+      "cited_by_count": 214,
+      "doi": "https://doi.org/10.1128/jb.180.24.6459-6467.1998"
+    },
+    {
+      "id": "https://openalex.org/W2970658357",
+      "display_name": "Metabolic engineering of <i>Pseudomonas putida</i> for increased polyhydroxyalkanoate production from lignin",
+      "publication_year": 2019,
+      "cited_by_count": 210,
+      "doi": "https://doi.org/10.1111/1751-7915.13481"
+    },
+    {
+      "id": "https://openalex.org/W1961349266",
+      "display_name": "Biosynthesis, modification, and biodegradation of bacterial medium-chain-length polyhydroxyalkanoates.",
+      "publication_year": 2007,
+      "cited_by_count": 198,
+      "doi": null
+    }
+  ],
+  "group_by": []
+}

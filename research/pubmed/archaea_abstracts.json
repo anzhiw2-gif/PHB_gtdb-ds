@@ -1,0 +1,304 @@
+[
+  {
+    "pmid": "25710370",
+    "title": "A patatin-like protein associated with the polyhydroxyalkanoate (PHA) granules of Haloferax mediterranei acts as an efficient depolymerase in the degradation of native PHA.",
+    "authors": [
+      "Liu G",
+      "Hou J",
+      "Cai S",
+      "Zhao D",
+      "Cai L",
+      "Han J",
+      "Zhou J",
+      "Xiang H"
+    ],
+    "journal": "Applied and environmental microbiology",
+    "pubdate": "2015 May 01",
+    "doi": "10.1128/AEM.04269-14",
+    "abstract": "The key enzymes and pathways involved in polyhydroxyalkanoate (PHA) biosynthesis in haloarchaea have been identified in recent years, but the haloarchaeal enzymes for PHA degradation remain unknown. In this study, a patatin-like PHA depolymerase, PhaZh1, was determined to be located on the PHA granules in the haloarchaeon Haloferax mediterranei. PhaZh1 hydrolyzed the native PHA (nPHA) [including native polyhydroxybutyrate (nPHB) and native poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (nPHBV) in this study] granules in vitro with 3-hydroxybutyrate (3HB) monomer as the primary product. The site-directed mutagenesis of PhaZh1 indicated that Gly16, Ser47 (in a classical lipase box, G-X-S47-X-G), and Asp195 of this depolymerase were essential for its activity in nPHA granule hydrolysis. Notably, phaZh1 and bdhA (encoding putative 3HB dehydrogenase) form a gene cluster (HFX_6463 to _6464) in H. mediterranei. The 3HB monomer generated from nPHA degradation by PhaZh1 could be further converted into acetoacetate by BdhA, indicating that PhaZh1-BdhA may constitute the first part of a PHA degradation pathway in vivo. Interestingly, although PhaZh1 showed efficient activity and was most likely the key enzyme in nPHA granule hydrolysis in vitro, the knockout of phaZh1 had no significant effect on the intracellular PHA mobilization, implying the existence of an alternative PHA mobilization pathway(s) that functions effectively within the cells of H. mediterranei. Therefore, identification of this patatin-like depolymerase of haloarchaea may provide a new strategy for producing the high-value-added chiral compound (R)-3HB and may also shed light on the PHA mobilization in haloarchaea."
+  },
+  {
+    "pmid": "34132340",
+    "title": "Microbial cell factories for the production of polyhydroxyalkanoates.",
+    "authors": [
+      "Nagarajan D",
+      "Aristya GR",
+      "Lin YJ",
+      "Chang JJ",
+      "Yen HW",
+      "Chang JS"
+    ],
+    "journal": "Essays in biochemistry",
+    "pubdate": "2021 Jul 26",
+    "doi": "10.1042/EBC20200142",
+    "abstract": "Pollution caused by persistent petro-plastics is the most pressing problem currently, with 8 million tons of plastic waste dumped annually in the oceans. Plastic waste management is not systematized in many countries, because it is laborious and expensive with secondary pollution hazards. Bioplastics, synthesized by microorganisms, are viable alternatives to petrochemical-based thermoplastics due to their biodegradable nature. Polyhydroxyalkanoates (PHAs) are a structurally and functionally diverse group of storage polymers synthesized by many microorganisms, including bacteria and Archaea. Some of the most important PHA accumulating bacteria include Cupriavidus necator, Burkholderia sacchari, Pseudomonas sp., Bacillus sp., recombinant Escherichia coli, and certain halophilic extremophiles. PHAs are synthesized by specialized PHA polymerases with assorted monomers derived from the cellular metabolite pool. In the natural cycle of cellular growth, PHAs are depolymerized by the native host for carbon and energy. The presence of these microbial PHA depolymerases in natural niches is responsible for the degradation of bioplastics. Polyhydroxybutyrate (PHB) is the most common PHA with desirable thermoplastic-like properties. PHAs have widespread applications in various industries including biomedicine, fine chemicals production, drug delivery, packaging, and agriculture. This review provides the updated knowledge on the metabolic pathways for PHAs synthesis in bacteria, and the major microbial hosts for PHAs production. Yeasts are presented as a potential candidate for industrial PHAs production, with their high amenability to genetic engineering and the availability of industrial-scale technology. The major bottlenecks in the commercialization of PHAs as an alternative for plastics and future perspectives are also critically discussed."
+  },
+  {
+    "pmid": "27098259",
+    "title": "Environmental biodegradation of haloarchaea-produced poly(3-hydroxybutyrate-co-3-hydroxyvalerate) in activated sludge.",
+    "authors": [
+      "Liu XB",
+      "Wu LP",
+      "Hou J",
+      "Chen JY",
+      "Han J",
+      "Xiang H"
+    ],
+    "journal": "Applied microbiology and biotechnology",
+    "pubdate": "2016 Aug",
+    "doi": "10.1007/s00253-016-7528-2",
+    "abstract": "Novel poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (PHBHV) copolymers produced by haloarchaea are excellent candidate biomaterials. However, there is no report hitherto focusing on the biodegradation of PHBHV synthesized by haloarchaea. In this study, an environmental biodegradation of haloarchaea-produced PHBHV films, with 10~60\u00a0mol% 3-hydroxyvalerate (3HV) composition and different microchemical structures, was studied in nutrition-depleted activated sludge. The changes in mass, molar mass, chemical composition, thermal properties, and surface morphology were monitored. The mass and molar mass of each film decreased significantly, while the PHA monomer composition remained unchanged with time. Interestingly, the sample of random copolymer PHBHV-2 (R-PHBHV-2) (3HV, 30\u00a0mol%) had the lowest crystallinity and was degraded faster than R-PHBHV-3 containing the highest 3HV content or the higher-order copolymer PHBHV-1 (O-PHBHV-1) possessing the highest surface roughness. The order of biodegradation rate was in the opposite trend to the degree of crystallizability of the films. Meanwhile, thermal degradation temperature of most films decreased after biodegradation. Additionally, the surface erosion of films was confirmed by scanning electron microscopy. The dominant bacteria probably responsible for the degradation process were identified in the activated sludge. It was inferred that the degradation rate of haloarchaea-produced PHBHV films mainly depended on sample crystallinity, which was determined by monomer composition and microchemical structure and in turn strongly influenced surface morphology."
+  },
+  {
+    "pmid": "9785454",
+    "title": "A novel heat-stable lipolytic enzyme from Sulfolobus acidocaldarius DSM 639 displaying similarity to polyhydroxyalkanoate depolymerases.",
+    "authors": [
+      "Arpigny JL",
+      "Jendrossek D",
+      "Jaeger KE"
+    ],
+    "journal": "FEMS microbiology letters",
+    "pubdate": "1998 Oct 01",
+    "doi": null,
+    "abstract": "A fragment of genomic DNA from Sulfolobus acidocaldarius DSM 639 encoding a lipolytic enzyme was cloned and sequenced. The 314-amino acid polypeptide displays a maximum sequence similarity (43%) to a putative polyhydroxyalkanoate depolymerase from Pseudomonas oleovorans and contains the pentapeptide G-X1-S-X2-G which is typical of serine hydrolases. The protein is highly thermostable and is able to hydrolyse a variety of lipid substrates thus providing a promising tool for potential biotechnological applications."
+  },
+  {
+    "pmid": "23544425",
+    "title": "Pyrosequencing reveals the key microorganisms involved in sludge alkaline fermentation for efficient short-chain fatty acids production.",
+    "authors": [
+      "Zheng X",
+      "Su Y",
+      "Li X",
+      "Xiao N",
+      "Wang D",
+      "Chen Y"
+    ],
+    "journal": "Environmental science & technology",
+    "pubdate": "2013 May 07",
+    "doi": "10.1021/es400210v",
+    "abstract": "Short-chain fatty acids (SCFAs) have been regarded as the excellent carbon source of wastewater biological nutrient removal, and sludge alkaline (pH 10) fermentation has been reported to achieve highly efficient SCFAs production. In this study, the underlying mechanisms for the improved SCFAs production at pH 10 were investigated by using 454 pyrosequencing and fluorescent in situ hybridization (FISH) to analyze the microbial community structures in sludge fermentation reactors. It was found that sludge fermentation at pH 10 increased the abundances of Pseudomonas sp. and Alcaligenes sp., which were able to excrete extracellular proteases and depolymerases, and thus enhanced the hydrolysis of insoluble sludge protein and polyhydroxyalkanoates (PHA). Meanwhile, the abundance of acid-producing bacteria (such as Clostridium sp.) in the reactor of pH 10 was also higher than that of uncontrolled pH, which benefited the acidification of soluble organic substrates. Further study indicated that sludge fermentation at pH 10 significantly decreased the number of methanogenic archaea, resulting in lower SCFAs consumption and lower methane production. Therefore, anaerobic sludge fermentation under alkaline conditions increased the abundances of bacteria involved in sludge hydrolysis and acidification, and decreased the abundance of methanogenic archaea, which favored the competition of bacteria over methanogens and resulted in the efficient production of SCFAs."
+  },
+  {
+    "pmid": "36364191",
+    "title": "Characterization of Polyhydroxybutyrate, PHB, Synthesized by Newly Isolated Haloarchaea ",
+    "authors": [
+      "Hagagy N",
+      "Saddiq AA",
+      "Tag HM",
+      "Selim S",
+      "AbdElgawad H",
+      "Mart\u00ednez-Espinosa RM"
+    ],
+    "journal": "Molecules (Basel, Switzerland)",
+    "pubdate": "2022 Oct 29",
+    "doi": "10.3390/molecules27217366",
+    "abstract": "This work aims to characterize the haloarchaeal diversity of unexplored environmental salty samples from a hypersaline environment on the southern coast of Jeddah, Saudi Arabia, looking for new isolates able to produce polyhydroxyalkanoates (PHAs). Thus, the list of PHA producers has been extended by describing two species of Halolamina; Halolamina sediminis sp. strain NRS_35 and unclassified Halolamina sp. strain NRS_38. The growth and PHA-production were investigated in the presence of different carbon sources, (glucose, sucrose, starch, carboxymethyl cellulose (CMC), and glycerol), pH values, (5-9), temperature ranges (4-65 \u00b0C), and NaCl concentrations (100-350 g L-1). Fourier-transform infra-red analysis (FT-IR) and Liquid chromatography-mass spectrometry (LC-MS) were used for qualitative identification of the biopolymer. The highest yield of PHB was 33.4% and 27.29% by NRS_35 and NRS_38, respectively, using starch as a carbon source at 37 \u00b0C, pH 7, and 25% NaCl (w/v). The FT-IR pattern indicated sharp peaks formed around 1628.98 and 1629.28 cm-1, which confirmed the presence of the carbonyl group (C=O) on amides and related to proteins, which is typical of PHB. LC-MS/MS analysis displayed peaks at retention times of 5.2, 7.3, and 8.1. This peak range indicates the occurrence of PHB and its synthetic products: Acetoacetyl-CoA and PHB synthase (PhaC). In summary, the two newly isolated Halolamina species showed a high capacity to produce PHB using different sources of carbon. Further research using other low-cost feedstocks is needed to improve both the quality and quantity of PHB production. With these results, the use of haloarchaea as cell factories to produce PHAs is reinforced, and light is shed on the global concern about replacing plastics with biodegradable polymers."
+  },
+  {
+    "pmid": "27052994",
+    "title": "Enoyl-CoA hydratase mediates polyhydroxyalkanoate mobilization in Haloferax mediterranei.",
+    "authors": [
+      "Liu G",
+      "Cai S",
+      "Hou J",
+      "Zhao D",
+      "Han J",
+      "Zhou J",
+      "Xiang H"
+    ],
+    "journal": "Scientific reports",
+    "pubdate": "2016 Apr 07",
+    "doi": "10.1038/srep24015",
+    "abstract": "Although polyhydroxyalkanoate (PHA) accumulation and mobilization are one of the most general mechanisms for haloarchaea to adapt to the hypersaline environments with changeable carbon sources, the PHA mobilization pathways are still not clear for any haloarchaea. In this study, the functions of five putative (R)-specific enoyl-CoA hydratases (R-ECHs) in Haloferax mediterranei, named PhaJ1 to PhaJ5, respectively, were thoroughly investigated. Through gene deletion and complementation, we demonstrated that only certain of these ECHs had a slight contribution to poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (PHBV) biosynthesis. But significantly, PhaJ1, the only R-ECH that is associated with PHA granules, was shown to be involved in PHA mobilization in this haloarchaeon. PhaJ1 catalyzes the dehydration of (R)-3-hydroxyacyl-CoA, the common product of PHA degradation, to enoyl-CoA, the intermediate of the \u03b2-oxidation cycle, thus could link PHA mobilization to \u03b2-oxidation pathway in H. mediterranei. This linkage was further indicated from the up-regulation of the key genes of \u03b2-oxidation under the PHA mobilization condition, as well as the obvious inhibition of PHA degradation upon inhibition of the \u03b2-oxidation pathway. Interestingly, 96% of phaJ-containing haloarchaeal species possess both phaC (encoding PHA synthase) and the full set genes of \u03b2-oxidation, implying that the mobilization of carbon storage in PHA through the \u03b2-oxidation cycle would be general in haloarchaea."
+  },
+  {
+    "pmid": "20024541",
+    "title": "Synthesis and production of polyhydroxyalkanoates by halophiles: current potential and future prospects.",
+    "authors": [
+      "Quillaguam\u00e1n J",
+      "Guzm\u00e1n H",
+      "Van-Thuoc D",
+      "Hatti-Kaul R"
+    ],
+    "journal": "Applied microbiology and biotechnology",
+    "pubdate": "2010 Feb",
+    "doi": "10.1007/s00253-009-2397-6",
+    "abstract": "Biodegradable materials with plastic or elastomeric properties are in great demand for a variety of applications. Polyhydroxyalkanoates (PHAs), polyesters synthesized by microorganisms, possess such desired features. Industrial production of PHAs is currently achieved using recombinant Escherichia coli. Nevertheless, recent research on halophiles, salt requiring microorganisms, has shown a remarkable potential for biotechnological production of PHAs. The halophilic archaeon Haloferax mediterranei accumulates a co-polymer, i.e., poly(3-hydroxybutyrate-co-3-hydroxyvalerate) in large amounts using glucose, starch, and hydrolyzed whey as carbon sources. Chemical composition and molecular weight of PHAs produced by H. mediterranei can be modified depending on the substrate utilized as precursor. Phylogenetic studies on haloarchaeal enzymes able to polymerize the components of PHAs (i.e., PHA synthases) reveal a novel cluster, with a close relationship with PHA polymerases of bacteria and archaea found in marine-related niches. On the other hand, sequences of PHA synthases of two halophilic bacteria are more closely affiliated to synthases of Proteobacteria. Several bacterial species of the family Halomonadaceae accumulate PHAs. Halomonas boliviensis reached PHA yields and volumetric productivities close to the highest reported so far. Furthermore, H. boliviensis and other Halomonas species are able to co-produce PHA and osmolytes, i.e., ectoines and hydroxyectoine, in one process."
+  },
+  {
+    "pmid": "22645084",
+    "title": "Cellular and organellar membrane-associated proteins in haloarchaea: perspectives on the physiological significance and biotechnological applications.",
+    "authors": [
+      "Cai L",
+      "Zhao D",
+      "Hou J",
+      "Wu J",
+      "Cai S",
+      "Dassarma P",
+      "Xiang H"
+    ],
+    "journal": "Science China. Life sciences",
+    "pubdate": "2012 May",
+    "doi": "10.1007/s11427-012-4321-z",
+    "abstract": "Halophilic archaea (haloarchaea) inhabit hypersaline environments, tolerating extreme salinity, low oxygen and nutrient availability, and in some cases, high pH (soda lakes) and irradiation (saltern ponds). Membrane-associated proteins of haloarchaea, such as surface layer (S-layer) proteins, transporters, retinal proteins, and internal organellar membrane proteins including intracellular gas vesicle proteins and those associated with polyhydroxyalkanoate (PHA) granules, contribute greatly to their environmental adaptations. This review focuses on these haloarchaeal cellular and organellar membrane-associated proteins, and provides insight into their physiological significance and biotechnological potential."
+  },
+  {
+    "pmid": "25947242",
+    "title": "Poly(3-hydroxybutyrate-co-3-hydroxyvalerate) production by Haloarchaeon Halogranum amylolyticum.",
+    "authors": [
+      "Zhao YX",
+      "Rao ZM",
+      "Xue YF",
+      "Gong P",
+      "Ji YZ",
+      "Ma YH"
+    ],
+    "journal": "Applied microbiology and biotechnology",
+    "pubdate": "2015 Sep",
+    "doi": "10.1007/s00253-015-6609-y",
+    "abstract": "Haloarchaea is an important group of polyhydroxyalkanoate (PHA)-accumulating organisms. However, few promising haloarchaeal species for economical and efficient PHA production have been reported. Here, we first discovered that Halogranum amylolyticum TNN58 could efficiently accumulate poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (PHBV) with a high 3-hydroxyvalerate (3HV) fraction using glucose as carbon source. Briefly, transmission electron microscopy (TEM) analysis revealed the presence of a large number of PHA granules in the cells. Gas chromatography-mass spectrometry (GC-MS) and proton nuclear magnetic resonance ((1)H NMR) analyses showed that PHAs synthesized from glucose was PHBV. Moreover, the 3HV content reached 20.1\u00a0mol%, which is the highest 3HV fraction thus far reported, as for PHBV produced by the wild-type strains grown on unrelated carbon courses. Fermentation experiments suggested that nitrogen-limited MG medium was better than nutrient-rich NOMG and AS168 medium for PHBV production. Additionally, glucose was the most suitable carbon source among the tested carbon sources. Interestingly, PHBV accumulation was almost paralleled by cell growth and glucose consumption. By applying the fed-batch process in fermentor, the PHBV production and cell dry weight were increased by approximately eight and four times, respectively, as compared with those of the batch process in shaking flasks. The classical PHA synthase genes were successfully cloned via consensus-degenerate hybrid oligonucleotide primers (CODEHOPs) and high-efficiency thermal asymmetric interlaced (hiTAIL) PCR methods. This finding suggested that H. amylolyticum shows promising potential in the low-cost biotechnological production of PHBV after further process optimization."
+  },
+  {
+    "pmid": "20437233",
+    "title": "Identification of polyhydroxyalkanoates in Halococcus and other haloarchaeal species.",
+    "authors": [
+      "Legat A",
+      "Gruber C",
+      "Zangger K",
+      "Wanner G",
+      "Stan-Lotter H"
+    ],
+    "journal": "Applied microbiology and biotechnology",
+    "pubdate": "2010 Jul",
+    "doi": "10.1007/s00253-010-2611-6",
+    "abstract": "Polyhydroxyalkanoates (PHAs) are accumulated in many prokaryotes. Several members of the Halobacteriaceae produce poly-3-hydroxybutyrate (PHB), but it is not known if this is a general property of the family. We evaluated identification methods for PHAs with 20 haloarchaeal species, three of them isolates from Permian salt. Staining with Sudan Black B, Nile Blue A, or Nile Red was applied to screen for the presence of PHAs. Transmission electron microscopy and (1)H-nuclear magnetic resonance spectroscopy were used for visualization of PHB granules and chemical confirmation of PHAs in cell extracts, respectively. We report for the first time the production of PHAs by Halococcus sp. (Halococcus morrhuae DSM 1307(T), Halococcus saccharolyticus DSM 5350(T), Halococcus salifodinae DSM 8989(T), Halococcus dombrowskii DSM 14522(T), Halococcus hamelinensis JCM 12892(T), Halococcus qingdaonensis JCM 13587(T)), Halorubrum sp. (Hrr. coriense DSM 10284(T), Halorubrum chaoviator DSM 19316(T), Hrr. chaoviator strains NaxosII and AUS-1), haloalkaliphiles (Natronobacterium gregoryi NCMB 2189(T), Natronococcus occultus DSM 3396(T)) and Halobacterium noricense DSM 9758(T). No PHB was detected in Halobacterium salinarum NRC-1 ATCC 700922, Hbt. salinarum R1 and Haloferax volcanii DSM 3757(T). Most species synthesized PHAs when growing in synthetic as well as in complex medium. The polyesters were generally composed of PHB and poly-ss-hydroxybutyrate-co-3-hydroxyvalerate (PHBV). Available genomic data suggest the absence of PHA synthesis in some haloarchaea and in all other Euryarchaeota and Crenarchaeota. Homologies between haloarchaeal and bacterial PHA synthesizing enzymes had indicated to some authors probable horizontal gene transfer, which, considering the data obtained in this study, may have occurred already before Permian times."
+  },
+  {
+    "pmid": "26240023",
+    "title": "Polymerase chain reaction-based screening method applicable universally to environmental haloarchaea and halobacteria for identifying polyhydroxyalkanoate producers among them.",
+    "authors": [
+      "Mahansaria R",
+      "Choudhury JD",
+      "Mukherjee J"
+    ],
+    "journal": "Extremophiles : life under extreme conditions",
+    "pubdate": "2015 Sep",
+    "doi": "10.1007/s00792-015-0775-9",
+    "abstract": "The existing techniques for detection of polyhydroxyalkanoates (PHA) in halophilic archaea/bacteria are either imprecise or require prior PHA production before screening. The proposed method involves amplification of the approximately 280-300 bp conserved region of Class III PHA synthase (phaC) gene of halophiles using the primers codehopCF and codehopCR (Han et al. Appl Environ Microb 76:7811-7819, 2010). In this study, the best reaction condition was ascertained after repeated trials. This developed method was tested on nine haloarchaeal and halobacterial type strains and 28 environmental halophilic archaea and bacteria isolated from the salt pans of the east and west coasts of India. 29 strains were found to be phaC-positive, while eight were found to be phaC-negative although they appeared PHA positive through conventional Nile Red staining. 16S rRNA-based phylogenetic analysis identified 9 haloarchaeal and 9 halobacterial species as novel PHA producers. Multiple sequence alignment of the phaC gene-derived amino acid sequences showed that only 7 amino acid residues were conserved within all four classes of phaC enzymes, whereas 61 amino acids were identical among the phaC enzyme specific to the haloarchaeal and halobacterial strains presently investigated. All phaC-positive strains produced PHA in standard nutrient deficient medium, whereas the phaC-negative strains did not accumulate any PHA as detected by gas chromatography and nuclear magnetic resonance analyses, thus proving the precision of the developed method and elimination of false positives seen with the traditional Nile Red staining procedure."
+  },
+  {
+    "pmid": "22247127",
+    "title": "Identification of the haloarchaeal phasin (PhaP) that functions in polyhydroxyalkanoate accumulation and granule formation in Haloferax mediterranei.",
+    "authors": [
+      "Cai S",
+      "Cai L",
+      "Liu H",
+      "Liu X",
+      "Han J",
+      "Zhou J",
+      "Xiang H"
+    ],
+    "journal": "Applied and environmental microbiology",
+    "pubdate": "2012 Mar",
+    "doi": "10.1128/AEM.07114-11",
+    "abstract": "The polyhydroxyalkanoate (PHA) granule-associated proteins (PGAPs) are important for PHA synthesis and granule formation, but currently little is known about the haloarchaeal PGAPs. This study focused on the identification and functional analysis of the PGAPs in the haloarchaeon Haloferax mediterranei. These PGAPs were visualized with two-dimensional gel electrophoresis (2-DE) and identified by matrix-assisted laser desorption ionization-tandem time of flight mass spectrometry (MALDI-TOF/TOF MS). The most abundant protein on the granules was identified as a hypothetical protein, designated PhaP. A genome-wide analysis revealed that the phaP gene is located upstream of the previously identified phaEC genes. Through an integrative approach of gene knockout/complementation and fermentation analyses, we demonstrated that this PhaP is involved in PHA accumulation. The \u0394phaP mutant was defective in both PHA biosynthesis and cell growth compared to the wild-type strain. Additionally, transmission electron microscopy results indicated that the number of PHA granules in the \u0394phaP mutant cells was significantly lower, and in most of the \u0394phaP cells only a single large granule was observed. These results demonstrated that the H. mediterranei PhaP was the predominant structure protein (phasin) on the PHA granules involved in PHA accumulation and granule formation. In addition, BLASTp and phylogenetic results indicate that this type of PhaP is exclusively conserved in haloarchaea, implying that it is a representative of the haloarchaeal type PHA phasin."
+  },
+  {
+    "pmid": "20889776",
+    "title": "Wide distribution among halophilic archaea of a novel polyhydroxyalkanoate synthase subtype with homology to bacterial type III synthases.",
+    "authors": [
+      "Han J",
+      "Hou J",
+      "Liu H",
+      "Cai S",
+      "Feng B",
+      "Zhou J",
+      "Xiang H"
+    ],
+    "journal": "Applied and environmental microbiology",
+    "pubdate": "2010 Dec",
+    "doi": "10.1128/AEM.01117-10",
+    "abstract": "Polyhydroxyalkanoates (PHAs) are accumulated as intracellular carbon and energy storage polymers by various bacteria and a few haloarchaea. In this study, 28 strains belonging to 15 genera in the family Halobacteriaceae were investigated with respect to their ability to synthesize PHAs and the types of their PHA synthases. Fermentation results showed that 18 strains from 12 genera could synthesize polyhydroxybutyrate (PHB) or poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (PHBV). For most of these haloarchaea, selected regions of the phaE and phaC genes encoding PHA synthases (type III) were cloned via PCR with consensus-degenerate hybrid oligonucleotide primers (CODEHOPs) and were sequenced. The PHA synthases were also examined by Western blotting using haloarchaeal Haloarcula marismortui PhaC (PhaC(Hm)) antisera. Phylogenetic analysis showed that the type III PHA synthases from species of the Halobacteriaceae and the Bacteria domain clustered separately. Comparison of their amino acid sequences revealed that haloarchaeal PHA synthases differed greatly in both molecular weight and certain conserved motifs. The longer C terminus of haloarchaeal PhaC was found to be indispensable for its enzymatic activity, and two additional amino acid residues (C143 and C190) of PhaC(Hm) were proved to be important for its in vivo function. Thus, we conclude that a novel subtype (IIIA) of type III PHA synthase with unique features that distinguish it from the bacterial subtype (IIIB) is widely distributed in haloarchaea and appears to be involved in PHA biosynthesis."
+  },
+  {
+    "pmid": "25522589",
+    "title": "[Development of PhaP-tagged protein expression and purification systems for extremely halophilic archaea ].",
+    "authors": [
+      "Wul J",
+      "Cai S",
+      "Liu H",
+      "Hou J",
+      "Han J",
+      "Zhou J",
+      "Hua X"
+    ],
+    "journal": "Wei sheng wu xue bao = Acta microbiologica Sinica",
+    "pubdate": "2014 Sep 04",
+    "doi": null,
+    "abstract": "[ OBJECTIVE] To establish a convenient halophilic protein expression and purification system based on the haloarchaeal-type PhaP and polyhydroxyalkanoate (PHA) granule. [METHODS] We cloned a strong haloarchaeal promoter and the phaP-tag into the haloarchaea- Escherichia coli shuttle vector pWL502, and then used the constructed vector to express the PhaP-tagged haloarchaeal proteins in the phaP-deleted strain Haloferax mediterranei AphaP. We purified the PhaP-fusion proteins, which were associated with PHA granules, by sucrose density gradient centrifugation. We also inserted a haloarchaeal intein-containing fragment between phaP and multiple cloning sites, and modulated the intein splicing activity by site-directed mutagenesis. [RESULTS] We successfully constructed two expression vectors, pPM and pIP, in which PhaP was used as N-terminal and C-terminal fusion tag, respectively. The haloarchaeal proteins were effectively expressed by both vectors. The PhaP-tagged proteins were easily purified through the strategy of PHA granulemediated protein purification. In addition, we found that the intein-containing fragment Hbt21 from Halobacterium sp. NRC-1 had maintained splicing activity in H. mediterranei, and its C-terminal cleavage could be blocked or attenuated by mutating the conserved asparagine ( N182) or serine (S183) , respectively. [ CONCLUSION] We have established a convenient and economical halophilic protein expression and purification system. We have also identified the splicing active sites of a haloarchaeal intein, which showed potential for removing the PhaP-tag from the purified proteins."
+  },
+  {
+    "pmid": "18408025",
+    "title": "Genetic and biochemical characterization of the poly(3-hydroxybutyrate-co-3-hydroxyvalerate) synthase in Haloferax mediterranei.",
+    "authors": [
+      "Lu Q",
+      "Han J",
+      "Zhou L",
+      "Zhou J",
+      "Xiang H"
+    ],
+    "journal": "Journal of bacteriology",
+    "pubdate": "2008 Jun",
+    "doi": "10.1128/JB.00134-08",
+    "abstract": "The haloarchaeon Haloferax mediterranei has shown promise for the economical production of poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (PHBV), a desirable bioplastic. However, little is known at present about the genes involved in PHBV synthesis in the domain Archaea. In this study, we cloned the gene cluster (phaEC(Hme)) encoding a polyhydroxyalkanoate (PHA) synthase in H. mediterranei CGMCC 1.2087 via thermal asymmetric interlaced PCR. Western blotting revealed that the phaE(Hme) and phaC(Hme) genes were constitutively expressed, and both the PhaE(Hme) and PhaC(Hme) proteins were strongly bound to the PHBV granules. Interestingly, CGMCC 1.2087 could synthesize PHBV in either nutrient-limited medium (supplemented with 1% starch) or nutrient-rich medium, up to 24 or 18% (wt/wt) in shaking flasks. Knockout of the phaEC(Hme) genes in CGMCC 1.2087 led to a complete loss of PHBV synthesis, and only complementation with the phaEC(Hme) genes together (but not either one alone) could restore to this mutant the capability for PHBV accumulation. The known haloarchaeal PhaC subunits are much longer at their C termini than their bacterial counterparts, and the C-terminal extension of PhaC(Hme) was proven to be indispensable for its function in vivo. Moreover, the mixture of purified PhaE(Hme)/PhaC(Hme) (1:1) showed significant activity of PHA synthase in vitro. Taken together, our results indicated that a novel member of the class III PHA synthases, composed of PhaC(Hme) and PhaE(Hme), accounted for the PHBV synthesis in H. mediterranei."
+  },
+  {
+    "pmid": "25344243",
+    "title": "A novel DNA-binding protein, PhaR, plays a central role in the regulation of polyhydroxyalkanoate accumulation and granule formation in the haloarchaeon Haloferax mediterranei.",
+    "authors": [
+      "Cai S",
+      "Cai L",
+      "Zhao D",
+      "Liu G",
+      "Han J",
+      "Zhou J",
+      "Xiang H"
+    ],
+    "journal": "Applied and environmental microbiology",
+    "pubdate": "2015 Jan",
+    "doi": "10.1128/AEM.02878-14",
+    "abstract": "Polyhydroxyalkanoates (PHAs) are synthesized and assembled as PHA granules that undergo well-regulated formation in many microorganisms. However, this regulation remains unclear in haloarchaea. In this study, we identified a PHA granule-associated regulator (PhaR) that negatively regulates the expression of both its own gene and the granule structural gene phaP in the same operon (phaRP) in Haloferax mediterranei. Chromatin immunoprecipitation-quantitative PCR (ChIP-qPCR) assays demonstrated a significant interaction between PhaR and the phaRP promoter in vivo. Scanning mutagenesis of the phaRP promoter revealed a specific cis-element as the possible binding position of the PhaR. The haloarchaeal homologs of the PhaR contain a novel conserved domain that belongs to a swapped-hairpin barrel fold family found in AbrB-like proteins. Amino acid substitution indicated that this AbrB-like domain is critical for the repression activity of PhaR. In addition, the phaRP promoter had a weaker activity in the PHA-negative strains, implying a function of the PHA granules in titration of the PhaR. Moreover, the H. mediterranei strain lacking phaR was deficient in PHA accumulation and produced granules with irregular shapes. Interestingly, the PhaR itself can promote PHA synthesis and granule formation in a PhaP-independent manner. Collectively, our results demonstrated that the haloarchaeal PhaR is a novel bifunctional protein that plays the central role in the regulation of PHA accumulation and granule formation in H. mediterranei."
+  },
+  {
+    "pmid": "40250665",
+    "title": "Promoter engineering for enhanced poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (PHBV) production in Haloferax mediterranei.",
+    "authors": [
+      "Zhou M",
+      "Xu Y",
+      "Li J",
+      "Han Y",
+      "Yu H",
+      "Qi L",
+      "Chen J",
+      "Xiang H",
+      "Han J"
+    ],
+    "journal": "International journal of biological macromolecules",
+    "pubdate": "2025 May",
+    "doi": "10.1016/j.ijbiomac.2025.143237",
+    "abstract": "Polyhydroxyalkanoates (PHAs) are linear polyesters synthesized by various microorganisms. Due to their excellent physicochemical and material properties, PHAs are considered as a promising and sustainable alternative to petroleum-based plastics. Haloferax mediterranei is a promising and cost-effective producer of poly(3-hydroxybutyrate-co-3-hydroxyvalerate) (PHBV). In this study, we aimed to improve PHBV yield of H. mediterranei via promoter engineering. Differential RNA-seq (dRNA-seq) was firstly used to examine the genome-wide transcription start sites (TSSs) of H. mediterranei. Based on the TSS profile, 26 constitutive promoters with expression strength spanning ~103-fold dynamic range were quantitatively characterized using GFP fluorescence reporting system. Furthermore, it was found that the 5' untranslated region (5'-UTR) of phaR encoding PHA synthesis regulatory protein reduced the activity of the promoters derived from phaR, and this regulation occurred at the transcription level. Finally, several suitable promoters were selected to regulate the expression of cimA and bktB to improve the PHBV accumulation and 3HV molar fraction in H. mediterranei, ultimately leading to an increase of 35\u00a0% and of 18.4\u00a0%, respectively. Taken together, this work established a constitutive promoter library of haloarchaea, which would provide abundant genetic elements for the construction of ideal haloarchaeal chassis cells contributing in biosynthetic biology of extremophiles."
+  },
+  {
+    "pmid": "23887358",
+    "title": "Accumulation of polyhydroxyalkanoates by halophilic archaea isolated from traditional solar salterns of India.",
+    "authors": [
+      "Salgaonkar BB",
+      "Mani K",
+      "Bragan\u00e7a JM"
+    ],
+    "journal": "Extremophiles : life under extreme conditions",
+    "pubdate": "2013 Sep",
+    "doi": "10.1007/s00792-013-0561-5",
+    "abstract": "Extremely halophilic archaeal isolates obtained from brine and sediment samples of solar salterns of Goa and Tamil Nadu, India were screened for accumulation of polyhydroxyalkanoates (PHA). Seven polymer accumulating haloarchaeal strains (TN4, TN5, TN6, TN7, TN9, TN10 and BBK2) were selected based on their growth and intensity of fluorescence when grown on 20 % NaCl synthetic medium supplemented with 2 % glucose and incorporated with Nile red dye. The polymer was quantified by conversion of PHA to crotonic acid which gave a characteristic absorption maxima at 235 nm. On the basis of phenotypic and genotypic characterization the cultures TN4, TN5, TN6, TN7, TN10 and BBK2 were grouped under genus Haloferax whereas isolate TN9 was grouped under the genus Halogeometricum. Growth kinetics and polymer accumulation studies revealed that the culture Halogeometricum borinquense strain TN9 accumulates PHA maximally at the mid-log phase, i.e. 5th day of growth (approx. 14 wt% PHA of CDW). Analysis of the polymer by IR, (1)H NMR and (13)C NMR confirmed it to be a homopolymer of 3-hydroxybutyrate."
+  }
+]

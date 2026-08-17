@@ -1,0 +1,278 @@
+﻿{
+  "meta": {
+    "count": 6,
+    "db_response_time_ms": 22,
+    "page": 1,
+    "per_page": 25,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where title/abstract has (polyhydroxybutyrate oligomer hydrolase)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "title_and_abstract.search",
+            "value": "polyhydroxybutyrate oligomer hydrolase",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=title_and_abstract.search:polyhydroxybutyrate oligomer hydrolase&per_page=25&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2425669139",
+      "display_name": "Biodegradation of different formulations of polyhydroxybutyrate films in soil",
+      "publication_year": 2016,
+      "cited_by_count": 196,
+      "doi": "https://doi.org/10.1186/s40064-016-2480-2",
+      "primary_location": {
+        "id": "doi:10.1186/s40064-016-2480-2",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1186/s40064-016-2480-2",
+        "pdf_url": "https://springerplus.springeropen.com/track/pdf/10.1186/s40064-016-2480-2",
+        "source": {
+          "id": "https://openalex.org/S2531072874",
+          "display_name": "SpringerPlus",
+          "issn_l": "2193-1801",
+          "issn": [
+            "2193-1801"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319972",
+          "host_organization_name": "Springer International Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319972",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer International Publishing",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "SpringerPlus",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2131949924",
+      "display_name": "Identification and Biochemical Evidence of a Medium-Chain-Length Polyhydroxyalkanoate Depolymerase in the Bdellovibrio bacteriovorus Predatory Hydrolytic Arsenal",
+      "publication_year": 2012,
+      "cited_by_count": 75,
+      "doi": "https://doi.org/10.1128/aem.01099-12",
+      "primary_location": {
+        "id": "doi:10.1128/aem.01099-12",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1128/aem.01099-12",
+        "pdf_url": "https://aem.asm.org/content/aem/78/17/6017.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S158228368",
+          "display_name": "Applied and Environmental Microbiology",
+          "issn_l": "0099-2240",
+          "issn": [
+            "0099-2240",
+            "1070-6291",
+            "1098-5336"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320263",
+          "host_organization_name": "American Society for Microbiology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320263"
+          ],
+          "host_organization_lineage_names": [
+            "American Society for Microbiology"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied and Environmental Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W1977900309",
+      "display_name": "Analysis of Transient Polyhydroxybutyrate Production in <i>Wautersia eutropha</i> H16 by Quantitative Western Analysis and Transmission Electron Microscopy",
+      "publication_year": 2005,
+      "cited_by_count": 73,
+      "doi": "https://doi.org/10.1128/jb.187.11.3825-3832.2005",
+      "primary_location": {
+        "id": "doi:10.1128/jb.187.11.3825-3832.2005",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1128/jb.187.11.3825-3832.2005",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S133274750",
+          "display_name": "Journal of Bacteriology",
+          "issn_l": "0021-9193",
+          "issn": [
+            "0021-9193",
+            "1067-8832",
+            "1098-5530"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320263",
+          "host_organization_name": "American Society for Microbiology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320263"
+          ],
+          "host_organization_lineage_names": [
+            "American Society for Microbiology"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Bacteriology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W4280589679",
+      "display_name": "Microbial Consortia and Mixed Plastic Waste: Pangenomic Analysis Reveals Potential for Degradation of Multiple Plastic Types via Previously Identified PET Degrading Bacteria",
+      "publication_year": 2022,
+      "cited_by_count": 62,
+      "doi": "https://doi.org/10.3390/ijms23105612",
+      "primary_location": {
+        "id": "doi:10.3390/ijms23105612",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/ijms23105612",
+        "pdf_url": "https://www.mdpi.com/1422-0067/23/10/5612/pdf?version=1652877308",
+        "source": {
+          "id": "https://openalex.org/S10623703",
+          "display_name": "International Journal of Molecular Sciences",
+          "issn_l": "1422-0067",
+          "issn": [
+            "1422-0067",
+            "1661-6596"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Molecular Sciences",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2105874904",
+      "display_name": "Comparative Proteome Analysis Reveals Four Novel Polyhydroxybutyrate (PHB) Granule-Associated Proteins in Ralstonia eutropha H16",
+      "publication_year": 2014,
+      "cited_by_count": 59,
+      "doi": "https://doi.org/10.1128/aem.03791-14",
+      "primary_location": {
+        "id": "doi:10.1128/aem.03791-14",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1128/aem.03791-14",
+        "pdf_url": "https://aem.asm.org/content/aem/81/5/1847.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S158228368",
+          "display_name": "Applied and Environmental Microbiology",
+          "issn_l": "0099-2240",
+          "issn": [
+            "0099-2240",
+            "1070-6291",
+            "1098-5336"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320263",
+          "host_organization_name": "American Society for Microbiology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320263"
+          ],
+          "host_organization_lineage_names": [
+            "American Society for Microbiology"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied and Environmental Microbiology",
+        "raw_type": "journal-article"
+      }
+    },
+    {
+      "id": "https://openalex.org/W2097872680",
+      "display_name": "3-Hydroxybutyrate Oligomer Hydrolase and 3-Hydroxybutyrate Dehydrogenase Participate in Intracellular Polyhydroxybutyrate and Polyhydroxyvalerate Degradation in Paracoccus denitrificans",
+      "publication_year": 2013,
+      "cited_by_count": 32,
+      "doi": "https://doi.org/10.1128/aem.03396-13",
+      "primary_location": {
+        "id": "doi:10.1128/aem.03396-13",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1128/aem.03396-13",
+        "pdf_url": "https://aem.asm.org/content/aem/80/3/986.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S158228368",
+          "display_name": "Applied and Environmental Microbiology",
+          "issn_l": "0099-2240",
+          "issn": [
+            "0099-2240",
+            "1070-6291",
+            "1098-5336"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320263",
+          "host_organization_name": "American Society for Microbiology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320263"
+          ],
+          "host_organization_lineage_names": [
+            "American Society for Microbiology"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied and Environmental Microbiology",
+        "raw_type": "journal-article"
+      }
+    }
+  ],
+  "group_by": []
+}
