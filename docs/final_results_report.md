@@ -93,7 +93,10 @@ GTDB R232 基因组（199,923 个）
 ## 6. 局限与后续
 
 - patatin 家族已完成基因组级 PhaC 共现过滤（09d）；位点级 ±flank_kb 邻域共定位
-  （真基因簇验证）待 11_clusters 阶段完成
+  （真基因簇验证）由 11_clusters 阶段运行中（620 个古菌基因组，见 results/tables/cluster_*.tsv）
+- 生态元数据（isolation source）关联已完成（10_distribution.py →
+  results/tables/ecology_*.tsv + results/figures/ecology_isolation_source.png）；
+  主要生态类别：soil / marine / freshwater / gut-host / 活性污泥 等
 - 系统发育树基于抽样（2000 条/家族），完整集需更大算力
 - BdhA/PhaJ 等广谱代谢酶已标注为背景家族，不计入核心解聚酶计数
 - 建议后续：tier1 集的 SignalP 胞外/胞内细分 + patatin 基因簇验证 + 生态元数据关联

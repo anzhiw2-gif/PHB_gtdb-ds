@@ -58,8 +58,8 @@
 
 ## 待完成
 
-- [ ] patatin 位点级 ±flank_kb 基因簇共定位验证（`pipeline/scripts/11_clusters.py`）
-- [ ] 生态元数据（isolation source）关联（`10_distribution.py`）
+- [x] 生态元数据（isolation source）关联（`10_distribution.py`，已完成）
+- [ ] patatin 位点级 ±flank_kb 基因簇共定位验证（`pipeline/scripts/11_clusters.py`，运行中，620 古菌基因组）
 - [ ] ePhaZ SignalP 胞外/胞内细分
 - [ ] 完整（非抽样）系统发育树 + 基因树×物种树共进化（HGT 检测）
 - [ ] 整理成论文 / 发布 HMM profiles + 命中表（GitHub + Zenodo DOI）
