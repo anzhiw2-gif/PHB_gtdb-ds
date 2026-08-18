@@ -126,6 +126,11 @@ PhaC / PhaE / phasin / BdhA / PhaJ / PHA_gran_rgn），结果：
 - 生态元数据（isolation source）关联已完成（10_distribution.py →
   results/tables/ecology_*.tsv + results/figures/ecology_isolation_source.png）；
   主要生态类别：soil / marine / freshwater / gut-host / 活性污泥 等
-- 系统发育树基于抽样（2000 条/家族），完整集需更大算力；FastTree 为近似法，建议核心家族换 IQ-TREE
+- 系统发育树基于抽样（2000 条/家族），完整集需更大算力；主线已用 IQ-TREE2（FastTree 仅作快速近似），
+  ArchPhaZ_hydrolase 的 IQ-TREE 树补建中
 - BdhA/PhaJ 等广谱代谢酶已标注为背景家族，不计入核心解聚酶计数
-- 建议后续：tier1 集的 SignalP 胞外/胞内细分 + patatin 用 PhaZh1 专属种子重建 HMM（现为通用 Pfam Patatin）
+- 建议后续：tier1 集的 SignalP 胞外/胞内细分
+- **PhaZh1 专属 HMM 重建（已尝试，结论：不可行）**：以实验表征的 PhaZh1（I3RBH0）为探针 DIAMOND
+  找到 361 条同源序列建 HMM，但重筛古菌 patatin 仍匹配 93.4%（1,282/1,372）——因 patatin 催化结构域
+  序列高度保守，同源法无法区分颗粒结合型解聚酶与广谱磷脂酶。故 PhaZh1 型特异性应以**基因簇共定位**
+  （±10kb 邻近 bdhA/PHA 基因，340/24.8%，见 §2.2）为判据，而非序列 HMM。
