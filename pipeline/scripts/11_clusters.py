@@ -35,7 +35,8 @@ import sys
 from collections import Counter, defaultdict
 
 # 标记家族：PHA 合成/颗粒/动员相关（用于判断基因簇背景）
-MARKER_FAMILIES = ["PhaC", "PhaA", "PhaB", "PhaP", "PhaR", "PhaJ", "BdhA", "phasin"]
+# PhaE = 古菌 PHA 合成酶亚基(PF09712, PHA_synth_III_E)；PHA_gran_rgn = 颗粒区蛋白(PF09650)
+MARKER_FAMILIES = ["PhaC", "PhaE", "PhaA", "PhaB", "PhaP", "PhaR", "PhaJ", "BdhA", "phasin", "PHA_gran_rgn"]
 
 # 关注的核心降解家族（对命中位点做邻域分析；默认取全部命中）
 CORE_FAMILIES = ["ePhaZ", "iPhaZ", "OH", "ArchPhaZ_patatin", "ArchPhaZ_hydrolase"]

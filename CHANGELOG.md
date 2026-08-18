@@ -75,3 +75,27 @@ grep -c ^ > t.txt    → "0\n"  (引号被吃,文件被覆盖)
 2. **对派生的结果文件(`tier1.faa` 等)做任何批量操作前,先确认底层源文件(`.ids`/`.tbl`/`validated.faa`)完好**——它们是真正的不可再生中间结果,派生文件可重建。
 3. **重跑链是幂等的**:`08_validate.py` → `08c_tier_rescore.sh` → `09a_tier1_summary.py` → `09d_patatin_filter.py` → `10_distribution.py` 从输入文件出发可完整重建所有 tier 结果,是数据损坏后的兜底手段。
 4. **服务器重跑链记录**:见 `pipeline/scripts/` 各脚本 docstring;数据溯源见 `docs/reproducibility.md`。
+
+---
+
+## 四、patatin 基因簇复筛结论更正(重要)
+
+### 之前的口误
+
+对古菌 patatin 做 ±10kb 基因簇复筛时,曾表述为"1,372 条里仅 **63 条(4.6%)** 邻近 PhaC/phasin = 真 PhaZh1 型"。**该判定标准错误。**
+
+### 更正后的正确结论
+
+- 判定真 PhaZh1 型应看"是否邻近 **PHB 代谢基因簇**",而 **PhaZh1 与 bdhA(降解支路)成簇**(Liu 2015, PMID 25710370),不是与 phaC(合成簇)成簇;
+- 正确统计(邻近任一 PhaC/phasin/BdhA/PhaJ):
+
+| 邻近标记 | 位点数 |
+|---------|-------|
+| BdhA(降解支路) | 274 |
+| PhaC(合成簇) | 63 |
+| PhaJ(动员) | 11 |
+| **任一 PHB 代谢基因(并集)** | **339(24.7%)** |
+| 无 PHB 上下文 | 1,033(75.3%) |
+
+- 因此正确表述为:1,372 条 patatin 中 **24.7% 处于 PHB 代谢基因上下文**(以 BdhA 降解支路为主),其余 75.3% 为广谱磷脂酶/酯酶背景;
+- 更深一层:patatin 是广谱脂质水解酶结构域,且 PhaZh1 体内角色有限、**PhaJ 才是古菌 PHB 动员主通路**——已写入 `final_results_report.md` §2.2 的"生物学 caveat"。
