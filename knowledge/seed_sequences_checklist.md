@@ -117,5 +117,8 @@
 
 - PhaZ 命名跨菌混乱：以已表征酶的 UniProt 序列为准，不依赖基因名。
 - 分类参考：PhaDED（PHA Depolymerase Engineering Database, 2009）。
-- 建议每家族 HMM 构建后做催化位点（GXSXG + Ser-Asp-His）与信号肽
+- 建议每家族 HMM 构建后做催化位点（GXSXG + Ser-Asp-His/Glu）与信号肽
   （SignalP）双重验证。
+- ⚠️ **种子库含 18 条"同源物"而非 PHB 降解基因**（13 条真核 BDH1/BDH2 酮体代谢酶 +
+  5 条尼龙水解酶 nylB/nylC），保留用于 HMM 序列多样性，但**非 PHB 降解基因**。
+  详见 `pipeline/seeds/seeds_annotation.md`。
