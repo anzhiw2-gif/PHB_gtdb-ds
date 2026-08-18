@@ -9,12 +9,13 @@
 
 - **9 家族 HMM 全库筛选**（HMMER 3.4，E<1e-5），覆盖胞内/胞外解聚酶、寡聚体
   水解酶、古菌 patatin/经典酯酶 + 背景代谢（BdhA）+ 辅助家族（PhaJ/phasin/PhaC）。
-- **tier1 严格集 ~75,000 条解聚酶序列 / ~57,000 基因组（28%）**，其中
-  ePhaZ 38,275、iPhaZ 32,846、OH 1,470、ArchPhaZ_hydrolase 1,292、
-  ArchPhaZ_patatin 1,372。
-- **古菌 PHB 降解基因首次 GTDB 全库证实**：Halobacteriota + Thermoproteota 检出
-  patatin/经典酯酶，且 patatin 型扩展至 Nitrososphaeria（氨氧化古菌/AOA）——
-  超出文献已知范围（文献仅实验表征 Haloferax mediterranei PhaZh1）。
+- **tier1 严格集 ~75,700 条解聚酶序列 / 去重 44,821 基因组（22.4%，不含广谱 patatin）**，
+  其中 ePhaZ 38,692、iPhaZ 32,926、OH 1,465、ArchPhaZ_hydrolase 1,292。
+- **古菌 PHB 降解基因确实存在**：核心解聚酶（ePhaZ/经典酯酶）在 Halobacteriota
+  （112 基因组）、Thermoproteota（32）、Thermoplasmatota（154）检出。**注意**：
+  patatin 折叠蛋白（古菌子集 620 基因组）是广谱磷脂酶结构域，经 ±10kb 基因簇
+  复筛仅 24.8% 邻近 PHB 代谢基因，且 PhaZh1 体内角色有限、PhaJ 才是动员主路，
+  故"patatin 型解聚酶"应审慎表述（详见 final_results_report.md §2.2）。
 - 对比 Viljakainen & Hug 2021（宏基因组 13,869 条）为量级提升。
 
 详见 [docs/final_results_report.md](docs/final_results_report.md)。
@@ -42,7 +43,8 @@
 
 | 类型 | 家族 |
 |------|------|
-| 核心解聚酶（进 tier） | ePhaZ、iPhaZ、OH、ArchPhaZ_patatin、ArchPhaZ_hydrolase |
+| 核心解聚酶（进 tier） | ePhaZ、iPhaZ、OH、ArchPhaZ_hydrolase |
+| 广谱折叠（需基因簇过滤） | ArchPhaZ_patatin（patatin 折叠，多为磷脂酶，仅 24.8% 邻近 PHB 基因） |
 | 背景代谢 | BdhA（3HB 脱氢酶，不计入解聚酶计数） |
 | 辅助（簇背景） | PhaJ、phasin、PhaC |
 
@@ -59,7 +61,9 @@
 ## 待完成
 
 - [x] 生态元数据（isolation source）关联（`10_distribution.py`，已完成）
-- [ ] patatin 位点级 ±flank_kb 基因簇共定位验证（`pipeline/scripts/11_clusters.py`，运行中，620 古菌基因组）
+- [x] patatin 位点级 ±flank_kb 基因簇共定位验证（`11_clusters.py`，已完成，620 古菌基因组；结果见 final_results_report.md §2.2）
 - [ ] ePhaZ SignalP 胞外/胞内细分
 - [ ] 完整（非抽样）系统发育树 + 基因树×物种树共进化（HGT 检测）
+- [ ] patatin 用 PhaZh1 专属种子重建 HMM（现为通用 Pfam Patatin，噪声大）
+- [ ] 清理种子库（剔真核 BDH1/BDH2、尼龙水解酶 nylB/nylC）
 - [ ] 整理成论文 / 发布 HMM profiles + 命中表（GitHub + Zenodo DOI）

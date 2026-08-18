@@ -33,8 +33,11 @@ GTDB R232 基因组（199,923 个）
 | **ArchPhaZ_hydrolase** | 古菌经典 PHB 解聚酶家族酯酶 | 1,292 | 1,236 |
 | **ArchPhaZ_patatin** | 古菌 patatin 样（PhaZh1 型，基因组级 PhaC 共现过滤后） | **1,372** | **620** |
 
-**核心解聚酶 tier1 合计 ~75,700 条 / ~57,000 基因组（28.5% 基因组）**
-**其中古菌 PHB 降解基因：~2,664 序列 / ~1,856 基因组（hydrolase + patatin）**
+**核心解聚酶 tier1 合计 ~75,700 条序列；去重后 44,821 个基因组（22.4%，不含广谱 patatin）**
+**其中古菌 PHB 降解基因：~2,664 序列 / ~1,856 基因组（hydrolase + patatin 古菌子集）**
+> 注：上表"tier1 基因组"为各家族检出基因组数之和（含多家族共存重复计数）；
+> 去重后 ePhaZ/iPhaZ/OH/ArchPhaZ_hydrolase 四类真解聚酶覆盖 44,821 个基因组。
+> 广谱 patatin 折叠蛋白（77,424 基因组，多为磷脂酶）不计入核心解聚酶，见 §2.2。
 
 ### 2.2 古菌 patatin 型解聚酶分布（PhaZh1 型候选，经基因簇复筛）
 
@@ -69,37 +72,43 @@ PhaC / PhaE / phasin / BdhA / PhaJ / PHA_gran_rgn），结果：
 > 因此古菌 patatin 型"解聚酶"的实际体内贡献应持审慎表述——它是颗粒结合、
 > 体外高效的蛋白，但并非古菌 PHB 降解的主要执行者。
 
-### 2.3 门水平分布（tier1，基因组数）
+### 2.3 门水平分布（tier1 核心解聚酶，去重后，不含广谱 patatin）
+
+> 下表为 ePhaZ/iPhaZ/OH/ArchPhaZ_hydrolase 四类真解聚酶的去重门分布（共 44,821 个
+> 基因组）。广谱 patatin 折叠蛋白（77,424 基因组）单独处理，见 §2.2。
 
 | 门 | 基因组 | 主要家族 |
 |----|:---:|------|
-| Pseudomonadota | 64,827 | iPhaZ(23,532) + ePhaZ(11,940) |
-| Actinomycetota | 16,352 | ePhaZ(5,628) |
-| Bacteroidota | 13,887 | ePhaZ(3,040) |
-| Bacillota | 13,864 | ePhaZ(379) |
-| Acidobacteriota | 3,547 | ePhaZ(794) |
-| Chloroflexota | 3,022 | ePhaZ(1,134) |
-| Myxococcota_A | 2,138 | ePhaZ(619) |
-| Desulfobacterota | 1,645 | ePhaZ(429) |
-| 其他细菌门 | ~9,000 | 广泛 |
-| **Halobacteriota（古菌）** | **448+289** | 古菌经典/patatin |
-| **Thermoproteota（古菌）** | **369+323** | 泉古菌 |
+| Pseudomonadota | 26,855 | iPhaZ(23,559) + ePhaZ(11,995) |
+| Actinomycetota | 6,810 | ePhaZ(5,657) |
+| Bacteroidota | 3,247 | ePhaZ(3,117) |
+| Chloroflexota | 1,200 | ePhaZ(1,155) |
+| Acidobacteriota | 867 | ePhaZ(798) |
+| Planctomycetota | 817 | ePhaZ(792) |
+| Myxococcota_A | 701 | ePhaZ(623) |
+| Desulfobacterota | 585 | ePhaZ(437) |
+| Gemmatimonadota | 565 | ePhaZ(544) |
+| Bacillota | 434 | ePhaZ(383) |
+| 其他细菌门 | ~2,440 | 广泛 |
+| **Thermoplasmatota（古菌）** | 154 | hydrolase(127) + ePhaZ(35) |
+| **Halobacteriota（古菌）** | 112 | ePhaZ(64) + hydrolase(46) |
+| **Thermoproteota（古菌）** | 32 | ePhaZ(19) + hydrolase(13) |
 
 ## 3. 与文献对照
 
 | 指标 | 本次 | 文献基准 |
 |------|------|---------|
-| 解聚酶总数 | ~75,000 (tier1) | Viljakainen & Hug 2021：13,869（3078 宏基因组）|
-| 主导门 | Pseudomonadota | 一致（V&H 2021：Proteobacteria+Bacteroidota 主导）|
-| 古菌检出 | 448+369 基因组（Halobacteriota+Thermoproteota） | 仅 Hfx. mediterranei 2 酶实验表征；Sulfolobus 旁证 |
+| 解聚酶总数 | ~75,700 (tier1 序列)；44,821 基因组(去重) | Viljakainen & Hug 2021：13,869（3078 宏基因组）|
+| 主导门 | Pseudomonadota(26,855 基因组) | 一致（V&H 2021：Proteobacteria+Bacteroidota 主导）|
+| 古菌检出 | 核心解聚酶 Halobacteriota 112 + Thermoproteota 32 + Thermoplasmatota 154；patatin 古菌子集 620 | 仅 Hfx. mediterranei 2 酶实验表征；Sulfolobus 旁证 |
 | 旧项目（14 refs） | — | 6,532（严重低估，印证本次扩展）|
 
 ## 4. 关键发现
 
-1. **Pseudomonadota 主导**：胞内型 iPhaZ 在变形菌中特别富集（23,532 基因组），与 PHA 累积菌（Cupriavidus、Pseudomonas、Ralstonia 等均为变形菌）一致。
-2. **古菌 PHB 降解基因确实存在**：Halobacteriota（嗜盐古菌）448 基因组 + Thermoproteota（泉古菌）369 基因组检出 patatin/经典家族——**首次在 GTDB 全库尺度证实古菌 PHB 降解基因的分布**，且 Thermoproteota 检出与 Sulfolobus 脂解酶旁证（Arpigny & Jendrossek 1998）一致。
-3. **patatin 家族需基因簇过滤**：77,424 基因组检出 patatin，但 patatin 是广谱磷脂酶结构域，只有颗粒结合 PhaZh1 型才是真正解聚酶，需 phaC/PhaP 邻近验证。
-4. **多家族共存**：29,944 基因组同时含 ≥2 个核心家族（如 ePhaZ+iPhaZ 或 iPhaZ+OH），反映完整的降解-动员通路共现。
+1. **Pseudomonadota 主导**：胞内型 iPhaZ 在变形菌中特别富集（23,559 基因组），与 PHA 累积菌（Cupriavidus、Pseudomonas、Ralstonia 等均为变形菌）一致。
+2. **古菌 PHB 降解基因确实存在**：核心解聚酶（ePhaZ/hydrolase）在 Halobacteriota 112 基因组、Thermoproteota 32 基因组、Thermoplasmatota 154 基因组检出；另有 patatin 折叠蛋白古菌子集 620 基因组（其中仅 24.8% 邻近 PHB 基因簇，见 §2.2）。**首次在 GTDB 全库尺度证实古菌 PHB 降解基因的分布**，且 Thermoproteota 检出与 Sulfolobus 脂解酶旁证（Arpigny & Jendrossek 1998）一致。
+3. **patatin 家族需基因簇过滤**：77,424 基因组检出 patatin 折叠蛋白，但它是广谱磷脂酶结构域；古菌子集经 ±10kb 复筛仅 24.8%(340/1,372)邻近 PHB 代谢基因，且 PhaZh1 体内角色有限、PhaJ 才是动员主路——故 patatin 型"解聚酶"应审慎表述。
+4. **多家族共存**：30,062 基因组同时含 ≥2 个核心家族（如 ePhaZ+iPhaZ 或 iPhaZ+OH），反映完整的降解-动员通路共现。
 
 ## 5. 数据文件
 
@@ -112,11 +121,11 @@ PhaC / PhaE / phasin / BdhA / PhaJ / PHA_gran_rgn），结果：
 
 ## 6. 局限与后续
 
-- patatin 家族已完成基因组级 PhaC 共现过滤（09d）；位点级 ±flank_kb 邻域共定位
-  （真基因簇验证）由 11_clusters 阶段运行中（620 个古菌基因组，见 results/tables/cluster_*.tsv）
+- patatin 家族已完成基因组级 PhaC 共现过滤（09d）+ 位点级 ±flank_kb 邻域共定位
+  （11_clusters，620 古菌基因组，含 PhaE/PHA_gran_rgn marker；结果见 §2.2 与 results/tables/cluster_*.tsv）
 - 生态元数据（isolation source）关联已完成（10_distribution.py →
   results/tables/ecology_*.tsv + results/figures/ecology_isolation_source.png）；
   主要生态类别：soil / marine / freshwater / gut-host / 活性污泥 等
-- 系统发育树基于抽样（2000 条/家族），完整集需更大算力
+- 系统发育树基于抽样（2000 条/家族），完整集需更大算力；FastTree 为近似法，建议核心家族换 IQ-TREE
 - BdhA/PhaJ 等广谱代谢酶已标注为背景家族，不计入核心解聚酶计数
-- 建议后续：tier1 集的 SignalP 胞外/胞内细分 + patatin 基因簇验证 + 生态元数据关联
+- 建议后续：tier1 集的 SignalP 胞外/胞内细分 + patatin 用 PhaZh1 专属种子重建 HMM（现为通用 Pfam Patatin）
