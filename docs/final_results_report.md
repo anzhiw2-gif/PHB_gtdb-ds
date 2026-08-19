@@ -126,8 +126,8 @@ PhaC / PhaE / phasin / BdhA / PhaJ / PHA_gran_rgn），结果：
 - 生态元数据（isolation source）关联已完成（10_distribution.py →
   results/tables/ecology_*.tsv + results/figures/ecology_isolation_source.png）；
   主要生态类别：soil / marine / freshwater / gut-host / 活性污泥 等
-- 系统发育树基于抽样（2000 条/家族），完整集需更大算力；主线已用 IQ-TREE2（FastTree 仅作快速近似），
-  ArchPhaZ_hydrolase 的 IQ-TREE 树补建中
+- 系统发育树:OH、ArchPhaZ_hydrolase 已用 IQ-TREE2 建树;ePhaZ/iPhaZ 两个大族
+  (38,692/32,926 序列)因规模过大,经 CD-HIT 去冗余后仍远超可算范围,**暂不建树**(可后续用 FastTree 或分层抽样处理)
 - BdhA/PhaJ 等广谱代谢酶已标注为背景家族，不计入核心解聚酶计数
 - 建议后续：tier1 集的 SignalP 胞外/胞内细分
 - **PhaZh1 专属 HMM 重建（已尝试，结论：不可行）**：以实验表征的 PhaZh1（I3RBH0）为探针 DIAMOND
