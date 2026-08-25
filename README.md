@@ -101,3 +101,9 @@ bash pipeline/scripts/run_pipeline.sh --legacy-root-results
       同源法无法区分；以 ±10kb 基因簇共定位为判据，见 STATUS.md §5）
 - [ ] 清理种子库（剔真核 BDH1/BDH2、尼龙水解酶 nylB/nylC）
 - [ ] 整理成论文 / 发布 HMM profiles + 命中表（GitHub + Zenodo DOI）
+
+## License
+
+Repository-authored source code and documentation are released under the [MIT License](LICENSE).
+GTDB files, external software, datasets, and other third-party materials remain under their
+respective upstream licenses and terms.
