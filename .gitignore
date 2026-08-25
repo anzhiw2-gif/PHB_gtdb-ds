@@ -14,6 +14,7 @@ uv.lock
 
 # ===== 工具使用条款通知（非项目内容） =====
 .licenses/
+.playwright-cli/
 
 # ===== GTDB 原始数据与大中间产物（服务器侧，不入 git） =====
 # data/ 含蛋白预测、hmmsearch 命中（676 万行 hits_all.tsv）、tier 序列等大文件
@@ -39,6 +40,10 @@ results/trees/          # 完整系统发育树较大，单独同步或走 relea
 *.mldist
 *.bionj
 *.uniqueseq.phy
+
+# ===== 运行清单 / 测试临时产物 =====
+results/run_manifest.jsonl        # 中间步骤记录（每步运行重建；固化产物为 run_manifest.json）
+pipeline/tests/.smoke_tmp/
 
 # ===== OS / 编辑器 =====
 Thumbs.db

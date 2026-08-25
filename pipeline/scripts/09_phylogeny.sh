@@ -1,79 +1,85 @@
 #!/bin/bash
-# =============================================================================
-# 09_phylogeny.sh — 各家族系统发育（MAFFT -> trimAl -> IQ-TREE2）
-#   输入: data/screen/family_seqs/*_validated.faa（或 *.faa）
-#   输出: results/trees/{fam}.treefile + 比对/修剪文件
-# 用法: bash 09_phylogeny.sh [--threads 40] [--families "ePhaZ iPhaZ OH BdhA"]
-# =============================================================================
+# Build family alignments and trees inside the selected run directory.
 set -euo pipefail
 
-# 激活 conda 环境（mafft/trimal/iqtree/cd-hit 依赖）
-source ~/miniconda3/etc/profile.d/conda.sh
+source "$HOME/miniconda3/etc/profile.d/conda.sh"
 conda activate phb_gtdb
 
 THREADS=40
-ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-SEQ_DIR="$ROOT/data/screen/family_seqs"
-TREE_DIR="$ROOT/results/trees"
-ALN_DIR="$ROOT/results/alignments"
-LOG="$ROOT/results/logs"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
+RUN_ROOT="${PHB_RUN_ROOT:-$REPO_ROOT}"
+cd "$RUN_ROOT"
+SEQ_DIR="$RUN_ROOT/data/screen/family_seqs"
+TREE_DIR="$RUN_ROOT/results/trees"
+ALN_DIR="$RUN_ROOT/results/alignments"
+LOG="$RUN_ROOT/logs"
 mkdir -p "$TREE_DIR" "$ALN_DIR" "$LOG"
 
 FAMILIES="ePhaZ iPhaZ OH BdhA ArchPhaZ_patatin ArchPhaZ_hydrolase"
 while [[ $# -gt 0 ]]; do
     case "$1" in
-        --threads) THREADS="$2"; shift 2 ;;
-        --families) FAMILIES="$2"; shift 2 ;;
-        *) echo "unknown: $1"; exit 1 ;;
+        --threads) [[ $# -ge 2 ]] || { echo "--threads requires a value" >&2; exit 1; }; THREADS="$2"; shift 2 ;;
+        --families) [[ $# -ge 2 ]] || { echo "--families requires a value" >&2; exit 1; }; FAMILIES="$2"; shift 2 ;;
+        *) echo "unknown argument: $1" >&2; exit 1 ;;
     esac
 done
 
 for fam in $FAMILIES; do
     faa="$SEQ_DIR/${fam}_validated.faa"
-    [ -f "$faa" ] || faa="$SEQ_DIR/${fam}.faa"
-    [ -f "$faa" ] || { echo "  $fam: 无序列文件，跳过"; continue; }
+    [[ -f "$faa" ]] || faa="$SEQ_DIR/${fam}.faa"
+    [[ -f "$faa" ]] || { echo "$fam: sequence file missing; skipped" >&2; continue; }
     n=$(grep -c '^>' "$faa")
-    echo "=== $fam ($n seqs) ==="
-    if [ "$n" -lt 4 ]; then
-        echo "  序列过少，跳过建树"
+    echo "=== $fam ($n sequences) ==="
+    if [[ "$n" -lt 4 ]]; then
+        echo "$fam: fewer than four sequences; skipped" >&2
         continue
     fi
-    # 大家族抽样（>2000 条时直接随机抽样，固定种子可复现）
-    if [ "$n" -gt 2000 ]; then
+    if [[ "$n" -gt 2000 ]]; then
         faa_sample="$SEQ_DIR/${fam}_sample2000.faa"
-        python3 -c "
+        python3 - "$faa" "$faa_sample" <<'PY'
 import random
-random.seed(42)
-seqs = {}
-hdr = None; buf = []
-for line in open('$faa'):
-    if line.startswith('>'):
-        if hdr: seqs[hdr] = ''.join(buf)
-        hdr = line[1:].strip(); buf = []
-    else: buf.append(line.strip())
-if hdr: seqs[hdr] = ''.join(buf)
-keys = list(seqs.keys())
-random.shuffle(keys)
-with open('$faa_sample', 'w') as f:
-    for k in keys[:2000]:
-        f.write('>' + k + '\n' + seqs[k] + '\n')
-print('sampled 2000 from', len(keys))
-"
+import sys
+
+source, target = sys.argv[1:]
+records = {}
+header = None
+sequence = []
+with open(source, encoding="utf-8") as handle:
+    for line in handle:
+        if line.startswith(">"):
+            if header is not None:
+                records[header] = "".join(sequence)
+            header = line[1:].strip()
+            sequence = []
+        else:
+            sequence.append(line.strip())
+if header is not None:
+    records[header] = "".join(sequence)
+keys = list(records)
+random.Random(42).shuffle(keys)
+with open(target, "w", encoding="utf-8", newline="\n") as handle:
+    for key in keys[:2000]:
+        handle.write(f">{key}\n{records[key]}\n")
+PY
         faa="$faa_sample"
-        n=$(grep -c '^>' "$faa")
-        echo "  随机抽样 2000 条用于建树"
     fi
     aln="$ALN_DIR/${fam}_aln.fasta"
-    mafft --auto --thread "$THREADS" "$faa" > "$aln" 2> "$LOG/mafft_${fam}_phylo.log" || { echo "  MAFFT 失败"; continue; }
-    trm="$ALN_DIR/${fam}_trim.fasta"
-    trimal -in "$aln" -out "$trm" -automated1 2> "$LOG/trimal_${fam}.log" || trm="$aln"
-    # IQ-TREE2（自动模型选择 + UFBoot，大族用较宽松设置）
-    iqtree2 -s "$trm" -m LG+G4 -B 1000 -T "$THREADS" \
-        --prefix "$TREE_DIR/${fam}" > "$LOG/iqtree_${fam}.log" 2>&1 \
-        || iqtree -s "$trm" -m LG+G4 -bb 1000 -T "$THREADS" \
-           --prefix "$TREE_DIR/${fam}" >> "$LOG/iqtree_${fam}.log" 2>&1 \
-        || echo "  IQ-TREE 失败（两版均不可用）"
-    echo "  树: $TREE_DIR/${fam}.treefile"
+    if ! mafft --auto --thread "$THREADS" "$faa" > "$aln" 2> "$LOG/mafft_${fam}_phylo.log"; then
+        echo "$fam: MAFFT failed" >&2
+        continue
+    fi
+    trimmed="$ALN_DIR/${fam}_trim.fasta"
+    trimal -in "$aln" -out "$trimmed" -automated1 2> "$LOG/trimal_${fam}.log" || trimmed="$aln"
+    if ! iqtree2 -s "$trimmed" -m LG+G4 -B 1000 -T "$THREADS" \
+        --prefix "$TREE_DIR/${fam}" > "$LOG/iqtree_${fam}.log" 2>&1; then
+        iqtree -s "$trimmed" -m LG+G4 -bb 1000 -T "$THREADS" \
+            --prefix "$TREE_DIR/${fam}" >> "$LOG/iqtree_${fam}.log" 2>&1 || {
+            echo "$fam: IQ-TREE failed" >&2
+            continue
+        }
+    fi
+    echo "$fam: tree written to $TREE_DIR/${fam}.treefile"
 done
-echo "[$(date)] 完成"
+
 ls -la "$TREE_DIR"/*.treefile 2>/dev/null || true

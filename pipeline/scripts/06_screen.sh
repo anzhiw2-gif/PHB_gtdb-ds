@@ -1,87 +1,123 @@
 #!/bin/bash
-# =============================================================================
-# 06_screen.sh — 用家族 HMM 对蛋白分片全库筛选（hmmsearch）+ 家族分类
-#   - 输入: data/proteins/shards/shard_*.faa  （由 05 生成）
-#   - HMM: data/hmms/v2/*.hmm（核心降解家族 + 辅助家族）
-#   - 输出: data/screen/hmmsearch/{family}__shard_XXXX.tbl
-#           data/screen/hits_all.tsv（含 family 标签 = 家族分类）
-# 用法: bash 06_screen.sh [--threads 80] [--eval 1e-5]
-#       [--families "ePhaZ iPhaZ OH BdhA ArchPhaZ_patatin ArchPhaZ_hydrolase"]
-# =============================================================================
-set -euo pipefail
+# Build a complete family x shard HMMER matrix, validate provenance, then publish atomically.
+set -Eeuo pipefail
 
-# 激活 conda 环境（hmmsearch/parallel 依赖）
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
+RUN_ROOT="${PHB_RUN_ROOT:-$REPO_ROOT}"
+cd "$RUN_ROOT"
+
+THREADS=70
+EVAL=1e-5
+SHARDS="$RUN_ROOT/data/proteins/shards_filt"
+HMM_DIR="$RUN_ROOT/data/hmms/v2"
+SCREEN_DIR="$RUN_ROOT/data/screen"
+HMMOUT="$SCREEN_DIR/hmmsearch"
+ARCHIVE_DIR="$SCREEN_DIR/archive"
+BUILD_DIR="$SCREEN_DIR/hmmsearch.build.$$.tmp"
+HITS_BUILD="$SCREEN_DIR/hits_all.tsv.build.$$.tmp"
+MANIFEST_BUILD="$SCREEN_DIR/screen_manifest.json.build.$$.tmp"
+RUN_ID="$(date -u +%Y%m%dT%H%M%SZ).$$"
+LOG="$RUN_ROOT/logs"
+FAILED="$LOG/screen_failed.$RUN_ID.log"
+mkdir -p "$BUILD_DIR" "$ARCHIVE_DIR" "$LOG"
+cleanup() { rm -rf "$BUILD_DIR" "$HITS_BUILD" "$MANIFEST_BUILD"; }
+trap cleanup EXIT
+
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate phb_gtdb
 
-THREADS=80
-EVAL=1e-5
-ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-SHARDS="$ROOT/data/proteins/shards_filt"
-HMM_DIR="$ROOT/data/hmms/v2"
-SCREEN_DIR="$ROOT/data/screen"
-HMMOUT="$SCREEN_DIR/hmmsearch"
-LOG="$ROOT/results/logs"
-mkdir -p "$HMMOUT" "$LOG"
-
-# 核心降解家族（家族分类目标）+ 辅助（PhaJ/phasin/PhaC 供基因簇背景）
 FAMILIES="ePhaZ iPhaZ OH BdhA ArchPhaZ_patatin ArchPhaZ_hydrolase"
 AUX_FAMILIES="PhaJ phasin PhaC"
-
 while [[ $# -gt 0 ]]; do
     case "$1" in
         --threads) THREADS="$2"; shift 2 ;;
         --eval) EVAL="$2"; shift 2 ;;
         --families) FAMILIES="$2"; shift 2 ;;
-        *) echo "unknown: $1"; exit 1 ;;
+        *) echo "unknown: $1" >&2; exit 1 ;;
     esac
 done
+ALL_FAMILIES="$FAMILIES $AUX_FAMILIES"
 
-mapfile -t SHARD_FILES < <(ls "$SHARDS"/shard_*.faa 2>/dev/null | sort)
-echo "[$(date)] shard 数: ${#SHARD_FILES[@]}, 核心家族: $FAMILIES, 辅助: $AUX_FAMILIES, eval=$EVAL"
+mapfile -t SHARD_FILES < <(find "$SHARDS" -maxdepth 1 -type f -name 'shard_*.faa' | sort)
+if [[ "${#SHARD_FILES[@]}" -eq 0 ]]; then
+    echo "[ERROR] no filtered shards found: $SHARDS" >&2
+    exit 1
+fi
+for shard in "${SHARD_FILES[@]}"; do
+    if [[ ! -s "$shard" ]]; then
+        echo "[ERROR] declared shard is missing or empty: $shard" >&2
+        exit 1
+    fi
+done
+for fam in $ALL_FAMILIES; do
+    hmm="$HMM_DIR/$fam.hmm"
+    if [ ! -s "$hmm" ]; then
+        echo "[ERROR] $fam HMM 缺失" >&2
+        exit 1
+    fi
+done
+: > "$FAILED"
 
-if [ "${#SHARD_FILES[@]}" -eq 0 ]; then
-    echo "未找到 shard，请先运行 05_predict_proteins.sh"
+run_one() {
+    local hmm="$1" fam="$2" shard="$3"
+    local sname out rc
+    sname=$(basename "$shard" .faa)
+    out="$BUILD_DIR/${fam}__${sname}.tbl"
+    if hmmsearch --tblout "$out" --domtblout "${out%.tbl}.dom" \
+        -E "$EVAL" --cpu 1 "$hmm" "$shard" > /dev/null 2>&1; then
+        return 0
+    else
+        rc=$?
+        printf 'FAIL %s %s (rc=%s)\n' "$fam" "$sname" "$rc" >> "$FAILED"
+        return "$rc"
+    fi
+}
+export -f run_one
+export BUILD_DIR EVAL FAILED
+
+echo "[$(date)] screening ${#SHARD_FILES[@]} shards x families: $ALL_FAMILIES"
+for fam in $ALL_FAMILIES; do
+    hmm="$HMM_DIR/$fam.hmm"
+    if printf '%s\n' "${SHARD_FILES[@]}" | parallel -j "$THREADS" run_one "$hmm" "$fam" {} 2> "$LOG/screen_${fam}.log"; then
+        :
+    else
+        local_rc=$?
+        echo "[ERROR] $fam parallel exit code $local_rc; refusing partial publication" >&2
+        if [[ -s "$FAILED" ]]; then
+            cat "$FAILED" >&2
+        fi
+        exit "$local_rc"
+    fi
+done
+if [[ -s "$FAILED" ]]; then
+    echo "[ERROR] HMMER tasks failed; refusing partial publication" >&2
+    cat "$FAILED" >&2
     exit 1
 fi
 
-run_one() {
-    hmm="$1"
-    fam=$(basename "$hmm" .hmm)
-    shard="$2"
-    sname=$(basename "$shard" .faa)
-    out="$HMMOUT/${fam}__${sname}.tbl"
-    if [ -s "$out" ]; then
-        return 0
-    fi
-    hmmsearch --tblout "$out" --domtblout "${out%.tbl}.dom" \
-        -E "$EVAL" --cpu 1 "$hmm" "$shard" > /dev/null 2>&1 || true
-}
-export -f run_one
-export HMMOUT EVAL
-
-ALL_FAMILIES="$FAMILIES $AUX_FAMILIES"
-echo "[$(date)] 开始 hmmsearch（全部家族: $ALL_FAMILIES）..."
+python "$SCRIPT_DIR/06_validate_screen_manifest.py" \
+    --shard-dir "$SHARDS" --hmm-dir "$HMM_DIR" --hmmout "$BUILD_DIR" \
+    --families "$ALL_FAMILIES" --eval "$EVAL" --out "$MANIFEST_BUILD"
 for fam in $ALL_FAMILIES; do
-    hmm="$HMM_DIR/${fam}.hmm"
-    if [ ! -f "$hmm" ]; then echo "  $fam HMM 缺失，跳过"; continue; fi
-    echo "  family: $fam (${#SHARD_FILES[@]} shards)"
-    printf '%s\n' "${SHARD_FILES[@]}" | parallel -j "$THREADS" run_one "$hmm" {} 2> "$LOG/screen_${fam}.log" || true
+    for shard in "${SHARD_FILES[@]}"; do
+        stem=$(basename "$shard" .faa)
+        tbl="$BUILD_DIR/${fam}__${stem}.tbl"
+        dom="$BUILD_DIR/${fam}__${stem}.dom"
+        if [[ ! -s "$tbl" || ! -s "$dom" ]]; then
+            echo "[ERROR] missing or empty HMMER output: $fam x $stem" >&2
+            exit 1
+        fi
+    done
 done
+python "$SCRIPT_DIR/06b_aggregate_hits.py" --hmmout "$BUILD_DIR" --out "$HITS_BUILD"
+[[ -s "$HITS_BUILD" ]] || { echo "[ERROR] aggregate output is empty" >&2; exit 1; }
 
-echo "[$(date)] 汇总命中（含家族分类标签）..."
-: > "$SCREEN_DIR/hits_all.tsv"
-# tblout 列: $1 target, $2 tacc, $3 qname, $5 E-value, $6 score, $7 bias, $8 best-dom-E, $9 best-dom-score
-echo -e "family\tshard\tprotein\ttacc\tE-value\tscore\tbias\tdomE\tqname" > "$SCREEN_DIR/hits_all.tsv"
-for f in "$HMMOUT"/*.tbl; do
-    [ -f "$f" ] || continue
-    fam=$(basename "$f" .tbl); fam=${fam%%__*}
-    sname=$(basename "$f" .tbl); sname=${sname#*__}
-    grep -v "^#" "$f" | awk -v F="$fam" -v S="$sname" '{print F"\t"S"\t"$1"\t"$2"\t"$5"\t"$6"\t"$7"\t"$8"\t"$3}' \
-        >> "$SCREEN_DIR/hits_all.tsv"
-done
-echo "[$(date)] 完成"
-n=$(wc -l < "$SCREEN_DIR/hits_all.tsv")
-echo "  总命中行数(含表头): $n"
-echo "  按家族统计:"
-cut -f1 "$SCREEN_DIR/hits_all.tsv" | tail -n +2 | sort | uniq -c
+if [[ -e "$HMMOUT" ]]; then mv "$HMMOUT" "$ARCHIVE_DIR/hmmsearch.$RUN_ID"; fi
+if [[ -e "$SCREEN_DIR/hits_all.tsv" ]]; then mv "$SCREEN_DIR/hits_all.tsv" "$ARCHIVE_DIR/hits_all.tsv.$RUN_ID"; fi
+if [[ -e "$SCREEN_DIR/screen_manifest.json" ]]; then mv "$SCREEN_DIR/screen_manifest.json" "$ARCHIVE_DIR/screen_manifest.json.$RUN_ID"; fi
+mv "$BUILD_DIR" "$HMMOUT"
+mv "$HITS_BUILD" "$SCREEN_DIR/hits_all.tsv"
+mv "$MANIFEST_BUILD" "$SCREEN_DIR/screen_manifest.json"
+trap - EXIT
+echo "[$(date)] screen manifest verified and published: $SCREEN_DIR/screen_manifest.json"
