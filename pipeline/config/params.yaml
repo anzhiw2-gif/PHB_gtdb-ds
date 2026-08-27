@@ -28,7 +28,7 @@ hmms:
 
 # ============ 蛋白预测 ============
 prediction:
-  threads: 80
+  threads: 70                              # 线程上限 ≤70（服务器 80 核留 10 核余量，见 docs/STATUS.md）
   per_genome_out: "data/proteins/per_genome"
   shards_out: "data/proteins/shards"
   genomes_per_shard: 2000                 # -> 约 100 个 shard
@@ -37,12 +37,15 @@ prediction:
 # ============ 筛选 ============
 screening:
   evalue: 1e-5
-  threads: 80
+  threads: 70
   hits_all: "data/screen/hits_all.tsv"
 
 # ============ 命中处理 ============
 hit_processing:
   max_eval: 1e-5
+  min_cov: 0.0                          # HMM 覆盖度下限；0.0=不按覆盖度过滤。
+                                        # 覆盖度已由 06b 从 domtblout 计算并写入 hits_all.tsv 的 cov 列，
+                                        # 阈值需用固定正负对照集校准后再启用（见 docs/STATUS.md）。
   family_priority: ["ePhaZ", "iPhaZ", "OH", "BdhA", "ArchPhaZ_patatin", "ArchPhaZ_hydrolase", "PhaJ", "phasin", "PhaC"]
   family_seqs: "data/screen/family_seqs"
 

@@ -9,7 +9,8 @@ set -euo pipefail
 
 THREADS=40
 CDHIT_ID=0.95
-ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"   # 仓库根（scripts 位于 pipeline/scripts/）
 SEED_DIR="$ROOT/data/seeds/families"
 HMM_DIR="$ROOT/data/hmms"
 ALN_DIR="$ROOT/data/alignments"

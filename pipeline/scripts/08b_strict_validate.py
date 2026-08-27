@@ -16,11 +16,12 @@ import argparse
 import os
 import re
 
-# 四基序（LtPHBase 编号）
-SER_MOTIF = re.compile(r"I[^A-Z]{0,1}D[^A-Z]{0,6}Y[^A-Z]{0,2}V[^A-Z]{0,2}G[^A-Z]{0,1}L[^A-Z]?S[^A-Z]?G{1,2}", re.I)
-ASP_MOTIF = re.compile(r"G[^A-Z]{2}D[^A-Z]?Y[^A-Z]?T[^A-Z]?V", re.I)
-HIS_MOTIF = re.compile(r"G[^A-Z]?M[^A-Z]?H[^A-Z]{2}P[^A-Z]{2}G", re.I)
-OXY_MOTIF = re.compile(r"H[^A-Z]?G[^A-Z]?C[^A-Z]?Q", re.I)
+# 四基序（LtPHBase 编号）。X = 任意氨基酸，用 [A-Z] 表示（原 [^A-Z] 为"非字母"，
+# 在蛋白序列中无法表示任意氨基酸，已修正）。
+SER_MOTIF = re.compile(r"I[A-Z]{0,1}D[A-Z]{0,6}Y[A-Z]{0,2}V[A-Z]{0,2}G[A-Z]{0,1}L[A-Z]?S[A-Z]?G{1,2}", re.I)
+ASP_MOTIF = re.compile(r"G[A-Z]{2}D[A-Z]?Y[A-Z]?T[A-Z]?V", re.I)
+HIS_MOTIF = re.compile(r"G[A-Z]?M[A-Z]?H[A-Z]{2}P[A-Z]{2}G", re.I)
+OXY_MOTIF = re.compile(r"H[A-Z]?G[A-Z]?C[A-Z]?Q", re.I)
 LIPASE_BOX = re.compile(r"G([A-Z])S([A-Z])G", re.I)
 HYDROPHOBIC = set("LIVMFWAY")
 

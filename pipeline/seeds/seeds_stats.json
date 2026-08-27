@@ -1,27 +1,8 @@
 {
   "total": 78,
-  "curated": 78,
-  "queries": [
-    "ePhaZ_ec3175",
-    "ePhaZ_ec3176",
-    "ePhaZ_pname",
-    "iPhaZ_Cnec",
-    "iPhaZ_Rrub",
-    "iPhaZ_Pput",
-    "ePhaZ_Plemo",
-    "ePhaZ_Cacido",
-    "ePhaZ_Ttherm",
-    "ePhaZ_Strep",
-    "ePhaZ_Afacal",
-    "ePhaZ_Undib",
-    "ePhaZ_Altero",
-    "iPhaZ_Bth",
-    "iPhaZ_Smel",
-    "iPhaZ_Abras",
-    "ePhaZ_Sascom",
-    "OH_ec31122",
-    "OH_Ceutro",
-    "BdhA",
-    "Phasin"
-  ]
+  "reviewed": 55,
+  "unreviewed": 23,
+  "train": 64,
+  "validation": 14,
+  "retrieval_date": "2026-08-19"
 }

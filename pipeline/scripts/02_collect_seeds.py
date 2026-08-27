@@ -13,6 +13,8 @@
 依赖：requests, pandas（可 pip install 或 uv run --with requests,pandas）
 """
 import argparse
+import datetime as dt
+import hashlib
 import json
 import os
 import sys
@@ -54,7 +56,12 @@ QUERIES = [
     ("Phasin", "protein_name:phasin AND reviewed:true", "phasin"),
 ]
 
-FIELDS = "accession,id,protein_name,gene_names,organism_name,lineage,ec,reviewed,length,sequence"
+# 注意：entryType 形如 "UniProtKB reviewed (Swiss-Prot)" / "UniProtKB unreviewed (TrEMBL)"，
+# 两者都含子串 "reviewed"，不能用 `"reviewed" in entryType` 判断，必须用前缀匹配。
+# UniProt REST 字段名：`reviewed` 有效（返回的 JSON 键为 entryType）；`entryType`/`citation`
+# 作为 fields 参数无效（会 400）。证据 PMID/DOI 由 rebuild_seeds_manifest.py 用完整 JSON 补。
+FIELDS = ("accession,id,protein_name,gene_names,organism_name,lineage,ec,"
+          "reviewed,length,sequence")
 
 
 def fetch_stream(query: str, fields: str, retries: int = 3) -> list[dict]:
@@ -88,10 +95,51 @@ def flatten_ec(ec_field) -> str:
     return str(ec_field or "")
 
 
+def is_reviewed(h) -> bool:
+    """判定 UniProt reviewed（Swiss-Prot）状态。优先用 reviewed 字段，否则用 entryType 前缀。
+    严禁用 `"reviewed" in entryType`（"unreviewed" 也含 "reviewed" 子串）。"""
+    r = h.get("reviewed")
+    if isinstance(r, bool):
+        return r
+    if isinstance(r, str) and r.strip().lower() in ("true", "yes", "1"):
+        return True
+    et = str(h.get("entryType", "") or "")
+    return et.startswith("UniProtKB reviewed")
+
+
+def extract_evidence(h) -> str:
+    """从交叉引用提取 PMID/DOI 证据，返回 "pmid:...;doi:..." 字符串。
+
+    注：stream 接口（fields 模式）不返回 references，此处在 stream 下通常为空；
+    权威证据由 rebuild_seeds_manifest.py 用完整 JSON 的 references 补全。"""
+    pmids, dois = set(), set()
+    for xr in h.get("uniProtKBCrossReferences") or []:
+        db = (xr.get("database") or "").lower()
+        xid = (xr.get("id") or "")
+        if db == "pubmed" and xid:
+            pmids.add(xid)
+        elif db == "doi" and xid:
+            dois.add(xid)
+    parts = []
+    if pmids:
+        parts.append("pmid:" + ";".join(sorted(pmids)))
+    if dois:
+        parts.append("doi:" + ";".join(sorted(dois)))
+    return ";".join(parts)
+
+
+def assign_split(accession: str) -> str:
+    """确定性 train/validation 划分（80/20，按 accession md5 取模，可复现）。"""
+    h = int(hashlib.md5(accession.encode("utf-8")).hexdigest(), 16)
+    return "train" if h % 10 < 8 else "validation"
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--outdir", default="seeds")
     ap.add_argument("--queries", default="all", help="逗号分隔的查询名子集，默认 all")
+    ap.add_argument("--min-reviewed-only", action="store_true",
+                    help="只保留 reviewed(Swiss-Prot) 条目，丢弃 unreviewed")
     args = ap.parse_args()
     os.makedirs(args.outdir, exist_ok=True)
 
@@ -107,6 +155,9 @@ def main():
         for h in hits:
             acc = h.get("primaryAccession") or h.get("accession", "")
             if not acc or acc in seen_acc:
+                continue
+            reviewed_bool = is_reviewed(h)
+            if args.min_reviewed_only and not reviewed_bool:
                 continue
             seen_acc.add(acc)
             seq = (h.get("sequence") or {}).get("value", "")
@@ -130,13 +181,16 @@ def main():
             rows = {
                 "accession": acc,
                 "query_group": label,
-                "reviewed": "true" if "reviewed" in str(h.get("entryType", "")) else "false",
+                "reviewed": "true" if reviewed_bool else "false",
                 "organism": org,
                 "gene": gene_str,
                 "ec": ";".join(ecs),
                 "protein_name": pname,
                 "length": h.get("sequence", {}).get("length", ""),
                 "lineage": ";".join((h.get("organism") or {}).get("lineage", [])),
+                "evidence": extract_evidence(h),
+                "retrieval_date": dt.date.today().isoformat(),
+                "split": assign_split(acc),
             }
             all_rows.append(rows)
             if seq:
@@ -151,8 +205,10 @@ def main():
         f.write("\n".join(fasta) + "\n")
     man = os.path.join(args.outdir, "seeds_manifest.tsv")
     import csv
+    FIELDNAMES = ["accession", "query_group", "reviewed", "organism", "gene", "ec",
+                  "protein_name", "length", "lineage", "evidence", "retrieval_date", "split"]
     with open(man, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=list(all_rows[0].keys()) if all_rows else ["accession"])
+        w = csv.DictWriter(f, fieldnames=FIELDNAMES, extrasaction="ignore")
         w.writeheader()
         w.writerows(all_rows)
 
@@ -171,12 +227,19 @@ def main():
     with open(cur, "w", encoding="utf-8") as f:
         f.write("\n".join(curated_fasta) + "\n")
 
+    n_train = sum(1 for r in all_rows if r["split"] == "train")
+    n_val = sum(1 for r in all_rows if r["split"] == "validation")
     print(f"\n[DONE] total unique: {len(all_rows)}; curated(reviewed): {len(curated)}")
+    print(f"  train/validation: {n_train}/{n_val} (80/20, accession md5 取模)")
     print(f"  FASTA(all):   {faa}")
     print(f"  FASTA(curated): {cur}")
     print(f"  manifest:     {man}")
-    json.dump({"total": len(all_rows), "curated": len(curated), "queries": [q[0] for q in selected]},
-              open(os.path.join(args.outdir, "seeds_stats.json"), "w"), indent=2)
+    json.dump({
+        "total": len(all_rows), "curated": len(curated),
+        "train": n_train, "validation": n_val,
+        "min_reviewed_only": bool(args.min_reviewed_only),
+        "queries": [q[0] for q in selected],
+    }, open(os.path.join(args.outdir, "seeds_stats.json"), "w"), indent=2)
 
 
 if __name__ == "__main__":

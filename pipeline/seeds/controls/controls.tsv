@@ -1,0 +1,74 @@
+accession	label	query_group	reviewed	protein_name
+B2NHN2	positive	e-PhaZ_EC3.1.1.75	true	Polyhydroxybutyrate depolymerase
+O05527	positive	e-PhaZ_EC3.1.1.75	true	Poly(3-hydroxybutyrate) depolymerase
+P12625	positive	e-PhaZ_EC3.1.1.75	true	Poly(3-hydroxybutyrate) depolymerase
+Q51718	positive	e-PhaZ_EC3.1.1.76	true	Poly(3-hydroxyoctanoate) depolymerase
+A0ACG4YFY4	positive	i-PhaZ_Cupriavidus_necator	false	Polyhydroxyalkanoate depolymerase
+A0ACG4YGC5	positive	i-PhaZ_Cupriavidus_necator	false	Polyhydroxyalkanoate depolymerase
+A0ACG4YH57	positive	i-PhaZ_Cupriavidus_necator	false	Polyhydroxyalkanoate depolymerase
+A0ACG4YIS0	positive	i-PhaZ_Cupriavidus_necator	false	Polyhydroxyalkanoate depolymerase
+A0ACG4YRR8	positive	i-PhaZ_Cupriavidus_necator	false	Polyhydroxyalkanoate depolymerase
+A0ACG4YSM7	positive	i-PhaZ_Cupriavidus_necator	false	Polyhydroxyalkanoate depolymerase
+A0ACG4YVA5	positive	i-PhaZ_Cupriavidus_necator	false	Polyhydroxyalkanoate depolymerase
+A0ACG4Z051	positive	i-PhaZ_Cupriavidus_necator	false	Poly(3-hydroxyalkanoate) depolymerase
+A0ACG4Z1I4	positive	i-PhaZ_Cupriavidus_necator	false	Polyhydroxyalkanoate depolymerase
+Q7WXF6	positive	i-PhaZ_Cupriavidus_necator	false	Putative PHB depolymerase
+A0A0B4L3C7	positive	i-PhaZ_Pseudomonas_putida	false	PHA depolymerase
+A0A0B4L3Q2	positive	i-PhaZ_Pseudomonas_putida	false	PHA depolymerase
+A0ABM7EMK2	positive	i-PhaZ_Pseudomonas_putida	false	Poly(3-hydroxyalkanoate) depolymerase
+Q5Y152	positive	i-PhaZ_Pseudomonas_putida	false	Poly(3-hydroxyalkanoate) depolymerase
+Q9R9W3	positive	i-PhaZ_Pseudomonas_putida	false	Poly(3-hydroxyalkanoate) depolymerase
+A0ABY7N197	positive	e-PhaZ_Alcaligenes_faecalis	false	Polyhydroxyalkanoate depolymerase
+A0A3Q9BTL6	positive	e-PhaZ_Undibacterium	false	Polyhydroxyalkanoate depolymerase
+A0ABY9RN41	positive	e-PhaZ_Undibacterium	false	Polyhydroxyalkanoate depolymerase
+A0A3N5XWX8	positive	e-PhaZ_Alteromonas	false	Polyhydroxyalkanoate depolymerase
+A0ABT5L4W6	positive	e-PhaZ_Alteromonas	false	Polyhydroxyalkanoate depolymerase
+A0ABT7T1G3	positive	e-PhaZ_Alteromonas	false	Polyhydroxyalkanoate depolymerase
+A0A0P0EZS7	positive	i-PhaZ_Azospirillum_brasilense	false	Polyhydroxyalkanoate depolymerase
+Q71KW6	positive	i-PhaZ_Azospirillum_brasilense	false	PHB depolymerase
+Q0K9H3	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+O05690	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+Q9X6X9	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+A1TRI4	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+Q1LLY7	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+A0K516	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+A1KBP4	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+A1TWS1	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+A1V1X3	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+A1VUF3	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+A2S9Q3	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+A3MME1	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+A3NCT8	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+A3NYK1	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+A4JBY8	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+Q0BHU5	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+Q122D1	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+Q13Q76	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+Q1BYN6	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+Q21U20	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+Q2SYN3	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+Q39J35	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+Q3JPD1	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+Q46ZT8	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+Q62I60	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+Q63RF6	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+Q8XZR1	positive	oligomer_hydrolase_EC3.1.1.22	true	D-(-)-3-hydroxybutyrate oligomer hydrolase
+Q4W8C9	positive	oligomer_hydrolase	true	3-hydroxybutyrate-oligomer hydrolase
+Q79F77	negative	oligomer_hydrolase	true	6-aminohexanoate-oligomer endohydrolase
+Q1EPR4	negative	oligomer_hydrolase	true	6-aminohexanoate-oligomer endohydrolase
+Q1EPR5	negative	oligomer_hydrolase	true	6-aminohexanoate-oligomer endohydrolase
+P07061	negative	oligomer_hydrolase	true	6-aminohexanoate-dimer hydrolase
+P07062	negative	oligomer_hydrolase	true	6-aminohexanoate-dimer hydrolase
+D4A1J4	negative	3HB_dehydrogenase_EC1.1.1.30	true	Dehydrogenase/reductase SDR family member 6
+P29147	negative	3HB_dehydrogenase_EC1.1.1.30	true	D-beta-hydroxybutyrate dehydrogenase, mitochondrial
+Q02337	negative	3HB_dehydrogenase_EC1.1.1.30	true	D-beta-hydroxybutyrate dehydrogenase, mitochondrial
+Q561X9	negative	3HB_dehydrogenase_EC1.1.1.30	true	Dehydrogenase/reductase SDR family member 6
+Q8JZV9	negative	3HB_dehydrogenase_EC1.1.1.30	true	Dehydrogenase/reductase SDR family member 6
+Q9BUT1	negative	3HB_dehydrogenase_EC1.1.1.30	true	Dehydrogenase/reductase SDR family member 6
+C1C4R8	negative	3HB_dehydrogenase_EC1.1.1.30	true	Dehydrogenase/reductase SDR family member 6
+Q02338	negative	3HB_dehydrogenase_EC1.1.1.30	true	D-beta-hydroxybutyrate dehydrogenase, mitochondrial
+Q3KPT7	negative	3HB_dehydrogenase_EC1.1.1.30	true	Dehydrogenase/reductase SDR family member 6
+Q3T046	negative	3HB_dehydrogenase_EC1.1.1.30	true	Dehydrogenase/reductase SDR family member 6
+Q80XN0	negative	3HB_dehydrogenase_EC1.1.1.30	true	D-beta-hydroxybutyrate dehydrogenase, mitochondrial
+P86198	negative	3HB_dehydrogenase_EC1.1.1.30	true	D-beta-hydroxybutyrate dehydrogenase, mitochondrial
+Q5ZJZ5	negative	3HB_dehydrogenase_EC1.1.1.30	true	D-beta-hydroxybutyrate dehydrogenase, mitochondrial

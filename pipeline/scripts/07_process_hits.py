@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 """
 07_process_hits.py — 处理 hmmsearch 命中
-  1) 过滤：E-value、比对覆盖率（alnlen/qlen）
+  1) 过滤：E-value、HMM 覆盖度（cov，来自 06b 聚合的 hits_all.tsv，--min-cov）
   2) 多家族命中仲裁（优先 ePhaZ > iPhaZ > OH > BdhA > phasin 可配置）
   3) 每基因组每家族保留最优命中（dedup）
   4) 输出:
-     data/screen/hits_filtered.tsv      过滤后命中明细
-     data/screen/genome_hits.tsv        基因组×家族命中矩阵（含拷贝数）
+     data/screen/hits_filtered.tsv      过滤后命中明细（含 locus）
+     data/screen/genome_hits.tsv        基因组×家族命中矩阵（含拷贝数，供 10 分布）
      data/screen/family_seqs/{fam}.faa  各家族命中序列（从 shard 提取）
 用法: python 07_process_hits.py --hits data/screen/hits_all.tsv
+      python 07_process_hits.py --hits data/screen/hits_all.tsv --min-cov 0.5
+注意: --min-cov 默认 0.0（不按覆盖度过滤，与已提交结果的旧口径一致）；
+      覆盖度阈值需用固定正负对照集校准后再启用（见 docs/STATUS.md）。
 """
 import argparse
 import gzip
@@ -42,7 +45,14 @@ def parse_hits(path: str):
             else:
                 d["genome"] = "unknown"
                 d["locus"] = prot
-            d["cov"] = 1.0  # 覆盖率过滤可选（domtblout 另行补充）
+            # HMM 覆盖度：来自 06b 聚合的 cov 列（max domain (hmm_to-hmm_from+1)/qlen）
+            if "cov" in d:
+                try:
+                    d["cov"] = float(d["cov"])
+                except ValueError:
+                    d["cov"] = 1.0
+            else:
+                d["cov"] = 1.0
             rows.append(d)
     return rows
 
@@ -78,17 +88,38 @@ def main():
     ap.add_argument("--shards", default="data/proteins/shards_filt")
     ap.add_argument("--outdir", default="data/screen")
     ap.add_argument("--max-eval", type=float, default=1e-5)
-    ap.add_argument("--min-cov", type=float, default=0.5, help="比对覆盖度阈值")
+    ap.add_argument("--min-cov", type=float, default=0.0,
+                    help="HMM 覆盖度下限（0.0=不按覆盖度过滤；阈值需校准后启用）")
+    ap.add_argument("--family-min-cov", default="",
+                    help="按家族覆盖度覆盖，格式 'OH:0.6,iPhaZ:0.5'（覆盖 --min-cov）")
     ap.add_argument("--extract", type=int, default=0, help="是否提取序列（大库建议 0，另用 07b）")
     args = ap.parse_args()
     os.makedirs(os.path.join(args.outdir, "family_seqs"), exist_ok=True)
 
+    # 按家族覆盖度覆盖（校准结论：OH 用 0.6 排除尼龙水解酶假阳性）
+    fam_cov = {}
+    if args.family_min_cov:
+        for kv in args.family_min_cov.split(","):
+            if ":" in kv:
+                k, v = kv.split(":", 1)
+                fam_cov[k.strip()] = float(v)
+
+    def min_cov_for(fam):
+        return fam_cov.get(fam, args.min_cov)
+
     rows = parse_hits(args.hits)
     print(f"raw hits: {len(rows)}")
 
-    # 过滤
-    kept = [r for r in rows if r["E-value"] <= args.max_eval]
-    print(f"after E<={args.max_eval}: {len(kept)}")
+    # fail-closed：输入为空则拒绝继续
+    if not rows:
+        print("[ERROR] hits_all.tsv 为空或无有效命中，拒绝继续（fail-closed）", file=sys.stderr)
+        sys.exit(1)
+
+    # 过滤（E-value + 覆盖度，按家族阈值）
+    kept = [r for r in rows if r["E-value"] <= args.max_eval and r["cov"] >= min_cov_for(r["family"])]
+    print(f"after E<={args.max_eval} & cov>=min_cov: {len(kept)}")
+    if fam_cov:
+        print(f"  按家族覆盖度覆盖: {fam_cov}")
 
     # 多家族命中仲裁：每个 (genome, locus) 选优先级最高的家族
     best = {}

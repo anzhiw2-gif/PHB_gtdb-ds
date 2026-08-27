@@ -15,7 +15,9 @@ import sys
 
 LIPASE_BOX = re.compile(r"G([A-Z])S([A-Z])G", re.I)  # 严格 G-x1-S-x2-G 五肽
 HYDROPHOBIC = set("LIVMFWAY")  # 疏水 x1（PhaDED 判别关键 [K09]）
-NAD_BINDING = re.compile(r"G[^A-Z]{0,3}G[^A-Z]{0,3}[GAS][^A-Z]{0,3}G", re.I)  # 短链脱氢酶 NAD 结合指纹
+# 短链脱氢酶 NAD 结合指纹（Rossmann 折叠 GXGXXG；X = 任意氨基酸 [A-Z]）
+# 注意：原 [^A-Z] 匹配的是"非大写字母"，在蛋白序列中无法表示"任意氨基酸"，已修正为 [A-Z]。
+NAD_BINDING = re.compile(r"G[A-Z]{0,3}G[A-Z]{0,3}[GAS][A-Z]{0,3}G", re.I)
 
 # 各家族验证规则：
 #   ePhaZ/iPhaZ/OH: α/β 水解酶 → 催化三联体 + lipase box + 长度 200-900
