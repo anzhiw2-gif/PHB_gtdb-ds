@@ -101,3 +101,43 @@ grep -c ^ > t.txt    → "0\n"  (引号被吃,文件被覆盖)
 - 因此正确表述为:1,372 条 patatin 中 **24.8% 处于 PHB 代谢基因上下文**(以 BdhA 降解支路为主),其余 75.2% 为广谱磷脂酶/酯酶背景;
 - 注:补充古菌 PHA 合成酶亚基 PhaE(PF09712)与颗粒区蛋白 PHA_gran_rgn(PF09650)两个 marker HMM 后重跑,并集计数由 339 微调至 340,结论不变;
 - 更深一层:patatin 是广谱脂质水解酶结构域,且 PhaZh1 体内角色有限、**PhaJ 才是古菌 PHB 动员主通路**——已写入 `final_results_report.md` §2.2 的"生物学 caveat"。
+
+---
+
+## 五、事件记录(2026-08-19):tier1.faa 二次误删 —— 同一引号灾难重演
+
+### 现象
+
+- 时间:2026-08-19(本会话)
+- 文件:服务器 T141 `data/screen/tiers/{ePhaZ,iPhaZ,OH,ArchPhaZ_hydrolase,ArchPhaZ_patatin}_tier1.faa`(共 5 个)
+- 变化:全部被截断/覆盖(iPhaZ/OH/ArchPhaZ_hydrolase/ArchPhaZ_patatin 变 `0\n`;
+  ePhaZ 变 3 行 grep 多文件输出)
+- **未受影响**:`*_tier1.ids`、`*_tier1.tbl`、`*_validated.faa` 全部完好
+
+### 根因(复现)
+
+**重演了 §二 记录的同一灾难**:本次会话侦察服务器 tier1 序列数时,又用了内联命令
+
+```bash
+grep -c "^>" data/screen/tiers/*_tier1.faa ...
+```
+
+经 PowerShell → ssh 传递时 `"^>"` 双引号被剥离,`>` 变 shell 重定向符,把 tier1.faa
+覆盖。`for f in ...; do grep -c "^>" "$f"; done` 同理,5 个文件全部被 `0\n` 覆盖。
+
+### 恢复
+
+- 新增 `pipeline/scripts/rebuild_tier1_faa.py`:从 `*_tier1.ids` + `*_validated.faa`
+  幂等重建 `*_tier1.faa`,并断言重建序列数 == ids 行数。
+- 重建结果(ALL_OK,即 Glu 修正后数字):ePhaZ **38,692** / iPhaZ **32,926** /
+  OH **1,465** / ArchPhaZ_hydrolase **1,292** / ArchPhaZ_patatin **112,926**。
+
+### 教训(升级,务必遵守)
+
+1. **绝对禁止**在 ssh 内联命令里出现 `>`、`"`、`|`、`$()`、`\n` 等字符——包括
+   `grep -c "^>"` 这种"看起来安全"的只读命令。**任何服务器操作一律写成脚本文件
+   `scp` 后执行**。
+2. 数序列用 `grep -c '>' file`(单引号)或脚本内 `line.startswith(">")`,不要依赖
+   跨层引号传递。
+3. tier1.faa 是**派生文件**,重建链:`*_tier1.ids` + `*_validated.faa` →
+   `rebuild_tier1_faa.py` → `*_tier1.faa`,是数据损坏的兜底。
