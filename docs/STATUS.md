@@ -2,7 +2,7 @@
 
 > 本页是项目**唯一的状态事实源**（单一状态页）。README、结果报告、审核报告等
 > 只引用本页，不各自重复状态判断；口径冲突以本页为准。
-> 更新日期：2026-08-24 ｜ 仓库：github.com/anzhiw2-gif/PHB_gtdb-ds
+> 更新日期：2026-08-27 ｜ 仓库：github.com/anzhiw2-gif/PHB_gtdb-ds
 
 ---
 
@@ -26,8 +26,8 @@ not the archaeal patatin subset. The patatin result remains 1,372 loci / 620
 genomes, while the 112,926 tier1 records are a broad patatin-fold candidate set.
 
 Authority is currently split and must be named explicitly: the local working
-tree is an uncommitted audit-repair workspace; GitHub `main` remains at
-`9a7d02d` and is not this state; the T141 dated deploy is the only server-side
+ tree is an uncommitted audit-repair workspace; GitHub `main` is now at
+`94caa49` with the governance baseline, but is not this local research state; the T141 dated deploy is the only server-side
 source eligible for a future rerun. The audited T141 main manifest currently
 hashes to `e991c3bd10a48f8faf9c450f0c17a5a3fb1f0315c256018f0772c5f64f71b2a3`,
 which differs from the older `c4e8...` value printed elsewhere in this file.
@@ -65,8 +65,8 @@ forensics and are not current scheme-A tree evidence.
 - **线程上限**：计算任务合计 **≤70**（留 10 核余量）。已同步到
   `pipeline/config/params.yaml`、`05/06/run_pipeline` 脚本默认值。
 
-**版本与运行 provenance（2026-08-24 核对）**：本地 `D:\PHB_gtdb-ds` 的 `HEAD` 与 GitHub
-`main` 均为 `9a7d02d`，但本地工作树含未提交修改和未跟踪审计/结果文件；因此本地工作树不等同于
+**版本与运行 provenance（2026-08-27 核对）**：本地 `D:\PHB_gtdb-ds` 的 `HEAD` 与 GitHub
+`main` 均为 `94caa49`，但本地工作树含未提交修改和未跟踪审计/结果文件；因此本地工作树不等同于
 GitHub 已发布快照。T141 项目根目录没有 `.git`，主 manifest 的 `git_commit` 为 `null`，不能把该
 运行宣称为某个 Git commit 的产物。dated forensic repair 使用
 `/home/data/haoyu/PHB_gtdb-ds/deploy/20260821_schemeA/scripts/11_clusters.py`

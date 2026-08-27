@@ -51,7 +51,11 @@
 
 ### 4.1 代码、部署与 manifest 边界
 
-本地 `D:\PHB_gtdb-ds` 与 GitHub `main` 当前均为 `9a7d02d`，但本地工作树有未提交修改和未跟踪
+Publication check (2026-08-27): GitHub `main` is `94caa49`, while this local
+working tree still contains unpublished research changes. Older commit references
+below describe historical audit snapshots and are not the current GitHub revision.
+
+本地 `D:\PHB_gtdb-ds` 与 GitHub `main` 当前均为 `94caa49`，但本地工作树有未提交修改和未跟踪
 审计/结果文件。T141 项目根目录没有 `.git`，主 manifest 的 `git_commit` 为 `null`，因此该清单
 并未绑定到 Git 源码快照。dated forensic repair 使用
 `/home/data/haoyu/PHB_gtdb-ds/deploy/20260821_schemeA/scripts/11_clusters.py`

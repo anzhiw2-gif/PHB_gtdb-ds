@@ -1,6 +1,8 @@
 # PHB_gtdb-ds — GTDB 全库 PHB 降解基因系统生信分析
 
-> Audit correction (2026-08-24): Figure 3 source data records `Pseudomonadota=26,850` genomes; the older 26,855 value is superseded. Figure 5 uses an all-hit neighborhood `candidate_loci` denominator, not a tier1 or archaeal patatin denominator. The local tree remains an uncommitted audit workspace beyond the governance baseline; GitHub `main` now includes governance commit `b1763f4`. See `docs/STATUS.md` for the authority map and stale-tree gates.
+> Audit correction (2026-08-24): Figure 3 source data records `Pseudomonadota=26,850` genomes; the older 26,855 value is superseded. Figure 5 uses an all-hit neighborhood `candidate_loci` denominator, not a tier1 or archaeal patatin denominator. The local tree remains an uncommitted audit workspace beyond the governance baseline; GitHub `main` now includes governance commit `75c7c5b` and CI correction `94caa49`. See `docs/STATUS.md` for the authority map and stale-tree gates.
+
+> Publication check (2026-08-27): GitHub `main` is `94caa49`; it contains the governance baseline and CI correction, while local uncommitted research changes remain unpublished.
 
 基于 GTDB（Genome Taxonomy Database）R232 全基因组集合（199,923 个代表基因组，
 含细菌+古菌）对 PHB（聚羟基丁酸酯）降解基因的系统筛查与生态/分类学分析。
@@ -11,7 +13,7 @@
 > 线程上限、树状态与待办均以该页为准；本 README 仅作摘要。
 
 **当前为本地审计修复工作树，包含尚未发布的科研改动。**本地治理基线与 GitHub `main` 均为
-`b1763f4`，但本地仍有未提交修改和未跟踪审计/结果文件；核心候选集统计可由本地最终 tier 表复算，
+`94caa49`，但本地仍有未提交修改和未跟踪审计/结果文件；核心候选集统计可由本地最终 tier 表复算，
 下游生态、基因邻域和系统树的可用性以 `docs/STATUS.md` 的审计状态为准。T141 项目根目录没有
 `.git`，主运行 manifest 的 `git_commit=null`；T141 manifest 当前 SHA-256 为
 `e991c3bd10a48f8faf9c450f0c17a5a3fb1f0315c256018f0772c5f64f71b2a3`，不能将其当作 GitHub 快照的
