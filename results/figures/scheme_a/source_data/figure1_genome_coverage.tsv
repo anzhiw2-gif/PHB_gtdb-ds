@@ -1,0 +1,3 @@
+stage	value	unit	note
+GTDB representative genomes	199923	genomes	GTDB R232 input census
+Genomes with >=1 tier1 core candidate	44814	genomes	Unique union across four core candidate families

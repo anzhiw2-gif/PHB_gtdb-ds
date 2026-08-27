@@ -1,0 +1,6 @@
+stage	value	unit	note
+HMM hit rows	6769772	hit rows	All family-model hit records
+Filtered HMM hit rows	6767839	hit rows	Coverage-filtered hit records
+Unique protein candidates	6642556	proteins	Unique protein identifiers
+Validated candidates	534314	records	Validated records across five screening groups
+Strict tier1 core candidates	74339	sequences	Four core candidate families; patatin excluded

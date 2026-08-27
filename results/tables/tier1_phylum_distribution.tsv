@@ -11,7 +11,7 @@ Acidobacteriota	ArchPhaZ_patatin	2670
 Chloroflexota	ArchPhaZ_patatin	1804
 Actinomycetota	iPhaZ	1687
 Bacillota_I	ArchPhaZ_patatin	1592
-Pseudomonadota	OH	1367
+Pseudomonadota	OH	1337
 Myxococcota_A	ArchPhaZ_patatin	1322
 Chloroflexota	ePhaZ	1155
 Gemmatimonadota	ArchPhaZ_patatin	1058
@@ -94,10 +94,10 @@ Caldisericota	ArchPhaZ_patatin	35
 Muiribacteriota	ePhaZ	31
 Acidobacteriota	iPhaZ	29
 Hydrothermota	ePhaZ	27
-Desulfobacterota	OH	27
 Planctomycetota	ArchPhaZ_hydrolase	27
 Desulfobacterota_D	ArchPhaZ_patatin	27
 Actinomycetota	OH	26
+Desulfobacterota	OH	24
 Bipolaricaulota	ArchPhaZ_hydrolase	24
 Armatimonadota	ePhaZ	23
 Patescibacteriota	ArchPhaZ_hydrolase	23
@@ -229,7 +229,6 @@ Fermentibacterota	ePhaZ	2
 Sumerlaeota	ePhaZ	2
 SM23-31	ePhaZ	2
 Elusimicrobiota	iPhaZ	2
-Vulcanimicrobiota	OH	2
 Hydrothermarchaeota	ArchPhaZ_hydrolase	2
 CG2-30-53-67	ArchPhaZ_hydrolase	2
 Fibrobacterota	ArchPhaZ_hydrolase	2
@@ -280,6 +279,7 @@ Nitrospirota	iPhaZ	1
 Chlamydiota	iPhaZ	1
 Omnitrophota	iPhaZ	1
 Fidelibacterota	iPhaZ	1
+Vulcanimicrobiota	OH	1
 Acidobacteriota	OH	1
 Cyanobacteriota	ArchPhaZ_hydrolase	1
 Campylobacterota	ArchPhaZ_hydrolase	1

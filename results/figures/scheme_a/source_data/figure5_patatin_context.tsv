@@ -1,0 +1,7 @@
+hit_family	marker_family	supported_loci	candidate_loci	support_rate	candidate_genomes	supported_genomes
+ArchPhaZ_patatin	BdhA	44929	315065	0.14260232015615826	136165	33948
+ArchPhaZ_patatin	PHA_gran_rgn	1443	315065	0.0045800073000809354	136165	1431
+ArchPhaZ_patatin	PhaC	2618	315065	0.008309396473743513	136165	2516
+ArchPhaZ_patatin	PhaE	306	315065	0.0009712281592687223	136165	300
+ArchPhaZ_patatin	PhaJ	13546	315065	0.04299430276292194	136165	11768
+ArchPhaZ_patatin	phasin	2746	315065	0.008715661847555267	136165	2671

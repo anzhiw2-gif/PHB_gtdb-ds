@@ -1,0 +1,20 @@
+{
+  "family": "ArchPhaZ_hydrolase",
+  "filter": {
+    "domain": "d__Archaea",
+    "taxonomy_field": "gtdb_taxonomy",
+    "family_field": "family"
+  },
+  "records": 218,
+  "genomes": 197,
+  "inputs": {
+    "tier1_table": "results\\tables\\tier1_genome_family.tsv",
+    "tier1_table_sha256": "35e1f69bca364a0fbc693b0b1abb92a45a765b610bbfe20057be17b0c1964e59",
+    "tier1_faa": "data\\screen\\tiers\\ArchPhaZ_hydrolase_tier1.faa",
+    "tier1_faa_sha256": "6d60fd03bcf839f6eed94d02bc5b370cbd4eeaa104d86b744d5bba03d1264dac"
+  },
+  "outputs": {
+    "faa_sha256": "0e933ac2269014cc421293a7acb5261c40e9c2ae66e00e298a27ac864b4a9751",
+    "table_sha256": "96fc159e176011cac1447dc010983c4d5d3983e428d6edabe60113088b8ad67b"
+  }
+}

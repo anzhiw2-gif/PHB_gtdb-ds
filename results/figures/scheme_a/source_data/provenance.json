@@ -1,0 +1,152 @@
+{
+  "available_neighborhood_markers": [
+    "PhaC",
+    "PhaE",
+    "PhaJ",
+    "BdhA",
+    "phasin",
+    "PHA_gran_rgn"
+  ],
+  "cluster_snapshot_id": "20260821_schemeA_03",
+  "core_families": [
+    "ePhaZ",
+    "iPhaZ",
+    "OH",
+    "ArchPhaZ_hydrolase"
+  ],
+  "created_at_utc": "2026-08-23T09:57:19.546243+00:00",
+  "inputs": {
+    "cluster_audit": {
+      "path": "results\\figures\\scheme_a\\staging\\2026-08-23_schemeA_03\\cluster_locus_audit.tsv",
+      "rows": 1036243,
+      "sha256": "f8d86235725956e338eb44b0e3b372bfca0867a24141a5c03ee7c23854d122c8"
+    },
+    "cluster_context": {
+      "path": "results\\figures\\scheme_a\\staging\\2026-08-23_schemeA_03\\cluster_context.tsv",
+      "rows": 212240,
+      "sha256": "40965563627d3187099f4192202f69b9cb6d8855561b1e6531de5e305d13e4c7"
+    },
+    "cluster_summary": {
+      "path": "results\\figures\\scheme_a\\staging\\2026-08-23_schemeA_03\\cluster_summary.tsv",
+      "rows": 30,
+      "sha256": "6307d93d714411531c4cca250759c88f189a25f0d0ea309888011936c988b5aa"
+    },
+    "seed_manifest": {
+      "path": "pipeline\\seeds\\seeds_manifest.tsv",
+      "rows": 78,
+      "sha256": "57ca69076ec8566e12f1d4cf1a45b70c80c465eb0dead099b885a63467c9ab5b"
+    },
+    "seed_stats": {
+      "path": "pipeline\\seeds\\seeds_stats.json",
+      "sha256": "72e4113e5aa92447bef7b932e288fca190f206f5864c8af58636dd2b8998e5ba"
+    },
+    "signal_phylum": {
+      "path": "results\\tables\\ePhaZ_signalpeptide_phylum.tsv",
+      "rows": 89,
+      "sha256": "d076a6a5618e24d9b348d9afc1da8ecd32396672ee9004f45991ad1cd746541d"
+    },
+    "signal_summary": {
+      "path": "results\\tables\\signalp_ePhaZ_analysis.tsv",
+      "rows": 15,
+      "sha256": "e42c504316f8a47b3d63f4295cecba9fd5346ac13db6114ba3e7e6749315a4f7"
+    },
+    "tier1_fasta_ArchPhaZ_hydrolase": {
+      "path": "data\\screen\\tiers\\ArchPhaZ_hydrolase_tier1.faa",
+      "rows": 1292,
+      "sha256": "6d60fd03bcf839f6eed94d02bc5b370cbd4eeaa104d86b744d5bba03d1264dac"
+    },
+    "tier1_fasta_OH": {
+      "path": "data\\screen\\tiers\\OH_tier1.faa",
+      "rows": 1429,
+      "sha256": "8098fe92927301b4c6f5d3c93fc456c8b24dbdcf6a704eb8b433b8af3fb49edd"
+    },
+    "tier1_fasta_ePhaZ": {
+      "path": "data\\screen\\tiers\\ePhaZ_tier1.faa",
+      "rows": 38692,
+      "sha256": "4b09c57c42b2f59106c77cc214adbdcde2e08a442f82ab36237fdb8c4f8f3574"
+    },
+    "tier1_fasta_iPhaZ": {
+      "path": "data\\screen\\tiers\\iPhaZ_tier1.faa",
+      "rows": 32926,
+      "sha256": "51d87924c54a595109b3d80a44f3fc6740f3183a98515a12c55f4e8fb0342e2b"
+    },
+    "tier_phylum": {
+      "path": "results\\tables\\tier1_phylum_distribution.tsv",
+      "rows": 313,
+      "sha256": "23afd69ec9c7b35786203154d74f1f7163d3934e3f7848bfccd1b7995c8b9d2b"
+    },
+    "tier_table": {
+      "path": "results\\tables\\tier1_genome_family.tsv",
+      "rows": 133829,
+      "sha256": "35e1f69bca364a0fbc693b0b1abb92a45a765b610bbfe20057be17b0c1964e59"
+    }
+  },
+  "outputs": {
+    "figure0_seed_evidence": {
+      "file": "figure0_seed_evidence.tsv",
+      "rows": 9,
+      "sha256": "57742470b42651db81b52715679b21114ee210cfbe93a1728af72f41ad5453c1"
+    },
+    "figure0_seed_family": {
+      "file": "figure0_seed_family.tsv",
+      "rows": 6,
+      "sha256": "756565033f2174f25c75488751b47d4edfa684d49ece7c36c9bc980049eaded0"
+    },
+    "figure0_seed_split": {
+      "file": "figure0_seed_split.tsv",
+      "rows": 9,
+      "sha256": "c72fb6ee027ba4ba5528cb682ee1512337662c04d06e7e193a3df967e5e94812"
+    },
+    "figure1_funnel": {
+      "file": "figure1_funnel.tsv",
+      "rows": 5,
+      "sha256": "177fe616f2ffb9786f84b795c0eea22fe75a60bd041cec3d1b1fe7b78b33e464"
+    },
+    "figure1_genome_coverage": {
+      "file": "figure1_genome_coverage.tsv",
+      "rows": 2,
+      "sha256": "4289208f41deaabf17a86a184e6afebc2960d6382856e569081306596b0fa8fd"
+    },
+    "figure2_core_scale": {
+      "file": "figure2_core_scale.tsv",
+      "rows": 4,
+      "sha256": "9e8c90d1db550e2994d37d948e26d68a4b46bc07c1a0311da7237ee613c5d477"
+    },
+    "figure2_union": {
+      "file": "figure2_union.tsv",
+      "rows": 1,
+      "sha256": "cd8de50a9b0259ce448391a406eb7e87ceb36af4406105099c820837587b8c48"
+    },
+    "figure3_phylum_matrix": {
+      "file": "figure3_phylum_matrix.tsv",
+      "rows": 52,
+      "sha256": "11be1c10dc17e90f514024e94df6cbf01681a2ddce0fe2b3383ae491841f7fd5"
+    },
+    "figure3_phylum_totals": {
+      "file": "figure3_phylum_totals.tsv",
+      "rows": 15,
+      "sha256": "e157a52e5ab7f409bdf21216bb082f9301edb99811195172a472469e88ce3f5f"
+    },
+    "figure4_signal_classes": {
+      "file": "figure4_signal_classes.tsv",
+      "rows": 5,
+      "sha256": "7b4d4fbdbea09ac1c40d9ddfa538248c4c8f590e2c053255be7f98dccb949c8d"
+    },
+    "figure4_signal_phyla": {
+      "file": "figure4_signal_phyla.tsv",
+      "rows": 15,
+      "sha256": "0bd391027ffefaa3259757a00426ea17e63162210c7063851b3a6ee67c5dff3d"
+    },
+    "figure5_neighborhood_rate": {
+      "file": "figure5_neighborhood_rate.tsv",
+      "rows": 30,
+      "sha256": "5aa9e14c19e4a9798e46692a1dbb2f7e3049761b977a3b60ead6bc3cfaae68b6"
+    },
+    "figure5_patatin_context": {
+      "file": "figure5_patatin_context.tsv",
+      "rows": 6,
+      "sha256": "f2314611c555aa2b73f8b6f6cb10d032ff2c299866f84715a72a708d22441587"
+    }
+  },
+  "schema_version": 1
+}

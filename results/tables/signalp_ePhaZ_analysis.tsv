@@ -1,0 +1,16 @@
+metric	value
+tier1_total	38692
+pred_OTHER	16836
+pred_SP	16545
+pred_LIPO	5170
+pred_TAT	122
+pred_TATLIPO	19
+has_signal_peptide	21856
+no_signal_peptide	16836
+sp_len_median	344.0
+other_len_median	364.0
+other_no_met	473
+other_internal_star	0
+other_len_lt300	1638
+other_trunc_union	1914
+sp_no_met	70

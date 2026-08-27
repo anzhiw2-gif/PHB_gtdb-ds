@@ -1,0 +1,102 @@
+{
+  "checked_at_utc": "2026-08-23T09:57:56.346329+00:00",
+  "exports": {
+    "figure_0_seed_library": {
+      "editable_svg_text": true,
+      "files": [
+        "figure_0_seed_library.svg",
+        "figure_0_seed_library.pdf",
+        "figure_0_seed_library.tiff",
+        "figure_0_seed_library.png"
+      ],
+      "png_pixels": [
+        2087,
+        777
+      ]
+    },
+    "figure_1_workflow_funnel": {
+      "editable_svg_text": true,
+      "files": [
+        "figure_1_workflow_funnel.svg",
+        "figure_1_workflow_funnel.pdf",
+        "figure_1_workflow_funnel.tiff",
+        "figure_1_workflow_funnel.png"
+      ],
+      "png_pixels": [
+        2173,
+        1164
+      ]
+    },
+    "figure_2_core_scale": {
+      "editable_svg_text": true,
+      "files": [
+        "figure_2_core_scale.svg",
+        "figure_2_core_scale.pdf",
+        "figure_2_core_scale.tiff",
+        "figure_2_core_scale.png"
+      ],
+      "png_pixels": [
+        2169,
+        855
+      ]
+    },
+    "figure_3_phylum_distribution": {
+      "editable_svg_text": true,
+      "files": [
+        "figure_3_phylum_distribution.svg",
+        "figure_3_phylum_distribution.pdf",
+        "figure_3_phylum_distribution.tiff",
+        "figure_3_phylum_distribution.png"
+      ],
+      "png_pixels": [
+        2191,
+        1239
+      ]
+    },
+    "figure_4_ephaz_signal": {
+      "editable_svg_text": true,
+      "files": [
+        "figure_4_ephaz_signal.svg",
+        "figure_4_ephaz_signal.pdf",
+        "figure_4_ephaz_signal.tiff",
+        "figure_4_ephaz_signal.png"
+      ],
+      "png_pixels": [
+        2097,
+        1079
+      ]
+    },
+    "figure_5_neighborhood_context": {
+      "editable_svg_text": true,
+      "files": [
+        "figure_5_neighborhood_context.svg",
+        "figure_5_neighborhood_context.pdf",
+        "figure_5_neighborhood_context.tiff",
+        "figure_5_neighborhood_context.png"
+      ],
+      "png_pixels": [
+        2175,
+        1108
+      ]
+    }
+  },
+  "source_invariants": {
+    "figure2_denominator": 199923,
+    "figure2_union": 44814,
+    "figure3_families": [
+      "ArchPhaZ_hydrolase",
+      "OH",
+      "ePhaZ",
+      "iPhaZ"
+    ],
+    "figure5_markers": [
+      "BdhA",
+      "PHA_gran_rgn",
+      "PhaC",
+      "PhaE",
+      "PhaJ",
+      "phasin"
+    ]
+  },
+  "status": "pass"
+}

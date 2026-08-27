@@ -1,0 +1,10 @@
+family	split	seeds
+BdhA	train	12
+BdhA	validation	3
+OH	train	28
+OH	validation	5
+ePhaZ	train	9
+ePhaZ	validation	1
+iPhaZ	train	12
+iPhaZ	validation	5
+phasin	train	3
