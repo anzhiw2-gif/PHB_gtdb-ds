@@ -33,8 +33,8 @@
 - Create or modify: `.github/workflows/ci.yml`
 
 - [x] Run Python compilation for `pipeline/scripts` and `pipeline/tests`.
-- [x] Run all `unittest` tests under `pipeline/tests`.
-- [x] Configure the smoke test and shell syntax checks without external bioinformatics inputs; Bash syntax was left for Ubuntu CI because Bash is unavailable on this Windows host.
+- [x] Run the committed governance baseline tests (`test_run_context` and `test_run_isolation`). The audit/figure suites remain tied to the separate uncommitted research snapshot.
+- [x] Configure shell syntax checks without external bioinformatics inputs; the untracked smoke test is intentionally excluded from this public baseline, and Bash syntax is delegated to Ubuntu CI because Bash is unavailable on this Windows host.
 - [x] Run `git diff --check HEAD^ HEAD` in CI against the submitted commit.
 
 ### Task 3: Add license boundary
