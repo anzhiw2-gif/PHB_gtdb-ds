@@ -51,3 +51,12 @@ Thumbs.db
 *.swp
 .idea/
 .vscode/
+
+# ===== Machine-local run/deploy artifacts =====
+# Add compact reports/manifests explicitly with git add -f when needed.
+runs/
+deploy/
+results/signalp/
+results/figures/scheme_a/staging/
+*.tgz
+*.tiff

@@ -33,9 +33,9 @@ CURATED = {
 }
 
 
-def hmmsearch(hmm, faa, tbl_out, evalue):
+def hmmsearch(hmm, faa, tbl_out, evalue, cpu=8):
     subprocess.run([HMMSEARCH, "--tblout", tbl_out, "-E", evalue,
-                    "--cpu", "8", hmm, faa],
+                    "--cpu", str(cpu), hmm, faa],
                    check=True, capture_output=True, text=True)
 
 
@@ -85,6 +85,7 @@ def main():
     parser.add_argument("--output")
     parser.add_argument("--validate-build")
     parser.add_argument("--families")
+    parser.add_argument("--cpu", type=int, default=8)
     args = parser.parse_args()
     if args.extract:
         ids_path, input_path = args.extract
@@ -106,6 +107,8 @@ def main():
                 if expected != observed:
                     raise RuntimeError(f"tier count mismatch: {fam} {tier}: {expected}/{observed}")
         return
+    if args.cpu < 1:
+        parser.error("--cpu must be positive")
     os.makedirs(TIERDIR, exist_ok=True)
     for fam, hmm in CURATED.items():
         faa = os.path.join(SEQDIR, f"{fam}_validated.faa")
@@ -114,7 +117,7 @@ def main():
             continue
 
         # tier2
-        hmmsearch(hmm, faa, os.path.join(TIERDIR, f"{fam}_tier2.tbl"), "1e-10")
+        hmmsearch(hmm, faa, os.path.join(TIERDIR, f"{fam}_tier2.tbl"), "1e-10", args.cpu)
         n2_ids = write_ids(os.path.join(TIERDIR, f"{fam}_tier2.tbl"),
                            os.path.join(TIERDIR, f"{fam}_tier2.ids"))
         n2 = extract_faa(os.path.join(TIERDIR, f"{fam}_tier2.ids"), faa,
@@ -122,7 +125,7 @@ def main():
 
         # tier1（对 tier2 子集再筛）
         hmmsearch(hmm, os.path.join(TIERDIR, f"{fam}_tier2.faa"),
-                  os.path.join(TIERDIR, f"{fam}_tier1.tbl"), "1e-20")
+                  os.path.join(TIERDIR, f"{fam}_tier1.tbl"), "1e-20", args.cpu)
         n1_ids = write_ids(os.path.join(TIERDIR, f"{fam}_tier1.tbl"),
                            os.path.join(TIERDIR, f"{fam}_tier1.ids"))
         n1 = extract_faa(os.path.join(TIERDIR, f"{fam}_tier1.ids"), faa,

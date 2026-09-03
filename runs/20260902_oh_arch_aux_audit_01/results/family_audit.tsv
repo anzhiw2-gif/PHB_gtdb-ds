@@ -1,0 +1,7 @@
+family	raw_accepted_hits	raw_unique_genomes	strict_tier1_sequences	strict_tier1_genomes	raw_cov_lt_0.4	raw_cov_0.4_0.6	raw_cov_0.6_0.8	raw_cov_ge_0.8	strict_ge_0.6_sequences	strict_ge_0.6_genomes	strict_ge_0.8_sequences	strict_ge_0.8_genomes	decision
+OH	9220	6470	3570	3446	1558	739	1385	5538	3570	3446	3339	3061	retain_registry_cov_0.6;optional_high_cov_0.8
+ArchPhaZ_hydrolase	248379	86281	14571	12469	203809	30183	12664	1723	3431	3166	508	497	demote_cov_lt_0.6;report_ge_0.8_high_confidence
+PhaJ	1226439	141285	NA	NA	53226	110273	1031797	31143	NA	NA	NA	NA	context_only
+BdhA	4243143	192640	NA	NA	175954	697750	3072081	297358	NA	NA	NA	NA	background_only
+phasin	7	7	NA	NA	3	1	3	0	NA	NA	NA	NA	model_coverage_warning_context_only
+PhaC	107531	46210	NA	NA	24282	33643	3939	45667	NA	NA	NA	NA	context_only

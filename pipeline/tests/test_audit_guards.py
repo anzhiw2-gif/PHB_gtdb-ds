@@ -317,6 +317,19 @@ class AuditGuardTests(unittest.TestCase):
         self.assertIn('echo "[ERROR] $fam HMM 缺失"', script)
         self.assertIn('exit 1', script[script.index('if [ ! -s "$hmm" ]'):])
 
+    def test_v2_hmm_builder_is_run_scoped_and_requires_all_families(self):
+        with open(os.path.join(SCRIPTS, "04b_build_hmms_v2.sh"), encoding="utf-8") as handle:
+            script = handle.read()
+        for option in ("--seed-dir", "--hmm-dir", "--aln-dir", "--log-dir"):
+            self.assertIn(option, script)
+        for family in (
+            "ePhaZ", "iPhaZ", "OH", "BdhA", "ArchPhaZ_patatin",
+            "ArchPhaZ_hydrolase", "PhaJ", "PhaC", "phasin",
+        ):
+            self.assertIn(family, script)
+        self.assertIn("missing required seed", script)
+        self.assertNotIn("continue", script)
+
     def test_execution_chain_has_no_masked_failures_or_warning_continue(self):
         for script_name in (
             "05_predict_proteins.sh",

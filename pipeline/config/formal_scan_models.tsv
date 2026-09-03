@@ -1,0 +1,11 @@
+model	hmm_source	threshold	min_cov	report_group
+ePhaZ_curated_core	split_run	e-5	0.0	ePhaZ
+ePhaZ_broad_discovery	split_run	e-5	0.0	ePhaZ
+iPhaZ	frozen_data_root	e-5	0.0	iPhaZ
+OH	seedclean_run	e-5	0.6	OH
+BdhA	seedclean_run	e-5	0.0	BdhA
+ArchPhaZ_patatin	seedclean_run	e-5	0.0	ArchPhaZ_patatin
+ArchPhaZ_hydrolase	seedclean_run	e-5	0.0	ArchPhaZ_hydrolase
+PhaJ	seedclean_run	e-5	0.0	PhaJ
+phasin	seedclean_run	e-5	0.0	phasin
+PhaC	seedclean_run	e-5	0.0	PhaC

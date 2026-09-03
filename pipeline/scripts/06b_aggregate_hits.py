@@ -53,9 +53,9 @@ D_QLEN = 5
 
 def read_dom_cov(path: str) -> dict:
     """返回 {target: max_query_coverage}。查询覆盖度 = (hmm_to-hmm_from+1)/qlen。"""
-    cov = {}
+    intervals = {}
     if not os.path.exists(path):
-        return cov
+        return {}
     with open(path, errors="replace") as f:
         for line in f:
             if line.startswith("#"):
@@ -72,13 +72,18 @@ def read_dom_cov(path: str) -> dict:
                 continue
             if qlen <= 0:
                 continue
-            c = (hto - hfrom + 1) / qlen
-            if c < 0:
-                c = 0.0
-            if c > 1.0:
-                c = 1.0
-            if target not in cov or c > cov[target]:
-                cov[target] = c
+            record = intervals.setdefault(target, {"qlen": qlen, "ranges": []})
+            record["ranges"].append((min(hfrom, hto), max(hfrom, hto)))
+    cov = {}
+    for target, record in intervals.items():
+        covered = 0
+        end = 0
+        for start, stop in sorted(record["ranges"]):
+            if stop <= end:
+                continue
+            covered += stop - max(start, end + 1) + 1
+            end = stop
+        cov[target] = min(1.0, covered / record["qlen"])
     return cov
 
 
