@@ -2,11 +2,29 @@
 
 > 本页是项目**唯一的状态事实源**（单一状态页）。README、结果报告、审核报告等
 > 只引用本页，不各自重复状态判断；口径冲突以本页为准。
-> 更新日期：2026-08-27 ｜ 仓库：github.com/anzhiw2-gif/PHB_gtdb-ds
+> 更新日期：2026-09-03 ｜ 仓库：github.com/anzhiw2-gif/PHB_gtdb-ds ｜ 当前分支：`main`
+
+## 当前权威状态（2026-09-03）
+
+- GitHub `main` 与本地工作树已在本次文档发布前核对一致；脱敏与远程环境参数化基线为历史提交 `df71a8b`。
+- 正式 frozen scan 13：`20260901_formal_frozen_scan_13`，状态 `completed`；1,000/1,000 任务完成，
+  60 线程，297 个任务复用父运行输出，失败任务为 0。
+- run-13 registry-threshold 层：6,740,900 条 accepted hits；核心四家族并集 **147,690 genomes**。
+- run-13 strict tier1 层：四家族并集 **38,741 genomes**，其中 6,578 个基因组含至少两个核心家族。
+  各家族基因组数：ePhaZ curated 5,080、iPhaZ 25,564、OH 3,446、ArchPhaZ_hydrolase 12,469。
+- `147,690` 是原始阈值命中层，`38,741` 是经过序列验证/分层的严格层；两者不可混用，
+  也不直接等同于实验表型。
+- ePhaZ broad discovery、ArchPhaZ_patatin、BdhA、PhaJ、PhaC、phasin 均保持独立的 broad/contextual
+  解释，不加入严格四家族解聚酶并集；MCL-PHA 子家族仍为 candidate-only。
+- 当前正式规则保持：HMMER `E<=1e-5`；OH 使用 `min_cov=0.6`；其余家族按注册表和各自分层规则处理。
+
+证据入口：`docs/CURRENT_STATUS_20260902.md`、`docs/T141_20260901_formal_frozen_scan_13_downstream_status.md`
+和 `docs/T141_20260902_formal_scan13_tier_processing_02_status.md`。本页下方 2026-08-27 以前的数字和状态
+是历史审计记录，保留用于追溯，不覆盖当前权威状态。
 
 ---
 
-## 2026-08-24 本地运行隔离改造
+## Historical 2026-08-24 本地运行隔离改造
 
 - `run_pipeline.sh` 默认使用 `runs/<run_id>/`，拒绝覆盖已有运行目录；支持 `--run-id`、
   `--run-root`/`--run-dir` 和显式 `--legacy-root-results`。
@@ -15,7 +33,7 @@
 - 最终 manifest 绑定 `run_id`、`run_root`、input contract、源码 bundle、命令和哈希。
 - 本轮仅完成本地代码、测试和文档；未连接或重算 T141，未安装软件、删除结果、提交或推送。
 
-## 0.1 2026-08-24 audit correction and authority map
+## Historical 0.1 2026-08-24 audit correction and authority map
 
 This section supersedes conflicting numbers or provenance claims in older report
 paragraphs. The canonical Figure 3 source table records `Pseudomonadota=26,850`
@@ -25,10 +43,11 @@ all-hit-neighborhood denominator (`candidate_loci`); it is not a tier1 count and
 not the archaeal patatin subset. The patatin result remains 1,372 loci / 620
 genomes, while the 112,926 tier1 records are a broad patatin-fold candidate set.
 
-Authority is currently split and must be named explicitly: the local working
- tree is an uncommitted audit-repair workspace; GitHub `main` is now at
-`94caa49` with the governance baseline, but is not this local research state; the T141 dated deploy is the only server-side
-source eligible for a future rerun. The audited T141 main manifest currently
+The following paragraph is a historical authority snapshot. The current
+authority is the run-13 section above; GitHub `main` now contains the current
+run-13 documentation. The T141
+dated deploy remains the only server-side source eligible for a future rerun.
+The audited T141 main manifest currently
 hashes to `e991c3bd10a48f8faf9c450f0c17a5a3fb1f0315c256018f0772c5f64f71b2a3`,
 which differs from the older `c4e8...` value printed elsewhere in this file.
 The existing server manifest also lacks the new strict source-bundle and full
@@ -52,7 +71,7 @@ forensics and are not current scheme-A tree evidence.
 
 ---
 
-## 2. 项目状态
+## Historical 2. 方案 A 项目状态与审计记录
 
 - **阶段**：方案 A 候选集、生态分布与位点级基因邻域已在 T141 的隔离运行目录
   `${PHB_REMOTE_ROOT}/PHB_gtdb-ds/runs/20260821_schemeA_03` 完成并固化；建树仍按用户决定暂停。
@@ -65,8 +84,8 @@ forensics and are not current scheme-A tree evidence.
 - **线程上限**：计算任务合计 **≤70**（留 10 核余量）。已同步到
   `pipeline/config/params.yaml`、`05/06/run_pipeline` 脚本默认值。
 
-**版本与运行 provenance（2026-08-27 核对）**：本地 `<LOCAL_WORKSPACE>` 的 `HEAD` 与 GitHub
-`main` 均为 `94caa49`，但本地工作树含未提交修改和未跟踪审计/结果文件；因此本地工作树不等同于
+**历史版本与运行 provenance（2026-08-27 核对）**：本地 `<LOCAL_WORKSPACE>` 的 `HEAD` 与 GitHub
+`main` 当时均为 `94caa49`；该快照已被后续治理提交替代，因此本地工作树不等同于
 GitHub 已发布快照。T141 项目根目录没有 `.git`，主 manifest 的 `git_commit` 为 `null`，不能把该
 运行宣称为某个 Git commit 的产物。dated forensic repair 使用
 `${PHB_REMOTE_ROOT}/PHB_gtdb-ds/deploy/20260821_schemeA/scripts/11_clusters.py`

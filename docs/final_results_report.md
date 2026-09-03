@@ -1,6 +1,6 @@
 # GTDB 全库 PHB 降解基因系统分析 — 结果报告
 
-> 日期：2026-08-16
+> 当前修订：2026-09-03（run-13 结果已替换为当前摘要；历史 Scheme A 数字保留在 §2 供比较）
 > 服务器：T141（<SERVER_HOST>），工作区 ${PHB_REMOTE_ROOT}/PHB_gtdb-ds
 > 数据：GTDB R232 代表基因组（199,923 个，含细菌+古菌，只读）
 > 方法依据：文献调研（PubMed 728 篇 + Europe PMC 全文 + OpenAlex/Web）
@@ -8,6 +8,26 @@
 > **结论边界（重要）**：本文所有“解聚酶/降解基因”指**候选同源蛋白（功能潜力）**，
 > 系 HMM 同源性 + 基序 + 邻域证据。已完成 SignalP6 序列层预测，但仍未经酶活/遗传/表型实验验证；不表述为
 > “功能基因”或“实证发现”。项目状态、数据流契约与待办见 [docs/STATUS.md](STATUS.md)。
+
+## 当前 run-13 摘要
+
+正式 frozen scan `20260901_formal_frozen_scan_13` 已完成（1,000/1,000 任务，60 线程，297 个任务复用父运行输出，
+无失败任务）。registry-threshold 层共有 **6,740,900 条 accepted hits**，核心四家族原始并集为 **147,690 个基因组**。
+
+经过序列验证和 tier 重评分后的严格层为 **38,741 个基因组**（其中 6,578 个含至少两个核心家族）：
+
+| 家族 | tier1 序列 | tier1 基因组 |
+|------|-----------:|-------------:|
+| ePhaZ（curated core） | 5,646 | 5,080 |
+| iPhaZ | 32,226 | 25,564 |
+| OH | 3,570 | 3,446 |
+| ArchPhaZ_hydrolase | 14,571 | 12,469 |
+
+`ePhaZ_broad_discovery`（520,217 条 registry-threshold 蛋白记录）、patatin、BdhA、PhaJ、PhaC 和 phasin
+保持独立的 broad/contextual 层，不加入严格四家族并集。`147,690` 与 `38,741` 是不同处理层级，不能混用，
+也不能直接解释为已验证的 PHB/MCL-PHA 降解表型。详细表见
+`docs/T141_20260901_formal_frozen_scan_13_downstream_status.md` 和
+`docs/T141_20260902_formal_scan13_tier_processing_02_status.md`。
 
 ## 1. 方法摘要
 
@@ -25,7 +45,7 @@ GTDB R232 基因组（199,923 个）
 **家族分类体系**（PhaDED, Knoll 2009, BMC Bioinformatics 10:89）：
 8 超家族 → 38 同源家族，按定位×底物×催化特征划分。
 
-## 2. 核心结果（tier1 严格集）
+## 2. 历史 Scheme A 结果（保留用于可比性，不是 run-13 当前数字）
 
 ### 2.1 家族计数
 

@@ -39,6 +39,11 @@
 
 ## 4. 运行记录
 
+当前权威运行是 `20260901_formal_frozen_scan_13` 及其下游处理
+`20260902_formal_scan13_tier_processing_02`。run-13 已完成 1,000/1,000 任务，使用 60 线程，
+并复用父运行 297 个任务输出；严格四家族并集为 38,741 个基因组。原始 HMMER 输出仍保留在服务器侧，
+不作为 GitHub 仓库文件发布。
+
 - 预测日志：`results/logs/predict_full.log`
 - 筛选日志：`results/logs/screen_{family}.log`
 - 各步关键命令见 `pipeline/README_HPC.md`。
@@ -51,12 +56,12 @@
 
 ### 4.1 代码、部署与 manifest 边界
 
-Publication check (2026-08-27): GitHub `main` is `94caa49`, while this local
-working tree still contains unpublished research changes. Older commit references
-below describe historical audit snapshots and are not the current GitHub revision.
+Publication check (2026-09-03): GitHub `main` and the local tree were checked together
+for this documentation release. Older commit references below describe historical
+audit snapshots and are not the current revision.
 
-本地 `<LOCAL_WORKSPACE>` 与 GitHub `main` 当前均为 `94caa49`，但本地工作树有未提交修改和未跟踪
-审计/结果文件。T141 项目根目录没有 `.git`，主 manifest 的 `git_commit` 为 `null`，因此该清单
+本地 `<LOCAL_WORKSPACE>` 与 GitHub `main` 在本次文档发布前已核对一致；运行目录和大体量结果仍是机器本地产物。
+T141 项目根目录没有 `.git`，run-13 manifest 的源码绑定需以其 input contract 为准，因此该清单
 并未绑定到 Git 源码快照。dated forensic repair 使用
 `${PHB_REMOTE_ROOT}/PHB_gtdb-ds/deploy/20260821_schemeA/scripts/11_clusters.py`
 （SHA-256 `d1d907f34a5c1fbe17aee538a3ca087de8e809f5c03286b6384a22347d994d2c`）；服务器根目录

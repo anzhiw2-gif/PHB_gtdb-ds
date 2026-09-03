@@ -1,8 +1,8 @@
 # PHB_gtdb-ds — GTDB 全库 PHB 降解基因系统生信分析
 
-> Audit correction (2026-08-24): Figure 3 source data records `Pseudomonadota=26,850` genomes; the older 26,855 value is superseded. Figure 5 uses an all-hit neighborhood `candidate_loci` denominator, not a tier1 or archaeal patatin denominator. The local tree remains an uncommitted audit workspace beyond the governance baseline; GitHub `main` now includes governance commit `75c7c5b` and CI correction `94caa49`. See `docs/STATUS.md` for the authority map and stale-tree gates.
+> Current snapshot (reviewed 2026-09-03): formal frozen scan 13 and its downstream tier processing are complete. Run-13 results are candidate homology evidence, not phenotype validation. See `docs/STATUS.md` for the authority map.
 
-> Publication check (2026-08-27): GitHub `main` is `94caa49`; it contains the governance baseline and CI correction, while local uncommitted research changes remain unpublished.
+> Historical Scheme A values remain in the reports for comparability. They must not be mixed with the run-13 frozen split registry or strict tier results.
 
 > Public repository guide: see [docs/PUBLIC_REPOSITORY_GUIDE.md](docs/PUBLIC_REPOSITORY_GUIDE.md) for environment-variable configuration and the sensitive-data boundary.
 
@@ -14,17 +14,18 @@
 > **项目单一状态页见 [docs/STATUS.md](docs/STATUS.md)**：结论边界措辞、数据流契约、
 > 线程上限、树状态与待办均以该页为准；本 README 仅作摘要。
 
-**当前为本地审计修复工作树，包含尚未发布的科研改动。**本地治理基线与 GitHub `main` 均为
-`94caa49`，但本地仍有未提交修改和未跟踪审计/结果文件；核心候选集统计可由本地最终 tier 表复算，
-下游生态、基因邻域和系统树的可用性以 `docs/STATUS.md` 的审计状态为准。T141 项目根目录没有
-`.git`，主运行 manifest 的 `git_commit=null`；T141 manifest 当前 SHA-256 为
-`e991c3bd10a48f8faf9c450f0c17a5a3fb1f0315c256018f0772c5f64f71b2a3`，不能将其当作 GitHub 快照的
-直接产物。
+**当前发布快照**为 GitHub `main`（审阅日期：2026-09-03）。正式 frozen scan 13 已完成，运行目录和原始
+HMMER 输出保留在服务器侧；公开仓库只保留轻量结果、模型、脚本和可复现契约。当前运行证据与
+严格 tier 结果见 `docs/CURRENT_STATUS_20260902.md` 和 `docs/T141_20260902_formal_scan13_tier_processing_02_status.md`。
 
 - **9 家族 HMM 全库筛选**（HMMER 3.4，E<1e-5），覆盖胞内/胞外解聚酶、寡聚体
   水解酶、古菌 patatin/经典酯酶 + 背景代谢（BdhA）+ 辅助家族（PhaJ/phasin/PhaC）。
-- **tier1 严格集 ~75,650 条解聚酶序列 / 去重 44,814 基因组（22.4%，不含广谱 patatin）**，
-  其中 ePhaZ 38,692、iPhaZ 32,926、OH 1,429、ArchPhaZ_hydrolase 1,292。
+- **run-13 原始 registry 命中**：6,740,900 条 accepted hits，核心四家族（ePhaZ 合并 curated/broad、
+  iPhaZ、OH、ArchPhaZ_hydrolase）并集为 **147,690 个基因组**。这是阈值命中层，不是 tier1。
+- **run-13 严格 tier1**：38,741 个基因组；6,578 个基因组含至少两个核心家族。各家族为：
+  ePhaZ curated 5,080、iPhaZ 25,564、OH 3,446、ArchPhaZ_hydrolase 12,469 个基因组。
+- 严格 tier1 序列数分别为 ePhaZ 5,646、iPhaZ 32,226、OH 3,570、ArchPhaZ_hydrolase 14,571；
+  ePhaZ broad discovery 520,217 条蛋白记录保持独立，不晋升为严格 tier1。
 - **古菌谱系检出 PHB 降解相关候选同源蛋白**（功能潜力，非实证）：核心解聚酶
   （ePhaZ/经典酯酶）候选在 Halobacteriota（112 基因组）、Thermoproteota（32）、
   Thermoplasmatota（154）检出。**注意**：patatin 折叠蛋白（古菌子集 620 基因组）
@@ -39,7 +40,7 @@
 不能混用。
 
 树状态：OH 旧输入树为 `stale_input`，ePhaZ CD-HIT 树为 `input_not_registered`；ePhaZ/iPhaZ
-全量树和 HGT 检测尚未完成，不能把现有抽样/历史树写成完整系统发育证据。
+全量树和 HGT 检测仍暂停，不能把现有抽样/历史树写成完整系统发育证据。
 
 详见 [docs/final_results_report.md](docs/final_results_report.md)。
 
@@ -89,22 +90,25 @@ bash pipeline/scripts/run_pipeline.sh --legacy-root-results
 
 `input_contract.json` 记录 GTDB taxonomy、metadata、tree、全部 HMM、
 `environment.yml` 和 `pipeline/config/params.yaml` 的路径、大小和 SHA-256。
-缺失 GTDB 文件标记为 `pending`，不生成占位哈希；本轮未启动 T141 重算。
+缺失 GTDB 文件标记为 `pending`，不生成占位哈希。run-13 的输入契约已记录 GTDB R232
+taxonomy/metadata/tree 与模型哈希；原始 GTDB 数据不进入 Git。
 
-1. 环境：`conda env create -f environment.yml`（服务器 T141 已就绪 `phb_gtdb`）。
+1. 环境：`conda env create -f environment.yml`。
 2. 参数：`pipeline/config/params.yaml`；数据溯源见 `docs/reproducibility.md`。
 3. 流程：按 `pipeline/README_HPC.md` 的脚本顺序执行。
 4. 结果同步：`bash pipeline/sync_from_server.sh`（需服务器 SSH 访问）。
 
-## 待完成
+## 当前待办
 
 - [x] 生态元数据（isolation source）关联（`10_distribution.py`，已完成）
 - [x] 用最终方案 A 输入完成 dated patatin 位点级 ±flank_kb 基因簇共定位（80 批）；Figure 5 仍是 all-hit 邻域层，古菌 patatin 子集需另行按 1,372 loci / 620 genomes 汇总，旧 `cluster_summary.tsv` 不作为最终计数依据
 - [x] ePhaZ SignalP 胞外/胞内细分（详见 `docs/STATUS.md`）
 - [x] ~~patatin 用 PhaZh1 专属种子重建 HMM~~（已判定不可行：patatin 催化域序列高度保守，
       同源法无法区分；以 ±10kb 基因簇共定位为判据，见 STATUS.md §5）
-- [ ] 清理种子库（剔真核 BDH1/BDH2、尼龙水解酶 nylB/nylC）
-- [ ] 整理成论文 / 发布 HMM profiles + 命中表（GitHub + Zenodo DOI）
+- [x] 完成 run-13 全库 HMM 扫描及严格 tier1 下游处理（见上述状态文档）
+- [ ] 复核 run-13 strict/broad/contextual 分层结果并决定论文统计口径
+- [ ] 重建并登记使用当前输入的 OH 树；全量 ePhaZ/iPhaZ 树和 HGT 仍暂停
+- [ ] 整理成论文；发布 HMM profiles + 轻量命中表（GitHub Release + Zenodo DOI）
 
 ## License
 

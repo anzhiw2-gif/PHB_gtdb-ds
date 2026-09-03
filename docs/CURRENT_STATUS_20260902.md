@@ -1,4 +1,6 @@
-# PHB_gtdb-ds Current Status (2026-09-02)
+# PHB_gtdb-ds Current Status (2026-09-02; reviewed 2026-09-03)
+
+Repository snapshot: GitHub `main` (reviewed 2026-09-03).
 
 This file supersedes stale running-state statements in older audit snapshots. Historical reports and runs are retained for provenance.
 
@@ -36,10 +38,10 @@ Retain the current production registry unchanged. The MCL candidate work recover
 - `PhaJ`, `phasin`, and `PhaC`: contextual/auxiliary markers, not standalone degradation calls.
 - `BdhA`: background metabolism family, excluded from core depolymerase counts.
 
-## Remaining work
+## Follow-up work
 
 1. Completed run-13 downstream tier processing in `20260902_formal_scan13_tier_processing_02`; strict four-family union is 38,741 genomes. See `docs/T141_20260902_formal_scan13_tier_processing_02_status.md`.
-2. Replace stale run-12 `running` statements in older snapshots with links to this status file; do not rewrite historical evidence.
+2. Historical run-12 snapshots are marked as launch-time records; keep them for provenance and use this file for current status.
 3. Keep tree/HGT work paused until the relevant inputs are rebuilt and registered.
 4. Prepare publication outputs only after scan-13 downstream results are reviewed.
 
