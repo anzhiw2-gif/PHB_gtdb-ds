@@ -226,5 +226,5 @@ Pfam 对应条目：[K09] 指出 PHA 解聚酶对应 **PF10503**（Esterase PHB 
 
 ---
 
-*输出文件：D:\PHB_gtdb-ds\research\europepmc\comp_classification.md*
+*输出文件：<LOCAL_WORKSPACE>\research\europepmc\comp_classification.md*
 *配套原始全文：comp_ft_knoll_phaded.txt/xml、comp_ft_biodeg_current.txt、comp_ft_phb_mech_2026.txt、comp_ft_mclpha_lid.txt、comp_ft_thermophile_phb.txt、comp_ft_haloarchaea_pha.txt、comp_ft_archaeal_energy.txt、comp_ft_enoyl_hfx.txt、comp_ft_reutropha_phaz.txt/xml、ft_biodegradability_pha_review.txt（本地既有）*

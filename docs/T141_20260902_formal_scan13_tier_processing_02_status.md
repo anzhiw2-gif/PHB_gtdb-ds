@@ -2,7 +2,7 @@
 
 Run: `20260902_formal_scan13_tier_processing_02`
 Parent: `20260901_formal_frozen_scan_13`
-Deploy: `/home/data/haoyu/PHB_gtdb-ds/deploy/20260902_formal_scan13_tier_processing_02/`
+Deploy: `${PHB_REMOTE_ROOT}/PHB_gtdb-ds/deploy/20260902_formal_scan13_tier_processing_02/`
 
 ## Completion
 

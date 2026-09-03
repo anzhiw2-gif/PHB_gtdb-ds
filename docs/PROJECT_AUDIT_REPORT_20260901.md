@@ -1,7 +1,9 @@
 # PHB_gtdb-ds 项目综合审计报告
 
+> **历史快照（2026-09-01）**：本文记录当日 run-12 尚在运行时的状态，不能代表当前运行结论。当前权威状态见 [CURRENT_STATUS_20260902.md](CURRENT_STATUS_20260902.md)；原始证据保留用于追溯。
+
 **审计截止时间：** 2026-09-01（Asia/Shanghai）
-**项目：** `PHB_gtdb-ds`  ︱ **远端主机：** `haoyu@10.16.1.141`  ︱ **GitHub：** `anzhiw2-gif/PHB_gtdb-ds`
+**项目：** `PHB_gtdb-ds`  ︱ **远端主机：** `<SERVER_USER>@<SERVER_HOST>`  ︱ **GitHub：** `anzhiw2-gif/PHB_gtdb-ds`
 
 > 本报告是基于当前本地工作树、Git 引用、T141 dated deploy/run、输入契约、模型注册表和已有科研状态文档形成的审计快照。大规模 GTDB 原始蛋白数据保留在 T141，不复制进 Git；其完整性以分片 SHA-256 清单为证据。报告中的 HMM、domain、SignalP、邻域和树结果均表示候选同源或功能潜力，不等同于已验证 PHB 降解表型。
 
@@ -25,10 +27,10 @@
 
 ### 2.1 当前权威来源
 
-1. **本地工作树：** `D:\PHB_gtdb-ds`。当前包含尚未提交的科研改动和运行归档，不能视为 GitHub 已发布版本。
+1. **本地工作树：** `<LOCAL_WORKSPACE>`。当前包含尚未提交的科研改动和运行归档，不能视为 GitHub 已发布版本。
 2. **GitHub：** `origin/main` 指向 `aa47d50d045af3249f38d758bb9cd1fd68d4a384`，只代表已推送治理基线，不包含当前本地全部科研改动。
 3. **服务器执行源：** 只能使用 dated `deploy/<run_id>/`；当前正式扫描使用 `deploy/20260831_formal_frozen_scan_12/`。
-4. **服务器运行证据：** `/home/data/haoyu/PHB_gtdb-ds/runs/20260831_formal_frozen_scan_12/`。原始 GTDB 蛋白分片不进入 Git。
+4. **服务器运行证据：** `${PHB_REMOTE_ROOT}/PHB_gtdb-ds/runs/20260831_formal_frozen_scan_12/`。原始 GTDB 蛋白分片不进入 Git。
 
 ### 2.2 运行目录约束
 
@@ -167,7 +169,7 @@ PASS
 
 **Run：** `20260831_formal_frozen_scan_12`
 **Deploy：** `deploy/20260831_formal_frozen_scan_12/`
-**服务器目录：** `/home/data/haoyu/PHB_gtdb-ds/runs/20260831_formal_frozen_scan_12/`
+**服务器目录：** `${PHB_REMOTE_ROOT}/PHB_gtdb-ds/runs/20260831_formal_frozen_scan_12/`
 **查询时间：** 2026-09-01 00:11（T141 本地时间）
 
 当前只读快照：

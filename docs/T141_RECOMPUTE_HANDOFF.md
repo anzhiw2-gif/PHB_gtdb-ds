@@ -8,7 +8,7 @@
 
 ## 执行前门禁
 
-1. 在 `/home/data/haoyu/PHB_gtdb-ds` 确认实际脚本为服务器的扁平 `scripts/` 结构；不要把本地
+1. 在 `${PHB_REMOTE_ROOT}/PHB_gtdb-ds` 确认实际脚本为服务器的扁平 `scripts/` 结构；不要把本地
    `pipeline/scripts/` 的根路径规则直接复制过去。
 2. 记录服务器 `scripts/`、`data/hmms/v2/`、最终 `data/screen/hits_filtered.tsv`、四个 tier1 FASTA
    以及 GTDB taxonomy/metadata 文件的 SHA-256、路径、大小和修改时间。

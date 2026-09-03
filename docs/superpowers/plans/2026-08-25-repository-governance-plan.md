@@ -25,7 +25,7 @@
 
 - [x] Verify the exact tracked target with `git ls-files .playwright-cli`.
 - [x] Remove the tracked snapshots with `git rm -r .playwright-cli`.
-- [x] Archive local logs at `D:\PHB_gtdb-ds-archive\playwright-cli_20260825` and verify no working-tree `.playwright-cli` files remain.
+- [x] Archive local logs at `<LOCAL_ARCHIVE>\playwright-cli_20260825` and verify no working-tree `.playwright-cli` files remain.
 
 ### Task 2: Harden GitHub Actions checks
 

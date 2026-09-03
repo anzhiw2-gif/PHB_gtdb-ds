@@ -1,7 +1,7 @@
 # T141 20260828 seed-clean run status
 
-- Run: `/home/data/haoyu/PHB_gtdb-ds/runs/20260828_seedclean_07/`
-- Deploy: `/home/data/haoyu/PHB_gtdb-ds/deploy/20260828_seedclean_07/`
+- Run: `${PHB_REMOTE_ROOT}/PHB_gtdb-ds/runs/20260828_seedclean_07/`
+- Deploy: `${PHB_REMOTE_ROOT}/PHB_gtdb-ds/deploy/20260828_seedclean_07/`
 - Scope: recovered three missing `ArchPhaZ_patatin` accessions, removed 18 known non-depolymerase controls, rebuilt nine HMMs, and calibrated `ePhaZ`, `iPhaZ`, and `OH`.
 
 ## Evidence

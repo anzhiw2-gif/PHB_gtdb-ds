@@ -2,7 +2,7 @@
 
 Date: 2026-09-02
 Run: `20260901_formal_frozen_scan_13`
-Raw evidence: `/home/data/haoyu/PHB_gtdb-ds/runs/20260901_formal_frozen_scan_13/results/`
+Raw evidence: `${PHB_REMOTE_ROOT}/PHB_gtdb-ds/runs/20260901_formal_frozen_scan_13/results/`
 Derived outputs: `results/downstream_20260902/`
 
 Downstream script: `deploy/20260901_formal_frozen_scan_13/scripts/summarize_formal_scan13.py`

@@ -1,8 +1,8 @@
 # PHB_gtdb-ds — 服务器分析工作区说明
 
-> 工作区：`/home/data/haoyu/PHB_gtdb-ds`（服务器 T141, 10.16.1.141）
+> 工作区：通过 `PHB_REPO_ROOT` 配置（远程主机信息不写入仓库）
 > 边界：**工作区外（~/GTDB、~/PHB_gtdb 等）只读，不修改**
-> 数据：GTDB R232 代表基因组（只读，`~/GTDB/gtdb_genomes_reps_r232`）
+> 数据：GTDB R232 代表基因组（只读，通过 `PHB_GTDB_ROOT` 配置）
 > 环境：`conda activate phb_gtdb`（HMMER 3.4 / DIAMOND 2.2.1 / Pyrodigal 3.7.1 /
 >        MAFFT / trimAl / IQ-TREE / CD-HIT / GNU parallel）
 > 环境定义：`environment.yml`（本仓库根目录）

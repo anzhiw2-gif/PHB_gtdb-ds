@@ -1,3 +1,3 @@
-
-Error: HMM PF01734 not found in SSI index for file /home/data/haoyu//GTDB/pfam/Pfam-A.hmm.h3m
-
+# PF01734 retrieval artifact: no model is distributed in this repository.
+# Retrieve Pfam PF01734 from an independently configured Pfam installation and
+# record its version and SHA-256 in the run input contract before use.

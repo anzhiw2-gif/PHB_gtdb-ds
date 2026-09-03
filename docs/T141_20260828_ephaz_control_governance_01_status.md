@@ -2,7 +2,7 @@
 
 日期：2026-08-28
 run：`20260828_ephaz_control_governance_01`
-服务器：`haoyu@10.16.1.141`
+服务器：`<SERVER_USER>@<SERVER_HOST>`
 
 ## 本轮决策
 

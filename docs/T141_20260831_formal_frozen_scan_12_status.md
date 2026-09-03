@@ -1,10 +1,12 @@
 # T141 Formal Frozen Scan 12
 
+> **历史启动快照**：本页记录 run-12 启动时的状态。后续完成情况以 [CURRENT_STATUS_20260902.md](CURRENT_STATUS_20260902.md) 和 run-13 文档为准。
+
 ## Launch
 
 - Run ID: `20260831_formal_frozen_scan_12`
 - Deploy: `deploy/20260831_formal_frozen_scan_12/`
-- Server run: `/home/data/haoyu/PHB_gtdb-ds/runs/20260831_formal_frozen_scan_12/`
+- Server run: `${PHB_REMOTE_ROOT}/PHB_gtdb-ds/runs/20260831_formal_frozen_scan_12/`
 - Status at launch: running
 - Launch mode: detached `setsid`, one HMMER process per model/shard
 

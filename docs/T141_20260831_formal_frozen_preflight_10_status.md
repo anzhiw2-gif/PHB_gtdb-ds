@@ -4,7 +4,7 @@
 
 - Run ID: `20260831_formal_frozen_preflight_10`
 - Deploy: `deploy/20260831_formal_frozen_preflight_10/`
-- Server run: `/home/data/haoyu/PHB_gtdb-ds/runs/20260831_formal_frozen_preflight_10/`
+- Server run: `${PHB_REMOTE_ROOT}/PHB_gtdb-ds/runs/20260831_formal_frozen_preflight_10/`
 - Status: `planned_not_run`
 - Executed: 2026-08-31 (Asia/Shanghai; manifest UTC `2026-08-30T16:34:28Z`)
 

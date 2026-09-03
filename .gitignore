@@ -52,6 +52,16 @@ Thumbs.db
 .idea/
 .vscode/
 
+# ===== Local credentials and environment overrides =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.ssh/
+
 # ===== Machine-local run/deploy artifacts =====
 # Add compact reports/manifests explicitly with git add -f when needed.
 runs/

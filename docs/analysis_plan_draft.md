@@ -1,6 +1,6 @@
 # GTDB PHB 降解基因系统生信分析 — 流程设计（v0.4，执行中）
 
-> 状态：v0.4。2026-06-01 已进入实际执行阶段（服务器 T141, 10.16.1.141）。
+> 状态：v0.4。2026-06-01 已进入实际执行阶段（服务器 T141, <SERVER_HOST>）。
 > 完整文献依据见 docs/literature_survey_report.md；服务器部署说明见
 > pipeline/README_HPC.md；参数见 pipeline/config/params.yaml。
 
@@ -110,13 +110,13 @@
 
 ## 10. 环境评估（2026-06-01 实测）
 
-当前 Windows 工作机（D:\PHB_gtdb-ds）：
+当前 Windows 工作机（<LOCAL_WORKSPACE>）：
 - ✅ 可用：Python 3.12（含 ete3）、uv、PowerShell
 - ❌ 未安装：HMMER(hmmsearch/hmmbuild)、MAFFT、DIAMOND、Prodigal、IQ-TREE2、
   CD-HIT、MMseqs2、trimal、Snakemake、SignalP、ClustalO
 - ❌ WSL 未安装（wsl.exe --install 可启用）
 
-对策（用户已选定）：**远程 Linux/HPC（T141: 10.16.1.141）**
+对策（用户已选定）：**远程 Linux/HPC（T141: <SERVER_HOST>）**
 - 服务器：Ubuntu 24.04, 80 核, 1TB 内存, 82TB 可用磁盘
 - conda 环境 phb_gtdb：HMMER 3.4 / DIAMOND 2.2.1 / Pyrodigal 3.7.1 /
   MAFFT / trimAl / IQ-TREE / CD-HIT / GNU parallel

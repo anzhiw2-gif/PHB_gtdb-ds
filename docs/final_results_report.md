@@ -1,7 +1,7 @@
 # GTDB 全库 PHB 降解基因系统分析 — 结果报告
 
 > 日期：2026-08-16
-> 服务器：T141（10.16.1.141），工作区 /home/data/haoyu/PHB_gtdb-ds
+> 服务器：T141（<SERVER_HOST>），工作区 ${PHB_REMOTE_ROOT}/PHB_gtdb-ds
 > 数据：GTDB R232 代表基因组（199,923 个，含细菌+古菌，只读）
 > 方法依据：文献调研（PubMed 728 篇 + Europe PMC 全文 + OpenAlex/Web）
 >

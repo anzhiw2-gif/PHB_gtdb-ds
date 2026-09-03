@@ -2,11 +2,11 @@
 # T141 scheme-A rerun in an isolated run directory. Existing results are read-only.
 set -Eeuo pipefail
 
-SOURCE_ROOT="/home/data/haoyu/PHB_gtdb-ds"
+SOURCE_ROOT="${PHB_SOURCE_ROOT:?set PHB_SOURCE_ROOT to the immutable source root}"
 RUN_ROOT="${1:?usage: rerun_candidates_audited.sh RUN_ROOT [--preflight-only]}"
 MODE="${2:-run}"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PY="/home/data/haoyu/miniconda3/envs/phb_gtdb/bin/python"
+PY="${PHB_PYTHON:-python}"
 FAMILIES="ePhaZ iPhaZ OH BdhA ArchPhaZ_patatin ArchPhaZ_hydrolase PhaJ phasin PhaC"
 CORE_FAMILIES="ePhaZ iPhaZ OH ArchPhaZ_patatin ArchPhaZ_hydrolase"
 LOG="$RUN_ROOT/results/logs/rerun_candidates.log"
@@ -30,8 +30,10 @@ link_input "$SOURCE_ROOT/data/screen/hmmsearch" "$RUN_ROOT/data/screen/hmmsearch
 link_input "$SOURCE_ROOT/data/hmms" "$RUN_ROOT/data/hmms"
 cd "$RUN_ROOT"
 
-source /home/data/haoyu/miniconda3/etc/profile.d/conda.sh
-conda activate phb_gtdb
+if [ -n "${PHB_CONDA_SH:-}" ]; then
+    source "$PHB_CONDA_SH"
+    conda activate "${PHB_CONDA_ENV:-phb_gtdb}"
+fi
 
 record_step() {
     local name="$1" note="$2" rc="$3"
@@ -131,13 +133,13 @@ run_step tier_summary "derive tier1 genome-family and phylum tables" \
 run_step distribution "recompute taxonomy and ecology tables" \
     "$PY" "$SCRIPT_DIR/10_distribution.py" \
     --hits data/screen/genome_hits.tsv \
-    --taxonomy /home/data/haoyu/GTDB/taxonomy/bac120_taxonomy_r232.tsv \
-    --metadata /home/data/haoyu/GTDB/metadata/bac120_metadata_r232.tsv.gz \
+    --taxonomy "${PHB_GTDB_TAXONOMY:?set PHB_GTDB_TAXONOMY}" \
+    --metadata "${PHB_GTDB_METADATA:?set PHB_GTDB_METADATA}" \
     --outdir results
 run_step clusters "recompute locus-level neighborhoods" \
     "$PY" "$SCRIPT_DIR/11_clusters.py" \
     --hits data/screen/hits_filtered.tsv --marker-hmms data/hmms/v2 \
-    --gtdb /home/data/haoyu/GTDB/gtdb_genomes_reps_r232/database \
+    --gtdb "${PHB_GTDB_ROOT:?set PHB_GTDB_ROOT}" \
     --outdir results --workdir data/cluster_work --flank-kb 10 --threads 40 --max-genomes 0
 
 STEP_STARTED=$(date -u +%FT%TZ)

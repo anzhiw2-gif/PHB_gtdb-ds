@@ -1,8 +1,8 @@
 # PHA/PHB 降解酶数据库家族体系与古菌 PHA 降解文献调研报告
 
 > 生成日期：2025 年（本报告由 OpenAlex 检索 + web 检索综合而成）
-> 检索工具：OpenAlex CLI（`literature-search-openalex` skill，脚本 `C:\Users\HUAWEI\.agents\skills\literature-search-openalex\scripts\openalex_cli.py`）+ web_search
-> OpenAlex 原始数据文件：`D:\PHB_gtdb-ds\research\openalex\comp_search*.json`、`comp_work_*.json`
+> 检索工具：OpenAlex CLI（`literature-search-openalex` skill，脚本 `<LOCAL_USER_HOME>\.agents\skills\literature-search-openalex\scripts\openalex_cli.py`）+ web_search
+> OpenAlex 原始数据文件：`<LOCAL_WORKSPACE>\research\openalex\comp_search*.json`、`comp_work_*.json`
 
 ---
 
@@ -260,4 +260,4 @@ Level 2: 家族层（参照 PhaDED 38 家族 + TIGRFAM/ESTHER）
 
 ---
 
-*OpenAlex 检索结果 JSON 存于 `D:\PHB_gtdb-ds\research\openalex\comp_search1..7_*.json` 与 `comp_work_*.json`（14 篇关键论文全文元数据+摘要）。所有检索均遵循 OpenAlex skill 规则（resolve→filter、--select 精简、不伪造 ID/DOI）。*
+*OpenAlex 检索结果 JSON 存于 `<LOCAL_WORKSPACE>\research\openalex\comp_search1..7_*.json` 与 `comp_work_*.json`（14 篇关键论文全文元数据+摘要）。所有检索均遵循 OpenAlex skill 规则（resolve→filter、--select 精简、不伪造 ID/DOI）。*

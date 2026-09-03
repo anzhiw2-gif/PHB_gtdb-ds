@@ -3,9 +3,9 @@
   "run_id": "20260902_oh_arch_aux_audit_01",
   "status": "completed_candidate_only",
   "purpose": "Read-only audit and candidate tiering for OH, ArchPhaZ_hydrolase, PhaJ, BdhA, phasin, and PhaC",
-  "parent_run": "/home/data/haoyu/PHB_gtdb-ds/runs/20260901_formal_frozen_scan_13",
-  "raw_hits": "/home/data/haoyu/PHB_gtdb-ds/runs/20260901_formal_frozen_scan_13/results/hits_all.tsv",
-  "strict_tier_table": "/home/data/haoyu/PHB_gtdb-ds/runs/20260902_formal_scan13_tier_processing_02/results/tables/tier1_genome_family.tsv",
+  "parent_run": "${PHB_REMOTE_ROOT}/PHB_gtdb-ds/runs/20260901_formal_frozen_scan_13",
+  "raw_hits": "${PHB_REMOTE_ROOT}/PHB_gtdb-ds/runs/20260901_formal_frozen_scan_13/results/hits_all.tsv",
+  "strict_tier_table": "${PHB_REMOTE_ROOT}/PHB_gtdb-ds/runs/20260902_formal_scan13_tier_processing_02/results/tables/tier1_genome_family.tsv",
   "registry": "pipeline/config/formal_scan_models.tsv",
   "hmm_hashes": {
     "OH": "037fc34b135b720e483710a397bbd120075e541d69b0e3352986e07a23a6875a",

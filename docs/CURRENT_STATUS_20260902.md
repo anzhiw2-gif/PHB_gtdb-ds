@@ -12,7 +12,7 @@ This file supersedes stale running-state statements in older audit snapshots. Hi
 
 ## Formal scan 13 acceptance
 
-Evidence: `/home/data/haoyu/PHB_gtdb-ds/runs/20260901_formal_frozen_scan_13/`.
+Evidence: `${PHB_REMOTE_ROOT}/PHB_gtdb-ds/runs/20260901_formal_frozen_scan_13/`.
 
 - `scan_manifest.json`: `status=completed`
 - 60 threads; 1000/1000 tasks completed; 297 tasks reused from the parent run

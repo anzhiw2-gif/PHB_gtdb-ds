@@ -2,7 +2,7 @@
 
 日期：2026-08-29
 run：`20260829_ephaz_ambiguous_sampling_01`
-服务器：`haoyu@10.16.1.141`
+服务器：`<SERVER_USER>@<SERVER_HOST>`
 
 ## 范围与方法
 

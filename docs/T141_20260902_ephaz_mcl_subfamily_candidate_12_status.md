@@ -2,7 +2,7 @@
 
 日期：2026-09-02
 运行：`20260902_ephaz_mcl_subfamily_candidate_12`
-服务器：`haoyu@10.16.1.141`
+服务器：`<SERVER_USER>@<SERVER_HOST>`
 软件：`MAFFT 7.525`、`HMMER 3.4`，`--thread/--cpu 60`
 
 ## 结果

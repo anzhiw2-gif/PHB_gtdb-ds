@@ -5,9 +5,9 @@
 # 用法: nohup bash scripts/rerun_candidates.sh > results/logs/rerun_candidates.log 2>&1 &
 set -euo pipefail
 
-ROOT="/home/data/haoyu/PHB_gtdb-ds"
+ROOT="${PHB_REPO_ROOT:?set PHB_REPO_ROOT}"
 cd "$ROOT"
-PY=~/miniconda3/envs/phb_gtdb/bin/python
+PY="${PHB_PYTHON:-python}"
 LOG="results/logs/rerun_candidates.log"
 mkdir -p results/logs
 

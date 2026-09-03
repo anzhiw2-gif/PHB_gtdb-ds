@@ -4,6 +4,8 @@
 
 > Publication check (2026-08-27): GitHub `main` is `94caa49`; it contains the governance baseline and CI correction, while local uncommitted research changes remain unpublished.
 
+> Public repository guide: see [docs/PUBLIC_REPOSITORY_GUIDE.md](docs/PUBLIC_REPOSITORY_GUIDE.md) for environment-variable configuration and the sensitive-data boundary.
+
 基于 GTDB（Genome Taxonomy Database）R232 全基因组集合（199,923 个代表基因组，
 含细菌+古菌）对 PHB（聚羟基丁酸酯）降解基因的系统筛查与生态/分类学分析。
 

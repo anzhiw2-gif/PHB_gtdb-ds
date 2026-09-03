@@ -1,13 +1,13 @@
 # PHB_gtdb-ds 分析参数配置
-# 服务器: T141 (10.16.1.141), 工作区: /home/data/haoyu/PHB_gtdb-ds
+# 远程执行环境通过 PHB_* 环境变量注入；本文件不包含主机或个人路径。
 # 环境: conda activate phb_gtdb
 
 # ============ 数据源（只读） ============
 gtdb:
-  root: "~/GTDB/gtdb_genomes_reps_r232/database"   # 基因组（.fna.gz, 199,923 个）
-  metadata: "~/GTDB/metadata/bac120_metadata_r232.tsv.gz"
-  taxonomy: "~/GTDB/taxonomy/bac120_taxonomy_r232.tsv"
-  tree: "~/GTDB/GTDB_tree/bac120_r232.tree"
+  root: "${PHB_GTDB_ROOT}"   # 通过环境变量注入
+  metadata: "${PHB_GTDB_METADATA}"
+  taxonomy: "${PHB_GTDB_TAXONOMY}"
+  tree: "${PHB_GTDB_TREE}"
   release: "R232"
 
 # ============ 种子与 HMM ============

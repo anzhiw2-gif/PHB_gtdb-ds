@@ -3,9 +3,9 @@
 # 输出: results/signalp/ePhaZ/prediction_results.txt + 统计摘要
 # 用法: bash signalp_ePhaZ.sh [MAX]   # MAX>0 时只取前 MAX 条（测速用）；0=全部
 set -euo pipefail
-cd /home/data/haoyu/PHB_gtdb-ds
-SIG=~/miniconda3/envs/signalp6/bin/signalp6
-PY=~/miniconda3/envs/phb_gtdb/bin/python
+cd "${PHB_REPO_ROOT:?set PHB_REPO_ROOT}"
+SIG="${SIGNALP6_BIN:-signalp6}"
+PY="${PHB_PYTHON:-python}"
 IN=data/screen/tiers/ePhaZ_tier1.faa
 MAX=${1:-0}
 OUT=results/signalp/ePhaZ

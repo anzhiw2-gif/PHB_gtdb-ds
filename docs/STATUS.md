@@ -55,21 +55,21 @@ forensics and are not current scheme-A tree evidence.
 ## 2. 项目状态
 
 - **阶段**：方案 A 候选集、生态分布与位点级基因邻域已在 T141 的隔离运行目录
-  `/home/data/haoyu/PHB_gtdb-ds/runs/20260821_schemeA_03` 完成并固化；建树仍按用户决定暂停。
+  `${PHB_REMOTE_ROOT}/PHB_gtdb-ds/runs/20260821_schemeA_03` 完成并固化；建树仍按用户决定暂停。
 - **可复算的核心统计**：四家族去重值 **44,814 基因组 / 22.416%**（方案 A 的 OH `min-cov 0.6` 口径；已从本地最终 tier 表复算）。
 - **运行验收**：T141 隔离运行的 `run_manifest.json` 含 11 个成功步骤；18 个输入和 18 个输出均非空且
   SHA-256 校验一致。当前文件实际 SHA-256 为
   `e991c3bd10a48f8faf9c450f0c17a5a3fb1f0315c256018f0772c5f64f71b2a3`；此前记录的
   `c4e8c73bc81e3085cfbd67a0f2ef5f153fbfc6f35a8508239b582cb06c833a7f` 已标记为过时，不能继续作为当前 manifest 哈希。
-- **服务器**：T141（10.16.1.141），80 核 / 1TB 内存；当前无运行中任务。
+- **服务器**：T141（<SERVER_HOST>），80 核 / 1TB 内存；当前无运行中任务。
 - **线程上限**：计算任务合计 **≤70**（留 10 核余量）。已同步到
   `pipeline/config/params.yaml`、`05/06/run_pipeline` 脚本默认值。
 
-**版本与运行 provenance（2026-08-27 核对）**：本地 `D:\PHB_gtdb-ds` 的 `HEAD` 与 GitHub
+**版本与运行 provenance（2026-08-27 核对）**：本地 `<LOCAL_WORKSPACE>` 的 `HEAD` 与 GitHub
 `main` 均为 `94caa49`，但本地工作树含未提交修改和未跟踪审计/结果文件；因此本地工作树不等同于
 GitHub 已发布快照。T141 项目根目录没有 `.git`，主 manifest 的 `git_commit` 为 `null`，不能把该
 运行宣称为某个 Git commit 的产物。dated forensic repair 使用
-`/home/data/haoyu/PHB_gtdb-ds/deploy/20260821_schemeA/scripts/11_clusters.py`
+`${PHB_REMOTE_ROOT}/PHB_gtdb-ds/deploy/20260821_schemeA/scripts/11_clusters.py`
 （SHA-256 `d1d907f34a5c1fbe17aee538a3ca087de8e809f5c03286b6384a22347d994d2c`）；服务器项目根
 `scripts/11_clusters.py` 是另一版本。以后只允许从 dated `deploy/<run_id>/scripts/` 或明确绑定的
 Git commit 执行，不能直接运行服务器根目录旧脚本。
@@ -83,11 +83,11 @@ Git commit 执行，不能直接运行服务器根目录旧脚本。
 | 环境 | 脚本目录 | 工作区/仓库根推导 | 种子/配置位置 |
 |------|---------|------------------|--------------|
 | 本地 git | `pipeline/scripts/` | `ROOT = SCRIPT_DIR/../..` | `pipeline/seeds/`、`pipeline/config/` |
-| 服务器 T141 | `scripts/`（扁平） | `ROOT = SCRIPT_DIR/..`（或硬编码 `/home/data/haoyu/PHB_gtdb-ds`） | `data/seeds/`、`config/` |
+| 服务器 T141 | `scripts/`（扁平） | `ROOT = SCRIPT_DIR/..`（或硬编码 `${PHB_REMOTE_ROOT}/PHB_gtdb-ds`） | `data/seeds/`、`config/` |
 
 - **本地 git 脚本**（`pipeline/scripts/`）用 `SCRIPT_DIR/../..` = 仓库根；`data/`、`results/` 在仓库根。
 - **服务器执行脚本**（scp 到 `scripts/` 跑）用 `SCRIPT_DIR/..` = 工作区根，或硬编码
-  `/home/data/haoyu/PHB_gtdb-ds`（如 `signalp_ePhaZ.sh`、`cdhit_tree.sh`）。**禁止**把
+  `${PHB_REMOTE_ROOT}/PHB_gtdb-ds`（如 `signalp_ePhaZ.sh`、`cdhit_tree.sh`）。**禁止**把
   `pipeline/` 当项目根，也**禁止**把本地 `../..` 约定套到服务器扁平结构上。
 - 服务器无 `pipeline/` 目录；`data/seeds/` 对应本地 `pipeline/seeds/`。
 

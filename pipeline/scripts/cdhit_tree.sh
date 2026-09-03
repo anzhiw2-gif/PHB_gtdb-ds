@@ -5,12 +5,14 @@
 #   例: bash cdhit_tree.sh iPhaZ --cid 0.8 --threads 40
 # 输出: results/trees_tier1/{fam}.cdhit.treefile + results/alignments_tier1/{fam}_cdhit_aln.fasta
 set -euo pipefail
-source ~/miniconda3/etc/profile.d/conda.sh
-conda activate phb_gtdb
+if [ -n "${PHB_CONDA_SH:-}" ]; then
+    source "$PHB_CONDA_SH"
+    conda activate "${PHB_CONDA_ENV:-phb_gtdb}"
+fi
 
 # 服务器执行脚本：工作区根硬编码（本地 git 是 pipeline/scripts/ 结构，服务器是扁平 scripts/ 结构；
 # 见 docs/STATUS.md 路径契约约定。本地运行的路径契约脚本用 SCRIPT_DIR/../..。）
-ROOT="/home/data/haoyu/PHB_gtdb-ds"
+ROOT="${PHB_REPO_ROOT:?set PHB_REPO_ROOT}"
 cd "$ROOT"
 
 FAM="$1"; shift || { echo "用法: bash cdhit_tree.sh FAMILY [--cid 0.8] [--threads 40]"; exit 1; }

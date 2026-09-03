@@ -16,8 +16,10 @@
 # =============================================================================
 set -euo pipefail
 
-SERVER="${SYNC_SERVER:-haoyu@10.16.1.141}"
-REMOTE="${SYNC_REMOTE:-/home/data/haoyu/PHB_gtdb-ds}"
+: "${SYNC_SERVER:?set SYNC_SERVER to user@host}"
+: "${SYNC_REMOTE:?set SYNC_REMOTE to the remote PHB_gtdb-ds path}"
+SERVER="$SYNC_SERVER"
+REMOTE="$SYNC_REMOTE"
 
 DRY=""
 for a in "$@"; do
