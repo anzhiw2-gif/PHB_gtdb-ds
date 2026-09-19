@@ -1,6 +1,8 @@
 # PHB_gtdb-ds — GTDB 全库 PHB 降解基因系统生信分析
 
 > Current snapshot (reviewed 2026-09-03): formal frozen scan 13 and its downstream tier processing are complete. Run-13 results are candidate homology evidence, not phenotype validation. See `docs/STATUS.md` for the authority map.
+>
+> PhaDED pipeline (added 2026-09-19): the current method scans with PhaDED-architecture HMMs (Knoll 2009, 8 superfamilies + 38 families) and then applies multi-evidence filtering. All PhaDED outputs remain candidate homology evidence — no family has yet reached ≥3 independent experimental positives, so no calibrated profile has been released. See "PhaDED 架构扫描与多证据筛选" below.
 
 > Historical Scheme A values remain in the reports for comparability. They must not be mixed with the run-13 frozen split registry or strict tier results.
 
@@ -74,6 +76,42 @@ HMMER 输出保留在服务器侧；公开仓库只保留轻量结果、模型�
 
 完整分类依据与催化位点规则见
 [knowledge/family_classification.md](knowledge/family_classification.md)。
+
+## PhaDED 架构扫描与多证据筛选（方法）
+
+当前方法分两阶段：先用 **PhaDED 架构 HMM** 做全库扫描，再对命中序列施加
+**多证据筛选**。两阶段都只产生候选同源/功能潜力证据，不产生已验证表型结论。
+
+### 1. PhaDED 架构 HMM 扫描
+
+按 Knoll 2009 的 PHB/PHA 解聚酶架构分类建立 **8 个超家族 + 38 个家族** 的 HMM 体系：
+
+| 层级 | 数量 | 说明 |
+|---|---|---|
+| 超家族（superfamily） | 8 | 功能/定位先验层（Knoll 2009 实验种子），可作硬框架 |
+| 家族（family） | 38 | 2009 序列聚类 + 系统发育细化层，仅作候选归属，不取得 registry 资格 |
+
+8 个超家族：胞外 dPHAMCL、胞外 dPHASCL type 1、胞外 dPHASCL type 2、
+胞外 native-SCL/PhaZ7-like、胞内 nPHAMCL、胞内 nPHASCL（有 lipase box）、
+胞内 nPHASCL（无 lipase box）、周质 PHA 解聚酶。
+
+### 2. 多证据筛选（fail-closed）
+
+对 HMM 命中的序列按超家族逐条施加下列证据，**缺失/未测一律不通过**（不把缺失当阴性）：
+
+- 域证据：InterPro 支持、无 Pfam 架构冲突；
+- 定位：SignalP 分泌信号与胞外/胞内期望一致；
+- 催化域架构：type 1/type 2 氧阴离子孔几何、GxSxG lipase box、lid、x₁ 疏水性、
+  PF06850（Cys 型家族标记）、AHSMG（PhaZ7 型）；
+- 强 profile 得分 + 唯一超家族归属；
+- 排除 x₁ 非疏水（脂酶/酯酶）混淆嫌疑。
+
+### 3. 边界
+
+- 所有命中为 **candidate-only**；"高可信度" = 候选证据最强的筛选层，池外 = 仅 profile 得分层；
+- Cys 型为**推定** Cys 型（催化残基未逐条验证）；
+- 校准 gate 需每家族 ≥3 条独立实验阳性；截至 2026-09-19 无一家族达标（Cys 型最多 2 条），
+  故未发布任何校准 profile。
 
 ## 复现
 
