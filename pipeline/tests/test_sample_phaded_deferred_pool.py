@@ -156,5 +156,92 @@ class SamplingTests(unittest.TestCase):
             self.assertEqual(buckets["gte_1e-5"], 1)
 
 
+class TailCompleteTests(unittest.TestCase):
+    """The tail-complete design: take the high-confidence buckets whole."""
+
+    def _counts(self):
+        return {
+            ("no_trained_claim", "gte_1e-5", "0"): 271,
+            ("no_trained_claim", "1e-10_to_1e-5", "0"): 526223,
+            ("no_trained_claim", "1e-30_to_1e-10", "0"): 676148,
+            ("no_trained_claim", "1e-50_to_1e-30", "0"): 2463,
+            ("no_trained_claim", "lt_1e-50", "0"): 1550,
+        }
+
+    def test_the_tail_is_taken_whole(self):
+        counts = self._counts()
+        total = sum(counts.values())
+        allocation, detail = module.allocate_tail_complete(
+            counts, total, 6000, ["lt_1e-50", "1e-50_to_1e-30"],
+        )
+        self.assertEqual(allocation[("no_trained_claim", "lt_1e-50", "0")], 1550)
+        self.assertEqual(allocation[("no_trained_claim", "1e-50_to_1e-30", "0")], 2463)
+        self.assertEqual(detail["tail_rows"], 4013)
+        self.assertEqual(detail["tail_strata"], 2)
+        self.assertEqual(detail["body_draws"], 6000 - 4013)
+        self.assertEqual(sum(allocation.values()), 6000)
+        self.assertIn("tail-complete plus body-proportional", detail["design"])
+
+    def test_body_is_still_proportional_over_the_remaining_draws(self):
+        counts = self._counts()
+        total = sum(counts.values())
+        allocation, detail = module.allocate_tail_complete(
+            counts, total, 6000, ["lt_1e-50", "1e-50_to_1e-30"],
+        )
+        body_draws = sum(
+            value for key, value in allocation.items() if key[1] not in
+            ("lt_1e-50", "1e-50_to_1e-30")
+        )
+        self.assertEqual(body_draws, 6000 - 4013)
+        self.assertEqual(detail["body_draws"], 6000 - 4013)
+        self.assertEqual(allocation[("no_trained_claim", "lt_1e-50", "0")], 1550)
+
+    def test_an_unknown_bucket_is_refused_and_the_available_ones_named(self):
+        with self.assertRaisesRegex(ValueError, "are not present in the pool"):
+            module.allocate_tail_complete(self._counts(), 1206655, 6000, ["no_such_bucket"])
+
+    def test_a_tail_larger_than_the_sample_is_refused(self):
+        with self.assertRaisesRegex(ValueError, "more than the requested sample size"):
+            module.allocate_tail_complete(self._counts(), 1206655, 1000,
+                                         ["lt_1e-50", "1e-50_to_1e-30"])
+
+    def test_the_cli_reports_the_design_it_used(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            tmp = Path(temporary)
+            rows = (
+                [pool_row(f"tail{i}", evalue="1e-60") for i in range(20)]
+                + [pool_row(f"body{i}", evalue="1e-7") for i in range(80)]
+            )
+            pool = write_pool(tmp / "pool.tsv", rows)
+            out = tmp / "out"
+            self.assertEqual(
+                module.main(["--pool", str(pool), "--out-dir", str(out),
+                             "--sample-size", "30", "--expect-pool-size", "100",
+                             "--tail-buckets", "lt_1e-50"]), 0,
+            )
+            summary = json.loads((out / "p5_stratified_sample_summary.json").read_text("utf-8"))
+            self.assertEqual(summary["allocation_design"]["tail_rows"], 20)
+            self.assertEqual(summary["allocation_design"]["body_draws"], 10)
+            drawn = list(csv.DictReader((out / "p5_deferred_stratified_sample.tsv").open(
+                encoding="utf-8"), delimiter="\t"))
+            self.assertEqual(len(drawn), 30)
+            tail_drawn = [row for row in drawn if row["discovery_best_evalue"] == "1e-60"]
+            self.assertEqual(len(tail_drawn), 20, "every tail row must be drawn")
+
+    def test_without_the_flag_the_design_says_so(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            tmp = Path(temporary)
+            pool = write_pool(tmp / "pool.tsv",
+                              [pool_row(f"c{i}", evalue="1e-7") for i in range(50)])
+            out = tmp / "out"
+            self.assertEqual(
+                module.main(["--pool", str(pool), "--out-dir", str(out),
+                             "--sample-size", "10", "--expect-pool-size", "50"]), 0,
+            )
+            summary = json.loads((out / "p5_stratified_sample_summary.json").read_text("utf-8"))
+            self.assertIn("proportional allocation only",
+                          summary["allocation_design"]["design"])
+
+
 if __name__ == "__main__":
     unittest.main()

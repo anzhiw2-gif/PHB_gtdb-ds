@@ -38,6 +38,7 @@ import hashlib
 import json
 import random
 from pathlib import Path
+from typing import Sequence
 
 #: Keys read from the archived deferred pool (its real column names).
 COLUMNS = (
@@ -146,6 +147,70 @@ def allocate(counts: dict[tuple[str, ...], int], total: int, sample_size: int) -
     return allocation
 
 
+def allocate_tail_complete(
+    counts: dict[tuple[str, ...], int],
+    total: int,
+    sample_size: int,
+    tail_buckets: "Sequence[str]",
+) -> "tuple[dict[tuple[str, ...], int], dict]":
+    """Take EVERY row of the named E-value buckets, then allocate the rest proportionally.
+
+    Proportional allocation cannot characterise the high-confidence tail: the two
+    buckets below 1e-30 are 0.33% of the pool, so they receive 1 and 2 draws out of
+    1,001 while the 1e-30..1e-5 buckets take 99.6%.  The plan's own funnel targets
+    exactly that tail (E<1e-50 = 1,550; E<1e-30 = 4,013), so taking it whole is
+    inherited from the plan rather than invented here - and it is small enough to
+    extract and compare in one pass.
+    """
+    named = set(tail_buckets)
+    known = {bucket for _name, bucket, _override in counts}
+    unknown = sorted(named - known)
+    if unknown:
+        raise ValueError(
+            f"tail bucket(s) {unknown} are not present in the pool; "
+            f"available buckets are {sorted(known)}"
+        )
+    tail_keys = [key for key in counts if key[1] in named]
+    body_keys = [key for key in counts if key[1] not in named]
+    if not tail_keys:
+        raise ValueError("no stratum falls in the named tail buckets")
+
+    allocation = {key: counts[key] for key in tail_keys}
+    tail_total = sum(allocation.values())
+    body_size = sample_size - tail_total
+    if body_size < 0:
+        raise ValueError(
+            f"the tail alone holds {tail_total} rows, more than the requested sample "
+            f"size {sample_size}; raise --sample-size or narrow --tail-buckets"
+        )
+    if body_keys:
+        if body_size < len(body_keys):
+            raise ValueError(
+                f"only {body_size} draws remain for {len(body_keys)} body strata; "
+                "raise --sample-size so every body stratum is represented"
+            )
+        body_total = sum(counts[key] for key in body_keys)
+        allocation.update(allocate({key: counts[key] for key in body_keys},
+                                   body_total, body_size))
+    elif body_size:
+        raise ValueError("no body strata remain but body draws were requested")
+
+    detail = {
+        "tail_buckets": sorted(named),
+        "tail_rows": tail_total,
+        "tail_strata": len(tail_keys),
+        "body_rows": sum(counts[key] for key in body_keys),
+        "body_strata": len(body_keys),
+        "body_draws": body_size,
+        "design": (
+            "tail-complete plus body-proportional: every row of the named high-confidence "
+            f"buckets is taken ({tail_total} rows), and the remaining {body_size} draws are "
+            "allocated proportionally over the rest"
+        ),
+    }
+    return allocation, detail
+
+
 def draw_sample(pool_path: Path, allocation: dict[tuple[str, ...], int], seed: int) -> list[dict[str, str]]:
     """Reservoir-sample each stratum, so one pass suffices and memory is bounded."""
     seen: dict[tuple[str, ...], int] = {key: 0 for key in allocation}
@@ -156,6 +221,8 @@ def draw_sample(pool_path: Path, allocation: dict[tuple[str, ...], int], seed: i
         quota = allocation.get(key)
         if quota is None:
             continue
+        # Note: when a quota equals its stratum's size (tail-complete mode) the
+        # reservoir below keeps every row anyway, so no special case is needed.
         seen[key] += 1
         bucket = reservoirs[key]
         if len(bucket) < quota:
@@ -243,6 +310,11 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--sample-size", type=int, default=PILOT_SAMPLE_SIZE)
     parser.add_argument("--seed", type=int, default=DEFAULT_SEED)
     parser.add_argument("--expect-pool-size", type=int, default=1206655)
+    parser.add_argument(
+        "--tail-buckets", nargs="*", default=[],
+        help="E-value buckets to take WHOLE (tail-complete design); the remaining draws are "
+             "allocated proportionally over the rest",
+    )
     parser.add_argument("--pilot-hits", type=Path, default=None,
                         help="frozen pilot blastp table, for the composition comparison")
     args = parser.parse_args(argv)
@@ -254,7 +326,13 @@ def main(argv: list[str] | None = None) -> int:
         raise ValueError(
             f"pool size {total} does not match the declared {args.expect_pool_size}"
         )
-    allocation = allocate(counts, total, args.sample_size)
+    allocation_detail = None
+    if args.tail_buckets:
+        allocation, allocation_detail = allocate_tail_complete(
+            counts, total, args.sample_size, args.tail_buckets,
+        )
+    else:
+        allocation = allocate(counts, total, args.sample_size)
     sample = draw_sample(args.pool, allocation, args.seed)
     pilot_composition = (
         pilot_strata_from_accessions(args.pilot_hits) if args.pilot_hits else None
@@ -262,6 +340,10 @@ def main(argv: list[str] | None = None) -> int:
     summary = summarize(counts, total, allocation, sample, pilot_composition)
     summary["seed"] = args.seed
     summary["pool_sha256"] = sha256(args.pool)
+    summary["allocation_design"] = allocation_detail or {
+        "design": "proportional allocation only (no tail buckets requested); every stratum is "
+                  "represented, but the high-confidence tail is not taken whole",
+    }
 
     args.out_dir.mkdir(parents=True, exist_ok=True)
     fields = list(COLUMNS)
