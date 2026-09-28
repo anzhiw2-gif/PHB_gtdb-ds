@@ -32,6 +32,14 @@ sys.path.insert(0, str(ROOT))
 
 from pipeline.tests.test_public_repo_safety import IDENTITY_PATTERNS  # noqa: E402
 
+#: The working-tree gate skips its own module, because that module necessarily
+#: holds the violating forms as test FIXTURES (it has to, in order to test that
+#: they are detected). The history audit must apply the same exemption or it
+#: reports the fixture holder as a credential leak - which is exactly what the
+#: first version did, producing a false "PEM private key in history" finding.
+#: Exempted blobs are COUNTED and reported, never silently dropped.
+FIXTURE_HOLDER = "pipeline/tests/test_public_repo_safety.py"
+
 
 def git_bytes(*arguments: str, workdir: Path = ROOT, stdin: str | None = None) -> bytes:
     """Run git and return raw stdout bytes.
@@ -100,6 +108,7 @@ def scan(workdir: Path = ROOT, *, max_blob_bytes: int = 8 * 1024 * 1024) -> dict
     )
 
     violations: list[dict[str, str]] = []
+    fixture_holder: list[dict[str, str]] = []
     scanned = 0
     binary = 0
     stream = git_bytes(
@@ -130,12 +139,22 @@ def scan(workdir: Path = ROOT, *, max_blob_bytes: int = 8 * 1024 * 1024) -> dict
         content = raw.decode("utf-8", "replace")
         hits = [index for index, pattern in enumerate(IDENTITY_PATTERNS, start=1)
                 if re.search(pattern, content)]
-        if hits:
-            violations.append({
+        if not hits:
+            continue
+        path = blobs.get(sha, "")
+        if path.replace("\\", "/") == FIXTURE_HOLDER:
+            fixture_holder.append({
                 "blob": sha,
-                "path": blobs.get(sha, ""),
+                "path": path,
                 "pattern_indexes": ",".join(str(index) for index in hits),
+                "why": "test fixture holder: the gate skips its own module for the same reason",
             })
+            continue
+        violations.append({
+            "blob": sha,
+            "path": path,
+            "pattern_indexes": ",".join(str(index) for index in hits),
+        })
 
     for violation in violations:
         containing = git(
@@ -155,6 +174,8 @@ def scan(workdir: Path = ROOT, *, max_blob_bytes: int = 8 * 1024 * 1024) -> dict
         "oversize_blobs_detail": skipped[:20],
         "violating_blobs": len(violations),
         "violations": violations,
+        "fixture_holder_blobs_exempted": len(fixture_holder),
+        "fixture_holder_detail": fixture_holder,
         "pattern_count": len(IDENTITY_PATTERNS),
         "verdict": (
             "history is CLEAN under the same patterns the working-tree gate uses"
