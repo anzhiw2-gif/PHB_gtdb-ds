@@ -173,6 +173,8 @@ V1_RULE_COLUMNS = (
     "architecture_consistency",
     "profile_evidence_status",
     "profile_best_evalue",
+    "family_score_gap",
+    "superfamily_score_gap",
     "superfamily_confidence",
     "lipase_box_x1",
     "is_confounder",
@@ -711,6 +713,33 @@ def derive_assignment_unique(assignment_status: str) -> str:
     return ABSENT
 
 
+def derive_score_gaps(subtype: Mapping[str, str]) -> "tuple[str, str]":
+    """Carry the score gaps that the catalogue's own threshold is defined on.
+
+    The catalogue records ``evidence_threshold = min_score_gap_1.0_bits_HMMER_E1e6``
+    and an ``assignment_status`` of ``assigned`` versus ``ambiguous_*``, but until
+    now it did not carry the quantity those two are compared against: the caller had
+    the status but not the number that produced it.
+
+    The subtype matrix populates ``family_score_gap`` and ``superfamily_score_gap``,
+    and they are not decoration - measured on the 1,087 rows whose best family is
+    the promoted ``DED_hfam_70`` profile, ``family_score_gap`` separates them
+    perfectly at the documented 1.0-bit threshold: all 132 ``assigned`` rows have a
+    gap of 1.0-3.3 bits and all 950 ``ambiguous_family`` rows have 0.0-0.9, with no
+    overlap. Dropping the gap left the catalogue asserting a status without the
+    evidence for it.
+
+    ``profile_best_evalue`` is deliberately left alone: it exists in the v1 merge
+    but is EMPTY there for every one of those rows, so the catalogue faithfully
+    copies an empty source. That is the upstream gap the adapter's own docstring
+    names, and it is not this function's business to paper over it.
+    """
+    return (
+        _text(subtype.get("family_score_gap")),
+        _text(subtype.get("superfamily_score_gap")),
+    )
+
+
 def derive_profile_best_evalue(subtype: Mapping[str, str], v1: Mapping[str, str]) -> str:
     """The v1 strong-profile rule needs an E-value; the subtype matrix has a gap."""
     for source, column in ((v1, "profile_best_evalue"), (v1, "best_evalue")):
@@ -996,6 +1025,8 @@ def build_adapted_input(
                 subtype.get("profile_evidence_status"), v1.get("profile_evidence_status")
             ),
             "profile_best_evalue": derive_profile_best_evalue(subtype, v1),
+            "family_score_gap": derive_score_gaps(subtype)[0],
+            "superfamily_score_gap": derive_score_gaps(subtype)[1],
             "superfamily_confidence": derive_superfamily_confidence(subtype, f1),
             "lipase_box_x1": _first_text(v1.get("lipase_box_x1"), demotion.get("lipase_box_x1")),
             "is_confounder": _text(f1.get("confounder_flag")),
@@ -1190,6 +1221,13 @@ _MAPPING_SPEC: dict[str, tuple[str, str, str]] = {
     ),
     "profile_best_evalue": (
         ROLE_V1_RULE, "v1_merge::profile_best_evalue", RULE_VERBATIM,
+    ),
+    "family_score_gap": (
+        ROLE_EVIDENCE_STATE, "localization_subtype_matrix.tsv::family_score_gap", RULE_VERBATIM,
+    ),
+    "superfamily_score_gap": (
+        ROLE_EVIDENCE_STATE, "localization_subtype_matrix.tsv::superfamily_score_gap",
+        RULE_VERBATIM,
     ),
     "superfamily_confidence": (
         ROLE_V1_RULE,

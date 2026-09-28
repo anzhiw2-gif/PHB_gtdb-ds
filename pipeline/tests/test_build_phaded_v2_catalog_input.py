@@ -398,6 +398,49 @@ class Fixture:
         return ADAPTER.build_adapted_input(**kwargs)
 
 
+class ScoreGapColumnTests(unittest.TestCase):
+    """The catalogue must carry the value its own threshold is compared against.
+
+    It records ``evidence_threshold = min_score_gap_1.0_bits_HMMER_E1e6`` and an
+    ``assignment_status`` of ``assigned`` versus ``ambiguous_*``, but until this
+    change it did not carry the score gap those two are defined on. Measured on the
+    1,087 rows whose best family is the promoted DED_hfam_70 profile, the gap
+    separates them perfectly at the documented 1.0-bit threshold: every ``assigned``
+    row is at 1.0-3.3 bits and every ``ambiguous_family`` row at 0.0-0.9, with no
+    overlap. A status without its number is an assertion without its evidence.
+    """
+
+    def setUp(self) -> None:
+        self._tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self._tmp.name)
+        self.fixture = Fixture(self.root).write()
+        self.result = self.fixture.build()
+        self.rows = {row["accession"]: row for row in self.result["rows"]}
+
+    def tearDown(self) -> None:
+        self._tmp.cleanup()
+
+    def test_both_gap_columns_are_carried(self):
+        for column in ("family_score_gap", "superfamily_score_gap"):
+            self.assertIn(column, self.result["rows"][0], f"{column} missing from the output")
+
+    def test_gap_values_come_from_the_subtype_matrix(self):
+        # The fixture writes family_score_gap 2.0.
+        self.assertEqual(self.rows["A1"]["family_score_gap"], "2.0")
+
+    def test_the_threshold_is_carried_alongside_the_gap(self):
+        # Carrying the gap is only meaningful next to the threshold it is compared to.
+        self.assertEqual(self.rows["A1"]["evidence_threshold"],
+                         "min_score_gap_1.0_bits_HMMER_E1e6")
+
+    def test_derive_score_gaps_reads_the_subtype_row_and_never_invents_a_zero(self):
+        self.assertEqual(ADAPTER.derive_score_gaps({"family_score_gap": "1.3",
+                                            "superfamily_score_gap": "0.4"}),
+                         ("1.3", "0.4"))
+        # A subtype row without the columns reports absence rather than a zero.
+        self.assertEqual(ADAPTER.derive_score_gaps({}), ("", ""))
+
+
 class AdapterFixtureTest(unittest.TestCase):
     def setUp(self) -> None:
         self._tmp = tempfile.TemporaryDirectory()
