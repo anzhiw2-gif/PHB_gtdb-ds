@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="515.536295pt" height="277.846591pt" viewBox="0 0 515.536295 277.846591" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-21T01:28:30.821467</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 277.846591 
+L 515.536295 277.846591 
+L 515.536295 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="a">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="53.328295" y="16.612598" transform="rotate(-0 53.328295 16.612598)">a</text>
+   </g>
+   <g id="patch_2">
+    <path d="M 57.328295 36.229646 
+L 235.633012 36.229646 
+L 235.633012 24.282882 
+L 57.328295 24.282882 
+z
+" clip-path="url(#pcbe49362a0)" style="fill: #0f4d92"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="54.818375" y="31.705483" transform="rotate(-0 54.818375 31.705483)">Pseudomonadota</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 57.328295 56.140919 
+L 78.791697 56.140919 
+L 78.791697 44.194155 
+L 57.328295 44.194155 
+z
+" clip-path="url(#pcbe49362a0)" style="fill: #3775ba"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="80.943057" y="51.513189" transform="rotate(-0 80.943057 51.513189)">2,993 (9.9%)</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="54.818375" y="51.616701" transform="rotate(-0 54.818375 51.616701)">Actinomycetota</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 57.328295 76.052191 
+L 60.913895 76.052191 
+L 60.913895 64.105428 
+L 57.328295 64.105428 
+z
+" clip-path="url(#pcbe49362a0)" style="fill: #3775ba"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="63.065255" y="71.424462" transform="rotate(-0 63.065255 71.424462)">500 (1.7%)</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="54.818375" y="71.528028" transform="rotate(-0 54.818375 71.528028)">Bacteroidota</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 57.328295 95.963464 
+L 60.053351 95.963464 
+L 60.053351 84.0167 
+L 57.328295 84.0167 
+z
+" clip-path="url(#pcbe49362a0)" style="fill: #3775ba"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="62.204711" y="91.335735" transform="rotate(-0 62.204711 91.335735)">380 (1.3%)</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="54.818375" y="91.439246" transform="rotate(-0 54.818375 91.439246)">Myxococcota_A</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 57.328295 115.874737 
+L 59.020698 115.874737 
+L 59.020698 103.927973 
+L 57.328295 103.927973 
+z
+" clip-path="url(#pcbe49362a0)" style="fill: #3775ba"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="61.172058" y="111.247007" transform="rotate(-0 61.172058 111.247007)">236 (0.8%)</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="54.818375" y="111.350574" transform="rotate(-0 54.818375 111.350574)">Bdellovibrionota</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 57.328295 135.78601 
+L 58.798391 135.78601 
+L 58.798391 123.839246 
+L 57.328295 123.839246 
+z
+" clip-path="url(#pcbe49362a0)" style="fill: #3775ba"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="60.949751" y="131.15828" transform="rotate(-0 60.949751 131.15828)">205 (0.7%)</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="54.818375" y="131.261792" transform="rotate(-0 54.818375 131.261792)">Myxococcota</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 57.328295 155.697282 
+L 58.73385 155.697282 
+L 58.73385 143.750519 
+L 57.328295 143.750519 
+z
+" clip-path="url(#pcbe49362a0)" style="fill: #3775ba"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="60.88521" y="151.069553" transform="rotate(-0 60.88521 151.069553)">196 (0.6%)</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="54.818375" y="151.173119" transform="rotate(-0 54.818375 151.173119)">Desulfobacterota</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 57.328295 175.608555 
+L 58.590426 175.608555 
+L 58.590426 163.661791 
+L 57.328295 163.661791 
+z
+" clip-path="url(#pcbe49362a0)" style="fill: #3775ba"/>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="60.741786" y="170.980826" transform="rotate(-0 60.741786 170.980826)">176 (0.6%)</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="54.818375" y="171.084392" transform="rotate(-0 54.818375 171.084392)">Bacillota</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 57.328295 195.519828 
+L 58.117127 195.519828 
+L 58.117127 183.573064 
+L 57.328295 183.573064 
+z
+" clip-path="url(#pcbe49362a0)" style="fill: #3775ba"/>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="60.268487" y="190.892098" transform="rotate(-0 60.268487 190.892098)">110 (0.4%)</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="54.818375" y="190.995665" transform="rotate(-0 54.818375 190.995665)">Gemmatimonadota</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 57.328295 215.4311 
+L 58.088442 215.4311 
+L 58.088442 203.484337 
+L 57.328295 203.484337 
+z
+" clip-path="url(#pcbe49362a0)" style="fill: #3775ba"/>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="60.239802" y="210.803371" transform="rotate(-0 60.239802 210.803371)">106 (0.4%)</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="54.818375" y="210.906937" transform="rotate(-0 54.818375 210.906937)">Acidobacteriota</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 57.328295 235.342373 
+L 60.304343 235.342373 
+L 60.304343 223.39561 
+L 57.328295 223.39561 
+z
+" clip-path="url(#pcbe49362a0)" style="fill: #cfcece"/>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="62.455703" y="230.714644" transform="rotate(-0 62.455703 230.714644)">415 (1.4%)</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="54.818375" y="230.819741" transform="rotate(-0 54.818375 230.819741)">Other phyla (n=29)</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="62.706695" y="12.296191" transform="rotate(-0 62.706695 12.296191)">High-confidence genomes by GTDB phylum</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #ffffff" x="233.481652" y="31.653672" transform="rotate(-0 233.481652 31.653672)">24,864 (82.4%)</text>
+   </g>
+  </g>
+  <g id="b">
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="291.792295" y="16.612598" transform="rotate(-0 291.792295 16.612598)">b</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 295.792295 32.393407 
+L 466.847706 32.393407 
+L 466.847706 23.340415 
+L 295.792295 23.340415 
+z
+" clip-path="url(#pdc7819f0a5)" style="fill: #0f4d92"/>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="469.228199" y="29.160808" transform="rotate(-0 469.228199 29.160808)">1,006 (3.3%)</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="293.411802" y="29.212564" transform="rotate(-0 293.411802 29.212564)">Streptomyces</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 295.792295 46.995007 
+L 448.823975 46.995007 
+L 448.823975 37.942015 
+L 295.792295 37.942015 
+z
+" clip-path="url(#pdc7819f0a5)" style="fill: #1b5698"/>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="451.204468" y="43.762408" transform="rotate(-0 451.204468 43.762408)">900 (3.0%)</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="293.411802" y="43.814215" transform="rotate(-0 293.411802 43.814215)">Aquipseudomonas</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 295.792295 61.596607 
+L 382.850317 61.596607 
+L 382.850317 52.543615 
+L 295.792295 52.543615 
+z
+" clip-path="url(#pdc7819f0a5)" style="fill: #28609e"/>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="385.23081" y="58.364008" transform="rotate(-0 385.23081 58.364008)">512 (1.7%)</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="293.411802" y="58.415764" transform="rotate(-0 293.411802 58.415764)">Bradyrhizobium</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 295.792295 76.198207 
+L 375.198733 76.198207 
+L 375.198733 67.145215 
+L 295.792295 67.145215 
+z
+" clip-path="url(#pdc7819f0a5)" style="fill: #3469a4"/>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="377.579226" y="72.965608" transform="rotate(-0 377.579226 72.965608)">467 (1.5%)</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="293.411802" y="73.017364" transform="rotate(-0 293.411802 73.017364)">Sphingomonas</text>
+   </g>
+   <g id="patch_17">
+    <path d="M 295.792295 90.799807 
+L 356.664897 90.799807 
+L 356.664897 81.746815 
+L 295.792295 81.746815 
+z
+" clip-path="url(#pdc7819f0a5)" style="fill: #4073ab"/>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="359.045389" y="87.567208" transform="rotate(-0 359.045389 87.567208)">358 (1.2%)</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="293.411802" y="87.618964" transform="rotate(-0 293.411802 87.618964)">Novosphingobium</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 295.792295 105.401407 
+L 337.961025 105.401407 
+L 337.961025 96.348415 
+L 295.792295 96.348415 
+z
+" clip-path="url(#pdc7819f0a5)" style="fill: #4c7cb1"/>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="340.341517" y="102.168808" transform="rotate(-0 340.341517 102.168808)">248 (0.8%)</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="293.411802" y="102.220615" transform="rotate(-0 293.411802 102.220615)">Brevundimonas</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 295.792295 120.003007 
+L 336.770778 120.003007 
+L 336.770778 110.950015 
+L 295.792295 110.950015 
+z
+" clip-path="url(#pdc7819f0a5)" style="fill: #5986b7"/>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="339.151271" y="116.770408" transform="rotate(-0 339.151271 116.770408)">241 (0.8%)</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="293.411802" y="116.822215" transform="rotate(-0 293.411802 116.822215)">Micromonospora</text>
+   </g>
+   <g id="patch_20">
+    <path d="M 295.792295 134.604607 
+L 334.050215 134.604607 
+L 334.050215 125.551615 
+L 295.792295 125.551615 
+z
+" clip-path="url(#pdc7819f0a5)" style="fill: #658fbd"/>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="336.430708" y="131.372008" transform="rotate(-0 336.430708 131.372008)">225 (0.7%)</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="293.411802" y="131.423764" transform="rotate(-0 293.411802 131.423764)">Sphingomicrobium</text>
+   </g>
+   <g id="patch_21">
+    <path d="M 295.792295 149.206207 
+L 333.710145 149.206207 
+L 333.710145 140.153215 
+L 295.792295 140.153215 
+z
+" clip-path="url(#pdc7819f0a5)" style="fill: #7198c3"/>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="336.090637" y="145.973608" transform="rotate(-0 336.090637 145.973608)">223 (0.7%)</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="293.411802" y="146.025364" transform="rotate(-0 293.411802 146.025364)">Polynucleobacter</text>
+   </g>
+   <g id="patch_22">
+    <path d="M 295.792295 163.807807 
+L 333.370074 163.807807 
+L 333.370074 154.754815 
+L 295.792295 154.754815 
+z
+" clip-path="url(#pdc7819f0a5)" style="fill: #7ea2c9"/>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="335.750567" y="160.575208" transform="rotate(-0 335.750567 160.575208)">221 (0.7%)</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="293.411802" y="160.626964" transform="rotate(-0 293.411802 160.626964)">Pseudolabrys</text>
+   </g>
+   <g id="patch_23">
+    <path d="M 295.792295 178.409407 
+L 332.009793 178.409407 
+L 332.009793 169.356415 
+L 295.792295 169.356415 
+z
+" clip-path="url(#pdc7819f0a5)" style="fill: #8aabcf"/>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="334.390285" y="175.176808" transform="rotate(-0 334.390285 175.176808)">213 (0.7%)</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="293.411802" y="175.228615" transform="rotate(-0 293.411802 175.228615)">Paraburkholderia</text>
+   </g>
+   <g id="patch_24">
+    <path d="M 295.792295 193.011007 
+L 330.649511 193.011007 
+L 330.649511 183.958015 
+L 295.792295 183.958015 
+z
+" clip-path="url(#pdc7819f0a5)" style="fill: #96b5d6"/>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="333.030004" y="189.778408" transform="rotate(-0 333.030004 189.778408)">205 (0.7%)</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="293.411802" y="189.830215" transform="rotate(-0 293.411802 189.830215)">Rubrivivax</text>
+   </g>
+   <g id="patch_25">
+    <path d="M 295.792295 207.612607 
+L 329.459265 207.612607 
+L 329.459265 198.559615 
+L 295.792295 198.559615 
+z
+" clip-path="url(#pdc7819f0a5)" style="fill: #a2bedc"/>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="331.839757" y="204.380008" transform="rotate(-0 331.839757 204.380008)">198 (0.7%)</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="293.411802" y="204.431815" transform="rotate(-0 293.411802 204.431815)">Polaromonas</text>
+   </g>
+   <g id="patch_26">
+    <path d="M 295.792295 222.214207 
+L 329.289229 222.214207 
+L 329.289229 213.161215 
+L 295.792295 213.161215 
+z
+" clip-path="url(#pdc7819f0a5)" style="fill: #afc8e2"/>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="331.669722" y="218.981608" transform="rotate(-0 331.669722 218.981608)">197 (0.7%)</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="293.411802" y="219.033364" transform="rotate(-0 293.411802 219.033364)">Erythrobacter</text>
+   </g>
+   <g id="patch_27">
+    <path d="M 295.792295 236.815807 
+L 329.289229 236.815807 
+L 329.289229 227.762815 
+L 295.792295 227.762815 
+z
+" clip-path="url(#pdc7819f0a5)" style="fill: #bbd1e8"/>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="331.669722" y="233.583208" transform="rotate(-0 331.669722 233.583208)">197 (0.7%)</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="293.411802" y="233.635015" transform="rotate(-0 293.411802 233.635015)">Mesorhizobium</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #666666" x="295.792295" y="240.884008" transform="rotate(-0 295.792295 240.884008)">Remaining 4,086 genera: 24,770 genomes (82.1%)</text>
+   </g>
+   <g id="text_57">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="301.105895" y="12.296191" transform="rotate(-0 301.105895 12.296191)">By GTDB genus (top 15, shaded by rank)</text>
+   </g>
+  </g>
+  <g id="text_58">
+   <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #666666" x="256.912295" y="269.594248" transform="rotate(-0 256.912295 269.594248)">n = 30,181 of 30,623 high-confidence genomes with local GTDB R232 taxonomy (98.6%); 442 genomes pending server metadata. Candidate-only evidence.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pcbe49362a0">
+   <rect x="57.328295" y="21.296191" width="215.136" height="219.024"/>
+  </clipPath>
+  <clipPath id="pdc7819f0a5">
+   <rect x="295.792295" y="21.296191" width="212.544" height="219.024"/>
+  </clipPath>
+ </defs>
+</svg>

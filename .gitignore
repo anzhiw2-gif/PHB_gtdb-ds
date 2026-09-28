@@ -85,3 +85,7 @@ _audit_pool_in_evidence.py
 .tmp_debug.py
 .tmp_debug2.py
 tmp_f14_probe.py
+.tmp_probe_join_key.py
+.tmp_probe_tacc_and_missing.py
+tmp_positive_search/
+.superpowers/

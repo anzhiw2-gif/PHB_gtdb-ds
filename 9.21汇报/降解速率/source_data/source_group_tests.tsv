@@ -1,0 +1,4 @@
+group	n_genera	mean_delta	median_delta	wilcoxon_p	ttest_p	sign_test_p	positive_genera	negative_genera	zero_genera	n_intra_genera	n_extra_genera	mean_intra_delta	mean_extra_delta	mean_difference_intra_minus_extra	mannwhitney_u_p	permutation_p	bootstrap_ci_low	bootstrap_ci_high
+intracellular	676.0	0.0199025931781021	0.0029152185861333	0.038717175958831	0.021428597166766	0.2331164198705702	354.0	322.0	0.0									
+extracellular	561.0	0.0334392635111398	0.0027212811492803	0.0615922517672149	0.0664746418843536	0.3529816232368336	292.0	269.0	0.0									
+intracellular_vs_extracellular										676.0	561.0	0.0199025931781021	0.0334392635111398	-0.0135366703330376	0.915649031479806	0.4828	-0.0537891004784147	0.0255747533338931

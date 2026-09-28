@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "backend": "matplotlib",
+  "method": "backend_native_geometry",
+  "substitute_for": "nature-figure audit_figure_collisions.py (PyMuPDF unavailable)",
+  "texts_measured": 112,
+  "text_text": [],
+  "text_stroke": [],
+  "text_fill_edge": [],
+  "text_fill_contained": [
+    {
+      "text": "1  Annotations",
+      "where": "axes6",
+      "fill": "FancyBboxPatch",
+      "overlap_pt": [
+        46.59,
+        6.91
+      ]
+    },
+    {
+      "text": "40,690",
+      "where": "axes6",
+      "fill": "FancyBboxPatch",
+      "overlap_pt": [
+        28.0,
+        8.87
+      ]
+    },
+    {
+      "text": "2  Genomes",
+      "where": "axes6",
+      "fill": "FancyBboxPatch",
+      "overlap_pt": [
+        39.0,
+        6.91
+      ]
+    },
+    {
+      "text": "30,623",
+      "where": "axes6",
+      "fill": "FancyBboxPatch",
+      "overlap_pt": [
+        28.0,
+        8.87
+      ]
+    },
+    {
+      "text": "3  Manifest",
+      "where": "axes6",
+      "fill": "FancyBboxPatch",
+      "overlap_pt": [
+        36.0,
+        6.91
+      ]
+    },
+    {
+      "text": "4,441+4,441",
+      "where": "axes6",
+      "fill": "FancyBboxPatch",
+      "overlap_pt": [
+        51.0,
+        8.87
+      ]
+    },
+    {
+      "text": "4  Analysis",
+      "where": "axes6",
+      "fill": "FancyBboxPatch",
+      "overlap_pt": [
+        36.59,
+        6.91
+      ]
+    },
+    {
+      "text": "8,776",
+      "where": "axes6",
+      "fill": "FancyBboxPatch",
+      "overlap_pt": [
+        23.0,
+        8.87
+      ]
+    }
+  ],
+  "text_axes_crowding": [],
+  "clipped_artists": [],
+  "verdict": "PASS"
+}

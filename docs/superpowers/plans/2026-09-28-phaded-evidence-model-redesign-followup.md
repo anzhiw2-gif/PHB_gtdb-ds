@@ -19,27 +19,27 @@
 | **B 类：证据采集与重算运行** | 需新建 dated `runs/<run_id>/` + `deploy/<run_id>/`，或调用 SignalP / HMMER / Foldseek / 结构预测 / gRodon / GTDB 全库 | ❌ **每个计算类别单独授权**，一类批准不等于另一类 |
 | **C 类：发布链** | 研究快照入版本控制、push / tag / GitHub Release / Zenodo DOI | ❌ 需明确授权 |
 
-**总览表**（任务明细见 §2–§4）：
+**总览表**（任务明细见 §2–§4；状态列为 2026-09-28 执行后的实测状态）：
 
-| # | 类 | 任务 | 阻塞/依赖 | 授权 |
+| # | 类 | 任务 | 状态 | 授权 |
 |---|---|---|---|---|
-| F1 | A | 616 条候选流转残留：归因 + 处置规则提案 | 无 | 否 |
-| F2 | A | gRodon 66 条差额：按 accession 集合分桶闭合 | 无（**已实测本地可闭合**） | 否 |
-| F3 | A | 三个下游脚本由 `model_status` 改读 `model_layer` | 无 | 否 |
-| F4 | A | `formal_scan13_tier_processing.sh` 绑定同一个全库 `-Z` | 无 | 否 |
-| F5 | A | `prepare_phaded_structure_review.py` 解除「19 条」硬编码与 `pending_tool` 误述 | 无（**P4 的前置**） | 否 |
-| F6 | A | 发现层/deferred 层下游误用审计（含任何把发现层当判别层的调用点） | 无 | 否 |
-| F7 | B | scan-13 `-Z` 尺度对账 run（**无 HMMER**：只数分片 + 重标 E 值） | F4 完成 | ✅ 需 |
-| F8 | B | P1：723 参考层 SignalP 补测（标定信号肽门严格度） | — | ✅ 需 |
-| F9 | B | P2：11,610 条 SP-less type-1 配件域核查 | 需先定 taxonomy join 源（§5 #6） | ✅ 需 |
-| F10 | B | P3：29,974 条 Cys 参考锚定残基映射 | 需先定是否新建 MAFFT 比对（§5 #7） | ✅ 需 |
-| F11 | B | P4：987 条 nPHAMCL 结构竞争面板 | **F5 完成** + 竞争面板 PDB 闭集（§5 #8） | ✅ 需 |
-| F12 | B | P5：with-lipase 1,206,655 条分层代表抽样结构验证 | 需先定抽样规模/种子/join 源（§5 #9） | ✅ 需 |
-| F13 | B | 723 行真实台账证据分级 curation（E3/E2/E1/A + 独立性） | — | ✅ 需 |
-| F14 | B | v2 候选目录真实重算 + 流转对账 + v1/v2 影响报告 | **F1、F13 完成** | ✅ 需 |
-| F15 | B | `hfam_70` promotion 决策与 finalize | 需你先裁决「是否提升」（§5 #1） | ✅ 需 |
-| F16 | C | 2026-08→09-21 研究快照入版本控制 | 无 | ✅ 需 |
-| F17 | C | push / tag / GitHub Release / Zenodo DOI | F16 + 发布前四路核对 | ✅ 需 |
+| F1 | A | 616 条候选流转残留：归因 + 处置规则提案 | ✅ **完成**：472 `profile_unassigned_no_discovery_claim` + 140 `discovery_claim_not_unique` + 4 `score_tier_not_upgraded`，`Σ=616`、`unexplained=0`（双向完整性等式证明）；全部映射 `function_unresolved` | 否 |
+| F2 | A | gRodon 66 条差额分桶 | ✅ **完成（前提被推翻）**：66 = 23 实测 + 43 不可解；原「本地可闭合」前提错误，见 §F2 留痕 | 否 |
+| F3 | A | 三个下游脚本改读 `model_layer` | ✅ **完成**：3 处判据点（计划只列了 2 处）；缺列 manifest 回退 `reference_query_only` 并声明 | 否 |
+| F4 | A | `formal_scan13_tier_processing.sh` 绑定全库 `-Z` | ✅ **完成**：fail-closed（缺 Z 即 exit 1）；manifest 记尺度字段；两处缺口测试已翻正 | 否 |
+| F5 | A | `prepare_phaded_structure_review.py` 解硬编码与 `pending_tool` 误述 | ✅ **完成**：19 字面量消失；工具可用性改为**实测**（区分 `unavailable` 与 `pending_tool`），并区分「可用」与「已执行预测」 | 否 |
+| F6 | A | 发现层/deferred 层下游误用审计 | ⏳ 进行中 | 否 |
+| F7 | B | scan-13 `-Z` 尺度对账 run（**无 HMMER**） | ⏳ **Step A 运行中**（服务器 40 jobs，100 分片 / 267 GB）；deploy + run + input_contract 已绑定；`hits_all.tsv` SHA-256 与冻结 manifest 逐位一致 | ✅ 已授权 |
+| F8 | B | P1：723 参考层 SignalP 补测 | ⬜ 未开始 | ✅ 已授权 |
+| F9 | B | P2：11,610 条 SP-less type-1 配件域核查 | ⬜ 未开始 | ✅ 已授权 |
+| F10 | B | P3：29,974 条 Cys 参考锚定残基映射 | ⬜ 未开始 | ✅ 已授权 |
+| F11 | B | P4：987 条 nPHAMCL 结构竞争面板 | ⬜ 未开始（F5 已完成，前置解除） | ✅ 已授权 |
+| F12 | B | P5：with-lipase 分层抽样结构验证 | ⬜ 未开始 | ✅ 已授权 |
+| F13 | B | 723 行台账证据分级 curation | ✅ **完成**：E3=1 / E2=26 / E1=0 / A=3（30 条阳性）；唯一独立性分组计数 **24**；`families_meeting_minimum = [hfam_52(6), hfam_70(7)]`；strict 校验通过；冻结台账 SHA 未变 | ✅ 已授权 |
+| F14 | B | v2 候选目录真实重算 + 对账 + v1/v2 影响报告 | ⏳ 进行中 | ✅ 已授权 |
+| F15 | B | `hfam_70` promotion 与 finalize | ⏳ 进行中（操作者已授权提升；hfam_52 按设计刻意不提升） | ✅ 已授权 |
+| F16 | C | 研究快照入版本控制 | ⬜ 未开始 | ✅ 已授权 |
+| F17 | C | push / tag / GitHub Release / Zenodo DOI | ⬜ 未开始（远端 `github.com/anzhiw2-gif/PHB_gtdb-ds`，`gh` 2.95.0 可用） | ✅ 已授权 |
 
 ---
 
@@ -77,33 +77,52 @@
 
 ### F2：gRodon 66 条差额 —— 按 accession 集合分桶闭合
 
+> **⚠️ 本节前提已被 F2 执行结果推翻（2026-09-28，留痕不掩盖）**
+>
+> 本节原写「已实测本地可闭合」，并假定 `4,507 = 30,623 − 26,116` 是可 accession 的集合运算。**实测证明该假定错误**：
+>
+> 1. `26,116`（冻结 deploy 的 `excluded_pos`）**不指向任何 accession**——它是 `build_grodon_manifest.py` 在 6 处累加的**标量**，同时混合了两种不同原因：整个属无对照臂（L177/185/187/192）**与**阳性被 1:1 截断挤出（L195）。
+> 2. 本节原建议的运算方向也错：`degrader_genomes.tsv (30,623) − pool_genomes_exclusion.txt (62,666) = 905`，**不是 4,507**；且 30,623 条中有 **29,718 条本身就在该排除文件里**（该文件是对照臂的候选池账本，不是"无对照"账本）。
+> 3. **正确闭合式**（全部实测）：
+>    ```text
+>    4,507（文档口径）= 4,441（manifest 阳性，实测）
+>                     +    23（预测失败的阳性，实测，≥ accession 级集合）
+>                     +    43（残差：冻结证据中无任何输入能为这些记录命名 → pending）
+>    ```
+>    接手文档原记的「`4,441 + 23 failed ≠ 4,507` 是悖论」**不是悖论**：那 54 条失败记录是**先被选进 manifest、随后预测失败**，故 `failed_positive ⊂ manifest_positive`；朴素相加把 23 条重复计入。
+> 4. 真实集合差是 `len(degrader_input − manifest_positive) = 26,182`（**不是 66**）；`identity_check.passes=false` 是**故意的**——没有任何桶可以认领这 26,182 条，执行方拒绝伪造 eligible 名单去凑一个"通过"。
+>
+> **已产出的 F2 结果**：新 run `runs/20260928_phaded_grodon_66_reconciliation_01/`（`results/grodon_66_buckets.tsv`、`grodon_66_reconciliation.json`），新脚本 `pipeline/scripts/reconcile_phaded_grodon_manifest_delta.py` + 44 项测试。
+>
+> **永久闭合的最省路径（尚未执行，需单独授权）**：给 `build_grodon_manifest.py` 加 `--emit-excluded-ledger`，把被丢弃的阳性 accession 连同原因逐条写出。这是**纯选择回放**，不需要 HMMER 或 gRodon；该单一产物即可让 43 条残差变成可 accession，从而把文档口径的 66 彻底闭合为 `23 实测 + 43 有据`。
+
 **背景（本会话实测，全部来自冻结产物）**：
 
 | 量 | 值 | 来源 |
 |---|---:|---|
 | `degrader_input_genomes` | 30,623 | `results/manifest_stats.json` |
-| `degrader_genomes_excluded_no_control` | 26,116 | 同上 |
-| **eligible（30,623 − 26,116）** | **4,507** | 与接手文档 §8.1 口径一致 ✅ |
+| `degrader_genomes_excluded_no_control` | 26,116（**标量，非 accession 集合**） | 同上 |
+| 文档口径 eligible（30,623 − 26,116） | 4,507 | 与接手文档 §8.1 一致 ✅ |
 | `manifest_positive` | 4,441 | 同上 |
-| **差额** | **66** | 待分桶 |
+| **差额** | **66 = 23 实测 + 43 不可解** | F2 实测 |
 | `manifest_rows` | 8,882（4,441 + 4,441） | 同上 |
 | 预测 ok → 平衡 | 8,828 → 8,776（4,388 对） | 接手文档 §8.1 |
-| failed | 54（**表内含 `phaZ_status` 列，可拆正负**） | `results/grodon_failed_genomes_newdeg40k.tsv` |
+| failed | 54 = **23 阳性 + 31 对照**（表内有 `phaZ_status`） | `results/grodon_failed_genomes_newdeg40k.tsv` |
 | `missing_fasta` | **0** | `manifest_stats.json` |
 
 **关键**：`missing_fasta = 0` 意味着 Task 12 合成测试里「20 条缺 FASTA」那一桶在**真实数据中为 0**；真实分桶必须重新推导，不得照抄合成比例。
 
 **文件**：
 - 只读：`runs/20260920_phaded_grodon_growth_01/inputs/{degrader_genomes.tsv,pool_genomes_exclusion.txt}`、`results/{grodon_growth_manifest_newdeg40k.tsv,grodon_failed_genomes_newdeg40k.tsv,grodon_growth_balance_audit_newdeg40k.tsv,grodon_growth_balanced_genus_selected_counts_newdeg40k.tsv,manifest_stats.json}`
-- 产出（新 run）：`results/grodon_66_buckets.tsv`、`grodon_66_reconciliation.json`、manifest
+- 已产出（新 run）：`runs/20260928_phaded_grodon_66_reconciliation_01/{results/grodon_66_buckets.tsv,results/grodon_66_reconciliation.json,inputs/,logs/,input_contract.json}`
 
-**步骤**：
-- [ ] Step 1 由 `degrader_genomes.tsv`（30,623）减去 `pool_genomes_exclusion.txt` 对应排除（26,116）**按 accession 集合**得到 4,507 名单，实测行数须为 4,507。
-- [ ] Step 2 用 `grodon_reanalysis_v2.explain_manifest_difference(eligible_positive_accessions=…, manifest_positive_accessions=…, reason_buckets=…)` 分桶；桶候选：`failed_prediction`（按 failed 表的 `phaZ_status` 拆正/负）、`dropped_at_balance`（对照臂失败导致配对丢失）、`not_reaching_balanced_design`、`dedupe`。
-- [ ] Step 3 断言桶计数之和**精确等于 66**、桶间无重叠、两个方向都不越界；未解释者按 accession 列出。
-- [ ] Step 4 把 `grodon_66_reconciliation.json` 接入 `check_grodon_manifest_delta`，使其由 `mismatch` 转为可复现的 `ok`（或在确实不可闭合时保持 `mismatch` 并写明缺哪个输入）。
+**步骤（实际执行）**：
+- [x] Step 1 以 accession 集合推导可闭合部分；**拒绝**了本节原建议的错误运算（已在上方留痕）。
+- [x] Step 2 用 `grodon_reanalysis_v2.explain_manifest_difference` 分桶；实测桶：`prediction_failed_positive_arm = 23`、`prediction_failed_control_arm = 31`、`manifest_positive_arm = 4,441`、`absent_from_manifest = 26,182`、`residue_unresolvable_from_the_frozen_evidence = 43`（0 accession，pending）。
+- [x] Step 3 拒绝以占位 accession 把 `identity_check` 凑成 true（该"能通过"的情形已被实测并**标注为陷阱**）。
+- [x] Step 4 结论：`check_grodon_manifest_delta` 在文档口径上持续 `mismatch` 是**真阳性**，不是 bug；要变成可复现 `ok`，唯一缺的输入是**per-accession eligible 名单**（等价于被命名的 26,116 条）。
 
-**验收**：`Σ 桶 = 66`；`grodon_66_buckets.tsv` 的 accession 唯一且都属 eligible 集合；若任一桶需服务器侧输入才能确定，该项写 `pending` 并说明。
+**验收**：实测桶计数之和可解释 `4,507 = 4,441 + 23 + 43`；`grodon_66_buckets.tsv` 恰好覆盖全部 30,623 条输入且 accession 唯一；43 条残差以 `pending` 明确列出并写明缺失输入（GTDB `bac120_taxonomy_r232.tsv` + 冻结 deploy 的 seed-42 shuffle 状态，二者本地均不存在）。
 
 **授权**：不需要计算授权（纯只读 + 本地集合运算）。
 

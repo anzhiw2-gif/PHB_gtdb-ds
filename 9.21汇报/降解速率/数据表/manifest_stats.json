@@ -1,0 +1,12 @@
+{
+  "degrader_input_genomes": 30623,
+  "exclusion_genomes": 62666,
+  "taxonomy_bacterial_genomes": 878998,
+  "manifest_rows": 8882,
+  "manifest_positive": 4441,
+  "manifest_negative": 4441,
+  "manifest_genera": 1224,
+  "degrader_genomes_excluded_no_control": 26116,
+  "genera_skipped_no_control": 2930,
+  "degrader_genomes_missing_fasta": 0
+}

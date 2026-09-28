@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="365.728pt" height="294.456191pt" viewBox="0 0 365.728 294.456191" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-21T01:28:32.659554</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 294.456191 
+L 365.728 294.456191 
+L 365.728 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="a">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="7.2" y="17.612598" transform="rotate(-0 7.2 17.612598)">a</text>
+   </g>
+   <g id="patch_2">
+    <path d="M 11.2 63.059268 
+L 21.61984 63.059268 
+L 21.61984 42.67773 
+L 11.2 42.67773 
+z
+" clip-path="url(#p031ece864f)" style="fill: #767676"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="8.0896" y="33.832613" transform="rotate(-0 8.0896 33.832613)">His catalytic residue assignable</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 11.2 103.822345 
+L 13.06624 103.822345 
+L 13.06624 83.440807 
+L 11.2 83.440807 
+z
+" clip-path="url(#p031ece864f)" style="fill: #767676"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="8.0896" y="74.59569" transform="rotate(-0 8.0896 74.59569)">Asp catalytic residue assignable</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 11.2 144.585422 
+L 11.82208 144.585422 
+L 11.82208 124.203884 
+L 11.2 124.203884 
+z
+" clip-path="url(#p031ece864f)" style="fill: #767676"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="8.0896" y="115.358767" transform="rotate(-0 8.0896 115.358767)">Candidates inside a frozen DED alignment</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 11.2 185.348499 
+L 22.864 185.348499 
+L 22.864 164.966961 
+L 11.2 164.966961 
+z
+" clip-path="url(#p031ece864f)" style="fill: #767676"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="8.0896" y="156.121844" transform="rotate(-0 8.0896 156.121844)">Family resolved to exactly one family</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 11.2 226.111576 
+L 11.82208 226.111576 
+L 11.82208 205.730038 
+L 11.2 205.730038 
+z
+" clip-path="url(#p031ece864f)" style="fill: #767676"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="8.0896" y="196.884921" transform="rotate(-0 8.0896 196.884921)">Ledger rows with experimental-negative evidence</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 11.2 266.874653 
+L 164.54272 266.874653 
+L 164.54272 246.493114 
+L 11.2 246.493114 
+z
+" clip-path="url(#p031ece864f)" style="fill: #3775ba"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="8.0896" y="237.647998" transform="rotate(-0 8.0896 237.647998)">High-confidence genomes with local taxonomy</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #666666" x="11.2" y="285.696673" transform="rotate(-0 11.2 285.696673)">Taxonomy coverage is the last row (higher is better); all other rows are gaps (lower is worse).</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="11.2" y="12.296191" transform="rotate(-0 11.2 12.296191)">Evidence gaps by denominator</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="24.73024" y="54.162396" transform="rotate(-0 24.73024 54.162396)">6.7%  (7,317/109,087)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="16.17664" y="94.925473" transform="rotate(-0 16.17664 94.925473)">1.2%  (1,290/109,087)</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="14.93248" y="135.688549" transform="rotate(-0 14.93248 135.688549)">0.0%  (0/109,087)</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="25.9744" y="176.451626" transform="rotate(-0 25.9744 176.451626)">7.5%  (8,144/109,087)</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="14.93248" y="217.214703" transform="rotate(-0 14.93248 217.214703)">0.0%  (0/723)</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #ffffff" x="161.43232" y="257.97778" transform="rotate(-0 161.43232 257.97778)">98.6%  (30,181/30,623)</text>
+   </g>
+  </g>
+  <g id="b">
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="178.272" y="17.612598" transform="rotate(-0 178.272 17.612598)">b</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 185.092096 69.909899 
+L 253.5921 69.909899 
+Q 257.11722 69.909899 257.11722 69.118973 
+L 257.11722 54.565947 
+Q 257.11722 53.775021 253.5921 53.775021 
+L 185.092096 53.775021 
+Q 181.566976 53.775021 181.566976 54.565947 
+L 181.566976 69.118973 
+Q 181.566976 69.909899 185.092096 69.909899 
+z
+" clip-path="url(#p3b0822a157)" style="fill: #cfcece"/>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="182.272" y="49.675067" transform="rotate(-0 182.272 49.675067)">with-lipase deferred layer</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="259.937316" y="63.239921" transform="rotate(-0 259.937316 63.239921)">1,206,655</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #666666" x="259.937316" y="73.418386" transform="rotate(-0 259.937316 73.418386)">preserved (not deleted)</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 185.092096 109.456168 
+L 231.752083 109.456168 
+Q 235.277203 109.456168 235.277203 108.665242 
+L 235.277203 94.112215 
+Q 235.277203 93.32129 231.752083 93.32129 
+L 185.092096 93.32129 
+Q 181.566976 93.32129 181.566976 94.112215 
+L 181.566976 108.665242 
+Q 181.566976 109.456168 185.092096 109.456168 
+z
+" clip-path="url(#p3b0822a157)" style="fill: #0f4d92"/>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="182.272" y="89.221336" transform="rotate(-0 182.272 89.221336)">strict E-value prefilter (E &lt; 1e-50)</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="238.097299" y="102.78619" transform="rotate(-0 238.097299 102.78619)">1,550</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #666666" x="238.097299" y="112.964655" transform="rotate(-0 238.097299 112.964655)">recommended subset (E&lt;1e-30 = 4,013)</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 185.092096 149.002436 
+L 215.206693 149.002436 
+Q 218.731813 149.002436 218.731813 148.211511 
+L 218.731813 133.658484 
+Q 218.731813 132.867559 215.206693 132.867559 
+L 185.092096 132.867559 
+Q 181.566976 132.867559 181.566976 133.658484 
+L 181.566976 148.211511 
+Q 181.566976 149.002436 185.092096 149.002436 
+z
+" clip-path="url(#p3b0822a157)" style="fill: #d8d8d8"/>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="182.272" y="128.767706" transform="rotate(-0 182.272 128.767706)">structure prediction + Foldseek vs PDB 8YNV</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="221.551909" y="142.332458" transform="rotate(-0 221.551909 142.332458)">0 executed</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #666666" x="221.551909" y="152.510924" transform="rotate(-0 221.551909 152.510924)">not executed (pending authorization; pLDDT&gt;=70, TM&gt;=0.5)</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="182.272" y="183.804232" transform="rotate(-0 182.272 183.804232)">Pending operator authorizations:</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="182.272" y="201.548297" transform="rotate(-0 182.272 201.548297)">[ ] Fix ESMFold env (openfold + GPU torch)</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="355.00288" y="201.548346" transform="rotate(-0 355.00288 201.548346)">36 -&gt; 2.2 GPU-h</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="182.272" y="218.95012" transform="rotate(-0 182.272 218.95012)">[ ] Or approve ColabFold deepfold_v1 / AF2+MSA</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="355.00288" y="218.948704" transform="rotate(-0 355.00288 218.948704)">needs speed test</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="182.272" y="236.349013" transform="rotate(-0 182.272 236.349013)">[ ] Approve Stage-2 scale (1,550 sequences)</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="355.00288" y="236.349013" transform="rotate(-0 355.00288 236.349013)">~36 GPU-h (GPU0)</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="182.272" y="253.74942" transform="rotate(-0 182.272 253.74942)">[ ] Confirm criteria: TM&gt;=0.5, pLDDT&gt;=70</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="355.00288" y="253.74942" transform="rotate(-0 355.00288 253.74942)">fail-closed rule</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="182.272" y="271.14973" transform="rotate(-0 182.272 271.14973)">[ ] Confirm GPU0-only use</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="355.00288" y="271.149779" transform="rotate(-0 355.00288 271.149779)">GPU1 occupied</text>
+   </g>
+   <g id="text_37">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="187.55968" y="12.296191" transform="rotate(-0 187.55968 12.296191)">Structural recall path for the deferred layer</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p031ece864f">
+   <rect x="11.2" y="22.296191" width="155.52" height="264.96"/>
+  </clipPath>
+  <clipPath id="p3b0822a157">
+   <rect x="182.272" y="22.296191" width="176.256" height="264.96"/>
+  </clipPath>
+ </defs>
+</svg>

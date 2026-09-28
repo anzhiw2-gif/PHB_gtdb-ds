@@ -152,7 +152,7 @@
   `GXXDYTV`、His `GMXHXXPXXG`、oxyanion hole `HGCXQ`；三联体
   Ser121-His270-Asp197
 - **lipase box 疏水 x₁ 是 PHA 解聚酶区别于脂酶/酯酶的关键**
-- Pfam 对应：**PF10503**（酯酶型 PHB 解聚酶）+ **PF06850**（SBD C 端）
+- Pfam 对应：**PF10503**（酯酶型 PHB 解聚酶，**胞外 type-1/type-2 催化域**）+ **PF06850**（PHB_depo_C，**胞内 Cys 型 C 端**，非胞外 SBD——2026-09-20 更正，见 `knowledge/family_classification.md` 第 32 行更正痕迹）
 - ⚠️ 注释陷阱：*R. eutropha* PhaZ6/Z7 属胞外型但为胞内基因；GenBank
   注释不可靠，**必须以序列聚类为准**（来源：PMC2666664, PMC11893044）
 

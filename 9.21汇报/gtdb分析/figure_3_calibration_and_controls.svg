@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="500.195493pt" height="389.558001pt" viewBox="0 0 500.195493 389.558001" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-21T01:28:28.317734</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 389.558001 
+L 500.195493 389.558001 
+L 500.195493 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="a">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="74.275493" y="23.612598" transform="rotate(-0 74.275493 23.612598)">a</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(96.197321 41.591759)">positives</text>
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(102.466461 47.929894)">≥ 3</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(152.185899 42.059337)">held-out</text>
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(152.743321 47.457238)">positive</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(208.874086 41.591759)">explicit</text>
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(205.814321 47.427941)">negatives</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(261.109149 41.562462)">challenge</text>
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(262.918133 47.427941)">rejected</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(310.298118 41.592931)">family-resolved</text>
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(316.406321 47.427941)">negatives</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(371.701149 41.562462)">challenge</text>
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(375.733961 47.884582)">status</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #111111" x="451.523492" y="48.045153" transform="rotate(-0 451.523492 48.045153)">verdict</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="73.851813" y="61.710372" transform="rotate(-0 73.851813 61.710372)">hfam_70 · dPHASCL type 2</text>
+   </g>
+   <g id="patch_2">
+    <path d="M 80.487333 67.991829 
+L 131.359653 67.991829 
+L 131.359653 52.73761 
+L 80.487333 52.73761 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 135.783333 67.991829 
+L 186.655653 67.991829 
+L 186.655653 52.73761 
+L 135.783333 52.73761 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 191.079333 67.991829 
+L 241.951653 67.991829 
+L 241.951653 52.73761 
+L 191.079333 52.73761 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 246.375333 67.991829 
+L 297.247653 67.991829 
+L 297.247653 52.73761 
+L 246.375333 52.73761 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 301.671333 67.991829 
+L 352.543653 67.991829 
+L 352.543653 52.73761 
+L 301.671333 52.73761 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 356.967332 67.991829 
+L 407.839653 67.991829 
+L 407.839653 52.73761 
+L 356.967332 52.73761 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="451.523492" y="61.658616" transform="rotate(-0 451.523492 61.658616)">PASS (all legs)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="73.851813" y="79.044712" transform="rotate(-0 73.851813 79.044712)">hfam_52 · dPHASCL type 1</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 80.487333 85.326169 
+L 131.359653 85.326169 
+L 131.359653 70.07195 
+L 80.487333 70.07195 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #fbead9; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 135.783333 85.326169 
+L 186.655653 85.326169 
+L 186.655653 70.07195 
+L 135.783333 70.07195 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 191.079333 85.326169 
+L 241.951653 85.326169 
+L 241.951653 70.07195 
+L 191.079333 70.07195 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 246.375333 85.326169 
+L 297.247653 85.326169 
+L 297.247653 70.07195 
+L 246.375333 70.07195 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 301.671333 85.326169 
+L 352.543653 85.326169 
+L 352.543653 70.07195 
+L 301.671333 70.07195 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 356.967332 85.326169 
+L 407.839653 85.326169 
+L 407.839653 70.07195 
+L 356.967332 70.07195 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="451.523492" y="78.992956" transform="rotate(-0 451.523492 78.992956)">PASS with caveat (2 weak positives)</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="73.851813" y="96.379051" transform="rotate(-0 73.851813 96.379051)">hfam_55 · dPHASCL type 1</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 80.487333 102.660508 
+L 131.359653 102.660508 
+L 131.359653 87.40629 
+L 80.487333 87.40629 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #f7e1e0; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 135.783333 102.660508 
+L 186.655653 102.660508 
+L 186.655653 87.40629 
+L 135.783333 87.40629 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 191.079333 102.660508 
+L 241.951653 102.660508 
+L 241.951653 87.40629 
+L 191.079333 87.40629 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 246.375333 102.660508 
+L 297.247653 102.660508 
+L 297.247653 87.40629 
+L 246.375333 87.40629 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 301.671333 102.660508 
+L 352.543653 102.660508 
+L 352.543653 87.40629 
+L 301.671333 87.40629 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 356.967332 102.660508 
+L 407.839653 102.660508 
+L 407.839653 87.40629 
+L 356.967332 87.40629 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #b64342" x="451.523492" y="96.32876" transform="rotate(-0 451.523492 96.32876)">NOT unlocked</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="73.851813" y="113.713442" transform="rotate(-0 73.851813 113.713442)">hfam_8 · dPHAMCL</text>
+   </g>
+   <g id="patch_20">
+    <path d="M 80.487333 119.994848 
+L 131.359653 119.994848 
+L 131.359653 104.740629 
+L 80.487333 104.740629 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #f7e1e0; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 135.783333 119.994848 
+L 186.655653 119.994848 
+L 186.655653 104.740629 
+L 135.783333 104.740629 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 191.079333 119.994848 
+L 241.951653 119.994848 
+L 241.951653 104.740629 
+L 191.079333 104.740629 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 246.375333 119.994848 
+L 297.247653 119.994848 
+L 297.247653 104.740629 
+L 246.375333 104.740629 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 301.671333 119.994848 
+L 352.543653 119.994848 
+L 352.543653 104.740629 
+L 301.671333 104.740629 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 356.967332 119.994848 
+L 407.839653 119.994848 
+L 407.839653 104.740629 
+L 356.967332 104.740629 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #b64342" x="451.523492" y="113.6631" transform="rotate(-0 451.523492 113.6631)">NOT unlocked</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="73.851813" y="131.047781" transform="rotate(-0 73.851813 131.047781)">hfam_4 · nPHAMCL</text>
+   </g>
+   <g id="patch_26">
+    <path d="M 80.487333 137.329188 
+L 131.359653 137.329188 
+L 131.359653 122.074969 
+L 80.487333 122.074969 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #f7e1e0; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 135.783333 137.329188 
+L 186.655653 137.329188 
+L 186.655653 122.074969 
+L 135.783333 122.074969 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #f7e1e0; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 191.079333 137.329188 
+L 241.951653 137.329188 
+L 241.951653 122.074969 
+L 191.079333 122.074969 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 246.375333 137.329188 
+L 297.247653 137.329188 
+L 297.247653 122.074969 
+L 246.375333 122.074969 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #f7e1e0; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 301.671333 137.329188 
+L 352.543653 137.329188 
+L 352.543653 122.074969 
+L 301.671333 122.074969 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #e3edf7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_31">
+    <path d="M 356.967332 137.329188 
+L 407.839653 137.329188 
+L 407.839653 122.074969 
+L 356.967332 122.074969 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #f7e1e0; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #b64342" x="451.523492" y="130.99744" transform="rotate(-0 451.523492 130.99744)">NOT unlocked</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="73.851813" y="148.38207" transform="rotate(-0 73.851813 148.38207)">37 reference-only families</text>
+   </g>
+   <g id="patch_32">
+    <path d="M 80.487333 154.663527 
+L 131.359653 154.663527 
+L 131.359653 139.409308 
+L 80.487333 139.409308 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #f7e1e0; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_33">
+    <path d="M 135.783333 154.663527 
+L 186.655653 154.663527 
+L 186.655653 139.409308 
+L 135.783333 139.409308 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #f7e1e0; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_34">
+    <path d="M 191.079333 154.663527 
+L 241.951653 154.663527 
+L 241.951653 139.409308 
+L 191.079333 139.409308 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #f7e1e0; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_35">
+    <path d="M 246.375333 154.663527 
+L 297.247653 154.663527 
+L 297.247653 139.409308 
+L 246.375333 139.409308 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #f7e1e0; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_36">
+    <path d="M 301.671333 154.663527 
+L 352.543653 154.663527 
+L 352.543653 139.409308 
+L 301.671333 139.409308 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #f7e1e0; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_37">
+    <path d="M 356.967332 154.663527 
+L 407.839653 154.663527 
+L 407.839653 139.409308 
+L 356.967332 139.409308 
+z
+" clip-path="url(#p352cfc299f)" style="fill: #f7e1e0; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #b64342" x="451.523492" y="148.331779" transform="rotate(-0 451.523492 148.331779)">NOT unlocked</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="90.717093" y="12.296191" transform="rotate(-0 90.717093 12.296191)">Six-leg calibration gate for the five trained families</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="105.923493" y="61.658665" transform="rotate(-0 105.923493 61.658665)">7 papers</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="161.219493" y="61.658616" transform="rotate(-0 161.219493 61.658616)">1 (0.484)</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="216.515493" y="61.658665" transform="rotate(-0 216.515493 61.658665)">2</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="271.811492" y="61.658665" transform="rotate(-0 271.811492 61.658665)">10/10</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="327.107493" y="61.658665" transform="rotate(-0 327.107493 61.658665)">sufficient</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="382.403492" y="61.658665" transform="rotate(-0 382.403492 61.658665)">sufficient</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #9a5b18" x="105.923493" y="78.992956" transform="rotate(-0 105.923493 78.992956)">~4 strong + 2 weak</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="161.219493" y="78.992956" transform="rotate(-0 161.219493 78.992956)">1 (id 0.304)</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="216.515493" y="78.993005" transform="rotate(-0 216.515493 78.993005)">2</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="271.811492" y="78.993005" transform="rotate(-0 271.811492 78.993005)">10/10</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="327.107493" y="78.993005" transform="rotate(-0 327.107493 78.993005)">sufficient</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="382.403492" y="78.993005" transform="rotate(-0 382.403492 78.993005)">sufficient</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #b64342" x="105.923493" y="96.327295" transform="rotate(-0 105.923493 96.327295)">2 (&lt;3)</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="161.219493" y="96.327295" transform="rotate(-0 161.219493 96.327295)">1 (id 0.701)</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="216.515493" y="96.327344" transform="rotate(-0 216.515493 96.327344)">2</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="271.811492" y="96.327344" transform="rotate(-0 271.811492 96.327344)">10/10</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="327.107493" y="96.327344" transform="rotate(-0 327.107493 96.327344)">sufficient</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="382.403492" y="96.327344" transform="rotate(-0 382.403492 96.327344)">sufficient</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #b64342" x="105.923493" y="113.661635" transform="rotate(-0 105.923493 113.661635)">2 (&lt;3)</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="161.219493" y="113.661635" transform="rotate(-0 161.219493 113.661635)">1 (id 0.840)</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="216.515493" y="113.661684" transform="rotate(-0 216.515493 113.661684)">2</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="271.811492" y="113.661684" transform="rotate(-0 271.811492 113.661684)">10/10</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="327.107493" y="113.661684" transform="rotate(-0 327.107493 113.661684)">sufficient</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="382.403492" y="113.661684" transform="rotate(-0 382.403492 113.661684)">sufficient</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #b64342" x="105.923493" y="130.995975" transform="rotate(-0 105.923493 130.995975)">1 (&lt;3)</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #b64342" x="161.219493" y="130.995975" transform="rotate(-0 161.219493 130.995975)">leakage 0.901</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="216.515493" y="130.995975" transform="rotate(-0 216.515493 130.995975)">1 (PcaD)</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #b64342" x="271.811492" y="130.996024" transform="rotate(-0 271.811492 130.996024)">3 false positives</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #0f4d92" x="327.107493" y="130.996024" transform="rotate(-0 327.107493 130.996024)">sufficient</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #b64342" x="382.403492" y="130.996024" transform="rotate(-0 382.403492 130.996024)">not sufficient</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #b64342" x="105.923493" y="148.330363" transform="rotate(-0 105.923493 148.330363)">no HMM built</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #b64342" x="161.219493" y="148.330363" transform="rotate(-0 161.219493 148.330363)">no HMM built</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #b64342" x="216.515493" y="148.330363" transform="rotate(-0 216.515493 148.330363)">no HMM built</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #b64342" x="271.811492" y="148.330363" transform="rotate(-0 271.811492 148.330363)">no HMM built</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #b64342" x="327.107493" y="148.330363" transform="rotate(-0 327.107493 148.330363)">no HMM built</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #b64342" x="382.403492" y="148.330363" transform="rotate(-0 382.403492 148.330363)">no HMM built</text>
+   </g>
+  </g>
+  <g id="b">
+   <g id="text_58">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="92.419493" y="226.148598" transform="rotate(-0 92.419493 226.148598)">b</text>
+   </g>
+   <g id="patch_38">
+    <path d="M 96.419493 273.785334 
+L 106.683813 273.785334 
+L 106.683813 252.308763 
+L 96.419493 252.308763 
+z
+" clip-path="url(#pb90341808a)" style="fill: #0f4d92"/>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="110.105253" y="264.340945" transform="rotate(-0 110.105253 264.340945)">6.0%  (3/50)</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="92.998053" y="237.709996" transform="rotate(-0 92.998053 237.709996)">Trained-family challenge (10 lipases/esterases + PcaD)</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #8c8c8c" x="92.998053" y="249.736876" transform="rotate(-0 92.998053 249.736876)">trained family HMMs</text>
+   </g>
+   <g id="patch_39">
+    <path d="M 96.419493 316.738477 
+L 231.053157 316.738477 
+L 231.053157 295.261906 
+L 96.419493 295.261906 
+z
+" clip-path="url(#pb90341808a)" style="fill: #b64342"/>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="234.474597" y="307.294088" transform="rotate(-0 234.474597 307.294088)">78.7%  (443/563)</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="92.998053" y="280.663139" transform="rotate(-0 92.998053 280.663139)">x1 non-hydrophobic confounder set</text>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #8c8c8c" x="92.998053" y="292.690019" transform="rotate(-0 92.998053 292.690019)">discovery layer HMM</text>
+   </g>
+   <g id="patch_40">
+    <path d="M 96.419493 359.69162 
+L 104.802021 359.69162 
+L 104.802021 338.215049 
+L 96.419493 338.215049 
+z
+" clip-path="url(#pb90341808a)" style="fill: #0f4d92"/>
+   </g>
+   <g id="text_65">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="108.223461" y="350.247231" transform="rotate(-0 108.223461 350.247231)">4.9%  (22/447)</text>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="92.998053" y="323.616282" transform="rotate(-0 92.998053 323.616282)">Non-Cys reference superfamilies</text>
+   </g>
+   <g id="text_67">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #8c8c8c" x="92.998053" y="335.644578" transform="rotate(-0 92.998053 335.644578)">Cys [hydrophobic]-C-Q motif</text>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #666666" x="96.419493" y="378.16819" transform="rotate(-0 96.419493 378.16819)">Positive control: the Cys [hydrophobic]-C-Q motif hits 271/276 = 98.2% of Cys references.</text>
+   </g>
+   <g id="text_69">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="101.551653" y="220.832191" transform="rotate(-0 101.551653 220.832191)">Hits on negative / confounder controls (lower = more specific)</text>
+   </g>
+  </g>
+  <g id="c">
+   <g id="text_70">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="304.963492" y="226.148598" transform="rotate(-0 304.963492 226.148598)">c</text>
+   </g>
+   <g id="patch_41">
+    <path d="M 308.963492 251.647945 
+L 374.628261 251.647945 
+L 374.628261 244.709361 
+L 308.963492 244.709361 
+z
+" clip-path="url(#p56d13d4f57)" style="fill: #767676"/>
+   </g>
+   <g id="text_71">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="377.493103" y="249.472598" transform="rotate(-0 377.493103 249.472598)">563</text>
+   </g>
+   <g id="text_72">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="306.576124" y="236.057953" transform="rotate(-0 306.576124 236.057953)">x1 non-hydrophobic confounders flagged</text>
+   </g>
+   <g id="text_73">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #8c8c8c" x="306.576124" y="242.071393" transform="rotate(-0 306.576124 242.071393)">kept as candidates, flagged not deleted</text>
+   </g>
+   <g id="patch_42">
+    <path d="M 308.963492 274.776561 
+L 349.930814 274.776561 
+L 349.930814 267.837976 
+L 308.963492 267.837976 
+z
+" clip-path="url(#p56d13d4f57)" style="fill: #767676"/>
+   </g>
+   <g id="text_74">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="352.795657" y="272.601214" transform="rotate(-0 352.795657 272.601214)">52</text>
+   </g>
+   <g id="text_75">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="306.576124" y="259.186568" transform="rotate(-0 306.576124 259.186568)">SignalP-predicted secretion conflicts demoted</text>
+   </g>
+   <g id="text_76">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #8c8c8c" x="306.576124" y="265.200008" transform="rotate(-0 306.576124 265.200008)">0.18% of Cys; reversible, prediction-based</text>
+   </g>
+   <g id="patch_43">
+    <path d="M 308.963492 297.905176 
+L 354.778957 297.905176 
+L 354.778957 290.966591 
+L 308.963492 290.966591 
+z
+" clip-path="url(#p56d13d4f57)" style="fill: #767676"/>
+   </g>
+   <g id="text_77">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="357.643799" y="295.729829" transform="rotate(-0 357.643799 295.729829)">83</text>
+   </g>
+   <g id="text_78">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="306.576124" y="282.315232" transform="rotate(-0 306.576124 282.315232)">Pfam architecture conflicts held</text>
+   </g>
+   <g id="text_79">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #8c8c8c" x="306.576124" y="288.328672" transform="rotate(-0 306.576124 288.328672)">hold_architecture_conflict</text>
+   </g>
+   <g id="patch_44">
+    <path d="M 308.963492 321.033791 
+L 375.561062 321.033791 
+L 375.561062 314.095207 
+L 308.963492 314.095207 
+z
+" clip-path="url(#p56d13d4f57)" style="fill: #767676"/>
+   </g>
+   <g id="text_80">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="378.425904" y="318.858444" transform="rotate(-0 378.425904 318.858444)">616</text>
+   </g>
+   <g id="text_81">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="306.576124" y="305.443799" transform="rotate(-0 306.576124 305.443799)">Ambiguous rows kept unassigned</text>
+   </g>
+   <g id="text_82">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #8c8c8c" x="306.576124" y="311.457239" transform="rotate(-0 306.576124 311.457239)">not forced into any superfamily</text>
+   </g>
+   <g id="patch_45">
+    <path d="M 308.963492 344.162407 
+L 397.116938 344.162407 
+L 397.116938 337.223822 
+L 308.963492 337.223822 
+z
+" clip-path="url(#p56d13d4f57)" style="fill: #767676"/>
+   </g>
+   <g id="text_83">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="399.98178" y="341.98706" transform="rotate(-0 399.98178 341.98706)">4,926</text>
+   </g>
+   <g id="text_84">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="306.576124" y="328.572414" transform="rotate(-0 306.576124 328.572414)">Pool-external weak/mid not upgraded</text>
+   </g>
+   <g id="text_85">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #8c8c8c" x="306.576124" y="334.585854" transform="rotate(-0 306.576124 334.585854)">score-only tier, excluded from all counts</text>
+   </g>
+   <g id="patch_46">
+    <path d="M 308.963492 367.291022 
+L 454.153287 367.291022 
+L 454.153287 360.352438 
+L 308.963492 360.352438 
+z
+" clip-path="url(#p56d13d4f57)" style="fill: #767676"/>
+   </g>
+   <g id="text_86">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="457.018129" y="365.115675" transform="rotate(-0 457.018129 365.115675)">1,206,655</text>
+   </g>
+   <g id="text_87">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="306.576124" y="351.701029" transform="rotate(-0 306.576124 351.701029)">with-lipase deferred layer preserved</text>
+   </g>
+   <g id="text_88">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #8c8c8c" x="306.576124" y="357.714518" transform="rotate(-0 306.576124 357.714518)">known noise; deletion forbidden; outside all counts</text>
+   </g>
+   <g id="text_89">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #666666" x="308.963492" y="381.305657" transform="rotate(-0 308.963492 381.305657)">Bar length is log10(count); the 1.2M deferred layer is preserved outside all counts.</text>
+   </g>
+   <g id="text_90">
+    <text style="font-weight: 700; font-size: 6.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="314.406692" y="220.832191" transform="rotate(-0 314.406692 220.832191)">Proactively flagged / isolated layers (never deleted)</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p352cfc299f">
+   <rect x="78.275493" y="28.296191" width="414.72" height="137.808"/>
+  </clipPath>
+  <clipPath id="pb90341808a">
+   <rect x="96.419493" y="230.832191" width="171.072" height="150.336"/>
+  </clipPath>
+  <clipPath id="p56d13d4f57">
+   <rect x="308.963492" y="230.832191" width="181.44" height="150.336"/>
+  </clipPath>
+ </defs>
+</svg>

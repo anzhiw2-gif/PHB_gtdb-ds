@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="491.45886pt" height="405.9072pt" viewBox="0 0 491.45886 405.9072" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-21T01:28:25.170988</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 405.9072 
+L 491.45886 405.9072 
+L 491.45886 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="a">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="55.17086" y="34.772406" transform="rotate(-0 55.17086 34.772406)">a</text>
+   </g>
+   <g id="patch_2">
+    <path d="M 59.17086 53.90208 
+L 202.727783 53.90208 
+L 202.727783 42.11712 
+L 59.17086 42.11712 
+z
+" clip-path="url(#pa00a68231c)" style="fill: #cfcece"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="56.3715" y="43.601145" transform="rotate(-0 56.3715 43.601145)">Intracellular</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="56.3715" y="49.458764" transform="rotate(-0 56.3715 49.458764)">Cys-type nPHASCL</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #555555" x="244.86174" y="49.407061" transform="rotate(-0 244.86174 49.407061)">29,974</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 59.17086 72.91008 
+L 82.514306 72.91008 
+L 82.514306 61.12512 
+L 59.17086 61.12512 
+z
+" clip-path="url(#pa00a68231c)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 82.514306 72.91008 
+L 82.5622 72.91008 
+L 82.5622 61.12512 
+L 82.514306 61.12512 
+z
+" clip-path="url(#pa00a68231c)" style="fill: #3775ba"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 82.5622 72.91008 
+L 83.203977 72.91008 
+L 83.203977 61.12512 
+L 82.5622 61.12512 
+z
+" clip-path="url(#pa00a68231c)" style="fill: #cfcece"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="56.3715" y="62.609145" transform="rotate(-0 56.3715 62.609145)">Extracellular</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="56.3715" y="68.466764" transform="rotate(-0 56.3715 68.466764)">dPHASCL type 1</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #555555" x="244.86174" y="68.415061" transform="rotate(-0 244.86174 68.415061)">5,018</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 59.17086 91.91808 
+L 60.598096 91.91808 
+L 60.598096 80.13312 
+L 59.17086 80.13312 
+z
+" clip-path="url(#pa00a68231c)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 60.598096 91.91808 
+L 69.276455 91.91808 
+L 69.276455 80.13312 
+L 60.598096 80.13312 
+z
+" clip-path="url(#pa00a68231c)" style="fill: #3775ba"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 69.276455 91.91808 
+L 79.995091 91.91808 
+L 79.995091 80.13312 
+L 69.276455 80.13312 
+z
+" clip-path="url(#pa00a68231c)" style="fill: #cfcece"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="56.3715" y="81.617145" transform="rotate(-0 56.3715 81.617145)">Extracellular</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="56.3715" y="87.474764" transform="rotate(-0 56.3715 87.474764)">dPHASCL type 2</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #555555" x="244.86174" y="87.423061" transform="rotate(-0 244.86174 87.423061)">4,348</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 59.17086 110.92608 
+L 63.89798 110.92608 
+L 63.89798 99.14112 
+L 59.17086 99.14112 
+z
+" clip-path="url(#pa00a68231c)" style="fill: #3775ba"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="56.3715" y="100.625145" transform="rotate(-0 56.3715 100.625145)">Intracellular</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="56.3715" y="106.482819" transform="rotate(-0 56.3715 106.482819)">nPHAMCL</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #555555" x="244.86174" y="106.431061" transform="rotate(-0 244.86174 106.431061)">987</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 59.17086 129.93408 
+L 59.630641 129.93408 
+L 59.630641 118.14912 
+L 59.17086 118.14912 
+z
+" clip-path="url(#pa00a68231c)" style="fill: #3775ba"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 59.630641 129.93408 
+L 60.511887 129.93408 
+L 60.511887 118.14912 
+L 59.630641 118.14912 
+z
+" clip-path="url(#pa00a68231c)" style="fill: #cfcece"/>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="56.3715" y="119.633145" transform="rotate(-0 56.3715 119.633145)">Extracellular</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="56.3715" y="125.490819" transform="rotate(-0 56.3715 125.490819)">dPHAMCL</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #555555" x="244.86174" y="125.439061" transform="rotate(-0 244.86174 125.439061)">280</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 59.17086 148.94208 
+L 59.563589 148.94208 
+L 59.563589 137.15712 
+L 59.17086 137.15712 
+z
+" clip-path="url(#pa00a68231c)" style="fill: #cfcece"/>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="56.3715" y="138.641145" transform="rotate(-0 56.3715 138.641145)">Extracellular</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="56.3715" y="144.498819" transform="rotate(-0 56.3715 144.498819)">PhaZ7-like</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #555555" x="244.86174" y="144.447061" transform="rotate(-0 244.86174 144.447061)">82</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 59.17086 167.95008 
+L 59.175649 167.95008 
+L 59.175649 156.16512 
+L 59.17086 156.16512 
+z
+" clip-path="url(#pa00a68231c)" style="fill: #cfcece"/>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="56.3715" y="157.649145" transform="rotate(-0 56.3715 157.649145)">Periplasmic</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="56.3715" y="163.506819" transform="rotate(-0 56.3715 163.506819)">periplasmic</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #555555" x="244.86174" y="163.455061" transform="rotate(-0 244.86174 163.455061)">1</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="64.76958" y="31.456" transform="rotate(-0 64.76958 31.456)">Support strength of the 40,690 candidates</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="130.949322" y="49.355303" transform="rotate(-0 130.949322 49.355303)">29,974</text>
+   </g>
+  </g>
+  <g id="axes_1">
+   <g id="patch_14">
+    <path d="M 37.81278 20.134656 
+L 45.27774 20.134656 
+L 45.27774 12.812544 
+L 37.81278 12.812544 
+z
+" clip-path="url(#p881deebacb)" style="fill: #0f4d92"/>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="47.14398" y="17.848136" transform="rotate(-0 47.14398 17.848136)">Trained profile 5,172 (12.7%)</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 142.01118 20.134656 
+L 149.47614 20.134656 
+L 149.47614 12.812544 
+L 142.01118 12.812544 
+z
+" clip-path="url(#p881deebacb)" style="fill: #3775ba"/>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="151.34238" y="17.848136" transform="rotate(-0 151.34238 17.848136)">Ambiguous family 2,905 (7.1%)</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 246.20958 20.134656 
+L 253.67454 20.134656 
+L 253.67454 12.812544 
+L 246.20958 12.812544 
+z
+" clip-path="url(#p881deebacb)" style="fill: #cfcece"/>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="255.54078" y="17.848136" transform="rotate(-0 255.54078 17.848136)">Discovery layer only 32,613 (80.1%)</text>
+   </g>
+  </g>
+  <g id="c">
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="309.18686" y="34.772406" transform="rotate(-0 309.18686 34.772406)">c</text>
+   </g>
+   <g id="patch_17">
+    <path d="M 313.18686 51.93 
+L 383.986746 51.93 
+L 383.986746 41.9508 
+L 313.18686 41.9508 
+z
+" clip-path="url(#pb30231f9c3)" style="fill: #cfcece"/>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="388.45854" y="48.234296" transform="rotate(-0 388.45854 48.234296)">276 refs · 1 pos · 0 family ≥3</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="311.133996" y="43.244745" transform="rotate(-0 311.133996 43.244745)">Intracellular</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="311.133996" y="48.337808" transform="rotate(-0 311.133996 48.337808)">Cys-type nPHASCL</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 313.18686 68.562 
+L 384.346684 68.562 
+L 384.346684 58.5828 
+L 313.18686 58.5828 
+z
+" clip-path="url(#pb30231f9c3)" style="fill: #cfcece"/>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="388.45854" y="64.866296" transform="rotate(-0 388.45854 64.866296)">284 refs · 13 pos · 1 family ≥3</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="311.133996" y="59.876745" transform="rotate(-0 311.133996 59.876745)">Extracellular</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="311.133996" y="64.969808" transform="rotate(-0 311.133996 64.969808)">dPHASCL type 1</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 313.18686 85.194 
+L 366.883608 85.194 
+L 366.883608 75.2148 
+L 313.18686 75.2148 
+z
+" clip-path="url(#pb30231f9c3)" style="fill: #cfcece"/>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="388.45854" y="81.498296" transform="rotate(-0 388.45854 81.498296)">71 refs · 7 pos · 1 family ≥3</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="311.133996" y="76.508745" transform="rotate(-0 311.133996 76.508745)">Extracellular</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="311.133996" y="81.601808" transform="rotate(-0 311.133996 81.601808)">dPHASCL type 2</text>
+   </g>
+   <g id="patch_20">
+    <path d="M 313.18686 101.826 
+L 362.960464 101.826 
+L 362.960464 91.8468 
+L 313.18686 91.8468 
+z
+" clip-path="url(#pb30231f9c3)" style="fill: #cfcece"/>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="388.45854" y="98.130296" transform="rotate(-0 388.45854 98.130296)">52 refs · 3 pos · 0 family ≥3</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="311.133996" y="93.140745" transform="rotate(-0 311.133996 93.140745)">Intracellular</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="311.133996" y="98.233861" transform="rotate(-0 311.133996 98.233861)">nPHAMCL</text>
+   </g>
+   <g id="patch_21">
+    <path d="M 313.18686 118.458 
+L 335.757557 118.458 
+L 335.757557 108.4788 
+L 313.18686 108.4788 
+z
+" clip-path="url(#pb30231f9c3)" style="fill: #cfcece"/>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="388.45854" y="114.762296" transform="rotate(-0 388.45854 114.762296)">6 refs · 3 pos · 0 family ≥3</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="311.133996" y="109.772745" transform="rotate(-0 311.133996 109.772745)">Extracellular</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="311.133996" y="114.865861" transform="rotate(-0 311.133996 114.865861)">dPHAMCL</text>
+   </g>
+   <g id="patch_22">
+    <path d="M 313.18686 135.09 
+L 330.649935 135.09 
+L 330.649935 125.1108 
+L 313.18686 125.1108 
+z
+" clip-path="url(#pb30231f9c3)" style="fill: #cfcece"/>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="388.45854" y="131.394296" transform="rotate(-0 388.45854 131.394296)">4 refs · 1 pos · 0 family ≥3</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="311.133996" y="126.404745" transform="rotate(-0 311.133996 126.404745)">Extracellular</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="311.133996" y="131.497861" transform="rotate(-0 311.133996 131.497861)">PhaZ7-like</text>
+   </g>
+   <g id="patch_23">
+    <path d="M 313.18686 151.722 
+L 313.18686 151.722 
+L 313.18686 141.7428 
+L 313.18686 141.7428 
+z
+" clip-path="url(#pb30231f9c3)" style="fill: #cfcece"/>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="388.45854" y="148.026296" transform="rotate(-0 388.45854 148.026296)">1 refs · 1 pos · 0 family ≥3</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="311.133996" y="143.036745" transform="rotate(-0 311.133996 143.036745)">Periplasmic</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="311.133996" y="148.129861" transform="rotate(-0 311.133996 148.129861)">periplasmic</text>
+   </g>
+   <g id="patch_24">
+    <path d="M 313.18686 168.354 
+L 355.604504 168.354 
+L 355.604504 158.3748 
+L 313.18686 158.3748 
+z
+" clip-path="url(#pb30231f9c3)" style="fill: #cfcece"/>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #333333" x="388.45854" y="164.658296" transform="rotate(-0 388.45854 164.658296)">29 refs · 1 pos · 0 family ≥3</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="311.133996" y="159.668745" transform="rotate(-0 311.133996 159.668745)">Intracellular</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 5.4px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="311.133996" y="164.761861" transform="rotate(-0 311.133996 164.761861)">nPHASCL w/ lipase box</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #666666" transform="translate(313.18686 174.955433)">Ledger rows (bars, log-spaced) · positives · families reaching ≥3.</text>
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #666666" transform="translate(313.18686 181.291712)">All 30 ledger positives trace to one DOI (Knoll 2009); the amendment</text>
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #666666" transform="translate(313.18686 187.624867)">mapped them to 24 primary papers — only hfam_52/hfam_70 reach ≥3.</text>
+   </g>
+   <g id="text_54">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="318.31902" y="31.456" transform="rotate(-0 318.31902 31.456)">Reference anchors</text>
+   </g>
+  </g>
+  <g id="b">
+   <g id="text_55">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="101.82686" y="240.404406" transform="rotate(-0 101.82686 240.404406)">b</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(129.011544 252.249501)">GxSxG</text>
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(125.811544 257.618105)">lipase box</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(187.561717 251.753798)">Catalytic</text>
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(183.529295 257.588808)">domain type</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(247.081422 252.226454)">PF06850</text>
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(242.784547 257.619277)">(Cys marker)</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(309.38472 251.752626)">lid loop</text>
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(310.363626 257.619277)">(MCL)</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(368.218487 252.249501)">AHSMG</text>
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(368.355987 257.619277)">(PhaZ7)</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(426.904598 252.249501)">Secretion</text>
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #111111" transform="translate(427.458504 257.619277)">SignalP6</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="103.423681" y="266.518639" transform="rotate(-0 103.423681 266.518639)">Intracellular</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="103.423681" y="273.833571" transform="rotate(-0 103.423681 273.833571)">Cys-type nPHASCL (n = 29,974)</text>
+   </g>
+   <g id="patch_25">
+    <path d="M 109.431628 274.770978 
+L 164.704741 274.770978 
+L 164.704741 261.644837 
+L 109.431628 261.644837 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 169.511098 274.770978 
+L 224.784211 274.770978 
+L 224.784211 261.644837 
+L 169.511098 261.644837 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 229.590569 274.770978 
+L 284.863681 274.770978 
+L 284.863681 261.644837 
+L 229.590569 261.644837 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #0f4d92; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 289.670039 274.770978 
+L 344.943151 274.770978 
+L 344.943151 261.644837 
+L 289.670039 261.644837 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 349.749509 274.770978 
+L 405.022622 274.770978 
+L 405.022622 261.644837 
+L 349.749509 261.644837 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 409.828979 274.770978 
+L 465.102092 274.770978 
+L 465.102092 261.644837 
+L 409.828979 261.644837 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="103.423681" y="281.434708" transform="rotate(-0 103.423681 281.434708)">Extracellular</text>
+   </g>
+   <g id="text_65">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="103.423681" y="288.74964" transform="rotate(-0 103.423681 288.74964)">dPHASCL type 1 (n = 5,018)</text>
+   </g>
+   <g id="patch_31">
+    <path d="M 109.431628 289.687047 
+L 164.704741 289.687047 
+L 164.704741 276.560906 
+L 109.431628 276.560906 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #0f4d92; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_32">
+    <path d="M 169.511098 289.687047 
+L 224.784211 289.687047 
+L 224.784211 276.560906 
+L 169.511098 276.560906 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #0f4d92; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_33">
+    <path d="M 229.590569 289.687047 
+L 284.863681 289.687047 
+L 284.863681 276.560906 
+L 229.590569 276.560906 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_34">
+    <path d="M 289.670039 289.687047 
+L 344.943151 289.687047 
+L 344.943151 276.560906 
+L 289.670039 276.560906 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_35">
+    <path d="M 349.749509 289.687047 
+L 405.022622 289.687047 
+L 405.022622 276.560906 
+L 349.749509 276.560906 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_36">
+    <path d="M 409.828979 289.687047 
+L 465.102092 289.687047 
+L 465.102092 276.560906 
+L 409.828979 276.560906 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #0f4d92; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="103.423681" y="296.350778" transform="rotate(-0 103.423681 296.350778)">Extracellular</text>
+   </g>
+   <g id="text_67">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="103.423681" y="303.66571" transform="rotate(-0 103.423681 303.66571)">dPHASCL type 2 (n = 4,348)</text>
+   </g>
+   <g id="patch_37">
+    <path d="M 109.431628 304.603117 
+L 164.704741 304.603117 
+L 164.704741 291.476976 
+L 109.431628 291.476976 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #0f4d92; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_38">
+    <path d="M 169.511098 304.603117 
+L 224.784211 304.603117 
+L 224.784211 291.476976 
+L 169.511098 291.476976 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #0f4d92; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_39">
+    <path d="M 229.590569 304.603117 
+L 284.863681 304.603117 
+L 284.863681 291.476976 
+L 229.590569 291.476976 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_40">
+    <path d="M 289.670039 304.603117 
+L 344.943151 304.603117 
+L 344.943151 291.476976 
+L 289.670039 291.476976 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_41">
+    <path d="M 349.749509 304.603117 
+L 405.022622 304.603117 
+L 405.022622 291.476976 
+L 349.749509 291.476976 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_42">
+    <path d="M 409.828979 304.603117 
+L 465.102092 304.603117 
+L 465.102092 291.476976 
+L 409.828979 291.476976 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #0f4d92; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="103.423681" y="311.266847" transform="rotate(-0 103.423681 311.266847)">Intracellular</text>
+   </g>
+   <g id="text_69">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="103.423681" y="318.581779" transform="rotate(-0 103.423681 318.581779)">nPHAMCL (n = 987)</text>
+   </g>
+   <g id="patch_43">
+    <path d="M 109.431628 319.519186 
+L 164.704741 319.519186 
+L 164.704741 306.393045 
+L 109.431628 306.393045 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #0f4d92; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_44">
+    <path d="M 169.511098 319.519186 
+L 224.784211 319.519186 
+L 224.784211 306.393045 
+L 169.511098 306.393045 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_45">
+    <path d="M 229.590569 319.519186 
+L 284.863681 319.519186 
+L 284.863681 306.393045 
+L 229.590569 306.393045 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_46">
+    <path d="M 289.670039 319.519186 
+L 344.943151 319.519186 
+L 344.943151 306.393045 
+L 289.670039 306.393045 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #0f4d92; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_47">
+    <path d="M 349.749509 319.519186 
+L 405.022622 319.519186 
+L 405.022622 306.393045 
+L 349.749509 306.393045 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_48">
+    <path d="M 409.828979 319.519186 
+L 465.102092 319.519186 
+L 465.102092 306.393045 
+L 409.828979 306.393045 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_70">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="103.423681" y="326.182916" transform="rotate(-0 103.423681 326.182916)">Extracellular</text>
+   </g>
+   <g id="text_71">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="103.423681" y="333.497848" transform="rotate(-0 103.423681 333.497848)">dPHAMCL (n = 280)</text>
+   </g>
+   <g id="patch_49">
+    <path d="M 109.431628 334.435255 
+L 164.704741 334.435255 
+L 164.704741 321.309114 
+L 109.431628 321.309114 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #0f4d92; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_50">
+    <path d="M 169.511098 334.435255 
+L 224.784211 334.435255 
+L 224.784211 321.309114 
+L 169.511098 321.309114 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_51">
+    <path d="M 229.590569 334.435255 
+L 284.863681 334.435255 
+L 284.863681 321.309114 
+L 229.590569 321.309114 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_52">
+    <path d="M 289.670039 334.435255 
+L 344.943151 334.435255 
+L 344.943151 321.309114 
+L 289.670039 321.309114 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_53">
+    <path d="M 349.749509 334.435255 
+L 405.022622 334.435255 
+L 405.022622 321.309114 
+L 349.749509 321.309114 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_54">
+    <path d="M 409.828979 334.435255 
+L 465.102092 334.435255 
+L 465.102092 321.309114 
+L 409.828979 321.309114 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #0f4d92; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_72">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="103.423681" y="341.098986" transform="rotate(-0 103.423681 341.098986)">Extracellular</text>
+   </g>
+   <g id="text_73">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="103.423681" y="348.413918" transform="rotate(-0 103.423681 348.413918)">PhaZ7-like (n = 82)</text>
+   </g>
+   <g id="patch_55">
+    <path d="M 109.431628 349.351325 
+L 164.704741 349.351325 
+L 164.704741 336.225184 
+L 109.431628 336.225184 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #9cbbe0; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_56">
+    <path d="M 169.511098 349.351325 
+L 224.784211 349.351325 
+L 224.784211 336.225184 
+L 169.511098 336.225184 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_57">
+    <path d="M 229.590569 349.351325 
+L 284.863681 349.351325 
+L 284.863681 336.225184 
+L 229.590569 336.225184 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_58">
+    <path d="M 289.670039 349.351325 
+L 344.943151 349.351325 
+L 344.943151 336.225184 
+L 289.670039 336.225184 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_59">
+    <path d="M 349.749509 349.351325 
+L 405.022622 349.351325 
+L 405.022622 336.225184 
+L 349.749509 336.225184 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #0f4d92; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_60">
+    <path d="M 409.828979 349.351325 
+L 465.102092 349.351325 
+L 465.102092 336.225184 
+L 409.828979 336.225184 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #0f4d92; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_74">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #8c8c8c" x="103.423681" y="356.015055" transform="rotate(-0 103.423681 356.015055)">Periplasmic</text>
+   </g>
+   <g id="text_75">
+    <text style="font-size: 5.6px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: end; fill: #111111" x="103.423681" y="363.329987" transform="rotate(-0 103.423681 363.329987)">periplasmic (n = 1)</text>
+   </g>
+   <g id="patch_61">
+    <path d="M 109.431628 364.267394 
+L 164.704741 364.267394 
+L 164.704741 351.141253 
+L 109.431628 351.141253 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #0f4d92; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_62">
+    <path d="M 169.511098 364.267394 
+L 224.784211 364.267394 
+L 224.784211 351.141253 
+L 169.511098 351.141253 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #0f4d92; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_63">
+    <path d="M 229.590569 364.267394 
+L 284.863681 364.267394 
+L 284.863681 351.141253 
+L 229.590569 351.141253 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_64">
+    <path d="M 289.670039 364.267394 
+L 344.943151 364.267394 
+L 344.943151 351.141253 
+L 289.670039 351.141253 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_65">
+    <path d="M 349.749509 364.267394 
+L 405.022622 364.267394 
+L 405.022622 351.141253 
+L 349.749509 351.141253 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #f0f4fa; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_66">
+    <path d="M 409.828979 364.267394 
+L 465.102092 364.267394 
+L 465.102092 351.141253 
+L 409.828979 351.141253 
+z
+" clip-path="url(#pa5fd5bcd6e)" style="fill: #0f4d92; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_76">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #111111" x="116.71326" y="221.088" transform="rotate(-0 116.71326 221.088)">Architecture-evidence coverage (% of each superfamily's rows)</text>
+   </g>
+   <g id="text_77">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="137.068185" y="269.501853" transform="rotate(-0 137.068185 269.501853)">0</text>
+   </g>
+   <g id="text_78">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="197.147655" y="269.501853" transform="rotate(-0 197.147655 269.501853)">0</text>
+   </g>
+   <g id="text_79">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="257.227125" y="269.501853" transform="rotate(-0 257.227125 269.501853)">100</text>
+   </g>
+   <g id="text_80">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="317.306595" y="269.501853" transform="rotate(-0 317.306595 269.501853)">0</text>
+   </g>
+   <g id="text_81">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="377.386065" y="269.501853" transform="rotate(-0 377.386065 269.501853)">0</text>
+   </g>
+   <g id="text_82">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="437.465535" y="269.501853" transform="rotate(-0 437.465535 269.501853)">0</text>
+   </g>
+   <g id="text_83">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="137.068185" y="284.417922" transform="rotate(-0 137.068185 284.417922)">100</text>
+   </g>
+   <g id="text_84">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="197.147655" y="284.417922" transform="rotate(-0 197.147655 284.417922)">100</text>
+   </g>
+   <g id="text_85">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="257.227125" y="284.417922" transform="rotate(-0 257.227125 284.417922)">0</text>
+   </g>
+   <g id="text_86">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="317.306595" y="284.417922" transform="rotate(-0 317.306595 284.417922)">0</text>
+   </g>
+   <g id="text_87">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="377.386065" y="284.417922" transform="rotate(-0 377.386065 284.417922)">0</text>
+   </g>
+   <g id="text_88">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="437.465535" y="284.417922" transform="rotate(-0 437.465535 284.417922)">100</text>
+   </g>
+   <g id="text_89">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="137.068185" y="299.333992" transform="rotate(-0 137.068185 299.333992)">100</text>
+   </g>
+   <g id="text_90">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="197.147655" y="299.333992" transform="rotate(-0 197.147655 299.333992)">100</text>
+   </g>
+   <g id="text_91">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="257.227125" y="299.333992" transform="rotate(-0 257.227125 299.333992)">0</text>
+   </g>
+   <g id="text_92">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="317.306595" y="299.333992" transform="rotate(-0 317.306595 299.333992)">0</text>
+   </g>
+   <g id="text_93">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="377.386065" y="299.333992" transform="rotate(-0 377.386065 299.333992)">0</text>
+   </g>
+   <g id="text_94">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="437.465535" y="299.333992" transform="rotate(-0 437.465535 299.333992)">100</text>
+   </g>
+   <g id="text_95">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="137.068185" y="314.250061" transform="rotate(-0 137.068185 314.250061)">100</text>
+   </g>
+   <g id="text_96">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="197.147655" y="314.250061" transform="rotate(-0 197.147655 314.250061)">0</text>
+   </g>
+   <g id="text_97">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="257.227125" y="314.250061" transform="rotate(-0 257.227125 314.250061)">0</text>
+   </g>
+   <g id="text_98">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="317.306595" y="314.250061" transform="rotate(-0 317.306595 314.250061)">100</text>
+   </g>
+   <g id="text_99">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="377.386065" y="314.250061" transform="rotate(-0 377.386065 314.250061)">0</text>
+   </g>
+   <g id="text_100">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="437.465535" y="314.250061" transform="rotate(-0 437.465535 314.250061)">0</text>
+   </g>
+   <g id="text_101">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="137.068185" y="329.16613" transform="rotate(-0 137.068185 329.16613)">100</text>
+   </g>
+   <g id="text_102">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="197.147655" y="329.16613" transform="rotate(-0 197.147655 329.16613)">0</text>
+   </g>
+   <g id="text_103">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="257.227125" y="329.16613" transform="rotate(-0 257.227125 329.16613)">0</text>
+   </g>
+   <g id="text_104">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="317.306595" y="329.16613" transform="rotate(-0 317.306595 329.16613)">0</text>
+   </g>
+   <g id="text_105">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="377.386065" y="329.16613" transform="rotate(-0 377.386065 329.16613)">0</text>
+   </g>
+   <g id="text_106">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="437.465535" y="329.16613" transform="rotate(-0 437.465535 329.16613)">100</text>
+   </g>
+   <g id="text_107">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="137.068185" y="344.0822" transform="rotate(-0 137.068185 344.0822)">45</text>
+   </g>
+   <g id="text_108">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="197.147655" y="344.0822" transform="rotate(-0 197.147655 344.0822)">0</text>
+   </g>
+   <g id="text_109">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="257.227125" y="344.0822" transform="rotate(-0 257.227125 344.0822)">0</text>
+   </g>
+   <g id="text_110">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="317.306595" y="344.0822" transform="rotate(-0 317.306595 344.0822)">0</text>
+   </g>
+   <g id="text_111">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="377.386065" y="344.0822" transform="rotate(-0 377.386065 344.0822)">100</text>
+   </g>
+   <g id="text_112">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="437.465535" y="344.0822" transform="rotate(-0 437.465535 344.0822)">100</text>
+   </g>
+   <g id="text_113">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="137.068185" y="358.998269" transform="rotate(-0 137.068185 358.998269)">100</text>
+   </g>
+   <g id="text_114">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="197.147655" y="358.998269" transform="rotate(-0 197.147655 358.998269)">100</text>
+   </g>
+   <g id="text_115">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="257.227125" y="358.998269" transform="rotate(-0 257.227125 358.998269)">0</text>
+   </g>
+   <g id="text_116">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="317.306595" y="358.998269" transform="rotate(-0 317.306595 358.998269)">0</text>
+   </g>
+   <g id="text_117">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #1a1a1a" x="377.386065" y="358.998269" transform="rotate(-0 377.386065 358.998269)">0</text>
+   </g>
+   <g id="text_118">
+    <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #ffffff" x="437.465535" y="358.998269" transform="rotate(-0 437.465535 358.998269)">100</text>
+   </g>
+  </g>
+  <g id="text_119">
+   <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #666666" transform="translate(74.398157 390.498875)">PF06850 is the intracellular Cys-type C-terminal marker, not an extracellular SBD. SignalP coverage is 100%: the 29,469 rows still labelled 'pending'</text>
+   <text style="font-size: 5px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #666666" transform="translate(96.97511 396.833592)">were re-tested and predicted intracellular (99.82%); they are counted as predicted non-secreted here. Candidate-only evidence.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa00a68231c">
+   <rect x="59.17086" y="39.456" width="186.624" height="133.056"/>
+  </clipPath>
+  <clipPath id="p881deebacb">
+   <rect x="38.43486" y="7.2" width="311.04" height="16.128"/>
+  </clipPath>
+  <clipPath id="pb30231f9c3">
+   <rect x="313.18686" y="39.456" width="171.072" height="133.056"/>
+  </clipPath>
+  <clipPath id="pa5fd5bcd6e">
+   <rect x="105.82686" y="245.088" width="362.88" height="129.024"/>
+  </clipPath>
+ </defs>
+</svg>
