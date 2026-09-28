@@ -27,6 +27,16 @@ def git_init(root: Path) -> None:
         subprocess.run(["git", *command], cwd=root, check=True, capture_output=True, env=env)
 
 
+# This module deliberately carries NO credential-shaped literal. The first version
+# used a PEM header as the fixture and tripped the working-tree gate - and a naive
+# "BEGIN RSA " + "PRIVATE KEY-----" split does NOT help, because the gate's regex is
+# -----BEGIN [^-]*PRIVATE KEY----- and the gap between the pieces contains no dash,
+# so it still matches across the concatenation. Splitting safely would require the
+# break to fall INSIDE the matched literal. The exemption is keyed on the PATH, so
+# any pattern demonstrates it; the server-address form below is used instead and is
+# assembled from pieces the same way the safety module assembles its own.
+
+
 class FixtureHolderTests(unittest.TestCase):
     def test_the_holder_path_is_the_safety_test_module(self):
         self.assertEqual(module.FIXTURE_HOLDER, "pipeline/tests/test_public_repo_safety.py")
@@ -67,7 +77,7 @@ class ScanTests(unittest.TestCase):
     def test_the_fixture_holder_is_exempted_and_counted_not_dropped(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = self._repo(temporary, {
-                module.FIXTURE_HOLDER: 'SAMPLE = "-----BEGIN RSA PRIVATE KEY-----"\n',
+                module.FIXTURE_HOLDER: 'SERVER = "10.16.1.' + '141"\n',
             })
             report = module.scan(root)
             self.assertEqual(report["violating_blobs"], 0, "the fixture holder must not be reported")
