@@ -21,6 +21,11 @@
 
 **总览表**（任务明细见 §2–§4；状态列为 2026-09-28 执行后的实测状态）：
 
+> **执行已完成并推送（2026-09-28）**：F1–F9、F13–F17 已执行；8 个 commit 已 push 到 `origin/main`（`3117287..f8b0cf8`），tag `phaded-evidence-model-v2-20260928` 已推送。最终门禁：**1759 项测试 OK**（skipped 1，环境性）、`compileall` 0、`git diff --check` 0、`runs/results/deploy` 零改动、v1 三件权威件 SHA-256 逐位不变。
+> **本表的权威记录是 `docs/T141_20260917_project_handoff.md` §12.11**（含四个科学结果、两处被推翻的计划前提、以及仍未完成项）。
+> **F10（P3）、F11（P4）、F12（P5）仍未执行**——它们各自卡在 §5 的待决策项上（#7 是否新建 MAFFT 比对、#8 竞争面板 PDB 闭集、#9 抽样规模与种子）。这些是**科学设计决策**，编造它们会违反项目规则，故等待操作者裁决。
+> **GitHub Release 与 Zenodo DOI 未创建**——`gh` 未登录、无 Zenodo API token；push 与 tag 已用 Git Credential Manager 的既有凭据完成。
+
 | # | 类 | 任务 | 状态 | 授权 |
 |---|---|---|---|---|
 | F1 | A | 616 条候选流转残留：归因 + 处置规则提案 | ✅ **完成**：472 `profile_unassigned_no_discovery_claim` + 140 `discovery_claim_not_unique` + 4 `score_tier_not_upgraded`，`Σ=616`、`unexplained=0`（双向完整性等式证明）；全部映射 `function_unresolved` | 否 |
