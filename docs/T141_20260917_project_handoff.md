@@ -55,6 +55,25 @@
 
 ## 0. 一句话状态
 
+> ### 📌 现行状态（2026-09-28，PhaDED 证据模型重构）—— **先读这一段**
+>
+> 下面 2026-09-17 的叙述描述的是**当时的**收尾状态；本节其后的一切已被 **§12**（47 个小节，含索引）推进。**当前状态以本块与 §12 为准。**
+>
+> | 项 | 状态 |
+> |---|---|
+> | **证据模型重构 F1–F16** | **全部完成**（§12.11 为执行记录） |
+> | **F17** push / tag / GitHub Release | **完成**（Release id `398452852`，公开，prerelease：https://github.com/anzhiw2-gif/PHB_gtdb-ds/releases/tag/phaded-evidence-model-v2-20260928 ） |
+> | **F17 DOI** | **未完成** —— 需在 **Zenodo 网页端**为本仓库开启 GitHub 集成；**未取得前不得写任何占位符** |
+> | P4 结构普查 | **23/30 运行中**（尚缺十分位 3）；结论在 13/30 时已成形：**序列标签没有结构担保** |
+> | P5 尾部结构 tranche | **就绪未启动**（与普查**互斥抽样**，理由见 §12.47；命令见 §12.45） |
+> | 普查最终读数 | 脚本就绪、起飞前检查通过（§12.43）；命令见 §12.45 |
+> | **推送前必跑** | `python pipeline/scripts/run_release_gate.py`，**以退出码为准**（§12.46） |
+> | 待操作者决定 | ① 历史重写（**94 个违规 blob**，自 Initial commit 起）；② 616 条中 472 条的 `primary_disposition`（六项词表无适配项）；③ `hfam_70` 提升是否传播到 1,087 行；④ 目录 schema 是否承载命中强度；⑤ 是否发 v2.1（§12.32 的 Option B） |
+>
+> **candidate-only 边界不变**：987 条 nPHAMCL 仍为 `function_unresolved`；延迟层不进入任何候选计数；**没有任何候选被删除、降级或排除**。
+>
+> **本会话最值得继承的一条**（§12.40）：本会话**六次**「写检查的动作本身出错」，**每一次都是检查器关于被测对象的假设错了，而不是数据错了**。写检查时最该怀疑的不是被检查的东西。
+
 计划 v2 的 8 个 Task（Task 0–7）中 **5 个 completed**（Task 0、1、3、4、5）、**3 个 partial**（Task 2、Task 6、Task 7）。全部产物经两轮独立对抗性验证（`20260917_phaded_phase1_verification_01` 交付物 64/64 存在、`20260917_phaded_phase2_verification_01` 交付物 54/54 存在）**均未发现伪造或数据篡改**；Phase 1 的 P1–P5 与 Phase 2 的 V1–V6 的处置状态见 §6。
 
 > **Task 6 = `partial` 的准确定义（`20260917_phaded_final_consistency_fix_01` 统一口径，2026-09-17）：** **已完成** Step 6.1a（判据定义 + 预注册证伪条件 F1–F6 + 候选层证据层）与 Step 6.1b（**decision record 已存在**，`docs/superpowers/plans/2026-09-17-phaded-inphascl-cys-decision-record.md`；**修复前快照为 24,971 B / `5a5aa626…`，已不是当前值** —— 活文档的大小与 SHA-256 会因其自身更新而变化，请以磁盘实测为准；某一时点的快照值记录在 `runs/20260917_phaded_final_consistency_fix_01/results/final_consistency_fix_manifest.json` 与本轮新增的收口 run（`runs/20260917_phaded_closeout_01/results/closeout_manifest.json`）中。结论 **推荐方案 A**）。**未完成且不是待办** Step 6.2（提交评审并等待授权）与 Step 6.3（建 profile → dated deploy → 服务器打分）：**该训练路径已被治理规则判定不可行** —— 276 条 Cys 参考中 275 条是 `annotation_only`（禁训，`validate_phaded_reference_ledger.py` L172–173），唯一可严格训练记录 **1 条**（`CAJ92291.1` = 模型酶 PhaZ1）**低于 gate 的 `positive_count >= 3`**；方案 A 因此**不需要新 profile**。**这不是"等授权"，下一会话不应再尝试训练该 HMM。**
