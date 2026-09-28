@@ -1210,6 +1210,28 @@ git push origin <tag>   ->  * [new tag] phaded-evidence-model-v2-20260928
 
 **第十轮 commit（已 push）**：`pipeline/scripts/audit_git_history_identity.py`（三处 git 子进程，与仓库规模无关；每个唯一 blob 只扫一次而非每 commit 一次；批流按**字节**偏移解析 —— 先解码会在首个多字节字符后使所有偏移错位，初版正是这样失败的）。
 
+### 12.22 第十一轮：v2 发布已备成「只差一条命令」（目标轮 11）
+
+Release 无法在此创建（`gh` 未认证、无 Zenodo token），但**内容工作可以做完，本轮做完了**：`docs/T141_20260928_phaded_v2_release_notes_and_commands.md`。
+
+**实测状态**：
+
+| 项 | 值 |
+|---|---|
+| annotated tag | `phaded-evidence-model-v2-20260928` → tag object `8694888` → commit **`fc944fe`** |
+| 是否已推送 | **是**（远端同时有 tag ref 与其 peeled `fc944fe`，共 2 个 ref） |
+| `origin/main` | **`3b1f72e`** |
+| **tag 之后的 commit 数** | **23** |
+| `3b1f72e` 处门禁 | 1,889 项测试 OK（skipped 1）；compileall 0；`git diff --check` 0；`test_public_repo_safety` 7 OK |
+
+**tag 自身的注解是一份完整准确的 release-candidate 说明，不应重写。**
+
+**唯一需要你定的选择**（已如实呈现而非代决）：**A** 直接发布既有 tag —— 简单，但发布的版本将**落后 `main` 23 个 commit**，结构层的发现一个都不会出现；**B** 在当前状态打新 tag（如 `phaded-evidence-model-v2.1-20260928`）再发布 —— 发布内容与今天 clone `main` 得到的一致，包含整条结构层证据线。**我建议 B**，理由是那 23 个 commit 里有几条**正是对 v2 tag 自身所载论断的更正** —— 最尖锐的是：tag 报告了信号肽门的检出率，却**没有**随之说明「因此该门的严格度缺乏依据」，也没有承载「序列层竞争无法把 nPHAMCL 与其实测混淆子分开」这一发现。只发布 tag，等于发布一幅项目此后已细化的图景。但这是版本决策，**归你**。
+
+**发布说明已按 B 写好**（可直接粘进 `gh release create`），逐条覆盖：结构层从未被阻塞这一**自我更正**、n=2 结构试点的结论（序列标签**没有结构担保**）、F7 step C 的 831 条、P5 尾部与主体的分离、P3 的四态与那个改变结论的覆盖缺口、两条被实测推翻的计划前提、616 条的词表缺口、以及仓库卫生的实测（**93 个违规 blob / 24 个 commit / HEAD 中 0 个 / 不含任何凭据**）。
+
+**确切命令已给出**：Option A 的 `gh release create --verify-tag`；Option B 的 `git tag -a … && git push origin … && gh release create …`。**Zenodo**：其 GitHub 集成需在网页 UI 中按仓库开启，DOI 在发布时铸出，**没有任何 API 调用可以替代**；若要手工存缴则需个人 token（本环境不存在）。**在 DOI 真正存在之前不得写入占位符。**
+
 ---
 
 *本文档为 candidate-only 交接记录。所有被引用的 profile、domain、motif、SignalP、结构、定位与系统发育证据仍只表示候选同源或功能潜力，**不等同于已验证的 PHB/PHA 降解表型**。*
