@@ -1329,6 +1329,26 @@ Release 无法在此创建（`gh` 未认证、无 Zenodo token），但**内容�
 
 **第三个数值得带走**：这些行的 `sequence_integrity` 为 `terminal_stop_only` **1,059（97.4%）**、`valid` 16、`possible_N_truncation` 8、`invalid_internal_character` 4。**97.4% 从另一张表独立复现了 P5 提取的实测**（5,014 条中 4,961 条 = 98.9% 带尾部终止符）⇒ 进一步确认**尾部终止符是数据源的属性**，而非某一条提取路径的产物。
 
+### 12.27 第十六轮：上轮那处「未判定」已查清，并修掉一个真实缺口（目标轮 16）
+
+**先更正我上轮的一个说法。** 我写过 `profile_best_evalue` 为空「是刻意最小化还是遗漏，此处不做判定」，并称它「阻断了判断命中强度」。查证后：**v1 merge 确实有 `profile_best_evalue` 列，但它在这些行里本身就是空的**（1,087 行中出现在 v1 merge 的 853 行**全部为空**）⇒ **目录是忠实复制了一个空的源头，adapter 无罪**，而且 adapter 自己的 docstring 早就点明了这个上游缺口（`"""The v1 strong-profile rule needs an E-value; the subtype matrix has a gap."""`）。**真正缺的不是 E 值，而是 gap 值。**
+
+**真正的缺口**：目录带着 `evidence_threshold = min_score_gap_1.0_bits_HMMER_E1e6` 与 `assignment_status`，**却不带这两者所定义、所比较的那个量**。而 subtype matrix **两个 gap 都有**，目录把两者都丢了。实测（那 1,087 行）：
+
+| `assignment_status` | n | `family_score_gap` 范围 | 中位 | ≥1.0 bit |
+|---|---:|---|---:|---:|
+| `ambiguous_family` | 950 | 0.0 – 0.9 | 0.4 | **0** |
+| `assigned` | 132 | 1.0 – 3.3 | 1.3 | **132** |
+| `ambiguous_superfamily` | 5 | 0.0 – 0.1 | 0.0 | 0 |
+
+⇒ **gap 在文档化的 1.0-bit 阈值处把两类完全分开，零重叠。** 「有状态却无数字」等于**没有证据的断言**。
+
+**已修（测试优先）**：`build_phaded_v2_catalog_input.py` 新增 `derive_score_gaps()` 并把 `family_score_gap` / `superfamily_score_gap` 作为**携带的证据状态**（来源 `localization_subtype_matrix.tsv`）输出，含 mapping-spec 登记与 **4 项新测试**（模块 38 → 42 项）。**模块自带的 schema 校验在第一次尝试时就拦住了遗漏**（`output_column_not_declared`）—— 守卫按设计工作。
+
+**尚未生效**：已交付的目录（`runs/20260928_phaded_v2_catalog_recompute_01`）**早于本次改动**，故仍缺这两列。**重建目录 = 新目录版本，属操作者决定**，不在本轮擅自夹带。
+
+**第十六轮 commit（已 push，`origin/main` = `a0a09c9`）**：`a0a09c9`。门禁：`Ran 1893 tests … OK (skipped=1)`；`compileall` 0；`git diff --check` 0；`test_public_repo_safety` 7 OK；frozen 树零改动。
+
 **不在争议之内的**：F15 的提升本身记录完备、经 gate 且获授权，本审计未发现它做错了什么；`hfam_52` 的 817 行同样按设计推迟、保持不变；没有任何候选被删除、降级或排除。
 
 ---
