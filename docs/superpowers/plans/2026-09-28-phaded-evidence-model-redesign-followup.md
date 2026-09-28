@@ -197,12 +197,12 @@
 
 **依据（Task 9 只读审计，实测）**：scan-13 执行的 hmmsearch **没有 `-Z`、没有 `--domZ`**（证据：冻结 run 自记的 driver SHA-256 与本地 `formal_frozen_screen_parallel.sh` 逐位相同，其 L115 即命令模板；独立复核见 `runs/20260917_phaded_task_completion_check_01/01_recall/README.md` §8）。因此**每个分片的 E 值用的是该分片自己的序列数**（shard_0001 = 4,694,121 vs shard_0051 = 2,923,820，差 1.61 倍）。E 随 Z 严格线性已被两次独立实验证实，故**不需要重跑任何 HMMER**。
 
-**步骤**：
-- [ ] Step A 对冻结的 100 个分片跑 `grep -c '^>'`，得逐片 `Z_shard` 与**实测全库 Z**（闭合长期 `pending` 的 ~2.92×10⁸ 近似值）。
-- [ ] Step B 用既有 `pipeline/scripts/parse_phaded_cys_targeted_recall.py::rescale_evalue`（`E_full = E_shard × Z_total / Z_shard`）重标 6,743,198 行 → 新表 + 新 manifest（含 `database_size_Z`、逐片计数、命令模板）。
-- [ ] Step C 在新列上重新施加 `-E 1e-5`，报告与冻结 6,743,198 行的**命中数差**；**新旧 E 值永不混用**，冻结表一字不改。
+**步骤**（**A/B/C 三步均已于 2026-09-28 执行完毕**，实测见下）：
+- [x] Step A 对冻结的 100 个分片跑 `grep -c '^>'`，得逐片 `Z_shard` 与**实测全库 Z** → **615,969,589**（逐片 4.47M–11.12M，最大 11,120,363；100 片无 pending）。逐片表：`runs/20260928_phaded_scan13_z_scale_reconciliation_01/results/shard_record_counts.tsv`。**长期 `pending` 的 ~2.92×10⁸ 近似值由此闭合，实测证明其偏低约 2.1 倍。**
+- [x] Step B 用既有 `pipeline/scripts/parse_phaded_cys_targeted_recall.py::rescale_evalue`（`E_full = E_shard × Z_total / Z_shard`）重标 6,743,197 行 → 新表 `hits_all_rescaled.tsv` + manifest（含 `database_size_Z`、逐片计数、命令模板）。
+- [x] Step C 在新列上重新施加 `-E 1e-5`，报告与冻结 6,743,197 行的**命中数差** → 通过 `1e-5` 的行由 **6,742,621 → 6,305,428**，即 **437,193 行（6.48%）新被拒**；逐家族最大落差 `ePhaZ_broad_discovery` **−205,106**，`phasin` 的 7 行全部出界。**新旧 E 值未混用，冻结表一字未改**（`scale_delta_report.json` 的 `delta_rows: -437193`、`direction: newly_rejected`）。
 
-**验收**：逐片计数之和 = 实测全库 Z；重标后的表与其 manifest 自洽；差异报告给出方向与量级；冻结 `hits_all.tsv` 未改。
+**验收（已达成）**：逐片计数之和 = 实测全库 Z；重标后的表与其 manifest 自洽；差异报告给出方向与量级；冻结 `hits_all.tsv` 未改。
 
 **授权**：需 ✅（新建 run + dated deploy + 服务器只读访问冻结 scan-13 目录）。**不需要** GTDB 重扫。
 

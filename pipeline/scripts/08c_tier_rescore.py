@@ -28,7 +28,14 @@ HMMER 默认 `Z = 本次输入 FASTA 的序列数`。本步骤的输入是**已�
 
 用法（服务器 T141，cwd=工作区根）:
   ~/miniconda3/envs/phb_gtdb/bin/python scripts/08c_tier_rescore.py \
-      --database-size-z 292000000 --database-size-basis "parent scan-13 shard counts"
+      --database-size-z 615969589 --database-size-basis "parent scan-13 shard counts"
+
+  ⚠️ 上面这个 Z 是 **scan-13 全库的实测值**（2026-09-28 对冻结的 100 个分片逐片计数之
+  和，见 `runs/20260928_phaded_scan13_z_scale_reconciliation_01/results/shard_record_counts.tsv`）。
+  它**取代**了文档中长期沿用的 `~2.92×10⁸` —— 后者是「单分片 2.92M × 100」的外推，
+  实测证明**偏低约 2.1 倍**。**不要照抄旧值**：Z 偏低会使 E 值过于宽松（同比例放大），
+  正是本步骤的尺度契约要防止的失败模式。换用任何其他父扫描时，Z 必须**实测**其分片计数之和，
+  不得外推、不得沿用本文档的历史数字。
 """
 import argparse
 import importlib.util

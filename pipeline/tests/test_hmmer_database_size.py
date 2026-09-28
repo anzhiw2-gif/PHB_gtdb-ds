@@ -287,11 +287,18 @@ class HmmerCommandBuilderTests(unittest.TestCase):
         self.module = load_hmmer_command()
 
     def test_every_shard_uses_the_same_full_database_z(self):
+        # The value here is deliberately arbitrary: this test is about pass-through,
+        # not about any particular library size. It previously used 292000000, which
+        # was the long-standing *approximation* for scan-13 and is now known to be
+        # about 2.1x too low - using a refuted constant as an example invites copying
+        # it. The measured scan-13 full-library Z is 615,969,589
+        # (runs/20260928_phaded_scan13_z_scale_reconciliation_01/results/
+        # shard_record_counts.tsv).
         command = self.module.build_hmmsearch_command(
-            "model.hmm", "shard.faa", total_targets=292000000
+            "model.hmm", "shard.faa", total_targets=123456789
         )
         self.assertIn("-Z", command)
-        self.assertEqual(command[command.index("-Z") + 1], "292000000")
+        self.assertEqual(command[command.index("-Z") + 1], "123456789")
 
     def test_z_is_the_same_for_two_different_shards_of_one_library(self):
         first = self.module.build_hmmsearch_command(
