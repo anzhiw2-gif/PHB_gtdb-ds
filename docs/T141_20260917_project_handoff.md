@@ -1502,6 +1502,27 @@ Release 无法在此创建（`gh` 未认证、无 Zenodo token），但**内容�
 
 **第二十四轮 commit（已 push，`origin/main` = `4cd32a6`）**：`4cd32a6`（6 文件，+44/−11）。门禁：`Ran 1901 tests … OK (skipped=1)`；`compileall` 0；`git diff --check` 0；`test_public_repo_safety` 7 OK；frozen 零改动。
 
+### 12.36 第二十五轮：本会话新增脚本的索引（目标轮 25）
+
+做「过时论断」扫描时顺带发现一个**可发现性缺口**：本会话新增了 10 个脚本，但项目**没有任何脚本索引**（`pipeline/README_HPC.md` 是服务器工作区说明，不是索引），其中 **4 个在受版本控制的文档里完全没有引用** ⇒ 接手的读者**无法从文档找到 F10/F11/F12/P5 是怎么做的**。以下为完整清册（全部已跟踪、全部失败测试优先）。
+
+| 脚本（`pipeline/scripts/`） | 用途 | 测试模块（项数） | 主要 run |
+|---|---|---|---|
+| `quantify_phaded_scan_scale_impact.py` | F7-C：修正尺度对候选宇宙的影响 | `test_quantify_phaded_scan_scale_impact`（59） | `20260928_phaded_scan_scale_impact_v2_01` |
+| `build_phaded_nphamcl_competition_panel.py` | P4：由冻结实测**推导** 8YNV+3 硬竞争者+7 对照的竞争面板 | `test_phaded_nphamcl_competition_panel`（19） | `20260928_phaded_nphamcl_competition_panel_v2_01` |
+| `analyze_phaded_nphamcl_competition.py` | P4/P5：面板竞争评分（含**池中性标签**可换、E 值下溢处理） | 同上 | 同上 + `…_deferred_sequence_competition_v2_01` |
+| **`sample_phaded_deferred_pool.py`** | **P5**：延迟池分层抽样 + **尾部全取**模式（`--tail-buckets`） | `test_sample_phaded_deferred_pool`（19） | `…_deferred_stratified_sample_v2_01`、`…_deferred_tail_complete_v2_01` |
+| **`classify_phaded_cys_anchor_states.py`** | **P3**：29,974 条 Cys 的 substitution / truncation / uncertain 四态 | `test_classify_phaded_cys_anchor_states`（15） | `20260928_phaded_cys_anchor_states_v2_01` |
+| **`build_phaded_structural_pilot.py`** | **P4 结构层**：由面板边际两端选试点集 + **序列清洗** | `test_build_phaded_structural_pilot`（14） | `20260928_phaded_structural_pilot_v2_01` |
+| `sample_phaded_structural_survey.py` | P4 结构层：按 margin 十分位分层抽样（支持 `--sequence-source` / 可选 `--merged`） | `test_sample_phaded_structural_survey`（19） | `…_structural_survey_v2_01`、`…_deferred_tail_structural_v2_01` |
+| `analyze_phaded_structural_survey.py` | P4/P5 结构层：TM 边际 + 预注册阈值 + Spearman（默认 `rank_001`，两侧同一模型） | `test_analyze_phaded_structural_survey`（26） | 同上 |
+| `audit_git_history_identity.py` | F16 后续：**只读**审计 git 历史中的身份字符串 | `test_audit_git_history_identity`（8） | `20260928_phaded_git_history_identity_audit_01` |
+| **`verify_phaded_catalog_input_is_additive.py`** | F14 后续：证明 adapter 修订**纯增量**（逐行逐列对比） | `test_verify_phaded_catalog_input_is_additive`（8） | `…_v2_catalog_input_delta_verify_01` |
+
+（**粗体** = 此前在受版本控制的文档中零引用的 4 个。）另有两处**非 `pipeline/scripts/` 的代码改动**：`build_phaded_v2_catalog_input.py` 增加 `derive_score_gaps()` 与两个 gap 列；`08c_tier_rescore.py` 的用法示例改用实测 Z。
+
+**全量门禁（第二十五轮结束时）**：`Ran 1901 tests … OK (skipped=1)`；`compileall` 0；`git diff --check` 0；`test_public_repo_safety` 7 OK。
+
 **不在争议之内的**：F15 的提升本身记录完备、经 gate 且获授权，本审计未发现它做错了什么；`hfam_52` 的 817 行同样按设计推迟、保持不变；没有任何候选被删除、降级或排除。
 
 ---
