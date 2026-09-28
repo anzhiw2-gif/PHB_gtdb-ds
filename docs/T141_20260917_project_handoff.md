@@ -936,6 +936,39 @@ git push origin <tag>   ->  * [new tag] phaded-evidence-model-v2-20260928
 
 **本轮新增代码**（均失败测试优先）：`build_phaded_nphamcl_competition_panel.py`、`analyze_phaded_nphamcl_competition.py` + 17 项测试；`quantify_phaded_scan_scale_impact.py` + 59 项测试（其**工作区版本**为权威 —— 并发提交 `c1b4155` 抓到的是中途版本，差值 +60/−22 仅含作者其后的改动）。
 
+### 12.13 第二轮续：P5 与 P3 执行（2026-09-28 晚，目标轮 1 续）
+
+**P5（with-lipase 1,206,655 条分层抽样）已执行**（`runs/20260928_phaded_deferred_stratified_sample_v2_01`，8 秒）：
+
+- 池规模 **1,206,655 精确复现**；五个 E 值桶之和精确等于池规模，并在共享边界上与冻结 summary 的逐段计数一致。
+- **实测该池在 trained 维度上是退化的**：**全部 1,206,655 行**都是 `trained_best_model = no_trained_claim` 且 `override_by_trained = 0` —— 这是归档时"去掉被 trained 覆盖的行"的构造结果。⇒ 计划要求的六个分层键中，**只有 discovery E 值与召回层架构列可用**；序列簇、taxonomy、长度/完整度三键**在归档池中不存在**，已如实列为 pending 而非编造。
+- **设计层的真问题**：按比例分配**无法刻画高置信尾部**，而计划自己的漏斗（E<1e-50 = 1,550；E<1e-30 = 4,013）恰恰只针对尾部 —— 这两个层合计仅占 0.33%，按比例只分到 **1 与 2 个抽样位**，而 1e-30–1e-5 两桶占 99.6%。**建议（未执行）：尾部全取 + 主体按比例**，即取全部 4,013 条 E<1e-30 —— 该规模继承自计划自己的漏斗而非新定，且一次性抽取与比对可行（试点的 1,001 条抽提耗时 293 秒）。
+- 试点样本构成已并列记录，但**刻意不作等同比较**：试点的是单参考 blastp E，分层用的是 discovery-HMM E，两者不同尺度（冻结证据已警告前者宽松约 8.4×10⁵ 倍）。
+
+**P3（29,974 条 Cys 锚定残基映射）已执行**（`runs/20260928_phaded_cys_anchor_states_v2_01`，<1 秒）：
+
+- 目标集 **29,974 精确复现**；锚点 = PhaZ1 **Cys183**（context `VCQ`，PMID 16233560，定点突变；**C183S 不失活**）。
+- 四态规则**由锚点推导而非自选**（`truncation` 先于一切 tier 判定，因短于 183 aa 的蛋白无论匹配到什么都不可能承载该位点）：
+
+| state | n | share |
+|---|---:|---:|
+| `pattern_present` | **28,271** | **94.3%** |
+| `substitution` | 776 | 2.6% |
+| `truncation` | 558 | 1.9% |
+| `uncertain` | 369 | 1.2% |
+
+- **本任务内部发现并闭合了一个覆盖缺口，且它改变结论**：首轮只覆盖 28,482 条，另有 **1,492 条**被标为 `uncertain`，原因是它们是 `pool_external` 而 `candidate_union.faa` **只含池内候选** —— 即"锚点问题从未被问过"。补入池外序列源后（覆盖 1,492/1,492）pending 归零，`truncation` 态才显现（558 条是真正短于锚点的池外蛋白）。**首轮 `truncation = 0` 是缺输入的假象，不是发现**（27,667/491/0/1,816 → 28,271/776/558/369）。
+- **计划里 P3 的待决策项（是否新建 MAFFT 比对）不约束本任务**：锚点是**序列上下文模式**，不是比对列；该决策只在尝试传递**结构**锚点坐标时才成立。冻结证据也记录了比对列路线本身已断（`candidate_ded_alignment_members = 0`）。
+- 边界保持：单锚点序列上下文，**不是**催化活性验证、不是 family 判定；每行沿用冻结的 `catalytic_activity_verified=false`；`uncertain` 明确标注**不是阴性**（因 C183S 不失活）。
+
+**第二轮 commit（已 push，`origin/main` = `eab3950`）**：`b2e0215`（F7-C + P4 序列层）、`a8fa48f`（P5 分层与尾部缺口）、`eab3950`（P3 四态与覆盖缺口）。
+
+**至此 F1–F17 的任务部分全部执行完毕**。剩余两项不是"未做的任务"，而是**环境/前置条件的硬边界**：
+1. **GitHub Release 与 Zenodo DOI**：`gh` 未登录、无 Zenodo API token —— 需操作者提供凭据。
+2. **P4/P5 的结构层**：冻结证据已实测单序列结构预测不可用于比对（pLDDT 36.1、同序列 TM 0.20），可用结构须经 **MSA** 预测或实验结构；这是另一次更重的运行，需要先就 MSA 路线与算力达成一致。
+
+**最终门禁（本轮结束时）**：`Ran 1804 tests … OK (skipped=1)`；`compileall` exit 0；`git diff --check` exit 0；`test_public_repo_safety` 7 项 OK；`runs/`、`results/`、`deploy/` 零改动；工作区干净。
+
 ---
 
 *本文档为 candidate-only 交接记录。所有被引用的 profile、domain、motif、SignalP、结构、定位与系统发育证据仍只表示候选同源或功能潜力，**不等同于已验证的 PHB/PHA 降解表型**。*
