@@ -28,7 +28,9 @@ hmms:
 
 # ============ 蛋白预测 ============
 prediction:
-  threads: 70                              # 线程上限 ≤70（服务器 80 核留 10 核余量，见 docs/STATUS.md）
+  threads: 40                              # 上限（ceiling），非启动值：启动前由
+                                           # pipeline/scripts/server_resources.py 实测
+                                           # min(40, nproc - loadavg - 10) 并取该值
   per_genome_out: "data/proteins/per_genome"
   shards_out: "data/proteins/shards"
   genomes_per_shard: 2000                 # -> 约 100 个 shard
@@ -37,7 +39,7 @@ prediction:
 # ============ 筛选 ============
 screening:
   evalue: 1e-5
-  threads: 70
+  threads: 40                              # 同上：40 为上限；实测值才是启动值
   hits_all: "data/screen/hits_all.tsv"
 
 # ============ 命中处理 ============

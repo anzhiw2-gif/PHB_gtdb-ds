@@ -16,8 +16,8 @@ REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd -P)"
 # results must use RUN_ROOT so a run can never overwrite the repository.
 ROOT="$REPO_ROOT"
 
-THREADS_PREDICT=70
-THREADS_SCREEN=70
+# Parallel stages measure capacity at launch via server_resources.py
+# (min(40, nproc - 1m loadavg - 10)); 40 is the ceiling, not a launch value.
 THREADS_PHYLO=40
 RUN_PHYLOGENY=0
 LEGACY_ROOT=0
@@ -235,6 +235,24 @@ log "repository: $REPO_ROOT; run_root: $RUN_ROOT; git: $(cd "$REPO_ROOT" && git 
 
 # Stage 05 is reusable only after the manifest proves the current GTDB input
 # has one non-empty prediction per genome and a complete, hashed shard set.
+# Server capacity is measured immediately before each parallel stage; the
+# returned limit is the launch value, so no stage can inherit a stale number.
+measure_threads() {
+    local stage="$1" record limit
+    record="$(python "$SCRIPT_DIR/server_resources.py")" || {
+        echo "[ERROR] cannot measure server capacity for $stage; refusing to launch" >&2
+        return 1
+    }
+    limit="$(printf '%s' "$record" | sed -n 's/.*"threads": \([0-9]\+\).*/\1/p')"
+    if ! [[ "$limit" =~ ^[1-9][0-9]*$ ]]; then
+        echo "[ERROR] server_resources.py returned no usable limit for $stage: $record" >&2
+        return 1
+    fi
+    log "$stage capacity: $record"
+    printf '%s' "$limit"
+}
+THREADS_PREDICT="$(measure_threads 05_predict_proteins)"
+THREADS_SCREEN="$(measure_threads 06_screen)"
 run_step 05_predict_proteins "predict proteins and build verified shards" \
     bash "$SCRIPT_DIR/05_predict_proteins.sh" --threads "$THREADS_PREDICT"
 run_step 05_validate_prediction_manifest "verify prediction input and shard hashes" \

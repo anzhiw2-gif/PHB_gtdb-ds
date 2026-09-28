@@ -2,7 +2,7 @@
 # Predict GTDB proteins and emit an auditable, fail-closed shard manifest.
 set -Eeuo pipefail
 
-THREADS=70
+THREADS=40
 GENOMES_PER_SHARD=2000
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
@@ -22,10 +22,12 @@ FAILED_LOG="$PER_GENOME/failed.log"
 mkdir -p "$PER_GENOME" "$SHARDS" "$LOG"
 
 DRY=0
+SERVER=0
 while [[ $# -gt 0 ]]; do
     case "$1" in
         --threads) THREADS="$2"; shift 2 ;;
         --genomes-per-shard) GENOMES_PER_SHARD="$2"; shift 2 ;;
+        --server) SERVER=1; shift ;;
         --dry-run) DRY=1; shift ;;
         *) echo "unknown argument: $1" >&2; exit 1 ;;
     esac
@@ -33,6 +35,24 @@ done
 if ! [[ "$THREADS" =~ ^[1-9][0-9]*$ && "$GENOMES_PER_SHARD" =~ ^[1-9][0-9]*$ ]]; then
     echo "[ERROR] --threads and --genomes-per-shard must be positive integers" >&2
     exit 1
+fi
+# Shared-server governance: 40 is a ceiling, never a launch value.  With
+# --server active the requested count must fit inside the freshly measured
+# limit min(40, nproc - /proc/loadavg 1m - 10); otherwise abort instead of
+# overloading the host.
+if [ "$SERVER" -eq 1 ]; then
+    RESOURCE_RECORD="$(python "$SCRIPT_DIR/server_resources.py")" || {
+        echo "[ERROR] cannot measure server capacity; refusing to launch" >&2; exit 1; }
+    MEASURED_LIMIT="$(printf '%s' "$RESOURCE_RECORD" | sed -n 's/.*"threads": \([0-9]\+\).*/\1/p')"
+    if ! [[ "$MEASURED_LIMIT" =~ ^[1-9][0-9]*$ ]]; then
+        echo "[ERROR] server_resources.py returned no usable limit: $RESOURCE_RECORD" >&2
+        exit 1
+    fi
+    if [ "$THREADS" -gt "$MEASURED_LIMIT" ]; then
+        echo "[ERROR] requested $THREADS threads exceeds the measured limit ($MEASURED_LIMIT): $RESOURCE_RECORD" >&2
+        exit 1
+    fi
+    echo "[$(date)] server capacity: $RESOURCE_RECORD"
 fi
 
 find "$GTDB_DB" -type f -name "*_genomic.fna.gz" | sort > "$GENOME_LIST"

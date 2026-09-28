@@ -1,0 +1,2 @@
+gate_version	min_training_sequences	min_heldout_sequences	min_heldout_recall	max_unexplained_confounder_hits	require_unique_best_model	require_alignment_hash
+sequence-gate-v1	3	1	0.8	0	true	true
