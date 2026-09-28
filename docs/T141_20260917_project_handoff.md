@@ -1474,6 +1474,20 @@ Release 无法在此创建（`gh` 未认证、无 Zenodo token），但**内容�
 
 **普查状态**：13/30 完成、66 个 PDB、错误 0。**MSA 服务器的单条耗时已升到 6:28**（本会话早期约 3 分钟）—— 队列在恶化，这也是 P5 尾部 tranche 继续等待的进一步理由。
 
+### 12.34 第二十三轮：公开 README 有两处被本会话推翻的过时论断（目标轮 23）
+
+查公开快照时发现 README **在两处低估了自己的状态、在一处高估了剩余工作**，而三处都是本会话的工作造成的：
+
+| 位置 | 原文 | 问题 | 现改为 |
+|---|---|---|---|
+| L5 | 「no family has yet reached ≥3 independent experimental positives, so no calibrated profile has been released」 | **假** —— 按唯一独立性分组重算，`DED_hfam_70` **7**、`DED_hfam_52` **6**，两者均 ≥3 | 写明两个家族达 ≥3、`hfam_70` 已提升；同时保留仍为真的部分：**没有任何校准 profile 被登记用于 GTDB 全库扫描** |
+| L10 | 「hf am_70 … is not finalized, registered, or released as a function-calibrated production model」 | **过时** —— F15 已在 2026-09-28 显式授权下将其提升为 `calibrated_candidate_model` | 记录该提升，并保留仍为真的两点：**未**登记进 `formal_scan_models.tsv`、该提升是**候选 gate 结果而非表型声明** |
+| L185 | 「发布 HMM profiles + 轻量命中表（GitHub Release + Zenodo DOI）」 | **高估**剩余工作（Release 已完成） | Release 一项打勾并附 URL；DOI 拆为独立待办并点名真实阻塞（在 Zenodo 网页端为本仓库开启集成） |
+
+**刻意未写 DOI 占位符** —— 已核实 README 中不含 `zenodo.<数字>` 或 `doi.org`：**编造标识符比留空更糟**，待办项本身也写明了这一点。
+
+**第二十三轮 commit（已 push，`origin/main` = `7f9568e`）**：`7f9568e`（README 三处更正；5 insertions / 3 deletions）。门禁：`test_public_repo_safety` 7 OK；`git diff --check` 0。
+
 **不在争议之内的**：F15 的提升本身记录完备、经 gate 且获授权，本审计未发现它做错了什么；`hfam_52` 的 817 行同样按设计推迟、保持不变；没有任何候选被删除、降级或排除。
 
 ---
