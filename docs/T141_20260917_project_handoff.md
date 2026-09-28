@@ -852,6 +852,29 @@ git diff --check                                          -> exit 0
 
 **仍未授权**：`git push` / tag / GitHub Release / Zenodo DOI。`reconcile`、`finalize`、SignalP、结构、HMMER 全库、gRodon 重算亦全部未执行。
 
+### 12.10 后续计划（本批第 4 个 commit；未 push）
+
+Task 1–13 交付后，剩余工作已重新制定为独立计划：
+
+> **`docs/superpowers/plans/2026-09-28-phaded-evidence-model-redesign-followup.md`**
+
+该计划把剩余工作分成三类、共 17 个任务（F1–F17），并在状态文档新增 §5 作为入口：
+
+| 类 | 任务 | 授权 |
+|---|---|---|
+| **A 类（可立即开工）** | F1 616 条残留归因、F2 gRodon 66 条差额分桶、F3 三个下游脚本改读 `model_layer`、F4 tier 入口绑定同一个全库 `-Z`、F5 `prepare_phaded_structure_review.py` 解硬编码、F6 发现层/deferred 层误用审计 | 无需计算授权 |
+| **B 类（每类单独授权）** | F7 scan-13 `-Z` 对账 run（**无 HMMER**）、F8–F12 = P1–P5、F13 台账证据分级 curation、F14 v2 目录真实重算、F15 `hfam_70` 提升决策 | ✅ 分别需 |
+| **C 类** | F16 研究快照入版本控制、F17 push/tag/Release/DOI | ✅ 需 |
+
+**制定计划时新增的两项实测发现（可复现，已写入计划）**：
+
+1. **gRodon 66 条差额可在本地完全闭合**——`runs/20260920_phaded_grodon_growth_01/results/manifest_stats.json` 实测 `degrader_input_genomes = 30,623`、`degrader_genomes_excluded_no_control = 26,116`，故 **4,507 = 30,623 − 26,116**（与接手文档 §8.1 一致）；manifest 阳性 4,441、差额 **66**；`missing_fasta = 0`，failed 表 54 行带 `phaZ_status` 列可拆正负。⇒ Task 12 合成测试中「20 条缺 FASTA」那桶在真实数据中为 **0**，真实分桶必须重新推导（F2）。
+2. **`prepare_phaded_structure_review.py` 的硬编码已定位到行**：L54–L55 `if len(rows) != 19: raise …`；L91 manifest 声明 `structure_predictor.status = "pending_tool"`（与实测 Foldseek 可用冲突）。⇒ P4（987 条结构竞争面板）在修好前必然 fail-closed（F5，A 类，无需授权即可修）。
+
+**建议的第一批**：A 类全部（F1–F6），因为不需要任何计算授权，且 **F4/F5 是 B 类两个高价值运行（scan-13 Z 对账、P4 结构面板）的直接前置**。
+
+**本 commit 未 push**；`runs/`、`results/`、`deploy/` 零改动，v1 三件权威件 SHA-256 逐位不变。
+
 ---
 
 *本文档为 candidate-only 交接记录。所有被引用的 profile、domain、motif、SignalP、结构、定位与系统发育证据仍只表示候选同源或功能潜力，**不等同于已验证的 PHB/PHA 降解表型**。*
