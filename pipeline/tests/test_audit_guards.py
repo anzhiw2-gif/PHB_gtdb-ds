@@ -290,7 +290,46 @@ class AuditGuardTests(unittest.TestCase):
                 "tbl_sha256": "tbl", "dom_sha256": "dom", "evalue": "1e-5",
             }],
         }
+        # Task 9: a manifest without the full-database Z scale is only accepted
+        # through the explicit legacy escape hatch, never by default.
+        self.assertIs(
+            screen_manifest.validate_manifest(manifest, require_database_size=False),
+            manifest,
+        )
+        with self.assertRaises(screen_manifest.ScreenManifestError):
+            screen_manifest.validate_manifest(manifest)
+
+    def test_screen_manifest_requires_one_database_size_for_every_shard(self):
+        screen_manifest = load_module("06_validate_screen_manifest")
+        manifest = {
+            "families": ["ePhaZ"],
+            "shards": [
+                {"name": "shard_0001.faa", "sha256": "input", "sequence_count": 3},
+                {"name": "shard_0002.faa", "sha256": "input2", "sequence_count": 2},
+            ],
+            "tasks": [{
+                "family": "ePhaZ", "shard": "shard_0001.faa",
+                "input_sha256": "input", "hmm_sha256": "hmm",
+                "tbl_sha256": "tbl", "dom_sha256": "dom", "evalue": "1e-5",
+                "database_size_Z": 5,
+            }, {
+                "family": "ePhaZ", "shard": "shard_0002.faa",
+                "input_sha256": "input2", "hmm_sha256": "hmm",
+                "tbl_sha256": "tbl2", "dom_sha256": "dom2", "evalue": "1e-5",
+                "database_size_Z": 5,
+            }],
+            "database_size_Z": 5,
+            "database_size_basis": "sum of per-shard sequence counts",
+            "shard_sequence_total": 5,
+            "hmmsearch_command_template": (
+                'hmmsearch --tblout "$out" --domtblout "${out%.tbl}.dom" '
+                '-Z "$DATABASE_SIZE_Z" -E "$EVAL" --cpu 1 "$hmm" "$shard"'
+            ),
+        }
         self.assertIs(screen_manifest.validate_manifest(manifest), manifest)
+        manifest["tasks"][1]["database_size_Z"] = 4
+        with self.assertRaises(screen_manifest.ScreenManifestError):
+            screen_manifest.validate_manifest(manifest)
 
     def test_filter_manifest_requires_each_declared_input_shard(self):
         filter_manifest = load_module("06a_validate_filter_manifest")
