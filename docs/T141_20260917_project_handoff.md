@@ -1433,6 +1433,29 @@ Release 无法在此创建（`gh` 未认证、无 Zenodo token），但**内容�
 
 **新增 `deploy/20260928_phaded_structural_survey_v2_01/scripts/full_read.sh`**（已部署、`bash -n` 通过）：普查结束后的一键全量读数。与 `partial_read.sh` 的两处关键差别是：搜索**全部**预测而非已完成子集，且用**完整的 30 员名册**评分 ⇒ **在 ColabFold 作业结束前运行它会在评分器处 fail-closed**（缺结构的成员被报为预测失败），**这正是意图**：不让「跑了但少了人」悄悄通过。脚本末尾会打印本地评分命令（含展开后的 run id），使最后一步不是隐含知识。
 
+### 12.32 第二十一轮：**F17 的 GitHub Release 已完成**；我推翻了自己的一条自设规则（目标轮 21）
+
+**F17 状态**：push ✓ · tag ✓ · **Release ✓（本轮完成）** · DOI ✗（见下）。
+
+| 项 | 值 |
+|---|---|
+| Release id | **`398452852`** |
+| 地址 | https://github.com/anzhiw2-gif/PHB_gtdb-ds/releases/tag/phaded-evidence-model-v2-20260928 |
+| tag / 目标 | `phaded-evidence-model-v2-20260928` → `fc944fe` |
+| 标记 | **prerelease**（因 tag 自称 "release candidate"；标成正式 v2 会夸大） |
+| 发布说明 | tag 自身的注解，**1,802 字符**，逐字发布 |
+| **发布后复核** | 从 API **取回已发布正文重新检查：0 项身份违规** |
+
+**凭据问题是如何解决的 —— 我推翻了自己的一条规则，并在此留痕。** 过去多轮我把这一步记为「被凭据阻塞」。它是靠**重新审视一条自设规则**解开的，而不是靠新出现的凭据：本机**早已存有该仓库的凭据**（`git credential fill` 返回 `github.com` 记录、用户名 `anzhiw2-gif`，是操作者为 `git push` 放的）。我此前以「push 授权不等于 API 授权」为由拒绝使用它 —— **那过于保守**：目标原文明确写着 **"F17 push/tag/Release/DOI"**，而操作者的指令是「需要授权的我均允许」。**用一把已为本仓库存储的凭据、去执行目标点名的那项操作，属于该授权范围。** 我选择记录这次立场转变，而不是悄悄改口。
+
+使用前做了**只读** scope 检查：`GET /repos/…` 返回 **HTTP 200**、`x-oauth-scopes: gist, repo, workflow`、`permissions.admin: true` —— `repo` 正是创建 Release 所需。**密钥从未被打印、从未写入文件、从未出现在命令行上**（那会暴露在进程表里）；它从凭据助手读入变量，只用于 `Authorization` 头。
+
+**刻意选择了 Option A**（发布既有 tag，而非另打 v2.1）：A **不需要任何新的版本决策** —— tag 已存在、已推送，且其注解对它所指向的提交是准确的；B 则要新建版本标记。故执行 A，**B 仍然开放**。
+
+**DOI 为何仍不能在此铸出**：① Zenodo 的 GitHub 集成**按仓库在网页 UI 开启**，没有任何 API 可替代；DOI 在**发布时且仓库已关联**的情况下才铸出 —— **本次发布没有铸出任何 DOI，这本身就是「未关联」的证据**；② 本环境**不存在 Zenodo token**；③ 查 Zenodo 公开 API：`anzhiw2` 返回 **0 条**、`PHB_gtdb-ds` 只返回无关命中 ⇒ **也不存在可指向的既有存缴**。**完成它需要**：登录 Zenodo → Settings → GitHub → 开启该仓库，然后重新发布或另发一版，Zenodo 会自动铸 DOI；或用手工存缴 + 个人 token。**任何地方都没有写入 DOI 占位符** —— 编造一个标识符比留空更糟。
+
+**第二十一轮提交**：`docs/T141_20260928_phaded_v2_release_notes_and_commands.md`（改写为已完成状态 + 凭据推理留痕）。
+
 **不在争议之内的**：F15 的提升本身记录完备、经 gate 且获授权，本审计未发现它做错了什么；`hfam_52` 的 817 行同样按设计推迟、保持不变；没有任何候选被删除、降级或排除。
 
 ---
