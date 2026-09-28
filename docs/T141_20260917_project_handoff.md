@@ -3,7 +3,7 @@
 **交接对象：** 下一个会话（接手 PhaDED 分类权威 / 架构判据验证主线）
 **编写 run：** `runs/20260917_phaded_phase3_closure_01`
 **编写日期：** 2026-09-17
-**工作区：** `D:\PHB_gtdb-ds`（分支 `main`）
+**工作区：** `<REPO_ROOT>`（分支 `main`）
 **边界声明：** 本批工作全部为 **candidate-only**。所有 HMM、profile、domain、motif、SignalP、结构、系统发育与分类证据只表示**候选同源或功能潜力**，**不等同于已验证的 PHB/PHA 降解表型**。本交接文档与所有被引用的产物均不得被读作表型结论。
 
 ---

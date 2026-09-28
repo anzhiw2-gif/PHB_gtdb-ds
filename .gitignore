@@ -70,3 +70,18 @@ results/signalp/
 results/figures/scheme_a/staging/
 *.tgz
 *.tiff
+
+# ===== Session scratch and shell-accident artifacts (2026-09-28) =====
+# Not project evidence: an imported chat transcript, a matplotlib cache, a
+# one-off audit scratch script, and three files whose names are the literal
+# arguments of a mis-quoted shell command (`--amino`, `-o`, `=.8=%d`).
+# Excluded from version control rather than deleted; they remain on disk.
+_session_import/
+.mplconfig/
+_audit_pool_in_evidence.py
+--amino
+-o
+=.8=%d
+.tmp_debug.py
+.tmp_debug2.py
+tmp_f14_probe.py

@@ -26,7 +26,7 @@
 >
 > **全局边界（本文原声明继续有效，且被 v2 继承）**：所有 HMM/profile/domain/motif/SignalP/结构/系统发育/分类与生长速率结果，**只表示候选同源或功能潜力，不等同于已验证的 PHB/PHA 降解表型**。
 
-> **审查对象**：本工作区（`D:\PHB_gtdb-ds`，分支 `main`，HEAD `3117287`）自 2026-08 至 2026-09-21 的 PhaDED 主线全部工作。
+> **审查对象**：本工作区（`<REPO_ROOT>`，分支 `main`，HEAD `3117287`）自 2026-08 至 2026-09-21 的 PhaDED 主线全部工作。
 > **编写依据**：`docs/T141_20260917_project_handoff.md`（交接文档，含 §11 多轮更正）、`docs/T141_20260920_phaded_three_gaps_status.md`（三项缺口 + challenge 验证 + hfam_70 gate 敲定，§④）、`docs/T141_20260920_phaded_grodon_growth_status.md`（生长速率分析）、全部冻结 run 产物与 manifest（本会话逐项实测复核）。
 > **全局边界声明（引用本文任何结论前必读）**：本项目所有 HMM、profile、domain、motif、SignalP、结构、系统发育、分类与生长速率预测结果，**只表示候选同源或功能潜力，不等同于已验证的 PHB/PHA 降解表型**。全文 "高可信度" = 候选证据最强筛选层，非实验确认。
 
