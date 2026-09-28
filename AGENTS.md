@@ -5,11 +5,17 @@
 - GTDB taxonomy、metadata、tree、HMM、源码和环境必须记录路径、版本、大小及 SHA-256；缺失项写 `pending`，不得伪造哈希。
 - 服务器只允许执行 dated `deploy/<run_id>/` 中已绑定源码；不得直接运行服务器根目录旧脚本。
 - 服务器计算单任务线程上限 **40**；启动前必须按实际空闲动态取 `min(40, 总核数 − 负载 − 10)` 并保留约 10 核余量，不得让服务器超载（总核数以 `nproc`、负载以 `/proc/loadavg` 1 分钟值实测为准）。
+- **40 是上限（ceiling），不是启动值**；启动值必须在紧邻启动之前实测（`min(40, nproc − 1 分钟 loadavg − 10)`），任何硬编码线程数（含历史 `THREADS_*=70`）一律视为治理缺陷。
+- 模型分层固定四个 `model_layer`：`reference_query_only`、`discovery_hmm_uncalibrated`、`sequence_family_hmm_validated`、`calibrated_candidate_model`；`functional_calibration_status` 是**独立字段**，不得由 `model_layer` 推导或反推；`calibrated_candidate_model` **只能**由显式授权的提升动作产生（`--promote-calibrated-model`，默认关闭）。
 - 本项目的 HMM、domain、SignalP、邻域和树结果表示候选同源或功能潜力，不等同于已验证 PHB 降解表型。
-- 允许用 DED 家族序列（含 `annotation_only`）训练**发现层 HMM**，层名固定为 `discovery_hmm_uncalibrated` 且每份输出必须带该标注；发现层只用于**召回**，**不得**用于筛选、删除或降级任何候选（实测其对 563 条 x₁ 混淆嫌疑命中 443 条 = 78.69%，无判别力）。
+- 允许用 DED 家族序列（含 `annotation_only`）训练**发现层 HMM**（`model_layer=discovery_hmm_uncalibrated`）且每份输出必须带该标注；发现层只用于**召回**，**不得**用于筛选、删除或降级任何候选（实测其对 563 条 x₁ 混淆嫌疑命中 443 条 = 78.69%，无判别力）。
 - 发现层不得写入 `pipeline/config/formal_scan_models.tsv`、不得产生 family 判定；它只能对既有中间产物打分，任何 GTDB 全库重扫仍需**单独授权**。
+- AHSMG 是 Ser 的 **motif class**，**不是**第三种亲核体身份（`nucleophile_identity ∈ {ser, cys, unresolved}` × `motif_class`）；SignalP 只预测**转运信号**，**不是**定位真相（`transport_signal_prediction` ≠ `localization_evidence`）；SBD **不定义** catalytic type 1 / type 2。
 - with-lipase（`DED_hfam_2`）池外命中是已知噪声（2026-09-19 实测 1,206,655 条），必须保留为 **deferred 结构验证层**（`runs/20260919_phaded_with_lipase_deferred_archive_01`）而**禁止删除**；该层不进入任何候选/高可信度计数，后续只能经结构证据（PDB 8YNV Foldseek 或结构预测比对）召回，通过者再走证据层与校准 gate。
 - HMM/profile 必须绑定其训练比对与输入集合的 SHA-256；比对工具不可比特复现时（实测 MAFFT 7.525 同一输入两次得到不同比对），必须把**具体比对哈希**写进 manifest 并声明不可位复现，不得声称逐位可复现。
+- 每份 HMM/profile manifest 必须同时绑定 `training_set_sha256`、`alignment_sha256`、`hmm_sha256`；MAFFT 比对一律标 `bit_reproducible=false`，此时**具体比对哈希**才是权威，不得用「可复现」措辞替代哈希。
+- HMMER 分片搜索必须传**同一个全库 `-Z`**（分片序列数不得当作 Z），并在 manifest 记 `database_size_Z`、逐片序列数与命令；入口 `06_screen.sh` 在缺少 `--database-size-z` 时 **fail-closed**，不得以 HMMER 默认 Z 出数。
+- 候选流转对账：每条 accession 只有一个 `primary_disposition`；`excluded_input_quality` **仅**用于有据可查的输入质量缺陷（序列缺失、明显截断、输入错误），**绝不**用于科学不确定性（形态未定、证据不足一律走证据标记，不排除候选）。
 - 保留历史运行残留和失败证据；清理前先确认精确路径与可恢复性。
 - 服务器 `runs/` 实测已达 1,016 GB：已被取代的历史 run 可移入归档目录并保留原名、manifest 与 SHA-256 清单，**禁止删除**。
 - 代码改动先写失败测试，再实现；完成后运行相关测试、`compileall` 和 `git diff --check`。

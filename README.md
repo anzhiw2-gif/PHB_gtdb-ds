@@ -4,6 +4,12 @@
 >
 > PhaDED pipeline (added 2026-09-19): the current method scans with PhaDED-architecture HMMs (Knoll 2009, 8 superfamilies + 38 families) and then applies multi-evidence filtering. All PhaDED outputs remain candidate homology evidence — no family has yet reached ≥3 independent experimental positives, so no calibrated profile has been released. See "PhaDED 架构扫描与多证据筛选" below.
 
+> **Current wording, binding (v2 evidence model, 2026-09-28):**
+> PhaDED outputs are a versioned sequence-homology candidate resource.
+> Discovery and sequence-family HMMs do not prove PHB/PHA degradation.
+> hfam_70 passed the project candidate gate but is not finalized, registered, or released as a function-calibrated production model.
+> See `docs/T141_20260928_phaded_evidence_model_redesign_status.md` for the current authority status.
+
 > Historical Scheme A values remain in the reports for comparability. They must not be mixed with the run-13 frozen split registry or strict tier results.
 
 > Public repository guide: see [docs/PUBLIC_REPOSITORY_GUIDE.md](docs/PUBLIC_REPOSITORY_GUIDE.md) for environment-variable configuration and the sensitive-data boundary.
@@ -108,10 +114,40 @@ HMMER 输出保留在服务器侧；公开仓库只保留轻量结果、模型�
 
 ### 3. 边界
 
-- 所有命中为 **candidate-only**；"高可信度" = 候选证据最强的筛选层，池外 = 仅 profile 得分层；
+- 所有命中为 **candidate-only**；"高可信度" 只是**在该具名筛选规则下候选证据最强的层**
+  （`candidate composition under a named rule`，**不是**表型判定、也不是生物学比例），
+  池外 = 仅 profile 得分层；
 - Cys 型为**推定** Cys 型（催化残基未逐条验证）；
 - 校准 gate 需每家族 ≥3 条独立实验阳性；截至 2026-09-19 无一家族达标（Cys 型最多 2 条），
   故未发布任何校准 profile。
+
+### 4. v2 证据模型（四层 `model_layer`）
+
+2026-09-28 重构把「模型是什么」和「功能是否已校准」拆成两个**互相独立**的字段。每个
+HMM/profile manifest 都必须写明 `model_layer`（四值之一）与 `functional_calibration_status`；
+校验器 `pipeline/scripts/phaded_evidence_schema.py` 禁止二者矛盾
+（`calibrated_candidate_model` 只允许出现在校准状态成立时）。
+
+| `model_layer` | 含义 | 可以做什么 | 不可以做什么 |
+|---|---|---|---|
+| `reference_query_only` | 仅 1–2 条参考序列，先验主导；不构成稳定家族 HMM | 作为参考查询 / 召回输入 | 不作 family 判定，不产生候选筛选结论 |
+| `discovery_hmm_uncalibrated` | 用 DED 家族序列（含 `annotation_only`）建的**发现层** HMM | 只用于**召回** | 不得筛选、删除或降级任何候选；不得写 `pipeline/config/formal_scan_models.tsv`；不得产生 family 判定 |
+| `sequence_family_hmm_validated` | 经 held-out / 近邻混淆集评估通过的序列家族模型 | 作为序列层证据 | 不等于功能已校准；不证明 PHB/PHA 降解 |
+| `calibrated_candidate_model` | 功能校准层 | 作为已校准生产模型 | **只能**由显式授权的提升动作产生（`--promote-calibrated-model`，默认关闭） |
+
+- `functional_calibration_status` 是**独立字段**（如 `candidate_gate_passed_not_promoted`、
+  `reference_only_insufficient_panel`、`blocked_contradictory_experimental_negative`），
+  不由 `model_layer` 推导，也不得由它反推。
+- **候选边界不变**：发现层与序列家族层都只表示候选同源或功能潜力，
+  **不等同于已验证的 PHB/PHA 降解表型**；`hfam_70` 虽通过项目候选 gate，
+  仍是 `candidate_gate_passed_not_promoted`（未 finalize、未进 registry、未重扫、未发布）。
+- with-lipase（`DED_hfam_2`）池外 **1,206,655 条**为**待判别的百万级命中**
+  （million-scale unresolved hits），属 `deferred_structure_review` 层：**不进入任何主计数**，
+  **也不得删除**，后续只能经结构证据召回。
+- 亲核体身份与 motif 类拆列：`nucleophile_identity ∈ {ser, cys, unresolved}` × `motif_class`；
+  **AHSMG 是 Ser 的 motif class**，不是第三种亲核体身份。
+  SignalP 只预测**转运信号**，不是定位真相（`transport_signal_prediction` ≠
+  `localization_evidence`）；SBD 不定义 catalytic type 1/type 2。
 
 ## 复现
 

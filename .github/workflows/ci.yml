@@ -43,5 +43,81 @@ jobs:
         # are enabled when that snapshot is published as a separate commit.
         run: python -m unittest pipeline.tests.test_run_context pipeline.tests.test_run_isolation -v
 
+      # Release-blocking PhaDED evidence-model gate (2026-09-28 redesign, Task 13).
+      # Every module below was verified to pass in a data-free checkout: the `runs/`,
+      # `deploy/` and `results/` trees are gitignored (`.gitignore` holds `runs/`,
+      # `deploy/`), so nothing gated here may read them. Verified by copying the
+      # `pipeline/` tree alone into a temporary directory (no `runs/`, no `deploy/`, no
+      # GTDB data) and running the list there: 479 tests, OK, exit 0 -- identical to the
+      # result in the full working tree.
+      #
+      # Deliberately EXCLUDED, each with the concrete reason. Excluded is not weakened:
+      # these modules still run and pass on any machine holding the frozen artifacts, and
+      # they are part of the local `discover` baseline recorded in
+      # `docs/T141_20260928_phaded_evidence_model_redesign_status.md` section 4.
+      #   * pipeline.tests.test_finalize_phaded_superfamily_gate -- reads the frozen
+      #     readiness TSV
+      #     `runs/20260915_phaded_reference_panel_acquisition_02/results/amendment/
+      #     profile_calibration_readiness.tsv`. That file is NOT tracked in git
+      #     (`git ls-files runs/` returns only 3 files, none of them this one) and `runs/`
+      #     is gitignored, so a clean checkout has no such file: 4 tests fail with
+      #     "ValueError: readiness input is not a regular file".
+      #   * pipeline.tests.test_grodon_reanalysis_v2 -- reads the gitignored `deploy/`
+      #     tree (`git ls-files deploy/` is empty).
+      #     `test_legacy_deploy_scripts_still_exist_and_stay_untouched` fails with
+      #     "AssertionError: False is not true" when
+      #     `deploy/20260920_phaded_grodon_growth_01/scripts/` is absent; the other 76
+      #     tests are fixture-only, but a module is gated only when it passes as a whole.
+      #   * 116 of the 128 modules matching `test_*.py` are not gated. Measured on the
+      #     data-free tree, whole-suite discovery there gives
+      #     `Ran 1168 tests ... FAILED (failures=14, errors=54, skipped=16)`; all 68
+      #     failures/errors land on 13 modules, 11 of which need `runs/` or `deploy/`
+      #     fixtures (e.g. `test_phaded_calibration_field_semantics` and
+      #     `test_complete_phaded_motif_completion_full` need `runs/`,
+      #     `test_build_grodon_manifest`, `test_dedupe_predictions` and
+      #     `test_grodon_group_stats` need `deploy/`). Those 11 must not be gated here.
+      #     The other 105 of the 116 (116 = 128 - 12 gated) are mostly audit/figure/run13
+      #     suites that read frozen run output directly; they are simply not part of this
+      #     gate, and no test is modified or deleted by leaving them out.
+      #   * 2 of the 13 above are NOT fixture problems and would pass in CI, so they are
+      #     candidates for a later, separately reviewed CI change rather than silent
+      #     additions here: `test_public_repo_safety` only needs a real `git ls-files`
+      #     (it errored in the copied, non-repository directory) and
+      #     `test_finalize_phaded_subtype_reconciliation` only needs the tracked root
+      #     `AGENTS.md` (verified to pass once such a root file sits next to `pipeline/`).
+      #
+      # `test_finalize_phaded_reference_panel_calibration` IS gated: all 13 of its tests
+      # use synthetic fixtures and it passed in the data-free tree, unlike its
+      # readiness-reading sibling above.
+      #
+      # `python -m unittest discover -s pipeline/tests -t . -p 'test_*.py'` now works
+      # (package markers `pipeline/__init__.py` and `pipeline/tests/__init__.py`, plus the
+      # `-t .` top-level directory needed to import `pipeline.tests.*` when discovery
+      # starts inside `pipeline/tests`). It is deliberately NOT the release gate: on a
+      # data-complete developer machine it runs 1,243 tests and passes
+      # (`OK (skipped=1)`, the one skip being a Windows symlink-privilege skip in
+      # `test_run_isolation`), while on a data-free CI checkout the 11 data-dependent
+      # modules listed above fail purely because their frozen fixtures are gitignored --
+      # see the measurement above.
+      # Gating the whole discovery step would therefore fail the build for environmental
+      # reasons instead of for code regressions. Discovery stays the local, data-complete
+      # pre-flight check; this explicit list is the release gate.
+      - name: Run PhaDED governance and evidence tests
+        run: >-
+          python -m unittest
+          pipeline.tests.test_run_context
+          pipeline.tests.test_run_isolation
+          pipeline.tests.test_server_resources
+          pipeline.tests.test_phaded_evidence_schema
+          pipeline.tests.test_validate_phaded_reference_ledger
+          pipeline.tests.test_build_phaded_profiles
+          pipeline.tests.test_evaluate_phaded_sequence_models
+          pipeline.tests.test_build_phaded_candidate_catalog_v2
+          pipeline.tests.test_reconcile_phaded_candidate_flow
+          pipeline.tests.test_hmmer_database_size
+          pipeline.tests.test_compare_phaded_catalog_versions
+          pipeline.tests.test_finalize_phaded_reference_panel_calibration
+          -v
+
       - name: Check whitespace errors
         run: git diff --check HEAD^ HEAD

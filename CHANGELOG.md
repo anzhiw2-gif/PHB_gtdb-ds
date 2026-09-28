@@ -2,6 +2,55 @@
 
 > 本文档记录本次会话(2026-08-17)对项目的全部改动,以及一次重要的运维事件及其根因。
 > 仓库: https://github.com/anzhiw2-gif/PHB_gtdb-ds
+>
+> **本文件是历史记录,按时间追加,过去的条目一字不改。** 当前口径以
+> `README.md`、`AGENTS.md` 与 `docs/T141_20260928_phaded_evidence_model_redesign_status.md`
+> 为准。
+
+---
+
+## 〇、当前口径(2026-09-28 追加):PhaDED v2 证据模型
+
+本节是最新条目;**以下历史章节保持原样,仅由本节标注其口径已被取代之处**。
+
+### 三句定稿措辞(绑定)
+
+```text
+PhaDED outputs are a versioned sequence-homology candidate resource.
+Discovery and sequence-family HMMs do not prove PHB/PHA degradation.
+hfam_70 passed the project candidate gate but is not finalized, registered, or released as a function-calibrated production model.
+```
+
+### 术语更正(新口径 ← 旧口径)
+
+| 新口径 | 旧口径 | 说明 |
+|---|---|---|
+| million-scale unresolved hits excluded from main counts pending discrimination（**待判别的百万级命中，排除在主计数之外**） | 「百万假阳性」 | 「假阳性」预设了真值标签;现口径为**待判别**的未解决命中,既不删除也不进入任何主计数（with-lipase `DED_hfam_2` 池外实测 1,206,655 条 = `deferred_structure_review` 层） |
+| candidate carrier / not detected under defined search（**候选基因携带** / **在规定搜索与质量条件下未检出候选**） | 「降解者 / 非降解者」 | gRodon 比较的组名;禁词表 `FORBIDDEN_LEGACY_LABELS` 含 `degrader` / `non-degrader`,图件模块被测试断言不再渲染 |
+| 在**具名筛选规则下**候选证据最强的层（candidate composition under a named rule） | 「高可信度」（被当作表型断言时） | 「高可信度」只是该规则下的候选构成,**不是**表型判定、不是生物学比例 |
+
+> **全域搜索结论（2026-09-28 实测）**：上表左列之外的 README 与 CHANGELOG 正文中,
+> 「百万假阳性」/「假阳性」与「降解者 / 非降解者」作为**主张**的出现次数为 **0**;
+> 上表右列仅作为**被取代的旧措辞**保留在更正映射里,不构成当前口径。
+
+> **历史条目留痕说明**:§六「PhaDED 架构扫描与多证据筛选」的「多证据高可信度筛选后池内
+> 36,611 条」写作当时的口径,该条目的数字与叙述按历史记录保留、不重写;其「高可信度」
+> 一词按上表读作「该具名规则下的候选构成」,不得读作表型判定。
+
+### 四层 `model_layer` 与独立的功能校准字段
+
+`model_layer ∈ {reference_query_only, discovery_hmm_uncalibrated,
+sequence_family_hmm_validated, calibrated_candidate_model}`;
+`functional_calibration_status` 是**互相独立**的字段,二者矛盾被
+`pipeline/scripts/phaded_evidence_schema.py` 拒绝。`calibrated_candidate_model` **只能**由显式
+授权的提升动作产生(`--promote-calibrated-model`,默认关闭)。`hfam_70` 通过项目候选 gate 后
+状态为 `candidate_gate_passed_not_promoted`——**未 finalize、未进 registry、未重扫、未发布**。
+
+### CI 发布门(2026-09-28)
+
+`.github/workflows/ci.yml` 新增具名的 PhaDED 证据模型测试步骤(12 个模块,479 项测试,
+数据无关、离线通过);依赖冻结 `runs/` / `deploy/` 产物的模块**显式排除并在 YAML 注释中
+逐条写明理由**(排除 ≠ 削弱,它们在持有冻结产物的机器上照常运行)。
 
 ---
 
