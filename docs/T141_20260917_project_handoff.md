@@ -1371,6 +1371,23 @@ Release 无法在此创建（`gh` 未认证、无 Zenodo token），但**内容�
 
 **第十七轮 commit（已 push，`origin/main` = `3d614c7`）**：`3d614c7`。门禁：`Ran 1901 tests … OK (skipped=1)`；`compileall` 0；`git diff --check` 0；`test_public_repo_safety` 7 OK；frozen 树零改动。
 
+### 12.29 第十八轮：更正上轮表述 —— gap 修复**到不了交付目录**（目标轮 18）
+
+**上轮我写的「重建只是新增两个 100% 有值的列」这个 diff 是真的，但那句话是误导性的**：它**只对中间产物成立，对交付物不成立**，而我在写之前**没有检查这个区别**。
+
+| 产物 | 列数 | 是否携带 gap |
+|---|---:|---|
+| `results/phaded_v2_catalog_input.tsv`（adapter 输出，中间产物） | 50 → 修订后 **52** | **修订后：是** |
+| `results/catalog/phaded_candidate_catalog_v2.tsv`（**交付目录**） | **固定 20 列** | **否 —— 重建后也仍然否** |
+
+目录那 20 列**不含** `family_score_gap`、`superfamily_score_gap`、`profile_best_evalue`、`evidence_threshold`、`assignment_status`、`phaded_family_best` ⇒ **adapter 那份更宽的行被刻意收窄成 20 列交付物，我的修订只到中间文件为止。重建不会改变任何目录读者能看到的东西。** 上轮的增量性证明本身没错，但它回答的问题比它看起来回答的要窄 —— 此处留痕而非默默放着。
+
+**命中强度若要进目录，只能放在 `evidence_flags` 里，而该词表是纯分类型的**（实测全部 109,087 行）：最高频的六种组合为 `…|discovery_layer_only|functional_calibration_pending`（44,745）、`cys_associated_motif|sbd_accessory_supported|…|homology_below_validated_layer`（29,133）、`…|transport_prediction_supports_export|discovery_layer_only|…`（16,667）等，其余八种组合直到单行。词表只表达**哪一层支持该行**（`discovery_layer_only` / `homology_below_validated_layer`）、看到了什么 motif/domain、定位怎么说，以及恒定的 `functional_calibration_pending` —— **没有任何分级项**。所以 gap 在现有 schema 里**无处安放**，而且不是遗漏：该 schema 到处都不带这类数量。
+
+**这把待决问题重新表述了** —— 不再是「要不要重建」，而是：**目录应否携带命中强度，还是分类型词表本身就是刻意设计？** 两种答案都站得住、导向不同的工作：若强度属于目录，则是一次 **schema 修订**（新列或分级标记 + builder 传播改动），比已做的 adapter 修复大得多且需要自己的版本标记；若分类型词表是刻意的（窄交付物 + 明细留在中间产物里供需要者查阅），则 **adapter 修复已经交付了它该交付的全部** —— gap 现在就在中间产物中，距消费它的版本比较只差一个 `--evidence` 参数，而目录保持原设计。**我倾向第二种读法**（20 列读起来像一个刻意的接口而非截断：它以**分类型**方式携带 `evidence_flags`/`input_quality_reason`/`scientific_uncertainty_present`，而逐行数量正留在评审者会去找的 `phaded_v2_catalog_input.tsv` 里），**但这是设计判断，归你。**
+
+**gap 数据独立引出的另一点**：那 1,087 行在目录中**全部是 `probable_sequence_homolog`**，而规格 item 2 定义为「多项序列/结构域证据支持，但定位或唯一归属未完全闭合」；其中 955 条的家族归属是 `ambiguous_family`（gap 低于 1.0 bit）。**这并不矛盾** —— item 2 不要求 *family* 判定，只需多条证据线，`interpro_status`/domain 证据即可提供 —— 但它意味着**该处置依据的是家族判定以外的证据**，值得写明，以免下一个读者把 `probable_sequence_homolog` 读成这些行拥有它们其实没有的家族判定。
+
 **不在争议之内的**：F15 的提升本身记录完备、经 gate 且获授权，本审计未发现它做错了什么；`hfam_52` 的 817 行同样按设计推迟、保持不变；没有任何候选被删除、降级或排除。
 
 ---
