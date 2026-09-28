@@ -1144,6 +1144,36 @@ git push origin <tag>   ->  * [new tag] phaded-evidence-model-v2-20260928
 
 **第八轮 commit（已 push，`origin/main` = `5163948`）**：`5163948`（抽样器泛化 + P5 尾部 tranche）。
 
+### 12.20 第九轮：616 条处置分歧已定性 —— 并暴露词表的一个真实缺口（目标轮 8）
+
+此前只记为「F14 给 613 remote + 3 probable，与 F1 的 function_unresolved 不一致」。**实测后该分歧被精确化**（`runs/20260928_phaded_616_disposition_resolution_01/results/616_disposition_resolution.md`，只读比对三份冻结产物，未改写任何目录行）。
+
+规格（§候选目录）的权威定义：item 2 `probable_sequence_homolog` = 多项序列/结构域证据支持但归属未闭合；**item 3 `remote_homolog_candidate` = 仅发现层支持**；item 4 `function_unresolved` = 同源可能成立但**无法排除竞争功能**。
+
+**第一部分：那 3 条 F14 标对了。** 三条全部 `model_layer=discovery_hmm_uncalibrated`、**`interpro_status=interpro_supported`**、`sequence_family_call` 为空、`motif_state=GxSxG`。「多项证据支持 + 归属未闭合」正是 item 2，**无需改动**。
+
+**第二部分：那 613 条不是一个人群，而 item 3 只适用于其中 140 条。** 613 条全部 `model_layer=reference_query_only`，`sequence_family_call` 与 `accessory_domain_architecture` **均为空**。按 F1 的归因三分为：
+
+| F1 归因 | n | 发现层是否为该 accession 出过行？ |
+|---|---:|---|
+| `discovery_claim_not_unique` | **140** | **有**（`ambiguous_2`，非唯一） |
+| `profile_unassigned_no_discovery_claim` | **472** | **完全没有**（发现层表的 claimed 之和等于其行数，故缺失是真实未命中，不是表建短了） |
+| `score_tier_not_upgraded` | 4 | 有 profile 分数但超家族歧义 |
+
+- **140 条**确有发现层声明（歧义故被冻结的 `confidence=="unique"` 门拒绝）⇒ 标 `remote_homolog_candidate` **说得通**。
+- **472 条没有**：发现层**一条声明都没发出**，训练 profile 层给出 `unassigned_PhaDED_like` / `no_profile_score` ⇒ **两个冻结来源都没有任何可采信的同源判定**，把它们标成「仅发现层支持」是**断言了它们并不具备的证据**。
+- **4 条**更接近 140 的情形，但也并非「发现层」。
+
+⇒ **F14 的标注对 613 条中至少 472 条是错的**；**F1 的方向对但理由不对** —— F1 把 616 全部映射到 `function_unresolved`，而 item 4 讲的是「无法排除竞争功能」，472 条的真实状态是「**任何冻结来源都没有可采信的判定**」。
+
+**第三部分：这是词表的真实缺口，不是 F14 的编码错误。** 六项中没有一项描述「无任何可采信同源判定」：item 3 断言发现层支持（对 472 条为假）；item 4 断言存在同源关系且有竞争功能（并非所测）；item 6 保留给输入缺陷且 `AGENTS.md` 明确**禁止**用它承载科学不确定性。**无论今天给 472 条贴哪个标签，都会高估或低估已知信息。**
+
+**建议（供操作者决定；我未施加）**：① 保留那 3 条；② 保留 140 条为 `remote_homolog_candidate`；③ 把 **472 条（很可能还有 4 条）**移到 `function_unresolved` —— 现存项中唯一不 assert 它们不具备的证据者，但它也**不是完美匹配**，这正是第 ④ 点的意义；④ **在下一次 schema 修订中新增第七项**，例如 `no_admissible_call`（*任何冻结来源都无可采信的家系/超家族判定*）—— 这才是 472 条的真实状态，命名它可避免下一个读者重新推导本分析。
+
+**为什么定性而非径自决定**：改动 472 行的 `primary_disposition` 属于目录重写，而正确的目标是 `function_unresolved` 还是新第七项，两种都站得住，只有操作者能选。本记录消除的是**「测到了什么」的歧义** —— 从一句笼统的「不一致」变成了一个计数、一个归因三分，以及一个具名词表缺口。
+
+**普查运行状态**：6/30 完成、查询 7 进行中，30 个 PDB，错误 0。
+
 ---
 
 *本文档为 candidate-only 交接记录。所有被引用的 profile、domain、motif、SignalP、结构、定位与系统发育证据仍只表示候选同源或功能潜力，**不等同于已验证的 PHB/PHA 降解表型**。*
