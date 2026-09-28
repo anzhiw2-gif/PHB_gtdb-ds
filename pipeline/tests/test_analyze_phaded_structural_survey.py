@@ -62,6 +62,32 @@ class FilenameTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "unrecognised prediction filename"):
             module.candidate_of("something_else.pdb")
 
+    def test_colabfold_replaces_the_pipe_with_an_underscore(self):
+        # The real failure this guards: ColabFold writes filenames with '|' turned
+        # into '_', so the recovered name never matches the raw accession and every
+        # candidate would be reported as missing from the composition table.
+        query = "GCA_015680705.1_JADNYP010000003.1_102_unrelaxed_rank_001_alphafold2_ptm_model_2_seed_000"
+        recovered = module.candidate_of(query)
+        self.assertEqual(recovered, "GCA_015680705.1_JADNYP010000003.1_102")
+        self.assertEqual(module.normalize_name("GCA_015680705.1|JADNYP010000003.1_102"), recovered)
+
+    def test_index_maps_the_raw_accession_through_the_normalised_key(self):
+        index = module.index_composition(
+            [{"accession": "A|B_1", "panel_margin_competitor_minus_anchor_bits": "-3.0"}])
+        self.assertIn("A_B_1", index)
+        self.assertEqual(index["A_B_1"]["accession"], "A|B_1")
+
+    def test_a_normalisation_collision_is_refused(self):
+        with self.assertRaisesRegex(ValueError, "could not be attributed safely"):
+            module.index_composition([
+                {"accession": "A|B", "panel_margin_competitor_minus_anchor_bits": "1.0"},
+                {"accession": "A_B", "panel_margin_competitor_minus_anchor_bits": "2.0"},
+            ])
+
+    def test_an_empty_composition_table_is_refused(self):
+        with self.assertRaisesRegex(ValueError, "composition table is empty"):
+            module.index_composition([])
+
 
 class ScoringTests(unittest.TestCase):
     def _fixture(self, tmp: Path):
@@ -131,18 +157,43 @@ class ScoringTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "no comparison against the anchor"):
                 module.score(module.read_foldseek(foldseek), module.read_tsv(composition))
 
-    def test_a_candidate_missing_from_the_composition_raises(self):
+    def test_a_survey_member_with_no_comparison_at_all_raises(self):
+        # A member listed in the composition but absent from the Foldseek output
+        # means its prediction failed; that must not pass silently.
         with tempfile.TemporaryDirectory() as temporary:
             tmp = Path(temporary)
             foldseek = write(tmp / "fs.tsv",
-                             fs_line("candZ_unrelaxed_rank_001_m", "anchor_8YNV_A", 0.8) + "\n"
-                             + fs_line("candZ_unrelaxed_rank_001_m", "competitor_Q88N36", 0.7) + "\n")
+                             fs_line("candA_unrelaxed_rank_001_m", "anchor_8YNV_A", 0.8) + "\n"
+                             + fs_line("candA_unrelaxed_rank_001_m", "competitor_Q88N36", 0.7) + "\n")
             composition = write_tsv(tmp / "comp.tsv",
                                     ["accession", "panel_margin_competitor_minus_anchor_bits"],
-                                    [{"accession": "other",
-                                      "panel_margin_competitor_minus_anchor_bits": "1.0"}])
-            with self.assertRaisesRegex(ValueError, "not in the survey composition table"):
+                                    [{"accession": "candA",
+                                      "panel_margin_competitor_minus_anchor_bits": "1.0"},
+                                     {"accession": "cand_missing",
+                                      "panel_margin_competitor_minus_anchor_bits": "2.0"}])
+            with self.assertRaisesRegex(ValueError, "no Foldseek comparison at all"):
                 module.score(module.read_foldseek(foldseek), module.read_tsv(composition))
+
+    def test_a_query_outside_the_composition_is_counted_not_fatal(self):
+        # The pilot's Foldseek run searched every predicted structure, including the
+        # panel's own, so foreign queries are expected and must be reported.
+        with tempfile.TemporaryDirectory() as temporary:
+            tmp = Path(temporary)
+            foldseek = write(tmp / "fs.tsv", "\n".join([
+                fs_line("candA_unrelaxed_rank_001_m", "anchor_8YNV_A", 0.8),
+                fs_line("candA_unrelaxed_rank_001_m", "competitor_Q88N36", 0.7),
+                fs_line("P24640_unrelaxed_rank_001_m", "anchor_8YNV_A", 0.6),
+                fs_line("P24640_unrelaxed_rank_001_m", "competitor_Q88N36", 0.9),
+            ]) + "\n")
+            composition = write_tsv(tmp / "comp.tsv",
+                                    ["accession", "panel_margin_competitor_minus_anchor_bits"],
+                                    [{"accession": "candA",
+                                      "panel_margin_competitor_minus_anchor_bits": "1.0"}])
+            records, summary = module.score(module.read_foldseek(foldseek),
+                                            module.read_tsv(composition))
+            self.assertEqual([row["accession"] for row in records], ["candA"])
+            self.assertEqual(summary["non_survey_queries_ignored"], ["P24640"])
+            self.assertEqual(summary["non_survey_query_count"], 1)
 
     def test_malformed_foldseek_rows_raise(self):
         with tempfile.TemporaryDirectory() as temporary:
@@ -163,6 +214,63 @@ class ScoringTests(unittest.TestCase):
             self.assertIn("Predicted folds, not experimental structures", summary["boundary"])
             self.assertIn("POSITIVE Spearman", summary["interpretation"])
             self.assertEqual(summary["preregistered_tm_threshold"], 0.5)
+
+
+class ModelSelectionTests(unittest.TestCase):
+    def test_rank_is_read_from_the_filename(self):
+        self.assertEqual(module.model_rank("x_unrelaxed_rank_003_alphafold2_ptm_model_1"), 3)
+        self.assertEqual(module.model_rank("x_unrelaxed_rank_001_alphafold2_ptm_model_2"), 1)
+        self.assertEqual(module.model_rank("no_marker_here"), 0)
+
+    def test_rank_001_keeps_both_sides_on_the_same_model(self):
+        rows = {
+            "cand": [
+                {"query": "cand_unrelaxed_rank_001_m", "target": "anchor_8YNV_A", "tm": 0.70,
+                 "evalue": "1e-9"},
+                {"query": "cand_unrelaxed_rank_001_m", "target": "competitor_X", "tm": 0.60,
+                 "evalue": "1e-9"},
+                {"query": "cand_unrelaxed_rank_002_m", "target": "anchor_8YNV_A", "tm": 0.95,
+                 "evalue": "1e-9"},
+            ],
+        }
+        reduced = module.select_models(rows, "rank_001")
+        self.assertEqual({row["query"] for row in reduced["cand"]},
+                         {"cand_unrelaxed_rank_001_m"})
+
+    def test_max_keeps_every_model_so_the_sides_can_mix(self):
+        rows = {"cand": [
+            {"query": "cand_unrelaxed_rank_001_m", "target": "anchor_8YNV_A", "tm": 0.70,
+             "evalue": "1e-9"},
+            {"query": "cand_unrelaxed_rank_002_m", "target": "anchor_8YNV_A", "tm": 0.95,
+             "evalue": "1e-9"},
+        ]}
+        self.assertEqual(len(module.select_models(rows, "max")["cand"]), 2)
+
+    def test_a_candidate_without_rank_001_falls_back_rather_than_vanishing(self):
+        rows = {"cand": [
+            {"query": "cand_unrelaxed_rank_003_m", "target": "anchor_8YNV_A", "tm": 0.7,
+             "evalue": "1e-9"},
+        ]}
+        self.assertEqual(len(module.select_models(rows, "rank_001")["cand"]), 1)
+
+    def test_an_unknown_selection_is_refused(self):
+        with self.assertRaisesRegex(ValueError, "unknown model selection"):
+            module.select_models({}, "whatever")
+
+    def test_the_selection_is_reported_in_the_summary(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            tmp = Path(temporary)
+            foldseek = write(tmp / "fs.tsv", "\n".join([
+                fs_line("c1_unrelaxed_rank_001_m", "anchor_8YNV_A", 0.8),
+                fs_line("c1_unrelaxed_rank_001_m", "competitor_Q88N36", 0.7),
+            ]) + "\n")
+            composition = write_tsv(tmp / "comp.tsv",
+                                    ["accession", "panel_margin_competitor_minus_anchor_bits"],
+                                    [{"accession": "c1",
+                                      "panel_margin_competitor_minus_anchor_bits": "1.0"}])
+            _records, summary = module.score(module.read_foldseek(foldseek),
+                                             module.read_tsv(composition))
+            self.assertEqual(summary["model_selection"], "rank_001")
 
 
 class CliTests(unittest.TestCase):
