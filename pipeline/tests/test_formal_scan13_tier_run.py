@@ -7,7 +7,10 @@ Two layers live here:
   ``python -m unittest pipeline.tests.test_formal_scan13_tier_run`` discovers it;
 * the Task 9 additions, which pin the *database-size scale* of the frozen scan 13
   (``runs/20260901_formal_frozen_scan_13``) and record what is still missing
-  before tier E-values on that evidence may be treated as full-library values.
+  before tier E-values on that evidence may be treated as full-library values;
+* the Task F4 additions, which close that gap: the tier re-scoring entrypoint now
+  **requires** ``--database-size-z`` and its manifest records the scale fields,
+  so a tier rerun can no longer produce incomparable rescore E-values.
 """
 
 from __future__ import annotations
@@ -65,6 +68,13 @@ FROZEN_SCAN13_MANIFEST_KEYS = {
     "overlength_exclusions_sha256",
     "hits_all_sha256",
 }
+
+
+def without_comments(text: str) -> str:
+    """Shell text with whole-line comments removed (prose is not a flag)."""
+    return "\n".join(
+        line for line in text.splitlines() if not line.lstrip().startswith("#")
+    )
 
 
 def test_tier_run_creates_a_new_auditable_run_and_keeps_broad_separate():
@@ -172,21 +182,55 @@ class Scan13DatabaseSizeAuditTests(unittest.TestCase):
         self.assertGreater(APPROXIMATE_DATABASE_SIZE_Z, 100 * 2_923_820 * 0.9)
         self.assertLess(APPROXIMATE_DATABASE_SIZE_Z, 100 * 2_923_820 * 1.1)
 
-    def test_tier_entrypoint_does_not_yet_pin_a_database_size(self):
-        """PENDING (Task 9 step 6) — the tier re-scoring entrypoint is unscaled.
+    def test_tier_entrypoint_requires_a_database_size(self):
+        """F4 (was the Task 9 gap pin) — the tier entrypoint is now scaled.
 
-        ``formal_scan13_tier_processing.sh`` re-runs HMMER through
-        ``08c_tier_rescore.py`` on an extracted subset, and it neither accepts a
-        ``--database-size-z`` nor records one in
-        ``results/tier_processing_manifest.json``.  Adding that is a separate
-        change to a file Task 9 does not own, so this test pins the current
-        state and names the gap instead of silently assuming a scale.
+        Task 9 left ``formal_scan13_tier_processing.sh`` unscaled and pinned that
+        gap here.  F4 closed it: the entrypoint now accepts
+        ``--database-size-z`` / ``--database-size-basis``, validates the value as
+        a positive integer, and refuses to run without it, because its
+        ``08c_tier_rescore.py`` step re-runs HMMER and every one of those calls
+        must share the same full-library ``Z``.
         """
-        self.assertNotIn("--database-size-z", self.script)
-        self.assertNotIn("database_size_Z", self.script)
+        self.assertIn("--database-size-z", self.script)
+        self.assertIn('DATABASE_SIZE_Z="${PHB_DATABASE_SIZE_Z:-}"', self.script)
+        self.assertIn("--database-size-basis", self.script)
+        self.assertIn('DATABASE_SIZE_BASIS="${PHB_DATABASE_SIZE_BASIS:-}"', self.script)
+        self.assertRegex(
+            self.script,
+            r'\[\[ "\$DATABASE_SIZE_Z" =~ \^\[1-9\]\[0-9\]\*\$\s*\]\]',
+        )
+        self.assertRegex(
+            self.script,
+            r'if \[ -z "\$DATABASE_SIZE_Z" \]; then[\s\S]{0,1200}?exit 1',
+        )
+        self.assertRegex(self.script, r"\[ERROR\][^\n]*--database-size-z")
+        # No fallback value and no derivation from the evidence in the run: the
+        # scale is a supplied fact, never a counted default.  (Counting shard
+        # records for the *manifest* is required and lives in the manifest step.)
+        self.assertNotIn("${DATABASE_SIZE_Z:-", self.script)
+        for derived in ("seq_count", "Z_shard"):
+            with self.subTest(derived=derived):
+                self.assertNotIn(derived, self.script)
+        self.assertNotIn('Z="$(', self.script)
+        # The rescoring step receives the scale on its command line.
+        self.assertRegex(
+            self.script,
+            r'08c_tier_rescore\.py" --database-size-z "\$DATABASE_SIZE_Z" '
+            r'--database-size-basis "\$DATABASE_SIZE_BASIS" --cpu "\$HMM_CPU"',
+        )
+        self.assertNotIn('--hmm-cpu) HMM_CPU="${2:-60}"', self.script)
 
-    def test_tier_manifest_schema_still_lacks_scale_fields(self):
-        """The tier manifest fields a Task-9-complete run must add."""
+    def test_tier_manifest_schema_records_scale_fields(self):
+        """F4 — the tier manifest must carry the full-library scale fields.
+
+        These are the fields ``tier_processing_manifest.json`` records now:
+        the one ``Z`` every rescore call used, where that number came from, the
+        per-shard sequence counts of the parent library, their total, and the
+        exact command template.  There is no default: the embedded driver
+        refuses to write the manifest when any of them is missing or when the
+        per-shard counts do not sum to the declared ``Z``.
+        """
         manifest_fields = {
             "schema_version",
             "status",
@@ -202,9 +246,22 @@ class Scan13DatabaseSizeAuditTests(unittest.TestCase):
             "database_size_Z",
             "database_size_basis",
             "hmmsearch_command_template",
+            "shard_sequence_total",
+            "shards",
+            "domz_used",
         }
-        self.assertFalse(required_scale_fields & manifest_fields)
         self.assertIn("parent_run", manifest_fields)
+        for field in sorted(required_scale_fields):
+            with self.subTest(field=field):
+                self.assertIn(field, self.script)
+        self.assertIn("require_database_size_scale", self.script)
+        self.assertIn("count_fasta_records", self.script)
+        self.assertIn("shard_*.faa", self.script)
+        # The recorded template pins the one full-library Z and never --domZ.
+        self.assertIn("'-Z \"$DATABASE_SIZE_Z\"", self.script)
+        self.assertNotIn("--domZ", without_comments(
+            self.script.split("command_template = (", 1)[1].split(")", 1)[0]
+        ))
 
     def test_frozen_scale_is_audited_read_only(self):
         """No locally retained scan-13 manifest may be rewritten by this task."""

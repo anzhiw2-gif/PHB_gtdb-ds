@@ -14,16 +14,28 @@ These tests are the failing test for Task 9.  They exercise:
   shared with ``06_screen.sh``;
 * the shell entrypoint text — proving one ``-Z`` per per-shard HMMER call;
 * ``06_validate_screen_manifest.py`` — the manifest scale contract.
+
+Task F4 extends the same contract to the *tier* path: the tier entrypoint
+(``formal_scan13_tier_processing.sh``) and its rescoring step
+(``08c_tier_rescore.py``) re-run HMMER, so they must also require one
+full-library ``-Z``, pass it to every call, and record it in
+``tier_processing_manifest.json``.  Missing scale evidence must make the
+manifest invalid instead of being defaulted to a shard-local count.
 """
 
 from __future__ import annotations
 
+import ast
 import importlib.util
+import io
+import json
+import os
 import re
 import shutil
 import sys
 import tempfile
 import unittest
+from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
 
 
@@ -32,6 +44,10 @@ SCRIPTS = ROOT / "scripts"
 MODULE_PATH = SCRIPTS / "hmmer_command.py"
 SCREEN_SH = SCRIPTS / "06_screen.sh"
 VALIDATOR = SCRIPTS / "06_validate_screen_manifest.py"
+
+# Task F4 — the tier entrypoint and the rescore step it re-runs HMMER through.
+TIER_SH = SCRIPTS / "formal_scan13_tier_processing.sh"
+TIER_RESCORE = SCRIPTS / "08c_tier_rescore.py"
 
 FULL_DATABASE_Z = 292_000_000
 
@@ -93,6 +109,175 @@ def strip_shell_comments(text: str) -> str:
     return "\n".join(
         line for line in text.splitlines() if not line.lstrip().startswith("#")
     )
+
+
+#: Shell source with comments removed: the counterpart of
+#: :func:`python_executable_text` for the entrypoint scripts.
+shell_code = strip_shell_comments
+
+
+def load_rescore_module():
+    """Import the tier rescoring step by path (it lives outside any package)."""
+    if not TIER_RESCORE.is_file():
+        raise AssertionError(f"missing tier rescoring script: {TIER_RESCORE}")
+    spec = importlib.util.spec_from_file_location("tier_rescore_task_f4", TIER_RESCORE)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def tier_heredoc_blocks() -> list[str]:
+    """Return every embedded Python program of the tier entrypoint."""
+    return re.findall(r"<<'PY'\n(.*?)\nPY\n", TIER_SH.read_text(encoding="utf-8"), re.S)
+
+
+def tier_heredoc_block(*markers: str) -> str:
+    """Return the one embedded program containing all ``markers``."""
+    matches = [
+        block for block in tier_heredoc_blocks() if all(m in block for m in markers)
+    ]
+    if len(matches) != 1:
+        raise AssertionError(
+            f"expected exactly one tier-driver heredoc matching {markers}, "
+            f"found {len(matches)}"
+        )
+    return matches[0]
+
+
+def load_tier_manifest_programs(namespace=None):
+    """Execute the entrypoint's embedded scale code and return its namespace.
+
+    The database-size checks that make ``tier_processing_manifest.json`` valid
+    live inside the driver as embedded Python.  Executing that code directly is
+    the only way to test the *real* artefacts — a look-alike copy in the test
+    would pass while the shipped driver stayed unscaled.  Only the
+    manifest-writing program is executed (the others need real arguments).
+    """
+    namespace = {} if namespace is None else dict(namespace)
+    block = tier_heredoc_block("tier_processing_manifest.json")
+    code = compile(block, "<tier_driver_manifest_heredoc>", "exec")
+    exec(code, namespace)
+    return namespace
+
+
+def dict_keys_from_node(node):
+    """Literal string keys of a dict literal (nested dicts are not descended)."""
+    if not isinstance(node, ast.Dict):
+        raise AssertionError("expected a dict literal")
+    return {
+        key.value
+        for key in node.keys
+        if isinstance(key, ast.Constant) and isinstance(key.value, str)
+    }
+
+
+def flag_arguments(source: str) -> set[str]:
+    """Every CLI flag the source passes as a *literal argument* string.
+
+    Docstrings and comments are removed first, so prose cannot satisfy a flag
+    assertion — but prose cannot break one either, because the word boundary
+    makes ``--domZ`` a distinct flag from ``--domtblout``.
+    """
+    code = python_code_text(source)
+    return set(re.findall(r"(?<![\w-])--[A-Za-z][\w-]*", code))
+
+
+def manifest_payload_keys(block: str) -> set[str]:
+    """Keys of the manifest dict the driver's builder returns.
+
+    The payload is read out of the embedded program's own
+    ``build_tier_processing_manifest`` function, so the assertion tracks what
+    the driver really writes rather than a re-typed look-alike.
+    """
+    tree = ast.parse(block)
+    for node in ast.walk(tree):
+        if isinstance(node, ast.FunctionDef) and node.name == "build_tier_processing_manifest":
+            for statement in node.body:
+                if isinstance(statement, ast.Assign) and isinstance(statement.value, ast.Dict):
+                    return dict_keys_from_node(statement.value)
+            raise AssertionError("no manifest dict literal in the tier builder")
+    raise AssertionError("the tier driver has no manifest builder function")
+
+
+def called_name(node) -> str | None:
+    """The function name a ``Call`` node invokes (plain name or attribute)."""
+    func = getattr(node, "func", None)
+    if isinstance(func, ast.Attribute):
+        return func.attr
+    if isinstance(func, ast.Name):
+        return func.id
+    return None
+
+
+def _unescape_source(text: str) -> str:
+    """Undo ``ast.unparse``'s source-level escapes."""
+
+    def replace(match):
+        body = match.group(1)
+        simple = {"n": "\n", "t": "\t", "\\": "\\", "'": "'", '"': '"', "\n": ""}
+        if body in simple:
+            return simple[body]
+        return chr(int(body[2:], 16)) if body.startswith(("u", "U", "x")) else match.group(0)
+
+    return re.sub(r"\\(u[0-9a-fA-F]{4}|U[0-9a-fA-F]{8}|x[0-9a-fA-F]{2}|.)", replace, text)
+
+
+def python_code_text(source: str) -> str:
+    """Python source with comments and docstrings removed.
+
+    Prose may legitimately explain that ``--domZ`` is never emitted; only real
+    code and real flag strings may satisfy (or break) an assertion.
+    """
+    tree = ast.parse(source)
+    for node in ast.walk(tree):
+        if isinstance(
+            node, (ast.Module, ast.FunctionDef, ast.AsyncFunctionDef, ast.ClassDef)
+        ):
+            body = getattr(node, "body", [])
+            if (
+                body
+                and isinstance(body[0], ast.Expr)
+                and isinstance(body[0].value, ast.Constant)
+                and isinstance(body[0].value.value, str)
+            ):
+                body.pop(0)
+    return _unescape_source(ast.unparse(tree))
+
+
+def environ_names_read_in_main(block: str) -> set[str]:
+    """The environment lookups the rescore step performs anywhere in its source.
+
+    This is the dynamic counterpart of the module-constant scan: the full-library
+    ``Z`` may come from the command line or from the documented
+    ``PHB_DATABASE_SIZE_Z`` override, never from a shard-local variable.  Reading
+    *any* other variable would be an undocumented second source of scale, so the
+    result must be exactly the two documented lookups.
+    """
+    names: set[str] = set()
+
+    def record(node):
+        if isinstance(node, ast.Constant) and isinstance(node.value, str):
+            names.add(node.value)
+        elif isinstance(node, ast.Name):
+            names.add(node.id)
+
+    for child in ast.walk(ast.parse(block)):
+        # ``os.environ["X"]`` and ``os.environ.get("X")`` both count.
+        if isinstance(child, ast.Subscript):
+            target, index = child.value, child.slice
+            if isinstance(target, ast.Attribute) and target.attr == "environ":
+                record(index)
+        elif isinstance(child, ast.Call):
+            func = child.func
+            if (
+                isinstance(func, ast.Attribute)
+                and func.attr == "get"
+                and isinstance(func.value, ast.Attribute)
+                and func.value.attr == "environ"
+                and child.args
+            ):
+                record(child.args[0])
+    return names
 
 
 class HmmerCommandBuilderTests(unittest.TestCase):
@@ -293,6 +478,560 @@ class ScreeningEntrypointScaleTests(unittest.TestCase):
         self.assertIn('python "$SCRIPT_DIR/server_resources.py"', self.script)
         self.assertIn("MEASURED_LIMIT", self.script)
         self.assertIn("THREADS", self.script)
+
+
+class TierDatabaseSizeScaleTests(unittest.TestCase):
+    """Task F4 — the tier entrypoint must bind one full-database Z (fail-closed).
+
+    ``formal_scan13_tier_processing.sh`` re-runs HMMER through
+    ``08c_tier_rescore.py``, so it needs exactly the same scale contract as
+    ``06_screen.sh``: an explicit ``--database-size-z``, a positive-integer
+    check, a refusal instead of a silent shard-local default, a ``-Z`` reaching
+    every HMMER call, and the scale recorded in the tier manifest.
+    """
+
+    def setUp(self):
+        self.script = TIER_SH.read_text(encoding="utf-8")
+
+    def test_entrypoint_requires_an_explicit_database_size_flag(self):
+        self.assertIn("--database-size-z", self.script)
+        self.assertIn('DATABASE_SIZE_Z="${PHB_DATABASE_SIZE_Z:-}"', self.script)
+        self.assertIn("--database-size-basis", self.script)
+        self.assertIn('DATABASE_SIZE_BASIS="${PHB_DATABASE_SIZE_BASIS:-}"', self.script)
+
+    def test_missing_database_size_is_fail_closed(self):
+        self.assertRegex(
+            self.script,
+            r'if \[ -z "\$DATABASE_SIZE_Z" \]; then[\s\S]{0,1200}?exit 1',
+        )
+        self.assertRegex(self.script, r"\[ERROR\][^\n]*--database-size-z")
+        # No fallback value and no derivation from the evidence in the run: the
+        # scale is a supplied fact, never a counted default.  (The pre-existing
+        # extraction check may still count lines; argparse/tests do.)
+        self.assertNotIn("${DATABASE_SIZE_Z:-", self.script)
+        for derived in ("grep -c '^>'", "seq_count", "Z_shard"):
+            with self.subTest(derived=derived):
+                self.assertNotIn(derived, self.script)
+        # The one Z is forwarded to the rescoring step, never re-derived there.
+        self.assertNotIn('Z="$(', self.script)
+
+    def test_database_size_is_validated_as_a_positive_integer(self):
+        self.assertRegex(
+            self.script,
+            r'\[\[ "\$DATABASE_SIZE_Z" =~ \^\[1-9\]\[0-9\]\*\$\s*\]\]',
+        )
+        self.assertRegex(
+            self.script,
+            r"\[ERROR\][^\n]*--database-size-z[^\n]*positive integer",
+        )
+
+    def test_scale_gate_precedes_every_side_effect(self):
+        """Refusing must happen before the run directory or any copy exists."""
+        gate = self.script.index('if [ -z "$DATABASE_SIZE_Z" ]; then')
+        for effect in ("create_run_layout", "mkdir -p", 'cp "$SCRIPT_DIR/', "<<'PY'"):
+            with self.subTest(effect=effect):
+                self.assertLess(gate, self.script.index(effect))
+
+    def test_one_z_is_threaded_to_every_hmm_rerun(self):
+        self.assertIn(
+            '--database-size-z "$DATABASE_SIZE_Z"', self.script
+        )
+        self.assertIn(
+            '--database-size-basis "$DATABASE_SIZE_BASIS"', self.script
+        )
+        # The rescoring call itself carries the scale, next to the CPU.
+        self.assertRegex(
+            self.script,
+            r'08c_tier_rescore\.py" --database-size-z "\$DATABASE_SIZE_Z" '
+            r'--database-size-basis "\$DATABASE_SIZE_BASIS" --cpu "\$HMM_CPU"',
+        )
+        # The entrypoint never invokes hmmsearch itself: HMMER flags live only in
+        # the rescoring step, which builds them through the shared builder.  The
+        # recorded template may only appear as the manifest's literal string.
+        shell = strip_shell_comments(self.script)
+        self.assertEqual(
+            [
+                line.strip()
+                for line in shell.splitlines()
+                if line.strip().startswith("hmmsearch")
+            ],
+            [],
+        )
+        self.assertIn("hmmsearch --tblout", shell)
+
+    def test_hmmer_command_module_is_shipped_with_the_rescoring_step(self):
+        """The copied rescore step needs the shared builder beside it."""
+        self.assertIn("hmmer_command.py", self.script)
+
+    def test_entrypoint_offers_no_hmm_or_domain_flags(self):
+        """Only run/scale flags reach the driver; HMMER flags come from the builder."""
+        shell = strip_shell_comments(self.script)
+        driver_flags = {
+            match.group(1)
+            for match in re.finditer(r"^\s*(--[a-z][\w-]*)\)", shell, re.M)
+        }
+        self.assertEqual(
+            driver_flags,
+            {
+                "--run-id",
+                "--parent-run",
+                "--hmm-cpu",
+                "--database-size-z",
+                "--database-size-basis",
+            },
+        )
+
+    def test_tier_hmm_cpu_is_single_threaded_by_default(self):
+        values = [
+            line.strip()
+            for line in self.script.splitlines()
+            if line.startswith("HMM_CPU=")
+        ]
+        self.assertEqual(values, ["HMM_CPU=1"], "per-task HMMER must be single-threaded")
+        self.assertIn("--hmm-cpu must be 1..60", self.script)
+
+    def test_manifest_records_the_scale_fields(self):
+        block = next(
+            blob
+            for blob in tier_heredoc_blocks()
+            if "tier_processing_manifest.json" in blob
+        )
+        payload_keys = manifest_payload_keys(block)
+        for field in (
+            "database_size_Z",
+            "database_size_basis",
+            "shards",
+            "shard_sequence_total",
+            "hmmsearch_command_template",
+            "domz_used",
+        ):
+            with self.subTest(field=field):
+                self.assertIn(field, payload_keys)
+        # The pre-existing manifest fields must survive the change.
+        for field in (
+            "schema_version",
+            "status",
+            "run_id",
+            "created_utc",
+            "parent_run",
+            "hmm_cpu",
+            "input_contract_sha256",
+            "tier_processing_summary_sha256",
+            "tier1_counts",
+        ):
+            with self.subTest(preserved=field):
+                self.assertIn(field, payload_keys)
+        self.assertIn("count_fasta_records", block)
+        self.assertIn("shard_*.faa", block)
+        # The recorded command template carries the one -Z and never --domZ.
+        self.assertIn("'-Z \"$DATABASE_SIZE_Z\"", block)
+        template = block.split("command_template = (", 1)[1].split(")", 1)[0]
+        self.assertNotIn("--domZ", template)
+    def test_manifest_scale_gate_fails_closed_on_real_shard_counts(self):
+        """The shipped gate — not a look-alike — must check real record counts."""
+        programs = load_tier_manifest_programs()
+        gate = programs.get("require_database_size_scale")
+        self.assertTrue(callable(gate), "the tier driver has no scale gate")
+        shards = Path(tempfile.mkdtemp(prefix="task_f4_shards_"))
+        self.addCleanup(shutil.rmtree, shards, True)
+        records = "".join(
+            f">protein_{index}\n{'M' * 60}\n" for index in range(3)
+        )
+        (shards / "shard_0001.faa").write_text(records, encoding="utf-8")
+        (shards / "shard_0002.faa").write_text(records, encoding="utf-8")
+        with self.assertRaises(SystemExit) as caught:
+            gate(str(shards), 6 + 1, "measured parent scan-13 shard counts")
+        self.assertNotEqual(caught.exception.code, 0)
+        counted, total = gate(str(shards), 6, "measured parent scan-13 shard counts")
+        self.assertEqual(total, 6)
+        self.assertEqual(
+            {item["name"]: item["sequence_count"] for item in counted},
+            {"shard_0001.faa": 3, "shard_0002.faa": 3},
+        )
+        observed = gate(str(shards), "6", "measured parent scan-13 shard counts")
+        self.assertEqual(observed[1], 6)
+
+    def test_manifest_scale_gate_rejects_missing_scale_evidence(self):
+        """A missing/blank Z or basis makes the manifest invalid, not defaulted."""
+        programs = load_tier_manifest_programs()
+        gate = programs.get("require_database_size_scale")
+        self.assertTrue(callable(gate), "the tier driver has no scale gate")
+        shards = Path(tempfile.mkdtemp(prefix="task_f4_shards_"))
+        self.addCleanup(shutil.rmtree, shards, True)
+        records = "".join(
+            f">protein_{index}\n{'M' * 60}\n" for index in range(3)
+        )
+        (shards / "shard_0001.faa").write_text(records, encoding="utf-8")
+        for z, basis in (
+            (None, "measured"),
+            ("", "measured"),
+            ("0", "measured"),
+            ("-3", "measured"),
+            ("2.5", "measured"),
+            (3, ""),
+            (3, "   "),
+            (3, None),
+        ):
+            with self.subTest(z=z, basis=basis):
+                with self.assertRaises(SystemExit):
+                    gate(str(shards), z, basis)
+
+    def test_manifest_scale_gate_rejects_an_empty_shard_dir(self):
+        """Without the per-shard counts the scale cannot be proven."""
+        programs = load_tier_manifest_programs()
+        gate = programs.get("require_database_size_scale")
+        self.assertTrue(callable(gate), "the tier driver has no scale gate")
+        empty = Path(tempfile.mkdtemp(prefix="task_f4_empty_"))
+        self.addCleanup(shutil.rmtree, empty, True)
+        with self.assertRaises(SystemExit):
+            gate(str(empty), 5, "measured")
+
+    def test_manifest_validator_rejects_missing_scale_fields(self):
+        """A manifest missing any scale field must be invalid, never defaulted."""
+        programs = load_tier_manifest_programs()
+        validate = programs.get("validate_tier_manifest")
+        self.assertTrue(callable(validate), "the tier driver has no manifest validator")
+        complete = {
+            "database_size_Z": FULL_DATABASE_Z,
+            "database_size_basis": "measured parent scan-13 shard counts",
+            "shards": [{"name": "shard_0001.faa", "sequence_count": FULL_DATABASE_Z}],
+            "shard_sequence_total": FULL_DATABASE_Z,
+            "hmmsearch_command_template": programs["command_template"],
+            "domz_used": False,
+        }
+        self.assertEqual(validate(dict(complete)), complete)
+        for field in (
+            "database_size_Z",
+            "database_size_basis",
+            "shards",
+            "shard_sequence_total",
+            "hmmsearch_command_template",
+            "domz_used",
+        ):
+            with self.subTest(missing=field):
+                broken = dict(complete)
+                del broken[field]
+                with self.assertRaises(SystemExit):
+                    validate(broken)
+        for override in (
+            {"shard_sequence_total": FULL_DATABASE_Z // 2},
+            {"domz_used": True},
+            {"hmmsearch_command_template": "hmmsearch -E 1e-5 model.hmm shard.faa"},
+            {"hmmsearch_command_template": '-Z "$DATABASE_SIZE_Z" --domZ 1e-5'},
+        ):
+            with self.subTest(override=override):
+                broken = dict(complete)
+                broken.update(override)
+                with self.assertRaises(SystemExit):
+                    validate(broken)
+
+
+class TierManifestEndToEndTests(unittest.TestCase):
+    """Run the driver's own manifest program against a synthetic parent run."""
+
+    def setUp(self):
+        self.workdir = Path(tempfile.mkdtemp(prefix="task_f4_manifest_"))
+        self.addCleanup(shutil.rmtree, self.workdir, True)
+        self.run = self.workdir / "runs" / "20260928_tier_f4_01"
+        self.parent = self.workdir / "runs" / "20260901_formal_frozen_scan_13"
+        self.shards = self.parent / "inputs" / "scan_shards"
+        for path in (
+            self.run / "inputs",
+            self.run / "results" / "tier_processing" / "screen",
+            self.run / "results" / "tier_processing" / "data" / "screen" / "tiers",
+            self.shards,
+        ):
+            path.mkdir(parents=True, exist_ok=True)
+        records = "".join(f">protein_{index}\n{'M' * 60}\n" for index in range(3))
+        for name in ("shard_0001.faa", "shard_0002.faa"):
+            (self.shards / name).write_text(records, encoding="utf-8")
+        (self.run / "inputs" / "hmmer_command.py").write_text(
+            "PROGRAM = 'hmmsearch'\n", encoding="utf-8"
+        )
+        (self.run / "input_contract.json").write_text("{}\n", encoding="utf-8")
+        (self.run / "results" / "tier_processing" / "screen" / "summary.txt").write_text(
+            "summary\n", encoding="utf-8"
+        )
+        (self.run / "results" / "tier_processing" / "data" / "screen" / "tiers"
+         / "ePhaZ_tier1.faa").write_text(">p1\nMMM\n", encoding="utf-8")
+        self.saved_argv = list(sys.argv)
+        self.addCleanup(setattr, sys, "argv", self.saved_argv)
+
+    def run_manifest_program(self, database_size_z, basis):
+        """Run the driver's manifest builder and write it exactly as main() does."""
+        programs = load_tier_manifest_programs()
+        with redirect_stdout(io.StringIO()):
+            manifest = programs["build_tier_processing_manifest"](
+                self.run, self.parent, 1, str(database_size_z), basis
+            )
+            (self.run / "results" / "tier_processing_manifest.json").write_text(
+                json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+
+    def test_manifest_is_written_with_the_full_scale(self):
+        self.run_manifest_program(6, "measured parent scan-13 shard counts")
+        manifest = json.loads(
+            (self.run / "results" / "tier_processing_manifest.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        self.assertEqual(manifest["database_size_Z"], 6)
+        self.assertEqual(manifest["database_size_basis"],
+                         "measured parent scan-13 shard counts")
+        self.assertEqual(manifest["shard_sequence_total"], 6)
+        self.assertEqual(
+            {item["name"]: item["sequence_count"] for item in manifest["shards"]},
+            {"shard_0001.faa": 3, "shard_0002.faa": 3},
+        )
+        self.assertIn('-Z "$DATABASE_SIZE_Z"', manifest["hmmsearch_command_template"])
+        self.assertNotIn("--domZ", manifest["hmmsearch_command_template"])
+        self.assertIs(manifest["domz_used"], False)
+        # Pre-existing manifest evidence survives.
+        self.assertEqual(manifest["run_id"], self.run.name)
+        self.assertEqual(manifest["hmm_cpu"], 1)
+        self.assertEqual(manifest["tier1_counts"], {"ePhaZ": 1})
+        self.assertIn("input_contract_sha256", manifest)
+        self.assertIn("hmmer_command_sha256", manifest)
+
+    def test_manifest_is_not_written_when_the_scale_contradicts_the_counts(self):
+        with self.assertRaises(SystemExit) as caught:
+            self.run_manifest_program(7, "measured parent scan-13 shard counts")
+        self.assertNotEqual(caught.exception.code, 0)
+        self.assertFalse(
+            (self.run / "results" / "tier_processing_manifest.json").exists(),
+            "an invalid manifest must not be published",
+        )
+
+    def test_manifest_is_not_written_without_a_basis(self):
+        with self.assertRaises(SystemExit):
+            self.run_manifest_program(6, "   ")
+        self.assertFalse(
+            (self.run / "results" / "tier_processing_manifest.json").exists()
+        )
+
+    def test_manifest_is_not_written_when_the_library_shards_are_absent(self):
+        shutil.rmtree(self.shards)
+        with self.assertRaises(SystemExit):
+            self.run_manifest_program(6, "measured parent scan-13 shard counts")
+        self.assertFalse(
+            (self.run / "results" / "tier_processing_manifest.json").exists()
+        )
+
+
+class TierRescoreScaleTests(unittest.TestCase):
+    """Task F4 — every rescoring HMMER call shares one full-database Z."""
+
+    def setUp(self):
+        self.module = load_rescore_module()
+        self.source = TIER_RESCORE.read_text(encoding="utf-8")
+        self.script = TIER_SH.read_text(encoding="utf-8")
+        self.calls = []
+        self.workdir = None
+        self._original_run = self.module.subprocess.run
+
+    def tearDown(self):
+        self.module.subprocess.run = self._original_run
+
+    def run_rescore(self, *argv, expect_families=None):
+        """Run the real ``main()`` with HMMER replaced by a recorder.
+
+        Returns the argv of every HMMER call the step would have executed, in
+        order.  Nothing is executed: ``subprocess.run`` is replaced.
+        """
+        module = self.module
+        workdir = Path(tempfile.mkdtemp(prefix="task_f4_rescore_"))
+        self.workdir = workdir
+        self.addCleanup(shutil.rmtree, workdir, True)
+        seqdir = workdir / "data" / "screen" / "family_seqs"
+        seqdir.mkdir(parents=True, exist_ok=True)
+        families = module.CURATED if expect_families is None else expect_families
+        for name in families:
+            (seqdir / f"{name}_validated.faa").write_text(
+                f">protein_1\n{'M' * 60}\n", encoding="utf-8"
+            )
+            hmm = workdir / module.CURATED[name]
+            hmm.parent.mkdir(parents=True, exist_ok=True)
+            hmm.write_text("HMMER3/f\n", encoding="utf-8")
+
+        def fake_run(command, **kwargs):
+            self.calls.append(command)
+            Path(command[command.index("--tblout") + 1]).write_text(
+                "# tbl\n", encoding="utf-8"
+            )
+
+        module.subprocess.run = fake_run
+        previous_cwd = os.getcwd()
+        try:
+            os.chdir(workdir)
+            with redirect_stdout(io.StringIO()):
+                module.main(list(argv))
+        finally:
+            os.chdir(previous_cwd)
+        return self.calls
+
+    def test_z_reaches_the_command_from_the_documented_override(self):
+        previous = os.environ.get("PHB_DATABASE_SIZE_Z")
+        os.environ["PHB_DATABASE_SIZE_Z"] = str(FULL_DATABASE_Z)
+        try:
+            # No --database-size-z on the command line: the documented
+            # PHB_DATABASE_SIZE_Z override is the only source left.
+            commands = self.run_rescore("--cpu", "1")
+        finally:
+            if previous is None:
+                os.environ.pop("PHB_DATABASE_SIZE_Z", None)
+            else:
+                os.environ["PHB_DATABASE_SIZE_Z"] = previous
+        self.assertTrue(commands)
+        for command in commands:
+            with self.subTest(command=command[:3]):
+                self.assertEqual(
+                    command[command.index("-Z") + 1], str(FULL_DATABASE_Z)
+                )
+        self.assertEqual(
+            {command[command.index("-Z") + 1] for command in commands},
+            {str(FULL_DATABASE_Z)},
+        )
+
+    def test_rescore_module_never_defines_a_shard_local_z(self):
+        tree = ast.parse(self.source)
+        constants = set()
+        for node in tree.body:
+            if isinstance(node, ast.Assign):
+                for target in node.targets:
+                    if isinstance(target, ast.Name):
+                        constants.add(target.id)
+        self.assertIn("DATABASE_SIZE_ENV_VAR", constants)
+        # Only the environment-variable *names* may be module constants; a
+        # module-level Z value can silently stand in for supplied evidence.
+        z_value_constants = {
+            name
+            for name in constants
+            if name not in {"DATABASE_SIZE_ENV_VAR", "DATABASE_SIZE_BASIS_ENV_VAR"}
+            and ("Z" in name.upper() and ("SIZE" in name.upper() or name.upper().endswith("_Z")))
+        }
+        self.assertFalse(
+            z_value_constants,
+            f"a module-level Z constant can silently stand in for evidence: "
+            f"{z_value_constants}",
+        )
+
+    def test_rescore_module_does_not_spawn_hmmsearch_outside_the_builder(self):
+        tree = ast.parse(self.source)
+        built = [
+            node
+            for node in ast.walk(tree)
+            if isinstance(node, ast.Call)
+            and called_name(node) == "build_hmmsearch_command"
+        ]
+        self.assertTrue(built, "the rescore step must build every call via the builder")
+        # Whatever runs a process must be handed an argv built by the shared
+        # builder (`hmmsearch()`), not a hand-written literal command line.
+        argv_names = set()
+        for node in ast.walk(tree):
+            if isinstance(node, ast.Assign) and isinstance(node.value, ast.BinOp):
+                for name in node.targets:
+                    if isinstance(name, ast.Name):
+                        argv_names.add(name.id)
+        spawned = 0
+        for node in ast.walk(tree):
+            if not isinstance(node, ast.Call) or not node.args:
+                continue
+            if not isinstance(node.func, ast.Attribute) or node.func.attr != "run":
+                continue
+            spawned += 1
+            first = node.args[0]
+            if isinstance(first, ast.Name):
+                self.assertIn(
+                    first.id, argv_names,
+                    "subprocess.run must receive the builder's argv, never a "
+                    "hand-written literal command line",
+                )
+            else:
+                self.assertEqual(called_name(first), "build_hmmsearch_command")
+        self.assertEqual(spawned, 1, "the rescore step must have exactly one spawn site")
+
+    def test_rescore_has_a_required_database_size_flag_and_no_domz(self):
+        code = python_code_text(self.source)
+        flags = flag_arguments(self.source)
+        self.assertIn("--database-size-z", flags)
+        self.assertIn("--cpu", flags)
+        self.assertIn("PHB_DATABASE_SIZE_Z", code)
+        self.assertIn("build_hmmsearch_command", code)
+        # --domZ may appear in prose that says it is never emitted, but it is
+        # never a real flag of the rescoring step.
+        self.assertNotIn("--domZ", flags)
+        # No raw '-Z' may be added by hand: exactly one quoted flag token, so the
+        # scale cannot be duplicated or defaulted.
+        self.assertEqual(re.findall(r"""["']\s*-Z["']""", code), ["'-Z'"])
+
+    def test_rescore_reads_no_other_environment_variable(self):
+        # The rescore step may read the full-library Z and its stated basis from
+        # the documented environment overrides — and nothing else that could
+        # smuggle in a second scale (for example a shard count).
+        self.assertEqual(
+            environ_names_read_in_main(self.source),
+            {"DATABASE_SIZE_ENV_VAR", "DATABASE_SIZE_BASIS_ENV_VAR"},
+            "only the two documented environment constants may be consulted",
+        )
+        self.assertEqual(
+            re.findall(r'^(DATABASE_SIZE\w*_ENV_VAR) = "([^"]+)"', self.source, re.M),
+            [
+                ("DATABASE_SIZE_ENV_VAR", "PHB_DATABASE_SIZE_Z"),
+                ("DATABASE_SIZE_BASIS_ENV_VAR", "PHB_DATABASE_SIZE_BASIS"),
+            ],
+            "those two constants must name the documented variables",
+        )
+
+    def test_every_requested_family_and_tier_is_hmm_scaled(self):
+        """Two HMMER calls per family, all with the same full-database Z."""
+        calls = self.run_rescore(
+            "--database-size-z", str(FULL_DATABASE_Z), "--cpu", "1"
+        )
+        self.assertEqual(len(calls), 2 * len(self.module.CURATED))
+        self.assertEqual(
+            {command[command.index("-Z") + 1] for command in calls},
+            {str(FULL_DATABASE_Z)},
+        )
+        for command in calls:
+            with self.subTest(tbl=command[command.index("--tblout") + 1]):
+                self.assertNotIn("--domZ", command)
+                self.assertEqual(command[command.index("--cpu") + 1], "1")
+        # Both tiers of every family were searched, not just the first.
+        tblouts = " ".join(command[command.index("--tblout") + 1] for command in calls)
+        for family in self.module.CURATED:
+            with self.subTest(family=family):
+                self.assertIn(f"{family}_tier1.tbl", tblouts)
+                self.assertIn(f"{family}_tier2.tbl", tblouts)
+
+    def test_rescore_refuses_without_the_database_size(self):
+        stderr = io.StringIO()
+        with redirect_stderr(stderr):
+            with self.assertRaises(SystemExit) as caught:
+                self.module.main([])
+        self.assertNotEqual(caught.exception.code, 0)
+        self.assertIn("--database-size-z", stderr.getvalue())
+        self.assertIn("positive integer", stderr.getvalue())
+        self.assertIn("no default", stderr.getvalue())
+
+    def test_rescore_rejects_non_positive_or_non_numeric_z(self):
+        for bad in ("0", "-1", "2.5", "292000000.0", "abc", "1e5", "", " "):
+            with self.subTest(database_size_z=bad):
+                stderr = io.StringIO()
+                with redirect_stderr(stderr):
+                    with self.assertRaises(SystemExit) as caught:
+                        self.module.main(["--database-size-z", bad])
+                self.assertNotEqual(caught.exception.code, 0)
+                self.assertIn("positive integer", stderr.getvalue())
+
+    def test_rescore_accepts_a_positive_integer_z(self):
+        self.assertEqual(self.module.validate_database_size_z("292000000"), 292000000)
+        self.assertEqual(self.module.validate_database_size_z(292000000), 292000000)
+        self.assertEqual(self.module.validate_database_size_z(" 7 "), 7)
+        for bad in (0, -1, None, True, False, 2.5, "", "   ", "-1", "0", "1.5"):
+            with self.subTest(database_size_z=bad):
+                with self.assertRaises(ValueError):
+                    self.module.validate_database_size_z(bad)
 
 
 class ScreenManifestScaleTests(unittest.TestCase):
