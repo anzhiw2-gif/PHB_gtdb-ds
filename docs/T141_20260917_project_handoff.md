@@ -1277,6 +1277,34 @@ Release 无法在此创建（`gh` 未认证、无 Zenodo token），但**内容�
 
 **建议的发布动作：无。** 原样发布并把哈希绑定，同时**明确记录 v2 家族是刻意未注册的，因为注册将构成一项尚未授予的扫描授权**。真正的扫描是另一个决定，需要：显式授权 + 每个模型的 `threshold`/`min_cov`/`hmm_source`（现有行显示这是逐模型选择，`OH` 是唯一 `min_cov` 0.6 者）+ 按 HMM 规则绑定 `training_set_sha256`/`alignment_sha256`/`hmm_sha256` 并标 `bit_reproducible=false` + 说明该扫描预期改变什么（已知发现层对已知混淆子**无判别力**：563 条 x₁ 混淆命中召回 443 条 = 78.69%）。
 
+### 12.25 第十四轮：F15 的提升在 v2 目录中**无处体现**，且原因是结构性的（目标轮 14）
+
+交叉核对 F15 与 F14 时发现（`runs/20260928_phaded_promotion_propagation_audit_01/results/promotion_propagation_audit.md`，只读，**未改动任何目录行**）：
+
+**F15 的决定是按 profile 的**（`calibration_status.md` 原文）：46 个 profile 中 `calibrated_candidate_model` **1 个** = `family_DED_hfam_70_9818be7f78e3`；`candidate_gate_passed_not_promoted` 1 个 = `hfam_52`；`promotion_scope_map.tsv` 共 46 行、每个 `profile_id` 一行 ⇒ **决定的单位是 profile，不是 accession**。
+
+**而目录里**：
+
+| 量 | 值 |
+|---|---:|
+| `phaded_family_best` 指向该已提升 profile 的行 | **1,087** |
+| 其中 `model_layer = discovery_hmm_uncalibrated` | **1,087（100%）** |
+| 其中 `functional_calibration_status = not_function_calibrated` | **1,087（100%）** |
+| 其中 `sequence_family_call` 为空 | **1,087（100%）** |
+| **全文件 `calibrated_candidate_model` 行数** | **0** |
+
+⇒ **提升所产生的那一层在目录中不可达：0 行。** 那 1,087 条带的仍是提升之前的发现层。
+
+**原因不是漏了一个 join，而是结构性的**：`build_phaded_v2_catalog_input.py` 的命令行**完全没有提升/校准输入**（`--universe --subtype-matrix --v1-merge --v1-hold --demotion --authority --profile-manifest --independence-summary [--reference-ledger] [--f1-attribution] --results-dir`）⇒ **它原则上无法表达该提升**。F15 的决定只存在于其自身 run 的 `promotion_record.md` / `per_family_gate_table.tsv`，**没有任何下游消费它**。这也解释了那 1,087 行 `sequence_family_call` 为空：F14 因**评估器输入缺失**而 withheld 了 `sequence_family_hmm_validated`。
+
+**两种读法都站得住，故记为「带决定的发现」而非待修缺陷**：
+- **A：应当传播** —— 若项目史上唯一一次授权提升产生 0 行目录，该层就是装饰性的，任何下游都无法区分「已校准家族的候选」与「仅发现层候选」；按此读法 builder 需要校准输入，那 1,087 行应当移动。
+- **B：传播即过度声明** —— 提升是**按 profile**、依据家族 gate 槽位（`qualified_e2_e3_positive_count ≥ 3`、`independent_genus_count ≥ 3`、heldout/negative/challenge ≥ 1）决定的，它说的是**该 profile 过了 gate**，不是**这 1,087 条蛋白各自被验证**。F14 正是因逐候选评估器输入缺失才 withheld 家族验证层；在缺少该逐候选证据的情况下把家族级决定铺到 1,087 行上，**恰是规格的层分离要防止的那类过度声明**。注意 `functional_calibration_status` 为空**不能**作为 A 的证据 —— 规格明确它是**独立字段**、不得由 `model_layer` 推导，故它无论如何都可能合理地保持 `not_function_calibrated`。
+
+**区分两者的具体下一步**：检查那 1,087 行是否能通过**逐候选**审视 —— 例如它们是否携带该家族的判别性证据，还是仅仅把该 profile 列为 `phaded_family_best`（**列名本身说的是 "best" 而不是 "called"**）。若不能，则 B 成立、目录现状是对的：提升是真实的，但它附着于 profile，**没有任何目录行应当声明它**。
+
+**不在争议之内的**：F15 的提升本身记录完备、经 gate 且获授权，本审计未发现它做错了什么；`hfam_52` 的 817 行同样按设计推迟、保持不变；没有任何候选被删除、降级或排除。
+
 ---
 
 *本文档为 candidate-only 交接记录。所有被引用的 profile、domain、motif、SignalP、结构、定位与系统发育证据仍只表示候选同源或功能潜力，**不等同于已验证的 PHB/PHA 降解表型**。*
