@@ -848,9 +848,18 @@ class StreamingTests(_ScaleImpactFixture):
         # the model's per-accession term is a real byte-scale figure ...
         self.assertLess(self.module.BYTES_PER_UNIVERSE_ACCESSION, 4096)
         # ... and the measured peak for this 5-accession universe stays inside
-        # the stated bound (a fixed allowance plus ~1.4 KB of accessions)
+        # the stated ceiling (the ceiling is a bound, not a prediction)
         self.assertLess(small_peak, self.module.memory_bound_bytes(len(self.UNIVERSE)))
         self.assertLess(big_peak, self.module.memory_bound_bytes(len(self.UNIVERSE)))
+        # the ceiling never decreases as the universe grows, and the reported
+        # figures are documented as a ceiling rather than an estimate
+        self.assertLess(
+            self.module.memory_bound_bytes(1000),
+            self.module.memory_bound_bytes(1001),
+        )
+        model = small_payload["bounded_state"]["model"].lower()
+        self.assertIn("ceiling", model)
+        self.assertIn("measured_note", small_payload["bounded_state"])
 
     def test_iter_tsv_rows_is_a_generator_with_bounded_line_reads(self):
         self.assertTrue(
