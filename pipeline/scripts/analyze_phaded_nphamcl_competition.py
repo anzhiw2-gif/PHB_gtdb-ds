@@ -64,6 +64,7 @@ def classify(
     supported_label: str = DISPOSITION_SUPPORTED,
     competed_label: str = DISPOSITION_COMPETED,
     unresolved_label: str = DISPOSITION_UNRESOLVED,
+    significance_threshold: float = 1e-5,
 ) -> tuple[list[dict[str, str]], dict]:
     """Per-candidate best hit against the anchor and against the competitors.
 
@@ -132,7 +133,8 @@ def classify(
             "disposition": disposition,
         })
     summary = summarize(records, competitor_ids, control_ids,
-                        competed_label=competed_label, supported_label=supported_label)
+                        competed_label=competed_label, supported_label=supported_label,
+                        significance_threshold=significance_threshold)
     summary["queries_seen"] = len(by_query)
     return records, summary
 
@@ -144,6 +146,7 @@ def summarize(
     *,
     competed_label: str = DISPOSITION_COMPETED,
     supported_label: str = DISPOSITION_SUPPORTED,
+    significance_threshold: float = 1e-5,
 ) -> dict:
     counts: dict[str, int] = {}
     for record in records:
@@ -151,19 +154,60 @@ def summarize(
     total = len(records)
     competed = counts.get(competed_label, 0)
     supported = counts.get(supported_label, 0)
+
+    def hits(record: dict[str, str], column: str) -> bool:
+        raw = (record.get(column) or "").strip()
+        if not raw or raw == "pending":
+            return False
+        try:
+            return float(raw) < significance_threshold
+        except ValueError:
+            return False
+
+    anchor_hits = sum(1 for record in records if hits(record, "anchor_evalue"))
+    competitor_hits = sum(1 for record in records if hits(record, "competitor_evalue"))
+    both_hits = sum(
+        1 for record in records
+        if hits(record, "anchor_evalue") and hits(record, "competitor_evalue")
+    )
+    both_share = (both_hits / total) if total else None
+
+    # The disposition is a nearest-neighbour CONVENTION. When nearly every candidate is
+    # a significant hit to both sides, the convention is not a discrimination, and a
+    # summary that reports only "N supported" invites the opposite reading. Measured on
+    # the real 987 candidates, every one of them hits both at E < 1e-5.
+    if both_share is not None and both_share >= 0.5:
+        interpretation = (
+            f"READ WITH CARE: {both_hits} of {total} candidates ({both_share:.1%}) are "
+            f"significant hits to BOTH the anchor and a measured confounder at "
+            f"E < {significance_threshold:g}. The disposition below is therefore a "
+            "nearest-neighbour convention applied to candidates that are not separated by "
+            "significance - it is NOT a discrimination, and the supported share must not be "
+            "read as the sequence layer endorsing that share of the pool. A candidate whose "
+            "best panel hit is a measured confounder belongs to function_unresolved and is "
+            "NOT deleted, demoted or excluded; a candidate nearer the anchor is nPHAMCL-like "
+            "at this resolution only, which is sequence-level and does not settle the fold."
+        )
+    else:
+        interpretation = (
+            "A candidate whose best panel hit is a measured confounder cannot be called "
+            "nPHAMCL-like on this evidence; it belongs to function_unresolved and is NOT "
+            "deleted, demoted or excluded. A candidate nearer the anchor is nPHAMCL-like at "
+            "this resolution only, which is sequence-level and does not settle the fold."
+        )
     return {
         "candidates_scored": total,
         "disposition_counts": counts,
         "competed_share": (competed / total) if total else None,
         "supported_share": (supported / total) if total else None,
+        "significance_threshold": f"{significance_threshold:g}",
+        "candidates_hitting_anchor_at_threshold": anchor_hits,
+        "candidates_hitting_competitor_at_threshold": competitor_hits,
+        "candidates_hitting_both_at_threshold": both_hits,
+        "share_hitting_both": both_share,
         "hard_competitors_used": list(competitor_ids),
         "specificity_controls_used": list(control_ids),
-        "interpretation": (
-            "A candidate whose best panel hit is a measured confounder cannot be called "
-            "nPHAMCL-like on this evidence; it belongs to function_unresolved and is NOT "
-            "deleted, demoted or excluded. A candidate nearer the anchor is nPHAMCL-like at "
-            "this resolution only, which is sequence-level and does not settle the fold."
-        ),
+        "interpretation": interpretation,
         "boundary": (
             "Sequence-level competition only. The structural stage (Foldseek/TM-score "
             "against the same panel) requires predicted or experimental structures for the "
@@ -184,6 +228,9 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--competed-label", default=DISPOSITION_COMPETED,
                         help="disposition name for a candidate whose best panel hit is a competitor")
     parser.add_argument("--unresolved-label", default=DISPOSITION_UNRESOLVED)
+    parser.add_argument("--significance-threshold", type=float, default=1e-5,
+                        help="E-value below which a panel hit counts as significant when reporting "
+                             "how many candidates hit both sides")
     parser.add_argument("--out-dir", required=True, type=Path)
     args = parser.parse_args(argv)
 
@@ -197,6 +244,7 @@ def main(argv: list[str] | None = None) -> int:
         supported_label=args.supported_label,
         competed_label=args.competed_label,
         unresolved_label=args.unresolved_label,
+        significance_threshold=args.significance_threshold,
     )
     args.out_dir.mkdir(parents=True, exist_ok=True)
     fields = list(records[0].keys()) if records else ["accession"]

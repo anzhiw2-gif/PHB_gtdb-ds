@@ -103,6 +103,91 @@ class PanelMeasurementTests(unittest.TestCase):
             builder.build_panel({"P24640": "AA"}, {"a": "CC", "b": "DD"}, ["P24640"], [])
 
 
+class BothSidesSignificantTests(unittest.TestCase):
+    """The disposition is a convention; the tool must say when it is not a discrimination.
+
+    Measured on the real 987 candidates, every single one is a significant hit to BOTH
+    the nPHAMCL anchor and a measured confounder at E < 1e-5. A summary that reports
+    "94.7% nphamcl_like_supported" without that fact invites the reading that the
+    sequence layer supports those candidates, when what it actually did was pick the
+    nearer of two significant hits.
+    """
+
+    def _blast(self, tmp: Path, rows: list[tuple[str, str, str]]) -> Path:
+        body = "".join(f"{q}\t{s}\t30.0\t200\t{e}\t100.0\n" for q, s, e in rows)
+        return write(tmp / "blast.tsv", body)
+
+    def test_hits_on_both_sides_are_counted_and_shares_reported(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            tmp = Path(temporary)
+            path = self._blast(tmp, [
+                ("both", "8YNV_A", "1e-30"), ("both", "P24640", "1e-20"),
+                ("anchor_only", "8YNV_A", "1e-30"),
+                ("neither", "P08658", "999.0"),
+            ])
+            _records, summary = scorer.classify(
+                scorer.read_blast(path), competitor_ids=["P24640"], control_ids=["P08658"],
+            )
+            self.assertEqual(summary["significance_threshold"], "1e-05")
+            self.assertEqual(summary["candidates_hitting_anchor_at_threshold"], 2)
+            self.assertEqual(summary["candidates_hitting_competitor_at_threshold"], 1)
+            self.assertEqual(summary["candidates_hitting_both_at_threshold"], 1)
+            self.assertAlmostEqual(summary["share_hitting_both"], 1 / 3)
+
+    def test_a_low_both_share_keeps_the_ordinary_interpretation(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            tmp = Path(temporary)
+            rows = [(f"a{i}", "8YNV_A", "1e-30") for i in range(10)]
+            rows += [("a0", "P24640", "1e-20")]
+            path = self._blast(tmp, rows)
+            _records, summary = scorer.classify(
+                scorer.read_blast(path), competitor_ids=["P24640"], control_ids=[],
+            )
+            self.assertLess(summary["share_hitting_both"], 0.5)
+            self.assertNotIn("not a discrimination", summary["interpretation"])
+
+    def test_a_universal_both_share_says_the_label_is_not_a_discrimination(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            tmp = Path(temporary)
+            path = self._blast(tmp, [
+                ("a", "8YNV_A", "1e-30"), ("a", "P24640", "1e-20"),
+                ("b", "8YNV_A", "1e-25"), ("b", "P24640", "1e-18"),
+            ])
+            _records, summary = scorer.classify(
+                scorer.read_blast(path), competitor_ids=["P24640"], control_ids=[],
+            )
+            self.assertEqual(summary["share_hitting_both"], 1.0)
+            self.assertIn("NOT a discrimination", summary["interpretation"])
+            self.assertIn("nearest-neighbour", summary["interpretation"])
+            self.assertIn("READ WITH CARE", summary["interpretation"])
+
+    def test_the_threshold_is_configurable(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            tmp = Path(temporary)
+            path = self._blast(tmp, [("a", "8YNV_A", "1e-8"), ("a", "P24640", "1e-8")])
+            _records, summary = scorer.classify(
+                scorer.read_blast(path), competitor_ids=["P24640"], control_ids=[],
+                significance_threshold=1e-5,
+            )
+            self.assertEqual(summary["candidates_hitting_both_at_threshold"], 1)
+            _records, summary = scorer.classify(
+                scorer.read_blast(path), competitor_ids=["P24640"], control_ids=[],
+                significance_threshold=1e-12,
+            )
+            self.assertEqual(summary["candidates_hitting_both_at_threshold"], 0)
+            self.assertEqual(summary["significance_threshold"], "1e-12")
+
+    def test_a_candidate_with_no_evalue_is_not_counted_as_hitting(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            tmp = Path(temporary)
+            path = self._blast(tmp, [("q", "8YNV_A", "1e-30")])
+            _records, summary = scorer.classify(
+                scorer.read_blast(path), competitor_ids=["P24640"], control_ids=[],
+            )
+            self.assertEqual(summary["candidates_hitting_anchor_at_threshold"], 1)
+            self.assertEqual(summary["candidates_hitting_both_at_threshold"], 0)
+
+
 class ScoringTests(unittest.TestCase):
     def _blast(self, tmp: Path, rows: list[tuple[str, str, str]]) -> Path:
         body = "".join(
