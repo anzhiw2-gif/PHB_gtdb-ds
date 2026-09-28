@@ -61,8 +61,16 @@ def classify(
     anchor: str = ANCHOR,
     competitor_ids: list[str] | None = None,
     control_ids: list[str] | None = None,
+    supported_label: str = DISPOSITION_SUPPORTED,
+    competed_label: str = DISPOSITION_COMPETED,
+    unresolved_label: str = DISPOSITION_UNRESOLVED,
 ) -> tuple[list[dict[str, str]], dict]:
-    """Per-candidate best hit against the anchor and against the competitors."""
+    """Per-candidate best hit against the anchor and against the competitors.
+
+    The three labels are arguments so the same panel logic can score a different
+    candidate pool (the with-lipase deferred pool, for instance) without pretending
+    its members are nPHAMCL candidates.
+    """
     competitor_ids = competitor_ids or []
     control_ids = control_ids or []
     by_query: dict[str, list[dict[str, str]]] = {}
@@ -83,18 +91,33 @@ def classify(
         )
         best_overall = min(rows, key=lambda r: r["evalue_f"])
         if best_anchor is None and best_competitor is None:
-            disposition = DISPOSITION_UNRESOLVED
+            disposition = unresolved_label
         elif best_competitor is None:
-            disposition = DISPOSITION_SUPPORTED
+            disposition = supported_label
         elif best_anchor is None:
-            disposition = DISPOSITION_COMPETED
+            disposition = competed_label
         elif best_competitor["evalue_f"] < best_anchor["evalue_f"]:
-            disposition = DISPOSITION_COMPETED
+            disposition = competed_label
         else:
-            disposition = DISPOSITION_SUPPORTED
+            disposition = supported_label
         margin = ""
         if best_anchor is not None and best_competitor is not None:
-            margin = f"{best_competitor['evalue_f'] / best_anchor['evalue_f']:.6g}"
+            anchor_e = best_anchor["evalue_f"]
+            competitor_e = best_competitor["evalue_f"]
+            # A very strong hit underflows to E = 0.0, so the ratio cannot simply be
+            # divided. The three cases are reported rather than special-cased into a
+            # number that would look like data:
+            #   both 0        -> indistinguishable at this precision
+            #   anchor 0 only -> the anchor is infinitely better
+            #   competitor 0  -> the competitor is infinitely better
+            if anchor_e == 0.0 and competitor_e == 0.0:
+                margin = "both_below_precision"
+            elif anchor_e == 0.0:
+                margin = "inf"
+            elif competitor_e == 0.0:
+                margin = "0"
+            else:
+                margin = f"{competitor_e / anchor_e:.6g}"
         records.append({
             "accession": query,
             "best_overall_subject": best_overall["sseqid"],
@@ -108,7 +131,8 @@ def classify(
             "competitor_over_anchor_evalue_ratio": margin,
             "disposition": disposition,
         })
-    summary = summarize(records, competitor_ids, control_ids)
+    summary = summarize(records, competitor_ids, control_ids,
+                        competed_label=competed_label, supported_label=supported_label)
     summary["queries_seen"] = len(by_query)
     return records, summary
 
@@ -117,13 +141,16 @@ def summarize(
     records: list[dict[str, str]],
     competitor_ids: list[str],
     control_ids: list[str],
+    *,
+    competed_label: str = DISPOSITION_COMPETED,
+    supported_label: str = DISPOSITION_SUPPORTED,
 ) -> dict:
     counts: dict[str, int] = {}
     for record in records:
         counts[record["disposition"]] = counts.get(record["disposition"], 0) + 1
     total = len(records)
-    competed = counts.get(DISPOSITION_COMPETED, 0)
-    supported = counts.get(DISPOSITION_SUPPORTED, 0)
+    competed = counts.get(competed_label, 0)
+    supported = counts.get(supported_label, 0)
     return {
         "candidates_scored": total,
         "disposition_counts": counts,
@@ -151,6 +178,12 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--competitors", required=True, nargs="+")
     parser.add_argument("--controls", required=True, nargs="+")
     parser.add_argument("--anchor", default=ANCHOR)
+    parser.add_argument("--supported-label", default=DISPOSITION_SUPPORTED,
+                        help="disposition name for a candidate whose best panel hit is the anchor; "
+                             "override it when scoring a different candidate pool")
+    parser.add_argument("--competed-label", default=DISPOSITION_COMPETED,
+                        help="disposition name for a candidate whose best panel hit is a competitor")
+    parser.add_argument("--unresolved-label", default=DISPOSITION_UNRESOLVED)
     parser.add_argument("--out-dir", required=True, type=Path)
     args = parser.parse_args(argv)
 
@@ -161,6 +194,9 @@ def main(argv: list[str] | None = None) -> int:
         anchor=args.anchor,
         competitor_ids=args.competitors,
         control_ids=args.controls,
+        supported_label=args.supported_label,
+        competed_label=args.competed_label,
+        unresolved_label=args.unresolved_label,
     )
     args.out_dir.mkdir(parents=True, exist_ok=True)
     fields = list(records[0].keys()) if records else ["accession"]

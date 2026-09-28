@@ -171,6 +171,49 @@ class ScoringTests(unittest.TestCase):
             self.assertIn("Sequence-level competition only", summary["boundary"])
             self.assertIn("Foldseek", summary["boundary"])
 
+    def test_a_zero_evalue_does_not_divide_by_zero(self):
+        # Strong hits underflow to E = 0.0, and the ratio must not blow up. The
+        # three cases are named rather than turned into a number that looks like data.
+        with tempfile.TemporaryDirectory() as temporary:
+            tmp = Path(temporary)
+            path = self._blast(tmp, [
+                ("both_zero", "8YNV_A", "0.0"), ("both_zero", "P24640", "0.0"),
+                ("anchor_zero", "8YNV_A", "0.0"), ("anchor_zero", "P24640", "1e-5"),
+                ("competitor_zero", "8YNV_A", "1e-5"), ("competitor_zero", "P24640", "0.0"),
+            ])
+            records, _summary = scorer.classify(
+                scorer.read_blast(path), competitor_ids=["P24640"], control_ids=[],
+            )
+            by_query = {row["accession"]: row for row in records}
+            self.assertEqual(by_query["both_zero"]["competitor_over_anchor_evalue_ratio"],
+                             "both_below_precision")
+            self.assertEqual(by_query["anchor_zero"]["competitor_over_anchor_evalue_ratio"], "inf")
+            self.assertEqual(by_query["competitor_zero"]["competitor_over_anchor_evalue_ratio"], "0")
+            self.assertEqual(by_query["anchor_zero"]["disposition"], scorer.DISPOSITION_SUPPORTED)
+            self.assertEqual(by_query["competitor_zero"]["disposition"],
+                             scorer.DISPOSITION_COMPETED)
+
+    def test_disposition_labels_can_be_renamed_for_another_pool(self):
+        # The same panel logic scores the with-lipase deferred pool, whose members
+        # are not nPHAMCL candidates; the labels must not claim otherwise.
+        with tempfile.TemporaryDirectory() as temporary:
+            tmp = Path(temporary)
+            path = self._blast(tmp, [("q1", "8YNV_A", "1e-30"), ("q1", "P24640", "1e-10"),
+                                     ("q2", "P24640", "1e-9"), ("q3", "P08658", "999.0")])
+            records, summary = scorer.classify(
+                scorer.read_blast(path), competitor_ids=["P24640"], control_ids=["P08658"],
+                supported_label="anchor_nearest", competed_label="competitor_nearest",
+                unresolved_label="no_panel_hit",
+            )
+            by_query = {row["accession"]: row for row in records}
+            self.assertEqual(by_query["q1"]["disposition"], "anchor_nearest")
+            self.assertEqual(by_query["q2"]["disposition"], "competitor_nearest")
+            self.assertEqual(by_query["q3"]["disposition"], "no_panel_hit")
+            self.assertEqual(summary["disposition_counts"],
+                             {"anchor_nearest": 1, "competitor_nearest": 1, "no_panel_hit": 1})
+            self.assertAlmostEqual(summary["supported_share"], 1 / 3)
+            self.assertAlmostEqual(summary["competed_share"], 1 / 3)
+
     def test_cli_writes_artifacts_and_refuses_a_non_empty_dir(self):
         with tempfile.TemporaryDirectory() as temporary:
             tmp = Path(temporary)
