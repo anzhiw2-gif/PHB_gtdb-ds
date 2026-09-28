@@ -875,6 +875,42 @@ Task 1–13 交付后，剩余工作已重新制定为独立计划：
 
 **本 commit 未 push**；`runs/`、`results/`、`deploy/` 零改动，v1 三件权威件 SHA-256 逐位不变。
 
+### 12.11 后续计划 F1–F17 执行结果与**已推送**记录（2026-09-28，操作者全量授权）
+
+操作者授权「需要 push 的和需要授权的均允许」后，按计划顺序执行。**已 push 到 `origin/main`**：
+
+```text
+git push origin main    ->  3117287..fc944fe  main -> main        (exit 0)
+git push origin <tag>   ->  * [new tag] phaded-evidence-model-v2-20260928
+```
+
+| # | commit | 内容 | 规模 |
+|---|---|---|---|
+| 1 | **`a5d2cc4`** | feat: 分离发现层与功能校准（Task 2–12 实现与配置） | 22 files, +13,113 / −18 |
+| 2 | **`417e838`** | test: 覆盖证据模型重构 | 17 files, +9,623 |
+| 3 | **`0fa4cd1`** | docs: 发布状态文档与 CI 门 | 10 files |
+| 4 | **`5bb5943`** | docs: 后续计划（F1–F17） | 3 files |
+| 5 | **`cf6d95b`** | fix: **让身份泄露门禁真正生效**并脱敏 | 5 files |
+| 6 | **`c1b4155`** | feat: 完成 F1–F16 并发布研究快照 | 201 files, +62,269 / −80 |
+| 7 | **`b2a01b4`** | docs: 快照文档、图件与审计报告 | 126 files, +117,193 / −31 |
+| 8 | **`fc944fe`** | docs: 补齐 2026-09-20 PF06850/patatin 更正的成对一半 | 1 file |
+
+**Tag**：`phaded-evidence-model-v2-20260928`（annotated，指向 `fc944fe`）。
+**未执行**：GitHub Release 与 Zenodo DOI —— `gh` 未登录（`gh auth status` = not logged into any hosts），Zenodo 无 API token。两者均需操作者提供凭据；push 与 tag 已用 Git Credential Manager 的既有凭据完成。
+
+**最终门禁（提交后实测）**：`Ran 1759 tests … OK (skipped=1)`；`compileall` exit 0；`git diff --check` exit 0；`runs/`、`results/`、`deploy/` 零改动；工作区干净（仅余被 `.gitignore` 排除的会话脚手架）。
+
+**本次执行最重要的四个科学结果**（全部实测，非转录）：
+
+1. **全库 Z 的实测值推翻文档口径**：scan-13 的 100 个分片实测共 **615,969,589** 条蛋白（逐片 4.47M–11.12M），而文档长期沿用的 **~2.92×10⁸ 是「单分片 2.92M × 100」的外推**，偏低约 2.1 倍。据此重标 E 值后，冻结的 6,743,197 行命中中有 **437,193 行（6.48%）**在真实全库尺度下不再通过 `1e-5`（逐家族最大落差 `ePhaZ_broad_discovery` −205,106；phasin 的 7 行全部出界）。冻结表一字未改，新旧 E 值不混用。
+2. **信号肽门的严格度第一次被标定**：实验确立定位为胞外的参考 **23/23 = 100%** 检出分泌信号（其中 type-1 实验锚 12/12 = 100%），而**继承标签**为胞外的参考仅 **46.8%**（type-1 仅 **40.8%**）。⇒ 门禁本身没坏，但**参考层无法为它的严格度背书**；这与 Knoll 2009 自录的反例（`gi:74267419` 无信号肽仍被归入胞外 type-1）一致。
+3. **11,610 条 SP-less type-1 被独立证据佐证**：其中仅 **86 条（0.74%）**携带任一 type-1 配件域（FN3 72 / Ig-like 17 / CHB 14 / TSP3 0），而**已通过**的 type-1 层是 **1,430/5,018 = 28.5%** —— 约 **38 倍**差距。两条互不依赖的胞外证据线（信号肽 + 配件域）一致不支持它们；**那 86 条才是需要单独复核的可行动残留**。
+4. **功能校准门槛按唯一独立性分组重算后收紧**：30 条阳性 → **24 个唯一独立性分组**（E3 1 / E2 26 / E1 0 / A 3）；达到 ≥3 的只有 `DED_hfam_52`（6）与 `DED_hfam_70`（7），而 **`DED_hfam_4` 3→1、`DED_hfam_55` 3→2、`DED_hfam_8` 3→2 均跌破门槛**。据此 `hfam_70` 已按授权提升为 `calibrated_candidate_model`（candidate gate 通过 + 显式授权动作，**非表型声明**）；`hfam_52` 的 gate 机械通过但按设计**刻意不提升**（弱实验记录单独分级）。
+
+**另有两条计划前提被推翻，均已留痕**（`docs/superpowers/plans/2026-09-28-phaded-evidence-model-redesign-followup.md` §F2 与状态文档 §5）：① gRodon 66 条「本地可闭合」的前提错误 —— 26,116 是不指向任何 accession 的**双原因标量**，正确闭合式是 `4,507 = 4,441 + 23 + 43`，仅 43 条为 `pending`；② F16 的门禁修复暴露出该身份泄露门禁**此前完全是空转**（`core.quotePath` 使 `git ls-files -z` 只返回一个元素，且路径模式被过度转义到只匹配四重反斜杠）。第二项意味着**历史 commit 中可能仍有身份字符串**：本次只清理了工作区，**未重写 git 历史**（需单独授权）。
+
+**仍未完成 / 未授权**：P3（29,974 条 Cys 残基映射，需先定是否新建 MAFFT 比对）、P4（987 条结构竞争面板，需先定竞争面板 PDB 闭集）、P5（with-lipase 1,206,655 条分层抽样，需先定抽样规模与种子）、616 条的 v2 处置与 F1 规则的一致性裁决（F14 报告为 613 remote + 3 probable，与 F1 的 function_unresolved 不一致，已如实留痕未强行统一）、`formal_scan_models.tsv` 的发布决策、GitHub Release / Zenodo DOI。
+
 ---
 
 *本文档为 candidate-only 交接记录。所有被引用的 profile、domain、motif、SignalP、结构、定位与系统发育证据仍只表示候选同源或功能潜力，**不等同于已验证的 PHB/PHA 降解表型**。*
