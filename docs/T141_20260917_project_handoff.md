@@ -1303,6 +1303,32 @@ Release 无法在此创建（`gh` 未认证、无 Zenodo token），但**内容�
 
 **区分两者的具体下一步**：检查那 1,087 行是否能通过**逐候选**审视 —— 例如它们是否携带该家族的判别性证据，还是仅仅把该 profile 列为 `phaded_family_best`（**列名本身说的是 "best" 而不是 "called"**）。若不能，则 B 成立、目录现状是对的：提升是真实的，但它附着于 profile，**没有任何目录行应当声明它**。
 
+### 12.26 第十五轮：上轮提出的判别检验已跑 —— 答案是「大部分 B、少数 A」（目标轮 15）
+
+**该检验已执行**，结果分化而明确。那 1,087 行的证据状态：
+
+| 列 | 分布 |
+|---|---|
+| `profile_evidence_status` | `profile_ambiguous_family` **950** · `profile_trained_hit` **132** · `profile_ambiguous_superfamily` 5 |
+| `profile_model_status` | `ambiguous` **955** · `trained` **132** |
+| `assignment_status` | `ambiguous_family` **950** · `assigned` **132** · `ambiguous_superfamily` 5 |
+| `evidence_status` / `evidence_threshold` | `profile_score` / `min_score_gap_1.0_bits_HMMER_E1e6`（全部 1,087） |
+| `profile_best_evalue` | **全部 1,087 为空** |
+| `superfamily_confidence` | **全部 1,087 为空** |
+
+**只有 132 条（12.1%）真正带有训练 profile 命中**（`profile_trained_hit` + `assignment_status=assigned`）；**其余 955 条（87.9%）被明确标为 `ambiguous`**（950 `ambiguous_family` + 5 `ambiguous_superfamily`）。132 + 955 = 1,087 ✓。
+
+⇒ **结论不是整体 A 或整体 B**：
+
+- **那 955 条，B 得到确认。** 它们的家族归属**被「本来必须为提升背书的那同一个字段」标为 ambiguous**。把 `calibrated_candidate_model` 铺到它们身上，等于**断言一个证据明确标为 ambiguous 的家族判定** —— 恰是层分离要防止的过度声明。把某 profile 列为 `phaded_family_best`，正如列名所示，是**排序结果而非判定**。
+- **那 132 条，传播在证据上站得住**（它们带有训练命中）。但仍有一处保留：`profile_best_evalue` **在这 1,087 行中无一例外为空**，故下游无法看到该命中**有多强**。
+
+**建议处置：不要整体传播。** 若确要填充该层，站得住的范围是**那 132 条训练命中**，且须先解决 E-value 缺口；**那 955 条无论如何应保持 `discovery_hmm_uncalibrated`** —— 因为它们本来就是那个状态。
+
+**另记一处独立观察**：`profile_best_evalue` 与 `superfamily_confidence` 对这 1,087 行**全为空**，而同一批行却带有 `evidence_status=profile_score` 与 `evidence_threshold` ⇒ 这些行显然被打了分，**只是分数本身没有被带进目录**。这不影响本轮结论，但**阻断了上面那个 132 行的选项**，也阻断任何读者判断命中强度 —— 是刻意最小化还是遗漏，此处不做判定。
+
+**第三个数值得带走**：这些行的 `sequence_integrity` 为 `terminal_stop_only` **1,059（97.4%）**、`valid` 16、`possible_N_truncation` 8、`invalid_internal_character` 4。**97.4% 从另一张表独立复现了 P5 提取的实测**（5,014 条中 4,961 条 = 98.9% 带尾部终止符）⇒ 进一步确认**尾部终止符是数据源的属性**，而非某一条提取路径的产物。
+
 **不在争议之内的**：F15 的提升本身记录完备、经 gate 且获授权，本审计未发现它做错了什么；`hfam_52` 的 817 行同样按设计推迟、保持不变；没有任何候选被删除、降级或排除。
 
 ---
