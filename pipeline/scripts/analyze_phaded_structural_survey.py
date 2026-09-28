@@ -124,6 +124,41 @@ def normalize_name(accession: str) -> str:
     return accession.replace("|", "_")
 
 
+#: Two-tailed t at alpha = 0.05, by degrees of freedom. A lookup rather than a
+#: single value, because the requirement grows sharply as n falls: at df=3 the
+#: critical coefficient is 0.878, at df=14 it is 0.497, and quoting one number for
+#: all n would understate the bar exactly where it matters most.
+T_CRITICAL_ALPHA_05 = {
+    1: 12.706, 2: 4.303, 3: 3.182, 4: 2.776, 5: 2.571, 6: 2.447, 7: 2.365,
+    8: 2.306, 9: 2.262, 10: 2.228, 11: 2.201, 12: 2.179, 13: 2.160, 14: 2.145,
+    15: 2.131, 16: 2.120, 17: 2.110, 18: 2.101, 19: 2.093, 20: 2.086,
+    22: 2.074, 24: 2.064, 26: 2.056, 28: 2.048, 30: 2.042, 40: 2.021,
+    60: 2.000, 120: 1.980,
+}
+
+#: Below this structural-margin spread (in TM), a rank correlation is ranking
+#: differences smaller than a predicted-fold comparison can resolve. Measured on
+#: the real survey the spread was 0.024 TM, which is why the coefficient there must
+#: not be read as a relationship.
+STRUCTURAL_SPAN_RESOLUTION_TM = 0.05
+
+
+def spearman_critical_value(n: int, alpha_table: dict = T_CRITICAL_ALPHA_05) -> float | None:
+    """The |rho| a two-tailed test at alpha = 0.05 requires for this n.
+
+    Uses the t-approximation rho = t / sqrt(n - 2 + t^2) with the tabulated t for
+    the nearest available degrees of freedom, erring toward the larger t when the
+    exact df is not tabulated so the bar is never understated.
+    """
+    if n < 4:
+        return None
+    df = n - 2
+    available = sorted(alpha_table)
+    candidate = next((key for key in available if key >= df), available[-1])
+    t = alpha_table[candidate]
+    return t / (df + t * t) ** 0.5
+
+
 def model_rank(query: str) -> int:
     """The ``rank_00N`` index of a prediction filename; 0 when it cannot be read."""
     marker = "_unrelaxed_rank_"
@@ -250,6 +285,36 @@ def score(
     anchor_wins = sum(1 for record in records if record["structural_winner"] == "anchor")
     competitor_wins = len(records) - anchor_wins
     correlation = spearman(sequence_values, structural_values)
+
+    sequence_span = (max(sequence_values) - min(sequence_values)) if sequence_values else None
+    structural_span = (max(structural_values) - min(structural_values)) if structural_values else None
+    critical = spearman_critical_value(len(sequence_values))
+    significant = (
+        correlation is not None and critical is not None and abs(correlation) > critical
+    )
+    # Interpretability is about RESOLUTION, not significance: a coefficient computed
+    # by ranking a band narrower than a predicted-fold comparison can resolve is
+    # measuring the sample, not the biology, however large it happens to be.
+    interpretable = structural_span is not None and structural_span >= STRUCTURAL_SPAN_RESOLUTION_TM
+    if not interpretable:
+        interpretation = (
+            "NOT interpretable as a relationship. The structural margin spans only "
+            f"{structural_span if structural_span is None else round(structural_span, 4)} TM "
+            f"across a sequence margin spanning "
+            f"{sequence_span if sequence_span is None else round(sequence_span, 2)} bits, which is "
+            f"below the {STRUCTURAL_SPAN_RESOLUTION_TM} TM resolution floor: the ranking the "
+            "coefficient consumes is dominated by differences smaller than a predicted-fold "
+            "comparison can resolve. Read the spans and the winner counts instead - and note this "
+            "guard is about resolution, independent of whether the coefficient is significant."
+        )
+    else:
+        interpretation = (
+            "The sequence margin is 'competitor minus anchor bits', the structural margin is "
+            "'anchor minus competitor TM', so a POSITIVE Spearman means the sequence-level ranking "
+            "predicts the structural one. Read it together with spearman_is_significant and the "
+            "reported spans: a coefficient below the alpha=0.05 threshold for this n is inside the "
+            "null range, and one computed over a narrow structural band is not evidence either way."
+        )
     summary = {
         "candidates_scored": len(records),
         "structural_winner_counts": {"anchor": anchor_wins, "competitor": competitor_wins},
@@ -260,15 +325,16 @@ def score(
         "preregistered_tm_threshold": PRE_REGISTERED_TM,
         "spearman_sequence_margin_vs_structural_margin": correlation,
         "pairs_used_for_correlation": len(sequence_values),
+        "sequence_margin_span_bits": sequence_span,
+        "structural_margin_span_tm": structural_span,
+        "structural_span_resolution_floor_tm": STRUCTURAL_SPAN_RESOLUTION_TM,
+        "spearman_significance_threshold_alpha_05": critical,
+        "spearman_is_significant": significant,
+        "spearman_is_interpretable": interpretable,
         "model_selection": model_selection,
         "non_survey_queries_ignored": ignored,
         "non_survey_query_count": len(ignored),
-        "interpretation": (
-            "The sequence margin is 'competitor minus anchor bits', the structural margin is "
-            "'anchor minus competitor TM', so a POSITIVE Spearman means the sequence-level ranking "
-            "predicts the structural one. A correlation near zero means the sequence label carries "
-            "no structural warranty, which is what the two-candidate pilot suggested."
-        ),
+        "interpretation": interpretation,
         "boundary": (
             "Predicted folds, not experimental structures; a tranche of the stratified sample, not "
             "a census. Scores a review and changes no disposition."

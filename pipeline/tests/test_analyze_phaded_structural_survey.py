@@ -212,7 +212,10 @@ class ScoringTests(unittest.TestCase):
             _records, summary = module.score(module.read_foldseek(foldseek),
                                              module.read_tsv(composition))
             self.assertIn("Predicted folds, not experimental structures", summary["boundary"])
-            self.assertIn("POSITIVE Spearman", summary["interpretation"])
+            # This fixture's structural margins sit inside a narrow band, so the
+            # interpretation must carry the resolution guard rather than inviting a
+            # positive reading of the coefficient. See CorrelationGuardTests.
+            self.assertIn("resolution floor", summary["interpretation"])
             self.assertEqual(summary["preregistered_tm_threshold"], 0.5)
 
 
@@ -271,6 +274,87 @@ class ModelSelectionTests(unittest.TestCase):
             _records, summary = module.score(module.read_foldseek(foldseek),
                                              module.read_tsv(composition))
             self.assertEqual(summary["model_selection"], "rank_001")
+
+
+class CorrelationGuardTests(unittest.TestCase):
+    """The coefficient must not be readable as a finding the data cannot support.
+
+    Measured on the real survey, the structural margin occupies a 0.024 TM band
+    while the sequence margin spans 13.8 bits, and the coefficient moved from +0.028
+    at n=13 to +0.288 at n=16 while the qualitative result never moved. A summary
+    that reports the number and an interpretation inviting a positive reading is
+    how that becomes a false finding downstream, so the scorer now states whether
+    the coefficient is interpretable at all.
+    """
+
+    def _score(self, pairs):
+        """pairs: list of (sequence_margin_bits, anchor_tm, competitor_tm)."""
+        lines = []
+        composition = []
+        for index, (margin, anchor_tm, competitor_tm) in enumerate(pairs):
+            accession = f"c{index:02d}"
+            query = f"{accession}_unrelaxed_rank_001_m"
+            lines.append(fs_line(query, "anchor_8YNV_A", anchor_tm))
+            lines.append(fs_line(query, "competitor_Q88N36", competitor_tm))
+            composition.append({"accession": accession,
+                                "panel_margin_competitor_minus_anchor_bits": str(margin)})
+        with tempfile.TemporaryDirectory() as temporary:
+            tmp = Path(temporary)
+            foldseek = write(tmp / "fs.tsv", "\n".join(lines) + "\n")
+            comp = write_tsv(tmp / "comp.tsv",
+                             ["accession", "panel_margin_competitor_minus_anchor_bits"],
+                             composition)
+            return module.score(module.read_foldseek(foldseek), module.read_tsv(comp))
+
+    def test_spans_are_reported(self):
+        _records, summary = self._score([
+            (-14.0, 0.76, 0.80), (-8.0, 0.75, 0.80), (-1.0, 0.74, 0.79),
+        ])
+        self.assertAlmostEqual(summary["sequence_margin_span_bits"], 13.0)
+        self.assertAlmostEqual(summary["structural_margin_span_tm"], 0.01, places=6)
+
+    def test_a_wide_structural_spread_is_interpretable(self):
+        _records, summary = self._score([
+            (-14.0, 0.90, 0.50), (-8.0, 0.70, 0.60), (-1.0, 0.55, 0.85),
+            (-4.0, 0.80, 0.55), (-11.0, 0.85, 0.52),
+        ])
+        self.assertTrue(summary["spearman_is_interpretable"])
+        self.assertNotIn("NOT interpretable", summary["interpretation"])
+
+    def test_a_narrow_structural_band_is_flagged_and_the_interpretation_says_so(self):
+        # A 0.02 TM band is below what a predicted-fold comparison can resolve, so
+        # ranking inside it measures the sample, not the biology.
+        _records, summary = self._score([
+            (-14.0, 0.760, 0.780), (-8.0, 0.755, 0.775), (-1.0, 0.750, 0.770),
+            (-4.0, 0.750, 0.768), (-11.0, 0.745, 0.767),
+        ])
+        self.assertLess(summary["structural_margin_span_tm"], 0.05)
+        self.assertFalse(summary["spearman_is_interpretable"])
+        self.assertIn("NOT interpretable", summary["interpretation"])
+        self.assertIn("resolution", summary["interpretation"])
+
+    def test_the_significance_threshold_is_reported_for_the_observed_n(self):
+        _records, summary = self._score([
+            (-14.0, 0.76, 0.80), (-8.0, 0.75, 0.80), (-1.0, 0.74, 0.79),
+            (-4.0, 0.75, 0.79), (-11.0, 0.76, 0.81),
+        ])
+        self.assertEqual(summary["pairs_used_for_correlation"], 5)
+        threshold = summary["spearman_significance_threshold_alpha_05"]
+        self.assertGreater(threshold, 0.8, "small n must demand a large coefficient")
+        self.assertFalse(summary["spearman_is_significant"])
+
+    def test_a_small_n_is_reported_as_not_significant_even_when_interpretable(self):
+        _records, summary = self._score([
+            (-14.0, 0.90, 0.50), (-1.0, 0.55, 0.85),
+        ])
+        self.assertEqual(summary["pairs_used_for_correlation"], 2)
+        self.assertFalse(summary["spearman_is_significant"])
+
+    def test_too_few_pairs_still_reports_the_keys(self):
+        _records, summary = self._score([(-14.0, 0.76, 0.80)])
+        self.assertIsNone(summary["spearman_sequence_margin_vs_structural_margin"])
+        self.assertIn("spearman_is_interpretable", summary)
+        self.assertIn("spearman_is_significant", summary)
 
 
 class CliTests(unittest.TestCase):
