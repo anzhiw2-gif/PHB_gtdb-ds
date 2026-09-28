@@ -1743,7 +1743,7 @@ P5_GPU=1 bash ${PHB_REMOTE_ROOT}/deploy/20260928_phaded_deferred_tail_structural
 
 ```
 found:   docs/T141_20260917_project_handoff.md
-pattern: (?i)(?<![\\/])(?<!\$\{PHB_REMOTE_ROOT\})/home/data/haoyu(?![0-9A-Za-z_])
+pattern: (?i)(?<![\\/])(?<!\$\{PHB_REMOTE_ROOT\})<SERVER_HOME>(?![0-9A-Za-z_])
 ```
 
 这正是该门禁存在的原因，也正是本项目占位符约定（`<SERVER_USER>` / `<SERVER_HOST>` / `${PHB_REMOTE_ROOT}`）的由来。已改为 `${PHB_REMOTE_ROOT}`（**2 处 → 0 处**），门禁恢复 7 OK。**留痕的理由**：这是本会话**第二次**在同一类问题上被同一道门禁拦下（第一次见 §L866 记录的脱敏批次）。**门禁在 push 之前拦住它，正是它该做的事** —— 若没有它，服务器路径会随下一个 commit 进入公开仓库。
