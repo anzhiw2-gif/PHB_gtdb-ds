@@ -1018,6 +1018,24 @@ git push origin <tag>   ->  * [new tag] phaded-evidence-model-v2-20260928
 
 **门禁**：`Ran 1828 tests … OK (skipped=1)`；`compileall` exit 0；`git diff --check` exit 0；`test_public_repo_safety` 7 项 OK；`runs/`、`results/`、`deploy/` 零改动。
 
+### 12.15 第四轮：P4 结构普查第一批（按 margin 十分位分层）（目标轮 3）
+
+**凭据已彻底确认不存在**（Release/DOI 的唯一障碍）：`GH_TOKEN`/`GITHUB_TOKEN`/`GH_ENTERPRISE_TOKEN`/`ZENODO_TOKEN`/`ZENODO_ACCESS_TOKEN` 全部未设；`~/.config/gh/hosts.yml`、`%APPDATA%\GitHub CLI\hosts.yml`、`~/.zenodo`、`~/.config/zenodo` **均不存在**；`gh auth status` = not logged into any hosts。（这是该条件第 3 轮；我**不会**去提取凭据管理器里存储的令牌来调 API —— 那超出授权范围。）
+
+**试点提出的问题需要被检验，而不是被相信**：两条候选（序列 margin 的两个端点）结构上都指向实测混淆子，包括全 987 条中锚 margin 最大的那条。若这普遍成立，则序列层的 `nphamcl_like_supported` 标签在**整个 987 上都没有结构担保**。
+
+**测试它需要跨 margin 全range 取样，而不是按比例取样**：实测 987 条的 margin 分布为 min **−19.30** / p10 −12.70 / 中位 **−7.70** / p90 −0.80 / max **+4.30** —— **90% 落在偏向锚的一侧**，按比例抽样几乎碰不到试点认为具有决定性的那一端尾部。因此抽样器**按 margin 十分位分层、每层固定抽 3 条**（共 **30 条**，seed 20260928），使全range 的每一段都由构造得到代表；分层按**位置**切分而非按分位边界，以免并列值把某一层压空。
+
+**范围已明确声明为计划结构阶段的「一批（tranche）」而非全普查**：试点实测含 MSA 生成约 **6–8 分钟/条**，故 987 条约 **100–130 GPU 小时**（单卡）。本批 30 条复用了试点已算好的面板靶标（同一份实验 8YNV 结构 + 同一批 3 条竞争者预测），只新预测候选。
+
+**评分模块已就绪**（`analyze_phaded_structural_survey.py`，15 项测试）：给出每个候选的「锚 TM − 最优竞争者 TM」结构 margin、结构胜者、是否越过计划的预注册 **TM ≥ 0.5**，以及**序列 margin 与结构 margin 的 Spearman 秩相关**（用平均秩以免并列值扭曲）。**关键设计**：同时报告 margin 与阈值 —— 试点已证明两侧都可能越过 0.5 而竞争者仍然取胜，只报阈值会掩盖试点的全部发现。
+
+**运行状态**：`runs/20260928_phaded_structural_survey_v2_01` 已于服务器 GPU1 启动（`colabfold 1.6.1` MSA 模式，`OMP_NUM_THREADS=8`，Foldseek 线程按紧邻启动前实测）。实测当前 MSA 服务器较慢（单条 MSA 预估 4:49 且仍在增长），且机器上另有他人一个已跑 6.6 小时的任务（`predict_many_samples.py`，占用 GPU0）。按当前速率 30 条约需 **4.5–5 小时**；本批结果与 Spearman 检验将在下一次续轮读取并报告。
+
+**本批另有两条输入卫生约束已内建**（试点各花掉一次运行才学到）：抽样器对每条序列做清洗（剥离 `*`/空白，其他非标准字符 fail-closed）；面板靶标若不齐则**拒绝启动**（`exit 3`），以免与试点的比对口径不一致。
+
+**第四轮 commit（已 push，`origin/main` = `89a9f6f`）**：`89a9f6f`（结构普查抽样 + 评分，31 项新测试）。
+
 ---
 
 *本文档为 candidate-only 交接记录。所有被引用的 profile、domain、motif、SignalP、结构、定位与系统发育证据仍只表示候选同源或功能潜力，**不等同于已验证的 PHB/PHA 降解表型**。*
