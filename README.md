@@ -2,12 +2,12 @@
 
 > Current snapshot (reviewed 2026-09-03): formal frozen scan 13 and its downstream tier processing are complete. Run-13 results are candidate homology evidence, not phenotype validation. See `docs/STATUS.md` for the authority map.
 >
-> PhaDED pipeline (added 2026-09-19): the current method scans with PhaDED-architecture HMMs (Knoll 2009, 8 superfamilies + 38 families) and then applies multi-evidence filtering. All PhaDED outputs remain candidate homology evidence — no family has yet reached ≥3 independent experimental positives, so no calibrated profile has been released. See "PhaDED 架构扫描与多证据筛选" below.
+> PhaDED pipeline (added 2026-09-19): the current method scans with PhaDED-architecture HMMs (Knoll 2009, 8 superfamilies + 38 families) and then applies multi-evidence filtering. All PhaDED outputs remain candidate homology evidence. Under the v2 recount by **unique independence group** (2026-09-28), two families reach ≥3 independent experimental positives — `DED_hfam_70` (7) and `DED_hfam_52` (6) — and `DED_hfam_70` has been promoted to `calibrated_candidate_model` in the candidate-catalogue layer. **No calibrated profile has been registered for GTDB library scanning.** See "PhaDED 架构扫描与多证据筛选" below.
 
 > **Current wording, binding (v2 evidence model, 2026-09-28):**
 > PhaDED outputs are a versioned sequence-homology candidate resource.
 > Discovery and sequence-family HMMs do not prove PHB/PHA degradation.
-> hfam_70 passed the project candidate gate but is not finalized, registered, or released as a function-calibrated production model.
+> `hfam_70` passed the project candidate gate and, under explicit operator authorization dated 2026-09-28, was promoted to `calibrated_candidate_model` in the candidate-catalogue layer. It is **not** registered in `pipeline/config/formal_scan_models.tsv` and is **not** released as a production scan model. The promotion is a candidate-gate outcome, not a phenotype claim.
 > See `docs/T141_20260928_phaded_evidence_model_redesign_status.md` for the current authority status.
 
 > Historical Scheme A values remain in the reports for comparability. They must not be mixed with the run-13 frozen split registry or strict tier results.
@@ -182,7 +182,9 @@ taxonomy/metadata/tree 与模型哈希；原始 GTDB 数据不进入 Git。
 - [x] 完成 run-13 全库 HMM 扫描及严格 tier1 下游处理（见上述状态文档）
 - [ ] 复核 run-13 strict/broad/contextual 分层结果并决定论文统计口径
 - [ ] 重建并登记使用当前输入的 OH 树；全量 ePhaZ/iPhaZ 树和 HGT 仍暂停
-- [ ] 整理成论文；发布 HMM profiles + 轻量命中表（GitHub Release + Zenodo DOI）
+- [x] 发布 GitHub Release（v2 证据模型）：[phaded-evidence-model-v2-20260928](https://github.com/anzhiw2-gif/PHB_gtdb-ds/releases/tag/phaded-evidence-model-v2-20260928)（2026-09-28，prerelease）
+- [ ] 发布 HMM profiles + 轻量命中表，并为该 Release 取得 Zenodo DOI（需在 Zenodo 网页端为本仓库开启 GitHub 集成；**DOI 未取得前此处不写占位符**）
+- [ ] 整理成论文
 
 ## License
 
