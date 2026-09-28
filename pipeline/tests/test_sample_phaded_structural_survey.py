@@ -181,10 +181,47 @@ class CliTests(unittest.TestCase):
             scores, merged, _union = self._fixture(tmp)
             short = tmp / "short.faa"
             short.write_text(">c000\nACDE\n", encoding="ascii")
-            with self.assertRaisesRegex(ValueError, "no sequence in the candidate union"):
+            with self.assertRaisesRegex(ValueError, "has no sequence in"):
                 module.main(["--competition-scores", str(scores), "--candidate-union", str(short),
                              "--merged", str(merged), "--out-dir", str(tmp / "out"),
                              "--expect-scored", "100"])
+
+    def test_a_pool_with_no_merged_table_skips_the_superfamily_check(self):
+        # The deferred with-lipase pool's identity is fixed by the score table it came
+        # from, so requiring a merged table there would be a check against nothing.
+        with tempfile.TemporaryDirectory() as temporary:
+            tmp = Path(temporary)
+            scores, _merged, union = self._fixture(tmp)
+            out = tmp / "out"
+            self.assertEqual(
+                module.main(["--competition-scores", str(scores), "--candidate-union", str(union),
+                             "--out-dir", str(out), "--per-decile", "3", "--seed", "5",
+                             "--expect-scored", "100"]), 0,
+            )
+            summary = json.loads((out / "survey_summary.json").read_text("utf-8"))
+            self.assertIn("skipped (no --merged table given", summary["superfamily_check"])
+
+    def test_a_separate_sequence_source_is_used_and_reported(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            tmp = Path(temporary)
+            scores, merged, union = self._fixture(tmp)
+            other = tmp / "other.faa"
+            with other.open("w", encoding="ascii", newline="\n") as handle:
+                for i in range(100):
+                    handle.write(f">c{i:03d}\n" + "MKLW" * 40 + "*\n")
+            out = tmp / "out"
+            self.assertEqual(
+                module.main(["--competition-scores", str(scores), "--candidate-union", str(union),
+                             "--sequence-source", str(other), "--merged", str(merged),
+                             "--out-dir", str(out), "--per-decile", "2", "--seed", "9",
+                             "--expect-scored", "100"]), 0,
+            )
+            records = module.read_fasta(out / "survey_targets.faa")
+            self.assertTrue(all(sequence.startswith("MKLW") for sequence in records.values()),
+                            "sequences must come from --sequence-source")
+            self.assertFalse(any("*" in sequence for sequence in records.values()))
+            summary = json.loads((out / "survey_summary.json").read_text("utf-8"))
+            self.assertIn("other.faa", summary["sequence_source"])
 
     def test_non_empty_output_dir_is_refused(self):
         with tempfile.TemporaryDirectory() as temporary:

@@ -168,7 +168,20 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--competition-scores", required=True, type=Path)
     parser.add_argument("--candidate-union", required=True, type=Path)
-    parser.add_argument("--merged", required=True, type=Path)
+    parser.add_argument(
+        "--sequence-source", type=Path, default=None,
+        help="FASTA to take member sequences from; defaults to --candidate-union. Use this to "
+             "score a pool whose sequences live elsewhere (the deferred with-lipase pool, for "
+             "instance). Every sequence is sanitised before it is written.",
+    )
+    parser.add_argument(
+        "--merged", type=Path, default=None,
+        help="table with accession/superfamily columns; when given, every drawn member is "
+             "checked against --superfamily. Omit for a pool whose identity is already fixed "
+             "by the score table it came from.",
+    )
+    parser.add_argument("--superfamily", default=NPHAMCL_SUPERFAMILY,
+                        help="expected superfamily when --merged is given")
     parser.add_argument("--out-dir", required=True, type=Path)
     parser.add_argument("--per-decile", type=int, default=3)
     parser.add_argument("--seed", type=int, default=DEFAULT_SEED)
@@ -184,11 +197,14 @@ def main(argv: list[str] | None = None) -> int:
             f"{len(scored)} scored candidates does not match the declared {args.expect_scored}; "
             "the universe changed, so the stratification would not be the declared one"
         )
-    superfamilies = {
-        (row.get("accession") or "").strip(): (row.get("superfamily") or "").strip()
-        for row in read_tsv(args.merged)
-    }
-    union = read_fasta(args.candidate_union)
+    superfamilies = {}
+    if args.merged is not None:
+        superfamilies = {
+            (row.get("accession") or "").strip(): (row.get("superfamily") or "").strip()
+            for row in read_tsv(args.merged)
+        }
+    source = args.sequence_source if args.sequence_source is not None else args.candidate_union
+    union = read_fasta(source)
     strata = decile_strata(scored)
     drawn = draw(strata, args.per_decile, args.seed)
 
@@ -196,13 +212,14 @@ def main(argv: list[str] | None = None) -> int:
     provenance: list[dict[str, str]] = []
     for row in drawn:
         accession = row["accession"]
-        superfamily = superfamilies.get(accession, "")
-        if superfamily != NPHAMCL_SUPERFAMILY:
-            raise ValueError(
-                f"survey candidate {accession} is {superfamily!r}, not {NPHAMCL_SUPERFAMILY!r}"
-            )
+        if superfamilies:
+            superfamily = superfamilies.get(accession, "")
+            if superfamily != args.superfamily:
+                raise ValueError(
+                    f"survey candidate {accession} is {superfamily!r}, not {args.superfamily!r}"
+                )
         if accession not in union:
-            raise ValueError(f"survey candidate {accession} has no sequence in the candidate union")
+            raise ValueError(f"survey candidate {accession} has no sequence in {source}")
         members[accession] = sanitize_sequence(accession, union[accession])
         provenance.append({
             "accession": accession,
@@ -239,6 +256,10 @@ def main(argv: list[str] | None = None) -> int:
             str(index): sorted(row["accession"] for row in drawn if row["margin_decile"] == index)
             for index in range(DECILES)
         },
+        "sequence_source": str(args.sequence_source or args.candidate_union),
+        "superfamily_check": ("checked against " + args.superfamily) if superfamilies
+                              else "skipped (no --merged table given; pool identity is fixed by "
+                                   "the score table)",
         "why_deciles_not_proportional": (
             f"{sum(1 for value in margins if value < 0) / len(margins):.1%} of the candidates sit on "
             "the anchor-favoured side, so a proportional draw would barely touch the "
