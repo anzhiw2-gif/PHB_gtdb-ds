@@ -29,6 +29,36 @@ import json
 from pathlib import Path
 
 ANCHOR_ACCESSION = "8YNV_A"
+
+STANDARD_AA = frozenset("ACDEFGHIKLMNPQRSTVWY")
+#: Characters that are stripped rather than rejected.  ``*`` is a stop codon and
+#: the frozen candidate FASTA carries it on some records; whitespace is not part
+#: of a sequence at all.  The project already learned this: the pool-external
+#: pool ships a ``.noasterisk`` variant for exactly this reason.
+STRIPPED = "* \t\r\n"
+AMBIGUOUS_AA = frozenset("XBZJUO")
+
+
+def sanitize_sequence(name: str, sequence: str) -> tuple[str, list[str]]:
+    """Strip ``*``/whitespace and fail closed on anything else non-standard.
+
+    Predictors reject a stop codon outright (ColabFold: "Invalid character in the
+    sequence: *"), so a pilot MUST clean its input rather than discover this after
+    an hour of MSA generation.  Ambiguous residues are kept and reported, because
+    dropping them would silently shorten the sequence.
+    """
+    cleaned = "".join(character for character in sequence if character not in STRIPPED)
+    bad = sorted({character for character in cleaned if character not in STANDARD_AA})
+    unexpected = [character for character in bad if character not in AMBIGUOUS_AA]
+    if unexpected:
+        raise ValueError(
+            f"sequence {name} carries unsupported residue(s) {unexpected}; "
+            "sanitise the source FASTA rather than guessing"
+        )
+    if not cleaned:
+        raise ValueError(f"sequence {name} is empty after sanitisation")
+    return cleaned, bad
+
 PILOT_HITS = "pilot_vs_8ynv.tsv"
 NPHAMCL_SUPERFAMILY = "intracellular nPHAMCL"
 
@@ -151,7 +181,8 @@ def main(argv: list[str] | None = None) -> int:
             raise ValueError(
                 f"pilot candidate {accession} is {superfamily!r}, not {NPHAMCL_SUPERFAMILY!r}"
             )
-        members[accession] = union[accession]
+        cleaned, ambiguous = sanitize_sequence(accession, union[accession])
+        members[accession] = cleaned
         provenance[accession] = {
             "role": label,
             "superfamily": superfamily,
@@ -163,10 +194,13 @@ def main(argv: list[str] | None = None) -> int:
             "competitor_evalue": hit.get("competitor_evalue", ""),
             "sequence_stage_disposition": hit.get("disposition", ""),
         }
+        if ambiguous:
+            provenance[accession]["ambiguous_residues_kept"] = "".join(ambiguous)
     for name in args.competitors:
         if name not in challenge:
             raise ValueError(f"competitor {name} has no sequence in the challenge FASTA")
-        members[name] = challenge[name]
+        cleaned, ambiguous = sanitize_sequence(name, challenge[name])
+        members[name] = cleaned
         provenance[name] = {"role": "hard_competitor", "superfamily": "",
                             "panel_margin_competitor_minus_anchor_bits": "",
                             "anchor_bitscore": "", "anchor_evalue": "",

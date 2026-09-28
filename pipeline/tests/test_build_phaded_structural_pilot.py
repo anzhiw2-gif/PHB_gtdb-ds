@@ -46,6 +46,28 @@ def score_row(accession: str, anchor: str, competitor: str, **overrides) -> dict
     return row
 
 
+class SanitizeTests(unittest.TestCase):
+    def test_stop_codon_and_whitespace_are_stripped(self):
+        cleaned, ambiguous = module.sanitize_sequence("a", "ACDE*")
+        self.assertEqual(cleaned, "ACDE")
+        self.assertEqual(ambiguous, [])
+        cleaned, _ = module.sanitize_sequence("a", "AC DE\nFG")
+        self.assertEqual(cleaned, "ACDEFG")
+
+    def test_ambiguous_residues_are_kept_and_reported(self):
+        cleaned, ambiguous = module.sanitize_sequence("a", "ACDXE")
+        self.assertEqual(cleaned, "ACDXE")
+        self.assertEqual(ambiguous, ["X"])
+
+    def test_an_unsupported_residue_fails_closed(self):
+        with self.assertRaisesRegex(ValueError, "unsupported residue"):
+            module.sanitize_sequence("a", "ACDE!")
+
+    def test_a_sequence_that_is_only_stop_codons_is_refused(self):
+        with self.assertRaisesRegex(ValueError, "empty after sanitisation"):
+            module.sanitize_sequence("a", "**")
+
+
 class ExtremeSelectionTests(unittest.TestCase):
     def test_extremes_are_the_min_and_max_margin(self):
         rows = [
