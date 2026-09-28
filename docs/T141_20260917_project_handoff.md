@@ -1122,6 +1122,28 @@ git push origin <tag>   ->  * [new tag] phaded-evidence-model-v2-20260928
 
 **门禁**：`Ran 1879 tests … OK (skipped=1)`；`compileall` 0；`git diff --check` 0；`test_public_repo_safety` 7 OK；`runs/`、`results/`、`deploy/` 零改动。
 
+### 12.19 第八轮：P5 尾部结构 tranche 已备好（未启动，避免与 P4 争卡）（目标轮 7）
+
+**承接上一轮的结论**：P5 尾部（E<1e-30）序列层上 91.3% 最近锚、边际中位 **−31.50 bits**（主体 −2.70），且**尾部不是 nPHAMCL 集合** —— 其边际达 **−538.9**，而 P4 只到 −19.3。既然结构试点已证明 **−19.3 bits** 在结构上仍指向竞争者，**尾部就是唯一「结构推翻会成为有信息量的事件而非预期结果」的子集**。
+
+**抽样器已泛化以便复用**（`sample_phaded_structural_survey.py`，19 项测试）：新增可选 `--sequence-source`（默认回落到 `--candidate-union`），并令 `--merged` 变为可选 —— 当某池的身份已由其分数表确定时（如延迟池），跳过 superfamily 检查。**两项选择都记入 summary 而非隐式处理**。
+
+**已构建 P5 尾部 tranche**（`runs/20260928_phaded_deferred_tail_structural_v2_01`）：
+
+| 量 | 值 |
+|---|---|
+| 尾部候选 | 4,013（E<1e-30，全部有分数行） |
+| 抽样 | **20 条**，每个 margin 十分位 2 条，seed 20260928 |
+| 边际 | −538.9 … +195.4，**91.05% 位于偏向锚一侧** |
+| 序列 | 全部经清洗，**0 个终止符**（试点已为此付出一次运行） |
+| 产物 | `inputs/survey_targets.faa` SHA-256 `1b4bd867…`（服务器与本地一致） |
+
+**刻意未启动**：P4 普查占用 GPU1、GPU0 为他人 7 小时任务，**两个 ColabFold 作业同卡会互相拖慢并有 OOM 风险**。deploy 已写好并把 GPU 作为参数（`P5_GPU`），使两者在设计上无法争卡；待 P4 普查结束后启动。范围在 deploy 中明确声明为 **20 条 tranche 而非尾部的 4,013 条**（后者按试点速率约 **330 GPU 小时**）。
+
+**普查运行状态**：5/30 完成、查询 6 的 MSA 129/150，`colabfold_batch` 累计运行 33:17，GPU1 3,772 MiB，**错误 0**。速率约 6.6 分钟/条 ⇒ 余下 24 条约 **2.7 小时**。
+
+**第八轮 commit（已 push，`origin/main` = `5163948`）**：`5163948`（抽样器泛化 + P5 尾部 tranche）。
+
 ---
 
 *本文档为 candidate-only 交接记录。所有被引用的 profile、domain、motif、SignalP、结构、定位与系统发育证据仍只表示候选同源或功能潜力，**不等同于已验证的 PHB/PHA 降解表型**。*
